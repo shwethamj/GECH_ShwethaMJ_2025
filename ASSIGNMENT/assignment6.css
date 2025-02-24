@@ -1,0 +1,167 @@
+.first{
+    margin: 10px;
+    background-color: white;
+    /* position: relative; */
+    /* border: 1px solid rgb(3, 3, 3) ; */
+    
+}
+.one{
+    background-color:darkblue;
+    color: rgb(226, 120, 120);
+    padding-left: 1050px;
+    gap: 5px;
+    position: fixed;
+}
+a:hover{
+    color: yellow;
+}
+a{
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.two{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    /* position: fixed; */
+    /* background-color: white; */
+}
+.three{
+    background-image:url(./book\ phto.jpg) ;
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    color: white;
+    padding-right: 700px;
+}
+.four{
+    padding-left: 100px;
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    
+   
+}
+.fo{
+    padding-left: 20px;
+    padding-right: 500px;
+}
+.department{
+    padding: 50px 20px;
+    text-align: center;
+    justify-content: space-between;
+}
+.five{
+    text-align: center;
+    
+}
+.Department-grid{
+    display: grid;
+    padding:50px 80px ;
+    gap: 10px;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(3,1fr);
+    
+@media  and (max-width:500px) {
+    .Department-grid{
+        grid-template-rows:auto;
+    }
+    
+}
+
+   
+}
+.fi{
+    border:0.5px solid  black;
+    text-align: center;
+    /* padding-right: 30px */
+}
+.fi img{
+    width:100%;
+    height: 60%;
+    border-radius: 10px;
+}
+.faculty{
+    font-size: 14px;
+    color:rgb(123, 70, 223)
+}
+footer{
+    background-color: darkblue;
+    color: white;
+    /* padding: 30px 10px; */
+    text-align:left;
+}
+.footer{
+    display: grid;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+    grid-template-columns: repeat(2,1fr);
+    padding: 20px 50px;
+    gap: 300px;
+}
+
+.foot1{
+    color: yellow;
+    width: 600px;
+}
+.foot2{
+    padding-right: 50px;
+}
+.course2{
+    text-align: center;
+    background-color:darkblue;
+    color: white;
+    font-size: medium;
+    padding: 20px 0;
+}
+.photo{
+    display: grid;
+    padding:50px 80px ;
+    /* gap: 10px; */
+    /* width: 500px; */
+    grid-template-columns: repeat(4,1fr);
+    
+}
+.child{
+    border:0.5px solid  black;
+    /* text-align: center; */
+    padding-right: 30px;
+    width:100%;
+    height: 100%;
+    /* border-radius: 10px; */
+    
+}
+.photogal{
+    padding: 50px 20px;
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+    /* justify-content: space-between; */
+}
+.contactinfo{
+    background-color: white;
+    color: black;
+    /* padding: 30px 10px; */
+    text-align:left;
+    display: grid;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+    grid-template-columns: repeat(2,1fr);
+    padding: 20px 90px;
+    gap: 200px;
+}
+
+.contactinfo2{
+    padding-right: 50px;
+    gap: 20px;
+    justify-content: space-around;
+}
+.h3{
+    color: darkblue;
+
+}
+.social{
+   
+    padding-left: 10px;
+    
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            border: 2px solid black;
+            width: 80vw;
+            height: 60vh;
+            /* padding: 50px 50px; */
+            position: relative;
+
+        }
+
+        .child {
+            width: 200px;
+            height: 200px;
+            background-color: aqua;
+            border: 1px solid black;
+
+
+        }
+
+        .fir {
+            animation-name: change_bg;
+            animation-duration: 8s;
+            animation-timing-function: ease-out;
+            position: absolute;
+            /* bottom: ; */
+        }
+
+        @keyframes change_bg {
+            /* from {}
+
+            to {
+                background-color: brown;
+            } */
+             0%{
+                top: 10px;
+                background-color: rgb(105, 124, 110);
+                left:10px;
+             }
+             25%{
+                background-color: rgb(188, 221, 121);
+                right: 300px;
+                top: 0;
+                
+             }
+             50%{
+                background-color: rgb(38, 0, 255);
+                right: 300px;
+                bottom: 0;
+
+             }
+             100%{
+                background-color: violet;
+                left: -1 100px;
+                bottom: 0;
+             }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="child fir"></div>
+        <!-- <div class="child">2</div>
+        <div class="child">3</div>
+        <div class="child">4</div>
+        <div class="child">5</div> -->
+    </div>
+</body>
+
+</html>
