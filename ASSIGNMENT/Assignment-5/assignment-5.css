@@ -1,8 +1,7 @@
 .first{
     margin: 10px;
     background-color: white;
-    /* position: relative; */
-    /* border: 1px solid rgb(3, 3, 3) ; */
+    position: relative;
     
 }
 .one{
@@ -10,7 +9,7 @@
     color: rgb(226, 120, 120);
     padding-left: 1050px;
     gap: 5px;
-    position: fixed;
+
 }
 a:hover{
     color: yellow;
@@ -22,9 +21,10 @@ a{
 
 .two{
     padding-top: 20px;
+    top: 0;
     padding-bottom: 10px;
-    /* position: fixed; */
-    /* background-color: white; */
+    position: sticky;
+    background-color: white;
 }
 .three{
     background-image:url(./book\ phto.jpg) ;
@@ -58,28 +58,30 @@ a{
 .Department-grid{
     display: grid;
     padding:50px 80px ;
-    gap: 10px;
+    gap: 30px;
     flex-wrap: wrap;
     grid-template-columns: repeat(3,1fr);
-    
-@media  and (max-width:500px) {
-    .Department-grid{
-        grid-template-rows:auto;
-    }
-    
 }
 
-   
-}
+
 .fi{
     border:0.5px solid  black;
     text-align: center;
     /* padding-right: 30px */
+    box-shadow: 1px 3px 5px black ,1px 3px 8px darkblue;
+    border-radius: 30px;
 }
 .fi img{
-    width:100%;
-    height: 60%;
+    width:80%;
+    height: 50%;
     border-radius: 10px;
+    align-self: center;
+
+}
+img{
+    box-shadow: 3px 5px 10px black;
+    
+    margin-top: 20px;
 }
 .faculty{
     font-size: 14px;
