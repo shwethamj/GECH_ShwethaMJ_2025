@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to js</title>
+    <script src="./intro.js" defer></script>
+    <script>
+        function handleClick(){
+            document.getElementById('demo').innerText='Internal js';
+        }
+    </script>
+</head>
+<body>
+
+    <!-- Html(Inline) js -->
+    <p id="demo">hello world</p>
+    <button type="button" onclick="document.getElementById('demo').innerText='hello shwetha'">HTML JS</button>
+    <!-- end -->
+
+    <!-- extrenal js -->
+    <button type="button" onclick="handleClick()">External Js</button>
+    
+
+
+    <!-- internal JS -->
+    <button type="button" onclick="handleClick()">Internal Js</button>
+
+    <script>
+        function handleClick(){
+            document.getElementById('demo').innerText='Internal js';
+        }
+    </script>
+    <!-- end internal js we can use script for internal js in both inside body and head tag -->
+</body>
+</html>

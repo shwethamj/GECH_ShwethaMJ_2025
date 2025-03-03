@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>java script </title>
+</head>
+<body>
+    <h3>1. we can change HTML content</h3>
+    <p id="demo">This is existing content</p>
+    <button onclick="document.getElementById('demo').innerText='js will html content'"> click me</button>
+    <br>
+
+    <h3>2.we can change the attribute of HTML</h3>
+    <img src="" alt="image" width="100vw" height="100vh"
+    id="bulb_img">
+    <button type="button" onclick="document.getElementById('bulb_img').src=''"></button>
+
+
+    <h3>3.we can change css style</h3>
+    <p id="demo2"> change</p>
+    <button type="button" onclick="document.getElementById('demo2').style.color='red'" >click me</button>
+
+    <h4>4.we can hide the html code</h4>
+    <p id="demo3">Lorem, ipsum dolor. hii nithyan</p>
+    <button type="button" onclick="document.getElementById('demo3').style.display='none'"> hide</button>
+    <h4>4.we can show the html code</h4>
+    <p id="demo3">Lorem, ipsum dolor. hii nithyan</p>
+    <button type="button" onclick="document.getElementById('demo3').style.display='block'"> show</button>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>variables</title>
+</head>
+<body>
+    <h1>how many types we can declare the variables</h1>
+    <h3>4 types</h3>
+    <p>1.Automatically</p>
+    <p>2.using var</p>
+    <p>3.using let</p>
+    <p>4.using const</p>
+
+    <script>
+        // 1.Automatically
+        var1="hello";
+        console.log("the value is:"+var1);
+        console.log("the type is:" + typeof var1);
+
+        // 2.var
+        var var2=24;
+        console.log("the value is:"+var2);
+        console.log("the type is:"+ typeof var2);
+        
+        // 3.let
+        let var3=true;
+        console.log("the value is:"+var3);
+        console.log("the type is:"+ typeof var3);
+
+        // 4.
+        const var4=124n;
+        console.log("the value is:"+var4);
+        console.log("the type is:"+ typeof var4);
+        
+    </script>
+
+    <script>
+        // Difference between var,let and const
+        // re declare
+        var var1=23;
+        console.log("1st:",var1);
+        var var1="hello";
+        console.log("2nd:",var1);
+
+        // let (if we cannot use same var name to declare but we can change or initial different the value for same var)
+        let var12="var12";
+        console.log("1st:",var12);
+         var12=3;
+        console.log("1st:",var12);
+
+        // const(we cannot change the value or redefine the variable)
+        const pi=3.14;
+        console.log("const:",pi);
+        //  pi=12.14;
+        // console.log("const:",pi);
+    </script>
+</body>
+</html>
