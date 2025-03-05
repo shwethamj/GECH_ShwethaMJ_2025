@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>change bg</title>
+    <style>
+        .container{
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container " id="container">
+        <div class="child">
+            <h1 id="color_code"> Background color</h1>
+            <button type="button" id="change_bg" onclick="handleClick()" > change Background color</button>
+        </div>
+    </div>
+
+    <script>
+        // using on click
+        function  getBgColor(){
+         const red=Math.floor( Math.random() * 256);
+         const green=Math.floor( Math.random() * 256);
+         const blue=Math.floor( Math.random() * 256);
+         return `rgb(${red} ${green} ${blue})`;
+
+
+        }
+        function handleClick(){
+             const bg_color= getBgColor();
+             console.log(bg_color);
+            const container= document.getElementById("container");
+            // container.style.backgroundColor= "blue";
+            
+            container.style.backgroundColor = bg_color;
+
+
+
+        }
+        // const button=document.getElementById("change_bg");
+        // console.log(button);
+        //button.addEventListener('click',function());
+        // instead of declare the onclick in tag we can use above line the click will work as same
+    </script>
+</body>
+</html>

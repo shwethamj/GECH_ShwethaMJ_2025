@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>function</title>
+</head>
+<body>
+    <h1> function </h1>
+    <h2>function declare in 3 ways</h2>
+    <p>1.functin declaration</p>
+    <p>2.functin expression</p>
+    <p>3.arrow functin </p>
+
+    <p>1. Syntax:
+        <pre>
+            function functin_name(parameter){
+                //code
+            }
+        </pre>
+        <pre>
+            call a function
+            function_name
+        </pre>
+    </p>
+    <p>2.syntax:
+        <pre>
+            const function_name =functin(para){
+                //code}
+                //call
+                function_name(parameter)
+        </pre>
+
+    </p>
+
+    <h1>4 types of function</h1>
+    <p>1. function accepting a parameter and not returning value</p>
+    <p>2. function accepting a parameter and  returning value</p>
+    <p>3. function not accepting a parameter and not returning value</p>
+    <p>4. function not accepting a parameter and  returning value</p>
+
+    <script>
+        // function declaration
+        // function used bcs its  reusable  or dry=don't repeat yourrself
+        function display(){
+            console.log("this is display function");
+        }
+        // function call
+        display();
+
+        // 1.function accepting a parameter and not returning value
+        function para_not_return(number){ //here 23 is parameter
+            console.log(`the given number is:${number}`);// it is printing the number ,the value 23 is accepting to number place but not returning
+        }
+        para_not_return(23); //23 is argument
+        
+
+        // 2.function accepting a parameter and not returning value
+        function para_return(number){
+            return number;
+
+        }
+        const res = para_return(233);
+        console.log(`the result:${res}`);
+
+        // 3.function not accepting a parameter and not returning value
+        function not_para_not_return(){
+           console.log("this is 3rd type of function");
+        }
+        not_para_not_return();
+
+
+        // 4.not para and return 
+
+        function not_para_return(){
+          return 345;
+        }
+       const vari= not_para_return();
+       console.log(`result:${vari}`);
+
+
+
+        // example for function  accepting a parameter and returning value
+        // function even_odd(num){
+        //     return num %2 === 0
+        //     if(num%2==0){
+        //         console.log(`the ${num} is even`);            }
+                
+            
+        //     else{
+        //         console.log(`the ${num} is odd`);
+        //     }
+        //     return num;
+           
+        // }
+        //  even_odd(25);
+
+
+        function even_odd(num){
+            return num %2 === 0
+        }
+        const rest=even_odd(30);
+        if (rest===true){
+            console.log(`even number`);
+        }
+        else{
+            console.log(`odd number`);
+        }
+
+        // 2.function expression:
+        const display1=function(){
+            console.log("this is display function expression");
+        }
+        display1();
+        
+
+
+        // 2.1 function accepting a parameter and not returning value
+         para_not_return = function(number){ 
+            console.log(`the given number is:${number}`);
+        }
+        para_not_return(23); 
+
+         // 2.2.function accepting a parameter and not returning value
+          para_return = function(number){
+            return number;
+
+        }
+        const resl = para_return(233);
+        console.log(`the result:${resl}`);
+
+
+        // 3.arrow function
+        const display3=()=>{
+            console.log(`the arrow function`);
+        }
+            display3();
+
+    </script>
+</body>
+</html>

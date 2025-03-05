@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>reference and primitive type</title>
+  </head>
+  <body>
+    <script>
+      // primitive type- will store in static memory
+      let x = 10;
+      let y = x;
+      console.log("The value of x before:", x);
+      console.log("The value of x after :", y);
+      x = 100;
+      console.log("The value of x after:", x);
+      //   y = x;
+      console.log("The value of y after:", y);
+
+      //   refernce type
+      //   giving refernce of array to array1
+      // memory is not static, dynamic
+      let array = [1, 2, 3, 4, 5];
+      let array1 = array;
+      console.log("The value of array before:", array);
+      console.log("The value of array1 before:", array1);
+      //   only pushing to array
+      array.push(24);
+      console.log("The value of array after:", array);
+      console.log("The value of array1 after:", array1);
+    </script>
+  </body>
+</html>

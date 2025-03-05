@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operators example</title>
+</head>
+<body>
+    <h1>Operators in JS</h1>
+    <p>1. Arithmetical opertaors: +, -, *, %, **</p>
+    
+    <p>2. Asignment operators: =, +=, -=, /=, %=, *=, **=</p>
+    <p>3. Comparision operators : == ,===, !=, !==, <, > , <=, >=</p>
+    <p>4. Bitwise: &, | ~ , ^</p>
+    <p>5. Logical: && , ||, !</p>
+    <p>6. Teranary operators: ?:</p>
+    
+    <script>
+        console.log("comparision");
+        let var1=12;  //number
+        let var2="12"; //string
+        //  == (it consider value within "" is number) ans= true
+        console.log("==:",var1==var2);
+        // ===(it consider value within "" is string) ans=false
+        console.log("===:",var1===var2);
+        // != (it consider value within "" is number) ans=false
+        console.log("!=:",var1!=var2);
+        // !== (it consider value within "" is string) ans=true
+        console.log("!==:",var1!==var2);
+
+    console.log("-------------------------------------------------------");
+
+    // bitwise
+    console.log("bitwise");
+    let var3=2; // 0010
+    let var4=3; //0011
+
+    console.log("&:",var3&var4);
+    console.log("|:",var3|var4);
+    console.log("~",~var4);
+    console.log("^:",var3^var4);
+
+    console.log("-----------------------------------------");
+
+    // logical
+    console.log("logical");
+    let var5=3;
+    let var6=4;
+    let var7=8;
+
+    console.log("&&:",var5<var6 && var5<var7);
+    console.log("||:", var5<var6 || var5>var7); 
+    console.log("?:",(6>13)? "yes":"no");           
+    </script>
+</body>
+</html

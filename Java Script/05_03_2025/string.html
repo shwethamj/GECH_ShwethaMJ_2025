@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String</title>
+</head>
+<body>
+    <h2>methods in string</h2>
+    <p>1.length</p>
+    <p>2.slice</p>
+    <p>3.substring</p>
+    <p>4.substr</p>
+    <p>5.replace</p>
+    <p>6.toUpperCase</p>
+    <p>7. toLowerCase</p>
+    <p>8.trim</p>
+    <p>9.indexOf</p>
+    <p>10.startswith</p>
+    <p>11.endswith</p>
+    <p>12.includes</p>
+    <p>13.concat </p>
+
+    <script>
+        // string is immutable so every operation is done by declaring new string
+        // let str="hello world";
+        // console.log(str);
+        // console.log(typeof str);
+
+        // 1. length
+        let str1="hello";
+        const len=str1.length;
+        console.log(`the length of string ${str1} is: ${len}`);
+        // console.log("the length ofstring "+str1 +"is:"+len);
+        // console.log("the length of string",str1,"is:",len);
+
+        // 2.slice
+        let str2="javascript"
+        let str3=str2.slice(2,7); //it display from index 2 to 6 letters like vascr
+        console.log(`the sliced string is: ${str3}`);
+        console.log(str2[5]);
+        console.log(str2.slice(-8,-4));//its count(index)start from backside last letter is -1 and -4 means that exclude the last 4 letter ript ( index :t=-1 p=-2 i=-3 r=-4)and -8 means it start from -8 index
+        console.log(str2.slice(-1));
+
+        // 3.substring
+        let str4="hello js";
+        let str5= str4.substring(3,7); //it disply 3 to 6 index letters or like  the last element is excluded
+        console.log(`the string is : ${str5}`);
+        console.log(`the string is : ${str4.substring(-5,-1)}`);// the substring will not display or work for negative
+
+        // 4.substr
+        let str6="hello jsscript";
+        let str7= str6.substr(3,7); // it take from index 3 and next count 3 index has 1 and display upto 7th count from 3rd index (3=start index 7=length of string to disply) 
+        console.log(`the string is : ${str7}`);
+        console.log(`the string is : ${str6.substr(-7,5)}`); // -7 index start from last letters and from -7 index to 5 length letter will display
+
+        // 5.replace
+        let str10="heello";
+        let str11=str10.replace("heello","hell")
+        console.log(`the string is:${str11}`);
+
+        // 6.toUpperCase
+        let str8="letter";
+        let str9=str8.toUpperCase();
+        console.log(`the string is: ${str9}`);
+
+        // 7.toLowerCase
+        let str12="letteRR";
+        let str13=str12.toLowerCase();
+        console.log(`the string is: ${str13}`);
+
+        // 8.trim extra space will be removed
+        let str14="   shwetha m     "
+        let str15=str14.trim();
+        console.log(`the string is: ${str14}`);
+        console.log(`the string is: ${str15}`);
+
+        // 9.indexOf
+        let str16="hello shwetha";
+        let index=str16.indexOf("llo")
+        console.log(`the index is :${index}`);
+
+        // 10.startswith
+        let str17="hello shwetha";
+        let res=str17.startsWith("hello");
+        let rest=str17.startsWith("ello");
+        let rests=str17.startsWith("shweth");
+        console.log(`the startswith is :${res}`);
+        console.log(`the startswith is :${rest}`);
+        console.log(`the startswith is :${rests}`);
+
+        // 11.endswith
+        let str18="hello dear shwetha";
+        let end=str18.endsWith("ear");
+        console.log(`the endswith is :${end}`);
+        let ends=str18.endsWith("tha");
+        console.log(`the endswith is :${ends}`);
+
+        // 12. includes
+        let str19="hello shwetha";
+        let include=str19.includes("shwe"); 
+        console.log(`the endswith is :${include}`);
+
+        // 13.concat
+        let str20="hello shwetha";
+        let concat=str20.concat(" ","m j"); 
+        console.log(`the endswith is :${concat}`);
+
+        
+    </script>
+</body>
+</html>
