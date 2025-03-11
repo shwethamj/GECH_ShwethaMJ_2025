@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Async</title>
+</head>
+
+<body>
+    <h1>Async JS: multithreading engine.. async programming language will be run by the browser</h1>
+    <p>Synchronous Code executes line by line, blocking the next operation until the current one finishes.</p>
+    <p>Asynchronous JavaScript allows the execution of code without blocking the rest of the program. This means the
+        JavaScript engine can handle multiple tasks at the same time, improving efficiency.</p>
+    <p>Callbacks (Old way, leads to "callback hell")
+        Promises (Modern and readable)
+        Async/Await (Best and easiest to use)</p>
+
+
+    <script>
+        console.log("Hello");
+        setTimeout(() => {
+            console.log("Hello1");
+        }, 300000); // using this setTimeOut hello1 will print after 3s the wesite is loaded and only once
+        setInterval(() => {
+            console.log("Hello123");
+        }, 10000) //using this will print hello123 in browser every no of sec we give ,aftter webpage is loaded, this keeps repeating
+        console.log("Hello12");
+    </script>
+</body>
+
+</html>

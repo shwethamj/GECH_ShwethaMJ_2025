@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promise</title>
+</head>
+
+<body>
+    <h1>Promise in JS</h1>
+
+    <p>promise is a future value where it can be resolved to rejected</p>
+    <p>1. pending - initial state</p>
+    <p>2. resolve - rejected</p>
+    <p>
+    <pre>
+        const var_name = new Promise((resolve, reject)=>{
+            //code
+        })
+    </pre>
+    </p>
+
+    <script>
+        const items = ["vegetables", "salt", "rice", "chips"];
+        const result = new Promise((resolve, reject) => {
+            // console.log(items);
+            if (items.includes("vegetable") && items.includes("salt") && items.includes("rice")) {
+                return resolve("fried rice");
+            } else {
+                return reject("Cannot make fried rice")
+            }
+        });
+
+
+        //1. then and catch
+        //for reject-this doesnt show in the format of error that is in red since we use catch...but in await if we dont use try and catch it display in form of error
+        console.log(result);
+        result.then((value) => {
+            console.log(value);
+        }).catch(error => console.log(error));
+
+        //2. using await
+        const fried_rice = async () => {
+            try {
+                const res = await result;
+                console.log("with await", res);
+            } catch (error) {
+                console.log("with await:", error);
+            }
+        }
+        fried_rice();
+    </script>
+</body>
+
+</html>

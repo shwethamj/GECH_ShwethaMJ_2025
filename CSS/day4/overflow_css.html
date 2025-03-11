@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Over flow</title>
+    <style>
+      body {
+        padding: 40px;
+      }
+      .container {
+        width: 20vw;
+        height: 20vh;
+        border: 1px solid black;
+        /* Overflow visible */
+        overflow: visible;
+
+        /* To hide the overflowing text of container */
+        overflow: hidden;
+        /* to scroll the overflowing text */
+        overflow: scroll;
+
+        /* for vertical overflowing text */
+        white-space: nowrap;
+        text-overflow: ellipsis;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Overflow</h1>
+    <div class="container">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+      reprehenderit optio aperiam commodi impedit aliquam earum excepturi
+      doloremque placeat quisquam. Lorem ipsum dolor, sit amet consectetur
+      adipisicing elit. Quibusdam illo quas officia molestiae ratione aspernatur
+      vero. Hic alias itaque minus!
+    </div>
+  </body>
+</html>

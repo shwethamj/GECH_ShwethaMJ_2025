@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudp elemnst</title>
+    <style>
+      .atag {
+        text-decoration: none;
+        margin-left: 20px;
+      }
+      .atag:hover {
+        color: blue;
+      }
+      .atag::after {
+        content: "J";
+      }
+      .atag::before {
+        content: "H";
+      }
+      ::selection {
+        color: aliceblue;
+        background-color: bisque;
+      }
+      .first::first-letter {
+        font-size: 40px;
+        font-family: Georgia, "Times New Roman", Times, serif;
+      }
+      .sec::first-line{
+        font-size: 50px;
+        font-family: 'Times New Roman', Times, serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="nav">
+        <a href="" class="atag">Home</a>
+        <a href="" class="atag">About</a>
+        <a href="" class="atag">COntact us</a>
+      </div>
+      <p class="first">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo,
+        corrupti! Ullam maxime sed nesciunt dolores quibusdam dolor in ab
+        reprehenderit sapiente aspernatur vero expedita cum cumque, corrupti,
+        quos aliquid! Praesentium architecto cum ipsam quis nesciunt enim omnis
+        eligendi, voluptatibus sed accusamus dolorum voluptate beatae.
+        Repellendus cum dignissimos aut in quae?
+      </p>
+      <br />
+      <p class="sec">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis enim quo
+        laboriosam vel sint libero aut dolor voluptas possimus eaque.
+      </p>
+    </div>
+  </body>
+</html>

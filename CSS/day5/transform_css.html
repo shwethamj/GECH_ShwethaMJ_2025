@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transfrom</title>
+    <style>
+        .container{
+            perspective: 1000px;
+        }
+        .first{
+            width: 200px;
+            height: 200px;
+            border: 2px solid black;
+            margin: 30px auto;
+            background-color: rgb(125, 173, 214);
+            /* transform: translateX(200px); */
+            /* transform: translateY(200px); */
+            /* transform: translateZ(-500px); */
+            /* transform: translate3d(100px, 200px, 300px); */
+            /* transform: rotate(45deg); */
+            /* transform: scaleX(3); */
+            /* transform: scaleY(3); */
+            /* transform: skewX(30deg); */
+            transform: rotate3d(1, 2 ,3 , 45deg );
+            /* transform: skew3d(30deg, 20deg, 45deg); /*doesnt exist in css3 */
+        }
+        body{
+            border: 2px solid blueviolet;
+            background-color: aliceblue;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="first">
+        Lorem ipsum dolor sit amet.
+    </div>
+</div>
+</body>
+</html>

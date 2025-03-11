@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVENTS</title>
+</head>
+
+<body>
+    <h1>Events in JS</h1>
+    <p>1. Mouse events</p>
+    <p>2. Keyboard events</p>
+    <p>3. Form events</p>
+    <p>4. Window Events</p>
+    <p>5. Document Events</p>
+    <p>6. Clipboard Events</p>
+    <p>7. Media events</p>
+
+
+    <h3 id="htag">hi </h3>
+    <button id="btn">Change the text</button>
+    <input type="text" id="input" placeholder="type">
+    <p id="keymsg"></p>
+    <br>
+    <br>
+
+    <!--3. Form Events -->
+    <form action="">
+        <input type="text" name="name" id="name" placeholder="name" value="">
+        <select name="" id="dropdown">
+            <option value="1">1</option>
+            <option value="2">2</option>
+        </select>
+        <p id="result">hell</p>
+    </form>
+    <br><br>
+    <!-- submit event in form event -->
+    <h1>Contact form</h1>
+    <form action="" id="contactform">
+        <input type="text" id="name" name="name" placeholder="Enter your namr">
+        <br>
+        <input type="email" id="email" name="email" placeholder="email">
+        <br>
+        <textarea name="message" id="message"></textarea>
+        <button type="submit">submit</button>
+    </form>
+
+    <script>
+        //1. Mouse Events:
+        const btn = document.querySelector("#btn");
+        const htag = document.querySelector("#htag")
+        btn.addEventListener("click", () => {
+            htag.textContent = "Hello JS";
+        })
+
+        // btn.addEventListener("mouseover", () => {
+        //     htag.textContent = "Hello JS";
+        // })
+
+        // btn.addEventListener("mouseout", () => {
+        //     htag.textContent = "bye JS";
+        // })
+
+        // btn.addEventListener("mouseup", () => {
+        //     // htag.style.color = "red";
+        //     htag.textContent = "red"
+        // })
+
+        // btn.addEventListener("mousedown", () => {
+        //     // htag.styel.color = "blue";
+        //     htag.textContent = "blue"
+        // })
+
+        // btn.addEventListener("dblclick", () => {
+        //     htag.textContent = "why js";
+        // })
+
+        // 2. keyboard events
+        let input = document.querySelector("#input");
+        let ptag = document.querySelector("#keymsg");
+        input.addEventListener("keydown", function (event) {
+            ptag.innerText = "You pressed:" + event.key;
+        })
+
+
+        //3. Form events:
+
+        //input
+        const name = document.querySelector("#name")
+        name.addEventListener("input", function () {
+            document.querySelector("#result").innerText += name.value;
+        })
+
+        // change
+        // name.addEventListener("change", function () {
+        //     document.querySelector("#result").innerText = name.value;
+        // })
+
+        //blur
+        // name.addEventListener("blur", function () {
+        //     document.querySelector("#result").innerText = name.value;
+        // })
+
+        //
+        // name.addEventListener("focus", function () {
+        //     // document.querySelector("#result").innerText = name.value;
+        //     console.log("Hello World");
+        // })
+
+        //change:
+        // document.querySelector("#dropdown").addEventListener("change", () => {
+        //     console.log("Select input feild is changed");
+        // })
+
+        // submit event checking with contact form
+        const contactForm = document.querySelector("#contactform");
+        contactForm.addEventListener("submit", (event) => {
+            event.preventDefault();
+            console.log("hello");
+        })
+    </script>
+</body>
+
+</html>

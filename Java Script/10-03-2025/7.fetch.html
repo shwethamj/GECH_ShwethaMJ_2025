@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Fetch example: every fetch will return a promise.. fetching data form API</h1>
+    <div id="divtag"></div>
+    <script>
+        const url = "https://jsonplaceholder.typicode.com/posts";
+        const getUsers = async (url) => {
+            // res - response from api
+            const res = await fetch(url);
+            console.log(res);
+            const jsonRes = await res.json();
+            console.log(jsonRes);
+            jsonRes.forEach((curEle) => {
+                console.log(curEle);
+                // document.getElementById('divtag').innerHTML += `<p>${curEle.title}<p>`
+                const response = document.createElement("div");
+                const htag = document.createElement("h1");
+
+                htag.textContent = `UserId : ${curEle.id}`
+                response.append(htag)
+
+                const ptag1 = document.createElement("p");
+                ptag1.textContent = `Title: ${curEle.title}`
+                response.append(ptag1);
+
+                const ptag2 = document.createElement("p");
+                ptag1.textContent = `Title: ${curEle.title}`
+                response.append(ptag2);
+
+                console.log(response);
+                document.getElementById("divtag").append(response);
+
+            });
+        }
+        getUsers(url);
+    </script>
+</body>
+
+</html>

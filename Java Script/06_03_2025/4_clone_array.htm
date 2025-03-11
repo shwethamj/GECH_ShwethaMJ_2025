@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>how to clone array</h1>
+    <p>1. Spreed operator(...)</p>
+    <p>2. slice</p>
+    <p>3. concat</p>
+
+    <script>
+        //(...) spread operator
+        const array1 = [1,2,3,4,5,6];
+        // const array2 = array1;
+        // array1.push(21);
+        // console.log("array1: ", array1);//1,2,3,4,5,6,21
+        // console.log("array2: ", array2);//1,2,3,4,5,6,21
+
+        const array2 = [...array1];  // using ... the clone of original array1 canbe achived
+        array1.push(45);
+        console.log("array1: ", array1);
+        console.log("array2: ", array2);
+
+        //slice
+        const array3 = ["item1","item2","item3"];
+        const array4 = array3.slice(0);
+        array3.push("item4");
+        console.log("array3: ", array3);
+        console.log("array4: ", array4);
+
+        //concat
+        const array5 = ["item1","item2","item3"];
+        const array6 = [].concat(array5);
+        array5.push("item4");
+        console.log("array5: ", array5);
+        console.log("array6: ", array6);
+        </script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>text Content</title>
+</head>
+
+<body>
+    <h1>Text content</h1>
+    <p class="ptag">Lorem, ipsum dolor sit amet consectetur adipisicing elit. <span style="display: none;">Lorem,
+            ipsum.accusamus nulla</span>provident commodi. Eum.</p>
+
+
+    <script>
+        const p_tag = document.querySelector(".ptag");
+        // it dosent print thAT HAS DISPLAY NONE
+        console.log(p_tag.innerText);
+        // it prints all text .. even the hidden text is printed
+        console.log(p_tag.textContent);
+
+        // even if the text content inside the ptag is changed to hello. console prints original text above this..that is before this was declared 
+        console.log(p_tag.innerText = "Hello");// changes to hello
+
+        console.log(p_tag.textContent = "World"); // hello changes to world
+    </script>
+</body>
+
+</html>

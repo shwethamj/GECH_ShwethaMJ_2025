@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>parameter destructuring</title>
+</head>
+<body>
+    <h1>parameter destructuring</h1>
+
+    <script>
+        const display=function({age}){
+        console.log(age);
+        }
+        display( {age:10});
+        // display("hello");
+        // display([1,2,3,4,5]);
+        // or
+        display({firstName:"shwe",age:23});
+        display({firstName:"shwetha",age:21});
+        
+    </script>
+</body>
+</html>

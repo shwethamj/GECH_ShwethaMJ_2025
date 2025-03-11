@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grind in CSS</title>
+    <style>
+        .container{
+            width: 100vw;
+            height:  80vh;
+            border: 2px solid black;
+            display: grid;
+            grid-template-areas: "nav nav nav" "main main aside " "footer footer footer";
+            grid-template-columns: 360px auto auto;
+            grid-template-rows: 120px auto auto;
+            column-gap: 20px;
+            row-gap: 20px;
+            padding: 20px;
+        }
+        .child{
+            height: auto;
+            width: auto;
+            border: 1px solid black;
+        }
+        .first{
+            grid-area: "nav";
+            grid-column: 1/span3;
+        }
+        .sec{
+            grid-area: "main";
+            grid-column: 1/span2;
+        }
+       .thir{
+        grid-area: "aside";
+       }
+       .four{
+        grid-column: 3/span3;
+       }
+       .fiv{
+        grid-area: "footer";
+        grid-column: 1/span3;
+        /* grid-row: 4/span3; */
+       }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="child first">1</div>
+        <div class="child sec">2</div>
+        <div class="child thir">3</div>
+        <div class="child four">4</div>
+         <div class="child five">5</div>
+        <!-- <div class="child six">6</div> -->
+        <!-- <div class="child sev">7</div> -->
+        <!-- <div class="child eight">8</div> -->
+        <!-- <div class="child nine">9</div> -->
+    </div>
+</body>
+</html>

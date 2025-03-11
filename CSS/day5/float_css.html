@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Float css</title>
+    <style>
+      body{
+        margin: 10px;
+        width: 100vw;
+        height: 100vh;
+        box-sizing: border-box;
+      }
+      .container {
+        width: 500px;
+        height: 500px;
+        padding: 30px;
+        border: 2px solid blue;
+      }
+      .child{
+        border: 1px solid black;
+        padding: 10px;
+        margin: 10px auto;
+      }
+      .container img {
+        float: left;
+        margin: 10px 10px;
+      }
+      .first{
+        clear: right;
+      }
+      .sec {
+        clear: both;
+      }
+      .third{
+        clear: left;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img src="./flower.jpg" alt="image not found" width="200px" height="200px" />
+      <div class="child first">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus,
+        explicabo!
+      </div>
+      <div class="child sec">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti,
+        veritatis.
+      </div>
+      <div class="child third">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+        cupiditate minus saepe voluptatibus maiores maxime.
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position in css</title>
+    <style>
+        body{
+            margin: 0px;
+            padding:0px;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 40vw;
+            height: 1500px;
+            border: 2px solid black;
+            margin: 30px ;
+            position: relative; 
+        }
+        .div{
+            width: 80px;
+            height: 30px;
+            border: 1px solid black;
+        }
+        .first{
+            background-color: aliceblue;
+            position: relative;
+            top: 10px;
+            left: 20px;
+            right: 50px; 
+
+        }
+        .sec{
+            background-color: rgb(186, 164, 232);
+            position: absolute;
+            top: 30px;
+            left: 30px ; 
+        }
+        .thir{
+            background-color: rgb(167, 147, 232);
+            position: absolute;
+            /* position: fixed; */
+            top: 50px;
+            left: 40px;
+
+        }
+        .four{
+            background-color: blueviolet;
+            /* position: absolute; */
+            /* top: 70px; */
+            left: 60px;
+            position: sticky;
+            top: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="div first">1</div>
+        <div class="div sec">2</div>
+        <div class="div thir">3</div>
+        <div class="div four">4</div>
+    </div>
+</body>
+</html>

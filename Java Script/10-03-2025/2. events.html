@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+</head>
+
+<body>
+    <h1>Events</h1>
+    <p>DOMContentLoaded</p>
+    <button id="btn">click</button>
+
+    <script>
+        //to know when the dom content is loaded
+        document.addEventListener("DOMContentLoaded", () => {
+            console.log("Hello");
+            document.getElementById("btn").addEventListener("click", (event) => {
+                console.log(event.target);
+                console.log(event.target.textContent);
+            })
+        })
+    </script>
+</body>
+
+</html>

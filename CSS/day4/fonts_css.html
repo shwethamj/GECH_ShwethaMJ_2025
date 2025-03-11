@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonts in CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Shafarik&display=swap');
+        body{
+            .shafarik-regular {
+                font-family: "Shafarik", serif;
+                font-weight: 400;
+                font-style: normal;
+            }
+        }
+        .container{
+            border: 2px solid black;
+            background-color: grey;
+            width: 300px;
+            height: 200px;
+            padding: 20px;
+        }
+        .inner-container{
+            border: 1px solid rebeccapurple;
+            padding: 20px;
+            /* font-family: 'Courier New', Courier, monospace;
+            font-size: small;
+            /* amount of boldness */
+            font-weight: 800;
+            font-variant: small-caps; 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="inner-container">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, iusto.
+        </div>
+    </div>
+</body>
+</html>

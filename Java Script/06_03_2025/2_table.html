@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <table style = "border: 1px solid blueviolet; ;"  id="userTable">
+        <thead>
+        <tr>
+            <th>First Name</th>
+            <th>Age</th>
+            <th>Address</th>
+        </tr>
+    </thead>
+    <tbody id="table_body"></tbody>
+
+    </table>
+
+    <script>
+        const users = [
+            { firstName: "Namjoon", age: 21, address: "Hassan" },
+            { firstName: "Jin", age: 25, address: "Bangalore" },
+            { firstName: "Yoongi", age: 30, address: "Mysore" },
+            { firstName: "JungHosek", age: 28, address: "Udupi" },
+            { firstName: "Jimin", age: 23, address: "Tumkur" },
+            { firstName: "Taehyung", age: 26, address: "Davangere" },
+            { firstName: "Jungkook", age: 24, address: "Shimoga" },
+            { firstName: "Suga", age: 29, address: "Chitradurga" },
+            { firstName: "AgustD", age: 27, address: "Mangalore" },
+            { firstName: "Jhope", age: 22, address: "Hubli" }
+        ];
+        let content = "";
+        for (let item of users) {
+            content += `<tr>
+                <td>${item.firstName}</td>
+                <td>${item.age}</td>
+                <td>${item.address}</td>
+                </tr>`
+        }
+        console.log(content);
+        document.getElementById("table_body").innerHTML = content;
+        </script>
+</body>
+</html>

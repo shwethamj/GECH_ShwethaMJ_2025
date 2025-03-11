@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How many ways</title>
+    <!-- 1. not recommended to use: The JavaScript file is loaded before the HTML content is fully rendered. -->
+    <!-- <script src="./first.js"></script> -->
+
+    <!-- 3. this is also not recommended to use -->
+    <!-- The script is downloaded and executed asynchronously, meaning it does not block the HTML rendering.
+         This method is useful for scripts that do not depend on the document structure -->
+    <!-- <script src="./first.js" async></script> -->
+
+    <!-- 4. This is recommended -->
+    <!-- The script is downloaded in parallel with the HTML but executes only after the HTML is fully loaded. -->
+    <script src="./first.js" defer></script>
+</head>
+
+<body>
+    <h1>How many ways we can use external JS in hTML</h1>
+    <p>1. inside a head</p>
+    <p>2. inside and above the body closing tag</p>
+    <p>3. using asyncronous inside the head</p>
+    <p>4. using defer inside head</p>
+
+    <!-- 2. - disadvantage - takes time to load.. first html gets loaded then the firstjs. but thus is also recommended other then 4th one-->
+    <!-- The script is placed at the end of the body, ensuring that the HTML content is fully loaded before the JavaScript is executed. -->
+    <script src="./first.js"></script>
+</body>
+
+</html>

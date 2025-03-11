@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function</title>
+</head>
+<body>
+    <script>
+        //function Expressions
+        //1. Function Accepting a Parameter and Not Returning a Value
+        const fune_anr = function(name) {
+            console.log(`Hello, ${name}!`);
+        };
+        fune_anr("Mokshitha");
+
+        //2.Function Accepting a Parameter and Returning a Value
+        const fune_ar = function(num) {
+             return num * num;
+        };
+        const result = fune_ar(5);
+            console.log(`Square is: ${result}`);
+
+        //3.Function Not Accepting a Parameter and Not Returning a Value
+        const fune_nanr = function() {
+            console.log("Hello, World!");
+        };
+        fune_nanr();
+
+        // 4.Function Not Accepting a Parameter and Returning a Value
+        const fune_nar = function() {
+            return Math.random();
+        };
+        console.log(`Random Number: ${fune_nar()}`);
+
+        //Arrow Functions
+        //1. Function Accepting a Parameter and Not Returning a Value
+        const funa_anr = (name) => {
+                console.log(`Hello, ${name}!`);
+        };
+        funa_anr("Priya");
+
+        //2.Function Accepting a Parameter and Returning a Value
+        const funa_ar = (num) => num * num;
+                console.log(funa_ar(5));
+
+        //3.Function Not Accepting a Parameter and Not Returning a Value
+        const funa_nanr = () => {
+        console.log("Hello, World!");
+        };
+        funa_nanr();
+        
+        // 4.Function Not Accepting a Parameter and Returning a Value
+        const funa_nar = () => Math.random();
+                console.log(funa_nar());
+
+    </script>
+</body>
+</html>

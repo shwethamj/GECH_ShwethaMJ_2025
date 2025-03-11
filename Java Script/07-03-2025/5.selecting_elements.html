@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selecting html</title>
+</head>
+
+<body>
+    <h1>Selecting the HTML</h1>
+    <p id="first_p">1. using getElementById</p>
+    <p class="sec_p">2. using getElementByClassName</p>
+    <p class="sec_p">2. using getElementByClassName</p>
+    <p id="thir_p">3. using query selector(can give #ID or .class selector )</p>
+
+    <script>
+        // 1. using getElementById
+        // const first_p = document.getElementById('first_p');
+        // first_p.style.color = "pink"
+        // or
+        document.getElementById('first_p').style.color = "blue";
+
+        // 2. using getElementsByClassName
+        // gives HTML selection - how many sec_p classes are there
+        const sec_p = document.getElementsByClassName('sec_p');
+        console.log(sec_p);
+        // this is used to give color to only one class when there are many classes with same class name
+        sec_p[0].style.color = "green";
+        sec_p[1].style.color = "orange";
+
+        //3. query selector
+        // use # for Id and use . for class
+        document.querySelector("#thir_p").style.color = "red";
+
+    </script>
+</body>
+
+</html>

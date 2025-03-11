@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>varaible</title>
+    <style>
+        :root{
+            /* global variables */
+            --aliceblue: rgb(186, 195, 202);
+            --blue: rgb(111, 111, 187);
+        }
+        .ptag{
+            background-color: var(--aliceblue);
+        }
+        .divtag{
+            /* calling variable */
+            background-color: var(--blue);
+        }
+        .ptag1{
+            background-color: var(--aliceblue);
+        }
+        .divtag1{
+            /* loacl variables */
+            --blue: rgb(83, 83, 122);
+            background-color: var(--blue);
+        }
+        .container{
+            margin :20px auto;
+            padding: 20px;
+            border: 1px solid var(--blue);
+            width: 200px;
+            height: 200px;
+            position: relative;
+        }
+        .child{
+            width: 60%;
+            height: 30px;
+            border: 1px solid black;
+            position: relative;
+        }
+        .first{
+            background-color: blue;
+            z-index: 2;
+            top: 20px;
+            position: relative;
+        }
+        .sec{
+            margin: 10px;
+            position: absolute;
+            top: 10px;
+            z-index: 1;
+            background-color: beige;
+        }
+        
+    </style>
+</head>
+<body>
+    <p class="ptag">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, delectus!</p>
+    <div class="divtag">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum, doloribus.</div>
+    <p class="ptag1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, molestias.</p>
+    <div class="divtag1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, officiis!</div>
+
+    <div class="container">
+        <div class="child first">1</div>
+        <div class="child sec">2</div>
+    </div>
+</body>
+</html>

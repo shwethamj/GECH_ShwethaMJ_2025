@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promise</title>
+</head>
+
+<body>
+    <h1>Promise project</h1>
+    <h1 class="heading1">heading1</h1>
+    <h1 class="heading2">heading2</h1>
+    <h1 class="heading3">heading3</h1>
+    <h1 class="heading4">heading4</h1>
+    <h1 class="heading5">heading5</h1>
+
+    <script>
+        const heading1 = document.querySelector(".heading1");
+        const heading2 = document.querySelector(".heading2");
+        const heading3 = document.querySelector(".heading3");
+        const heading4 = document.querySelector(".heading4");
+        const heading5 = document.querySelector(".heading5");
+        const updateheading = (element, text, color, time) => {
+            return new Promise((resolve, reject) => {
+                setTimeout(() => {
+                    if (element) {
+                        element.textContent = text;
+                        element.style.color = color;
+                        resolve();
+                    } else {
+                        reject("Cannot do that")
+                    }
+                }, time);
+            })
+        }
+        updateheading(heading1, "one", "red", 1000)
+            .then(() => updateheading(heading2, "Two", "blue", 2000))
+            .then(() => updateheading(heading3, "Three", "pink", 3000))
+            .then(() => updateheading(heading4, "four", "orange", 4000))
+            .then(() => updateheading(heading5, "five", "green", 5000))
+            .catch((error) => console.log(error));
+    </script>
+</body>
+
+</html>

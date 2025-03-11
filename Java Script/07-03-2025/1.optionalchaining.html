@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Optional chaining</title>
+</head>
+
+<body>
+    <h1>Optional chaining</h1>
+    <p>sytnatx : ? .</p>
+    <p>used when we dont want error if theres no property but display undefined if the prev property exists </p>
+    <script>
+        const obj = {
+            name: "Varsha",
+            age: 21,
+            adress: {
+                country: "India",
+                state: "Karnataka",
+                city: "Hassan"
+            }
+        }
+        console.log(obj);
+        console.log(obj?.adress?.country); //  there is country inside the adress so it prints 
+        console.log(obj?.adress?.age); //here age is not there so to avoid showing error we use ?.
+        // expected o/p : undefined
+    </script>
+</body>
+
+</html>

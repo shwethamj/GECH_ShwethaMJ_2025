@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object</title>
+</head>
+<body>
+     <!-- //for array and objects const becs we cannot reassign value  -->
+      <h1>Objects</h1>
+
+      <script>
+        //function within class is method and function outside class is function
+        //
+        const car_obj={
+            company:"Tesla",
+            type:"Ev",
+            wheel: 4,
+            "four seat": true ,
+            speed: function(){
+                console.log("tesla is moving by 60km/m");
+            }
+
+        }
+         console.log(car_obj);
+            console.log(car_obj.company);
+            console.log(car_obj.type);
+            console.log(car_obj.wheel);
+            console.log(car_obj[`four seat`]);
+
+            // 2. adding item to an object
+            // car_obj.color="red";
+            // console.log("car object:",car_obj );
+
+            // deleting itm from an object
+            delete car_obj.wheel;
+            console.log("after car object removed", car_obj);
+
+            // clone the color
+            const new_obj={...obj_car}
+            console.log("new obj:",new_obj);
+
+      </script>
+</body>
+</html>

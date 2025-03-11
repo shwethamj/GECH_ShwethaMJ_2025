@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables_css</title>
+    <style>
+        .table_con, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        body{
+            padding: 20px;
+        }
+        .table_con{
+            /*  */
+            width: 88vw; 
+            /*  */
+            height: 50vh;
+        }
+        /* pseudo classes for tables */
+        tr:nth-child(2n){
+            background-color: aliceblue;
+        }
+        tr:nth-child(2n+1){
+            background-color:rgb(213, 204, 204);
+        }
+        tr:first-child{
+            background-color: bisque;
+            color:purple;
+        }
+        th, td{
+            padding: 10px;
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            /* vertical-align: bottom; */
+        }
+        th{
+            font-variant: small-caps;
+        }
+    </style>
+</head>
+<body>
+    <table class="table_con">
+        <tr>
+            <th>Name</th>
+            <th>Roll.no</th>
+            <th>Age</th>
+            <th>Adress</th>
+        </tr>
+        <tr>
+            <td>Varsha</td>
+            <td>054</td>
+            <td>20</td>
+            <td>Hassan</td>
+        </tr>
+        <tr>
+            <td>Varsha</td>
+            <td>054</td>
+            <td>20</td>
+            <td>Hassan</td>
+        </tr>
+        <tr>
+            <td>Varsha</td>
+            <td>054</td>
+            <td>20</td>
+            <td>Hassan</td>
+        </tr>
+    </table>
+</body>
+</html>
