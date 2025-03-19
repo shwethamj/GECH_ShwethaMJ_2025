@@ -3,18 +3,20 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Edit Student</title>
+    <title>Add Employee</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <style>
-		.from{
-		 width:60vw;
-		 }
+ <style>
+    .form{
+        width:60vw;
+        margin:20px;
+        
+    }
     </style>
-    </head>
+</head>
 
-<body class="d-flex flex-column justify-content-center align-items-center">
-    <form class="from col-12 shadow rounded p-4" th:action="@{/edit-student(id=${student.id})}" method="post" th:object="${studentDto}">
-        <h2 class="text-center">Edit Student</h2>
+<body class="d-flex justify-content-center align-items-center">
+    <form class="form shadow rounded p-4"  th:action="@{/addEmployee}" method="post" th:object="${employeeDto}">
+        <h2 class="text-center">Add Employee</h2>
 
         <label for="fname" class="form-label">First Name</label>
         <input type="text" class="form-control" id="fName" placeholder="Enter your first name" th:field="*{fname}">
@@ -35,9 +37,8 @@
         <label for="address" class="form-label">Address</label>
         <input type="text" class="form-control" id="address" placeholder="Enter your address" th:field="*{address}">
         <br>
-
 		<div class="d-flex justify-content-center align-items-center">
-        <input type="submit" class="btn btn-success" value="EDIT STUDENT">
+        <input type="submit" class="btn btn-success " value="ADD EMPLOYEE">
         </div>
     </form>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
