@@ -1,9 +1,9 @@
 package operators_in_java;
 
 public class Operators {
-	public static void main(Strings[]args) {
+	public static void main(String[]args) {
 		
-		int +a=2;
+		int a=2;
 		 /*
 		  Arithmatic operators =+ ,-, *, /
 		  unary = ++ , --

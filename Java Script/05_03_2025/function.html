@@ -55,7 +55,7 @@
         para_not_return(23); //23 is argument
         
 
-        // 2.function accepting a parameter and not returning value
+        // 2.function accepting a parameter and  returning value
         function para_return(number){
             return number;
 
@@ -121,13 +121,25 @@
         }
         para_not_return(23); 
 
-         // 2.2.function accepting a parameter and not returning value
+         // 2.2.function accepting a parameter and returning value
           para_return = function(number){
             return number;
 
         }
         const resl = para_return(233);
         console.log(`the result:${resl}`);
+
+        //2.3 not accept and return
+        const result1= function(){
+            return 23;
+        }
+       result1();
+
+       //2.4 not accept and not returm
+     const  not_para_not=function(){
+        console.log("this not para not accept function in function expression");
+     }
+     not_para_not();
 
 
         // 3.arrow function

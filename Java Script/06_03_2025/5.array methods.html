@@ -75,6 +75,68 @@
         //16                   4            20
         console.log("res:",res);
 
+       // 4. reduce:
+    // reduce reduces the array into one number by performing the operation given into it
+    const array32= [1, 2, 3, 4, 5];
+    const result = array32.reduce((previous, current) => {
+      return previous + current;
+    }, 10); // here we can give the previous no./starting number by ourselves which adds 10 to 15 i.e 10 is prev no. and 1 starts as current element...otherwise it wuld start by index 0 as the prev no. and index1 as current no.
+    console.log("The result is ", result);
+
+    //____________________________
+
+    //5. sort:
+    //arrange numbers in ascending(a-b) and descending order(b-a), and words alphabetically
+
+    //ascending order arrangemnt using sort
+    const array7 = [1, 2, 5, 4];
+    const array8 = array7.sort((a, b) => { return a - b })
+    console.log(array8);
+
+    //descending order arrangment of numbers using sort
+    const array = [1, 2, 5, 4];
+    const arra = array.sort((a, b) => b - a)
+    console.log(arra);
+
+    //words arrangement in alphabetical order :
+    const fruits = ["orange", "apple", "pineapple", "watermelon", "bananna"];
+    const fruits1 = fruits.sort();
+    console.log(fruits1);
+
+    //______________________________
+
+
+    // 6.splice:
+    //The splice() method in JavaScript modifies an array by adding, removing, or replacing elements.
+    //splice(startIndex, deleteCount, ...itemsToAdd)
+    //0: Start at index 0.
+    //2: Remove 2 elements (1 and 2).
+    //5: Insert 5 at index 0.
+    //and array 10 holds the deleted values 1 and 2
+    //array9 is modified to [5, 3, 4].
+    const array9 = [1, 2, 3, 4];
+    const array10 = array9.splice(0, 2, 5)
+    console.log("deleted elements", array10);
+    console.log("modified array", array9);
+
+    const arr1 = [10, 20, 30, 40, 50];
+    const removed = arr1.splice(1, 2); // Removes 2 elements starting from index 1
+    console.log("Removed:", removed); // Output: [20, 30]
+    console.log("Modified arr1:", arr1); // Output: [10, 40, 50]
+
+    //_________________________________
+
+    //7.each
+
+    // const array11 = [1, 2, 3, 4, 5];
+    // const array12 = array11.each(function (index, value) {
+    //   console.log(index, value);
+    // });
+
+    //8.some 
+    const array13 = [1, 2, 3, 5];
+    const array14 = array13.some(num => num > 3); // At least one number is >3 (5)
+    console.log("some:", array14); // Output: true
 
 
 

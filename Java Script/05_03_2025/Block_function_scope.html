@@ -8,23 +8,47 @@
 <body>
     <h1>block function scope</h1>
     <p>1. block scope -{}(let and const)</p>
+    <!-- we can use let const to declare a variable within{}
+     ex:  {
+     let a=5;
+     const b=5;
+     console.log(a)}
+     //here a will print bcs it is inside the function
+     console.log(b)  
+     //here b will not print bcs it is outside the block-->
     <p>2. function scope - function functin_name{} (var)</p>
+    <!-- we can use var to declare a variable is functionscope
+     ex: function func-name{
+        var a =4;
+        console.log(a)
+        // it will print a but if we use outside the function it will show error var can acceesed anywhere within function
+     }
+     we use var within {}(block scope)
+        ex: {
+        var h=4;}
+        console.log(h);
+        // it will print output bcs var has no block scope    
+    
+    -->
 
     <script>
         function scope(){
             var num =10;
-            let num2 =20;
+            let num3 =20;
             if(true){
-                var num =100;
+                var num =600;
                 let num2=200;
                 console.log("the number inside is :",num); //100
                 console.log("the number inside is :",num2); //100
             }
            
                 console.log("the number outside is:",num);
-                console.log("the number outside is:",num2);
+                console.log("the number outside is:",num3);
             
         }
+        // console.log("the number outside is:",num3);
+        // it is let let cannot be acceesed outside the {} so its show error
+
         scope();
         
     </script>

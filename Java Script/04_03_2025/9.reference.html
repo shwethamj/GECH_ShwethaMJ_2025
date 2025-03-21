@@ -11,10 +11,11 @@
       let x = 10;
       let y = x;
       console.log("The value of x before:", x);
-      console.log("The value of x after :", y);
+      console.log("The value of y after :", y);
       x = 100;
+      // here we are only giving a value to the x so x will change but not y
       console.log("The value of x after:", x);
-      //   y = x;
+    
       console.log("The value of y after:", y);
 
       //   refernce type
@@ -24,8 +25,9 @@
       let array1 = array;
       console.log("The value of array before:", array);
       console.log("The value of array1 before:", array1);
-      //   only pushing to array
+      //   only pushing to array but it will also add to the array1
       array.push(24);
+      
       console.log("The value of array after:", array);
       console.log("The value of array1 after:", array1);
     </script>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>explain javascript objects keyvalue pairs and how to manupulate object properties</div>
+    <div>create a object of student with properties of  name ,age,marks,with marks  and create function to increase marks  by 10</div>
+
+    <Script>
+        const student={
+            name:"shwetha",
+            age:20,
+            marks:10,
+            increasedmarks : function(){
+                this.marks +=10;
+           console.log(this.marks);
+
+            }
+        };
+        
+        console.log(student.marks);
+        student.increasedmarks();
+        student.color="blue"; //manupulate properties
+        console.log(student);
+    </Script>
+</body>
+</html>
