@@ -18,7 +18,7 @@ class OneParentclass{
 			System.out.println("this is child4");
 		}
  }
-public class HeirarchyInheritance {i
+public class HeirarchyInheritance {
 
 	public static void main(String[] args) {
 		
