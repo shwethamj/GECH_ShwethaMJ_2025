@@ -22,7 +22,7 @@ class Child implements A,B{
 //	public void method() {
 //		System.out.println("this is method A");		
 //	}
-//	
+	
 }
 public class InheritanceInJava2 {
 	public static void main(String[] args) {

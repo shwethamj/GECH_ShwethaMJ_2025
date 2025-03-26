@@ -43,7 +43,9 @@ public class ConstructorInJava {
 		//one so constructor call by itsself
         std1.display();
         
-        Student1 std3 = new Student1(32,"shwe",300);
+        
+        //no- args constructor
+        Student1 std3 = new Student1(12,"shwe",34);
 		std3.display();
 		
         // for no args constructor

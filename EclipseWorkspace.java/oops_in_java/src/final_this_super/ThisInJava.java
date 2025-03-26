@@ -4,20 +4,23 @@ class Person1{
 	public String name;
 	public int age;
 	
-	//no-args and default constructor created defaultly by JPA
+	//no-args and default constructor created default by JVM
+	
 	public Person1() {
 		System.out.println("this is default constructor");
 	}
 	
 	// args
 	public Person1(String name, int age) {
+		this();
 		// 2. refer the constructor
-		this(); // this display default constructor (this is default constructor)
+//		this(); // this display default constructor (this is default constructor)
 		System.out.println("this is argument constructor");
 		// 1.refer the instant variable in curent class
 		this.name = name; // USED TO REFER instant variable in current class
 		this.age = age;
 	}
+	
 	
 	public void hello(){
 		System.out.println("hello");

@@ -14,10 +14,14 @@ class Lion implements one{
 	}
 }
 
-//2. using abstract -- for abbstract and interface we cannot create a objcet directly so we call another calss extends abstract class
+//2. using abstract -- for abbstract and interface we cannot create a objcet directly   
+//   so we call another calss extends abstract class
 abstract class Vehicle{
+	
+	//1.abstract method
 	public abstract void method1();
 	
+	//2.without abstract method
 	public void stop() {
 		System.out.println("vwhicle is stopped");
 	}
@@ -40,7 +44,7 @@ public class AbstractionInJava {
 		
 		//ABSTRACTION
 		/*
-		 * it is  a process of hiding the implementation and showing only the essential resources.
+		 * it is  a process of hiding the implementation/body and showing only the essential resources.
 		 
 		 *WAYS:
 		 
@@ -55,7 +59,7 @@ public class AbstractionInJava {
 		Car car =new Car();
 		car.method1();
 		car.start();
-		car.start();
+		car.stop();
 	}
 
 }

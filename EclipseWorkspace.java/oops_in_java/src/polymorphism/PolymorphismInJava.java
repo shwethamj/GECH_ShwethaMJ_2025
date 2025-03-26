@@ -2,6 +2,7 @@ package polymorphism;
 
 
 //1.method-override
+// static cannot be used in method-overriding
 
 // if we dont want to print the class person content and need display other content so we use override by calling a
 //same method name in the child(Shwetha class) and write the content want we want to display instead of parent class content
@@ -19,7 +20,8 @@ class Shwetha extends Person{
 	}
 }
 
-//2.method-overloading -- same method with different input within same class
+//2.method-overloading -- same method with different input parameter within same class
+// static and final can be used 
 
 class Adiition{
 	public static  void add(int a, int b) {

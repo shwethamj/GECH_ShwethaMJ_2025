@@ -33,9 +33,9 @@ public class EncapsulationInJava {
 		
 		//Encapsulation
 	/*
-	 * encapsulation is a mechanism that binds data into a single unit i.e
+	 * encapsulation is a mechanism that binds data(variables) and method(getters  and setters) into a single unit i.e
 	 
-	 * EVERY FIELDS must be private when we want to protect data ,so we use encapsulation and create gutter and setters
+	 * EVERY FIELDS must be private when we want to protect(restrict direct access) data ,so we use encapsulation and create gutter and setters
 	  to make  it public so that we can set and get the data ourself wehen we create objcet
 	 
 	 * =>Even if we dont create constructor ,JPA will create a no args constructor

@@ -1,11 +1,11 @@
 package interfaceinjava;
 
 interface Animal{
-	public void makeSound(); // its an abstract mthod inside a interface which doesnot have body
+	public void makeSound(); // its an abstract method inside a interface which doesnot have body
 }
 
 //to extend a class with interface we use implement
-// to do that hover the error on dog and create a unimolemented method--that overides implemented method and creates uimplemented method
+// to do that hover the error on dog and create a unimplemented method--that overides implemented method and creates uimplemented method
 
 class Dog implements Animal{
 

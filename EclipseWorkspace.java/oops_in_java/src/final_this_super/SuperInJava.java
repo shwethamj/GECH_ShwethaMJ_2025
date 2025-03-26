@@ -1,5 +1,6 @@
 package final_this_super;
 
+//instance = object
 class OldDog{
 	public String name;
 	public int age;
@@ -38,9 +39,9 @@ public class SuperInJava {
 		
 		// SUPER
 		/*
-		 * 1. it used to call super class instance variabele
-		 * 2. it used to call super class constructor
-		 * 3. it used to call super class methods
+		 * 1. it used to call the parent class super class instance variabele
+		 * 2. it used to call  the parent class super class constructor
+		 * 3. it used to call the parent class super class methods
 		 */
 		
 		NewDog newdog = new NewDog("bruno", 4, "vegitables");
