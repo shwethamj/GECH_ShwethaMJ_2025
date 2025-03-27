@@ -3,6 +3,7 @@ package com.customStudent;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class StartStudent {
 
@@ -39,6 +40,10 @@ public class StartStudent {
 		Collections.sort(Students,(s1,s2)->s1.getName().compareTo( s2.getName())); // low to high
 		System.out.println("for Name:");
 		System.out.println(Students);
+		
+		//Stream using
+		List<Student>  sorted = Students.stream().filter((marks)-> ( marks.getAge()>50)).collect(Collectors.toList());
+		System.out.println("age greater than 50 : "+sorted);
 
 	}
 

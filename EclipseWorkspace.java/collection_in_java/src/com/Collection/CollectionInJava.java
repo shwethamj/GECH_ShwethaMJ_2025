@@ -22,7 +22,7 @@ public class CollectionInJava {
 		 */
 		int  [] arr = new int[2];
 		arr[0] =12;
-		arr[1] ='h'; //prints the ascii value of h -- which is integer
+		arr[1] ='g'; //prints the ascii value of h -- which is integer
 		System.out.println("no need of typecasting in array");
 		System.out.println((int)arr[1]); // no need of this in array we can use directly below one
 		System.out.println(arr[1]);

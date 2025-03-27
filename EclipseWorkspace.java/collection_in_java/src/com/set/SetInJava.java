@@ -18,7 +18,7 @@ public class SetInJava {
 		 
 		 *1. no presrved order
 		 *2. not allow duplicate
-		 *3.random access is there
+		 *3. no random access is there
 		 */
 		
 		Set<Integer> set = new HashSet<>(); //hashSet is subclass of set interface

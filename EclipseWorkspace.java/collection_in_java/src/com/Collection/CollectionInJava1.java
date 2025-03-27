@@ -17,11 +17,15 @@ public class CollectionInJava1 {
 		 *==>collection is root interface in collection framework
 		 *==> this will provide some of the built-in methods to work with any collection class 
 		 *==> collection is allows heterogeneous data like we can insert multiple datatypes into array
+		 *==>collection automatically converts the primitive datatypes to object
 		 */
 		
 		/*
-		 * collection has lists ,queue , sets
-		 * lists --Array
+		 * collection has child intefaces lists ,queue , sets and map
+		 * lists has classes --ArrayList.LinkedLIst,vector,stack
+		 * queue - priorityQueue and Deque --ArrayDeque
+		 * set --HashSet, LinkedHashSet , for sorting Sortedset --TreeSet
+		 * map -- HashMap,LinkedHashMap,Hashtable, for sorting -TreeMap
 		 */
 		
 		//Collection is a object which includes built in functions like ArrayList()
