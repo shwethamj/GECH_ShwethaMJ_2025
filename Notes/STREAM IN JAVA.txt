@@ -1,0 +1,39 @@
+
+
+COLLECTION:
+=============
+	TO REPRESENT THE GROUP OF OBJECTS INTO A SINGLE ENTITY THEN WE SHOULD GO FOR COLLECETION
+	
+STREAM:
+============
+	TO WORK WITH MULTIPLE OBJECTS  OR COLLECTION WE SHOULD GO FOR STREAM
+	
+	1. SOURCE:
+	============
+		on which you are appling the stream
+	
+	2. INTERMEDIATE operation:
+	===========================
+		the operation will return the another stream
+		
+	3. TERMINATION operation:
+	==========================
+		* it will terminate the stream
+		* after applying the termination operation on stream  we cannot reuse it
+		* for each stream we can use only one termination operation
+		
+	EXAMPLE:
+	=========
+	for multiple objects
+			List<Integer> list = new ArrayList()'
+			list.add(23);
+			list.add(2);
+			
+			list.Stream().Filter(x ->x%2==0).Count()
+			
+		where:	
+			list = source
+			filter =intermediate operation
+			count = termination operation
+			
+			

@@ -11,7 +11,10 @@ interface B{
 	public void method();
 }
 
-class Child implements A,B{
+interface C{
+	public void method();
+}
+class Child implements A,B,C{
 
 	@Override
 	public void method() {

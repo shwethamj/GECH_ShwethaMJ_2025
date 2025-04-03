@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Registered Users</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+		<nav>
+		    <div class="nav-logo">
+		        <img src="/images/logo.jpg" alt="Logo"> 
+		    </div>
+		    <div>
+		    	<h1 style="font-family: italic; font-size: 20px; color: White">Student Registration portal</h1>
+		    </div>
+		    <div class="nav-links">
+		        <a href="/">Home</a>
+		        <a href="/registration/register">Add Student</a>
+		    </div>
+		</nav>
+		   
+
+    <!-- Main Container -->
+    <div class="container">
+        <h2>Registered Student List</h2>
+
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>City</th>
+                <th>Gender</th>
+                <th>Skills</th>
+                <th>Address</th>
+                <th>Actions</th>
+            </tr>
+            <tr th:each="user : ${register}">
+                <td th:text="${user.name}"></td>
+                <td th:text="${user.email}"></td>
+                <td th:text="${user.phone}"></td>
+                <td th:text="${user.city}"></td>
+                <td th:text="${user.gender}"></td>
+                <td th:text="${user.skill}"></td>
+                <td th:text="${user.address}"></td>
+                <td>
+                    <a th:href="@{'/registration/edit/' + ${user.id}}"><button>Edit</button></a>
+                    <a th:href="@{'/registration/delete/' + ${user.id}}"><button class="delete-btn">Delete</button></a>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Sinchana AB. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

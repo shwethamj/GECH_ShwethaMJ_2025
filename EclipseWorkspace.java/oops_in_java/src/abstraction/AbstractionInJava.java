@@ -12,6 +12,7 @@ class Lion implements one{
 		System.out.println("Lion is eating");
 		System.out.println("---------------------------------------------");
 	}
+	
 }
 
 //2. using abstract -- for abbstract and interface we cannot create a objcet directly   

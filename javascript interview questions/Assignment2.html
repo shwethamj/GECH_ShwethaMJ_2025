@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <h1>Assignment2</h1>
+        <div>explain the concept of filter,reduce,map,foreach in
+            javascript</div>
+        <div> Given an array of numbers,filter out odd numbers and return square
+            of numbers using map().</div>
+    </head>
+    <body>
+        <script>
+    var arr=[1,2,3,4,5,6];
+    var result=arr.filter(function(num){
+        return num%2!==0;
+
+
+    })
+    console.log(result);
+    var result1=arr.map(function(num){
+
+        return num*num;
+    })
+    console.log(result1);
+        
+
+    
+
+</script>
+    </body>
+</html>

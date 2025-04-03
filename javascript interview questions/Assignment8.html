@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        Write an asynchronous function that simulates fetching data from an API using fetch(). Log the response data to
+        the console. <br>
+        API = "https://jsonplaceholder.typicode.com/posts"
+    </div>
+    <script>
+        const url = "https://jsonplaceholder.typicode.com/posts";
+    
+        const getUsers = async (url) => {
+            try {
+                const res = await fetch(url);
+                console.log(res);
+                
+                
+                const jsonRes = await res.json();
+                console.log(jsonRes);
+    
+               
+                jsonRes.forEach((curEle) => {
+                    console.log(curEle);
+                });
+    
+            } catch (error) {
+                console.error("Error fetching data:", error);
+            }
+        };
+    
+        getUsers(url);
+    </script>
+    
+    
+
+    <!-- code here -->
+
+</body>
+
+</html>

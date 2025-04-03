@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h1>Assignment5</h1>
+    <div>explain promise with one example</div>
+</head>
+<body>
+    <script>
+        const items=["vegetables","rice","salt","egg"];
+        const result=new Promise((resolve,reject)=>{
+            if(items.includes("vegetables") && items.includes("salt") && items.includes("rice")){
+                resolve("fried rice");
+            }
+            else{
+                reject("no  fried rice");
+            }
+        })
+        console.log(result)
+        result.then((value)=>{
+            console.log("with then:",value);
+        }).catch(error=>{
+            console.log("with error:",error);
+        })
+    </script>
+</body>
+</html>

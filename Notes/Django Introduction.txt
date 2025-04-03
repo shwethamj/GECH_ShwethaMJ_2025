@@ -1,0 +1,66 @@
+ecommerce: choose any one 
+	    1. java (core jav or advance java)
+	    2.spring boot or spring(spring boot is the extension version of spring)
+----------------------------------------------------------------------------------------------------------------------------------
+
+Steps of cmd for Django:
+
+1. create django folder and open cmd on that folder
+2. python -m venv crud_venv
+3. crud_venv\Scripts\activate
+4. pip freeze
+5. pip install Django
+6.django-admin startproject gec_crud -- to create a project , name called gec_crud
+7. cd gec_curd
+8.python manage.py startapp stud_crud -- to create a appa , name called stud_crud
+9. cd to appname
+10. open vs and terminal in that and type dir cmd
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+and in vscode:
+1.open terminal as cmd not as powershell and cd to currect directory
+2.change directry to crud_venv (which environment created by u)
+3.Scripts\activate
+4.cd ..       -- (it remove current dir and goes back like it remove dir crud_venv and goes to Django dir)
+5.cd gec_crud (project name created by u)
+6. dir 
+7.python manage.py migrate
+8.python manage.py runserver
+9. copy the http link and paste in chrome 
+
+-----------------------------------------------------------------
+
+in vs code:
+1. project- settings- installed apps- type app name there
+2. create a 2 folder static and template folder within app
+3.in template create home.html
+4. create urls.py file in app
+5. in urls.py of project --  
+	from django.contrib import admin
+	from django.urls import path ,include
+
+	urlpatterns = [
+    	path('admin/', admin.site.urls),
+    	path("home/",include("stud_curd.urls")),
+	]
+6. here we used stud_curd.urls so we need to create a new file urls.py in stud_curd 
+	from django.urls import path
+	from . import views
+
+	urlpatterns = [
+    	path("",views.home)
+	]
+
+7.  in settings.py of project
+     declare app name under installed apps
+
+     need to declare path of templates folder here
+ 	TEMPLATES = [
+    	{
+       	 'BACKEND': 'django.template.backends.django.DjangoTemplates',
+        	 'DIRS': ["C:/Users/91966/Desktop/Shwetha parvam/GECH_ShwethaMJ_2025/Django/gec_crud/stud_curd/Templates"],
+8. static used to 
+
+
+

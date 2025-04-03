@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h1>Assignment1</h1>
+    <div>explain the javascript objects ,key value pairs,and how to manipulate object properties.</div>
+    <div>create a object of students with properties of name,age,marks and with marks write a function to increase the marks by 10</div>
+</head>
+<body>
+   <script>
+    var student={
+        name:"swathi",
+        age:20,
+        marks:80,
+        increasemarks:function(){
+            this.marks+=10;
+            console.log(this.marks+10);
+        }
+       
+
+    }
+    console.log(student);
+    console.log(student.marks);
+    student.increasemarks();
+   </script>
+</body>
+</html>

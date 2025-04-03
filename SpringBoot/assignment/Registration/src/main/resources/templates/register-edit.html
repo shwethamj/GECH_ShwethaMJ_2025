@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Edit User</title>
+</head>
+<body>
+
+    <h2>Edit User</h2>
+
+    <form th:action="@{/registration/update/{id}(id=${registration.id})}" th:object="${registration}" method="post">
+        <label>Name:</label>
+        <input type="text" th:field="*{name}" required><br>
+
+        <label>Email:</label>
+        <input type="email" th:field="*{email}" required><br>
+
+        <label>Phone:</label>
+        <input type="number" th:field="*{phone}" required><br>
+
+        <label>City:</label>
+        <select th:field="*{city}">
+            <option value="Bangalore">Bangalore</option>
+            <option value="Mysore">Mysore</option>
+            <option value="Delhi">Delhi</option>
+        </select><br>
+
+        <label>Gender:</label>
+        <input type="radio" th:field="*{gender}" value="Male"> Male
+        <input type="radio" th:field="*{gender}" value="Female"> Female <br>
+
+        <label>Skills:</label>
+        <input type="checkbox" th:field="*{skill}" value="Java"> Java
+        <input type="checkbox" th:field="*{skill}" value="Python"> Python
+        <input type="checkbox" th:field="*{skill}" value="JavaScript"> JavaScript <br>
+
+        <label>Address:</label>
+        <textarea th:field="*{address}" required></textarea><br>
+
+        <button type="submit">Update</button>
+    </form>
+
+</body>
+</html>

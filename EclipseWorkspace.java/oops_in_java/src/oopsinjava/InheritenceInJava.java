@@ -1,3 +1,5 @@
+
+
 package oopsinjava;
 
 public class InheritenceInJava {

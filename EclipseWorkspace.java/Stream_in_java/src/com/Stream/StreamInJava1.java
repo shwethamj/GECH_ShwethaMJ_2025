@@ -21,6 +21,7 @@ public class StreamInJava1 {
 		
 		// stream is already closed by count termination adn we use below collect operation again 
 		// it shows the error ==> stream has already been operated upon or closed
+		//Stream<Integer> stream1 =list.stream().filter(x ->x>1);
 		List<Integer> result1 = stream.collect(Collectors.toList());
 		System.out.println(result1);
 		
