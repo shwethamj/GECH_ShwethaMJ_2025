@@ -25,19 +25,24 @@ public class StudentForm {
 	@Column(name="Std_email")
 	private String email;
 	
+	private String imagePath;
+	
+	
+	
 	//no args constructor
 	public StudentForm() {
 		super();
 	}
 
 	//constructor
-	public StudentForm(Long id, String name, int age, String address, String email) {
+	public StudentForm(Long id, String name, int age, String address, String email,String imagePath) {
 		super();
 		this.id = id;
 		this.name = name;
 		this.age = age;
 		this.address = address;
 		this.email = email;
+		this.imagePath =imagePath;
 	}
 // getters and setters
 
@@ -81,9 +86,15 @@ public class StudentForm {
 		this.email = email;
 	}
 
-	public static void main(String[] args) {
-		
-
+	public String getImagePath() {
+		return imagePath;
 	}
+
+	public void setImagePath(String imagePath) {
+		this.imagePath = imagePath;
+	}
+	
+
+	
 
 }

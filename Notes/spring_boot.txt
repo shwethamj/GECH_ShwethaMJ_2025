@@ -1,0 +1,60 @@
+Spring framework
+Spring boot
+IOC Container
+Dependency Injection
+
+
+Spring Framework:
+=================
+* It is java framework  that is used to develop  a web applications, Rest-API, Enterprice level applications.
+* MVC - we have to do lot of configurations in spring.
+
+* Spring framework is developed using concept of module.
+* Spring is used XML Configuration / annotation(java) configuuration
+
+Generally:
+==========
+1. security
+2. database
+3. mvc / mvt
+
+3 problems:
+===========
+1. we have to do lot of configuartions.
+2. we have to deploy the application in tomcat server.
+3. to test the application in test module we have to do lot of configuration.
+
+Spring Boot:
+============
+* It is build on the top of Spring framework, so we can achive RAD(Rapid application developement).
+
+IOC Container:
+==============
+* in normal java using new keyword we are creating an object.
+* handled to sring "Bean".
+* Inversion of control -> no need to create an object as programmer the spring we take care creation of obbject.
+* we have to give some of the information of the class.
+* it will create, configure and manage the spring bean/objects.
+
+
+Dependency Injection:
+=====================
+* injecting the one object to another object.
+example: has-a relationship
+========
+class Student{
+	private int id;
+	private String name;
+	privte Address address;
+}
+
+class Address{
+	private String city;
+	private String state;
+}
+
+3.ways to achive dependency injection:
+======================================
+1. constructor injection - best(recomended)
+2. stter injection
+3. field injection
