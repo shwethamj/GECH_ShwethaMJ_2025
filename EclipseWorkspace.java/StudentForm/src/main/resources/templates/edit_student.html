@@ -29,14 +29,14 @@
 	<div class="container p-5">
 		<h2 class="mt-3">Edit student</h2>
 		<p>Please fill in this form to add a student</p>
-		<form th:action="@{/edit(id=${student.id})}" method="post" class="w-100" th:object="${studentDTO}">
+		<form th:action="@{/edit(id=${student.id})}" enctype="multipart/form-data"  method="post" class="w-100" th:object="${studentDTO}">
 			<div class="input-group  mb-3 ">
 				<span class="input-group-text"><i class="fa-solid fa-user"></i></span>
 				<input th:field="*{name}" type="text" class="form-control" id="name" placeholder="Username" title="Enter your username">
 					<p th:if ="${#fields.hasErrors('name')}" th:errors="*{name}"></p>
 			</div>
 			<div class="input-group mb-3">
-				<span class="input-group-text"><i class="fa-solid fa-age"></i></span>
+				<span class="input-group-text"><i class="fa-solid fa-male"></i></span>
 				<input  th:field="*{age}" type="number" class="form-control" id="age" placeholder="Age" title="Enter your age" >
 				<p th:if ="${#fields.hasErrors('age')}" th:errors="*{age}"></p>
 			</div>
@@ -47,11 +47,26 @@
 					<p th:if ="${#fields.hasErrors('email')}" th:errors="*{email}"></p>
 			</div>
 			<div class="input-group mb-3">
-				<span class="input-group-text"><i class="fa-solid fa-lock"></i></span>
+				<span class="input-group-text"><i class="fa-solid fa-location"></i></span>
 				<input  th:field="*{address}" type="text" class="form-control" id="address" placeholder="Enter your Address"
 					title="Enter your Address" >
 					<p th:if ="${#fields.hasErrors('address')}" th:errors="*{address}"></p>
 			</div>
+			
+			<div class="input-group mb-3">
+				<span class="input-group-text"><i class="fa-solid fa-file"></i></span>
+				<img alt="image" th:src="@{'image/'+${student.imagePath}}"><br>
+				<input  th:field="*{image}" type="file" class="form-control" id="image" placeholder="choose your image" >
+					
+			</div>
+			
+			<div class="input-group mb-3">
+				<span class="input-group-text"><i class="fa-solid fa-book"></i></span>
+				<img alt="Resume" th:src="@{'docs/'+${student.docPath}}"><br>
+				<input  th:field="*{doc}" type="file" class="form-control" id="Resume" placeholder="choose your file" >
+					
+			</div>
+			
 			<br>
 			<button type="submit" class="btn btn-warning mb-3" >Add</button>
 

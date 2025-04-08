@@ -17,9 +17,11 @@ table,th,tr,td{
 	</style>
 </head>
 <body class="bg-warning-subtle">
-  <h1 class="text-center bg-primary-subtle "> Welcome to home page</h1>
-  <h2 class="text-center bg-secondary-subtle">StudentList</h2>
+  <h1 class="text-center bg-primary-subtle m-0"> Welcome to home page</h1>
+  <h2 class="text-center bg-primary-subtle ">StudentList</h2>
+  <div class="d-flex justify-content-center align-items-center">
   <a class="btn btn-primary btn-center m-5" th:href="@{/add-student}">Add Student</a>
+  </div>
   
   <div class="alert alert-success" th:if="${success}">
   <p th:text="${success}"></p>
@@ -31,9 +33,11 @@ table,th,tr,td{
   	<tr >
   	<th>Id</th>
   	<th>Name </th>
-  	<th>age</th>
-  	<th>email</th>
-  	<th>address</th>
+  	<th>Age</th>
+  	<th>Email</th>
+  	<th>Address</th>
+  	<th>Image</th>
+  	<th>Resume</th>
   	<th>Action</th>
   	</tr>
   	</thead>
@@ -45,6 +49,14 @@ table,th,tr,td{
   	 	<td th:text="${student.age}"></td>
   	 	<td th:text="${student.email}"></td>
   	 	<td th:text="${student.address}"></td>
+  	 	<td>
+  	 		<img th:src="@{'image/'+${student.imagePath}}" alt="image" width="60px" height="60px" >
+  	 	</td>
+  	
+  		<td>
+  	 		<img th:src="@{'docs/'+${student.docPath}}" alt="Resume" width="70px" height="70px" >
+  	 	</td>
+  	
   	 	<td>
   	 	<a th:href="@{/edit(id=${student.id})}" class="btn btn-success"> Edit</a>
   	 	<a th:href="@{/delete(id=${student.id})}" class="btn btn-danger">Delete</a>

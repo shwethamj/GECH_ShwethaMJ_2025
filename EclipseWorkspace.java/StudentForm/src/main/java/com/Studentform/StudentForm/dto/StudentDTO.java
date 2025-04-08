@@ -24,6 +24,8 @@ public class StudentDTO {
 	
 	private MultipartFile image;
 	
+	private MultipartFile doc;
+	
 	
 	public String getName() {
 		return name;
@@ -55,6 +57,12 @@ public class StudentDTO {
 	}
 	public void setImage(MultipartFile image) {
 		this.image = image;
+	}
+	public MultipartFile getDoc() {
+		return doc;
+	}
+	public void setDoc(MultipartFile doc) {
+		this.doc = doc;
 	}
 	
 	

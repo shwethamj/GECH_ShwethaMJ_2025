@@ -5,3 +5,14 @@ HOW TO ADD IMAGES IN SPINGBOOT:
 		1, USING FILE SYSTEM - RECOMMENDED
 		2,USING AWS - RECOMMENDED TO USE IN PRODUCTION
 		3, USING BOB IN DB - IS NOT RECOMMENDED (BINARY LARGE OBJECT - WE USE BLOLB AS A DATATYPE OF THE IMAGE)
+		
+===========================================================================================================================
+
+SPRING DATA JPA:
+	1, findByEmail();
+			*  SELECT * FROM StudentForm
+				where email=abs@gmail.com;
+			* instead of above one we can use simple one like below (both above and belows means same
+				public  StudentForm findByEmail(String email); // in repository of project
+	2, findById(): -> returns object
+	3.existBy(); -> returns boolean

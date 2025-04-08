@@ -14,18 +14,17 @@ public class StudentForm {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 
-	@Column(name ="Std_id")
-	private Long id;
-	@Column(name="std_name")
-	private String name;
-	@Column(name ="std_age")
-	private int age;
-	@Column(name ="std_address")
-	private String address;
-	@Column(name="Std_email")
-	private String email;
 	
+	private Long id;
+	private String name;
+	private int age;
+	private String address;
+	
+	
+	@Column(unique =true)
+	private String email;
 	private String imagePath;
+	private String docPath;
 	
 	
 	
@@ -35,7 +34,7 @@ public class StudentForm {
 	}
 
 	//constructor
-	public StudentForm(Long id, String name, int age, String address, String email,String imagePath) {
+	public StudentForm(Long id, String name, int age, String address, String email,String imagePath,String docPath) {
 		super();
 		this.id = id;
 		this.name = name;
@@ -43,6 +42,7 @@ public class StudentForm {
 		this.address = address;
 		this.email = email;
 		this.imagePath =imagePath;
+		this.docPath =docPath;
 	}
 // getters and setters
 
@@ -92,6 +92,14 @@ public class StudentForm {
 
 	public void setImagePath(String imagePath) {
 		this.imagePath = imagePath;
+	}
+
+	public String getDocPath() {
+		return docPath;
+	}
+
+	public void setDocPath(String docPath) {
+		this.docPath = docPath;
 	}
 	
 
