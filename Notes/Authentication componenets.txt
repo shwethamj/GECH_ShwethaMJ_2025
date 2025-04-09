@@ -1,0 +1,119 @@
+
+AUTHENTICATION ARCHITECTURE:
+===========================
+	COMPONENETS: 
+		refer at " https://docs.spring.io/spring-security/reference/servlet/authentication/architecture.html#servlet-authentication-securitycontextholder"
+
+			1.SecurityContextHolder
+			2. SecurityContext
+			3. Authentication
+			4. GrantedAuthority
+			5. ProviderManager
+			6. AuthenticationProvider
+			7. AuthenticationEntryPoint
+			8. AbstractAuthenticationProcessingFilter
+			9.AuthenticationManager
+			
+	explaination;
+			1.SecurityContextHolder - The SecurityContextHolder is where Spring Security stores the details of who is authenticated.
+
+			2.SecurityContext - is obtained from the SecurityContextHolder and contains the Authentication of the currently authenticated user.
+
+			3.Authentication - Can be the input to AuthenticationManager to provide the credentials a user has provided to authenticate or the current user from the SecurityContext.
+
+			4.GrantedAuthority - An authority that is granted to the principal on the Authentication (i.e. roles, scopes, etc.)
+
+			5.AuthenticationManager - the API that defines how Spring Security’s Filters perform authentication.
+
+			6.ProviderManager - the most common implementation of AuthenticationManager. 
+
+			7.AuthenticationProvider - used by ProviderManager to perform a specific type of authentication.
+
+			8.Request Credentials with AuthenticationEntryPoint - used for requesting credentials from a client (i.e. redirecting to a log in page, sending a WWW-Authenticate response, etc.)
+
+			9.AbstractAuthenticationProcessingFilter - a base Filter used for authentication. This also gives a good idea of the high level flow of authentication and how pieces work together.
+	
+	
+		1. SecurityContext:
+		===================
+		* it an interface present in "org.springframework.security.core.context" package.
+		* when we are talking about securityContext we are taking about its implementing classes.
+		* it is used to store the Authentication object(fully authenticated object) after successfull login.
+
+		2. Authentication:
+		==================
+		* It is also interface present in "org.springframework.security.core" package.
+		*  when we are talking about Authentication we are taking about its implementing classes.
+
+		important implementing classes:
+		===============================
+		JwtAuthenticationToken, OAuth2LoginAuthenticationToken,
+		UsernamePasswordAuthenticationToken
+
+		3. AuthenticationManager:
+		==========================
+		* it is also an Functional Interface present inside "org.springframework.security.authentication" package.
+		* when we are talking about AuthenticationManager we are taking about its implementing classes.
+		* it has only one method called "authenticate".
+		* the job of Authentication Manager is to provide fully authenticated object(Authentication object).
+
+		* authenticate -> it is a method present in Authentication Manager it will take Authentication request as parameter and return fully athentcated object
+
+		* ProviderManager -> it a class that give implemention for athentcate method present in AuthenticationManager.
+
+
+		fully authentication object:
+		============================
+		it contains
+
+		1.Principal - Means user information email,name, expriation
+		2. credentials - password (after authenticateduser it will be null, for security reasons)
+		3. authorities - roles
+
+
+		AuthenticationProvider:
+		=======================
+		* it an interface present in "org.springframework.security.authentication" package.
+		* * when we are talking about AuthenticationProvider we are taking about its implementing classes.
+
+		important implementing classes:
+		===============================
+		DaoAuthenticationProvider, JwtAuthenticationProvider, OAuth2LoginAuthenticationProvider
+
+		* providerManager will not give a implemention for authenticate method.
+		* providerManager has list of AuthenticationProviders
+
+		authentication mechanism       providerManager(take help)
+		========================      ===========================
+		 username and password ----------> DaoAuthenticationProvider
+		 JWt ------------------------> JwtAuthenticationProvider
+		 OAuth2 ---------------------> OAuth2LoginAuthenticationProvider.
+		 
+		* One of the AuthenticationProviders will give the implemention for athentcate method.
+
+		AuthenticationEntryPoint:
+		=========================
+		* it is an interface present inside "org.springframework.security.web" pckages
+		* when we are talking about AuthenticationEntryPoint we are taking about its implementing classes.
+		* it is a entry point for authenticated request(given credetials(username and password) or not).
+		* when ever the user will not provide credentials(unauthenticated request) it will rediretc to /login page.
+
+
+		AbstractAuthenticationProcessingFilter:
+		=======================================
+		* it ia a abstract class present in "org.springframework.security.web.authentication" package.
+		* when we are talking about AbstractAuthenticationProcessingFilter we are taking about its implementing classes.
+
+		* subclass/implementing classes
+		===============================
+		OAuth2LoginAuthenticationFilter, UsernamePasswordAuthenticationFilter
+
+		* it will take a request from FilterChainProxy or Servlet Container.
+		* the job of AbstractAuthenticationProcessingFilter is to modify the http request into authenticated request and will pass to AuthenticationManager.
+
+
+		* the main goal of sprig secirty is to create a store the authentication object in securityContext.
+
+		SecurityContextHolder :
+		=======================
+		* it is a warpper around securityContext
