@@ -1,0 +1,68 @@
+UserDetailsService and PasswordEncoder:
+=======================================
+How to use apring security in application:
+==========================================
+* by adding (spring security)
+	<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+	</dependency>
+	<dependency>
+			<groupId>org.thymeleaf.extras</groupId>	<artifactId>thymeleaf-extras-springsecurity6</artifactId>
+	</dependency>
+
+UserDetailsService:
+===================
+* it an Interface  present in 
+"org.springframework.security.core.userdetails" package.
+* when we are talking about UserDetailsService we are taking about its implementing classes.
+* implementing class "InMemoryUserDetailsManager".
+* job of UserDetailsService to get the details of the user based on username.
+* it will take a help of UserDetails.
+
+UserDetails:
+============
+* It is an interface present in "org.springframework.security.core.userdetails" package.
+* when we are talking about UserDetails we are taking about its implementing classes.
+* implementing class "User".
+
+PasswordEncoder:
+================
+* it is an Interface presernt in "org.springframework.security.crypto.password" package.
+* when we are talking about PasswordEncoder we are taking about its implementing classes.
+* provide two functionalities
+	1. it will encode the password
+	2. it will verifies the password
+
+How to override the default spring security default flow:
+=========================================================
+1. create a class and annotate with @Configuration.
+2. in this class create a bean of UserDetailsService and PasswordEncoder.
+3. Inside the userdetailsservice craete a user using User class.
+
+
+	InMemoryUserDetailsManager
+	--------------------------------------------------
+	   return new InMemoryUserDetailsManager(user1,user2);
+	   -->no args constructor (method) in UserDetails pacalkage which will create and store UserDetails objects
+	   --> this is INMEMORY DEFAULT AUTHENTICATION 
+	   -->wecreate this in @Configuration class and register userDetailsService as a @bean as below
+	   EXAMPLE:
+		    @Configuration
+			public class UserConfiguration {
+			
+			@Bean
+			public PasswordEncoder passwordEncoder() {
+				return new BCryptPasswordEncoder();
+			}
+			
+			@Bean
+			public UserDetailsService userDetailsService() {
+			UserDetails user1 =	User.withUsername("shwetha").password(passwordEncoder().encode("shwetha123")).roles("ADMIN").build();
+			
+			UserDetails user2 =	User.withUsername("gagan").password(passwordEncoder().encode("gagan")).roles("USER").build();
+			
+			return new InMemoryUserDetailsManager(user1,user2); // no args constructor (method) in UserDetails pacalkage which will create and store UserDetails objects
+			}
+		}
+			   

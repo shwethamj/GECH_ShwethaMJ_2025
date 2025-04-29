@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Profile Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <style>
+        .card {
+            width: 220px;
+            height: 260px;
+            border-radius: 15px;
+            text-align: center;
+            margin: 10px;
+            padding: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .delete-btn {
+            color: red;
+            cursor: pointer;
+            font-size: 20px;
+        }
+
+        .profile-img {
+           width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+            border: 2px solid white;
+            object-fit: cover;
+        
+        }
+
+        .form-container {
+            max-width: 500px;
+            margin: auto;
+        }
+
+        .profile-name {
+            font-weight: bold;
+            margin-top: 5px;
+        }
+
+        .font-size-display {
+            font-weight: 500;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body class="bg-light">
+
+<div class="container py-4">
+    <h2 class="text-center mb-4">Profile Form</h2>
+
+    <div class="form-container p-4 bg-white rounded shadow-sm">
+        <form th:action="@{/profiles}" th:object="${profile}" method="post">
+            <div class="mb-3">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" th:field="*{name}" required />
+            </div>
+
+            <div class="mb-3">
+                <label>Gender:</label><br>
+                <input type="radio" th:field="*{gender}" value="Male" /> Male
+                <input type="radio" th:field="*{gender}" value="Female" /> Female
+            </div>
+
+            <div class="mb-3">
+                <label>Favorite Color:</label>
+                <input type="color" th:field="*{color}" />
+            </div>
+
+            <div class="mb-3">
+                <label for="fontSize">Font Size (1 to 10):</label>
+                <input type="range" min="1" max="10" th:field="*{fontSize}" />
+                <span class="font-size-display" th:text="|Font Size: *{fontSize}px|"></span>
+            </div>
+
+            <div class="d-grid">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="d-flex flex-wrap justify-content-center mt-5">
+        <div class="card m-2"
+             th:each="profile : ${profiles}"
+             th:style="'background-color:' + ${profile.color}">
+
+            <!-- ✅ Correct image loading -->
+           <img th:if="${profile.gender == 'Male'}" th:src="@{/images/male.png}" alt="Male Avatar" />
+        <img th:if="${profile.gender == 'Female'}" th:src="@{/images/female.png}" alt="Female Avatar" />
+
+
+            <!-- ✅ Centered text with dynamic font size -->
+            <div class="profile-name"
+                 th:text="${profile.name}"
+                 th:style="'font-size:' + ${profile.fontSize} + 'px'">
+            </div>
+
+            <!-- ✅ Delete button -->
+            <a th:href="@{/profiles/delete/{id}(id=${profile.id})}"
+               class="text-decoration-none" aria-label="Delete profile">
+                <i class="delete-btn bi bi-trash-fill"></i>
+            </a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Employee</title>
+</head>
+<body style="margin:100px;">
+    <h1>Edit Employee</h1>
+    
+    <form th:action="@{/edit-employee(id=${employee.id})}" method="post"  enctype="multipart/form-data" th:object="${employeeDTO}" novalidate>
+         
+        <label for="name">Name:</label>
+        <input type="text" th:field="*{name}" name="name" id="name" placeholder="Enter employee name" required><br>
+        <p th:if="${#fields.hasErrors('name')}" th:errors="*{name}"></p>
+           
+        <label for="age">Age:</label>
+        <input type="number" th:field="*{age}" name="age" id="age" placeholder="Enter employee age" required><br>
+        <p th:if="${#fields.hasErrors('age')}" th:errors="*{age}"></p>
+           
+        <label for="email">Email:</label>
+        <input type="email" th:field="*{email}" name="email" id="email" placeholder="Enter employee email" required><br>
+        <p th:if="${#fields.hasErrors('email')}" th:errors="*{email}"></p>
+           
+        <label for="password">Password:</label>
+        <input type="password" th:field="*{password}" name="password" id="password" placeholder="Enter employee password" required><br>
+        <p th:if="${#fields.hasErrors('password')}" th:errors="*{password}"></p>
+
+          <label for="image">Image</label>
+          <input type="file" id="image" th:field="*{image}" ><br>
+          <p th:if="${#fields.hasErrors('image')}" th:errors="*{image}"></p>
+          
+          <label for="document">Document</label>
+          <input type="file" id="document" th:field="*{document}" ><br>
+          <p th:if="${#fields.hasErrors('document')}" th:errors="*{document}"></p>
+          
+        <input type="submit" value="Edit Employee">
+    </form>
+</body>
+</html>
