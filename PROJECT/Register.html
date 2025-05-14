@@ -1,228 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Dental Tools Supply - Login</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Register - Dental Tool Supply</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      scroll-behavior: smooth;
-    }
-    
     body {
-      font-family: 'Arial', sans-serif;
-      background-color: #f5f5f5;
-      color: #333;
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
-    
-    /* Header */
-    .header {
-      background-color: #a9c8aa;
-      padding: 20px 30px;
-      color: white;
+    .register-container {
+      min-height: 80vh;
       display: flex;
-      justify-content: space-between;
       align-items: center;
-      flex-wrap: wrap;
-    }
-    
-    .header h1 {
-      font-size: 24px;
-    }
-    
-    .header nav {
-      display: flex;
-      flex-wrap: wrap;
-    }
-    
-    .header nav a {
-      color: white;
-      text-decoration: none;
-      margin-left: 15px;
-      padding: 8px 15px;
-      background-color: #a9c8aa;
-      border-radius: 5px;
-      transition: background-color 0.3s ease, transform 0.3s ease;
-    }
-    
-    .header nav a:hover {
-      background-color: #a9c8aa;
-      transform: scale(1.05);
-    }
-
-    /* Main Content */
-    .main-content {
-      flex: 1; /* Important to push footer down */
-      display: flex;
       justify-content: center;
-      align-items: center;
-      padding: 50px 20px;
     }
-
-    /* Login Container */
-    .login-container {
-      background: white;
-      padding: 50px 40px;
+    .card {
+      max-width: 500px;
       width: 100%;
-      max-width: 400px;
+      padding: 30px;
       border-radius: 12px;
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-      text-align: center;
-      animation: fadeIn 0.8s ease;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     }
-    
-    .login-container h2 {
-      margin-bottom: 25px;
-      font-size: 30px;
-      color: #4CAF50;
-    }
-    
-    .login-form {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-    }
-    
-    .login-form input {
-      padding: 14px 18px;
-      font-size: 16px;
-      border: 1px solid #ccc;
-      border-radius: 8px;
-      transition: border-color 0.3s ease, box-shadow 0.3s ease;
-    }
-    
-    .login-form input:focus {
-      outline: none;
-      border-color: #4CAF50;
-      box-shadow: 0 0 8px rgba(76, 175, 80, 0.5);
-    }
-    
-    .login-form button {
-      background-color: #61b881;
-      color: white;
-      font-size: 18px;
-      font-weight: bold;
-      padding: 14px;
-      border: none;
-      border-radius: 8px;
-      cursor: pointer;
-      transition: background-color 0.3s ease, transform 0.3s ease;
-    }
-    
-    .login-form button:hover {
-      background-color: #388E3C;
-      transform: scale(1.05);
-    }
-    
-    .small-text {
-      margin-top: 15px;
-      font-size: 14px;
-      color: #777;
-    }
-    
-    /* Fade In Animation */
-    @keyframes fadeIn {
-      0% {
-        opacity: 0;
-        transform: translateY(-20px);
-      }
-      100% {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-    
-    /* Footer */
     .footer {
-      background-color: #333;
+      background-color: #343a40;
       color: white;
-      text-align: center;
-      padding: 15px 10px;
-      font-size: 14px;
+      padding: 40px 0;
     }
-
-    /* Responsive Design */
-    @media (max-width: 768px) {
-      .header {
-        flex-direction: column;
-        text-align: center;
-      }
-    
-      .header nav {
-        margin-top: 10px;
-      }
+    .footer a {
+      color: white;
+      margin-right: 15px;
+      font-size: 1.2rem;
     }
-
-    @media (max-width: 480px) {
-      .header h1 {
-        font-size: 20px;
-      }
-    
-      .header nav a {
-        margin: 5px;
-        padding: 6px 12px;
-      }
-
-      .main-content {
-        padding: 30px 15px;
-      }
-    
-      .login-container {
-        padding: 30px 20px;
-      }
-
-      .login-container h2 {
-        font-size: 24px;
-      }
-    
-      .login-form input {
-        padding: 12px 14px;
-        font-size: 15px;
-      }
-    
-      .login-form button {
-        font-size: 16px;
-        padding: 12px;
-      }
-
-      .footer {
-        font-size: 12px;
-      }
+    .footer a:hover {
+      color: #0d6efd;
+    }
+    .navbar{
+      background-color: #284d85;
     }
   </style>
 </head>
 <body>
 
-<header class="header">
-  <h1><i class="fa-solid fa-tooth"></i> Dental Tools Supply</h1>
-  <nav>
-    <a href="index.html" class="btn">Home</a>
-    <a href="contact.html" class="btn">Contact</a>
-  </nav>
-</header>
-
-<main class="main-content">
-  <div class="login-container">
-    <h2>Register form</h2>
-    <form class="login-form" action="dashboard.html" method="get">
-      <input type="text" placeholder="Username" required>
-      <input type="Email" placeholder="Email" required>
-      <input type="password" placeholder="Password" required>
-      <button type="submit" class="big-btn">Register</button>
-    </form>
-    <p class="small-text">if any queries|Contact Admin.</p>
+<!-- Header -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="./images/logo.png" alt="Logo" class="d-inline-block align-text-top" />
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="./aboutus.html">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="./contact.html"">Contact Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="./login.html">Login</a></li>
+        
+      </ul>
+    </div>
   </div>
-</main>
+</nav>
 
-<footer class="footer">
-  <p>© 2025 Dental Tools Supply. All rights reserved.</p>
+<!-- Register Form -->
+<section class="register-container">
+  <div class="card">
+    <h3 class="text-center mb-4">Create an Account</h3>
+    <form>
+      <div class="mb-3">
+        <label for="fullname" class="form-label">Full Name</label>
+        <input type="text" class="form-control" id="fullname" placeholder="Enter your full name" required>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email Address</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+      </div>
+      <div class="mb-3">
+        <label for="phone" class="form-label">Phone Number</label>
+        <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number" required>
+      </div>
+      <div class="mb-3">
+        <label for="password1" class="form-label">Password</label>
+        <input type="password" class="form-control" id="password1" placeholder="Create password" required>
+      </div>
+      <div class="mb-3">
+        <label for="password2" class="form-label">Confirm Password</label>
+        <input type="password" class="form-control" id="password2" placeholder="Confirm password" required>
+      </div>
+      <div class="d-grid">
+        <button type="submit" class="btn btn-primary">Register</button>
+      </div>
+      <p class="text-center mt-3">Already have an account? <a href="./login.html">Login here</a></p>
+    </form>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer mt-5">
+  <div class="container">
+    <div class="row">
+      <!-- Social Media -->
+      <div class="col-md-6 mb-3">
+        <h5>Follow Us</h5>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+      <!-- Contact Info -->
+      <div class="col-md-6">
+        <h5>Contact Us</h5>
+        <p><i class="fas fa-map-marker-alt"></i> 123 Dental Street, Bengaluru, India</p>
+        <p><i class="fas fa-phone"></i> +91 98765 43210</p>
+        <p><i class="fas fa-envelope"></i> info@dentaltoolsupply.com</p>
+      </div>
+    </div>
+  </div>
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>

@@ -1,99 +1,175 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Contact</title>
-
-  <!-- BOOTSTRAP CSS First -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-
-  <!-- YOUR CUSTOM CSS AFTER Bootstrap -->
-  <link rel="stylesheet" href="style.css" />
+  <title>Contact Us - Dental Tool Supply</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .contact-header {
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1588776814933-944bfb5c36d8?auto=format&fit=crop&w=1950&q=80') center center/cover no-repeat;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+    .contact-header h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+    .contact-section {
+      padding: 60px 20px;
+    }
+    .contact-info i {
+      font-size: 1.5rem;
+      margin-right: 10px;
+      color: #0d6efd;
+    }
+    .footer {
+      background-color: #343a40;
+      color: white;
+      padding: 40px 0;
+    }
+    .footer a {
+      color: white;
+      margin-right: 15px;
+      font-size: 1.2rem;
+    }
+    .footer a:hover {
+      color:#0d6efd;
+    }
+  </style>
 </head>
-
 <body>
 
-  <!-- Header -->
-  <header class="bg-success text-white p-3">
-    <div class="container">
-      <nav class="d-flex justify-content-center gap-4">
-        <a href="index.html" class="text-white text-decoration-none">Home</a>
-        <a href="products.html" class="text-white text-decoration-none">Products</a>
-        <a href="contact.html" class="text-white text-decoration-none">Contact</a>
-        <a href="login.html" class="text-white text-decoration-none">Login/Register</a>
-      </nav>
+<!-- Header -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="./images/logo.png" alt="Logo" class="d-inline-block align-text-top" />
+      
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="./products.html">Product</a></li>
+        <li class="nav-item"><a class="nav-link" href="./shop.html">Shop</a></li>
+        <li class="nav-item"><a class="nav-link" href="./aboutus.html">About Us</a></li>
+        <li class="nav-item"><a class="nav-link active" href="./contact.html">Contact Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="./login.html">Login</a></li>
+        <li class="nav-item"><a class="nav-link" href="./Register.html">Register</a></li>
+      </ul>
     </div>
-  </header>
+  </div>
+</nav>
 
-  <!-- Contact Section -->
-  <section class="py-5">
-    <div class="container">
-      <h3 class="text-center mb-5">Contact Us</h3>
-      <div class="row justify-content-center">
-        <!-- Form Column -->
-        <div class="col-lg-6 col-12 mb-4">
-          <form method="post" class="p-4 shadow bg-white rounded">
-            <h4 class="mb-3">Get in touch</h4>
-            <div class="alert alert-success">If you need any information, fill below.</div>
+<!-- Hero Section -->
+<section class="contact-header">
+  <div class="container">
+    <h1>Contact Us</h1>
+    <p class="lead mt-3">We'd love to hear from you — get in touch with us today.</p>
+  </div>
+</section>
 
-            <div class="mb-3">
-                <label class="form-label" for="name">Name</label>
-                <input type="text" class="form-control" placeholder="Enter Name" required />
-              </div>
-            <div class="mb-3">
-              <label class="form-label" for="email">Email</label>
-              <input type="email" class="form-control" placeholder="Enter email" required />
-            </div>
-
-            <div class="mb-3">
-              <label class="form-label" for="question">Question</label>
-              <textarea class="form-control" rows="4" placeholder="Enter your question" required></textarea>
-            </div>
-
-            <button class="btn btn-success" type="submit">
-              Send <i class="fa-solid fa-paper-plane ms-2"></i>
-            </button>
-          </form>
+<!-- Contact Section -->
+<section class="contact-section container">
+  <div class="row gy-4">
+    <!-- Contact Form -->
+    <div class="col-md-6">
+      <h3>Send Us a Message</h3>
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">Your Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Full Name" required>
         </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Your Email</label>
+          <input type="email" class="form-control" id="email" placeholder="Email Address" required>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Your Message</label>
+          <textarea class="form-control" id="message" rows="5" placeholder="Type your message..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </div>
 
-        <!-- Info Cards Column -->
-        <div class="col-lg-6 col-12">
-          <div class="bg-light text-center p-4 mb-3 shadow rounded">
-            <i class="fa-solid fa-phone fa-2x mb-2 text-primary"></i>
-            <h5>8792359465</h5>
-            <p>Call us</p>
-          </div>
-          <div class="bg-light text-center p-4 shadow rounded">
-            <i class="fa-solid fa-envelope fa-2x mb-2 text-primary"></i>
-            <h5>dentaltoolsupply@gmail.com</h5>
-            <p>Write to us</p>
-          </div>
+    <!-- Contact Info & Map -->
+    <div class="col-md-6">
+      <h3>Our Contact Information</h3>
+      <p class="contact-info"><i class="fas fa-map-marker-alt"></i> 123 Dental Street, Bengaluru, India</p>
+      <p class="contact-info"><i class="fas fa-phone"></i> +91 98765 43210</p>
+      <p class="contact-info"><i class="fas fa-envelope"></i> info@dentaltoolsupply.com</p>
+      <div class="mt-4">
+        <iframe src="https://www.google.com/maps?q=Bengaluru%20Dental%20Clinic&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Developer Team Section -->
+<section class="container text-center my-5">
+  <h3 class="mb-4">Meet Our Developers</h3>
+  <div class="row g-4 justify-content-center">
+    <div class="col-md-4">
+      <div class="card border-0 shadow p-3">
+        <img src="./images/testi-1.jpg" class="rounded-circle mx-auto" width="120" height="120" alt="Dev 1">
+        <div class="card-body">
+          <h5 class="card-title">Arbiya Khanum</h5>
+          <p class="card-text">Frontend Developer</p>
         </div>
       </div>
     </div>
-  </section>
-
-  <!-- Map -->
-  <div class="container mb-5">
-    <div class="ratio ratio-16x9">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.405952846388!2d76.11921397412098!3d13.009800814041544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba5485b583251b7%3A0x513d895c8cc75816!2sGovernment%20Engineering%20College%2C%20Hassan!5e0!3m2!1sen!2sin!4v1740910754188!5m2!1sen!2sin"
-        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="col-md-4">
+      <div class="card border-0 shadow p-3">
+        <img src="./images/testi-2.jpg" class="rounded-circle mx-auto" width="120" height="120" alt="Dev 2">
+        <div class="card-body">
+          <h5 class="card-title">Shwetha M J</h5>
+          <p class="card-text">UI/UX Designer</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card border-0 shadow p-3">
+        <img src="./images/testi-3.jpg" class="rounded-circle mx-auto" width="120" height="120" alt="Dev 3">
+        <div class="card-body">
+          <h5 class="card-title">Suchithra S</h5>
+          <p class="card-text">Backend Developer</p>
+        </div>
+      </div>
     </div>
   </div>
+</section>
 
-  <!-- Footer -->
-  <footer class="bg-success text-white text-center p-3">
-    &copy; 2025 Dental Supply Management Team.
-  </footer>
+<!-- Footer -->
+<footer class="footer mt-5">
+  <div class="container">
+    <div class="row">
+      <!-- Social Media -->
+      <div class="col-md-6 mb-3">
+        <h5>Follow Us</h5>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+      <!-- Contact Info -->
+      <div class="col-md-6">
+        <h5>Contact Us</h5>
+        <p><i class="fas fa-map-marker-alt"></i> 123 Dental Street, Bengaluru, India</p>
+        <p><i class="fas fa-phone"></i> +91 98765 43210</p>
+        <p><i class="fas fa-envelope"></i> info@dentaltoolsupply.com</p>
+      </div>
+    </div>
+  </div>
+</footer>
 
-  <!-- Bootstrap JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>

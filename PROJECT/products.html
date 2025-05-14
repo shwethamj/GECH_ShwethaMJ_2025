@@ -1,25 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Products</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Products - Dental Tool Supply</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+  <style>
+    .product-card img {
+      height: 200px;
+      object-fit: cover;
+    }
+    .footer {
+      background-color: #343a40;
+      color: white;
+      padding: 40px 0;
+    }
+    .footer a {
+      color: white;
+      margin-right: 15px;
+    }
+    .footer a:hover {
+      color: #0d6efd;
+    }
+    .navbar{
+      background-color: #284d85;
+    }
+  </style>
 </head>
-
 <body>
-    <header>
-        <nav><a href="index.html">Home</a> | <a href="products.html">Products</a> | <a href="contact.html">Contact</a> |
-            <a href="login.html">Login/Register</a></nav>
-    </header>
-    <main>
-        <h1>Products</h1>
-        <div class="product-grid"></div>
-    </main>
-    <footer>
-        <p>&copy; 2025 Dental Supply Management Team.</p>
-    </footer>
-</body>
 
+<!-- Header -->
+<nav class="navbar navbar-expand-lg navbar-dark ">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="./images/logo.png"" alt="Logo" class="d-inline-block align-text-top" />
+      
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link active" href="./products.html">Product</a></li>
+        <li class="nav-item"><a class="nav-link" href="./shop.html">Shop</a></li>
+        <li class="nav-item"><a class="nav-link" href="./aboutus.html">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="./contact.html">Contact Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="./login.html">Login</a></li>
+        <li class="nav-item"><a class="nav-link" href="./Register.html">Register</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Page Title and Search -->
+<div class="container my-5">
+  <div class="d-flex justify-content-between align-items-center flex-wrap mb-4">
+    <h2 class="mb-3">Our Products</h2>
+    <input type="text" id="searchInput" class="form-control w-50" placeholder="Search products..." onkeyup="filterProducts()" />
+  </div>
+
+  <!-- Products Grid -->
+  <div class="row" id="productGrid">
+    <div class="col-md-3 mb-4 product-card">
+      <div class="card h-100">
+        <img src="./images/cart-1.jpg" class="card-img-top" alt="Scaler">
+        <div class="card-body">
+          <h5 class="card-title">Dental Scaler</h5>
+          <p class="card-text">High-quality stainless steel dental scaler for plaque removal.</p>
+          <p><strong>$25</strong></p>
+          <a href="./cart.html" class="btn btn-primary">Add to Cart</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4 product-card">
+      <div class="card h-100">
+        <img src="./images/cart-2.1.jpg" class="card-img-top" alt="Mirror">
+        <div class="card-body">
+          <h5 class="card-title">Dental Mirror</h5>
+          <p class="card-text">Fog-free dental mirror with ergonomic grip for clinical use.</p>
+          <p><strong>$15</strong></p>
+          <a href="./cart.html" class="btn btn-primary">Add to Cart</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4 product-card">
+      <div class="card h-100">
+        <img src="./images/cart-3.1.jpg" class="card-img-top" alt="Forceps">
+        <div class="card-body">
+          <h5 class="card-title">Extraction Forceps</h5>
+          <p class="card-text">Durable forceps designed for tooth extraction procedures.</p>
+          <p><strong>$40</strong></p>
+          <a href="./cart.html" class="btn btn-primary">Add to Cart</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row" id="productGrid">
+  <div class="col-md-4 mb-4 mr-4 product-card">
+    <div class="card h-100">
+      <img src="./images/cart-3.jpg" class="card-img-top" alt="Scaler">
+      <div class="card-body">
+        <h5 class="card-title">Dental Scaler</h5>
+        <p class="card-text">High-quality stainless steel dental scaler for plaque removal.</p>
+        <p><strong>$25</strong></p>
+        <a href="./cart.html" class="btn btn-primary">Add to Cart</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3 mb-4 product-card">
+    <div class="card h-100">
+      <img src="./images/cart-4.1.jpg" class="card-img-top" alt="Mirror">
+      <div class="card-body">
+        <h5 class="card-title">Dental Mirror</h5>
+        <p class="card-text">Fog-free dental mirror with ergonomic grip for clinical use.</p>
+        <p><strong>$15</strong></p>
+        <a href="./cart.html" class="btn btn-primary">Add to Cart</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3 mb-4 product-card">
+    <div class="card h-100">
+      <img src="./images/cart-big1.jpg" class="card-img-top" alt="Forceps">
+      <div class="card-body">
+        <h5 class="card-title">Extraction Forceps</h5>
+        <p class="card-text">Durable forceps designed for tooth extraction procedures.</p>
+        <p><strong>$40</strong></p>
+        <a href="./cart.html" class="btn btn-primary">Add to Cart</a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- Footer -->
+<footer class="footer mt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 mb-3">
+        <h5>Follow Us</h5>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+      <div class="col-md-6">
+        <h5>Contact Us</h5>
+        <p><i class="fas fa-map-marker-alt"></i> 123 Dental Street, Bengaluru, India</p>
+        <p><i class="fas fa-phone"></i> +91 98765 43210</p>
+        <p><i class="fas fa-envelope"></i> info@dentaltoolsupply.com</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- JS -->
+<script>
+  function filterProducts() {
+    const input = document.getElementById('searchInput').value.toLowerCase();
+    const cards = document.querySelectorAll('#productGrid .product-card');
+    cards.forEach(card => {
+      const title = card.querySelector('.card-title').textContent.toLowerCase();
+      card.style.display = title.includes(input) ? 'block' : 'none';
+    });
+  }
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
