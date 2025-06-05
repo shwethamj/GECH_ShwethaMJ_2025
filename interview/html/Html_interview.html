@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html mock interview</title>
+</head>
+<body>
+
+<!-- explain inline and block elemnts with example -->
+     <h1>inline elements</h1>
+     <p>it is <span>the</span> inline</p>
+     
+     <h1>block elements</h1>
+     <div>bloc tags are div, p ,h1-h6, etc..</div>
+     <p>consloe</p>
+
+<!-- call the js and print hello world in p tag -->
+     <p id="demo"></p>
+
+<!-- difference betwen display and visibility -->
+     <div style="display:  none;">none</div>
+     <div style="visibility: hidden;"> hidden</div>
+
+<!--create a form using fieldset and legend -->
+     <form action="#" method="post">
+        <fieldset>
+            <legend>personal Info</legend>
+            <label for="name">Name</label>
+            <input type="text" placeholder="name" id="name"><br><br>
+
+            <label for="email">Email</label>
+            <input type="email" placeholder="email" id="name"><br><br>
+
+            <label for="address">Adress</label>
+            <input type="text" placeholder="address" id="address"><br><br>
+        </fieldset>
+     </form>
+</body>
+
+<!-- to print hello world in the place of p tag -->
+<script>
+    document.getElementById("demo").innerHTML="hello world"
+</script>
+
+</html>

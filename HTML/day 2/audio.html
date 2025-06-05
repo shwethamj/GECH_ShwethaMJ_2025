@@ -8,7 +8,7 @@
 <body>
     <!-- Inserting Audio in HTML -->
      <h1>Audio</h1>
-     <audio src="./harrypotter.mp3" controls autoplay muted>audio</audio>
+     <audio src="./harrypotter.mp3" controls autoplay muted loop>audio</audio>
      <br>
      <audio controls autoplay muted>
         <source src="./harrypotter.mp3" type="audio/mp3"> 
@@ -16,7 +16,7 @@
      </audio>
 
      <!-- inserting video in HTML -->
-      <h1>VIDEO</h1>
+      <h1 id="one">VIDEO</h1>
       <video src="pepsicoanimatedvideo.mp4" controls autoplay muted loop>Video</video>
       <br>
       <video controls autoplay muted loop>
@@ -25,4 +25,8 @@
   
       <br>
 </body>
+<script>
+ const pro= document.getElementById("id").innerText="audio"
+ console.log(pro)
+</script>
 </html>
