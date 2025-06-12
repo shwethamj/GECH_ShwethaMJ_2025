@@ -1,5 +1,5 @@
 /**
- * function types
+ * function types 
  * 1. no argument and no return value
  * 
  */
@@ -7,7 +7,7 @@
  // no argument no return value
  #include<stdio.h>
   void hello(){
-    printf("\n no arg and no return value: HELLO \n");
+    printf("no arg and no return value: HELLO \n");
     printf("\n ");
 
 }

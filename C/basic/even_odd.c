@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main(){
 
+    //  EVEN AND ODD NUMBERS 
     int num;
     printf("Enter a number \n");
     scanf("%d",&num);

@@ -1,3 +1,6 @@
+
+// SUM OF EVEN AND ODD NUMBERS
+
 #include<stdio.h>
 int main(){
     int n ,i;
