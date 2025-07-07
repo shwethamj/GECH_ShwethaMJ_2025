@@ -7,15 +7,15 @@ import java.util.List;
 public class ArrayListDemo1 {
 
 	public static void main(String[] args) {
-		 //List<Integer> list = new ArrayList();t is also right
+	//List<Integer> list = new ArrayList();t is also right
 		List<Integer> list = new ArrayList<>();
 		list.add(2);
 		list.add(3);
 		list.add(10);
 		list.add(5);
 		
-		// different ways to  iterate through arrayList
-		
+	// different ways to  iterate through arrayList
+		 	
 	// 1.using traditional for loop
 		
 		for (int i =0; i<list.size();i++) {

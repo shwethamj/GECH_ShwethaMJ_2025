@@ -21,9 +21,9 @@ int main(){
     printf("the value of first element using arr : %d\n",*arr);
 
     // using ptr
-    printf("the value of first element using ptr : %d\n",ptr[0]);
-    printf("the value of first element using ptr : %d\n",0[ptr]);
-    printf("the value of first element using ptr : %d\n",*ptr);
+    printf("the value of first element using ptr[0] : %d\n",ptr[0]);
+    printf("the value of first element using 0[ptr] : %d\n",0[ptr]);
+    printf("the value of first element using *ptr : %d\n",*ptr);
 
     //using increment method
     ptr++;

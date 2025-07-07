@@ -1,3 +1,4 @@
+
 #include<stdio.h>
 int main(){
     int n;
@@ -10,7 +11,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
 
-    int *ptr=arr;
+    int *ptr = arr; 
     int max =*ptr;
 
     for(int i= 1;i<n;i++){

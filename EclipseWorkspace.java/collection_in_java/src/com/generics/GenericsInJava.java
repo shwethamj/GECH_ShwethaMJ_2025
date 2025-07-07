@@ -37,6 +37,7 @@ public class GenericsInJava {
 		 System.out.println(list);
 		 int val = list.get(0); //no typecasting 
 		 System.out.println(val);
+		 System.out.println(list.get(1));
 		
 	}
 

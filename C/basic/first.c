@@ -5,7 +5,8 @@ int main(){
     // void don't retur anything
     // int is better
 
-    printf("hello");
+    printf("hello  world\n");
+    printf("good morning");
     return 0;
 
 }
