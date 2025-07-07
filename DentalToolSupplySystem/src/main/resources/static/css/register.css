@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+/* Body Styling */
+body {
+  background: linear-gradient(to right, #b2f7ef, #a0eac9); /* Soft fresh green */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 50px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Form Card Styling */
+section.container {
+  background: white;
+  padding: 40px 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  max-width: 480px;
+  width: 100%;
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Form Elements */
+.form-label {
+  font-weight: 600;
+  color: #2e5941;
+}
+
+.form-control,
+.form-select {
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 0.95rem;
+  border: 1px solid #ced4da;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #50b37b;
+  box-shadow: 0 0 0 0.2rem rgba(80, 179, 123, 0.2);
+}
+
+/* Button Styling */
+.btn-create {
+  background-color: #40d093; /* medium sea green */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  width: 100%;
+  margin-top: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-create:hover {
+  background-color: #2e8b57; /* darker green on hover */
+  cursor: pointer;
+}
+
+/* Links */
+a.text-decoration-underline {
+  color: #2e8b57;
+  text-decoration: underline;
+}
+
+a.text-decoration-underline:hover {
+  color: #206040;
+}
+
+/* Terms Checkbox Styling */
+.form-check-label {
+  font-size: 0.9rem;
+  color: #333;
+}
+
+/* Title Styling */
+h2.text-center {
+  color: #1d4d3e;
+  font-weight: 700;
+}
+
+/* Responsive Fix */
+@media (max-width: 576px) {
+  section.container {
+    padding: 30px 20px;
+  }
+}

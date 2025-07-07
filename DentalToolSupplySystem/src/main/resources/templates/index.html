@@ -1,0 +1,353 @@
+ <!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" th:replace="~{layout :: layout(~{::title}, ~{::section})}">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hygiene Dental Equipment-Home</title>
+  <link rel="stylesheet" th:href="@{css/style.css}" />
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+</head>
+
+<body>
+
+  <section>
+<!-- Carousel -->
+
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/images/index/slider1.webp" class="d-block w-100" alt="Slide 1">
+    </div>
+    <div class="carousel-item">
+      <img src="/images/index/slider2.webp" class="d-block w-100" alt="Slide 2">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!-- Categories -->
+<section class="categories-section py-5 text-center">
+  <div class="container">
+    <h2 class="mb-5 fw-bold">Categories</h2>
+    <div class="row g-4 justify-content-center">
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+        <div class="category-card p-3 rounded-4 shadow-sm h-100">
+          <img src="/images/categories/laboratory/laboratory.png" class="img-fluid rounded-4 mb-3" alt="Laboratory Equipment">
+          <h5 class="fw-semibold">Laboratory Equipment</h5>
+          <p class="text-muted small">We provide a wide range of laboratory equipment needed by dentists for dentistry.</p>
+        </div>
+      </div>
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+        <div class="category-card p-3 rounded-4 shadow-sm h-100">
+          <img src="/images/categories/operating/operating.png" class="img-fluid rounded-4 mb-3" alt="Operating Equipment">
+          <h5 class="fw-semibold">Operating Equipment</h5>
+          <p class="text-muted small">We provide high quality dental operating equipment required for dentistry.</p>
+        </div>
+      </div>
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+        <div class="category-card p-3 rounded-4 shadow-sm h-100">
+          <img src="/images/categories/surgical/surgical.png" class="img-fluid rounded-4 mb-3" alt="Surgical Equipment">
+          <h5 class="fw-semibold">Surgical Equipment</h5>
+          <p class="text-muted small">We provide all types of supreme grade equipment required for dental surgeries.</p>
+        </div>
+      </div>
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+        <div class="category-card p-3 rounded-4 shadow-sm h-100">
+          <img src="/images/categories/sterilisation/sterilisation.png" class="img-fluid rounded-4 mb-3" alt="Sterilisation Equipment">
+          <h5 class="fw-semibold">Sterilisation Equipment</h5>
+          <p class="text-muted small">We here provide a wide range of sterilisation needed equipment's and accessories.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- products -->
+<!-- Products Section -->
+ <div class="products">
+  <div class="container my-5">
+    <h2 class="text-center mb-4 fw-bold">Our Products</h2>
+        <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row justify-content-center gx-4">
+                <!-- Product Card Template -->
+                <div class="col-6 col-sm-4 col-md-2">
+                  <div class="card h-100 text-center border-0">
+                    <img src="/images/products/image1.jpg" class="card-img-top img-fluid" alt="Woodpecker Ultrasurgery">
+                    <div class="card-body p-2">
+                      <h6 class="card-title">Woodpecker Ultrasurgery</h6>
+                      <p class="text-muted mb-1">₹2,35,000</p>
+                      <button class="btn btn-sm btn-custom">Add</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-2">
+                  <div class="card h-100 text-center border-0">
+                    <img src="/images/products/image2.jpg" class="card-img-top img-fluid" alt="Dental Chairs">
+                    <div class="card-body p-2">
+                      <h6 class="card-title">Dental Chairs</h6>
+                      <p class="text-muted mb-1">₹1,20,000</p>
+                      <button class="btn btn-sm btn-custom">Add</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-2">
+                  <div class="card h-100 text-center border-0">
+                    <img src="/images/products/image3.jpg" class="card-img-top img-fluid" alt="GENORAY PAPAYA CUST OPG">
+                    <div class="card-body p-2">
+                      <h6 class="card-title">GENORAY PAPAYA CUST OPG</h6>
+                      <p class="text-muted mb-1">₹75,00,000</p>
+                      <button class="btn btn-sm btn-custom">Add</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-2">
+                  <div class="card h-100 text-center border-0">
+                    <img src="/images/products/image4.jpg" class="card-img-top img-fluid" alt="TRIOS 3 MONO POD">
+                    <div class="card-body p-2">
+                      <h6 class="card-title">TRIOS 3 MONO POD</h6>
+                      <p class="text-muted mb-1">₹9,60,355</p>
+                      <button class="btn btn-sm btn-custom">Add</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-2">
+                  <div class="card h-100 text-center border-0">
+                    <img src="/images/products/image5.jpg" class="card-img-top img-fluid" alt="BIOLASE EPIC X">
+                    <div class="card-body p-2">
+                      <h6 class="card-title">BIOLASE EPIC X</h6>
+                      <p class="text-muted mb-1">₹12,590</p>
+                      <button class="btn btn-sm btn-custom">Add</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-2">
+                  <div class="card h-100 text-center border-0">
+                    <img src="/images/products/image6.jpg" class="card-img-top img-fluid" alt="BIOLASE Waterlase MD">
+                    <div class="card-body p-2">
+                      <h6 class="card-title">BIOLASE Waterlase MD</h6>
+                      <p class="text-muted mb-1">₹9,995</p>
+                      <button class="btn btn-sm btn-custom">Add</button>
+                    </div>
+                  </div>
+                </div>
+    </div>
+  </div>
+  
+      <!-- Carousel Controls -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+ </div>
+
+
+<!-- aboout us section -->
+
+<section class="about-us-section py-5">
+  <div class="container text-center">
+    <h2 class="mb-4 fw-bold">About Us</h2>
+    <img src="/images/index/about us.png" 
+         alt="Dental Chair" 
+         class="img-fluid rounded-4 mb-4 shadow-sm mx-auto d-block" 
+         style="max-height: 400px; object-fit: cover;">
+    <p class="lead text-muted">
+      Our goal is to achieve excellence through the sale of highest quality dental tools and supplies. We, Dentaltech tools equipment, situated at Dairy circle, Hassan, Karnataka, are reputed for offering the comprehensive range of dental supplies, equipment and its parts, only of excellent and assured grade.
+      <br>
+      We are committed to magnify customer satisfaction by attending to all the needs and requirements of our prestigious client.
+    </p>
+  </div>
+</section>
+
+<!-- Why Us Section -->
+<section class="why-us-section py-5 text-center">
+  <div class="container">
+    <h2 class="mb-4 fw-bold">Why Us</h2>
+    <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 30px;">
+      <div>
+        <i class="fa-solid fa-circle-check" style="font-size: 48px; color: #007777;"></i>
+        <p class="fw-bold mt-2">Tested Products</p>
+      </div>
+      <div>
+        <i class="fa-solid fa-star" style="font-size: 48px; color: #007777;"></i>
+        <p class="fw-bold mt-2">Wide Range</p>
+      </div>
+      <div>
+        <i class="fa-solid fa-shield-halved" style="font-size: 48px; color: #007777;"></i>
+        <p class="fw-bold mt-2">High Quality</p>
+      </div>
+      <div>
+        <i class="fa-solid fa-face-smile" style="font-size: 48px; color: #007777;"></i>
+        <p class="fw-bold mt-2">Best Customer Service</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Gallery Section -->
+<section class="gallery-section py-5 text-center bg-light">
+  <div class="container">
+    <h2 class="mb-4 fw-bold">Gallery</h2>
+    <div class="row g-3">
+      <div class="col-12 col-sm-6 col-md-4">
+        <img src="images/gallery/image1.png" class="img-fluid rounded shadow-sm" alt="Gallery Image 1">
+      </div>
+      <div class="col-12 col-sm-6 col-md-4">
+        <img src="images/gallery/image2.png" class="img-fluid rounded shadow-sm" alt="Gallery Image 2">
+      </div>
+      <div class="col-12 col-sm-6 col-md-4">
+        <img src="images/gallery/image3.png" class="img-fluid rounded shadow-sm" alt="Gallery Image 3">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Videos Section -->
+<section id="videos" class="container py-5 text-center">
+  <h2 class="mb-4 fw-bold">Videos</h2>
+  <div class="row justify-content-center">
+    <div class="col-md-6 col-lg-5 mb-4 d-flex flex-column align-items-center">
+      <div class="video-wrapper">
+        <iframe src="https://www.youtube.com/embed/Crfag75ztP4" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <p class="mt-2 fw-bold">Oral surgery | instrumentation for extraction</p>
+    </div>
+    <div class="col-md-6 col-lg-5 mb-4 d-flex flex-column align-items-center">
+      <div class="video-wrapper">
+        <iframe src="https://www.youtube.com/embed/AAlwPSh_yzM" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <p class="mt-2 fw-bold">Basic dental instruments</p>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<!-- Contact Us Section -->
+<section class="max-w-7xl mx-auto my-16 p-6">
+  <h2 class="text-3xl fw-bold m-5">Contact us</h2>
+
+  <!-- Flex Container -->
+  <div class="flex flex-col lg:flex-row gap-12">
+
+    <!-- Map (Left Side) -->
+    <div class="w-full lg:w-1/2">
+      <img src="/images/contact/map.png" alt="Map Location" class="rounded-lg w-full h-auto object-cover" />
+    </div>
+
+    <!-- Contact Info (Right Side) -->
+    <div class="w-full lg:w-1/2 flex flex-col gap-8">
+
+      <!-- Address -->
+      <div class="flex items-start gap-4">
+        <i class="fas fa-map-marker-alt text-teal-500 text-2xl mt-1"></i>
+        <div>
+          <h4 class="text-xl font-semibold text-gray-800">Our Office Address</h4>
+          <p class="text-gray-700">
+            Palm Court Bldg M, 501/B, 5th Floor, B M Road,<br />
+            Beside Goregaon Sports Complex, Dairy Circle,<br />
+            Hassan, Karnataka 571313
+          </p>
+        </div>
+      </div>
+
+      <!-- Email -->
+      <div class="flex items-start gap-4">
+        <i class="fas fa-envelope text-teal-500 text-2xl mt-1"></i>
+        <div>
+          <h4 class="text-xl font-semibold text-gray-800">General Enquiries</h4>
+          <p class="text-gray-700">dentaltech@tool.com</p>
+        </div>
+      </div>
+
+      <!-- Phone -->
+      <div class="flex items-start gap-4">
+        <i class="fas fa-phone-alt text-teal-500 text-2xl mt-1"></i>
+        <div>
+          <h4 class="text-xl font-semibold text-gray-800">Call Us</h4>
+          <p class="text-gray-700">+91-7348974535</p>
+        </div>
+      </div>
+
+      <!-- Timing -->
+      <div class="flex items-start gap-4">
+        <i class="fas fa-clock text-teal-500 text-2xl mt-1"></i>
+        <div>
+          <h4 class="text-xl font-semibold text-gray-800">Our Timing</h4>
+          <p class="text-gray-700">Mon - Sun : 10:00 AM - 07:00 PM</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section class="container my-5">
+  <form>
+    <div class="row align-items-stretch">
+      
+      <!-- Left Inputs -->
+      <div class="col-md-6 d-flex flex-column justify-content-between">
+        <div class="mb-3 flex-grow-1">
+          <input type="text" class="form-control h-100" placeholder="Full Name">
+        </div>
+        <div class="mb-3 flex-grow-1">
+          <input type="tel" class="form-control h-100" placeholder="Mobile Number">
+        </div>
+        <div class="mb-3 flex-grow-1">
+          <input type="email" class="form-control h-100" placeholder="Email ID">
+        </div>
+      </div>
+
+      <!-- Right Textarea -->
+      <div class="col-md-6 d-flex flex-column">
+        <div class="mb-3 flex-grow-1 d-flex">
+          <textarea class="form-control w-100" placeholder="Message" style="resize: none;"></textarea>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Submit Button -->
+    <div class="text-center mt-4">
+      <button type="submit" class="btn btn-custom px-5 py-2">Send Message</button>
+    </div>
+
+  </form>
+</section>
+
+
+
+
+</section>
+ 
+</body>
+</html>

@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+/* Body Styling */
+body {
+  background: linear-gradient(to right, #b2f7ef, #a0eac9); /* Soft fresh green */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 50px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Form Card Styling */
+section.container {
+  background: #ffffff;
+  padding: 40px 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  max-width: 600px;
+  width: 100%;
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Fade‑in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Centered breadcrumb above form */
+.breadcrumb-container {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.breadcrumb-container .breadcrumb {
+  display: inline-block;
+  background: transparent;
+  padding: 0;
+  margin: 0;
+}
+.breadcrumb-container .breadcrumb-item + .breadcrumb-item::before {
+  content: " / ";
+  color: #2e5941;
+}
+
+/* Form Header */
+h2.text-center {
+  color: #1d4d3e;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+/* Labels */
+.form-label {
+  font-weight: 600;
+  color: #2e5941;
+}
+
+/* Inputs */
+.form-control {
+  width: 100%;
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 0.95rem;
+  border: 1px solid #ced4da;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+.form-control:focus {
+  border-color: #50b37b;
+  box-shadow: 0 0 0 0.2rem rgba(80, 179, 123, 0.2);
+  outline: none;
+}
+
+/* Password toggle icon wrapper */
+.input-group-text {
+  background-color: #f1f1f1;
+  border-left: none;
+  border-radius: 0 8px 8px 0;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+/* Sign In Button */
+.btn-custom {
+  background-color: #40d093; /* medium sea green */
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 8px;
+  width: 100%;
+  margin-top: 20px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 12px rgba(64, 208, 147, 0.4);
+}
+.btn-custom:hover,
+.btn-custom:focus {
+  background-color: #2e8b57; /* darker green */
+  box-shadow: 0 6px 16px rgba(46, 139, 87, 0.6);
+  outline: none;
+}
+
+/* Links */
+.text-decoration-underline {
+  color: #2e8b57;
+  text-decoration: underline;
+}
+.text-decoration-underline:hover {
+  color: #206040;
+  text-decoration: none;
+}
+
+/* “Forgot your password?” text */
+.text-end a {
+  font-size: 0.9rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+  section.container {
+    padding: 30px 20px;
+  }
+}
