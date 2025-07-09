@@ -34,7 +34,7 @@
         <td th:text="${item.price}"></td>
         <td th:text="${item.quantity}"></td>
         <td class="actions">
-            <a class="btn btn-primary" th:href="@{/inventory-edit(id=${item.id})}">Edit</a>
+            <a class="btn btn-primary" th:href="@{/edit-inventory(id=${item.id})}">Edit</a>
             <a class="btn btn-danger" th:href="@{/inventory-delete(id=${item.id})}" onclick="return confirm('Are you sure to delete this item?')">Delete</a>
         </td>
     </tr>

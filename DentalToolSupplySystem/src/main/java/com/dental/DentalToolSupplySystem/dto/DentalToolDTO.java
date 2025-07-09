@@ -3,8 +3,7 @@ package com.dental.DentalToolSupplySystem.dto;
 
 
 public class DentalToolDTO {
-	
-	
+		
 	private String name;
 	private String email;
 	private String password;

@@ -56,12 +56,13 @@ public class InventoryService {
 	}
 
 	public void updateInventory(InventoryDTO inventoryDTO, Long id) {
-		Inventory inventory =  inventoryRepository.findById(id).get();
-		inventoryDTO.setName(inventory.getName());
-		inventoryDTO.setPrice(inventory.getPrice());
-		inventoryDTO.setQuantity(inventory.getQuantity());
-		
-		inventoryRepository.save(inventory);
+	    Inventory inventory = inventoryRepository.findById(id).get();
+	    inventory.setName(inventoryDTO.getName());
+	    inventory.setPrice(inventoryDTO.getPrice());
+	    inventory.setQuantity(inventoryDTO.getQuantity());
+
+	    inventoryRepository.save(inventory);
 	}
+
 
 }

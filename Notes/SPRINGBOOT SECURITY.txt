@@ -8,12 +8,14 @@ AUTHORIZATION -> ACCCESS OR ROLES OR PERMISSIONS
 
 FROM ARCHITECTURE:
 ------------------
+	IOC-- INVERSION OF CONTROLL-giving control of object creation
 		(refer the drawio diagram(it can open by website called draw io)
 		 which is saved in notes(gech-shwetha-2025) for architecture)
 	
 		1. DISPATURE SERVLET(DS) -> WILL HANDLE THE REQUEST AND MAPPING INTERNALLY
+it used to connect the search to controller
 		2.HANDLER MAPPING-> INTERFACE BETWEEN CONTROLLER AND FRONT END AND BEFORE GOING TO dS THERE ARE SOME FILTERS PRESENT IT WILL PASS THROUGH THEM
-		3.TOMCAT -> embedded server/internal server inside the springboot used for managing filters(from birth to death of servlet manged by tomcat)
+		3.TOMCAT -> embedded server/internal server inside the springboot used for managing filters(from birth to death of servlet manged by tomcat) and servlet container to manage service
 		4. DelegatingFilterProxy -- one of the imp filters 
 		5. Spring intializer  has one depedency called SpringSecurity - this should be used inside our project 
 		  	<depedency> <groupId>org.sprigframework.security </groupId> </depedency>
@@ -23,10 +25,31 @@ FROM ARCHITECTURE:
 				- OAuth2.0 authetication -using github,google,facebook
 			Ex: When we log in any website, we can either login through username and password or login using google - OAuth2.O
 
-(below is sir wriiten)			
+
+(below is sir wriiten)	
+=========================
+we can authentication user in multiple ways
+===========================================
+* username and password.
+* JWT(json web token) Token.
+* OAuth2.0 authentication - github, google, facebook.
+
+
+
+		
 >> By default spring security gives 2 authentication with username and password.
-	1. For Rest API spring boot,-- spring security will provide -HTTPBasicAuthentication.
-	2. For MVC,-- spring will provide - formBasedAuthentication.
+	1).For Rest API spring boot,-- spring security will provide -HTTPBasicAuthentication.
+
+HttpbasicAuthentication:
+=======================
+* we can pass username and password in auth tab by selecting basic auth
+* headers we have to pass by 
+"Basic username:password"->in Base64 encode
+
+shwetha:Shwetha@123->"Basic c3dhdGhpOlN3YXRoaUAxMjM="  ->encode code
+
+
+	2).For MVC,-- spring will provide - formBasedAuthentication.
 >> For both of the above methods it will use username and password.
 
 >> When we use security dependency, when we run the page it will redirect to login page /login where we need to sign in through username and password

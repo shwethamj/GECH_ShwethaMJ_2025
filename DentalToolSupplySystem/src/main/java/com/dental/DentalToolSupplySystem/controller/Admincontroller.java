@@ -3,6 +3,7 @@ package com.dental.DentalToolSupplySystem.controller;
 import com.dental.DentalToolSupplySystem.dto.DentalToolDTO;
 import com.dental.DentalToolSupplySystem.dto.InventoryDTO;
 import com.dental.DentalToolSupplySystem.model.DentalTool;
+import com.dental.DentalToolSupplySystem.model.Inventory;
 import com.dental.DentalToolSupplySystem.service.DentalToolSevice;
 import com.dental.DentalToolSupplySystem.service.InventoryService;
 import com.dental.DentalToolSupplySystem.service.UserService;
@@ -10,12 +11,14 @@ import com.dental.DentalToolSupplySystem.service.UserService;
 import jakarta.validation.Valid;
 
 import com.dental.DentalToolSupplySystem.repository.DentalToolRepository;
+import com.dental.DentalToolSupplySystem.repository.InventoryRepository;
 import com.dental.DentalToolSupplySystem.repository.UserRepository;
 
 import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -31,7 +34,9 @@ public class Admincontroller {
     private final InventoryService inventoryService;
     
     @Autowired
-    private UserRepository userRepository; // ✅ Correct if you want to manage DentalTool as user
+    private UserRepository userRepository;
+    @Autowired
+    private InventoryRepository inventoryRepository;
 
     
 
@@ -170,6 +175,33 @@ public class Admincontroller {
         inventoryService.deleteInventory(id);
         return "redirect:/admin_inventory";
     }
+    
+    @GetMapping("/edit-inventory")
+    public String editInventory(@RequestParam Long id, Model model) {
+        InventoryDTO inventoryDTO = inventoryService.editInventory(id);
+		Inventory inventory = inventoryRepository.findById(id).get();
+        model.addAttribute("inventoryDTO",inventoryDTO);
+        model.addAttribute("inventory",inventory);
+        return "edit-inventory";
+        
+    }
+    
+    @PostMapping("/update-inventory")
+    public String updateInventory(
+            @Valid @ModelAttribute("inventoryDTO") InventoryDTO inventoryDTO,
+            BindingResult result,
+            @RequestParam Long id,
+            Model model) {
+
+        if (result.hasErrors()) {
+            model.addAttribute("inventory", inventoryRepository.findById(id).get()); // ✅ Correct variable name);
+            return "edit-inventory";
+        }
+
+        inventoryService.updateInventory(inventoryDTO, id); // ✅ Pass id separately
+        return "redirect:/admin_inventory";
+    }
+
    
     
     //role
