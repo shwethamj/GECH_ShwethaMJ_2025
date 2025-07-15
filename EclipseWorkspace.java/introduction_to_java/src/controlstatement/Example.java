@@ -18,9 +18,9 @@ public class Example {
 		
 		//or
 		
-		
-		int day=sc.nextInt();
 		System.out.println("enter the DAY2");
+		int day=sc.nextInt();
+		
 		String res = switch(day) {
 		case 1,2,3,4,5-> "week Day"; 
 		case 6,7 ->"Week End";

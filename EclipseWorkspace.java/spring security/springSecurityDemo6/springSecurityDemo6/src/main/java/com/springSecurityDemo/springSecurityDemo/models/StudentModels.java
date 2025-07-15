@@ -17,7 +17,7 @@ import lombok.NoArgsConstructor;
 public class StudentModels {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@GeneratedValue(strategy = GenerationType.IDENTITY) //by using this id will autoincrement like 1,2,3
 	private long id;
 	private String name;
 	private String email;

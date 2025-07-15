@@ -4,15 +4,19 @@ public class ControlStatement {
 
 	public static void main(String[]args) {
 		/*
+		 * CONDITIONAL STATEMENT
+		 * ===========
 		 * if,if else, else if and switch statement
 		 
 		 * if(condition){
+		 * 	//true block code
 		 * }
-		 
 		
 		 * if(condition){
+		 * 	//true block code
 		 * }
 		 * else{
+		 * 	//false block code
 		 * }
 		 
 		 *  if(condition){
@@ -59,7 +63,7 @@ public class ControlStatement {
 		
 		//4.Switch 
 		// this below type used from 1 to 4 version of java
-		
+		// if we dont use break then all condtion will disply if i choose case 1(all case dont have break then)  
 		int day=2;
 		switch(day) {
 		case 1:{

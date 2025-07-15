@@ -15,7 +15,6 @@ public class TypeCastingInJava {
 		 *double -> float -> long -> int -> short -> byte
 		 */
 		
-		
 		// implicit
 		int a=20;
 		long b=a;

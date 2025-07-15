@@ -17,7 +17,10 @@ import com.springSecurityDemo.springSecurityDemo.customHandler.CustomSuccessHand
 import com.springSecurityDemo.springSecurityDemo.repository.StudentRepository;
 import com.springSecurityDemo.springSecurityDemo.service.CustomUserDetailsService;
 import static org.springframework.security.config.Customizer.withDefaults;
+
+
 @Configuration
+@EnableWebSecurity
 public class SecurityConfig {
 	
 
@@ -53,6 +56,9 @@ public class SecurityConfig {
 		
 	}
 	
+	
+	//to overwrite/customize  the springsecuritylogin page to our cretaed login page
+	
 	@Bean
 	public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception{
 		return http
@@ -64,8 +70,11 @@ public class SecurityConfig {
 						.anyRequest().authenticated())
 				.formLogin(login -> login
 						.loginPage("/login")
-						.loginProcessingUrl("/login")
-//						.defaultSuccessUrl("/std-details?loginSuccess",true)
+						.loginProcessingUrl("/login") //processingurl == th:action mentioned in html
+//						.defaultSuccessUrl("/std-details?loginSuccess",true) //after login it will redirect to std-details page
+						//true means==> after login it not redirect to previous visted page(default
+						//before appling  above line)
+						//and redirect to std_details
 						.successHandler(customSuccessHandler)
 						.permitAll()
 						)

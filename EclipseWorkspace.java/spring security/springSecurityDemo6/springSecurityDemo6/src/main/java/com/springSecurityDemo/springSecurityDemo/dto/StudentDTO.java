@@ -9,6 +9,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class StudentDTO {
 
+	//id was not using here because id is autoincrement in backend soo
 	private String name;
 	private String email;
 	private String password;

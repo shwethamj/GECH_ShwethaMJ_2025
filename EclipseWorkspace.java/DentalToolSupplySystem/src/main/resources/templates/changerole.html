@@ -1,0 +1,9 @@
+<form th:action="@{/changeRole}" method="post">
+    <input type="hidden" name="userId" th:value="${user.id}" />
+    <select name="role" class="form-select">
+        <option th:selected="${user.role == 'ADMIN'}">ADMIN</option>
+        <option th:selected="${user.role == 'SUPPLIER'}">SUPPLIER</option>
+        <option th:selected="${user.role == 'CUSTOMER'}">CUSTOMER</option>
+    </select>
+    <button type="submit" class="btn btn-outline-primary mt-1">Change</button>
+</form>

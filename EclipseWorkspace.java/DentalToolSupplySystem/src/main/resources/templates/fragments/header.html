@@ -1,0 +1,59 @@
+
+<!-- Top Bar -->
+<div class="top-bar" th:fragment="header">
+  <div class="left">
+    <i class="fab fa-facebook-f"></i>
+    <i class="fab fa-linkedin-in"></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-twitter"></i>
+    <span><i class="fas fa-phone"></i> +91-7348974535</span>
+    <span><i class="fas fa-envelope"></i> dentaltech@tools.com</span>
+  </div>
+  <div class="right">
+    <span><i class="fas fa-map-marker-alt"></i>Hassan,Karnataka</span>
+    <span><i class="fas fa-truck"></i> Track Order</span>
+    <span><i class="fas fa-user"></i> 
+      <a th:href="@{/login}">Log In</a> | 
+      <a th:href="@{/register}">Sign Up</a>
+    </span>
+  </div>
+  
+</div>
+
+<!-- Header -->
+<header>
+  <div class="logo">
+    <img src="/images/index/logo1.png" alt="Logo" /><span>DentalTech</span>
+  </div>
+  <nav>
+    <ul>
+      <li class="nav-item">
+        <a class="nav-link" th:href="@{/}">HOME</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" th:href="@{/categories}">CATEGORIES</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" th:href="@{/products}">PRODUCTS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" th:href="@{/cart}">CART</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" th:href="@{/checkouts}">CHECKOUTS</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" th:href="@{/about}">ABOUT US</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" th:href="@{/contact}">CONTACT</a>
+      </li>
+    </ul>
+  </nav> 
+    <a th:href="@{/cart}" class="text-decoration-none text-dark">
+  <div class="cart">
+    <i class="fas fa-shopping-cart"></i> Cart
+  </div>
+</a>
+</header>
+<section>

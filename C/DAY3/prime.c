@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int num, i = 2, count = 0;
+    int num, i = 2, count = 0; //count: counts how many times num is divisible by numbers other than 1 and itself
 
     printf("Enter a number: ");
     scanf("%d", &num);

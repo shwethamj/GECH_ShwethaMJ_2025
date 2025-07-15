@@ -13,7 +13,7 @@ import jakarta.mail.MessagingException;
 public class StudentService {
 
 	private StudentRepository studentRepo;
-	private PasswordEncoder passwordEncoder;
+	private PasswordEncoder passwordEncoder; //to make pasword as #form in backend we use, it protect password
 	private EmailService emailService;
 
 	
@@ -28,8 +28,9 @@ public class StudentService {
 
 
 	public void storeStudent(StudentDTO studentDTO) throws MessagingException {
-		StudentModels student = new StudentModels();
-
+		StudentModels student = new StudentModels(); // to convert from dto to model thid=s line
+		
+		//setname is taking from model and getname is takig from dto
 		student.setName(studentDTO.getName());
 		student.setEmail(studentDTO.getEmail());
 		student.setPassword(passwordEncoder.encode(studentDTO.getPassword()));

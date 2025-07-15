@@ -8,14 +8,15 @@ public class NonPrimitiveDataType {
 	
 	// array and string
 	/*
-	 * Array: stores multiple value
+	   Array: stores multiple value
 	 * 
 	 * <datatype> arrayname={};
 	 * 
-	 */
-	/*string
+	   String:
 	 * String name="";
+	 * 
 	 */
+	
 	public static void main(String[]args) {
 		int[] array1= {1,2,3,4};
 		System.out.println(array1[1]);
@@ -26,11 +27,11 @@ public class NonPrimitiveDataType {
 		name= sc.next();
 		System.out.println("Name is:"+name);
 		
-       //sc.next(); // it only read next one word (ex : entered name = shwetha mj == it only read or dislpay shwetha)
-		//sc.nextLine() -- it read full line
+       //sc.next(); // it only read next one word and it won't take space(ex : entered name = shwetha mj == it only read or dislpay shwetha)
+	   //sc.nextLine() -- it read full line including spaces
 		
 		
-		// student details example
+	  // student details example
 		
 		String Name,branch,address;
 		byte age;
@@ -39,8 +40,9 @@ public class NonPrimitiveDataType {
 		
 		
 		System.out.println("enter the name ");
-		Name=sc.nextLine();
+		Name=sc.next();
 		
+		sc.nextLine();
 		System.out.println("enter the age ");
 		age=sc.nextByte();
 		
@@ -49,11 +51,10 @@ public class NonPrimitiveDataType {
 		
 		sc.nextLine();
 		System.out.println("enter the gender ");
-		gender=sc.nextLine().charAt(0);
+		gender=sc.nextLine().charAt(0); // 0 is index of word (where hello = 0th index is h,it will print only h)
 		
 		System.out.println("enter the branch ");
 		branch=sc.nextLine();
-		
 		
 		System.out.println("enter the address ");
 		address=sc.nextLine();
@@ -64,7 +65,6 @@ public class NonPrimitiveDataType {
 		System.out.println("student gender is:"+gender);
 		System.out.println("student branch is:"+branch);
 		System.out.println("student address is:"+address);
-		
-		
+	
 	}
 }
