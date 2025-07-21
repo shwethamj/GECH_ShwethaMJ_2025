@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Role</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+<section>
+    <div class="container mt-5">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h2 class="mb-0"><i class="fas fa-plus-circle me-2"></i>Add New Role</h2>
+            <a th:href="@{/roles}" class="btn btn-secondary">
+                <i class="fas fa-arrow-left me-1"></i> Back to Roles
+            </a>
+        </div>
+
+        <div class="card shadow-sm">
+            <div class="card-body">
+                <form th:action="@{/roles/add-role}" th:object="${roleDTO}" method="post" novalidate>
+                    <div class="mb-3">
+                        <label for="roleName" class="form-label">
+                            <i class="fas fa-id-badge me-1 text-primary"></i>Role Name
+                        </label>
+                        <input type="text" class="form-control" id="roleName" th:field="*{rolename}" placeholder="Enter role name" required>
+                        <!-- ✅ Corrected field name for validation -->
+                        <div class="text-danger mt-1" th:if="${#fields.hasErrors('rolename')}" th:errors="*{rolename}"></div>
+                    </div>
+
+                    <div class="d-flex justify-content-start">
+                        <button type="submit" class="btn btn-success me-2">
+                            <i class="fas fa-save me-1"></i>Save Role
+                        </button>
+                        <a th:href="@{/roles}" class="btn btn-outline-secondary">
+                            <i class="fas fa-times me-1"></i>Cancel
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>

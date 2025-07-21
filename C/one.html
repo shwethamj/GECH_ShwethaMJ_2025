@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <form onsubmit="saveData(); return false;">
+      <input id="name" placeholder="Name" required />
+      <input id="email" placeholder="Email" required />
+      <button type="submit">Submit</button>
+    </form>
+
+    <div id="output"></div>
+
+    <script>
+      function saveData() {
+        let name = document.getElementById("name").value;
+        let email = document.getElementById("email").value;
+
+        let user = name + " - " + email;
+
+        let existing = localStorage.getItem("data") || "";
+        localStorage.setItem("data", existing + "<p>" + user + "</p>");
+
+        showData();
+      }
+
+      function showData() {
+        document.getElementById("output").innerHTML =
+          localStorage.getItem("data") || "";
+      }
+
+      showData(); // load when page opens
+    </script>
+  </body>
+</html>

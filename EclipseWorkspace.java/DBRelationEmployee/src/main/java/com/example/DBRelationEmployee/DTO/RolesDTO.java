@@ -1,28 +1,16 @@
 package com.example.DBRelationEmployee.DTO;
 
-import java.util.List;
 
-import com.example.DBRelationEmployee.model.Employee;
-
-import jakarta.persistence.ManyToMany;
+import jakarta.validation.constraints.NotBlank;
 
 public class RolesDTO {
 
-	private long id;
+	@NotBlank(message = "Role name is required.")
 	private String rolename;
-	
-	
 
-	public RolesDTO() {
+	public RolesDTO(@NotBlank(message = "Role name is required.") String rolename) {
 		super();
-	}
-
-	public long getId() {
-		return id;
-	}
-
-	public void setId(long id) {
-		this.id = id;
+		this.rolename = rolename;
 	}
 
 	public String getRolename() {
@@ -34,18 +22,14 @@ public class RolesDTO {
 	}
 
 	
-
-	public RolesDTO(long id, String rolename) {
+	public RolesDTO() {
 		super();
-		this.id = id;
-		this.rolename = rolename;
-		
 	}
 
 	@Override
 	public String toString() {
-		return "RolesDTO [id=" + id + ", rolename=" + rolename +  "]";
+		return "RolesDTO [rolename=" + rolename + "]";
 	}
-	
+
 	
 }

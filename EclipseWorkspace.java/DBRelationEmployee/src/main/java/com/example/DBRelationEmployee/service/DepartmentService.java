@@ -22,28 +22,19 @@ public class DepartmentService {
         this.departmentRepository = departmentRepository;
     }
 
-    public void saveDepartment(@Valid DepartmentDTO departmentDTO) {
-        Department department = new Department();
-        department.setTitle(departmentDTO.getTitle().toUpperCase());
-        departmentRepository.save(department);
-    }
+	public void saveNotes(@Valid DepartmentDTO notesDTO, Employee user) {
+	Department notes = new Department();
+		notes.setTitle(notesDTO.getTitle().toUpperCase());
+		notes.setDescription(notesDTO.getDescription());
+		departmentRepository.save(notes);
+	}
 
-    public void updateDepartment(@Valid DepartmentDTO departmentDTO, Long id) {
-        Department department = departmentRepository.findById(id)
-                .orElseThrow(() -> new EntityNotFoundException("Department not found with ID: " + id));
-        department.setTitle(departmentDTO.getTitle().toUpperCase());
-        departmentRepository.save(department);
-    }
-    
-    public void deleteDepartment(Long id) {
-        Department department = departmentRepository.findById(id)
-                .orElseThrow(() -> new EntityNotFoundException("Department not found"));
 
-        for (Employee emp : department.getEmployee()) {
-            emp.setDepartment(null);
-        }
 
-        departmentRepository.delete(department);
-    }
-
+	public void updateNotes(@Valid DepartmentDTO notesDTO, Long id) {
+		Department notes = departmentRepository.findById(id).get();
+		notes.setTitle(notesDTO.getTitle().toUpperCase());
+		notes.setDescription(notesDTO.getDescription());
+		departmentRepository.save(notes);
+	}
 }

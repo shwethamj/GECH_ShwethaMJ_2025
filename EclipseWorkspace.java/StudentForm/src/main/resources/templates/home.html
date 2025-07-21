@@ -44,6 +44,7 @@ table,th,tr,td{
   	
   	<tbody>
   	 	<tr th:each="student:${students}">
+			<--key name  given in constoller list
   	 	<td th:text="${student.id}"></td>
   	 	<td th:text="${student.name}"></td>
   	 	<td th:text="${student.age}"></td>

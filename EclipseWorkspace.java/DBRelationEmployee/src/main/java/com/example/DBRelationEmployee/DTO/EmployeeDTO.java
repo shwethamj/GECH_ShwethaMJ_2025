@@ -26,8 +26,10 @@ public class EmployeeDTO {
 			this.roles =  roles;
 			this.departmentId = departmentId;
 		}
+		
+		
 		public EmployeeDTO() {
-			// TODO Auto-generated constructor stub
+			   this.roles = new HashSet<>();
 		}
 		public String getName() {
 			return name;

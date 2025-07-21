@@ -9,7 +9,6 @@ import org.springframework.stereotype.Service;
 import com.example.DBRelationEmployee.model.Employee;
 import com.example.DBRelationEmployee.repository.EmployeeRepository;
 
-
 import jakarta.transaction.Transactional;
 
 @Service
@@ -22,14 +21,16 @@ public class CustomEmployeeDetailsService implements UserDetailsService  {
         this.employeeRepository = employeeRepository;
     }
 
-
     @Override
-    public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-        Employee employee = employeeRepository.findByEmail(username)
-                .orElseThrow(() -> new UsernameNotFoundException("Employee not found with email: " + username));
+    @Transactional 
 
-        return new CustomEmployeeDetails(employee); // ✅ now correct
-    }
-
-    
+	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
+		System.out.println("2222222222222"+username);
+		Employee user =employeeRepository.findByEmail(username).orElseThrow(
+				()->new UsernameNotFoundException("User not found with provided email "+username));
+		System.out.println(user+"11111111111111111111");
+		// Force initialize roles collection while still in transaction/session
+	    user.getRoles().size();
+		return new CustomEmployeeDetails(user);
+	}
 }

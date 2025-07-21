@@ -42,7 +42,6 @@ public class Employee {
 	    inverseJoinColumns = @JoinColumn(name = "role_id")
 	)
 	private Set<Roles> roles = new HashSet<>();;  //many to many so need to create a collection
-
 	
 	@ManyToOne
 	@JoinColumn(name = "department_id")
@@ -132,11 +131,8 @@ public class Employee {
 
 	@Override
 	public String toString() {
-		return "Employee [id=" + id + ", name=" + name + ", email=" + email + ", password=" + password + ", address="
-				+ address + ", roles=" + roles + ", department=" + department + "]";
+		return "Employee [id=" + id + ", name=" + name + ", email=" + email + ", password=" + password + "]";
 	}
-
-	
 
 
 	

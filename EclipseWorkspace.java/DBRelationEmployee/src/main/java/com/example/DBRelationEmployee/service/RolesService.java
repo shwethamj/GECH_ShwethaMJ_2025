@@ -1,6 +1,5 @@
 package com.example.DBRelationEmployee.service;
 
-import java.util.Optional;
 
 import org.springframework.stereotype.Service;
 
@@ -14,34 +13,50 @@ import jakarta.validation.Valid;
 
 @Service
 public class RolesService {
+	
+	private RolesRepository roleRepository;
+	
 
-    private final RolesRepository rolesRepository;
+	public RolesService(RolesRepository roleRepository) {
+		super();
+		this.roleRepository = roleRepository;
+	}
 
-    public RolesService(RolesRepository rolesRepository) {
-        this.rolesRepository = rolesRepository;
-    }
 
-    public void saveRole(RolesDTO roleDTO) {
-        Roles role = new Roles();
-        role.setRolename(roleDTO.getRolename().toUpperCase());
-        rolesRepository.save(role);
-    }
 
-    public void updateRole(@Valid RolesDTO roleDTO, Long id) {
-        Roles existingRole = rolesRepository.findById(id)
-                .orElseThrow(() -> new EntityNotFoundException("Role not found with ID: " + id));
-        existingRole.setRolename(roleDTO.getRolename().toUpperCase());
-        rolesRepository.save(existingRole);
-    }
+	public void saveRole(RolesDTO roleDTO) {
+		Roles role = new Roles();
+		String roleName = roleDTO.getRolename().toUpperCase();
+		if (!roleName.startsWith("ROLE_")) {
+		    roleName = "ROLE_" + roleName;
+		}
+		role.setRolename(roleName);
+		roleRepository.save(role);
 
-    public void deleteRole(Long id) {
-        Roles role = rolesRepository.findById(id)
-                .orElseThrow(() -> new EntityNotFoundException("Role not found"));
-        // Remove this role from all associated employees
-        for (Employee employee : role.getEmployee()) {
-            employee.getRoles().remove(role);
-        }
-        rolesRepository.delete(role);
-    }
+		roleRepository.save(role);
+	}
+	
+
+	public void updateRole(@Valid RolesDTO roleDTO, Long id) {
+		System.out.println("id: "+id);
+	    Roles existingRole = roleRepository.findById(id)
+	        .orElseThrow(() -> new EntityNotFoundException("Role not found with ID: " + id));
+	    System.out.println(existingRole+"----- exist");
+	    System.out.println("roledto"+ roleDTO);
+	    existingRole.setRolename(roleDTO.getRolename().toUpperCase());
+	    roleRepository.save(existingRole);
+	}
+
+
+
+	public void deleteRole(Long id) {
+		Roles role = roleRepository.findById(id)
+		        .orElseThrow(() -> new EntityNotFoundException("Role not found"));
+	    // Remove the role from all users
+		for( Employee user : role.getEmployee()) {
+			user.getRoles().remove(role);
+		}
+	    roleRepository.delete(role);
+	}
 
 }

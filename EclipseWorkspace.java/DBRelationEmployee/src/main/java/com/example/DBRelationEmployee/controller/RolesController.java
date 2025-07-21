@@ -25,102 +25,101 @@ import jakarta.validation.Valid;
 @Controller
 @RequestMapping("/roles")
 public class RolesController {
+	
+	private RolesRepository roleRepository;
+	private RolesService roleService;
+	
+	
+	public RolesController(RolesRepository roleRepository, RolesService roleService) {
+		super();
+		this.roleRepository = roleRepository;
+		this.roleService = roleService;
+	}
 
-    private final RolesRepository roleRepository;
-    private final RolesService roleService;
-
-    public RolesController(RolesRepository roleRepository, RolesService roleService) {
-        this.roleRepository = roleRepository;
-        this.roleService = roleService;
-    }
-
-    @GetMapping({"", "/"})
-    public String listRoles(Model model) {
-        List<Roles> roles = roleRepository.findAll();
-        model.addAttribute("roles", roles);
-        return "roles"; // roles.html
-    }
-
-    @GetMapping("/add-role")
-    public String showAddForm(Model model) {
-        model.addAttribute("roleDTO", new RolesDTO());
-        return "add-role";
-    }
-
-    @PostMapping("/add-role")
-    public String saveRole(@Valid @ModelAttribute RolesDTO roleDTO,
-                           BindingResult result,
-                           RedirectAttributes attributes) {
-        Optional<Roles> existing = roleRepository.findByRolename(roleDTO.getRolename().toUpperCase());
-        if (existing.isPresent()) {
-            result.addError(new FieldError("RoleDTO", "name", "Role with given name already exists"));
-        }
-
-        if (result.hasErrors()) {
-            return "add-role";
-        }
-
-        roleService.saveRole(roleDTO);
-        attributes.addFlashAttribute("success", "Role saved successfully");
-        return "redirect:/roles";
-    }
-
-    @GetMapping("/edit-role/{id}")
-    public String showEditForm(@PathVariable Long id,
-                               Model model,
-                               RedirectAttributes attributes) {
-        Optional<Roles> role = roleRepository.findById(id);
-        if (role.isEmpty()) {
-            attributes.addFlashAttribute("error", "Role with ID not found");
-            return "redirect:/roles";
-        }
-
-        RolesDTO roleDTO = new RolesDTO();
-        roleDTO.setRolename(role.get().getRolename());
-
-        model.addAttribute("role", role.get());
-        model.addAttribute("roleDTO", roleDTO);
-        return "edit-role";
-    }
-
-    @PostMapping("/edit-role/{id}")
-    public String updateRole(@PathVariable Long id,
-                             @Valid @ModelAttribute RolesDTO roleDTO,
-                             BindingResult result,
-                             RedirectAttributes attributes,
-                             Model model) {
-
-    	Optional<Roles> existing = roleRepository.findByRolename(roleDTO.getRolename().toUpperCase());
-    	if (existing.isPresent() && existing.get().getId() != id) {
-    	    result.addError(new FieldError("rolesDTO", "rolename", "Role with given name already exists"));
-    	}
-
-        if (result.hasErrors()) {
-            model.addAttribute("role", roleRepository.findById(id).orElse(null));
-            model.addAttribute("roleDTO", roleDTO); // Preserve form data on error
-            return "edit-role";
-        }
-
-        try {
-            roleService.updateRole(roleDTO, id);
-            attributes.addFlashAttribute("success", "Role updated successfully");
-        } catch (EntityNotFoundException ex) {
-            attributes.addFlashAttribute("error", ex.getMessage());
-        }
-
-        return "redirect:/roles";
-    }
-
-
-    @GetMapping("/delete-role/{id}")
-    public String deleteRole(@PathVariable Long id,
-                             RedirectAttributes attributes) {
-        try {
-            roleService.deleteRole(id);
-            attributes.addFlashAttribute("success", "Role deleted successfully");
-        } catch (EntityNotFoundException ex) {
-            attributes.addFlashAttribute("error", ex.getMessage());
-        }
-        return "redirect:/roles";
-    }
+	@GetMapping({"/",""})
+	public String roles(Model model) {
+		List<Roles> roles = roleRepository.findAll();
+		model.addAttribute("roles",roles);
+	    return "roles"; // Returns the view named "roles.html"
+	}
+	
+	@GetMapping("/add-role")
+	public String role(Model model ) {
+		model.addAttribute("roleDTO",new RolesDTO());
+		return "add-role";
+	}
+	
+	@PostMapping("/add-role")
+	public String role(@Valid @ModelAttribute RolesDTO roleDTO, BindingResult result, RedirectAttributes attributes) {
+		System.out.println(roleDTO.getRolename());
+		Optional<Roles> role =  roleRepository.findByRolename(roleDTO.getRolename().toUpperCase());
+		if(role.isPresent()) {
+			result.addError(
+					new FieldError("RoleDTO", "name", "Role with given name is already present.")
+					);
+		}
+		if(result.hasErrors()) {
+			return "add-role";
+		}
+		roleService.saveRole(roleDTO);
+		attributes.addFlashAttribute("success","Role Saved Successfully");
+		return "redirect:/roles";
+	}
+	
+	@GetMapping("/edit-role/{id}")
+	public String editRole(@PathVariable Long id, Model model, RedirectAttributes attributes) {
+		Optional<Roles> role =  roleRepository.findById(id);
+		if(role.isEmpty()) {
+			attributes.addAttribute("error","Role with given id notpresent");
+			return "redirect:/roles";
+		}
+		RolesDTO roleDTO = new RolesDTO();
+		roleDTO.setRolename(role.get().getRolename());
+		model.addAttribute("role",role.get());
+		model.addAttribute("roleDTO",roleDTO);
+		return "edit-role";
+	}
+	
+	@PostMapping("/edit-role/{id}")
+	public String editRole(@Valid @ModelAttribute RolesDTO roleDTO, @PathVariable Long id, BindingResult result, RedirectAttributes attributes, Model model) {
+		Optional<Roles> role = roleRepository.findByRolename(roleDTO.getRolename().toUpperCase());
+		if(role.isPresent() && !role.get().getId().equals(id)) {
+			System.out.println(role.get()+" "+id);
+			result.addError(
+					new FieldError("RoleDTO", "name", "Role with given name is already present")
+					);
+		}
+		if(result.hasErrors()) {
+			Optional<Roles> existing_role = roleRepository.findById(id);
+			model.addAttribute("role",existing_role.get());
+			return "edit-role";
+		}
+		try {
+			roleService.updateRole(roleDTO, id);
+		} catch (EntityNotFoundException ex) {
+			attributes.addFlashAttribute("error",ex.getMessage());
+	        return "redirect:/roles"; 
+	    }
+		attributes.addFlashAttribute("success","Role Updated Successfully");
+		return "redirect:/roles";
+	}	
+	@GetMapping("/delete-role/{id}")
+	public String deleteRole(@PathVariable Long id, RedirectAttributes attributes) {
+		 Optional<Roles> role = roleRepository.findById(id);
+		 if(role.isPresent()) {
+			 try {
+				 	roleService.deleteRole(id);
+				} 
+			 catch (EntityNotFoundException ex) {
+					attributes.addFlashAttribute("error",ex.getMessage());
+			        return "redirect:/roles"; 
+			 }
+		 }
+		 else {
+			attributes.addFlashAttribute("error","Role with id is not present");
+			return "redirect:/roles";
+		 }
+		attributes.addFlashAttribute("success","Role deleted successfully.");
+		return "redirect:/roles";
+	}
 }

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Role</title>
+
+    <!-- ✅ Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- ✅ Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+    <!-- ✅ Optional: custom spacing -->
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .card {
+            border-radius: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+<section>
+    <div class="container mt-5">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h2 class="mb-0"><i class="fas fa-edit me-2 text-warning"></i>Edit Role</h2>
+            <a th:href="@{/roles}" class="btn btn-secondary">
+                <i class="fas fa-arrow-left me-1"></i> Back to Roles
+            </a>
+        </div>
+
+        <div class="card shadow-sm">
+            <div class="card-body">
+                <form th:action="@{/roles/edit-role/{id}(id=${role.id})}" method="post" th:object="${roleDTO}" novalidate>
+                    <div class="mb-3">
+                        <label for="roleName" class="form-label">
+                            <i class="fas fa-id-badge me-1 text-primary"></i>Role Name
+                        </label>
+                        <input type="text" class="form-control" id="roleName" th:field="*{rolename}" placeholder="Enter role name" required>
+                        <div class="text-danger mt-1" th:if="${#fields.hasErrors('rolename')}" th:errors="*{rolename}"></div>
+                    </div>
+
+                    <div class="d-flex justify-content-start">
+                        <button type="submit" class="btn btn-warning me-2">
+                            <i class="fas fa-sync-alt me-1"></i>Update Role
+                        </button>
+                        <a th:href="@{/roles}" class="btn btn-outline-secondary">
+                            <i class="fas fa-times me-1"></i>Cancel
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ✅ Bootstrap JS (optional, for dropdowns or modals if needed later) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

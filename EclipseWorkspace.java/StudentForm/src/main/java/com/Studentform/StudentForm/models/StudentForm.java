@@ -13,7 +13,6 @@ public class StudentForm {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-
 	
 	private Long id;
 	private String name;
@@ -24,8 +23,7 @@ public class StudentForm {
 	@Column(unique =true)
 	private String email;
 	private String imagePath;
-	private String docPath;
-	
+	private String docPath;	
 	
 	
 	//no args constructor
@@ -44,6 +42,7 @@ public class StudentForm {
 		this.imagePath =imagePath;
 		this.docPath =docPath;
 	}
+	
 // getters and setters
 
 	public Long getId() {

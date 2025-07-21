@@ -3,10 +3,12 @@ package com.example.DBRelationEmployee.controller;
 import java.util.List;
 import java.util.Optional;
 
+import org.springframework.security.core.annotation.AuthenticationPrincipal;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
-import org.springframework.validation.FieldError;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -16,108 +18,114 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import com.example.DBRelationEmployee.DTO.DepartmentDTO;
 import com.example.DBRelationEmployee.model.Department;
+import com.example.DBRelationEmployee.model.Employee;
 import com.example.DBRelationEmployee.repository.DepartmentRepository;
+import com.example.DBRelationEmployee.repository.EmployeeRepository;
 import com.example.DBRelationEmployee.service.DepartmentService;
 
 import jakarta.validation.Valid;
 
 @Controller
-
+@RequestMapping("/notes")
 public class DepartmentController {
 
-    private final DepartmentRepository departmentRepository;
-    private final DepartmentService departmentService;
+	private DepartmentRepository notesRepository;
+	private EmployeeRepository userRepository;
+	private DepartmentService notesService;
 
-    public DepartmentController(DepartmentRepository departmentRepository, DepartmentService departmentService) {
-        this.departmentRepository = departmentRepository;
-        this.departmentService = departmentService;
-    }
+	
+	public DepartmentController(DepartmentRepository notesRepository, EmployeeRepository userRepository,
+			DepartmentService notesService) {
+		super();
+		this.notesRepository = notesRepository;
+		this.userRepository = userRepository;
+		this.notesService = notesService;
+	}
 
-    @GetMapping("/department")
-    public String listDepartments(Model model) {
-        List<Department> departments = departmentRepository.findAll();
-        model.addAttribute("departments", departments);
-        return "departments";
-    }
+	@GetMapping({"/", ""})
+	public String notes(Model model, @AuthenticationPrincipal UserDetails userDetails) {
+	    if (userDetails == null) {
+	        throw new UsernameNotFoundException("User is not authenticated");
+	    }
 
-    @GetMapping("/add-department")
-    public String addDepartmentForm(Model model) {
-        model.addAttribute("departmentDTO", new DepartmentDTO());
-        return "add-department";
-    }
+	    var authorities = userDetails.getAuthorities();
+	    if (authorities.stream().anyMatch(role -> role.getAuthority().equals("ROLE_ADMIN"))) {
+	        List<Department> notes = notesRepository.findAll();
+	        model.addAttribute("notes", notes);
+	    } else {
+	        Employee user = userRepository.findByEmail(userDetails.getUsername())
+	            .orElseThrow(() -> new UsernameNotFoundException("User not found"));
+	        List<Department> notes = notesRepository.findByEmployee(user);
+	        model.addAttribute("notes", notes);
+	    }
 
-    @PostMapping("/add-department")
-    public String saveDepartment(@Valid @ModelAttribute DepartmentDTO departmentDTO,
-                                 BindingResult result,
-                                 RedirectAttributes attributes) {
+	    return "notes";
+	}
 
-        Optional<Department> existing = departmentRepository.findByTitle(departmentDTO.getTitle().toUpperCase());
-        if (existing.isPresent()) {
-            result.addError(new FieldError("departmentDTO", "title", "Department with this name already exists."));
-        }
+	@GetMapping("/add-note")
+	
+	public String addNote(Model model) {
+		model.addAttribute("noteDTO", new DepartmentDTO());
+		return "add-notes";
+	}
 
-        if (result.hasErrors()) {
-            return "add-department";
-        }
+	@PostMapping("/add-note")
+	public String addNote(@Valid @ModelAttribute DepartmentDTO notesDTO, BindingResult result, Model model,
+			RedirectAttributes attributes, @AuthenticationPrincipal UserDetails userDetails) {
+		if (result.hasErrors()) {
+			return "add-notes";
+		}
+		String email = userDetails.getUsername();
+	Employee user = userRepository.findByEmail(email).orElseThrow(()-> new UsernameNotFoundException("User not found"));
+		notesService.saveNotes(notesDTO, user);
+		attributes.addAttribute("success", "Notes saved Successfully");
+		return "redirect:/notes";
+	}
+	
+	
+	@GetMapping("/edit-note/{id}")
+	public String editNotes(@PathVariable Long id,RedirectAttributes attributes,Model model) {
+		Optional<Department> notes =  notesRepository.findById(id);
+		if(!notes.isPresent()) {
+			attributes.addFlashAttribute("error","Notes not found");
+			return "redirect:/notes";
+		}
+		DepartmentDTO notesDTO = new DepartmentDTO();
+		notesDTO.setTitle(notes.get().getTitle());
+		notesDTO.setDescription(notes.get().getDescription());
+		model.addAttribute("note",notes.get());
+		model.addAttribute("noteDTO",notesDTO);
+		return "edit-notes";
+	}
+	
+	@PostMapping("/edit-note/{id}")
+	public String updateNotes(@Valid @ModelAttribute DepartmentDTO notesDTO, BindingResult result ,@PathVariable Long id,Model model, RedirectAttributes attributes) {
+		if(result.hasErrors()) {
+			Optional<Department> notes =  notesRepository.findById(id);
+			model.addAttribute("note",notes.get());
+			return "edit-notes";
+		}
+	Optional<Department> notes =  notesRepository.findById(id);
+		if(!notes.isPresent()) {
+			attributes.addAttribute("error","Notes not found");
+			return "redirect:/notes";
+		}
+		notesService.updateNotes(notesDTO,id);
+		attributes.addFlashAttribute("success","Notes updtaed successfully");
+		return "redirect:/notes";
+	}
+	
+	
+	@GetMapping("/delete-note/{id}")
+	public String deleteNote(@PathVariable Long id, RedirectAttributes attributes) {
+	    Optional<Department> note = notesRepository.findById(id);
+	    if (note.isPresent()) {
+	        notesRepository.deleteById(id);
+	        attributes.addFlashAttribute("success", "Note deleted successfully.");
+	    } else {
+	        attributes.addFlashAttribute("error", "Note not found.");
+	    }
+	    return "redirect:/notes";
+	}
 
-        departmentService.saveDepartment(departmentDTO);
-        attributes.addFlashAttribute("success", "Department added successfully.");
-        return "redirect:/departments";
-    }
-
-    @GetMapping("/edit-department/{id}")
-    public String editDepartmentForm(@PathVariable Long id, Model model, RedirectAttributes attributes) {
-        Optional<Department> department = departmentRepository.findById(id);
-        if (department.isEmpty()) {
-            attributes.addFlashAttribute("error", "Department not found.");
-            return "redirect:/departments";
-        }
-
-        DepartmentDTO departmentDTO = new DepartmentDTO();
-        departmentDTO.setTitle(department.get().getTitle());
-
-        model.addAttribute("department", department.get());
-        model.addAttribute("departmentDTO", departmentDTO);
-        return "edit-department";
-    }
-
-    @PostMapping("/edit-department/{id}")
-    public String updateDepartment(@PathVariable Long id,
-                                   @Valid @ModelAttribute DepartmentDTO departmentDTO,
-                                   BindingResult result,
-                                   RedirectAttributes attributes,
-                                   Model model) {
-
-        Optional<Department> existing = departmentRepository.findByTitle(departmentDTO.getTitle().toUpperCase());
-        if (existing.isPresent() && existing.get().getId() != id) {
-            result.addError(new FieldError("departmentDTO", "title", "Department name already in use."));
-        }
-
-        if (result.hasErrors()) {
-            model.addAttribute("department", departmentRepository.findById(id).orElse(null));
-            return "edit-department";
-        }
-
-        departmentService.updateDepartment(departmentDTO, id);
-        attributes.addFlashAttribute("success", "Department updated successfully.");
-        return "redirect:/departments";
-    }
-
-    @GetMapping("/delete-department/{id}")
-    public String deleteDepartment(@PathVariable Long id, RedirectAttributes attributes) {
-        Optional<Department> department = departmentRepository.findById(id);
-        if (department.isEmpty()) {
-            attributes.addFlashAttribute("error", "Department not found.");
-            return "redirect:/departments";
-        }
-
-        try {
-            departmentService.deleteDepartment(id);
-            attributes.addFlashAttribute("success", "Department deleted successfully.");
-        } catch (Exception e) {
-            attributes.addFlashAttribute("error", "Error deleting department: " + e.getMessage());
-        }
-
-        return "redirect:/departments";
-    }
 }

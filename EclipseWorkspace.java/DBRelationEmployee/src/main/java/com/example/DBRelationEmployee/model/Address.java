@@ -59,8 +59,11 @@ public class Address {
 
 	@Override
 	public String toString() {
-		return "Address [id=" + id + ", address=" + address + ", employee=" + employee + "]";
+		return "Address [id=" + id + ", address=" + address + "]";
 	}
+	
+	
+
 
 	
 	

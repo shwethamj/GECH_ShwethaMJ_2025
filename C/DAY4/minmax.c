@@ -19,7 +19,7 @@ int main(){
             min= arr[i];
         }
     }
-
  printf("the maximun element in the array is : %d\n",max);
  printf("the manimun element in the array is : %d\n",min);
 }
+
