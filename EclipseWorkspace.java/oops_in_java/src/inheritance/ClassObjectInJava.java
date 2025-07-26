@@ -3,7 +3,7 @@ package inheritance;
 //to classes we can give only 2 access specifier :public and default
 
 class Student{  //default function
-	//static
+	//state
 	public int age=20;
 	public String name="shwetha";
 	public double marks= 600 ;

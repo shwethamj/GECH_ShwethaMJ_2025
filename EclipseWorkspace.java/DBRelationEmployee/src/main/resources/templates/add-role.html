@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html lang="en" xmlns:th="http://www.thymeleaf.org"  th:replace="~{layout :: layout(~{::title}, ~{::section})}">
 <head>
     <meta charset="UTF-8">
     <title>Add Role</title>
@@ -7,6 +7,8 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
+	
+<section>
 <section>
     <div class="container mt-5">
         <div class="d-flex justify-content-between align-items-center mb-4">
@@ -18,13 +20,14 @@
 
         <div class="card shadow-sm">
             <div class="card-body">
-                <form th:action="@{/roles/add-role}" th:object="${roleDTO}" method="post" novalidate>
+                <!-- ✅ Use "rolesDTO" to match controller -->
+                <form th:action="@{/roles/add-role}" th:object="${rolesDTO}" method="post" novalidate>
                     <div class="mb-3">
                         <label for="roleName" class="form-label">
                             <i class="fas fa-id-badge me-1 text-primary"></i>Role Name
                         </label>
+                        <!-- ✅ This must match field name in DTO: "rolename" -->
                         <input type="text" class="form-control" id="roleName" th:field="*{rolename}" placeholder="Enter role name" required>
-                        <!-- ✅ Corrected field name for validation -->
                         <div class="text-danger mt-1" th:if="${#fields.hasErrors('rolename')}" th:errors="*{rolename}"></div>
                     </div>
 
@@ -41,5 +44,7 @@
         </div>
     </div>
 </section>
+</section>
 </body>
 </html>
+ 

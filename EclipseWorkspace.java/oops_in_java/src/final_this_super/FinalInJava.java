@@ -45,6 +45,8 @@ public class FinalInJava {
 		 */
 		
 		// 1.variable:
+		
+		
 		final double Pi = 3.14;
 		System.out.println(Pi);
 //		fi = 4.65; //shows a error bcs in  variable  value cannot change

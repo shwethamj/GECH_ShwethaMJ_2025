@@ -93,7 +93,10 @@ public class HomeController {
 		return "terms_conditions";
 	}
 	
-	
+	@GetMapping("/logout")
+	public String logout() {
+		return "login";
+	}
 		
 
 }

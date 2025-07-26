@@ -14,7 +14,8 @@
     <div class="flex-grow-1">
         <!-- Topbar -->
         <div class="topbar d-flex justify-content-between align-items-center">
-            <h5>Welcome, <span th:text="${adminName}">Admin</span></h5>
+			<h4>Welcome, <span th:text="${username}">User</span>!</h4>
+
             <div>
                 <span class="me-3" th:text="${adminEmail}">admin@example.com</span>
                 <a href="/logout" class="btn btn-outline-danger btn-sm">Logout</a>

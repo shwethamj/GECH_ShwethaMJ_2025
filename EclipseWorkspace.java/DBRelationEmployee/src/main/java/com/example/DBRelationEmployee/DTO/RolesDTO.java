@@ -21,7 +21,7 @@ public class RolesDTO {
 		this.rolename = rolename;
 	}
 
-	
+
 	public RolesDTO() {
 		super();
 	}

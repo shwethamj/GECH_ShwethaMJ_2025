@@ -38,7 +38,7 @@ public class SuccessHandler implements AuthenticationSuccessHandler {
         if (isAdmin) {
             response.sendRedirect("/dashboard");
         } else if (isUser) {
-            response.sendRedirect("/"); // change if users have another page
+            response.sendRedirect("/task/dashboard"); // change if users have another page
         } else {
             response.sendRedirect("/login?error=unauthorized");
         }

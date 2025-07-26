@@ -1,3 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head>
+    <meta charset="UTF-8">
+	<!-- Disable caching -->
+	<meta http-equiv="Cache-Control" content="no-store"/>
+	<meta http-equiv="Pragma" content="no-cache"/>
+	<meta http-equiv="Expires" content="0"/>
+    <title>Dental Tool Supply System</title>
+    <link rel="stylesheet" th:href="@{/css/styles.css}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+
+<body>
 
 <!-- Top Bar -->
 <div class="top-bar" th:fragment="header">
@@ -9,51 +24,52 @@
     <span><i class="fas fa-phone"></i> +91-7348974535</span>
     <span><i class="fas fa-envelope"></i> dentaltech@tools.com</span>
   </div>
+
   <div class="right">
-    <span><i class="fas fa-map-marker-alt"></i>Hassan,Karnataka</span>
+    <span><i class="fas fa-map-marker-alt"></i> Hassan, Karnataka</span>
     <span><i class="fas fa-truck"></i> Track Order</span>
-    <span><i class="fas fa-user"></i> 
-      <a th:href="@{/login}">Log In</a> | 
+
+    <!-- If user is NOT logged in -->
+    <span sec:authorize="!isAuthenticated()">
+      <i class="fas fa-user"></i>
+      <a th:href="@{/login}">Log In</a> |
       <a th:href="@{/register}">Sign Up</a>
     </span>
+
+    <!-- If user IS logged in -->
+    <span sec:authorize="isAuthenticated()">
+      <i class="fas fa-user"></i>
+      <span th:text="${#authentication.name}">Username</span> |
+      <a th:href="@{/logout}">Logout</a>
+    </span>
   </div>
-  
 </div>
 
-<!-- Header -->
+<!-- Header / Navbar -->
 <header>
   <div class="logo">
-    <img src="/images/index/logo1.png" alt="Logo" /><span>DentalTech</span>
+    <img th:src="@{/images/index/logo1.png}" alt="Logo" />
+    <span>DentalTech</span>
   </div>
+
   <nav>
     <ul>
-      <li class="nav-item">
-        <a class="nav-link" th:href="@{/}">HOME</a>
-      </li>
-      <li class="nav-item">
-          <a class="nav-link" th:href="@{/categories}">CATEGORIES</a>
-      </li>
-      <li class="nav-item">
-          <a class="nav-link" th:href="@{/products}">PRODUCTS</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" th:href="@{/cart}">CART</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" th:href="@{/checkouts}">CHECKOUTS</a>
-      </li>
-      <li class="nav-item">
-          <a class="nav-link" th:href="@{/about}">ABOUT US</a>
-      </li>
-      <li class="nav-item">
-          <a class="nav-link" th:href="@{/contact}">CONTACT</a>
-      </li>
+      <li class="nav-item"><a class="nav-link" th:href="@{/}">HOME</a></li>
+      <li class="nav-item"><a class="nav-link" th:href="@{/categories}">CATEGORIES</a></li>
+      <li class="nav-item"><a class="nav-link" th:href="@{/products}">PRODUCTS</a></li>
+      <li class="nav-item"><a class="nav-link" th:href="@{/cart}">CART</a></li>
+      <li class="nav-item"><a class="nav-link" th:href="@{/checkouts}">CHECKOUTS</a></li>
+      <li class="nav-item"><a class="nav-link" th:href="@{/about}">ABOUT US</a></li>
+      <li class="nav-item"><a class="nav-link" th:href="@{/contact}">CONTACT</a></li>
     </ul>
-  </nav> 
-    <a th:href="@{/cart}" class="text-decoration-none text-dark">
-  <div class="cart">
-    <i class="fas fa-shopping-cart"></i> Cart
-  </div>
-</a>
+  </nav>
+
+  <a th:href="@{/cart}" class="text-decoration-none text-dark">
+    <div class="cart">
+      <i class="fas fa-shopping-cart"></i> Cart
+    </div>
+  </a>
 </header>
-<section>
+
+</body>
+</html>

@@ -2,8 +2,10 @@ package com.dental.DentalToolSupplySystem.controller;
 
 import com.dental.DentalToolSupplySystem.dto.DentalToolDTO;
 import com.dental.DentalToolSupplySystem.dto.InventoryDTO;
+import com.dental.DentalToolSupplySystem.model.ActivityLog;
 import com.dental.DentalToolSupplySystem.model.DentalTool;
 import com.dental.DentalToolSupplySystem.model.Inventory;
+import com.dental.DentalToolSupplySystem.service.ActivityLogService;
 import com.dental.DentalToolSupplySystem.service.DentalToolSevice;
 import com.dental.DentalToolSupplySystem.service.InventoryService;
 import com.dental.DentalToolSupplySystem.service.UserService;
@@ -14,6 +16,7 @@ import com.dental.DentalToolSupplySystem.repository.DentalToolRepository;
 import com.dental.DentalToolSupplySystem.repository.InventoryRepository;
 import com.dental.DentalToolSupplySystem.repository.UserRepository;
 
+import java.security.Principal;
 import java.util.List;
 import java.util.Optional;
 
@@ -37,7 +40,8 @@ public class Admincontroller {
     private UserRepository userRepository;
     @Autowired
     private InventoryRepository inventoryRepository;
-
+    @Autowired
+    private ActivityLogService dashboardService;
     
 
 	public Admincontroller(DentalToolSevice dentalToolService, UserService userService,
@@ -48,20 +52,22 @@ public class Admincontroller {
 		this.inventoryService = inventoryService;
 	}
 
-//	 @GetMapping("/dashboard")
-//	    public String dashboard(Model model) {
-//	        model.addAttribute("totalUsers", userService.count());
-//	        model.addAttribute("totalInventory", inventoryService.count());
-//	        model.addAttribute("totalCategories", categoryService.count());
-//	        model.addAttribute("recentActivity", logService.getRecentLogs());
-//
-//	        return "admin_dashboard"; // should match your HTML file in templates
-//	    }
 	@GetMapping("/admin_dashboard")
-    public String admin_dashboard() {
-        return "admin_dashboard";
+    public String showDashboard(Model model,Principal principal) {	
+		 String email = principal.getName();
+		    DentalTool user = userRepository.findByEmail(email);
+		    model.addAttribute("username", user.getName());
+		    model.addAttribute("adminEmail", user.getEmail());
+        long totalUsers = dashboardService.countTotalUsers();
+        long totalInventory = dashboardService.countTotalInventoryItems();
+        long totalCategories = dashboardService.countTotalCategories();
+        List<ActivityLog> recentActivity = dashboardService.getRecentActivityLogs();
+        model.addAttribute("totalUsers", totalUsers);
+        model.addAttribute("totalInventory", totalInventory);
+        model.addAttribute("totalCategories", totalCategories);
+        model.addAttribute("recentActivity", recentActivity);
+        return "admin_dashboard"; // name of your HTML file without extension
     }
-	
 	//for user
 	@GetMapping("/Manageuser")
 	public String manageUser(Model model) {
@@ -94,12 +100,11 @@ public class Admincontroller {
         if (result.hasErrors()) {
             return "add-user";
         }
-
         userService.saveUser(dentalDTO);
         attributes.addFlashAttribute("success", "User added successfully.");
         return "redirect:/Manageuser";
     }
-
+    
     // Delete user
     @GetMapping("/user-delete")
     public String deleteUser(@RequestParam Long id) {

@@ -35,6 +35,7 @@ public class Employee {
 	@OneToOne(mappedBy = "employee", cascade = CascadeType.ALL)
 	private Address address;
 	
+	
 	@ManyToMany
 	@JoinTable(
 	    name = "employee_roles",

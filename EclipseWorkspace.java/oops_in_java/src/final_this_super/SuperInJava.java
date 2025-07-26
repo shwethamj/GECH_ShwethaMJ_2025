@@ -39,9 +39,9 @@ public class SuperInJava {
 		
 		// SUPER
 		/*
-		 * 1. it used to call the parent class super class instance variabele
-		 * 2. it used to call  the parent class super class constructor
-		 * 3. it used to call the parent class super class methods
+		 * 1. it used to call the parent class super class instance variabele(to call parent class variable)
+		 * 2. it used to call  the parent class super class constructor(to call parent class constrctor)
+		 * 3. it used to call the parent class super class methods(to call the parent class method)
 		 */
 		
 		NewDog newdog = new NewDog("bruno", 4, "vegitables");

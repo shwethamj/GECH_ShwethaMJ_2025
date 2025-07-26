@@ -1,0 +1,34 @@
+
+<nav class="navbar navbar-expand-lg navbar-dark  px-2 py-3" style="background-color: #0d9488;"   th:fragment="header">
+    <a class="navbar-brand" href="#">Admin Dashboard</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#adminNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="adminNavbar">
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <a class="nav-link text-light" th:href="@{/employee/}">Manage User</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" th:href="@{/notes}">Manage Department</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" th:href="@{/task}">Manage Task</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" th:href="@{/roles}">Manage Role</a>
+            </li>
+        </ul>
+		<div>
+			<!-- 
+	        <a th:href="@{/profile}" class="btn btn-outline-primary me-2">
+	            <i class="fas fa-user me-1"></i>Profile
+	        </a>
+			-->
+	        <a th:href="@{/logout}" class="btn btn-outline-danger">
+	            <i class="fas fa-sign-out-alt me-1" style="background-color: #0d9488;"></i>Logout
+	        </a>
+      </div>
+    </div>
+</nav>

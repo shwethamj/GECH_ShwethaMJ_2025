@@ -41,9 +41,10 @@ public class ThisInJava {
 		
 		// THIS
 		/*
-		 * 1.used to refer instance variablw in current class
-		 * 2. used to refer current class constructor
-		 * 3.used refer method in current class
+		 * 1.used to refer instance variable in current class
+		 * 2. used to refer current class constructor 
+		 * 3.used refer method in current class and static method
+		 * we can access the static variables using this keyword
 		 */
 		Person1 person =new Person1();
 		person.display();

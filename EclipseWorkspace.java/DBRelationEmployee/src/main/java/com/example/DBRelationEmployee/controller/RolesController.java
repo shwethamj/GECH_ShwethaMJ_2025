@@ -42,30 +42,31 @@ public class RolesController {
 		model.addAttribute("roles",roles);
 	    return "roles"; // Returns the view named "roles.html"
 	}
-	
 	@GetMapping("/add-role")
-	public String role(Model model ) {
-		model.addAttribute("roleDTO",new RolesDTO());
-		return "add-role";
+	public String addRoleForm(Model model) {
+	    model.addAttribute("rolesDTO", new RolesDTO());
+	    return "add-role";
 	}
-	
+
 	@PostMapping("/add-role")
-	public String role(@Valid @ModelAttribute RolesDTO roleDTO, BindingResult result, RedirectAttributes attributes) {
-		System.out.println(roleDTO.getRolename());
-		Optional<Roles> role =  roleRepository.findByRolename(roleDTO.getRolename().toUpperCase());
-		if(role.isPresent()) {
-			result.addError(
-					new FieldError("RoleDTO", "name", "Role with given name is already present.")
-					);
-		}
-		if(result.hasErrors()) {
-			return "add-role";
-		}
-		roleService.saveRole(roleDTO);
-		attributes.addFlashAttribute("success","Role Saved Successfully");
-		return "redirect:/roles";
+	public String saveRole(@Valid @ModelAttribute("rolesDTO") RolesDTO rolesDTO,
+	                       BindingResult result,
+	                       Model model,
+	                       RedirectAttributes attributes) {
+
+	    Optional<Roles> existingRole = roleRepository.findByRolename(rolesDTO.getRolename().toUpperCase());
+	    if (existingRole.isPresent()) {
+	        result.addError(new FieldError("rolesDTO", "rolename", "Role with given name is already present."));
+	    }
+
+	    if (result.hasErrors()) {
+	        return "add-role";
+	    }
+	    roleService.saveRole(rolesDTO);
+	    attributes.addFlashAttribute("success", "Role Saved Successfully");
+	    return "redirect:/roles";
 	}
-	
+
 	@GetMapping("/edit-role/{id}")
 	public String editRole(@PathVariable Long id, Model model, RedirectAttributes attributes) {
 		Optional<Roles> role =  roleRepository.findById(id);

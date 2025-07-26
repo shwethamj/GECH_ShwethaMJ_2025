@@ -2,7 +2,9 @@ package com.dental.DentalToolSupplySystem.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.dao.DaoAuthenticationProvider;
+import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
@@ -47,6 +49,13 @@ public class SecurityConfig {
 	}
 	
 	@Bean
+	public AuthenticationManager authenticationManager(HttpSecurity http) throws Exception {
+	    return http.getSharedObject(AuthenticationManagerBuilder.class)
+	            .authenticationProvider(doAuthenticationProvider())
+	            .build();
+	}
+
+	@Bean
 	public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
 		return http
 				.authorizeHttpRequests(auth-> auth
@@ -64,8 +73,11 @@ public class SecurityConfig {
 						)
 				.logout(logout->logout
 						.logoutSuccessUrl("/login?logout")
+						.invalidateHttpSession(true)
+						.deleteCookies("JSESSIONID")
 						.permitAll())
 				
+				.headers(headers -> headers.cacheControl(cache -> cache.disable()))	
 				.build();
 	}
 }

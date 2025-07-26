@@ -23,7 +23,7 @@ class Child2 extends parent{
 	}
 }
 
-public class InheritanceInJava {
+public class InheritanceInJava{
 
 	public static void main(String[] args) {
 		

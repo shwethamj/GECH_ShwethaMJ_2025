@@ -33,7 +33,6 @@ public class DepartmentController {
 	private EmployeeRepository userRepository;
 	private DepartmentService notesService;
 
-	
 	public DepartmentController(DepartmentRepository notesRepository, EmployeeRepository userRepository,
 			DepartmentService notesService) {
 		super();
@@ -58,7 +57,6 @@ public class DepartmentController {
 	        List<Department> notes = notesRepository.findByEmployee(user);
 	        model.addAttribute("notes", notes);
 	    }
-
 	    return "notes";
 	}
 
@@ -127,5 +125,4 @@ public class DepartmentController {
 	    }
 	    return "redirect:/notes";
 	}
-
 }

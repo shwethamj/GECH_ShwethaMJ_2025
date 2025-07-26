@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" th:replace="~{layout :: layout(~{::title}, ~{::section})}">
+<head>
+    <title>Add Task</title>
+    <link rel="stylesheet" th:href="@{/webjars/bootstrap/5.3.2/css/bootstrap.min.css}" />
+</head>
+<body>
+	<section>
+<div class="container mt-5">
+    <div class="card shadow">
+        <div class="card-header bg-primary text-white">
+            <h4>Add New Task</h4>
+        </div>
+        <div class="card-body">
+            <form th:action="@{/task/save}" th:object="${task}" method="post">
+                <div class="mb-3">
+                    <label for="title" class="form-label">Task Title</label>
+                    <input type="text" th:field="*{title}" class="form-control" id="title" required>
+                </div>
+
+
+                <div class="mb-3">
+                    <label for="deadline" class="form-label">Deadline</label>
+                    <input type="date" th:field="*{deadline}" class="form-control" id="deadline" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="status" class="form-label">Status</label>
+                    <select th:field="*{status}" class="form-select" id="status" required>
+                        <option value="">-- Select Status --</option>
+                        <option value="PENDING">Pending</option>
+                        <option value="IN_PROGRESS">In Progress</option>
+                        <option value="COMPLETED">Completed</option>
+                    </select>
+                </div>
+
+                <div class="mb-3">
+                    <label for="employeeId" class="form-label">Assign To</label>
+                    <select th:field="*{employeeId}" class="form-select" id="employeeId" required>
+                        <option value="">-- Select Employee --</option>
+                        <option th:each="emp : ${employees}" th:value="${emp.id}" th:text="${emp.name}"></option>
+                    </select>
+                </div>
+
+                <button type="submit" class="btn btn-success">Add Task</button>
+                <a th:href="@{/task}" class="btn btn-secondary ms-2">Cancel</a>
+            </form>
+        </div>
+    </div>
+</div>
+
+</section>
+</body>
+</html>

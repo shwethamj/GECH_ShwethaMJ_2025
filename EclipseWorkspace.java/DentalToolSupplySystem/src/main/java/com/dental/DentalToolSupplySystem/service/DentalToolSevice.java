@@ -3,11 +3,14 @@ package com.dental.DentalToolSupplySystem.service;
 import java.util.List;
 import java.util.Optional;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import com.dental.DentalToolSupplySystem.dto.DentalToolDTO;
+import com.dental.DentalToolSupplySystem.model.ActivityLog;
 import com.dental.DentalToolSupplySystem.model.DentalTool;
+import com.dental.DentalToolSupplySystem.repository.ActivityLogRepository;
 import com.dental.DentalToolSupplySystem.repository.DentalToolRepository;
 
 
@@ -16,6 +19,8 @@ public class DentalToolSevice {
 
 		private DentalToolRepository dentaltoolRepository;
 		private PasswordEncoder passwordEncoder;
+		  @Autowired
+		    private ActivityLogRepository activityLogRepository;
 		
 		public DentalToolSevice(DentalToolRepository dentaltoolRepository, PasswordEncoder passwordEncoder) {
 			super();
@@ -36,11 +41,6 @@ public class DentalToolSevice {
 		  
 		}
 		
-		 public static Object getAllUsers() {
-				// TODO Auto-generated method stub
-				return null;
-			}
-
 		 
 		 
 }

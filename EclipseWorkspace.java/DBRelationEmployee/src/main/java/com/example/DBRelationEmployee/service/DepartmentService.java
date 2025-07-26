@@ -30,7 +30,6 @@ public class DepartmentService {
 	}
 
 
-
 	public void updateNotes(@Valid DepartmentDTO notesDTO, Long id) {
 		Department notes = departmentRepository.findById(id).get();
 		notes.setTitle(notesDTO.getTitle().toUpperCase());

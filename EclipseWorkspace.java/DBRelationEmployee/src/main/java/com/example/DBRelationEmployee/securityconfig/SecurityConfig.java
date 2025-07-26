@@ -36,6 +36,7 @@ public class SecurityConfig {
         http
             .authorizeHttpRequests(auth -> auth
                 .requestMatchers("/users/**", "/roles/**", "/dashboard").hasRole("ADMIN")
+                .requestMatchers( "/task/**", "/user/dashboard").hasAnyRole("ADMIN","USER")
                 .requestMatchers("/login", "/register", "/home", "/", "/about", "/contact", "/notes/**", "/css/**", "/js/**").permitAll()
                 .anyRequest().permitAll()  // Allow all other requests without authentication
             )

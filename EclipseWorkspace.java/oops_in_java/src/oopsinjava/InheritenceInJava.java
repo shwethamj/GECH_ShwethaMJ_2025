@@ -1,5 +1,6 @@
 
 
+
 package oopsinjava;
 
 public class InheritenceInJava {
@@ -10,10 +11,12 @@ public class InheritenceInJava {
 		/*
 		 * extends  the properties of parent class to child class
 		 * properties(state and action)
+		 * the properties of parent can extends to main public class
 		 
 		 * TYPES IN INHERITANCE:
 		 
-		 * 1.single level => parent to child (only2 classes - inheritance is single level)
+		 * 1.single level => extending the property of one parent to the one child class
+		 * parent to child (only2 classes - inheritance is single level)
 		 * ex: child extends parent
 		 
 		 * 2.multilevel => one child class extends to 2 parent classes one  after another that is

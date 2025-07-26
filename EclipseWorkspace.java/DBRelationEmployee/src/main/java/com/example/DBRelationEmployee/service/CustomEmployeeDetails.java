@@ -41,5 +41,10 @@ public class CustomEmployeeDetails implements UserDetails {
 	public String getAddress() {
 		return user.getAddress().getAddress();
 	}
+	
+	public Employee getEmployee() {
+        return user;
+    }
+
 
 }
