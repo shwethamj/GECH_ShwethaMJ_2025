@@ -41,6 +41,12 @@ int main(){
     printf("the s2 branch : %s\n",s2.branch);
     printf("the s2 sem : %d\n",s2.sem);
 
-
+    
+union Student{
+        int id;
+        char name[20];
+        char branch[10];
+        int sem;
+    };
    
 }

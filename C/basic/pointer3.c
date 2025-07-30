@@ -26,9 +26,9 @@ int main(){
     printf("the value of first element using *ptr : %d\n",*ptr);
 
     //using increment method
-    ptr++;
+    ptr++; //index=1
     printf("the value using ptr: %d\n",*ptr);
-    ptr=ptr+2;
+    ptr=ptr+2; //index=1+2=3
     printf("the value  using ptr : %d\n",*ptr);
     *ptr=100;
 

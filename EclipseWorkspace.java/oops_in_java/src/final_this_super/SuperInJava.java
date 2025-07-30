@@ -6,7 +6,7 @@ class OldDog{
 	public int age;
 	
 	public OldDog(String name, int age) {
-		super();
+		super();//constructor
 		this.name = name;
 		this.age = age;
 	}
@@ -22,12 +22,12 @@ class NewDog extends OldDog{
 	public String eat;
 
 	public NewDog(String name, int age, String eat) {
-		super(name, age);
+		super(name, age);//variable
 		this.eat = eat;
 	}
 	 
 	public void display() {
-		super.display();
+		super.display(); //method
 		System.out.println("dog eat:"+this.eat);
 		System.out.println("dog name is:"+this.name);
 	}

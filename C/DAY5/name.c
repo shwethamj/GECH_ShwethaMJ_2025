@@ -19,7 +19,7 @@ int main(){
     }
 
     printf("Enter your First Name:");
-    scanf(" %[^\n]", fname);  //3rd method for string input
+    scanf(" %s", fname);  //3rd method for string input
 
     printf("Enter your Last Name:");
     scanf(" %[^\n]", lname);

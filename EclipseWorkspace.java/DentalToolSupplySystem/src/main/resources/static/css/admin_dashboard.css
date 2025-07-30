@@ -1,14 +1,34 @@
 
-        body {
-            font-family: 'Segoe UI', sans-serif;
-        }
+/* Reset browser default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-        .sidebar {
-            min-height: 100vh;
-            background-color: #00416a ;
-            color: white;
-            padding: 20px;
-        }
+/* Optional: Ensure full width + height layout */
+body {
+    width: 100vw;
+    height: 100vh;
+	margin: 0;
+	 padding: 0;
+    overflow-x: hidden;
+}
+
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 220px;
+    background-color: #00416a;
+    color: white;
+    padding: 20px;
+    overflow-y: auto;
+    z-index: 1000;
+}
+
 
         .sidebar .nav-link {
             color: white;
@@ -22,19 +42,30 @@
         }
 
         .topbar {
+			margin-left:280px;
+			    background-color: #00416a;
+			    color: white;
+			    position: sticky; /* or fixed if you want it always visible */
+			    top: 0;
+			    z-index: 999;
+			    border-bottom: 1px solid #dee2e6;
+
             padding: 10px 30px;
-            background-color: #00416a ;
             border-bottom: 1px solid #dee2e6;
 			color:white;
         }
 
         .card-title {
+			margin-left:230px;
             font-size: 1rem;
         }
 
         .card-text {
             font-size: 2rem;
         }
+		.dashboard{
+			margin-left:290px;
+		}
 
        
     

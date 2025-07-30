@@ -19,7 +19,7 @@ types:
 1)single level:
     ==> properties of one parent extends to one child class(one derived class inherit the one base class)
 2)multiple
-    ==> two base class gives the inherit properties to one derived class(grand parent ,parent--child)
+    ==> two base class gives(2 parentclass) the inherit properties to one derived class(grand parent ,parent--child)
 3)multilevel
     ==>dervied class inherit the properties of another derived class(grandparent-parent ,parent-child)
 4)hybrid

@@ -27,6 +27,7 @@ public class ClassObjectInJava {
 	public static void main(String[] args) {
 		//class
 		/* class will represent the state and behavior of an object
+		 * blueprint of object
 		 * state -->property
 		 * behavior --> action
 		 */
@@ -34,6 +35,7 @@ public class ClassObjectInJava {
 		/*
 		 * Object:
 		 * object is a implementaion of class(state and action)
+		 * instance of class
 		 * ex: Studnet2
 		 
 		 * Property :
@@ -61,8 +63,8 @@ public class ClassObjectInJava {
 		 *  }
 		 *Student std1= new Student();
 		 */
-		//creating object for class Student
 		
+		//creating object for class Student	
 		// student1
 		Student std1=new Student();
 		System.out.println(std1.name);

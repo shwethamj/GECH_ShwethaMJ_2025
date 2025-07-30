@@ -53,7 +53,7 @@ public class ConstructorInJava {
 		  		
 		 *Constructor dont have the return type(void or int )
 		 *But internally it returns object.(default constructor)
-		 *Java gives defualt constructor(no-args) automaticaly when object created
+		 *Java compiler gives defualt constructor(no-args) automaticaly when object created
 		 *If we create a constructor then it will not give default constructor`
 		 *Constructor belong to object ==> we cannot give constructor has static(access specifier)
 		 *Cannot use final keyword

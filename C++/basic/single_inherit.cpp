@@ -8,7 +8,7 @@ class Parent{
     public:
         string name;
     void showparentdetails(){
-        cout <<"parent name : "<<endl;
+        cout <<"parent name : "<<name<<endl;
     }
 };
 
@@ -31,8 +31,10 @@ int main(){
     p1.name="radha";
     c1.childname ="shwetha";
 
+
     p1.showparentdetails();
     c1.showchilddetails(); 
+    c1.name="dileep";
     c1.showparentdetails();//child class can access the member function and datammbers of the base class
 }
 

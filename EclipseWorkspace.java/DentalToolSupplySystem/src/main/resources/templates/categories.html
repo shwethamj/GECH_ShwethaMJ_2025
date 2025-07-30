@@ -28,6 +28,9 @@
 </head>
 
 <body>
+	<div th:if="${isAdmin}" th:replace="fragments/admin_layout :: admininherit">
+	    <div th:fragment="admin-content">
+
 
  <section>
 
@@ -695,6 +698,8 @@
   <script src="@{/JS/category.js}"></script>
  
   </section>
+  </div>
+  </div>
 </body>
 
 </html>

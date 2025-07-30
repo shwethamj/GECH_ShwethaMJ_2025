@@ -3,13 +3,13 @@ C :
 ======
     low level programing language 
     procedure oriented
-    uses functions
+    uses functions,algorithm
     top down approach
 
 C++  :
 ======
     object oriented(oops)
-    uses only clss
+    uses only class,object
     bottom up appraoch  
     
 OOPs --> solves the real world entity / problems   

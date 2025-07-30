@@ -71,13 +71,12 @@ public class SecurityConfig {
 						.successHandler(customSuccessHandler)
 						.permitAll()
 						)
+				
 				.logout(logout->logout
 						.logoutSuccessUrl("/login?logout")
 						.invalidateHttpSession(true)
 						.deleteCookies("JSESSIONID")
 						.permitAll())
-				
-				.headers(headers -> headers.cacheControl(cache -> cache.disable()))	
 				.build();
 	}
 }

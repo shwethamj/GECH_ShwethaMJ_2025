@@ -1,5 +1,7 @@
 package com.dental.DentalToolSupplySystem.controller;
 
+import java.security.Principal;
+
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -11,6 +13,8 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import com.dental.DentalToolSupplySystem.dto.DentalToolDTO;
 import com.dental.DentalToolSupplySystem.model.DentalTool;
 import com.dental.DentalToolSupplySystem.service.DentalToolSevice;
+
+import jakarta.servlet.http.HttpServletResponse;
 
 
 
@@ -26,15 +30,24 @@ public class HomeController {
 	}
 
 	@GetMapping("/")
-	public String home() {
-	return "index";
+	public String home(HttpServletResponse response) {
+		 response.setHeader("Cache-Control", "no-cache, no-store, must-revalidate");
+		    response.setHeader("Pragma", "no-cache");
+		    response.setHeader("Expires", "0");
+		    return "index";
 	}
-
+	
 	@GetMapping("/login")
 	public String login() {
 		return "login";
 	}
 
+	@GetMapping("/logout")
+	public String logout() {
+		return "login";
+	}
+
+	
 	@GetMapping("/register")
 	public String register(Model model) {
 		DentalToolDTO dentaltoolDTO = new DentalToolDTO();
@@ -52,7 +65,6 @@ public class HomeController {
 	    return "redirect:/login";
 	}
 
-
 	@GetMapping("/forgetpassword")
 	public String forgetPassword() {
 		return "forgetpassword";
@@ -69,9 +81,13 @@ public class HomeController {
 	}
 	
 	@GetMapping("/categories")
-	public String  categories() {
-		return "categories";
+	public String categories(Model model, Principal principal) {
+	    if (principal != null && principal.getName().equals("admin@gmail.com")) {
+	        model.addAttribute("isAdmin", true);
+	    }
+	    return "categories";
 	}
+
 	
 	@GetMapping("/checkouts")
 	public String  checkouts() {
@@ -93,11 +109,7 @@ public class HomeController {
 		return "terms_conditions";
 	}
 	
-	@GetMapping("/logout")
-	public String logout() {
-		return "login";
-	}
-		
+	
 
 }
 

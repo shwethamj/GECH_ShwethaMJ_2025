@@ -36,7 +36,7 @@ public class DentalToolSevice {
 			dental.setEmail(dentaltoolDTO.getEmail());
 			System.out.println(dentaltoolDTO.getPassword());
 			dental.setPassword(passwordEncoder.encode(dentaltoolDTO.getPassword()));
-			dental.setRole("ROLE_CUSTOMER");
+			dental.setRole("ROLE_USER");
 		  dentaltoolRepository.save(dental);
 		  
 		}

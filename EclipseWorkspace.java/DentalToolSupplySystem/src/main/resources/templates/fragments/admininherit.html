@@ -1,13 +1,13 @@
-<div class="d-flex"  th:fragment="admininherit">
+<div class="d-flex"  th:fragment="admininherit" style="min-height: 100vh;">
     <!-- Sidebar -->
     <div class="sidebar col-md-2">
-        <h4>Admin Panel</h4>
-        <a href="/admin_dashboard" class="nav-link">Dashboard</a>
-        <a href="/Manageuser" class="nav-link">Manage Users</a>
-        <a href="/admin_inventory" class="nav-link">Inventory</a>
-        <a href="/categories" class="nav-link">Categories</a>
-        <a href="/products" class="nav-link">Products</a>
-        <a href="/login" class="nav-link text-warning">Logout</a>
+        <h4>Admin Panel</h4><br><br>
+        <a href="/admin_dashboard" class="nav-link">Dashboard</a><br>
+        <a href="/Manageuser" class="nav-link">Manage Users</a><br>
+        <a href="/admin_inventory" class="nav-link">Inventory</a><br>
+        <a href="/categories" class="nav-link">Categories</a><br>
+        <a href="/products" class="nav-link">Products</a><br>
+        <a href="/login" class="nav-link text-warning">Logout</a><br>
     </div>
 
     <!-- Main Content -->
@@ -21,3 +21,4 @@
                 <a href="/logout" class="btn btn-outline-danger btn-sm">Logout</a>
             </div>
 </div>
+<div th:replace="this :: admin-content"></div>

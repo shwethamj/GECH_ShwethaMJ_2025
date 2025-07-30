@@ -8,8 +8,8 @@ int main(){
 
     printf("enter a size :\n");
     scanf("%d",&num);
-    //CALLOC  ==> pr_name = (datatype_ptr *) calloc (size * sizeof(datatype_name))
-    //calloc provide space how mcuch we wnat and also store garbage
+    //CALLOC  ==> pr_name = (datatype_ptr *) calloc (size , sizeof(datatype_name))
+    //calloc provide space how mcuch we wnat and not store garbage
     fptr= (float *)calloc(num , sizeof(float));
     printf("enter a %d  elemnts\n",num);
     for (int i = 0; i < num; i++)
