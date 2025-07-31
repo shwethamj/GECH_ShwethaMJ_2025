@@ -36,21 +36,43 @@
 	                       <span sec:authentication="principal.username">Username</span>
 	                   </a>
 	                   <ul class="dropdown-menu dropdown-menu-end shadow-sm" aria-labelledby="userDropdown">
-	                       <li>
-	                           <a class="dropdown-item" th:href="@{/profile}">
+	                       <li >
+	                           <a class="dropdown-item text-success" th:href="@{/profile}">
 	                               <i class="fas fa-id-badge me-2"></i> Profile
 	                           </a>
 	                       </li>
+						   
+						   <!-- Dashboard Link Based on Role -->
+     				          <li sec:authorize="hasRole('ROLE_ADMIN')" >
+     				              <a class="dropdown-item text-success" th:href="@{/admin_dashboard}">
+     				                  <i class="fas fa-tachometer-alt me-2 "></i> Dashboard
+     				              </a>
+     				          </li>
+     				          <li sec:authorize="hasRole('ROLE_USER')">
+     				              <a class="dropdown-item text-success" th:href="@{/user/dashboard}">
+     				                  <i class="fas fa-tachometer-alt me-2"></i> Dashboard
+     				              </a>
+     				          </li>
+     				          <li sec:authorize="hasRole('ROLE_SUPPLIER')">
+     				              <a class="dropdown-item text-success" th:href="@{/supplier/dashboard}">
+     				                  <i class="fas fa-tachometer-alt me-2"></i> Dashboard
+     				              </a>
+     				          </li>
+							  
+							 <!-- logout -->
 	                       <li><hr class="dropdown-divider"></li>
 	                       <li>
 	                           <form th:action="@{/logout}" method="post">
-	                               <button type="submit" class="dropdown-item">
+	                               <button type="submit" class="dropdown-item text-warning">
 	                                   <i class="fas fa-sign-out-alt me-2"></i> Logout
 	                               </button>
 	                           </form>
-	                       </li>
+	                       </li>  
 	                   </ul>
+					   
 	               </li>
+				   
+				   
 	          </div>
       </div>
   

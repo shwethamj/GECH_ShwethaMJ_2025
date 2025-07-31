@@ -4,9 +4,8 @@ import java.util.Scanner;
 
 public class ArrayInJava1 {
 	public static void main(String[] args) {
-		/*
-		 * 2D array:
-		 */
+		//2D Array
+		
 		int[][] arr=new int[2][2];
 		arr[0][1]=20;
 		arr[0][0]=10;
@@ -32,18 +31,18 @@ public class ArrayInJava1 {
 		int[][] arr1= new int[size2][size1];
 		
 		System.out.println("enter the values");
-		for(int k=0; k<size2;k++) {
-			for(int l=0;l<size1;l++) {
+		for(int k=0; k<size2;k++) {      //for row
+			for(int l=0;l<size1;l++) {	 //for column
 				arr1[k][l]=sc.nextInt();
 			}
 		}
 		
 			System.out.println("array elements are:");
-			for(int k=0; k<size2;k++) {
-				for(int l=0;l<size1;l++) {
+			for(int k=0; k<size2;k++) {          //for row
+				for(int l=0;l<size1;l++) {      //for column
 					System.out.print(arr1[k][l]+" ");
 				}
-				System.out.println();
+				System.out.println();  //after number column need to go to next line
 			}
 			sc.close();
 	}
