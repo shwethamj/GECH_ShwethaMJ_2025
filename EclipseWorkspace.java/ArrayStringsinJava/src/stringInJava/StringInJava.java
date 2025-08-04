@@ -4,45 +4,78 @@ public class StringInJava {
 	
 	public static void main(String[] args) {
 		/*
-		 * STRING: is a group of characters
+		  STRING:
+		  =======
+		 *  it is a object 
+		 *  that represent a group of characters /array of character / sequence of character
+		 *  String is final class that cannot  extends to other and we can create a object
+		 *  ==> character need to close within ""; ==>  ex :"table"
+		 Syntax:
+		 ========
 		 
-		 *ex:table;
-		 *==> character need to close within "";
-		 *ex: "table";
-		 
-		 * how to declare the String;
-		 
-		 *1. USING STRING LITERAL:
-		 *String var_name="String_name";
-		 
-		  *2. using new keyword:
-		  *String var_name= new String("string_name");
-		 
+		 	1. USING STRING LITERAL :
+		 		String var_name = "value"; // String literals ->this will only  create if object doesn't exist
+		 	
+		 	2. using new keyword:
+		 		String var_name = new String("value"); //craete  A new object every time.
+		
+		Object ==> is the father of all objects(which we create)
+		whe 
 		 */
 		
-		String name="shwetha";
-		String age=new String("shwetha");
-		String age1=new String("shwetha");// new is object
-		String name1="shwetha";
-		System.out.println(name);
-		System.out.println(age);
-		System.out.println(age1);
-		System.out.println("-------------------------------------\n");
-		System.out.println(name.equals(age)); //checking for values using .equal //false
-		System.out.println("-------------------------------------");
-		System.out.println(name==(age)); //it check for refernce/address // false
-		// if it check for reference like shwetha store in name and name1
-		// but new keyword it create a new separate objects for age and age1
+		String str1="shwetha";
+		String str2= "shwetha";
 		
-		System.out.println("-------------------------------------");
-		System.out.println(name==(name1)); //true
+		String str3=new String("shwetha");
+		String str4=new String("shwetha");
 		
+		System.out.println("string 1 :"+str1);
+		System.out.println("string 2 :"+str2);
+		System.out.println("string 3 :"+str3);
+		System.out.println("string 4 :"+str4);
+		System.out.println("=============================================================");
+		
+		/*
+		 * String Comparision :
+		  ==================
+		  	1. ==  -> reference comparision
+		  	2. equals() -> checks value 
+		  	3. compareTo -> based on bytes 
+		  		if 2 strings equal -> 0
+		  		if 1st strings greater than second ->  >0
+		  		if 1st strings lesser than second ->  <0
+		 */
+		
+		//using ==
+		System.out.println("str1 == str2 : "+(str1 == str2));//true this will compare the reference // true
+		System.out.println("str1 == str2 : "+(str1 == str3)); //false
+		System.out.println("str1 == str2 : "+(str1 == str4)); //false
+		System.out.println("--------------------------------------------------");
+		
+		// using .equals
+		System.out.println("str1 = str2  : "+str1.equals(str2));
+		System.out.println("str1 = str3  : "+str1.equals(str3));
+		System.out.println("str1 = str3  : "+str1.equals(str4));
 		System.out.println("-------------------------------------");
-		//Strings are immutable
-		String str5 = new String("String5");
-		str5 =str5.concat("hello");
-		// str5.concat("hello) -- if we dont use str_name it will not concat with String5
-		System.out.println(str5);
+		
+		//using compareTo
+		System.out.println("str1 = str2  : "+str1.compareTo(str2));
+		System.out.println("str1 = str3  : "+str1.compareTo(str3));
+		System.out.println("str1 = str3  : "+str1.compareTo(str4));
+		System.out.println("-------------------------------------");
+
+		
+		// String comparison using == (with final and without final) 
+		String arr = "123456"; //string literal stored in string constant pool
+		final String arr2 = "123"; // This is a constant, known at compile time.
+		String arr3 = "123";  //This is not final, so Java cannot optimize it at compile time.
+		 
+		String arr4 = str2 + "456"; // Evaluated at compile time → "123456"
+		String arr5 = str3 +"456"; // A new object is created in the heap (not from the constant pool).
+		
+		System.out.println(arr == arr5);//false
+		System.out.println(arr == arr4);//true
+		
 		
 		
 	}
