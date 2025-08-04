@@ -21,22 +21,28 @@ public class StringMethod {
 		
 		String str1 = new String("hello world");
 		String str2= new String("HELLo world");
-		String str3= new String(" world");
+		String str3= new String("hello world");
+		String str4= new String("     hello world");
 				
 		//1. equals
 		System.out.println("equals:"+str1.equals(str2));
+		System.out.println("equals:"+str1.equals(str3));		
 		
 		//2.equalignorecase -- ignore upper case and lowercase only check the characters
 		System.out.println("equalignorecase:;"+str1.equalsIgnoreCase(str2));
 		System.out.println();
 	
-		//3. ==
+		//3. ==  //checks the memory location so it returns false if we compare 2 separate string
 		System.out.println("==:"+(str1==str2));
+		System.out.println("==:"+(str1==str3));
 		System.out.println();
 		
 		//4. concat
 		System.out.println("cocat:"+str1.concat(str2));
 		System.out.println();
+		
+		//trim ==>remove space in the starting of word
+		System.out.println("cocat:"+str4.trim());
 		
 		//5.toUpperCase
 		System.out.println("touppercase:"+str1.toUpperCase());
@@ -49,6 +55,7 @@ public class StringMethod {
 		//7.compareTo
 		System.out.println("compare:"+str1.compareTo(str2));
 		System.out.println();
+
 		
 		//8.startsWith
 		System.out.println("startswith:"+str1.startsWith(str2));

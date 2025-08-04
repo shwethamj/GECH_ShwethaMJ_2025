@@ -19,13 +19,18 @@ public class DentalTool {
 		private String password;
 		private String role;
 		private String status;
-		
+		private String phoneNumber;
+
+	    private String profileImage;
 
 		public DentalTool() {
 			super();
 		}
 
-		public DentalTool(long id, String name, String email, String password, String role,String status) {
+		
+
+		public DentalTool(long id, String name, String email, String password, String role, String status,
+				String phoneNumber, String profileImage) {
 			super();
 			this.id = id;
 			this.name = name;
@@ -33,7 +38,35 @@ public class DentalTool {
 			this.password = password;
 			this.role = role;
 			this.status = status;
+			this.phoneNumber = phoneNumber;
+			this.profileImage = profileImage;
 		}
+
+
+
+		public String getPhoneNumber() {
+			return phoneNumber;
+		}
+
+
+
+		public void setPhoneNumber(String phoneNumber) {
+			this.phoneNumber = phoneNumber;
+		}
+
+
+
+		public String getProfileImage() {
+			return profileImage;
+		}
+
+
+
+		public void setProfileImage(String profileImage) {
+			this.profileImage = profileImage;
+		}
+
+
 
 		public long getId() {
 			return id;
@@ -85,18 +118,15 @@ public class DentalTool {
 			this.status = status;
 		}
 
+
+
 		@Override
 		public String toString() {
 			return "DentalTool [id=" + id + ", name=" + name + ", email=" + email + ", password=" + password + ", role="
-					+ role + ",status=" + status + " ]";
+					+ role + ", status=" + status + ", phoneNumber=" + phoneNumber + ", profileImage=" + profileImage
+					+ "]";
 		}
 
 		
-	
-		
-		
-		
-		
-
 	
 }

@@ -1,0 +1,70 @@
+<style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f8f9fa;
+        }
+
+        .sidebar {
+            width: 220px;
+            background-color: #04364A;
+            height: 100vh;
+            position: fixed;
+            padding: 20px;
+            color: white;
+        }
+
+        .sidebar h5 {
+            margin-bottom: 30px;
+        }
+
+        .sidebar a {
+            display: block;
+            margin: 12px 0;
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .sidebar a:hover {
+            color: #ffc107;
+        }
+		
+		.topbar {
+					margin-left:220px;
+					    background-color: #00416a;
+					    color: white;
+					    position: sticky; /* or fixed if you want it always visible */
+					    top: 0;
+					    z-index: 999;
+					    border-bottom: 1px solid #dee2e6;
+
+		            padding: 10px 30px;
+		            border-bottom: 1px solid #dee2e6;
+					color:white;
+		        }
+
+        .main {
+            margin-left: 240px; /* space for sidebar */
+            padding: 30px;
+        }
+
+        .card-stat {
+            border-left: 5px solid #198754;
+            box-shadow: 0 0 10px rgba(0,0,0,0.05);
+        }
+
+        .card-stat i {
+            font-size: 30px;
+            color: #198754;
+        }
+
+        .quick-links .card:hover {
+            background-color: #f1f1f1;
+            cursor: pointer;
+            transition: 0.3s ease;
+        }
+
+        .logout-btn {
+            margin-top: 20px;
+        }
+    </style>

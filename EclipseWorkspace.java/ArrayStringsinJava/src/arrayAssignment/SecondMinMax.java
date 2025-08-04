@@ -34,8 +34,8 @@ public class SecondMinMax {
 			}
 			
 			
-			int secmin = Integer.MAX_VALUE;
-			int secmax = Integer.MIN_VALUE;
+			int secmin = max;
+			int secmax = min;
 			
 			for(int i=0; i<n; i++) {
 			if(arr[i]<secmin && arr[i]>min) {
@@ -46,6 +46,7 @@ public class SecondMinMax {
 			}
 		}
 		
+			
 		System.out.println("The second min value " +secmin);
 		System.out.println("The second max value " +secmax);
 		

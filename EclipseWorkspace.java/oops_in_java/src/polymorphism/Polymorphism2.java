@@ -26,6 +26,9 @@ class Circle extends Shape{
 		System.out.println("the area of circle is : "+(3.14*radius*radius));
 	}
 	
+//	public void me() {
+//		System.out.println("vvvv");
+//	}
 }
 public class Polymorphism2 {
 
@@ -35,9 +38,11 @@ public class Polymorphism2 {
 		Circle area =new Circle(5);
 		area.area();
 		
+		
 		//up casting
 		Shape c =new Circle(6);
 		c.area();
+//		c.me();  =>me is decalred in child class so in upcasting we cannot call child methods; only parent method
 		
 		//by user input
 		System.out.println("-------------------------------\nenter radius of circle :");

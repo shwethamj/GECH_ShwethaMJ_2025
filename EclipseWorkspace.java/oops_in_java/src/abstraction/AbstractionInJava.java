@@ -1,5 +1,6 @@
 package abstraction;
 
+
 //1. using interface -- blueprint of class
 interface Tiger {
 	public void method();// in interface, method is abstract method (by default public and abstract method)

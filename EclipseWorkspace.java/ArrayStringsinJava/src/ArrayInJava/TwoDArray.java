@@ -33,6 +33,7 @@ public class TwoDArray {
 		int max=arr1[0][0];
 		int min =arr1[0][0];
 		
+		System.out.println(" length of size2 : "+arr1[0].length);
 //		sum
 		for(int i=0;i<arr1.length;i++) {
 			for(int j=0; j<arr1[i].length;j++) {
@@ -41,6 +42,7 @@ public class TwoDArray {
 		}
 		System.out.println("sum = "+sum);
 		
+		//max and min
 		for(int m=0;m<arr1.length;m++) {
 			for(int n=0; n<arr1[m].length;n++) {
 				if(arr1[m][n]>max) {

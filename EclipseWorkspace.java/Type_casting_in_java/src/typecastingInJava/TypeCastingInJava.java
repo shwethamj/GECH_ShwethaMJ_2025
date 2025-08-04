@@ -33,7 +33,7 @@ public class TypeCastingInJava {
 				==> example:
 						Animal a = new Dog();
 				 		Dog d = (Dog) a; 
-				 		d.bark();             // ✅ Now you can access Dog methods  
+				 		d.bark();             // ✅ Now you can access Dog methods  and animal method 
 
 		 */
 		

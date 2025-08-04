@@ -32,6 +32,7 @@ public class AssignmentOperator {
 		System.out.println("equal:" + (y == z));
 		System.out.println("greater:" + (y > z));
 		System.out.println("lesser:" + (y < z));
+		System.out.println("!=:" + (y != z));
 		System.out.println("equalor greater than:" + (y >= z));
 		System.out.println("equalor less than:" + (y <= z));
 		System.out.println("----------------------------------------");
@@ -42,7 +43,6 @@ public class AssignmentOperator {
 		System.out.println("Logical Operator");
 		System.out.println("&&:" + (c && d));
 		System.out.println("||:" + (c || d));
-		System.out.println("!=:" + (c != d));
 		System.out.println("! : " + ( !d)); // ans= true
 		System.out.println("! : " + ( !c)); // o/p == false
 		System.out.println("----------------------------------------");
@@ -56,7 +56,7 @@ public class AssignmentOperator {
 		System.out.println("a ^ b = " + (a ^ b)); // XOR -> 0110 = 6
 		System.out.println("~a = " + (~b)); // NOT -> 1010 (in 2's compliment = -6)
 		System.out.println("a << 1 = " + (a << 1)); // Left shift -> 1010 = 10
-		System.out.println("a >> 1 = " + (a >> 1)); // Right shift -> 0010 = 2
+		System.out.println("a >> 1 = " + (a >> 2)); // Right shift -> 0010 = 2
 
 		// 6.shift operator
 		int var1 = 3; // 0011
