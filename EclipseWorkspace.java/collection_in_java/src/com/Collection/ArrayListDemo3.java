@@ -16,13 +16,18 @@ public class ArrayListDemo3 {
 		
 		System.out.println("before sorting: "+list);
 		
-		//COLLECTIONS
 		/*
+		 COLLECTIONS:
+		 ==============
 		 * its a utility classes that provide methods to work with collection
+		  
+		 * utility class --> Collections and Arrays
+		 * Arrays --> only work for array and don't have in built  methods
+		 * 
 		 */
 		
 		// 1.SORT
-		Collections.sort(list);
+		Collections.sort(list);// comparable used for --> default or natural sorting order (ascending order)
 		System.out.println("after sort: " +list);
 	
 		//2. min and max in list
@@ -32,6 +37,12 @@ public class ArrayListDemo3 {
 		//3.Reverse
 		Collections.reverse(list);
 		System.out.println("after reverse: "+list);
+		
+		Collections.shuffle(list);
+		System.out.println("after shuffle: "+list);
+
+		Collections.swap(list, 2, 1);
+		System.out.println("after swaping 2 and 1 : "+list);
 
 		
 	

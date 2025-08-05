@@ -118,12 +118,12 @@ public class StringMethod {
 		System.out.println("value of number : "+strr); //123
 		System.out.println();
 		
-		//19. intern()
+		//19. intern() ==> refers to pool
 		String str7 = "pavan";
 		String str8 = new String("pavan"); //false → str8 is in heap, str7 is in String constant pool
 		System.out.println(" == : "+(str7 == str8)); //false 
 		
-		String str9 = new String("pavan").intern(); // true → interned str9 points to pool(scp) version
-		System.out.println("== using intern method : "+(str7 ==str9)); //true
+		String str9 = new String("pavan").intern(); // true → interned str9 points(refers) to pool(scp) version
+		System.out.println("== using intern method : "+(str7 ==str9)); //true 
 	}
 }

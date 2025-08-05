@@ -1,8 +1,5 @@
 package inheritance;
 
-Static {
-	syso
-}
 class Student1 { // default function
 	// static ==> public static String name;
 	public int age;
