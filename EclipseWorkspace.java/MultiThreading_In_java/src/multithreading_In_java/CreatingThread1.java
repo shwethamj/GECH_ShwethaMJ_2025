@@ -1,5 +1,6 @@
 package multithreading_In_java;
 
+//case2: difference between t.start() and t.run():
 class Mythread1 extends Thread{
 
 	@Override
@@ -16,7 +17,7 @@ public class CreatingThread1 {
 		Mythread1 th = new Mythread1();
 		
 	//one more thread(new) will created (child thread 1) and this thraed will call the run method
-	//	th.start();
+		//th.start();
 		
 	//this not create the new thread it  will call run method  as normal method by main thread
 		th.run(); 

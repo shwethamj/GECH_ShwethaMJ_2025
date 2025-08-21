@@ -26,6 +26,13 @@ public class CreatingThread {
 		th.start();//one more thread will created (child thread 1) and call the run method 
 		System.out.println("main thread");//this will execute by main thread
 		
+		/*
+		  case3: importance if thread class start method:
+		  ===============================================
+			* Thread class start method is responsible to register with the Thread Scheduler & all other manditary activities hence without executing the Thread class start() method there is no chance of starting a new thread in java
+			* due to this thread class "start()" method is considered as heart of multithreading.
+
+		 */
 		//both main thread and new child thread will execute concurrently -->cannot predict output
 	}
 }
