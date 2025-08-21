@@ -21,10 +21,10 @@ httpBasicAUthentiaction:
 ========================
 * we can pass username and password in auth tab by selecting basic auth 
 
-* headers we have ot pass by 
-"Baisc username:password" -> in Base64 encode
+* headers we have to pass by 
+"Basic username: password" -> in Base64 encode
 
-murthy:Murthy@123 -> Baisc bXVydGh5Ok11cnRoeUAxMjM=
+murthy:Murthy@123 -> Basic bXVydGh5Ok11cnRoeUAxMjM=
 
 
 Authentication Architecture:

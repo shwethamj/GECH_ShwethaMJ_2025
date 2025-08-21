@@ -1,12 +1,17 @@
-		JAVA 8 FEATURES:
+JAVA 8 FEATURES:
+==================
 1.LAMBDA EXPRESSION 
-2.FUNCTINAL INTERFACE:
-3.PREDICATE:
-4.CONSUMER:
+2.FUNCTINAL INTERFACE
+3.PREDICATE
+4.CONSUMER
 5.SUPPLIER
 6.FUNCTION
-
+7.Stream API
+8. optional class
+9.method reference , constructor reference
+10 .
 -----------------------------------------------
+
 1. LAMBDA EXPRESSION:
 ===============================
 	A) IT IS ALSO CALLED AS A ANONYMOUS FUNCTION(WITHOUT NAME)
@@ -14,14 +19,14 @@
 	C) THERE IS NO ACCESS MODIFIERS
 	
 A) EXAMPLE(normal):
-	public int add(int a,int b){
-	  return a=b;
-	}
+		public int add(int a,int b){
+		  return a=b;
+		}
 	
-	AS A LAMBDA EXPRESSION:
-	 (int a , int b)->{
-	     return a+b;
-	 }
+   AS A LAMBDA EXPRESSION:
+	 	(int a , int b)->{
+	   	  return a+b;
+		 }
 	 
 B) example:
 	public String findLength(String s){
@@ -29,38 +34,42 @@ B) example:
 	}
 	
 	AS LAMBDA EXPRESSION:
-	(String s)->{return s.length()};
+		(String s)->{return s.length()};
 	
 	
-C)EXAMPLE:
+C)EXAMPLE: doesnot taking parameter
 	 public void print(){
 		Syso("hello world"):
 	}
 	
 	AS A LAMBDA EXPRESSION:
-	()-> {Syso("HELLO WORLD");}
+		()-> {Syso("HELLO WORLD");}
 	
 -----------------------------------------------------------------------------------------------------------------------------------------
 
 IMPORTANT NOTES ABOUT THE LAMBA EXPRESSION:
 	==> no need to specify the type of the data
 		(a,b)->{return a+b;}
+
 	==> if the statement is single line then {} is not required
 		(s)-> s.length();
+
 	==> if we are passing the single parameter then no need of () also
 		s -> s.length():
+
 	==> but if there is no parameter then we need ()
 		()->syso("hello world");
+
 	==> if there is a multiple parameter then we need to  separate by comma(,)
 		(a,b) ->a+b
 		
 ------------------------------------------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------------------------------	--------
+------------------------------------------------------------------------------------------------------------------------------------------
 
 2)FUNCTIONAL INTERFACE:
 =========================
 	==> interface contain only one abstract method
-	   ex: comparator
+	   ex: comparator , comparable , predicate ,biconsumer , consumer , bifunction , bipredicate
 	==>@FunctionalInterface -> functional interface
 		
 		

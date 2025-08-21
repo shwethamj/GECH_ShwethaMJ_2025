@@ -41,7 +41,7 @@ AUTHENTICATION ARCHITECTURE:
 		* when we are talking about securityContext we are taking about its implementing classes.
 		* it is used to store the Authentication object(fully authenticated object) after successfull login.
 
-		2. Authentication:
+		2.) Authentication:
 		==================
 		* It is also interface present in "org.springframework.security.core" package.
 		*  when we are talking about Authentication we are taking about its implementing classes.
@@ -51,7 +51,7 @@ AUTHENTICATION ARCHITECTURE:
 		JwtAuthenticationToken, OAuth2LoginAuthenticationToken,
 		UsernamePasswordAuthenticationToken (authentication object)
 
-		3. AuthenticationManager:
+		3.) AuthenticationManager:
 		==========================
 		* it is also an Functional Interface present inside "org.springframework.security.authentication" package.
 		* when we are talking about AuthenticationManager we are taking about its implementing classes.
@@ -60,7 +60,9 @@ AUTHENTICATION ARCHITECTURE:
 
 		* authenticate -> it is a method present in Authentication Manager it will take Authentication request as parameter and return fully athentcated object
 
-		* ProviderManager -> it a class that give implemention for athentcate method present in AuthenticationManager.
+		* ProviderManager
+                 ================== 
+-> it a class that give implemention for athentcate method present in AuthenticationManager.
 
 
 		fully authentication object:
@@ -72,7 +74,7 @@ AUTHENTICATION ARCHITECTURE:
 		3. authorities - roles
 
 
-		AuthenticationProvider:
+		4.)AuthenticationProvider:
 		=======================
 		* it an interface present in "org.springframework.security.authentication" package.
 		* * when we are talking about AuthenticationProvider we are taking about its implementing classes.
@@ -90,19 +92,19 @@ AUTHENTICATION ARCHITECTURE:
 		 JWt ------------------------> JwtAuthenticationProvider
 		 OAuth2 ---------------------> OAuth2LoginAuthenticationProvider.
 		 
-		* One of the AuthenticationProviders will give the implemention for athentcate method.
+		* One of the Authentication Providers will give the implementation for authenticate method.
 
 		AuthenticationEntryPoint:
 		=========================
-		* it is an interface present inside "org.springframework.security.web" pckages
+		* it is an interface present inside "org.springframework.security.web" packages
 		* when we are talking about AuthenticationEntryPoint we are taking about its implementing classes.
-		* it is a entry point for authenticated request(given credetials(username and password) or not).
-		* when ever the user will not provide credentials(unauthenticated request) it will rediretc to /login page.
+		* it is a entry point for authenticated request(given credentials(username and password) or not).
+		* when ever the user will not provide credentials(unauthenticated request) it will redirect to /login page.
 
 
 		AbstractAuthenticationProcessingFilter:
 		=======================================
-		* it ia a abstract class present in "org.springframework.security.web.authentication" package.
+		* it is a abstract class present in "org.springframework.security.web.authentication" package.
 		* when we are talking about AbstractAuthenticationProcessingFilter we are taking about its implementing classes.
 
 		* subclass/implementing classes
@@ -110,11 +112,10 @@ AUTHENTICATION ARCHITECTURE:
 		OAuth2LoginAuthenticationFilter, UsernamePasswordAuthenticationFilter
 
 		* it will take a request from FilterChainProxy or Servlet Container.
-		* the job of AbstractAuthenticationProcessingFilter is to modify the http request into authenticated request and will pass to AuthenticationManager.
+		* the job of AbstractAuthenticationProcessingFilter is to modify the http request into authenticated request and will pass     			to AuthenticationManager.
 
-
-		* the main goal of sprig secirty is to create a store the authentication object in securityContext.
+		* the main goal of sprig security is to create a store the authentication object in securityContext.
 
 		SecurityContextHolder :
 		=======================
-		* it is a warpper around securityContext
+		* it is a wrapper around securityContext

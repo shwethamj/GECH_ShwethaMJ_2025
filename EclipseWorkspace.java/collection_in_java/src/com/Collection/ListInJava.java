@@ -36,7 +36,7 @@ public class ListInJava {
 		double value =(double) list.get(2); // object to double
 		System.out.println(value);
 	
-		
+	
 		}
 	
 }

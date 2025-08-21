@@ -6,4 +6,4 @@ user table and address table in ( project dbrelation):
 	*onetoone attribute used to connect tables
 	*mapping = "user" (user is name given for column name in address table and owner tabel)
 		--by mapping we don't wnat to create extra column for a address-id in user table ,the user_is column created in address table is only show in table
-		--
+	

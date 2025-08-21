@@ -5,8 +5,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-// comparator is a built in inteface we access by implemting/import that
-
+// comparator is a built in inteface we access by implemting/import that ,before java8 we used this
 class FuncInterface implements Comparator<Integer>{
 
 	@Override

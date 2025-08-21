@@ -2,23 +2,29 @@ package com.set;
 
 import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
 
 public class SetInJava {
 
 	public static void main(String[] args) {
-		//SET
+		
 		/*
-		 * ==>set is a child inteface of collection
-		 * ==> where you represent a group of individual object as a single entity,
-		 * ==> where the insertion order is not preserved
-		 *==> set will not allow duplicate values
-		 *==> when we dont want use  duplicate values best go for set
+		SET:
+		===
+		 * set is a child inteface of collection
+		 * where you represent a group of individual object as a single entity,
+		 * where the insertion order is not preserved
+		 * set will not allow duplicate values
+		 * when we dont want use  duplicate values best go for set
 		 
-		 *1. no presrved order
-		 *2. not allow duplicate
-		 *3. no random access is there
+		 1. no preserved order
+		 2. not allow duplicate
+		 3. no random access is there
+		 4.allow null value
+		 
+		 classes of Set ==>HashSet and TreeSet
 		 */
 		
 		Set<Integer> set = new HashSet<>(); //hashSet is subclass of set interface
@@ -47,6 +53,11 @@ public class SetInJava {
 		
 		Set<Integer> set1 = new HashSet<Integer>(list);
 		System.out.println("set1: "+set1);
+		
+		Iterator<Integer> mark = list.iterator();
+		while(mark.hasNext()) {
+			System.out.println("iterator : "+mark.next());
+		}
 		
 	}
 

@@ -58,6 +58,14 @@ public class UserController {
 	    return "user_profile";
 	}
 
+	@GetMapping("/user/profile/edit")
+	public String editUserProfile(Model model, Principal principal) {
+	    String email = principal.getName();
+	    DentalTool user = userRepository.findByEmail(email);
+	    model.addAttribute("user", user);
+	    return "user_profile_edit"; // ✅ Template that has the <form>
+	}
+	
 	@PostMapping("/user/profile/update")
 	public String updateProfile(@ModelAttribute DentalTool user,
 	                            @RequestParam("image") MultipartFile imageFile,

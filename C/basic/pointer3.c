@@ -1,7 +1,7 @@
 /*
     POINTER  TO ARRAY
     =================
-     int arr[5]={1,2,3,4,5};
+    int arr[5]={1,2,3,4,5};
     int *ptr;
     ptr =arr; arr= &arr[0] and arr stores the value of first element address
 

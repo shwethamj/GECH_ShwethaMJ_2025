@@ -9,7 +9,7 @@ public class Traverse {
 			int cols=matrix[0].length;
 			int top=0,bottom=rows-1;
 			int left=0,right=cols-1;
-			 while (top <= bottom && left <= right) {
+			while (top <= bottom && left <= right) {
 		            // 1. Traverse from Left to Right
 		            for (int i = left; i <= right; i++) {
 		                System.out.print(matrix[top][i] + " ");

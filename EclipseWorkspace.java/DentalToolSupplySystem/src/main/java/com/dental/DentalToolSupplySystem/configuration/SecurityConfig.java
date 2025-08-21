@@ -60,7 +60,7 @@ public class SecurityConfig {
 		return http
 				.authorizeHttpRequests(auth-> auth
 						.requestMatchers("/admin_dashboard").hasRole("ADMIN")
-//						.requestMatchers("/products").hasAnyRole("ADMIN", "USER", "SUPPLIER")
+						.requestMatchers("/admin_inventory").hasAnyRole("ADMIN", "SUPPLIER")
 						.requestMatchers("/css/**", "/js/**", "/images/**", "/webjars/**","/","/about","/register","/contact","/categories","/cart","/checkouts","/products").permitAll()
 						.anyRequest().authenticated()
 						)

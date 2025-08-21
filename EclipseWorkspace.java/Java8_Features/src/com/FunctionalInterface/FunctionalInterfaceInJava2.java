@@ -33,6 +33,7 @@ public class FunctionalInterfaceInJava2 {
 		 }
 	
 	}
+//string parameter and total length
 
 
 

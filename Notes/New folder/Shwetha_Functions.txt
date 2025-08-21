@@ -1,0 +1,128 @@
+functions :
+===========
+	1.Can a method name be the same as the class name?
+		Answer: Yes, but then it’s a method, not a constructor.
+		Explanation: Only constructors don’t have return types. If you add a return type, it becomes a normal method.
+		
+	2.Can abstract classes have constructors?
+		Answer: Yes.
+		Explanation: Even though you can’t create objects of abstract classes, constructors run when subclasses are created.
+		
+	3.Can a method’s return type be void in parent and int in child (overriding)?
+		Answer: No.
+		Explanation: In overriding, the return type must be the same or a subclass (covariant). void can’t change to int.
+		
+	4.Can we override a method and throw more exceptions?
+		Answer: No.
+		Explanation: It must follow parent’s exception rules. The child class can only throw the same or fewer exceptions. 
+					 More exceptions would break compatibility..
+		
+	5.Can a method parameter be final?
+		Answer: Yes.
+		Explanation: Means you can’t reassign the parameter inside the method.
+					void test(final int x) {
+							// x = 5; ❌ not allowed
+					}
+		
+	6.Can methods be called recursively?
+		Answer: Yes.  But too deep recursion causes StackOverflowError.
+		Explanation: A method can call itself (recursion). Example: factorial.
+						But if recursion never stops → StackOverflowError 
+		
+	7.Is it valid to overload methods by just swapping the order of parameters? 
+		Answer: Yes. only if parameters datatype is different
+		Explanation: Example: only if parameter datatype is different
+								foo(int, String)
+								foo(String, int) → valid.
+	
+	8.Can we write a method inside another method?
+		Answer: No.
+		Explanation: Java does not allow nested methods. You can use lambdas or local classes instead.
+		
+	9. What happens if we don’t call super() explicitly in a constructor?
+		Answer: Java calls it automatically.
+		Explanation: If you don’t write anything, compiler adds super(); at the start.
+		
+		  
+	10.Can two methods have the same name but different return types?
+		Answer: yes,Only if their parameters are also different.
+		Explanation: java decides which method to call using the parameters (not return type).
+				  Example:
+						int add(int a, int b) ✅
+						String add(int a, int b) ❌ (same parameters, only return type different → error).
+						
+	11. Can we have a static and non-static method with same signature?
+			Answer: No.
+			Explanation: Compiler sees them as duplicate methods.
+			
+	12. Can we have method-local inner classes?
+			Answer: Yes.
+			Explanation: You can define a class inside a method, but not another method.
+			
+	13.Can a constructor call itself directly?
+			Answer: No, results in infinite recursion.
+			Explanation: this() must eventually call a parent constructor.
+	
+	14. Can an interface extend another interface with same method but different return type?
+			Answer: No.
+			Explanation: Causes conflict.
+		
+	15. Can a method parameter have the same name as a class field? What happens?
+			Answer: Yes, but it causes shadowing.
+			Explanation: Inside the method, parameter hides the field. Use this.fieldName to access class variable.
+	
+	16. Can overloaded methods have different access modifiers?
+			Answer: Yes.
+			Explanation: Access modifiers don’t affect overloading.
+			
+	17. Can you override finalize() method?
+			Answer: Yes.
+			Explanation: But discouraged, because GC behavior is unpredictable.
+			
+	18. If you declare static void main(String... args) instead of String[] args, will it run?
+			Answer: Yes.
+			Explanation: Varargs is valid replacement, JVM treats it as String[].
+			
+	19. Can private methods be overloaded?
+			Answer: Yes.
+			Explanation: Overloading is within same class, so allowed.
+	
+	20. What happens if you put a return statement inside finally?
+			Answer: It overrides any earlier return/exception.
+			Explanation: Dangerous practice, but allowed.
+			
+	21. What happens if two interfaces provide same default method?
+			answer: Class must override and resolve.
+			Explanation: Otherwise compiler is confused which default to pick.
+			
+	22. Can an overriding method throw a bigger (broader) exception than its parent method?
+            ❌ No. it will cause compile time error
+			Explanation: The child can only throw the same or narrower (subclass) exceptions. If it tries a broader one, it’s a compile-time error.
+			Child method need to be have child exceptions not parent exceptions
+			
+	23. Can a constructor be synchronized?
+			❌ No.
+			👉 Because object is not created yet; locking makes no sense.
+	
+	24.Can a lambda expression define a method directly?
+			❌ No.
+			👉 Lambdas implement functional interface methods, not define new ones.
+	
+	25 .What happens if an exception is thrown in a static block?
+			Explanation:Exceptions thrown in a static block can only be caught within a 
+			static initializer block using a try-catch. Otherwise, the program will fail to load the class
+	
+	26.Can constructors throw exceptions?
+		  ✅ Yes → both checked and unchecked.
+		What happens if constructor throws an unchecked exception?
+		  ✅ Object creation fails at runtime.
+
+	  
+	27. Can an abstract class have zero abstract methods?
+		  ✅ Yes → still forces subclassing.
+
+	28. Inside a constructor, can we write a class?”
+		   Yes ✅ — we cannot declare a method inside a constructor (illegal),
+			but we can declare a class inside a constructor — it’s called a local inner class.
+
+	

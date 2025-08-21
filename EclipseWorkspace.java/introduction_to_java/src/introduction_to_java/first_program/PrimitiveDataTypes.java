@@ -3,9 +3,9 @@ package introduction_to_java.first_program;
 public class PrimitiveDataTypes {
 	
 	public static void main(String[]args) {
-		//DAta types -- 1.primitive datatype and 2.non-primitive
+		//DAta types -- 1.primitive data type and 2.non-primitive
         /*
-         * primitive datatypes
+         * primitive data types
          * 1.byte(default value=0) --> 8 bit  --> -128 to 127
          * 2.short (default value=0) --> 16bit --
          * 3.int (default value=0) --> 32 bit

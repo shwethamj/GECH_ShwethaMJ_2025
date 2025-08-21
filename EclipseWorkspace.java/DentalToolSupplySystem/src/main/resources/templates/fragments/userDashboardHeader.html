@@ -1,18 +1,16 @@
 
 <div  th:fragment="userDashboardHeader">
 <!-- Sidebar -->
-	<div class="sidebar"  >
-	    <h5>User Panel</h5>
-	    <p th:text="'Welcome, ' + ${username}">Welcome!</p>
-	    <a th:href="@{/user/dashboard}">Dashboard</a>
-	    <a th:href="@{/products}">Browse Products</a>
-	    <a th:href="@{/cart}">View Cart</a>
-	    <a th:href="@{/orders}">My Orders</a>
-	    <a th:href="@{/user/profile}">Profile</a>
-	    <a th:href="@{/contact}">Contact Support</a>
-	    <form th:action="@{/logout}" method="post">
-	        <button type="submit" class="btn btn-sm btn-outline-warning logout-btn">Logout</button>
-	    </form>
+	<div class="sidebar">	
+	    <h3>User Panel</h3>
+	    
+	    <a th:href="@{/user/dashboard}">Dashboard</a> <br>
+	    <a th:href="@{/products}">Browse Products</a><br>
+	    <a th:href="@{/cart}">View Cart</a><br>
+	    <a th:href="@{/orders}">My Orders</a> <br>
+	    <a th:href="@{/user/profile}">Profile</a> <br>
+	    <a th:href="@{/contact}">Contact Support</a> <br>
+	    
 		
 	</div>
 

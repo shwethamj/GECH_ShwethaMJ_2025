@@ -3,7 +3,7 @@ package String;
 public class PalindromeString {
 
 	public static void main(String[] args) {
-		String str ="shwetha";
+		String str ="gadag";
 		
 		System.out.println("string : "+str);
 		
@@ -14,8 +14,8 @@ public class PalindromeString {
 		
 		System.out.println("reverse of string : "+rev);
 		
-		if(str ==rev) {
-			System.out.println("the string "+str + "is palindrome");
+		if(str.equals(rev)) {
+			System.out.println("the string "+str + " is palindrome");
 		}
 		else {
 			System.out.println("the string "+str + " is not palindrome");

@@ -1,0 +1,171 @@
+Inner classes:
+==============
+IS-A , HAS-A
+* we can declare a class inside the another class such type of classes are called inner class.
+* without existing on type of object if there is no chance of existing anotehr type of object then we should go for inner classes.(composition and aggregation)
+
+ex1:university and department
+class university{
+	class department{
+	}
+}
+
+ex2: car and engine
+
+ex3: map and entry
+
+* this kind of relation we called it has Has-A relationship not Is-A
+
+Based on position of decleration and behaviour:
+===============================================
+1. normal or regular inner classes.
+2. method local inner classes.
+3. Anonymous Inner classes.
+4. Static Nested Inner classes.
+
+1. normal or regular inner classes:
+===================================
+* if we are declearing any named class directly inside a class without static keyword such type  inner class called normal.
+ex:
+===
+class Outer{
+	class Inner{
+	}
+}
+
+* creates two .class Outer.class and Outer&Inner.class
+* if you run using java command you will get RE:NoSuchMethodError:Main.
+
+ex2:
+====
+class Outer{
+	class Inner{
+	}
+	psvm(){
+		syso("hi");
+	}
+}
+
+ex3:
+====
+we cannot decleare static members hence we cann'tdecleare main method & we can't run inner class directly.
+
+CE: Inner class cannot have static declerations.
+
+case1: accessing inner class code from static area of outer class - main.
+
+case2: accesing class code from instance area of outer class.
+
+case3: accessing class code fromoutside the outer class.
+
+* from normal inner classes we can access both static and non static members of outer class diectly.
+
+* within inner class we use "this" or "innerclassname.this" to access outer class use "outerclassname.this".
+
+
+Method Local inner classes:
+============================
+* Some times we declare a class inside a method such type of innerclass is called "method local inner classes"
+* The main purpose is to define method sepecific repatadely required functionality.
+* This are best sutiable for meet nested method requirements(nested method is not there in java).
+* we can access method local inner classes within the method.
+ex:
+===
+* we can declare method local inner classes inside both instance and static method.
+* if we delare inner class inside instance method we can access both static and non-static members directly.
+* if we delare inner class inside static method we can access only static directly  not a non-static members.
+ex:
+===
+* from method local inner class we can access local variables of the method in which decleare inner class.
+* if the local variable decleare as final we can access.
+* inside a method local variable only we cna use final but not public, private or any.
+* for method inner class only we can use final or abstract but not public, private or any.
+
+
+3. Anonymous Inner class:
+=========================
+* we can declare a class without a name such type of class we called it as "anonymous inner classes".
+
+* The main purpose Anonymous Inner class is to just for instant use or one time use.
+
+3 types:
+========
+1. Anonymous Inner class that extends a class.
+2. Anonymous Inner class that implements interface.
+3. Anonymous Inner classs that defined inside arguments.
+
+ex for 1: 
+=========
+threads that extends class(Thread)
+
+ex for 2:
+=========
+threads that implement interface(Runnable)
+
+ex for 3:
+===-=====
+public class MethodLocalInnerClasses {
+
+	public static void main(String[] args) {
+		new Thread(
+				new Runnable() {
+					
+					public void run() {
+					       for(int i =0;i<10;i++) {
+					    	   System.out.println("Child thread");
+					       }
+					    }
+				}).start();
+		for(int i =0;i<10;i++) {
+			System.out.println("Main thread");
+		}
+	}
+}
+
+* in Anonymous inner clas we can extend or implemenst only one clas or interface btu not both together
+* in Anonymous inner class we can't write any no of constructor.
+
+4. static nested inner class:
+=============================
+* if we declare a inner class as static modifier then we called it as static inner classes.
+* it isopposite ot regular inner classes they are strongly associated here weakly associated with outer class.
+
+ex:
+===
+public class Outer{
+	static class Inner{
+		pulic void main(){
+			syso("hii");
+		}
+	}
+	psvm(){
+		Inner i =new Inner();
+		i.m1();
+		or 
+		Outer.Inner n = new Outer.Inner();
+	}
+}
+
+* from static inner class we cna acces non sttaic mebeers of outer class.
+
+
+various:
+========
+case1: class inside anotehr calss
+case2: interface inside another 
+ex: 
+	class VehicalTypes{
+		interface vehicle{
+			int getnoofwheels();
+		}
+		class car extends vechicle{
+			public int getnoofwheels(){
+			//code
+			}
+		}
+	}
+	
+case3: interafce inside anotehr interface.
+case4: class inside a interface.
+
+* the interface or class declared inside the interace is always public and static.

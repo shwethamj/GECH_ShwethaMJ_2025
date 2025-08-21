@@ -42,11 +42,16 @@ int main(){
     printf("the s2 sem : %d\n",s2.sem);
 
     
-union Student{
+union student{
         int id;
         char name[20];
         char branch[10];
         int sem;
     };
+     // value inserting
+    union student std;
+    std.id=5;
+  //  std.branch="cse";
+    
    
 }

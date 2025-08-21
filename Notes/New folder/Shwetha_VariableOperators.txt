@@ -1,0 +1,163 @@
+
+VARIABLE :
+==========
+	1.What is variable shadowing?
+		Answer ==> When a local variable hides an instance/class variable of the same name.
+		Explanation ==> In that scope, the local variable takes precedence,
+		but you can still access the hidden one with this or ClassName.var.
+		
+	2.Can a local variable name match an instance variable name?
+		Answer ==> Yes.
+		Explanation==> Allowed, but it causes shadowing — local variable will be used inside the method.
+		  class Student {
+				String name = "John";   // instance variable
+
+				void display() {
+					String name = "Alice";   // local variable (same name)
+					System.out.println("Local variable: " + name);         // prints Alice
+					System.out.println("Instance variable: " + this.name); // prints John
+				}
+			}
+		
+	3. Can a local variable be declared as static?
+		Answer: No.
+		Explanation: static means stored once per class, 
+		but local variables live on the stack and vanish when the method exits.
+		
+	4. Can a variable be volatile and final together?
+		Answer: No.
+		Explanation: final means can’t change, volatile means it may change across threads — they conflict.
+		
+	5.Can var be used for method parameters?
+		Answer: No.
+		Explanation: It only works for local variables inside methods.
+					Method parameters must have a clear type in their signature (like String name or int id).
+					The compiler cannot "guess" types of parameters because no value is assigned at that time.
+	
+	6. What if a final variable isn’t initialized in the constructor?
+		Answer: Compile-time error.
+		Explanation: Every final variable must have a value before object is ready.
+		
+	7.Can we declare a variable with name same as method name?
+		Answer: Yes.
+		Explanation: Java allows it, but it reduces readability and is not recommended.
+		
+	8.Can we declare a variable with a reserved keyword?
+		Answer: No.
+		Explanation: Keywords like class, int, static can’t be variable names.
+			
+	
+	9. What happens if you try to use a local variable before initialization?
+		Answer: Compile-time error.
+		Explanation: Java does not assign default values to local variables.
+	
+	10. Can a local variable hide a static variable of the same name?
+		Answer: Yes.
+		Explanation: Local variables take precedence over class/static variables inside the method. Access the static variable with ClassName.variableName.
+				
+	
+OPERATORS :
+===========
+	1. What’s the result of 10.0/0 with double?
+		Answer: Infinity.
+		Explanation: Floating-point(double/float) division by zero is allowed, result is special value(Infinity).
+	
+	2. What happens if you add 1 to Integer.MAX_VALUE?
+		Answer: It causes Overflow so, becomes Integer.MIN_VALUE.
+		Explanation: java integers are fixed 32-bit. When they go beyond the max, they “wrap around” instead of erroring.
+		
+	   What happens if you asubtracting 1 from Integer.MIN_VALUE?
+			Subtracting 1 from Integer.MIN_VALUE → becomes Integer.MAX_VALUE
+		
+	3. What happens with x = x++?
+		Answer: x remains unchanged.
+		Explanation: x++ means “use the old value, then increase by 1”.
+					But since you assign back to x, the increase is lost.
+	4. Difference between == on primitives and objects?
+		Answer: Primitives compare values, objects compare memory addresses.
+		
+5. Can unary operators be overloaded in java?
+		Answer: No.
+		Explanation: Unlike C++, java does not allow operator overloading.
+		
+	6. What happens when true + false is compiled?
+		Answer: Compilation error.
+		Explanation: + is not defined for boolean values in java.
+		
+	7. What happens if you compare NaN (Not a Number) with itself?
+		Answer: false.
+		Explanation: Special rule: NaN != NaN. NaN is never equal to anything, even itself.
+		
+	8. What’s the difference between & and &&?
+		Answer: & checks both sides always, && stops if first is false.
+		Explanation: && is “short-circuit AND.”
+
+Storage:
+===========
+						JVM Memory:
+		------------------------------------------
+		Heap:       Objects & instance variables
+		Stack:      Local variables & method calls
+		Method Area: Class info + static variables + constants
+		-------------------------------------------------------
+		
+		Storage Location :
+			* Static variables are stored in the Method Area (part of JVM memory), not on the stack or heap like local variables.
+			* They exist once per class, no matter how many objects of the class are created.
+			* All instances of the class share the same copy of the static variable.
+
+Method :
+=========
+	1. Can two methods have the same name but different return types?
+			Answer: Yes, but only if their parameter lists are different.
+			Explanation:
+			In Java, method overloading is determined by parameters (number, type, or order), not by return type.
+			If two methods have the same name and same parameters, but only differ in return type, the compiler cannot decide which one to call, so it’s an error.
+
+			Example 1 (Valid Overloading):
+					class Calculator {
+						int add(int a, int b) {
+							return a + b;
+						}
+
+						double add(double a, double b) { // different parameter types → valid
+							return a + b;
+						}
+
+						int add(int a, int b, int c) { // different number of parameters → valid
+							return a + b + c;
+						}
+					}
+
+			Example 2 (Invalid Overloading — same parameters, different return type):
+					class Calculator {
+						int multiply(int a, int b) {
+							return a * b;
+						}
+
+						double multiply(int a, int b) { // ❌ error: same parameters  	Compiler cannot choose which one to call → compile-time error.
+							return a * b;
+						}
+					}
+
+	2.  Two methods with same name, different return type, and different parameters
+				
+			Explanation:
+				Method names are the same → process
+				Parameter types/order are different → (int, String) vs (String, int)
+				Return types are different → int vs String
+			Answer:	✅ This is valid overloading because parameters differ. The compiler can distinguish which method to call.
+	
+					class Example {
+					int process(int a, String b) {  // Method 1
+						return a + b.length();
+					}
+
+					String process(String a, int b) {  // Method 2
+						return a.repeat(b);
+					}
+				}
+
+	3. is return type matter
+		Answer:	method overloading in Java is determined only by the method name and parameter list — return type does not matter.
+			

@@ -19,7 +19,7 @@ initialization:
 advantage :
 ===========
     manipulate tha data inside array .list etx =using pointer
-    this is not availablein other java ,pythton
+    this is not available in other java ,pythton
  */
 
 // pointer with variable

@@ -70,8 +70,8 @@ public class StringInJava {
 		final String arr2 = "123"; // This is a constant, known at compile time.
 		String arr3 = "123";  //This is not final, so Java cannot optimize it at compile time.
 		 
-		String arr4 = str2 + "456"; // Evaluated at compile time → "123456"
-		String arr5 = str3 +"456"; // A new object is created in the heap (not from the constant pool).
+		String arr4 = arr2 + "456"; // Evaluated at compile time → "123456"
+		String arr5 = arr3 +"456"; // A new object is created in the heap (not from the constant pool).
 		
 		System.out.println(arr == arr5);//false
 		System.out.println(arr == arr4);//true

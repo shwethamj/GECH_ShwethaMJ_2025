@@ -14,7 +14,7 @@ public class FunctionInjava {
 		int res = f.apply("hello world"); // parameter taking // STring
 		System.out.println(res);
 		
-		// squareing number
+		// squaring number
 		Function<Integer, Integer> f1 = (s)->s*s; //integer
 		int res1 = f1.apply(3); //integer
 		System.out.println(res1);
@@ -23,5 +23,5 @@ public class FunctionInjava {
 
 }
 
-// go for java 8 function --click one JRE system library --> click java.basa-- click java.util.function
+// go for java 8 function --click one JRE system library --> click java.base-- click java.util.function
 // there u can read about function and refer 

@@ -6,57 +6,56 @@ import java.io.PrintWriter;
 public class ExceptionClass {
 	
 	/*
-	 //stack overflow error
-	public static void Display() {
-		Display();
-	}
+	 * camel_case contamination --> first letter need to capital --> FirstVar
+	 * in python snake_case --> First_var		
 	*/
 
 	public static void main(String[] args) throws FileNotFoundException {
-		
-		//EXCEPTION IN JAVA:
-		
 		/*
+		EXCEPTION IN JAVA:
+	    ====================
+		 * Object(if we create any class that class extends Object class internaly) containes --> Throwable class\\
+		 *https://docs.oracle.com/javase/8/docs/api/java/lang/Exception.html
+		 
 		 * there is a unwanted or un expected  event occur in the program
+		 * ex: array size --> 3 --> 100,200,3000 --> if we give another one like for 4th one -->  array index out of bound
 		 * whenever there is exception the normal flow will stop
+		 
 		 * exception -->parent of all exceptions
 		 
 		 * 2-Types:
 		 * 1.checked Exception(compile time) ==>FileNotFoumdException(2 way)
-		 * 2.unchecked exception(run time) ==>array IndexOutOfBoundException(2 way)
-		 */
+		 		 we have  handle at compile time 
+		 		 1. try catch
+				 2.throws
+		 * 2.unchecked exception(run time) ==>array IndexOutOfBoundException(1 way)
+		 		 we have  handle at run time 
 		
-		
-		/*
-		 * ERROR:
+		  ERROR:
+		  =======
 		 * it is a problem where the programmer cannot handle it 
-		 * ex: 
-		 
-		 *
+		 * ex: stackOverflow error
+		
 		 */
+	
 		
-		
-		// ExceptionClass.Display(); // stack overflow error
-		
-		//checked error
-		//1. try catch
-		//2.throws
-		
-		
-		
-		//1.try-catch
-		//PrintWriter  --> A class in java 
-		PrintWriter printwriter;
+        //CHECKED EXCEPTION :
 		
 		/*
-		 * // file not found error will show when we write these 2 lines only and it suggest create the try catch (below one)
-		 *  so we use try catch to handle that error 
-		printwriter = new PrintWriter("abc.text"); // file not found error
-		printwriter.println("hello world");
+		 1.try-catch
+		 =============
+		 
+		  PrintWriter printwriter; //PrintWriter  --> A class in java 
+		  
+		  printwriter = new PrintWriter("abc.text"); // file not found error
+		  printwriter.println("hello world");
+		
+		 * file not found error will show when we write these 2 lines only and it suggest create the try catch (below one)
+		   		so we use try catch to handle that error
 		*/
 		
 		try {
-		printwriter = new PrintWriter("abc.text"); // it create a file abc.txt in the exception_in_java folder
+		PrintWriter printwriter = new PrintWriter("abc.text"); // it create a file abc.txt in the exception_in_java folder
 		printwriter.println("hello world");
 		System.out.println("hello world");
 		printwriter.close();
@@ -70,11 +69,14 @@ public class ExceptionClass {
 		
 		
 		//2.throws: it will create in main class line
-		PrintWriter printwriter1 = new PrintWriter("throws.text"); // file not found error
+		PrintWriter printwriter1 = new PrintWriter("throws.text"); // file not found error //i
 		printwriter1.println("hello world");
 		System.out.println("hello throws");
 		printwriter1.close();
 		
+		
+		
 	}
-
+	
+		
 }

@@ -1,3 +1,4 @@
+
 // linear will take long time bcs it start frrom start element to last element
 // more time consumption ==> time complexity is more
 

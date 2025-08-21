@@ -36,7 +36,7 @@ public class ObjectClass {
 	 
 	  object:
 	  =======
-	 * 	implemantation of class
+	 * 	implemantation of class / instance of class
 	 * object will take a memory
 	 * 
 	 * syntax--> class_name obj_name = new classname();
