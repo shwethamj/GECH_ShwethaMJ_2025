@@ -11,7 +11,7 @@ class Parent1 extends Thread{
 	}
 	
 }
-public class CreatingThread5 {
+public class CreatingThread5 { 
 	/*
 	 * case7: overriding start() method and when we call super.start():
 	    =================================================
@@ -21,9 +21,9 @@ public class CreatingThread5 {
 		============================
 		new/born thread create --> when t.start() ----------> run/runnable state  
 											
-		if thread scheduler allocates processor --->  running state
+		if thread scheduler allocates processor ----------->  running state
 		
-		if run() method completed -->  dead state
+		if run() method completed --------->  dead state
 		 
 	 */
 
