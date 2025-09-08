@@ -1,0 +1,394 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202109 will be lost/reset.
+# Last config file used to build this data file was /home4/parvamco/tmp/awstats/awstats.parvam.co.in.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2010                
+POS_TIME 2688                
+POS_VISITOR 9556                
+POS_DAY 11073               
+POS_DOMAIN 3349                
+POS_LOGIN 3650                
+POS_ROBOT 3805                
+POS_WORMS 4009                
+POS_EMAILSENDER 4140                
+POS_EMAILRECEIVER 4283                
+POS_SESSION 11553               
+POS_SIDER 11726               
+POS_FILETYPES 4418                
+POS_DOWNLOADS 4569                
+POS_OS 4617                
+POS_BROWSER 4755                
+POS_SCREENSIZE 5068                
+POS_UNKNOWNREFERER 5142                
+POS_UNKNOWNREFERERBROWSER 6052                
+POS_ORIGIN 6957                
+POS_SEREFERRALS 7092                
+POS_PAGEREFS 7256                
+POS_SEARCHWORDS 7432                
+POS_KEYWORDS 7584                
+POS_MISC 2352                
+POS_ERRORS 7643                
+POS_CLUSTER 3506                
+POS_SIDER_404 7777                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20211001054816 13 2247 14142115685380
+FirstTime 20210901024850
+LastTime 20210930171224
+LastUpdate 20211001061638 13 0 12 0 0
+TotalVisits 84                  
+TotalUnique 37                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 38                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+RealPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+FlashSupport 0 0 0
+DirectorSupport 0 0 0
+PDFSupport 0 0 0
+AddToFavourites 0 0 0
+QuickTimeSupport 0 0 0
+TotalMisc 0 0 0
+JavascriptDisabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 7 7 1450
+1 2 2 2277 8 9 458
+2 10 10 30822 14 14 1532
+3 3 3 9272 12 12 927
+4 6 9 366542 5 5 684
+5 18 23 1510328 75 76 104313
+6 4 4 10031 14 15 2843
+7 0 0 0 12 12 2082
+8 4 4 7148 45 45 1594
+9 0 0 0 10 10 1594
+10 0 0 0 8 8 1380
+11 2 4 249862 7 7 773
+12 0 0 0 11 11 1296
+13 2 2 2809 17 23 2396
+14 1 1 0 17 17 9121
+15 3 3 10971 5 5 713
+16 15 15 37868 45 45 10762
+17 12 12 6804 63 64 1677
+18 6 6 8427 8 10 1599
+19 6 6 15666 27 27 2051
+20 10 10 14655 31 31 2839
+21 2 2 2809 9 10 1456
+22 11 11 14504 34 34 2070
+23 1 1 2076 23 24 1534
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 7
+us 98 108 2246389
+gb 6 6 12999
+de 5 5 1885
+gr 5 5 31018
+ru 2 2 9654
+nl 1 1 377
+in 1 1 549
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 2
+spider 12 95897 20210907054845 0
+no_user_agent 3 19866 20210912063353 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 5
+html 65 248839 0 0
+jpg 2 268920 0 0
+js 8 1780779 0 0
+php 44 3757 0 0
+Unknown 9 576 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 6
+win7 13 7
+macosx9 1 1
+ios_iphone 3 1
+linux 5 3
+Unknown 79 79
+win10 27 27
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 14
+chrome89.0.4389.114 3 3
+firefox50.0 2 2
+chrome90.0.4430.85 6 6
+chrome78.0.3904.108 6 6
+safari13.1.2 3 1
+msie10.0 1 0
+chrome79.0 3 3
+chrome88.0.4240.193 6 6
+chrome93.0.4577.58 1 1
+firefox82.0 2 2
+firefox54.0 1 1
+chrome92.0.4515.159 3 1
+msie9.0 12 7
+Unknown 79 79
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 9
+WordPress/5.8;_https://parvam.co.in 20210908201540
+Expanse_indexes_the_network_perimeters_of_our_customers._If_you_have_any_questions_or_concerns,_please_reach_out_to:_scaninfo@expanseinc.com 20210918050620
+Go_http_package 20210905164224
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20210910011953
+Jetpack_by_WordPress.com 20210908042415
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20210918051026
+Go-http-client/1.1 20210908201539
+Cpanel-HTTP-Client/1.0 20210930171224
+WordPress.com;_http://parvam.co.in 20210905160601
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 9
+Cpanel-HTTP-Client/1.0 20210930171224
+Go-http-client/1.1 20210908201539
+WordPress.com;_http://parvam.co.in 20210905160601
+Jetpack_by_WordPress.com 20210908042415
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20210918051026
+Go_http_package 20210905164224
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20210910011953
+Expanse_indexes_the_network_perimeters_of_our_customers._If_you_have_any_questions_or_concerns,_please_reach_out_to:_scaninfo@expanseinc.com 20210918050620
+WordPress/5.8;_https://parvam.co.in 20210908201540
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 56 57
+From1 6 6
+From2 7 12
+From3 1 1
+From4 48 52
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 7 12
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://162.214.80.40:80 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+301 110 22955
+409 20 1660
+404 299 0
+405 1 42
+406 74 16724
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 43
+/vendor/phpunit/phpunit/build.xml 1 -
+/wordpress/wp-content/plugins/dhgdi/index.php 1 -
+/web/wp-includes/wlwmanifest.xml 12 -
+/misc/ajax.js 1 -
+/2018/wp-includes/wlwmanifest.xml 4 -
+/site/wp-includes/wlwmanifest.xml 12 -
+/wordpress/wp-admin/setup-config.php 4 -
+/wp-admin/install.php 2 -
+/shop/wp-includes/wlwmanifest.xml 7 -
+/admin/view/javascript/common.js 1 -
+/wp-includes/js/jquery/jquery.js 1 -
+/media/wp-includes/wlwmanifest.xml 4 -
+/wp-content/ 15 -
+/js/header-rollup-554.js 1 -
+/fckeditor/editor/filemanager/connectors/php/upload.php 1 -
+/wp-admin/css/ 8 binance.com
+/news/wp-includes/wlwmanifest.xml 12 -
+/wp-json/wp/v2/users/ 1 -
+/robots.txt 4 -
+/admin/controller/extension/extension/ 6 binance.com
+/2020/wp-includes/wlwmanifest.xml 3 -
+/blog/wp-includes/wlwmanifest.xml 12 -
+/2019/wp-includes/wlwmanifest.xml 7 -
+/.well-known/ 2 binance.com
+/uploads/ 6 binance.com
+/test/wp-includes/wlwmanifest.xml 12 -
+/th1s_1s_a_4o4.html 25 -
+/wp-admin/setup-config.php 2 -
+/ 17 -
+/sites/default/files/ 5 binance.com
+/cms/wp-includes/wlwmanifest.xml 12 -
+/wp/wp-includes/wlwmanifest.xml 12 -
+/plugins/system/debug/debug.xml 1 -
+/website/wp-includes/wlwmanifest.xml 12 -
+/sito/wp-includes/wlwmanifest.xml 12 -
+/wp-includes/wlwmanifest.xml 12 -
+/files/ 5 binance.com
+/wp1/wp-includes/wlwmanifest.xml 12 -
+/admin/includes/general.js 1 -
+/wordpress/wp-includes/wlwmanifest.xml 12 -
+/wp2/wp-includes/wlwmanifest.xml 12 -
+/images/editor/separator.gif 1 -
+/images/ 6 binance.com
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 38
+162.214.80.40 46 46 576 20210930171224
+3.233.212.58 9 9 25281 20210908201539
+217.160.193.215 5 5 1885 20210917015548
+192.0.82.48 5 5 4412 20210905160604
+192.0.86.159 4 4 12655 20210908021149
+40.124.49.171 3 3 5700 20210909222847
+51.68.250.97 3 3 6228 20210912172642
+35.225.73.75 3 3 6228 20210914205122
+206.189.84.119 3 3 6771 20210921160500
+34.125.126.207 3 3 6771 20210921195458
+128.199.113.25 3 3 6771 20210918081354
+184.154.76.16 2 3 306390 20210906055635
+184.154.76.17 2 4 594990 20210904055019
+92.118.160.57 2 2 17790 20210905164224
+184.154.76.11 2 4 594990 20210907054830
+185.200.117.194 2 2 9654 20210904063512
+100.21.218.158 1 1 2809 20210901180231
+64.137.88.226 1 3 249862 20210905041628
+144.86.173.149 1 1 1900 20210910011953
+34.96.130.30 1 1 2076 20210913233350
+37.0.10.82 1 1 377 20210915022508
+92.118.160.61 1 1 8895 20210905160553
+92.118.160.17 1 1 2257 20210918051026
+49.206.13.192 1 1 549 20210914053100
+54.189.230.128 1 1 2809 20210906181626
+34.96.130.27 1 1 2257 20210918050620
+144.86.173.148 1 1 8895 20210904030426
+144.86.173.18 1 1 8895 20210908021047
+144.86.173.78 1 1 8895 20210906160126
+54.203.73.198 1 3 249862 20210905113609
+184.154.76.12 1 1 8895 20210903054917
+192.0.112.208 1 1 640 20210906044656
+144.86.173.10 1 1 8895 20210902154315
+34.218.250.125 1 1 2809 20210908042359
+144.86.173.142 1 1 8895 20210901024850
+92.118.160.13 1 1 2076 20210913153305
+192.0.114.15 1 1 638 20210908042415
+54.184.113.101 0 1 112593 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 20
+20210901 11 12 314817 11
+20210902 7 8 309199 7
+20210903 6 6 20599 6
+20210904 12 13 318853 9
+20210905 17 22 822230 12
+20210906 10 10 24048 8
+20210907 4 5 300304 4
+20210908 12 13 140399 8
+20210909 3 3 5700 1
+20210910 2 2 2277 2
+20210911 1 1 377 1
+20210912 3 3 6228 1
+20210913 2 2 4152 2
+20210914 4 4 6777 2
+20210915 1 1 377 1
+20210916 2 2 754 2
+20210917 1 1 377 1
+20210918 5 5 11285 3
+20210921 6 6 13542 2
+20210930 9 9 576 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+0s-30s 80
+30mn-1h 2
+1h+ 1
+30s-2mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 13
+/ 59 246577 43 43
+/wp-cron.php 37 0 31 31
+/xmlrpc.php 7 3757 3 3
+/.well-known/ 6 2262 6 6
+/.well-known/acme-challenge/AY-GUW-JZ8E9WO5XP_7LNL8OKDACFA0W 1 64 0 0
+/.well-known/acme-challenge/QJ5VPN3TTDQ364_BQ9HCC0ZQ6III2L7- 1 64 0 0
+/.well-known/acme-challenge/MIZ7EPSNY9C8AH9X7PKUZKHOYFOTM1RW 1 64 0 0
+/.well-known/acme-challenge/05DQ6NGEWKSZOZJ7RIAR90K56TQ4JE_W 1 64 0 0
+/.well-known/acme-challenge/QYVJ5UO861792P0FMAGGXW66-MRV6K1U 1 64 0 0
+/.well-known/acme-challenge/QU_AZC5-5_DHQU1T_R2TSH0UTNNS9PO6 1 64 0 0
+/.well-known/acme-challenge/UJXWR2_UIRTGLTA1MV933R8H70USKJYZ 1 64 0 1
+/.well-known/acme-challenge/TPW6LU8U9A-PHMA2N2K8MUZ8X75YPHOB 1 64 1 0
+/.well-known/acme-challenge/NLQ7J_31ZLVZGGQKGEY1-K4O-MC2NJ_2 1 64 0 0
+END_SIDER

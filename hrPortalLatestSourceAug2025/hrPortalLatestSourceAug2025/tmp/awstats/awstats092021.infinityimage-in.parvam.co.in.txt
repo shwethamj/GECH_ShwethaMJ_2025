@@ -1,0 +1,442 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202109 will be lost/reset.
+# Last config file used to build this data file was /home4/parvamco/tmp/awstats/awstats.infinityimage-in.parvam.co.in.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2027                
+POS_TIME 2709                
+POS_VISITOR 10740               
+POS_DAY 12724               
+POS_DOMAIN 3430                
+POS_LOGIN 3706                
+POS_ROBOT 3861                
+POS_WORMS 4058                
+POS_EMAILSENDER 4189                
+POS_EMAILRECEIVER 4332                
+POS_SESSION 13138               
+POS_SIDER 13306               
+POS_FILETYPES 4467                
+POS_DOWNLOADS 4569                
+POS_OS 4617                
+POS_BROWSER 4783                
+POS_SCREENSIZE 5212                
+POS_UNKNOWNREFERER 5286                
+POS_UNKNOWNREFERERBROWSER 5928                
+POS_ORIGIN 6376                
+POS_SEREFERRALS 6510                
+POS_PAGEREFS 6654                
+POS_SEARCHWORDS 6802                
+POS_KEYWORDS 6954                
+POS_MISC 2373                
+POS_ERRORS 7013                
+POS_CLUSTER 3562                
+POS_SIDER_404 7137                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20211001000147 117 36759 21119959343514
+FirstTime 20210906024605
+LastTime 20210930171225
+LastUpdate 20211001061641 117 0 116 0 0
+TotalVisits 69                  
+TotalUnique 52                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 52                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavascriptDisabled 0 0 0
+JavaEnabled 0 0 0
+AddToFavourites 0 0 0
+QuickTimeSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+PDFSupport 0 0 0
+DirectorSupport 0 0 0
+TotalMisc 0 0 0
+RealPlayerSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 14 14 9047 128 137 26894
+1 6 6 2533 126 130 26216
+2 66 66 5559 117 120 26668
+3 2 2 1152 132 136 29237
+4 2 2 347 135 139 30058
+5 1 1 346 141 146 29606
+6 0 0 0 138 141 31271
+7 4 4 2308 135 140 29689
+8 0 0 0 141 144 30759
+9 3 3 693 147 151 30962
+10 0 0 0 149 151 32198
+11 0 0 0 155 160 31142
+12 1 1 347 133 136 29832
+13 1 1 0 142 147 29689
+14 4 4 347 144 149 29772
+15 0 0 0 127 133 26691
+16 1 1 346 121 123 27217
+17 12 12 1051 133 137 27549
+18 2 2 1154 138 144 30141
+19 2 2 347 138 140 29419
+20 5 5 1730 129 133 26668
+21 2 2 346 145 146 27429
+22 8 8 2447 126 129 28244
+23 2 2 1154 122 123 27120
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 5
+us 110 110 16651
+cn 22 22 11813
+gr 3 3 2421
+in 2 2 22
+gb 1 1 347
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 2
+baidu 9 3119 20210917172257 0
+no_user_agent 4 0 20210907144602 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 2
+Unknown 66 5236 0 0
+html 72 26018 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 8
+linux 3 3
+Unknown 93 93
+macosx 2 2
+linuxandroid 3 3
+win7 4 4
+macosx10 1 1
+win10 29 29
+ios_iphone 3 3
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 19
+chrome76.0.3809.71 2 2
+chrome79.0.3945.79 4 4
+safari11.0 2 2
+firefox59.0 1 1
+chrome78.0.3904.87 1 1
+Unknown 45 45
+chrome63.0.3239.84 1 1
+chrome83.0.4103.61 4 4
+firefox21.0 4 4
+chrome78.0.3904.62 1 1
+chrome79.0.3945.88 1 1
+firefox89.0 1 1
+chrome72.0.3626.119 13 13
+chrome93.0.4577.63 1 1
+safari9.0 1 1
+chrome93.0.4577.62 2 2
+mozilla 48 48
+chrome79.0.3945.130 4 4
+firefox82.0 2 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 6
+Go-http-client/1.1 20210921212145
+Expanse_indexes_the_network_perimeters_of_our_customers._If_you_have_any_questions_or_concerns,_please_reach_out_to:_scaninfo@expanseinc.com 20210922022546
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20210907144602
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20210906025428
+Cpanel-HTTP-Client/1.0 20210930171225
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20210920073622
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+Expanse_indexes_the_network_perimeters_of_our_customers._If_you_have_any_questions_or_concerns,_please_reach_out_to:_scaninfo@expanseinc.com 20210922022546
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20210920073622
+Cpanel-HTTP-Client/1.0 20210930171225
+Go-http-client/1.1 20210921212145
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 134 134
+From1 0 0
+From2 0 0
+From3 0 0
+From4 4 4
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+406 3046 688396
+409 34 2822
+404 229 0
+403 1 134
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 67
+/switchdirection.infinityimage.in/api/tests/mocks/cuwinnht.php 11 http://infinityimage.in/switchdirection.infinityimage.in/api/tests/mocks/cuwinnht.php
+/blog/wp-includes/wlwmanifest.xml 1 -
+/sito/wp-includes/wlwmanifest.xml 1 -
+/1pz5hm/legends-of-runeterra-shurima 1 -
+/2utvct4g.php 1 http://infinityimage.in/2utvct4g.php
+/1pz5hm/copa-america-uruguay-vs-paraguay 1 -
+/1pz5hm/how-to-get-the-rocket-league-fortnite-back-bling 1 -
+/1pz5hm/babbel-subscription-not-working 1 -
+/1pz5hm/the-two-most-common-alkaline-earth-metals-are 1 -
+/1pz5hm/z4o4c/sitemap.xml 8 -
+/1pz5hm/pond-window-frame-for-sale 1 -
+/news/wp-includes/wlwmanifest.xml 1 -
+/switchdirection.infinityimage.in/jmdbcazx.php 1 http://infinityimage.in/switchdirection.infinityimage.in/jmdbcazx.php
+/ads.txt 1 -
+/xc4akwqo/sitemap.xml 10 -
+/cms/wp-includes/wlwmanifest.xml 1 -
+/1pz5hm/what-happened-to-dr-nowzaradan 1 -
+/1pz5hm/watershed-distillery-nocino-finished-bourbon 1 -
+/wp-json/wp/v2/users/ 1 -
+/1pz5hm/can-you-put-lemon-water-in-a-s%27well-bottle 1 -
+/styles.d2d481ae36dfe35dd1cc.css 1 http://infinityimage.in/switchdirection/
+/1pz5hm/sitemap.xml 11 -
+/web/wp-includes/wlwmanifest.xml 1 -
+/1pz5hm/what-is-the-covid-19-guidance-for-construction-workers 1 -
+/1pz5hm/environmental-science-technology-salary 1 -
+/2019/wp-includes/wlwmanifest.xml 1 -
+/site/wp-includes/wlwmanifest.xml 1 -
+/1pz5hm/strath-pvp-texture-pack-mcpe 1 -
+/1pz5hm/jhu-csse-covid-19-dashboard-mobile-version 1 -
+/switchdirection.infinityimage.in/api/user_guide_src/ucpwhzpa.php 10 http://infinityimage.in/switchdirection.infinityimage.in/api/user_guide_src/ucpwhzpa.php
+/cgi-bin/ 2 -
+/1pz5hm/what-is-agile-manifesto-principle 1 -
+/1pz5hm/here%27s-that-rain-day-substitution-chords 1 -
+/1pz5hm/lulu-and-georgia-lighting 1 -
+/2020/wp-includes/wlwmanifest.xml 1 -
+/polyfills-es2015.cd922be208e6be712d4f.js 2 http://infinityimage.in/switchdirection/
+/1pz5hm/bzzayzh 1 http://infinityimage.in/1pz5hm/bzzayzh
+/wordpress/wp-includes/wlwmanifest.xml 1 -
+/wp1/wp-includes/wlwmanifest.xml 1 -
+/xc4akwqo/article.php 31 -
+/1pz5hm/pakistan-to-saudi-arabia-flight-time 1 -
+/cgi-bin/od1rym/viewtopic.php 1 http://infinityimage.in/cgi-bin/od1rym/viewtopic.php
+/1pz5hm/best-tank-in-league-of-legends-2021 1 -
+/1pz5hm/soft-ball-cricket-bat-size 1 -
+/wp2/wp-includes/wlwmanifest.xml 1 -
+/runtime-es2015.4462443ae6a57d7295b2.js 2 http://infinityimage.in/switchdirection/
+/ 26 -
+/wp/wp-includes/wlwmanifest.xml 1 -
+/1pz5hm/z4o4c/page.php 3 http://infinityimage.in/1pz5hm/z4o4c/page.php
+/1pz5hm/how-to-dress-like-a-pirate-with-regular-clothes 1 -
+/1pz5hm/what-are-dual-credit-classes-in-high-school 1 -
+/ht8qxlur.php 11 http://infinityimage.in/ht8qxlur.php
+/5l07zfje.php 10 http://infinityimage.in/5l07zfje.php
+/sitemap.xml 1 -
+/1pz5hm/lotus-elise-factory-supercharger-kit 1 -
+/1pz5hm/aviation-museum-ottawa 1 -
+/1pz5hm/importance-of-risk-management-essay 1 -
+/main-es2015.f3ea5aeb2337c629c172.js 2 http://infinityimage.in/switchdirection/
+/robots.txt 38 -
+/shop/wp-includes/wlwmanifest.xml 1 -
+/test/wp-includes/wlwmanifest.xml 1 -
+/website/wp-includes/wlwmanifest.xml 1 -
+/1pz5hm/pittsburgh-magazine-best-of-design-2021 1 -
+/1pz5hm/vancouver-to-prince-george 1 -
+/1pz5hm/bad-habits-ed-sheeran-spotify 1 -
+/1pz5hm/best-hotel-spas-in-boca-raton 1 -
+/wp-includes/wlwmanifest.xml 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 52
+162.214.80.40 46 46 3496 20210930171225
+3.233.212.58 16 16 4502 20210921212145
+64.78.149.164 5 5 435 20210906025428
+111.7.100.21 4 4 1388 20210911003730
+52.39.4.59 4 4 348 20210906025428
+3.142.122.14 4 4 348 20210906025428
+65.154.226.220 4 4 88 20210906024738
+3.120.130.29 3 3 261 20210906025428
+205.169.39.247 2 2 44 20210906025359
+205.169.39.151 2 2 44 20210906024619
+223.186.58.209 2 2 22 20210907042513
+111.7.100.20 2 2 694 20210911003442
+18.192.36.99 2 2 174 20210906025428
+120.92.72.88 2 2 688 20210909011807
+74.120.14.115 2 2 0 20210907144602
+36.99.136.135 2 2 343 20210911003716
+162.142.125.60 1 1 0 20210907144601
+171.13.14.76 1 1 346 20210919054717
+111.7.100.22 1 1 347 20210911003331
+162.142.125.44 1 1 0 20210907133704
+171.13.14.41 1 1 347 20210913044014
+92.118.160.1 1 1 807 20210918030159
+18.116.86.117 1 1 87 20210906025428
+65.154.226.165 1 1 22 20210906024633
+34.86.35.10 1 1 807 20210914181651
+92.118.160.61 1 1 807 20210920073622
+64.246.165.140 1 1 346 20210919164112
+112.66.106.250 1 1 347 20210910180043
+38.127.127.99 1 1 346 20210919094106
+36.99.136.130 1 1 2619 20210911003546
+144.172.68.237 1 1 347 20210912120213
+36.99.136.134 1 1 2619 20210911003712
+45.58.49.209 1 1 345 20210909031819
+121.4.181.178 1 1 346 20210916012850
+111.7.100.23 1 1 347 20210911003616
+34.96.130.11 1 1 807 20210917072220
+34.221.255.206 1 1 87 20210906025428
+34.77.162.11 1 1 807 20210915014416
+36.99.136.132 1 1 343 20210911003730
+51.89.228.207 1 1 347 20210914075454
+92.118.160.41 1 1 807 20210918232119
+120.92.72.197 1 1 346 20210909011805
+54.203.73.198 1 1 347 20210913144901
+65.155.30.101 1 1 22 20210906025820
+120.92.72.220 1 1 346 20210909011807
+54.189.230.128 1 1 347 20210910005946
+167.99.127.156 1 1 347 20210913172742
+18.197.193.89 1 1 347 20210914092604
+34.96.130.4 1 1 807 20210922022546
+100.21.218.158 1 1 347 20210914075830
+171.13.14.75 1 1 347 20210910234813
+198.23.148.136 1 1 346 20210916205115
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 18
+20210906 66 66 4774 14
+20210907 7 7 0 6
+20210908 1 1 0 1
+20210909 6 6 2070 5
+20210910 4 4 1388 4
+20210911 14 14 9047 9
+20210912 2 2 694 2
+20210913 4 4 1388 4
+20210914 5 5 2195 5
+20210915 2 2 1153 2
+20210916 3 3 1038 3
+20210917 2 2 1153 2
+20210918 3 3 1960 3
+20210919 4 4 1384 4
+20210920 2 2 1153 2
+20210921 1 1 346 1
+20210922 1 1 807 1
+20210930 11 11 704 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+5mn-15mn 2
+0s-30s 65
+30s-2mn 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 35
+/ 69 20780 58 57
+/.well-known/acme-challenge/KcYNebEnfrw1OGicRU0Gl9LRKReXsLIiGEMhD1YcDxg 4 348 0 0
+/.well-known/acme-challenge/Ki824wyIWiV32vRSvZjnSI-fT3A-NGP7ptMtcJ0ZZec 4 348 0 0
+/.well-known/acme-challenge/pFG2eePLBLq02-I9zIwaGBK987DmRme7fEKgcm_4aIM 4 348 4 0
+/.well-known/acme-challenge/n5evN4aUPxKzGOwPfzLvRmu3o8NqKe7Q6kCSgXlvxIA 4 348 0 0
+/.well-known/acme-challenge/0HxKQccheLboz6HIJj3YlkPkWpPJJruhTkAQeHkEg8M 4 348 1 0
+/.well-known/acme-challenge/3LCOGK06TzNJrinRyGSKaLwYH8wkSli09OBnxx_r0Y0 4 348 1 3
+/.well-known/acme-challenge/qKPr4WJuJVSwRe00vJ1iVcH-GNjSOQUwYNQ4h-cRGJM 4 348 0 0
+/.well-known/acme-challenge/-R9DwSrQBxZ9Dx72nAgc3B0TA5BlYoIB_nkSe0cIYJA 4 348 0 1
+/.well-known/acme-challenge/o7Cbu56nM2WHrBrDwtbyvzilcOMxRXukjhXvdOLbu3g 4 348 0 0
+/.well-known/acme-challenge/MWGrkpqK3SfT-A55pj0QqjEkqLQttl0Vn6vMpSoe_Xs 4 348 1 4
+/.well-known/acme-challenge/FsCIOtygmDcZ7sdCrekEWXcqNZxJtzvhKOLE6-dYqYM 4 348 0 0
+/switchdirection/ 3 5238 2 3
+/.well-known/acme-challenge/I5-JSE-W_RSQX_YESP97_SEFKL47-LDZ 1 64 0 0
+/.well-known/acme-challenge/CUXJHILUM_VEWSPPGCU4V4MX6EFXX9XP 1 64 0 1
+/.well-known/acme-challenge/OY_Y5JEFH74OJ_PGERX20QE_0U40XMDA 1 64 0 0
+/.well-known/acme-challenge/MNVKE2WMV3954BOX-JONCR_CYY001L9V 1 64 0 0
+/.well-known/acme-challenge/NVNTK27OL6XAWU50K2OEOATHQ0559FDZ 1 64 1 0
+/.well-known/acme-challenge/C_Y3CRIDNSQQJ2JIDPO50T0X19EQ5ZKP 1 64 1 0
+/.well-known/acme-challenge/18JVXR34WLC-V6LWHWLVAYRIP4BOB3IA 1 64 0 0
+/.well-known/acme-challenge/MPOJ_MWHAAQNL_3HL110-HNSXHVWF1TP 1 64 0 0
+/.well-known/acme-challenge/SWYZOIC64JUTOBLDUDRN5H7J5PA7AE67 1 64 0 0
+/.well-known/acme-challenge/NAPUYMYI77MUL8F9FCKMCTVYDVBUT56P 1 64 0 0
+/.well-known/acme-challenge/7X5RG71E5VB77BUV9PQ43OO-8JYC2MOE 1 64 0 0
+/.well-known/acme-challenge/LT1LEJB9FM4ZBXLTNCRVZBIK8GUO6_PA 1 64 0 0
+/.well-known/acme-challenge/-P42095D4G698ZGFP3QE43MMQ58CVTXL 1 64 0 0
+/.well-known/acme-challenge/O3W09OVL0WHXU6THDE_SNFS7SP53WVW0 1 64 0 0
+/.well-known/acme-challenge/_KDQ8Q6AOJ6B0J9D7TGDPAN_4W2HTP-Y 1 64 0 0
+/.well-known/acme-challenge/EUTZDG85K2EJE1-L3G2LS21SE_O0_AJ3 1 64 0 0
+/.well-known/acme-challenge/2XHEHMMS97TGB8SZUCWDV7_05MLYZ4UH 1 64 0 0
+/.well-known/acme-challenge/EO81ANICHOMKNKMEJA_WQ4BGDRIG0GKE 1 64 0 0
+/.well-known/acme-challenge/EHPZ_0UJRYQIB3Q95JBX2S0ZVT6_BIR6 1 64 0 0
+/.well-known/acme-challenge/13_53LZK9QE_TQ2ESBD2MW34X663Y_8H 1 64 0 0
+/.well-known/acme-challenge/5EZ9H1XZCXCJ92I2MWSV66Y_K61TRJ70 1 64 0 0
+/.well-known/acme-challenge/B_T2XJ4LZ7H5XO9TRBGLJQHY_2ZBMI72 1 64 0 0
+END_SIDER

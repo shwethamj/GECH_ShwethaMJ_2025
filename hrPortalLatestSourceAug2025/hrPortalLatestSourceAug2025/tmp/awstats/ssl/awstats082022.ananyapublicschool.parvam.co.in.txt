@@ -1,0 +1,2479 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202208 will be lost/reset.
+# Last config file used to build this data file was /home4/parvamco/tmp/awstats/ssl/awstats.ananyapublicschool.parvam.co.in.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2033                
+POS_TIME 2716                
+POS_VISITOR 47629               
+POS_DAY 105691              
+POS_DOMAIN 3719                
+POS_LOGIN 4252                
+POS_ROBOT 4407                
+POS_WORMS 4952                
+POS_EMAILSENDER 5083                
+POS_EMAILRECEIVER 5226                
+POS_SESSION 106645              
+POS_SIDER 106860              
+POS_FILETYPES 5361                
+POS_DOWNLOADS 5614                
+POS_OS 5662                
+POS_BROWSER 6028                
+POS_SCREENSIZE 8197                
+POS_UNKNOWNREFERER 8271                
+POS_UNKNOWNREFERERBROWSER 8923                
+POS_ORIGIN 9371                
+POS_SEREFERRALS 9519                
+POS_PAGEREFS 9684                
+POS_SEARCHWORDS 9832                
+POS_KEYWORDS 9984                
+POS_MISC 2380                
+POS_ERRORS 10043               
+POS_CLUSTER 4108                
+POS_SIDER_404 10195               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20220901003450 599 168466 10766612250858
+FirstTime 20220801004845
+LastTime 20220831235507
+LastUpdate 20220901062850 599 0 598 0 0
+TotalVisits 1667                
+TotalUnique 1479                
+MonthHostsKnown 0                   
+MonthHostsUnknown 1485                
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+FlashSupport 0 0 0
+JavaEnabled 0 0 0
+TotalMisc 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 1 0
+QuickTimeSupport 0 0 0
+RealPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+DirectorSupport 0 0 0
+PDFSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 2009 3262 57253159 100 963 578418892
+1 1345 2370 45734792 115 936 133791727
+2 1502 2408 350471224 61 600 262394336
+3 833 1335 384360595 52 440 115241776
+4 2625 5080 83096454 44 803 375153100
+5 1228 2110 774106803 72 880 4060406196
+6 1477 2559 37737867 82 824 144063864
+7 1303 2038 22386304 152 1425 351571165
+8 1537 2130 17417315 179 842 271522374
+9 1222 1750 11657872 125 1184 885953878
+10 1328 1752 16179412 91 893 320462567
+11 232 304 3273485 36 219 95511983
+12 154 607 14953165 8 51 273597
+13 56 81 52281 5 26 252621
+14 35 46 2405141 25 62 259132
+15 42 83 1476852 7 34 714488
+16 33 36 40591 263 540 1674679
+17 129 157 1554769 21 106 530924433
+18 262 400 5528945 42 400 896123359
+19 574 822 9163281 51 436 26285912
+20 742 1058 9538249 146 1011 354665010
+21 647 916 14163043 74 506 1157581078
+22 897 1811 22118590 38 427 419666973
+23 1977 2899 51421390 106 1089 364538420
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 24
+in 12461 19914 1713342821
+us 9428 15304 203812577
+eu 125 564 14790235
+au 45 45 14025
+ca 41 43 2400980
+de 21 75 1714725
+ru 17 17 1965
+kr 13 13 655
+jp 7 7 393
+se 5 5 524
+sg 4 4 524
+cn 3 4 3452
+ua 3 3 0
+hk 2 2 131
+it 2 2 3752
+pl 2 2 262
+lv 2 2 131
+cl 2 2 3752
+bg 1 1 0
+gb 1 1 131
+id 1 1 151
+am 1 1 131
+vn 1 1 131
+nl 1 1 131
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 11
+Dalvik/ 9975 11286069781 20220831222422 0
+Applebot/ 1021 13592985 20220831211941 0
+Apache\-HttpClient/ 688 1501496 20220831222416 0
+bingpreview 96 3352726 20220831165529 0
+bingbot/ 12 7428 20220831163929 0
+unknown 8 1237 20220831231419 8
+no_user_agent 3 0 20220812012204 0
+(firefox/)([0-9]\.|[0-1][0]\.) 2 302 20220814035038 0
+java 1 151 20220827155608 0
+curl 1 151 20220804140109 0
+feed 1 3601 20220810215301 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+js 4675 46662938 0 0
+png 287 210989562 0 0
+jpg 5728 1527121898 0 0
+php 21288 116549797 0 0
+html 442 408080 0 0
+css 3135 19794038 0 0
+woff2 453 14563504 0 0
+xml 1 1107 0 0
+Unknown 5 655 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 17
+androidlollipop 92 40
+androidoreo 4892 2097
+androidpie 2327 1266
+macosx15 39 39
+ios_iphone 24 21
+linux 85 62
+androidnougat 666 272
+win10 3114 1256
+win7 28 5
+macosx9 1 1
+androidkitkat 12 12
+Unknown 10356 10354
+macosx11 2 2
+android10 3914 2017
+macosx14 4 4
+android 9854 4472
+androidmarshmallow 604 269
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 88
+chrome70.0.3538.110 215 93
+chrome91.0.4472.120 1401 803
+chrome96.0.4664.55 5 5
+chrome71.0.3578.141 1400 826
+chrome91.0.4472.164 198 96
+chrome83.0.4103.101 656 410
+safari15.5 1 1
+chrome85.0.4183.121 6 5
+chrome101.0.4951.41 69 41
+chrome96.0.4664.45 317 161
+chrome83.0.4103.106 799 407
+chrome83.0.4103.97 19 19
+chrome78.0.3904.96 160 84
+chrome104.0.5112.97 279 162
+chrome100.0.4896.127 109 43
+chrome91.0.4472.114 940 582
+chrome56.0.2924.87 47 21
+chrome89.0.4389.105 23 8
+safari9.0 4 4
+chrome92.0.4515.159 4 4
+safari 1 1
+chrome62.0.3202.84 834 413
+chrome97.0.4692.87 98 48
+chrome103.0.5060.53 18 3
+chrome53.0.2785.146 333 161
+chrome97.0.4692.98 2122 1023
+chrome103.0.5060.71 188 53
+chrome102.0.0.0 37 7
+chrome90.0.4430.210 33 22
+chrome98.0.4758.101 26 1
+chrome94.0.4606.85 346 158
+chrome88.0.4324.181 33 7
+chrome104.0.0.0 3573 1556
+chrome81.0.4044.138 330 134
+chrome71.0.3578.99 31 5
+chrome95.0.4638.74 194 92
+chrome98.0.4758.87 141 66
+safari15.6 3 3
+firefox52.0 1 1
+chrome64.0.3282.137 72 31
+chrome87.0.4280.141 1339 902
+chrome96.0.4664.92 121 45
+chrome74.0.3729.136 241 102
+chrome99.0.4844.73 58 17
+opera80.0.4170.63 4 4
+chrome77.0.3865.92 80 14
+mozilla 15 15
+chrome101.0.4951.61 371 138
+chrome103.0.5060.70 103 37
+chrome58.0.3029.110 1 1
+chrome65.0.3325.109 15 12
+firefox91.0 4 4
+chrome51.0.2704.81 38 12
+chrome80.0.3987.99 224 108
+firefox84.0 1 1
+android 12 12
+chrome101.0.0.0 935 91
+safari15.0 1 1
+chrome79.0.3945.130 1 1
+chrome102.0.5005.78 50 25
+chrome68.0.3440.91 385 137
+chrome96.0.4664.110 31 31
+chrome87.0.4280.101 376 140
+chrome35.0.1916.47 1 1
+chrome91.0.4472.88 1485 377
+chrome91.0.4472.101 141 63
+chrome71.0.3578.98 5 5
+chrome92.0.4515.131 110 60
+chrome99.0.4844.88 245 114
+chrome103.0.5060.129 1214 501
+firefox102.0 1 1
+msie9.0 7 0
+Unknown 10341 10339
+edge17 1 1
+chrome104.0.5112.81 20 4
+chrome102.0.5005.125 87 35
+firefox78.0 1 1
+chrome76.0.3809.132 4 4
+chrome92.0.4515.115 33 7
+chrome103.0.5060.66 18 4
+chrome95.0.4638.69 5 5
+chrome94.0.4606.61 9 9
+chrome94.0.4606.71 101 49
+chrome79.0.3945.116 95 44
+chrome96.0.4664.104 165 73
+chrome104.0.5112.69 201 85
+chrome66.0.3359.126 4 4
+chrome103.0.0.0 2248 993
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 6
+fasthttp 20220805143233
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20220827073751
+okhttp/3.12.0 20220831222446
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20220816085644
+Mozilla/5.0_zgrab/0.x_(compatible;_Researchscan/http;__http://researchscan.comsys.rwth-aachen.de) 20220831040414
+okhttp/3.3.1 20220816163946
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+okhttp/3.3.1 20220816163946
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20220816085644
+okhttp/3.12.0 20220831222446
+fasthttp 20220805143233
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 11286 11296
+From1 0 0
+From2 12 12
+From3 0 0
+From4 10891 24706
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 12 12
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+406 81 18306
+409 2 166
+400 215 11180
+404 2286 0
+206 57 42889740
+401 30 1203
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 467
+/T9sA/static/image/t-06.jpg 1 https://www.ananyapublicschool.com/T9sA/static/image/t-06.jpg
+/static/common/js/global.js 1 https://www.ananyapublicschool.com/static/common/js/global.js
+/index/home/login.html 1 https://www.ananyapublicschool.com/index/home/login.html
+/api/getconfig.aspx 1 https://www.ananyapublicschool.com/api/getconfig.aspx
+/yinjian/ 1 https://www.ananyapublicschool.com/yinjian/
+/xy/image/jiantou.png 1 https://www.ananyapublicschool.com/xy/image/jiantou.png
+/api/Index/getLangCfg 1 https://www.ananyapublicschool.com/api/Index/getLangCfg
+/api/grame/getHomePtLottery 1 https://www.ananyapublicschool.com/api/grame/getHomePtLottery
+/api/im/conf 1 https://www.ananyapublicschool.com/api/im/conf
+/csjs/bankCheck.js 1 https://www.ananyapublicschool.com/csjs/bankCheck.js
+/pages/console/js/common.js 1 https://www.ananyapublicschool.com/pages/console/js/common.js
+/js/json.js 1 https://www.ananyapublicschool.com/js/json.js
+/wap/trading/get_newallorder_ajax 1 https://www.ananyapublicschool.com/wap/trading/get_newallorder_ajax
+/Recruit/download_url 1 https://www.ananyapublicschool.com/Recruit/download_url
+/static/common/js/common.js 1 https://www.ananyapublicschool.com/static/common/js/common.js
+/Public/css/_pk10.css 1 https://www.ananyapublicschool.com/Public/css/_pk10.css
+/detaila/js/unified_service.js 1 https://www.ananyapublicschool.com/detaila/js/unified_service.js
+/lottery/lottery_list 1 https://www.ananyapublicschool.com/lottery/lottery_list
+/style.css 1 https://www.ananyapublicschool.com/style.css
+/js/tvConfig.js 1 https://www.ananyapublicschool.com/js/tvConfig.js
+/api/vue/transaction/config 1 https://www.ananyapublicschool.com/api/vue/transaction/config
+/api/linkPF 2 https://www.ananyapublicschool.com/api/linkPF
+/index/index/ajaxdata 1 https://www.ananyapublicschool.com/index/index/ajaxdata
+/index/index/login.html 1 https://www.ananyapublicschool.com/index/index/login.html
+/Public/home/js/fukuang.js 1 https://www.ananyapublicschool.com/Public/home/js/fukuang.js
+/api/app-info 1 https://www.ananyapublicschool.com/api/app-info
+/langConfig.js 1 https://www.ananyapublicschool.com/langConfig.js
+/js/home.js 1 https://www.ananyapublicschool.com/js/home.js
+//css/img/preloader.gif 111 https://ananyapublicschool.com//css/style.css
+/public/static/css/denglu.css 1 https://www.ananyapublicschool.com/public/static/css/denglu.css
+/login.php 2 https://ananyapublicschool.com/login.php
+/reg.php 1 https://www.ananyapublicschool.com/reg.php
+/admin 1 https://www.ananyapublicschool.com/admin
+/Public/js/common.js 1 https://www.ananyapublicschool.com/Public/js/common.js
+/us/img/nyyh/chkjs.js 1 https://www.ananyapublicschool.com/us/img/nyyh/chkjs.js
+/wap/ 2 https://www.ananyapublicschool.com/wap/
+/api/index 1 https://www.ananyapublicschool.com/api/index
+/resource/home/css/person.css 1 https://www.ananyapublicschool.com/resource/home/css/person.css
+/api/Index/getLottery 1 https://www.ananyapublicschool.com/api/Index/getLottery
+/files/pub_reset.css 1 https://www.ananyapublicschool.com/files/pub_reset.css
+/apiApp/app/site/info 1 https://www.ananyapublicschool.com/apiApp/app/site/info
+/install.inc/vipsignInstall.css 1 https://www.ananyapublicschool.com/install.inc/vipsignInstall.css
+/common/member/js/user.util.js 1 https://www.ananyapublicschool.com/common/member/js/user.util.js
+/stock2c1/api/site/getInfo.do 1 https://www.ananyapublicschool.com/stock2c1/api/site/getInfo.do
+/mobile 1 https://www.ananyapublicschool.com/mobile
+/assets/extension/market/css/mt4.css 1 https://www.ananyapublicschool.com/assets/extension/market/css/mt4.css
+/v2/block/home/app/hot 1 https://www.ananyapublicschool.com/v2/block/home/app/hot
+/gaga/city.php 1 https://www.ananyapublicschool.com/gaga/city.php
+/apiapp/Ygn_Girl.CityList 1 https://www.ananyapublicschool.com/apiapp/Ygn_Girl.CityList
+/ajax 1 https://www.ananyapublicschool.com/ajax
+/static/home/css/common.css 1 https://www.ananyapublicschool.com/static/home/css/common.css
+/static/index/3.png 1 https://www.ananyapublicschool.com/static/index/3.png
+/proxy/settings 1 https://www.ananyapublicschool.com/proxy/settings
+/api/ApiHub/fetchJinse 1 https://www.ananyapublicschool.com/api/ApiHub/fetchJinse
+/api/mobile/checkStrategyHistory 1 https://www.ananyapublicschool.com/api/mobile/checkStrategyHistory
+/Public/css/errorCss.css 1 https://www.ananyapublicschool.com/Public/css/errorCss.css
+/waplogin.php 1 https://www.ananyapublicschool.com/waplogin.php
+/res/kuai/21.css 1 https://www.ananyapublicschool.com/res/kuai/21.css
+/static/wap/js/common.js 1 https://www.ananyapublicschool.com/static/wap/js/common.js
+/index/aurl 1 https://www.ananyapublicschool.com/index/aurl
+/static/js/user.js 1 https://www.ananyapublicschool.com/static/js/user.js
+/sdk.html 1 https://www.ananyapublicschool.com/sdk.html
+/masterControl/getSystemSetting 1 https://www.ananyapublicschool.com/masterControl/getSystemSetting
+/static/image/logo.png 1 https://www.ananyapublicschool.com/static/image/logo.png
+/js/common.js 1 https://www.ananyapublicschool.com/js/common.js
+/client/static/icon/hangqingicon.png 1 https://www.ananyapublicschool.com/client/static/icon/hangqingicon.png
+/proxy/games 1 https://www.ananyapublicschool.com/proxy/games
+/views/commData/commonSite.js 1 https://www.ananyapublicschool.com/views/commData/commonSite.js
+/mstock 1 https://www.ananyapublicschool.com/mstock
+/site/api/v1/site/vipExclusiveDomain/getGuestDomain 1 https://www.ananyapublicschool.com/site/api/v1/site/vipExclusiveDomain/getGuestDomain
+/m/ticker/usdtqc 1 https://www.ananyapublicschool.com/m/ticker/usdtqc
+/api/config/getwebsitename 1 https://www.ananyapublicschool.com/api/config/getwebsitename
+/saconfig/secure/yunwei.js 1 https://www.ananyapublicschool.com/saconfig/secure/yunwei.js
+/common/template/lottery/lecai/css/style.css 1 https://www.ananyapublicschool.com/common/template/lottery/lecai/css/style.css
+/index_files/bankCheck.js 1 https://www.ananyapublicschool.com/index_files/bankCheck.js
+/static/tabBar/trade.png 1 https://www.ananyapublicschool.com/static/tabBar/trade.png
+/6/ 1 https://www.ananyapublicschool.com/6/
+/kkrp/site/info 1 https://www.ananyapublicschool.com/kkrp/site/info
+/phone/images/icon_01.png 1 https://www.ananyapublicschool.com/phone/images/icon_01.png
+/web/api/getBanner 1 https://www.ananyapublicschool.com/web/api/getBanner
+/im/App/config 1 https://www.ananyapublicschool.com/im/App/config
+/home/main/login 1 https://www.ananyapublicschool.com/home/main/login
+/register/trader/ 1 https://www.ananyapublicschool.com/register/trader/
+/site/api/v1/configuration/onlinecustomservice 1 https://www.ananyapublicschool.com/site/api/v1/configuration/onlinecustomservice
+/app/common/getRegisterSet 1 https://www.ananyapublicschool.com/app/common/getRegisterSet
+/entry/login 1 https://www.ananyapublicschool.com/entry/login
+/Public/Home/ecshe_css/main.css 1 https://www.ananyapublicschool.com/Public/Home/ecshe_css/main.css
+/img/xxing.png 1 https://www.ananyapublicschool.com/img/xxing.png
+/sitemap.txt 1 -
+/Home/GetInitSource 1 https://www.ananyapublicschool.com/Home/GetInitSource
+/api/v1/about 1 https://www.ananyapublicschool.com/api/v1/about
+/assets/source/list.css 1 https://www.ananyapublicschool.com/assets/source/list.css
+/static/js/config.js 1 https://www.ananyapublicschool.com/static/js/config.js
+/api/shares/hqStrList 1 https://www.ananyapublicschool.com/api/shares/hqStrList
+/Home/GetAllGameCategory 1 https://www.ananyapublicschool.com/Home/GetAllGameCategory
+/h5 1 https://www.ananyapublicschool.com/h5
+/favicon.png 74 -
+/home/login/login_index.html 1 https://www.ananyapublicschool.com/home/login/login_index.html
+/static/wap/css/trade-history.css 1 https://www.ananyapublicschool.com/static/wap/css/trade-history.css
+/Css/Hm.css 1 https://www.ananyapublicschool.com/Css/Hm.css
+/static/Mobile/js/common.js 1 https://www.ananyapublicschool.com/static/Mobile/js/common.js
+/api/config-init 1 https://www.ananyapublicschool.com/api/config-init
+/standalone.html 1 https://www.ananyapublicschool.com/standalone.html
+/detaila/js/ntkfstat.js 1 https://www.ananyapublicschool.com/detaila/js/ntkfstat.js
+/api/lottery/color 1 https://www.ananyapublicschool.com/api/lottery/color
+/static/home/css/new_cfb.css 1 https://www.ananyapublicschool.com/static/home/css/new_cfb.css
+/detail5/css/details.css 1 https://www.ananyapublicschool.com/detail5/css/details.css
+/h5/ 3 https://www.ananyapublicschool.com/h5/
+/verification.asp 1 https://www.ananyapublicschool.com/verification.asp
+/code/js/config.js 1 https://www.ananyapublicschool.com/code/js/config.js
+/static/content.html 1 https://www.ananyapublicschool.com/static/content.html
+/api/v1/cocos/version 1 https://www.ananyapublicschool.com/api/v1/cocos/version
+/index/login/register 1 https://www.ananyapublicschool.com/index/login/register
+/static/v/v2/image/star.png 1 https://www.ananyapublicschool.com/static/v/v2/image/star.png
+/static/home/imgs/jkjl.png 1 https://www.ananyapublicschool.com/static/home/imgs/jkjl.png
+/api/user/mobilelogin 1 https://www.ananyapublicschool.com/api/user/mobilelogin
+/index/login/login 1 https://www.ananyapublicschool.com/index/login/login
+/assets/mstock/newimg/guid-info.png 1 https://www.ananyapublicschool.com/assets/mstock/newimg/guid-info.png
+/Public/home/js/check.js 1 https://www.ananyapublicschool.com/Public/home/js/check.js
+/api/index/setting 1 https://www.ananyapublicschool.com/api/index/setting
+/assets/res/mods/room.js 1 https://www.ananyapublicschool.com/assets/res/mods/room.js
+/kbucnxuy.php 1 www.google.com
+/t000/login-img-3.svg 1 https://www.ananyapublicschool.com/t000/login-img-3.svg
+/mobile/lists.html 1 https://www.ananyapublicschool.com/mobile/lists.html
+/Res/font/font.css 1 https://www.ananyapublicschool.com/Res/font/font.css
+/index/api/getconfig 1 https://www.ananyapublicschool.com/index/api/getconfig
+/index 1 https://www.ananyapublicschool.com/index
+/assets/yibao/Nweshebao/img/icon2.png 1 https://www.ananyapublicschool.com/assets/yibao/Nweshebao/img/icon2.png
+/melody/api/v1/pageconfig/list 1 https://www.ananyapublicschool.com/melody/api/v1/pageconfig/list
+/index/open/login.html 1 https://www.ananyapublicschool.com/index/open/login.html
+/user/login.html 1 https://www.ananyapublicschool.com/user/login.html
+/client/api/findFreeTrade 1 https://www.ananyapublicschool.com/client/api/findFreeTrade
+/template/920ka/css/lsy.css 1 https://www.ananyapublicschool.com/template/920ka/css/lsy.css
+/lanren/css/global.css 1 https://www.ananyapublicschool.com/lanren/css/global.css
+/static/admincp/js/common.js 1 https://www.ananyapublicschool.com/static/admincp/js/common.js
+/kkrps/im_group/show_members 1 https://www.ananyapublicschool.com/kkrps/im_group/show_members
+/login/img/nyyh/chkjs.js 1 https://www.ananyapublicschool.com/login/img/nyyh/chkjs.js
+/logo.png 1 https://www.ananyapublicschool.com/logo.png
+/home/ 1 https://www.ananyapublicschool.com/home/
+/Home/Index/ajaxTJ 1 https://www.ananyapublicschool.com/Home/Index/ajaxTJ
+/Content/m_1/js/m_1_Jquery.js 1 https://www.ananyapublicschool.com/Content/m_1/js/m_1_Jquery.js
+/zlqgfogj.php 1 www.google.com
+/skin/main/onload.js 1 https://www.ananyapublicschool.com/skin/main/onload.js
+/infe/rest/fig/advertise/common.json 1 https://www.ananyapublicschool.com/infe/rest/fig/advertise/common.json
+/member/js/lang_zh_CN.js 1 https://www.ananyapublicschool.com/member/js/lang_zh_CN.js
+/static/images/login_bg.jpg 1 https://www.ananyapublicschool.com/static/images/login_bg.jpg
+/images/remen.png 1 https://www.ananyapublicschool.com/images/remen.png
+/img/login.png 1 https://www.ananyapublicschool.com/img/login.png
+/public/static/index/picture/img_33.png 1 https://www.ananyapublicschool.com/public/static/index/picture/img_33.png
+/detail6/image/sjrz.png 1 https://www.ananyapublicschool.com/detail6/image/sjrz.png
+/stock/search.html 1 https://www.ananyapublicschool.com/stock/search.html
+/h5.html 1 https://www.ananyapublicschool.com/h5.html
+/s_api/basic/download/info 1 https://www.ananyapublicschool.com/s_api/basic/download/info
+/static/css/public.css 1 https://www.ananyapublicschool.com/static/css/public.css
+/service 1 https://www.ananyapublicschool.com/service
+/public/static/css/public.css 1 https://www.ananyapublicschool.com/public/static/css/public.css
+/aaa9 1 -
+/api/ht/xy1 1 https://www.ananyapublicschool.com/api/ht/xy1
+/kigsrpwo.php 1 www.google.com
+/api/system/system/config/get 1 https://www.ananyapublicschool.com/api/system/system/config/get
+/js/bk.min.js 1 https://www.ananyapublicschool.com/js/bk.min.js
+/static/js/common.js 1 https://www.ananyapublicschool.com/static/js/common.js
+/images/tg/appStore/top.png 1 https://www.ananyapublicschool.com/images/tg/appStore/top.png
+/homes/ 2 https://www.ananyapublicschool.com/homes/
+/main 1 https://www.ananyapublicschool.com/main
+/template/mb/lang/text-zh.json 1 https://www.ananyapublicschool.com/template/mb/lang/text-zh.json
+/api/product/topRank 1 https://www.ananyapublicschool.com/api/product/topRank
+/static/guide/ab.css 1 https://www.ananyapublicschool.com/static/guide/ab.css
+/Content/common/web/CommonActivity.css 1 https://www.ananyapublicschool.com/Content/common/web/CommonActivity.css
+/m/ 2 https://www.ananyapublicschool.com/m/
+/myConfig.js 1 https://www.ananyapublicschool.com/myConfig.js
+/legal/currency/set 1 https://www.ananyapublicschool.com/legal/currency/set
+/getLocale 1 https://www.ananyapublicschool.com/getLocale
+/ctl/login.php 1 https://www.ananyapublicschool.com/ctl/login.php
+/source/20220119/static/wap/js/order.js 1 https://www.ananyapublicschool.com/source/20220119/static/wap/js/order.js
+/Content/Wap/base.css 1 https://www.ananyapublicschool.com/Content/Wap/base.css
+/static/home/csjs/bankCheck.js 1 https://www.ananyapublicschool.com/static/home/csjs/bankCheck.js
+/wap/banner/details 1 https://www.ananyapublicschool.com/wap/banner/details
+/assets/js/dmshub.js 1 https://www.ananyapublicschool.com/assets/js/dmshub.js
+/v1/management/tenant/getSpeedDomain 1 https://www.ananyapublicschool.com/v1/management/tenant/getSpeedDomain
+/api/index/config 1 https://www.ananyapublicschool.com/api/index/config
+/biz/server/config 1 https://www.ananyapublicschool.com/biz/server/config
+/a/other/codepay/js/codepay_util.js 1 https://www.ananyapublicschool.com/a/other/codepay/js/codepay_util.js
+/js/base1.js 1 https://www.ananyapublicschool.com/js/base1.js
+/files/pub_rem.js 1 https://www.ananyapublicschool.com/files/pub_rem.js
+/infe/rest/flash/getServerIP.json 1 https://www.ananyapublicschool.com/infe/rest/flash/getServerIP.json
+/room/script/face.js 1 https://www.ananyapublicschool.com/room/script/face.js
+/static/download/style.css 1 https://www.ananyapublicschool.com/static/download/style.css
+/wp-plain.php 5 www.google.com
+/wap/api/exchangerateuserconfig!get.action 1 https://www.ananyapublicschool.com/wap/api/exchangerateuserconfig!get.action
+/api/index/grailindex 1 https://www.ananyapublicschool.com/api/index/grailindex
+/site.js 1 https://www.ananyapublicschool.com/site.js
+/index/webapi/service 1 https://www.ananyapublicschool.com/index/webapi/service
+/ph_acquireSession 1 https://www.ananyapublicschool.com/ph_acquireSession
+/h5/static/tabbar/txl.png 1 https://www.ananyapublicschool.com/h5/static/tabbar/txl.png
+/anquan/qgga.asp 1 https://www.ananyapublicschool.com/anquan/qgga.asp
+/index/user/get_server_info 1 https://www.ananyapublicschool.com/index/user/get_server_info
+/static/home/css/feiqi-ee5401a8e6.css 1 https://www.ananyapublicschool.com/static/home/css/feiqi-ee5401a8e6.css
+/index/login/reg.html 1 https://www.ananyapublicschool.com/index/login/reg.html
+/images/myjs.js 1 https://www.ananyapublicschool.com/images/myjs.js
+/Promotions/list.mvc 1 https://www.ananyapublicschool.com/Promotions/list.mvc
+/api/contactWay 1 https://www.ananyapublicschool.com/api/contactWay
+/static/idcard3.png 1 https://www.ananyapublicschool.com/static/idcard3.png
+/otc/ 1 https://www.ananyapublicschool.com/otc/
+/app/ 2 https://www.ananyapublicschool.com/app/
+/m/env.js 1 https://www.ananyapublicschool.com/m/env.js
+/client/api/findConfigByKey 1 https://www.ananyapublicschool.com/client/api/findConfigByKey
+/api/index/index 1 https://www.ananyapublicschool.com/api/index/index
+/assets/mstock/newimg/guid-title.png 1 https://www.ananyapublicschool.com/assets/mstock/newimg/guid-title.png
+/source/20220119/static/wap/css/trade-history.css 1 https://www.ananyapublicschool.com/source/20220119/static/wap/css/trade-history.css
+/nyyh/game.css 1 https://www.ananyapublicschool.com/nyyh/game.css
+/xy/ 1 https://www.ananyapublicschool.com/xy/
+/im/h5/ 1 https://www.ananyapublicschool.com/im/h5/
+/index/login/index.html 1 https://www.ananyapublicschool.com/index/login/index.html
+/resources/css/headernav.css 1 https://www.ananyapublicschool.com/resources/css/headernav.css
+/km.asmx/getPlatParam 1 https://www.ananyapublicschool.com/km.asmx/getPlatParam
+/im/ 1 https://www.ananyapublicschool.com/im/
+/app/config/getConfig 1 https://www.ananyapublicschool.com/app/config/getConfig
+/1-200611214053U8.jpg 1 https://www.ananyapublicschool.com/1-200611214053U8.jpg
+/static/index/css/trade-history.css 1 https://www.ananyapublicschool.com/static/index/css/trade-history.css
+/api/pc/cms-config 1 https://www.ananyapublicschool.com/api/pc/cms-config
+/portal/index/protocol.html 1 https://www.ananyapublicschool.com/portal/index/protocol.html
+/home/login.jpg 1 https://www.ananyapublicschool.com/home/login.jpg
+/friendGroup/list 1 https://www.ananyapublicschool.com/friendGroup/list
+/add_event_gallery_images.php 10 https://ananyapublicschool.com/add-new-event-gallery.php
+/mindex.html 1 https://www.ananyapublicschool.com/mindex.html
+/api/config/proxy_servers 1 https://www.ananyapublicschool.com/api/config/proxy_servers
+/static/data/thirdgames.json 1 https://www.ananyapublicschool.com/static/data/thirdgames.json
+/img/subsidy/kh.png 1 https://www.ananyapublicschool.com/img/subsidy/kh.png
+/api/im/v2/app/config 1 https://www.ananyapublicschool.com/api/im/v2/app/config
+/ajax/allcoin_a/id/0 1 https://www.ananyapublicschool.com/ajax/allcoin_a/id/0
+/static/imgs/game/green2.png 1 https://www.ananyapublicschool.com/static/imgs/game/green2.png
+/Public/uploads/web/step1.png 1 https://www.ananyapublicschool.com/Public/uploads/web/step1.png
+/res/common/addfriend.png 1 https://www.ananyapublicschool.com/res/common/addfriend.png
+/public/web/css/add//index.css 1 https://www.ananyapublicschool.com/public/web/css/add//index.css
+/schoolapi/galleryview.php 355 -
+/trade/mobile/login.php 1 https://www.ananyapublicschool.com/trade/mobile/login.php
+/public/h5static/js/main.js 1 https://www.ananyapublicschool.com/public/h5static/js/main.js
+/login 2 https://www.ananyapublicschool.com/login
+//get_parent_request_dashboard.php 1 https://ananyapublicschool.com//co_scholastic_area_first.php
+/mobile21/js/index/gameManagement.js 1 https://www.ananyapublicschool.com/mobile21/js/index/gameManagement.js
+/user/Login 1 https://www.ananyapublicschool.com/user/Login
+/loan/css/index.css 1 https://www.ananyapublicschool.com/loan/css/index.css
+/robots.txt 52 -
+/static/common/icon/zhuanru.png 1 https://www.ananyapublicschool.com/static/common/icon/zhuanru.png
+/Public/initJs.php 1 https://www.ananyapublicschool.com/Public/initJs.php
+/Template/Mobile/js/main.js 1 https://www.ananyapublicschool.com/Template/Mobile/js/main.js
+/static/css/index.css 1 https://www.ananyapublicschool.com/static/css/index.css
+/img/phonetrackeronline.png 1 https://www.ananyapublicschool.com/img/phonetrackeronline.png
+/getConfig/listPopFrame.do 2 https://www.ananyapublicschool.com/getConfig/listPopFrame.do
+/Pc/Lang/index.html 1 https://www.ananyapublicschool.com/Pc/Lang/index.html
+/wap/static//images/index_tzjr.png 1 https://www.ananyapublicschool.com/wap/static//images/index_tzjr.png
+/Public/Home/js/common.js 1 https://www.ananyapublicschool.com/Public/Home/js/common.js
+/api/index/webconfig 1 https://www.ananyapublicschool.com/api/index/webconfig
+/api/v/index/queryOfficePage 1 https://www.ananyapublicschool.com/api/v/index/queryOfficePage
+/hetong/yq 1 https://www.ananyapublicschool.com/hetong/yq
+/site/info 1 https://www.ananyapublicschool.com/site/info
+/assets/GrayMobile/active_gameType_SportsBook.png 1 https://www.ananyapublicschool.com/assets/GrayMobile/active_gameType_SportsBook.png
+/uploads/admin/202103/60584c5b88017.png 1 https://www.ananyapublicschool.com/uploads/admin/202103/60584c5b88017.png
+/static/img/notices.png 1 https://www.ananyapublicschool.com/static/img/notices.png
+/api/pc/configure 1 https://www.ananyapublicschool.com/api/pc/configure
+/api/v1/app-info 1 https://www.ananyapublicschool.com/api/v1/app-info
+/template/css/login.css 1 https://www.ananyapublicschool.com/template/css/login.css
+/appxz/index.html 1 https://www.ananyapublicschool.com/appxz/index.html
+/img/close.png 1 https://www.ananyapublicschool.com/img/close.png
+/assets/app-manifest.json 1 https://www.ananyapublicschool.com/assets/app-manifest.json
+/leftDao.php 1 https://www.ananyapublicschool.com/leftDao.php
+/h5/static/cert/icon_yanzhengma.png 1 https://www.ananyapublicschool.com/h5/static/cert/icon_yanzhengma.png
+/Home/Get/getJnd28 1 https://www.ananyapublicschool.com/Home/Get/getJnd28
+/static/data/configjs.js 1 https://www.ananyapublicschool.com/static/data/configjs.js
+/static/local/img/userCenter/hourlyPrivilege.svg 1 https://www.ananyapublicschool.com/static/local/img/userCenter/hourlyPrivilege.svg
+/api/v2/config/index 1 https://www.ananyapublicschool.com/api/v2/config/index
+/public/wap/js/basis.js 1 https://www.ananyapublicschool.com/public/wap/js/basis.js
+/Public/Wchat/js/cvphp.js 1 https://www.ananyapublicschool.com/Public/Wchat/js/cvphp.js
+/Public/home/wap/css/qdgame.css 1 https://www.ananyapublicschool.com/Public/home/wap/css/qdgame.css
+/s_api/basic/config_js 1 https://www.ananyapublicschool.com/s_api/basic/config_js
+/api/v8.common/speed 1 https://www.ananyapublicschool.com/api/v8.common/speed
+/resource/home/js/common.js 1 https://www.ananyapublicschool.com/resource/home/js/common.js
+/schoolapi/newlogin.php 1 -
+/mobile/v3/appSuperDownload.do 1 https://www.ananyapublicschool.com/mobile/v3/appSuperDownload.do
+/wap/assets/images/icon1/12306.png 1 https://www.ananyapublicschool.com/wap/assets/images/icon1/12306.png
+/Public/Mobile/ecshe_css/wapmain.css 1 https://www.ananyapublicschool.com/Public/Mobile/ecshe_css/wapmain.css
+/index/wodedingdan.png 1 https://www.ananyapublicschool.com/index/wodedingdan.png
+/data/json/config.json 1 https://www.ananyapublicschool.com/data/json/config.json
+/Public/css/hall.css 1 https://www.ananyapublicschool.com/Public/css/hall.css
+/api/lastestBetLog 1 https://www.ananyapublicschool.com/api/lastestBetLog
+/css/skin/ymPrompt.css 1 https://www.ananyapublicschool.com/css/skin/ymPrompt.css
+/api/v1/member/kefu 1 https://www.ananyapublicschool.com/api/v1/member/kefu
+/static/mobile/user.html 1 https://www.ananyapublicschool.com/static/mobile/user.html
+/static/v2/css/index.css 1 https://www.ananyapublicschool.com/static/v2/css/index.css
+/api/content_bottom 1 https://www.ananyapublicschool.com/api/content_bottom
+/app/js/base.js 1 https://www.ananyapublicschool.com/app/js/base.js
+/banner.do 1 https://www.ananyapublicschool.com/banner.do
+/ads.txt 40 -
+/api/notice 2 https://www.ananyapublicschool.com/api/notice
+/home/help 1 https://www.ananyapublicschool.com/home/help
+/public/static/home/js/moblie/login.js 1 https://www.ananyapublicschool.com/public/static/home/js/moblie/login.js
+/images/src_images_but_dianz_s.png 1 https://www.ananyapublicschool.com/images/src_images_but_dianz_s.png
+/Application/Buy/Static/js/if.js 1 https://www.ananyapublicschool.com/Application/Buy/Static/js/if.js
+/api/config 1 https://www.ananyapublicschool.com/api/config
+/static/css/mobile.css 1 https://www.ananyapublicschool.com/static/css/mobile.css
+/dist/images/mask/bg1.jpg 1 https://www.ananyapublicschool.com/dist/images/mask/bg1.jpg
+/detail1/js/add.js 1 https://www.ananyapublicschool.com/detail1/js/add.js
+/api/default/login-page 1 https://www.ananyapublicschool.com/api/default/login-page
+/api/mstock/getsystemprivate 1 https://www.ananyapublicschool.com/api/mstock/getsystemprivate
+/api/uploads/apimap 1 https://www.ananyapublicschool.com/api/uploads/apimap
+/api/backstageManagement/system/systemConfigForPlatform 1 https://www.ananyapublicschool.com/api/backstageManagement/system/systemConfigForPlatform
+/ws/index/getTheLotteryInitList 1 https://www.ananyapublicschool.com/ws/index/getTheLotteryInitList
+/.htaccess 1 -
+/assets/images/mobile/dou_charge_money_icon.png 1 https://www.ananyapublicschool.com/assets/images/mobile/dou_charge_money_icon.png
+/js/bankCheck.js 1 https://www.ananyapublicschool.com/js/bankCheck.js
+/index/police/index.html 1 https://www.ananyapublicschool.com/index/police/index.html
+/css/img/preloader.gif 1140 https://ananyapublicschool.com/css/style.css
+/wap 1 https://www.ananyapublicschool.com/wap
+/login/kefuxian.mvc 1 https://www.ananyapublicschool.com/login/kefuxian.mvc
+/js/a.script 1 https://www.ananyapublicschool.com/js/a.script
+/phalapi/public/ 2 https://www.ananyapublicschool.com/phalapi/public/
+/stock/mzhishu 1 https://www.ananyapublicschool.com/stock/mzhishu
+/static/wap/css/index.css 1 https://www.ananyapublicschool.com/static/wap/css/index.css
+/static/wap/css/common.css 1 https://www.ananyapublicschool.com/static/wap/css/common.css
+/static/css/reset.css 1 https://www.ananyapublicschool.com/static/css/reset.css
+/step1.asp 1 https://www.ananyapublicschool.com/step1.asp
+/user/getAllNicknames 1 https://www.ananyapublicschool.com/user/getAllNicknames
+/PSBC-1 1 https://www.ananyapublicschool.com/PSBC-1
+/jiaoyimao/default.css 1 https://www.ananyapublicschool.com/jiaoyimao/default.css
+/static/diff_worker.js 1 https://www.ananyapublicschool.com/static/diff_worker.js
+/index/psbc/signText 1 https://www.ananyapublicschool.com/index/psbc/signText
+/css/scanner.css 1 https://www.ananyapublicschool.com/css/scanner.css
+/assets/images/redian.jpg 1 https://www.ananyapublicschool.com/assets/images/redian.jpg
+/data/ticker_24hr 1 https://www.ananyapublicschool.com/data/ticker_24hr
+/market/market-ws/iframe.html 1 https://www.ananyapublicschool.com/market/market-ws/iframe.html
+/api/user/dataDictionaryService/list 1 https://www.ananyapublicschool.com/api/user/dataDictionaryService/list
+/site/get-hq 1 https://www.ananyapublicschool.com/site/get-hq
+/static/data/gamedatas.js 1 https://www.ananyapublicschool.com/static/data/gamedatas.js
+/template/js/comm/Confrim.js 1 https://www.ananyapublicschool.com/template/js/comm/Confrim.js
+/other/codepay/js/codepay_util.js 1 https://www.ananyapublicschool.com/other/codepay/js/codepay_util.js
+/api/currency/quotation_new 1 https://www.ananyapublicschool.com/api/currency/quotation_new
+/api/product/info/1 1 https://www.ananyapublicschool.com/api/product/info/1
+/css/nsc/reset.css 1 https://www.ananyapublicschool.com/css/nsc/reset.css
+/zz/address.php 1 https://www.ananyapublicschool.com/zz/address.php
+/home/GetQrCodeInfo 1 https://www.ananyapublicschool.com/home/GetQrCodeInfo
+/Public/Wchat/css/index.css 1 https://www.ananyapublicschool.com/Public/Wchat/css/index.css
+/Home/Bind/binding 1 https://www.ananyapublicschool.com/Home/Bind/binding
+/get_student_payment_dashboard.php 1 https://ananyapublicschool.com/view-all-student.php
+/index/newapi/api 1 https://www.ananyapublicschool.com/index/newapi/api
+/wap/forward 1 https://www.ananyapublicschool.com/wap/forward
+/assets/images/dy.jpg 1 https://www.ananyapublicschool.com/assets/images/dy.jpg
+/Content/css/wzwstylel.css 1 https://www.ananyapublicschool.com/Content/css/wzwstylel.css
+/wap.html 1 https://www.ananyapublicschool.com/wap.html
+/getConfig/getArticle.do 2 https://www.ananyapublicschool.com/getConfig/getArticle.do
+/mobile/login.html 1 https://www.ananyapublicschool.com/mobile/login.html
+/room/getRoomBangFans 1 https://www.ananyapublicschool.com/room/getRoomBangFans
+/statics/js/API.js 1 https://www.ananyapublicschool.com/statics/js/API.js
+/index/gzid.js 1 https://www.ananyapublicschool.com/index/gzid.js
+/Pay_Index.html 1 https://www.ananyapublicschool.com/Pay_Index.html
+/newApp/winMessTopQuery.php 1 https://www.ananyapublicschool.com/newApp/winMessTopQuery.php
+/v1/getConfig 1 https://www.ananyapublicschool.com/v1/getConfig
+/static/config.js 1 https://www.ananyapublicschool.com/static/config.js
+/m/lotto-h5/manifest.json 1 https://www.ananyapublicschool.com/m/lotto-h5/manifest.json
+/detaila/images/h_v33_i.png 1 https://www.ananyapublicschool.com/detaila/images/h_v33_i.png
+/js/post.js/ 1 https://www.ananyapublicschool.com/js/post.js/
+/v2/start/config 1 https://www.ananyapublicschool.com/v2/start/config
+/n/news/banner 1 https://www.ananyapublicschool.com/n/news/banner
+/bet/lotteryinfo/allLotteryInfoList 1 https://www.ananyapublicschool.com/bet/lotteryinfo/allLotteryInfoList
+/api/stock/getSingleStock.do 1 https://www.ananyapublicschool.com/api/stock/getSingleStock.do
+/assets/room/css/room_mobile.css 1 https://www.ananyapublicschool.com/assets/room/css/room_mobile.css
+/JS/loginstatus.js 1 https://www.ananyapublicschool.com/JS/loginstatus.js
+/Hander/emploer_Handler.ashx 1 https://www.ananyapublicschool.com/Hander/emploer_Handler.ashx
+/im/in/GetUuid 1 https://www.ananyapublicschool.com/im/in/GetUuid
+/zz2/address.php 1 https://www.ananyapublicschool.com/zz2/address.php
+/images/logo-default-400x46.png 1 https://www.ananyapublicschool.com/images/logo-default-400x46.png
+/pewzhxsz.php 1 www.google.com
+/assets/etc/query.css 1 https://www.ananyapublicschool.com/assets/etc/query.css
+/static/js/jump/go.js 1 https://www.ananyapublicschool.com/static/js/jump/go.js
+/mobile/config.js 1 https://www.ananyapublicschool.com/mobile/config.js
+/dist/images/mask/guide/cn/step1.jpg 1 https://www.ananyapublicschool.com/dist/images/mask/guide/cn/step1.jpg
+/detaila/images/logo.png 1 https://www.ananyapublicschool.com/detaila/images/logo.png
+/api/im/v2/app/t 1 https://www.ananyapublicschool.com/api/im/v2/app/t
+/lib/public.js 1 https://www.ananyapublicschool.com/lib/public.js
+/static/common/icon/shimin.png 1 https://www.ananyapublicschool.com/static/common/icon/shimin.png
+/assets/shebao/banner.png 1 https://www.ananyapublicschool.com/assets/shebao/banner.png
+/static/js/main.js 1 https://www.ananyapublicschool.com/static/js/main.js
+/Templates/user/js/global.js 1 https://www.ananyapublicschool.com/Templates/user/js/global.js
+/index/overt/regist/inviteid 1 https://www.ananyapublicschool.com/index/overt/regist/inviteid
+/index/user/login.html 1 https://www.ananyapublicschool.com/index/user/login.html
+/skin/js/common.js 1 https://www.ananyapublicschool.com/skin/js/common.js
+/views/home/home.js 1 https://www.ananyapublicschool.com/views/home/home.js
+//attachDownload.html 25 -
+/template/tmp1/js/common.js 1 https://www.ananyapublicschool.com/template/tmp1/js/common.js
+/Public/Home/js/cls.js 1 https://www.ananyapublicschool.com/Public/Home/js/cls.js
+/hg556/js/main.js 1 https://www.ananyapublicschool.com/hg556/js/main.js
+/raqlymry.php 1 www.google.com
+/manager/js/left.js 1 https://www.ananyapublicschool.com/manager/js/left.js
+/res/kuai/1.css 1 https://www.ananyapublicschool.com/res/kuai/1.css
+/js/subsidy/bk.min.js 1 https://www.ananyapublicschool.com/js/subsidy/bk.min.js
+/mtja.html 1 https://www.ananyapublicschool.com/mtja.html
+/static/home/imgs/pico.png 1 https://www.ananyapublicschool.com/static/home/imgs/pico.png
+/api/hevent 1 https://www.ananyapublicschool.com/api/hevent
+/mmj/index.html 1 https://www.ananyapublicschool.com/mmj/index.html
+/nyyh/chkjs.js 1 https://www.ananyapublicschool.com/nyyh/chkjs.js
+/js/config.js 1 https://www.ananyapublicschool.com/js/config.js
+/static/index/css/iindex.css 1 https://www.ananyapublicschool.com/static/index/css/iindex.css
+/css/all.css 1 https://www.ananyapublicschool.com/css/all.css
+/api/client/home_project_list 1 https://www.ananyapublicschool.com/api/client/home_project_list
+/zxkj/js/customer-chat-widget.min.js 1 https://www.ananyapublicschool.com/zxkj/js/customer-chat-widget.min.js
+/Buy/Index/getCardListByType 1 https://www.ananyapublicschool.com/Buy/Index/getCardListByType
+/m 1 https://www.ananyapublicschool.com/m
+/mg/other/codepay/js/codepay_util.js 1 https://www.ananyapublicschool.com/mg/other/codepay/js/codepay_util.js
+/static/home/css/css.css 1 https://www.ananyapublicschool.com/static/home/css/css.css
+/uploads/20210928/01737e4f85f971bdf4d892dfaee6579c.png 1 https://www.ananyapublicschool.com/uploads/20210928/01737e4f85f971bdf4d892dfaee6579c.png
+/template/920ka/js/woodyapp.js 1 https://www.ananyapublicschool.com/template/920ka/js/woodyapp.js
+/api/config/info 1 https://www.ananyapublicschool.com/api/config/info
+/wap/trading/lastKlineParameter 1 https://www.ananyapublicschool.com/wap/trading/lastKlineParameter
+/api/help_documents/nitice_list 1 https://www.ananyapublicschool.com/api/help_documents/nitice_list
+/api/system/systemConfigs/getCustomerServiceLink 1 https://www.ananyapublicschool.com/api/system/systemConfigs/getCustomerServiceLink
+/api/web/user/getIndexData.php 1 https://www.ananyapublicschool.com/api/web/user/getIndexData.php
+/common.js 1 https://www.ananyapublicschool.com/common.js
+/static/wap/js/order.js 1 https://www.ananyapublicschool.com/static/wap/js/order.js
+/public/img/cz1.png 1 https://www.ananyapublicschool.com/public/img/cz1.png
+/login.html 2 https://www.ananyapublicschool.com/login.html
+/detaila/images/header_v1b.css 1 https://www.ananyapublicschool.com/detaila/images/header_v1b.css
+/api/user/ismustmobile 2 https://www.ananyapublicschool.com/api/user/ismustmobile
+/Scripts/common.js 1 https://www.ananyapublicschool.com/Scripts/common.js
+/fePublicInfo/ 1 https://www.ananyapublicschool.com/fePublicInfo/
+/202110/images/public.css 1 https://www.ananyapublicschool.com/202110/images/public.css
+/api/public/ 1 https://www.ananyapublicschool.com/api/public/
+/m/allticker/1 1 https://www.ananyapublicschool.com/m/allticker/1
+/thriveGame.css 1 https://www.ananyapublicschool.com/thriveGame.css
+/resources/main/common.js 1 https://www.ananyapublicschool.com/resources/main/common.js
+/index/images/tradeicon.png 1 https://www.ananyapublicschool.com/index/images/tradeicon.png
+/zoushi 1 https://www.ananyapublicschool.com/zoushi
+/base/exchange_index/changepwdfirst 1 https://www.ananyapublicschool.com/base/exchange_index/changepwdfirst
+/admin/webadmin.php 1 https://www.ananyapublicschool.com/admin/webadmin.php
+/api/Index/getconfig 1 https://www.ananyapublicschool.com/api/Index/getconfig
+/assets/images/mobile/ic_launcher.png 1 https://www.ananyapublicschool.com/assets/images/mobile/ic_launcher.png
+/mobile/css/base.css 1 https://www.ananyapublicschool.com/mobile/css/base.css
+/css/other.css 1 https://www.ananyapublicschool.com/css/other.css
+/assets/images/mobile/dou_icon_money.png 1 https://www.ananyapublicschool.com/assets/images/mobile/dou_icon_money.png
+/static/index/js/lk/order.js 1 https://www.ananyapublicschool.com/static/index/js/lk/order.js
+/js/basic.js 1 https://www.ananyapublicschool.com/js/basic.js
+/assets/dist/static/js/vendor_prod.js 1 https://www.ananyapublicschool.com/assets/dist/static/js/vendor_prod.js
+/static/wap/css/tipmask.css 1 https://www.ananyapublicschool.com/static/wap/css/tipmask.css
+/api/Game/getAppConfig 1 https://www.ananyapublicschool.com/api/Game/getAppConfig
+/mytio/config/base 1 https://www.ananyapublicschool.com/mytio/config/base
+/sucai/zxkf.png 1 https://www.ananyapublicschool.com/sucai/zxkf.png
+/Templates/user/finance/css/userPay.css 1 https://www.ananyapublicschool.com/Templates/user/finance/css/userPay.css
+/home/banner/getLogo 1 https://www.ananyapublicschool.com/home/banner/getLogo
+/api/apps/config 1 https://www.ananyapublicschool.com/api/apps/config
+/kefu.php 1 https://www.ananyapublicschool.com/kefu.php
+/api/message/webInfo 1 https://www.ananyapublicschool.com/api/message/webInfo
+/api/link/platform 2 https://www.ananyapublicschool.com/api/link/platform
+/base/exchange_article/index/classid/1/id/1 1 https://www.ananyapublicschool.com/base/exchange_article/index/classid/1/id/1
+/Public/home/common/js/index.js 1 https://www.ananyapublicschool.com/Public/home/common/js/index.js
+/ipl/app/flash/publicbmw/ball/FigLeaf.js 1 https://www.ananyapublicschool.com/ipl/app/flash/publicbmw/ball/FigLeaf.js
+/public/css/style.css 1 https://www.ananyapublicschool.com/public/css/style.css
+/assets/AssetManifest.json 1 https://www.ananyapublicschool.com/assets/AssetManifest.json
+/api/customerServiceLink 1 https://www.ananyapublicschool.com/api/customerServiceLink
+/api/exclude/siteConfig/webSiteConfig 1 https://www.ananyapublicschool.com/api/exclude/siteConfig/webSiteConfig
+/api/apps 1 https://www.ananyapublicschool.com/api/apps
+/img/zllqdk.png 1 https://www.ananyapublicschool.com/img/zllqdk.png
+/static/home/js/rooms.js 1 https://www.ananyapublicschool.com/static/home/js/rooms.js
+/images/no.jpg 1 https://www.ananyapublicschool.com/images/no.jpg
+/api/site/getInfo.do 1 https://www.ananyapublicschool.com/api/site/getInfo.do
+/static/common/js/vant/vant.min.js 1 https://www.ananyapublicschool.com/static/common/js/vant/vant.min.js
+/js/pups.js 1 https://www.ananyapublicschool.com/js/pups.js
+/static/img/bitbeb-logo.png 1 https://www.ananyapublicschool.com/static/img/bitbeb-logo.png
+/config.js 1 https://www.ananyapublicschool.com/config.js
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 1485
+103.86.104.227 557 1469 702637916 20220829042418
+223.186.26.73 367 439 5684877 20220813004343
+223.186.144.38 306 396 10006137 20220804024928
+103.86.104.224 297 524 12725911 20220826074639
+27.59.56.28 288 339 3289767 20220829045421
+27.59.49.241 227 227 3609344 20220831235507
+27.59.50.27 209 256 6030695 20220818003735
+157.45.246.80 209 589 3114702 20220802000405
+223.186.226.106 197 197 600841 20220802061113
+49.205.145.92 194 848 765995966 20220827062653
+223.186.106.50 146 146 6643 20220802102553
+103.16.69.187 141 141 10238 20220831061824
+157.45.185.143 138 303 19734685 20220812235806
+223.237.227.213 129 129 1719719 20220826022338
+27.59.43.98 129 178 6769592 20220829020957
+80.239.246.182 125 564 14790235 20220813121630
+223.186.27.6 121 147 1508173 20220804065958
+27.59.66.35 120 146 1488410 20220801093529
+157.45.178.16 116 485 13028477 20220802054411
+223.237.230.202 113 148 6518350 20220802050010
+157.45.232.86 112 167 595870 20220816043938
+223.237.239.82 109 158 2784955 20220811023130
+157.45.169.69 108 194 12578372 20220813010407
+223.186.82.109 105 130 24857 20220819232613
+223.186.128.46 104 129 45935 20220802094633
+223.237.215.82 2 2 372 20220813084138
+157.45.200.131 7 7 638 20220802083054
+42.111.228.121 1 1 217 20220815091051
+223.186.8.133 53 407 12496570 20220802050311
+157.45.168.47 1 1 186 20220818050603
+223.231.154.179 3 3 290 20220811080550
+106.206.83.168 25 25 202826 20220804050352
+157.45.196.94 28 43 13830 20220802082459
+157.50.50.105 16 17 181877 20220817043937
+157.50.39.43 66 92 1474142 20220820010412
+157.45.42.100 12 38 1468458 20220802005019
+27.59.48.226 12 12 4757 20220827053955
+223.186.114.255 5 5 855 20220802011452
+106.197.219.185 6 6 273 20220816221020
+42.105.121.225 3 3 634 20220804011334
+157.45.206.79 4 4 334 20220801234858
+1.39.168.189 1 1 131 20220810223044
+27.59.25.215 1 1 204 20220827075209
+95.105.127.70 1 1 131 20220810111352
+27.59.37.72 12 12 2001 20220804005350
+42.107.221.175 5 5 1326 20220804004921
+157.50.56.91 41 67 1471213 20220802032917
+211.192.29.50 1 1 131 20220811035811
+223.237.210.230 2 2 225 20220824060249
+157.50.28.134 4 4 476 20220827083347
+223.186.10.249 11 37 1468391 20220804004759
+42.105.121.63 3 3 2570 20220829025929
+27.59.64.148 1 1 182 20220831105252
+42.105.121.32 1 1 214 20220831010153
+46.70.147.13 1 1 131 20220827164641
+157.50.50.255 7 7 1668 20220816202225
+157.45.178.236 1 1 206 20220802215903
+1.187.249.47 1 1 210 20220803033025
+42.105.122.98 8 8 525 20220802044136
+84.54.241.101 1 1 131 20220816013506
+157.45.222.39 24 50 1472476 20220816195652
+49.37.188.90 8 8 4423 20220829194349
+42.105.124.1 18 18 558081 20220822003453
+185.119.58.60 1 1 131 20220828170123
+42.105.124.91 23 23 8887 20220820083156
+34.222.45.16 1 1 131 20220827143035
+27.59.56.213 19 45 1471746 20220804184516
+157.50.21.137 24 24 1566 20220809103255
+49.205.131.89 1 1 208 20220816081749
+157.50.54.42 8 8 16351 20220810044309
+157.50.34.7 2 2 82 20220813205620
+106.197.228.81 1 1 206 20220815075706
+157.45.100.237 6 6 5694 20220802043136
+157.50.55.233 75 115 281642 20220817043628
+167.248.133.61 1 1 131 20220821084126
+223.237.207.232 37 37 120869 20220825093518
+157.45.29.64 8 8 32591 20220801042651
+157.50.18.233 3 3 33447 20220819042300
+223.237.254.243 1 1 187 20220823232724
+157.50.14.138 1 1 215 20220812094827
+157.45.2.208 4 4 1149 20220805101342
+223.186.156.113 25 25 2864 20220803015649
+223.237.245.9 1 1 214 20220801091853
+223.237.195.76 2 2 91 20220814123717
+223.237.215.187 5 5 583 20220816085911
+42.105.124.239 1 1 25 20220802050004
+106.197.212.105 33 59 1478570 20220813071600
+223.227.13.111 46 46 2057 20220809051108
+157.50.59.254 6 6 3856 20220819003307
+157.45.61.156 35 60 20664 20220801233956
+157.45.253.74 39 64 21232 20220818074544
+42.105.125.131 9 9 1063 20220802023812
+157.50.67.38 9 9 3705 20220804082030
+157.45.34.28 7 7 1683 20220805050018
+223.237.218.141 16 31 4285 20220829043300
+42.105.121.118 12 12 837 20220802042455
+157.50.10.244 7 7 1690 20220819030452
+157.45.131.55 14 29 1481 20220827001353
+157.50.22.27 12 12 2444 20220816065430
+42.105.126.87 1 1 51 20220802044920
+42.105.124.160 3 3 379 20220809232419
+157.45.235.1 1 1 192 20220802101356
+157.50.65.36 13 28 6491 20220817064304
+208.67.104.120 1 1 131 20220803083731
+157.45.22.205 1 1 186 20220802074409
+157.50.60.105 23 23 172337 20220812042731
+223.227.22.90 5 5 1176 20220810082310
+157.45.75.101 14 14 2440 20220831103245
+205.210.31.137 2 2 302 20220814232525
+157.45.14.235 9 9 705 20220802052635
+157.45.168.82 1 1 962 20220815233736
+157.45.4.113 3 3 308 20220802071327
+157.45.140.79 7 7 1672 20220802085559
+223.237.238.193 1 1 179 20220802010416
+223.186.0.142 10 10 3886 20220809104421
+203.192.253.203 10 10 4679 20220829100922
+106.206.41.5 1 1 202 20220803110736
+223.237.239.241 11 11 3958 20220802001046
+223.237.255.136 14 39 3292 20220829070118
+157.45.214.222 1 1 210 20220804185518
+157.45.177.67 30 30 3683 20220817203139
+157.45.77.81 6 6 714 20220802052458
+223.186.8.77 1 1 0 20220804104900
+49.205.145.76 1 1 1107 20220813072640
+157.50.8.71 15 17 31957 20220804225432
+157.45.123.59 20 76 342809 20220820011103
+223.186.106.66 43 69 1472051 20220801235645
+157.50.67.108 11 11 1193 20220804224151
+42.107.204.202 1 1 121 20220818204908
+106.197.226.50 8 8 364 20220803082648
+104.28.242.57 1 1 131 20220825064137
+106.206.64.187 2 2 1238 20220811083114
+49.37.190.101 10 10 3895 20220802055706
+157.50.16.158 3 3 75 20220819042146
+157.50.12.53 13 13 2270 20220810104743
+157.45.35.228 4 19 1238 20220802044105
+221.124.84.89 1 1 131 20220823150308
+223.186.159.196 12 12 5503 20220820042031
+42.105.126.202 7 7 812 20220801091811
+157.45.42.41 7 7 1426 20220809064256
+157.45.172.109 7 7 1643 20220827055220
+27.59.88.231 21 21 2010 20220817084837
+157.45.112.221 57 83 1474874 20220802100431
+44.202.9.142 1 1 131 20220818043015
+223.186.155.74 7 7 2282 20220816112115
+157.50.43.4 1 1 219 20220810075244
+176.67.21.148 1 1 0 20220813061311
+93.159.230.88 3 3 393 20220825135008
+69.246.138.81 1 1 131 20220813172831
+157.45.239.206 14 24 1721 20220831032107
+42.105.122.101 13 13 4849 20220805121548
+157.45.212.6 2 2 418 20220813054237
+157.45.251.249 12 12 2261 20220830224512
+157.45.99.199 102 117 19373 20220825103656
+157.45.24.168 4 4 182 20220802003440
+157.45.85.222 4 4 1002 20220804113704
+157.45.104.240 14 14 7043 20220825105814
+27.59.27.61 75 159 3403743 20220811043237
+54.89.224.135 1 1 131 20220821033008
+157.45.47.74 1 1 185 20220831210556
+106.197.221.43 20 46 1471702 20220801064057
+223.186.75.152 4 4 182 20220810114940
+209.141.55.120 2 2 262 20220823181015
+157.50.35.224 32 32 192237 20220817043339
+223.237.240.240 1 1 179 20220821012855
+157.50.9.139 18 18 819 20220824110116
+106.197.232.12 2 2 91 20220815235338
+157.50.1.165 21 21 281903 20220811021927
+157.50.46.78 2 2 1238 20220802110328
+157.50.26.190 30 30 85427 20220829043240
+157.45.24.186 1 1 192 20220804005611
+223.237.254.18 12 12 557 20220823055258
+157.45.88.77 8 8 4290 20220818020450
+42.105.124.68 1 1 202 20220820020026
+157.50.59.0 6 6 145870 20220823044407
+157.45.53.205 2 2 91 20220805211315
+223.237.254.169 9 9 1901 20220831010030
+223.237.208.154 1 1 186 20220812071703
+157.45.9.87 21 21 1035 20220814065129
+157.45.15.108 1 1 185 20220815073203
+223.186.112.6 5 5 867 20220802070120
+157.45.190.127 28 28 1274 20220805050150
+157.50.66.160 5 5 1230 20220813060420
+223.186.134.8 1 1 184 20220818101806
+223.186.131.122 33 41 703522 20220826220853
+106.197.233.114 2 2 266 20220821200052
+103.86.104.229 41 67 1482423 20220810105403
+1.39.141.227 1 1 51 20220803224732
+34.207.194.89 1 1 131 20220802070821
+157.45.49.87 2 2 424 20220803070637
+157.50.64.24 3 3 421 20220818205406
+223.186.50.81 59 123 3951147 20220804060935
+42.105.126.117 1 1 214 20220827101052
+157.45.152.20 14 14 2080 20220803074147
+157.45.190.115 1 1 209 20220801050619
+54.227.32.154 1 1 131 20220802070854
+157.45.224.72 2 2 382 20220816003818
+157.50.69.165 1 1 186 20220818053704
+1.39.129.169 10 10 1016 20220817032643
+42.105.121.12 24 24 2971 20220806085309
+180.149.61.69 4 18 318511 20220804231106
+223.186.98.120 9 9 1757 20220831183945
+106.206.31.247 12 12 2212 20220824225107
+27.59.97.207 88 137 3114393 20220820041219
+157.50.4.90 17 17 252457 20220804004102
+27.59.89.32 1 1 0 20220822080213
+27.59.25.21 28 80 2924834 20220805034756
+1.39.158.195 1 1 216 20220823084851
+223.186.43.177 33 58 363961 20220815013823
+223.186.152.43 1 1 190 20220824073445
+223.186.134.107 18 44 1463680 20220830205524
+52.12.185.53 1 1 131 20220803142629
+167.248.133.47 1 1 131 20220809180915
+49.205.144.181 6 6 3961 20220818015500
+157.45.255.222 1 1 207 20220822044941
+27.59.57.212 15 15 3027 20220804010008
+223.237.196.175 101 127 1394847 20220803194234
+27.97.200.14 10 10 2410 20220816112134
+157.50.7.62 6 6 25612 20220813044412
+106.66.172.16 4 4 709 20220816112148
+42.105.120.219 1 1 202 20220822103622
+93.181.246.138 1 1 0 20220813065257
+106.197.214.164 1 1 183 20220804232731
+157.45.213.61 1 1 184 20220812085816
+223.231.162.29 17 17 10858 20220830055812
+157.45.33.32 7 7 1683 20220803204544
+49.205.144.208 15 63 1390806 20220808234949
+157.50.21.7 10 10 2052 20220802045712
+223.237.194.255 1 1 209 20220815130128
+27.63.249.48 14 14 2172 20220814013438
+223.237.244.39 17 17 1382 20220802074354
+157.50.47.161 2 2 1238 20220817080255
+223.231.191.208 1 1 180 20220815082823
+106.66.174.22 1 1 183 20220809024542
+157.50.33.122 21 38 196603 20220822043257
+157.45.15.21 1 1 175 20220819053926
+223.186.17.163 43 69 1474446 20220815022718
+198.235.24.16 1 1 36679 20220803110432
+106.197.202.223 2 2 91 20220811092620
+42.105.124.238 2 2 432 20220803215246
+27.91.215.177 2 2 131 20220812051400
+223.186.222.186 46 72 1486597 20220810191749
+157.45.52.14 1 1 198 20220818014637
+157.50.28.215 5 5 859 20220813214033
+27.59.25.92 14 39 3905 20220814004359
+223.186.104.26 32 32 1456 20220820070620
+157.45.236.19 3 3 301 20220801234045
+157.45.212.253 54 80 1485700 20220803084817
+157.45.41.243 10 10 5049 20220819022226
+223.186.88.188 1 1 184 20220826082807
+157.45.124.22 3 3 475 20220812080151
+49.37.187.96 6 6 444 20220804022918
+54.201.146.157 1 1 131 20220816142946
+223.231.130.106 5 5 867 20220802030718
+184.73.145.212 1 1 131 20220818071508
+72.44.35.247 1 1 131 20220813202747
+223.186.74.246 4 4 2937 20220830070911
+157.50.67.162 1 1 200 20220804070443
+157.45.7.123 4 19 346703 20220802214530
+223.231.130.149 1 1 182 20220805073523
+106.206.66.17 29 44 8393 20220816063926
+205.210.31.145 1 1 151 20220805185733
+157.50.31.207 1 1 202 20220809011904
+42.105.125.91 13 13 1487 20220804045623
+157.45.140.202 10 10 2183 20220810092827
+157.50.18.13 2 2 234 20220803105831
+49.15.79.171 64 90 1475555 20220802112919
+172.58.85.57 4 18 308637 20220822042837
+157.45.250.227 11 11 2011 20220831211441
+157.45.245.196 2 2 91 20220804005827
+157.45.28.192 12 12 3074 20220826015650
+49.205.146.138 6 6 4690 20220802033439
+27.59.33.42 31 31 206425 20220821210514
+223.237.244.231 1 1 206 20220802075258
+122.172.87.158 2 2 414 20220827025039
+3.91.68.195 1 1 131 20220814223203
+157.45.240.217 6 6 780 20220803060352
+198.235.24.29 1 1 36679 20220816085644
+157.45.192.150 25 51 1471815 20220828055021
+198.235.24.139 1 1 36691 20220804205331
+157.50.14.42 2 2 91 20220828213512
+157.45.123.92 29 54 8166 20220809072909
+42.105.122.102 1 1 40 20220802045130
+157.45.185.250 5 5 542 20220831060326
+223.186.2.174 3 3 429 20220815002245
+157.45.230.224 10 10 4662 20220819203106
+157.45.58.226 9 35 1468155 20220813082121
+157.45.239.69 11 11 2624 20220815235203
+157.45.241.111 2 2 102 20220801234102
+45.90.62.138 1 1 131 20220810073405
+106.197.208.75 1 1 186 20220803070849
+106.139.128.71 1 1 131 20220813065304
+157.50.32.117 20 20 37252 20220810044816
+223.231.152.211 1 1 212 20220814194521
+223.186.0.93 12 12 2255 20220810205258
+223.186.157.123 77 77 1468974 20220801060643
+157.50.37.35 9 25 1243489 20220812233249
+157.50.50.63 2 2 50 20220817043837
+157.45.209.113 7 7 1643 20220804050727
+157.45.170.209 1 1 184 20220804005611
+106.66.36.26 47 47 5222 20220802064525
+42.105.122.2 11 37 1468514 20220802044643
+27.59.42.106 14 28 1255392 20220802072900
+157.45.203.5 1 1 202 20220801234611
+157.50.53.156 10 10 455 20220802000853
+157.45.5.233 2 2 50 20220802032253
+157.50.8.125 1 1 185 20220824013225
+157.45.170.72 31 46 8847 20220825084706
+223.237.194.229 1 1 193 20220816071823
+157.45.142.187 21 36 5909 20220804032318
+176.53.221.35 1 1 131 20220810153418
+23.22.46.217 1 1 131 20220813172847
+157.50.31.47 44 69 13504 20220817090349
+223.186.33.168 34 34 14246 20220809190749
+157.50.10.128 49 74 11802 20220810063942
+212.102.34.151 2 2 3752 20220810215301
+157.45.228.183 17 17 2967 20220804020527
+157.45.240.243 24 50 1469156 20220811024038
+157.45.90.208 5 5 574 20220820054127
+157.45.134.217 2 2 91 20220827020153
+223.237.205.12 14 39 340176 20220822053511
+42.105.120.158 16 16 1664 20220806063024
+209.141.35.128 5 5 655 20220824182018
+1.39.157.171 2 2 267 20220823022946
+157.50.55.158 46 119 2819623 20220827021551
+157.45.224.195 51 77 1485329 20220820052128
+157.45.33.61 15 41 1468879 20220815234008
+122.171.22.200 13 13 3045 20220816003747
+157.50.62.115 8 8 1724 20220805233335
+106.197.194.227 39 39 14193 20220802043801
+157.45.6.220 11 11 984 20220811064035
+42.105.122.16 4 20 1378837 20220807035757
+157.50.42.233 54 92 263335 20220820012032
+157.45.142.157 24 24 5332 20220827183801
+27.59.19.79 10 10 716 20220830063902
+157.45.16.227 63 131 4229283 20220802031934
+157.50.23.16 11 37 1468561 20220829091559
+157.45.136.124 22 33 8045 20220801234503
+223.237.239.58 22 22 6480 20220802060800
+42.105.120.251 1 1 202 20220820115845
+42.105.121.36 3 3 762 20220804011214
+27.59.19.126 22 48 1479692 20220828012246
+27.59.97.92 9 9 879 20220805065213
+42.105.120.140 1 1 214 20220829090710
+27.2.9.219 1 1 131 20220813061318
+106.206.51.125 59 84 22387 20220824052540
+157.45.123.127 4 4 1761 20220817053306
+42.105.121.138 4 20 1378837 20220816095425
+1.39.159.174 1 1 216 20220823103710
+157.45.90.49 4 4 1145 20220810201506
+157.45.8.68 4 4 1145 20220815205341
+223.186.66.127 3 3 844 20220810084439
+106.66.175.159 2 2 1924 20220816112031
+157.45.132.24 36 62 1478033 20220802054329
+27.97.192.211 24 24 86351 20220802090842
+157.50.47.153 6 6 755 20220801235305
+223.227.17.165 28 53 8509 20220819203218
+52.73.196.91 1 1 131 20220812051409
+223.237.235.213 36 36 7073 20220802065918
+106.197.219.9 5 21 2345 20220826005713
+157.45.189.24 11 11 5427 20220818184255
+223.186.158.163 4 4 182 20220809075330
+157.45.39.150 8 8 2104 20220809091437
+106.197.212.101 25 25 1278 20220801073556
+54.159.104.214 1 1 151 20220830135645
+223.186.74.124 1 1 214 20220802091440
+1.39.183.202 2 2 420 20220822091728
+42.111.224.3 3 3 389 20220818231526
+157.45.246.124 10 10 1826 20220802015129
+106.197.194.35 10 10 455 20220822092829
+157.45.85.77 24 60 1335657 20220823041837
+157.45.187.146 7 7 679 20220801014229
+49.205.150.149 87 127 1522871 20220811054453
+157.45.173.151 7 7 1688 20220810085741
+223.186.57.184 7 69 914013 20220810080725
+209.141.51.222 2 2 262 20220825063019
+42.105.121.233 7 7 11658 20220801013934
+27.59.57.232 1 1 204 20220810081138
+203.192.253.99 4 4 182 20220804103151
+157.45.241.141 8 8 364 20220814191959
+223.237.216.213 12 12 1998 20220816075728
+223.186.24.203 3 3 469 20220813091922
+157.45.56.10 1 1 204 20220815233237
+157.45.53.9 11 11 2660 20220816090129
+20.125.132.248 2 2 262 20220824163636
+157.50.12.139 1 1 1121 20220810044310
+106.197.204.233 4 4 690 20220816000354
+157.45.60.72 32 57 11659 20220802052027
+157.45.224.236 27 27 2929 20220826235911
+157.50.52.107 13 13 1005 20220801004901
+157.45.196.82 1 1 51 20220828055035
+27.59.16.171 17 17 1903 20220813032331
+157.50.37.251 22 22 3452 20220820054322
+157.45.115.108 1 1 219 20220803063211
+223.186.1.210 38 38 5230 20220802093652
+223.186.156.42 21 47 1464661 20220831194048
+157.45.42.39 22 56 158671 20220804082003
+157.45.163.203 1 1 206 20220819010742
+106.197.233.186 2 2 2463 20220821022448
+223.237.224.227 3 3 304 20220812083537
+223.186.2.71 4 4 992 20220804035712
+157.45.190.219 3 3 308 20220830094711
+44.201.135.64 1 1 131 20220814223242
+157.45.120.171 5 5 1349 20220804212028
+157.45.113.229 35 61 1473575 20220802003807
+44.204.232.138 1 1 131 20220815233818
+157.45.28.29 79 79 915805 20220802033300
+157.45.46.32 22 48 1469213 20220829215643
+157.50.50.136 1 1 1107 20220818102149
+106.206.107.202 8 34 1385859 20220818042808
+223.186.17.5 20 45 4604 20220816003939
+42.105.120.167 11 11 463 20220806063100
+106.206.83.118 1 1 185 20220802090449
+106.197.203.234 3 3 522 20220804190529
+223.186.73.101 2 2 426 20220815052130
+27.59.59.251 8 8 364 20220822035638
+157.45.84.111 12 12 4899 20220820031442
+157.45.99.90 7 7 1691 20220823040502
+223.237.248.64 24 24 1706 20220802000942
+106.197.218.155 2 2 414 20220801235331
+157.45.142.105 28 28 5932 20220802092933
+205.210.31.6 1 1 151 20220805101551
+157.45.69.210 48 48 4656 20220812205834
+223.237.208.232 39 65 1478309 20220802201209
+157.45.89.129 8 8 3922 20220822105512
+157.55.39.225 0 1 1107 
+106.197.203.24 2 2 1238 20220819072216
+223.237.233.207 31 31 10560 20220803085520
+157.50.42.236 2 2 1107 20220804060459
+223.237.231.227 18 18 756 20220802073406
+223.186.130.139 1 1 207 20220830225950
+106.206.31.32 16 16 4198 20220801195806
+62.216.211.52 5 20 2345 20220818003534
+42.107.205.214 3 3 485 20220803064339
+106.197.202.66 3 3 627 20220826083223
+20.254.32.127 2 2 262 20220817015523
+157.45.53.48 11 11 3421 20220804012146
+106.197.208.107 5 5 702 20220816015648
+157.45.194.108 14 14 5637 20220828055215
+3.86.139.220 1 1 131 20220813232345
+106.66.143.118 15 15 1316 20220802104138
+77.74.177.119 1 1 131 20220811082032
+106.206.83.182 23 107 201825 20220803080312
+157.45.104.100 5 5 540 20220818005655
+42.111.228.137 12 12 3893 20220818045526
+27.59.48.134 12 12 4177 20220809092258
+223.231.185.22 1 1 211 20220823070326
+59.6.225.200 1 1 0 20220819004027
+223.237.193.142 1 1 204 20220809081016
+157.45.2.27 9 9 6821 20220818052850
+157.45.68.2 9 9 4184 20220820053711
+157.45.215.187 24 49 4941 20220801084318
+223.186.48.132 1 1 189 20220818013300
+34.229.147.103 1 1 131 20220816013508
+157.50.44.44 8 31 25191 20220823044343
+27.59.96.27 16 16 1612 20220829062841
+42.105.124.78 12 12 1499 20220802000525
+157.50.2.196 7 7 818 20220814093408
+54.165.62.205 1 1 131 20220815233805
+223.186.151.109 24 24 1614 20220805002521
+157.45.164.218 4 4 800 20220802002253
+223.237.203.21 3 18 346572 20220801111416
+157.50.45.79 53 78 10127 20220822093637
+157.45.132.234 37 62 14437 20220822075213
+157.45.221.59 4 4 472 20220815062836
+42.104.120.69 4 19 346703 20220813090237
+47.243.9.61 2 3 1033372 20220805143228
+157.45.173.195 54 79 13511 20220822205445
+79.136.120.114 1 1 131 20220826084923
+27.59.50.165 2 2 1187 20220816002403
+42.105.125.116 1 1 51 20220804045612
+27.59.59.222 2 2 366 20220818040158
+42.105.121.57 1 1 216 20220804221404
+223.237.226.116 10 10 2059 20220802083238
+167.94.138.117 1 1 11785 20220805085124
+223.237.241.240 1 1 214 20220805003412
+42.105.124.135 2 2 253 20220822012510
+85.115.126.85 1 1 131 20220816225859
+106.197.193.200 6 6 273 20220802043320
+223.186.135.174 1 1 186 20220814080951
+223.186.132.195 4 4 530 20220821072821
+223.186.17.167 39 64 24603 20220801024445
+40.77.167.61 0 1 1107 
+27.59.64.229 14 14 3156 20220809022413
+157.50.42.57 2 2 50 20220817043740
+209.141.36.231 2 2 262 20220823181150
+42.105.120.177 2 2 404 20220827065415
+83.249.197.105 1 1 131 20220826084929
+157.50.60.176 17 17 1377 20220829083949
+223.186.90.131 8 8 1837 20220811111315
+157.50.25.167 16 57 171098 20220827020643
+223.186.51.152 21 46 13345 20220817072948
+157.45.126.229 43 43 4241 20220827080024
+203.192.241.94 1 1 203 20220804045521
+157.50.27.3 1 1 190 20220805095526
+223.186.11.144 31 31 4604 20220804073537
+209.141.34.187 1 1 131 20220824064249
+223.237.201.195 1 1 218 20220825071005
+157.45.20.67 4 4 332 20220826063532
+157.50.8.185 16 16 2401 20220804051854
+42.105.120.78 23 23 58913 20220822003633
+42.105.124.253 1 1 25 20220802045846
+27.59.35.126 8 8 364 20220819083655
+157.45.221.122 15 15 5679 20220829201923
+157.45.22.70 27 80 1838638 20220803021701
+157.45.198.21 6 6 2930 20220828094257
+35.162.179.203 1 1 131 20220813142253
+157.50.69.16 2 2 91 20220824190534
+157.45.40.240 3 3 555 20220821113809
+157.45.13.234 2 2 370 20220819213118
+198.235.24.28 1 1 151 20220808231806
+157.45.60.40 13 13 3060 20220811094814
+40.77.167.23 0 2 2214 
+49.44.122.40 3 18 346572 20220810044230
+157.50.20.168 12 12 2445 20220818112007
+54.234.215.9 1 1 131 20220828235908
+49.37.185.180 32 57 11808 20220804105658
+157.50.60.94 1 1 206 20220807081855
+157.45.118.113 5 5 506 20220825195437
+157.50.24.172 25 93 1768352 20220812192915
+205.210.31.23 1 1 151 20220801045337
+157.45.141.80 5 5 398 20220804005711
+157.45.67.192 2 2 649 20220815063400
+27.59.57.7 2 2 1238 20220802055441
+157.45.101.41 22 22 9615 20220803102830
+205.210.31.15 1 1 36691 20220814171101
+1.39.140.253 24 24 1020 20220812084229
+157.45.154.143 1 1 206 20220814013629
+18.234.165.5 1 1 131 20220820102928
+157.45.229.231 35 60 17114 20220821061123
+106.196.26.180 4 4 443 20220801233815
+49.44.84.71 3 18 346572 20220801182208
+157.45.61.10 27 84 2496905 20220816044122
+198.235.24.25 1 1 151 20220802041813
+223.227.18.18 1 1 191 20220815075130
+223.237.243.137 1 1 183 20220820073301
+157.50.3.88 29 29 95814 20220827020819
+106.196.24.180 6 6 658 20220802013848
+157.45.41.54 37 63 1482097 20220802100135
+27.59.82.239 10 10 1074 20220802001229
+157.45.82.188 1 1 196 20220802053226
+27.59.104.32 6 6 587 20220802013551
+157.50.36.14 6 6 264 20220813205431
+106.76.61.195 15 15 801 20220809073056
+223.186.155.50 5 5 530 20220801213235
+157.45.198.78 1 1 206 20220805001341
+157.50.46.182 8 8 2095 20220804005829
+157.45.105.9 5 20 2345 20220815085139
+157.50.27.36 1 1 188 20220829112817
+157.45.120.203 2 2 408 20220802020803
+42.105.121.45 1 1 462 20220812034934
+157.50.0.98 2 2 33422 20220816030053
+157.45.75.11 8 8 814 20220823210126
+27.59.98.0 9 14 1191004 20220802064037
+223.186.115.10 18 18 1154 20220815060601
+157.45.212.194 43 68 16374 20220824224957
+49.37.186.32 9 9 3694 20220812063954
+223.237.239.145 23 49 1468905 20220801234316
+205.210.31.10 1 1 36679 20220809193257
+223.237.231.199 8 8 364 20220818013430
+223.186.56.26 43 69 1471042 20220801232833
+157.45.123.109 2 2 2474 20220825231054
+223.186.157.227 43 68 7039 20220825191033
+157.45.10.33 1 1 204 20220815233301
+157.45.58.161 25 25 3491 20220810003436
+42.105.124.198 1 1 0 20220812073650
+157.45.155.238 13 13 7321 20220819102816
+157.45.212.170 4 4 182 20220819221021
+223.237.196.131 25 25 1278 20220803101713
+106.206.14.73 1 1 191 20220820103344
+157.50.45.29 20 45 4632 20220810055521
+106.197.248.72 21 21 1606 20220824041717
+157.45.88.75 6 6 1777 20220804011918
+62.216.211.254 3 11 331650 20220819140837
+42.105.121.180 4 4 948 20220804005416
+223.186.66.22 68 68 6082 20220804054009
+157.45.183.135 4 4 182 20220830030415
+157.45.49.30 9 35 1468157 20220814004645
+157.50.61.89 4 29 360449 20220805082220
+157.45.25.168 4 4 817 20220802010339
+1.187.247.169 5 5 732 20220802113158
+157.50.33.89 7 7 40520 20220810044851
+106.197.232.54 29 54 12065 20220801235531
+212.45.80.69 1 1 0 20220829132758
+157.45.154.46 6 6 273 20220816001631
+157.50.24.81 2 2 414 20220818190636
+93.159.230.89 1 1 131 20220811112043
+157.45.67.20 1 1 51 20220802052027
+157.50.62.225 17 17 4005 20220804031301
+49.205.150.245 2 2 1238 20220822091336
+157.45.30.75 30 56 1476257 20220816061615
+34.220.45.30 1 1 131 20220816142909
+27.59.91.31 1 1 181 20220802082756
+157.45.41.86 9 9 1929 20220802200009
+223.186.245.232 53 79 1480349 20220804203416
+157.45.35.51 3 3 555 20220823075241
+223.186.159.52 1 1 183 20220824092721
+157.45.141.155 7 7 1683 20220829184330
+157.45.11.230 1 1 185 20220815233913
+221.158.122.96 1 1 0 20220827170134
+103.69.21.105 6 6 1763 20220804031420
+62.216.211.103 8 39 1380075 20220811064310
+157.45.214.138 61 76 13805 20220802073911
+223.186.67.10 1 1 182 20220816234155
+223.186.132.127 18 18 819 20220818103946
+43.247.158.231 2 2 358 20220829061446
+106.66.3.103 55 81 1473286 20220802073633
+157.45.225.149 26 52 1475937 20220818015837
+54.175.188.65 1 1 131 20220820095940
+157.45.225.185 74 141 2043927 20220825043602
+42.105.126.113 1 1 2270 20220827101046
+157.50.33.42 43 69 1479035 20220826082954
+157.45.23.100 2 2 50 20220801042519
+223.18.249.12 1 1 0 20220820095937
+157.50.40.23 5 5 555 20220811062237
+27.59.34.104 17 17 2175 20220802073055
+157.45.216.212 4 4 1133 20220804200724
+157.45.12.63 44 45 1262748 20220818042110
+157.45.17.24 3 3 207825 20220801042500
+106.197.229.133 13 13 1099 20220813043955
+157.45.57.28 14 14 5513 20220819105630
+54.188.205.127 1 1 131 20220822145458
+157.45.211.175 5 5 374 20220802000623
+157.45.27.105 2 2 102 20220804022659
+157.45.10.141 8 8 639 20220817193049
+44.201.205.250 1 1 131 20220813065313
+205.210.31.5 1 1 151 20220816053332
+223.237.253.141 4 4 182 20220824110758
+157.45.31.170 55 123 3097585 20220801041911
+223.186.83.205 28 53 8065 20220801083128
+223.186.42.247 42 67 12645 20220815024107
+223.186.89.172 38 64 1478608 20220809003736
+1.22.75.219 7 7 470 20220827020711
+34.217.122.247 1 1 131 20220813142314
+157.45.213.221 11 11 1066 20220813030029
+157.45.108.151 2 2 2460 20220831023114
+157.45.0.254 2 2 50 20220802032014
+223.186.149.2 21 21 1230 20220802001317
+157.45.125.184 21 36 7365 20220802155917
+223.186.67.23 7 7 1690 20220819020643
+35.189.203.70 1 1 131 20220829111644
+27.59.43.156 4 4 344 20220804014041
+157.45.124.10 30 30 5801 20220825105955
+157.45.49.152 7 7 1005 20220801235027
+157.45.167.18 3 3 469 20220817015749
+223.186.25.184 4 4 182 20220809094415
+157.50.60.230 1 1 1107 20220802194011
+1.187.247.96 7 7 1574 20220803033232
+157.45.24.40 2 2 257 20220813040915
+157.45.153.10 14 40 1468701 20220810153833
+27.59.26.111 74 75 1048829 20220813073246
+37.0.15.252 1 1 131 20220829065628
+203.192.253.84 8 8 364 20220802111509
+1.187.243.249 12 12 2872 20220803033230
+157.45.247.225 5 5 759 20220826044700
+157.50.15.37 36 36 1620 20220813221655
+42.105.124.141 7 7 85116 20220820234538
+207.46.13.45 0 1 1107 
+27.59.90.153 7 7 484 20220801013846
+223.186.115.27 21 38 2426012 20220817083914
+157.50.62.56 8 8 16394 20220810044218
+42.105.124.147 1 1 25 20220803004501
+203.192.253.199 2 2 380 20220802083628
+157.50.31.12 4 4 489 20220809091329
+42.105.125.203 1 1 210 20220801235318
+157.45.178.212 1 1 184 20220831084745
+223.186.144.238 43 89 2190535 20220802010931
+106.206.107.200 6 31 353895 20220813071145
+157.50.33.183 1 1 25 20220810044453
+137.226.113.44 5 5 655 20220831040414
+157.45.175.169 13 13 6028 20220827052838
+35.171.9.37 1 1 131 20220827170138
+223.186.142.153 15 15 1950 20220811054931
+157.50.56.214 4 20 1033372 20220802063141
+223.227.18.184 8 8 3278 20220818044246
+54.86.151.196 1 1 131 20220812013107
+157.50.40.154 1 1 1107 20220811232823
+27.59.107.15 8 8 337 20220802000347
+106.197.201.186 6 6 9458 20220818015940
+42.105.121.114 30 87 2532211 20220801014032
+157.45.96.243 3 3 455 20220802082753
+18.234.108.185 1 1 131 20220818074958
+223.237.241.203 18 18 1468 20220802225004
+157.45.161.90 4 4 1124 20220813054759
+223.237.216.223 2 2 2453 20220829021746
+27.59.57.252 50 50 2341 20220818024128
+223.237.250.236 2 2 2452 20220831064250
+223.227.17.116 10 10 400 20220802104540
+198.235.24.153 1 1 151 20220808145053
+106.196.30.250 3 3 277 20220815014944
+157.45.167.113 9 9 1558 20220803083226
+203.192.204.92 30 56 1470412 20220802101323
+106.197.211.71 19 19 6880 20220816021037
+27.59.99.126 3 3 697 20220810081103
+157.50.20.97 1 1 191 20220809001956
+157.50.0.184 14 14 3023 20220821082308
+157.45.193.35 8 24 1382303 20220801010316
+157.45.159.21 42 56 22936 20220802003750
+106.206.61.198 4 4 164 20220816042244
+223.186.136.23 12 12 1512 20220801234234
+157.45.227.36 13 13 888 20220815185027
+157.50.32.242 4 4 182 20220818013208
+157.45.81.174 25 50 10237 20220828095119
+223.237.192.221 5 5 406 20220802201522
+205.210.31.136 2 2 36842 20220804222720
+157.45.125.110 17 17 63573 20220820021304
+157.45.254.208 7 7 1693 20220828060420
+42.105.120.127 2 2 2321 20220827065440
+42.105.121.192 8 8 4046 20220827182406
+157.50.11.64 62 131 3115892 20220810030216
+157.50.40.131 9 9 16377 20220810044534
+27.59.33.251 1 1 175 20220825014131
+52.89.78.226 2 2 262 20220821150109
+27.59.88.57 9 9 3715 20220818084649
+223.186.74.57 15 15 1794 20220802000719
+103.69.21.120 28 28 12033 20220825082439
+157.50.38.45 1 1 209 20220805013821
+157.50.53.238 3 18 1107 20220824043558
+223.186.132.136 21 21 5221 20220808233245
+157.50.37.78 4 4 1133 20220815002101
+157.50.21.58 13 26 3205 20220804093447
+157.45.98.75 2 2 102 20220802083056
+106.197.223.233 4 4 3191 20220827061616
+157.45.200.38 52 52 3559 20220804225214
+223.237.248.205 7 7 1657 20220817055354
+157.45.122.191 2 2 255 20220802082853
+157.45.106.64 4 4 514 20220818054710
+106.197.197.195 4 4 182 20220829203152
+18.208.223.239 1 1 131 20220823150310
+157.45.23.239 1 1 210 20220805080722
+157.50.28.61 33 59 1479111 20220805100208
+157.45.147.68 22 22 2164 20220804011056
+49.37.190.158 14 14 2396 20220831205746
+106.197.240.174 1 1 214 20220804043025
+223.186.51.119 18 18 4414 20220810055555
+157.45.252.60 13 13 3154 20220810162603
+157.45.241.171 33 58 13113 20220817230800
+157.45.215.32 13 13 2303 20220810072031
+223.237.239.7 5 5 903 20220805011821
+223.227.21.86 72 155 3401902 20220804023616
+157.50.64.113 3 3 612 20220802085207
+8.45.47.67 1 1 131 20220824091155
+223.186.150.245 28 53 11676 20220820221156
+205.185.116.25 3 3 393 20220824182222
+157.45.189.226 1 1 189 20220825084857
+157.45.165.67 9 9 4204 20220829214520
+157.45.76.157 2 2 418 20220804024433
+49.37.189.107 47 72 14555 20220830132822
+106.75.73.226 3 4 3452 20220804140749
+42.105.124.246 4 20 1378837 20220821234105
+157.50.3.250 23 38 187496 20220829043113
+223.227.13.8 1 1 191 20220815023203
+157.45.65.130 10 10 5032 20220818081234
+157.45.142.170 15 15 4281 20220801075726
+223.237.241.53 2 2 416 20220803040800
+223.186.146.51 28 28 1900 20220816083911
+157.45.153.118 60 60 4786 20220802002954
+42.105.126.243 14 14 1107 20220802045305
+42.105.121.170 13 13 2438 20220829093444
+157.45.184.148 49 75 1474446 20220801235053
+157.45.157.211 12 12 3999 20220803212404
+223.237.238.158 16 16 3283 20220824070106
+157.45.14.84 16 16 1679 20220802004529
+106.197.224.27 1 1 213 20220821094330
+157.45.252.54 2 2 368 20220817031124
+106.206.125.238 93 118 16492 20220804013221
+42.105.124.209 4 4 5892 20220802045405
+157.45.70.104 24 47 199891 20220822042911
+198.235.24.140 1 1 151 20220806105744
+42.105.122.55 5 5 580 20220802043853
+89.18.222.139 1 1 0 20220826053520
+209.40.115.131 1 1 131 20220811184444
+157.45.233.66 33 59 1388574 20220828080535
+106.197.196.28 4 4 678 20220813091356
+205.185.122.184 3 3 393 20220823175451
+223.237.247.88 48 74 1471146 20220802104722
+205.210.31.151 1 1 151 20220805113654
+157.45.55.138 12 12 2856 20220804091808
+176.101.206.152 1 1 0 20220812013049
+157.45.173.127 2 2 368 20220825040959
+223.237.220.31 7 7 774 20220813064432
+18.209.43.197 1 1 131 20220813232321
+223.186.153.106 2 2 408 20220814032740
+42.105.124.34 5 5 25690 20220803004606
+198.235.24.131 2 2 302 20220801174844
+157.45.88.234 28 43 182159 20220803060317
+157.50.69.94 26 52 1461576 20220811095418
+61.79.171.219 1 1 0 20220818042954
+198.235.24.24 1 1 151 20220801215405
+157.50.30.151 7 7 741 20220829022830
+116.66.189.254 17 17 2798 20220827063544
+157.45.223.35 23 443 7097146 20220825042207
+157.45.125.76 31 31 4133 20220802072438
+18.237.35.173 1 1 131 20220804141347
+223.186.137.147 13 38 363129 20220827220439
+42.105.121.202 2 2 228 20220809224022
+157.50.47.142 1 1 25 20220817043658
+157.45.184.28 1 1 177 20220804100002
+157.45.155.241 15 15 8619 20220818021729
+157.45.243.162 4 19 1238 20220831230326
+106.66.172.112 10 10 690 20220802090841
+106.197.233.59 15 15 2331 20220827222934
+27.59.122.22 3 3 465 20220826012335
+49.205.131.252 96 167 672348 20220827225917
+107.20.17.162 1 1 131 20220818075035
+157.45.197.164 1 1 212 20220821022708
+106.197.225.78 1 1 202 20220820004035
+157.45.24.12 1 1 179 20220825193441
+157.45.242.217 38 38 330166 20220812042712
+157.50.56.87 5 5 4477 20220810044711
+52.40.208.234 1 1 131 20220803142603
+42.105.124.139 1 1 203 20220822015603
+157.45.25.41 8 8 3545 20220828063304
+157.45.69.48 14 14 1563 20220815002857
+106.197.218.253 18 18 4808 20220828060910
+222.119.58.220 1 1 0 20220813202730
+157.45.161.203 1 1 215 20220815105421
+27.59.123.224 42 42 16211 20220802093929
+157.50.65.90 12 12 1748 20220820094340
+27.59.18.66 1 1 204 20220831060255
+157.45.183.138 10 10 1475 20220804005234
+122.172.86.222 1 1 217 20220818013627
+157.45.85.1 3 3 2678 20220823083145
+157.45.156.210 4 4 573 20220823082546
+223.186.138.2 7 7 5921 20220829192916
+223.237.198.145 6 6 775 20220819114728
+117.230.53.138 16 42 1391758 20220827020809
+157.50.43.29 1 1 219 20220818070113
+157.50.17.95 9 9 33698 20220820021436
+157.45.222.37 27 50 194393 20220804043600
+54.191.81.75 1 1 131 20220805141515
+157.50.27.244 3 3 654 20220816203819
+157.45.125.138 9 9 1071 20220802082836
+54.213.155.161 1 1 131 20220805141538
+203.114.38.198 1 1 0 20220815214340
+49.205.149.92 7 7 2089 20220804005843
+27.59.89.18 59 85 1955936 20220824071546
+223.237.220.207 10 10 455 20220817194038
+1.23.174.101 3 3 278 20220816102418
+157.45.0.88 26 52 1471986 20220802084826
+157.50.56.83 1 1 1107 20220807033534
+223.231.172.194 4 4 541 20220805005334
+157.45.16.57 2 2 50 20220802032206
+157.45.79.167 1 1 177 20220829002722
+223.231.179.179 3 3 463 20220803012829
+45.90.62.76 1 1 131 20220813144915
+106.197.234.230 4 4 1760 20220816211642
+157.45.92.150 5 5 2685 20220818013152
+205.185.116.89 2 2 262 20220825181515
+49.205.147.161 6 6 1852 20220815235622
+157.45.142.87 7 7 971 20220829083538
+106.66.141.232 28 28 2075 20220802094143
+42.105.124.226 30 30 8139 20220812074159
+157.45.103.127 35 61 1472204 20220809080245
+157.50.3.221 20 88 1734863 20220816025908
+34.221.197.41 1 1 131 20220822145442
+1.187.242.0 6 6 582 20220802113215
+223.186.144.175 5 5 640 20220831084525
+157.45.214.133 53 121 2398445 20220824031434
+157.45.2.215 1 1 210 20220804040150
+157.45.131.237 2 2 358 20220815195314
+54.144.104.179 1 1 131 20220825030429
+157.45.201.79 7 7 1685 20220802084112
+157.45.98.51 2 2 50 20220820020844
+157.45.215.10 2 2 2474 20220830211303
+157.45.181.41 5 5 521 20220802051702
+157.45.2.131 2 2 50 20220802032229
+157.50.57.237 2 2 404 20220802003754
+157.50.22.72 1 1 32315 20220804004206
+157.45.196.169 5 5 521 20220801085857
+106.197.232.229 52 78 1478139 20220823084758
+157.55.39.61 0 1 1107 
+27.97.200.233 2 2 234 20220802090711
+157.50.29.11 1 1 0 20220814053540
+157.50.69.177 69 69 3513 20220803184135
+157.50.1.117 2 2 259 20220801104401
+42.105.120.209 1 1 51 20220822012453
+157.45.43.156 5 5 5152 20220820230948
+157.45.148.73 17 17 4255 20220804005702
+223.186.67.209 5 5 1043 20220812034555
+157.45.94.91 11 11 1328 20220811205532
+27.59.90.43 54 139 4161340 20220817071432
+157.50.10.251 44 69 11109 20220821043807
+157.45.105.109 4 4 424 20220827190357
+157.45.158.220 4 4 182 20220823094435
+157.50.57.60 2 2 412 20220804055139
+157.45.116.235 4 4 1145 20220812113915
+223.186.11.78 31 57 1471110 20220811233759
+157.45.13.98 2 2 2474 20220823231214
+157.55.39.128 0 1 1107 
+223.186.246.164 4 4 516 20220824104934
+223.237.255.252 13 13 1441 20220816000146
+49.205.147.253 12 12 2448 20220804005921
+157.45.254.171 6 6 273 20220802021751
+42.105.125.98 1 1 51 20220805103207
+27.59.72.26 34 60 1475594 20220802002447
+157.45.211.40 18 44 1468882 20220801234413
+223.227.12.15 15 30 3300 20220812063955
+223.186.142.219 1 1 184 20220804202228
+49.172.15.186 1 1 131 20220827164644
+157.50.27.140 7 23 1035731 20220810044216
+27.59.98.248 5 5 577 20220831222446
+157.45.18.33 2 2 50 20220802032047
+49.205.147.122 2 2 1238 20220802111836
+157.50.0.202 1 1 185 20220819003621
+106.206.62.32 35 46 115940 20220822200704
+157.45.57.176 1 1 187 20220803063527
+223.237.242.26 9 9 1119 20220813050425
+223.227.17.144 30 55 10557 20220804031420
+20.163.37.242 4 4 524 20220822233111
+49.37.184.22 25 25 7615 20220804020742
+103.5.134.130 43 68 14440 20220819050229
+223.186.64.20 25 51 1474993 20220801070208
+106.197.214.15 1 1 209 20220804005413
+203.192.204.166 12 12 1613 20220815005103
+157.45.26.86 14 14 3290 20220816084437
+42.105.116.20 4 4 1143 20220809012449
+157.45.186.186 38 64 1475312 20220826181619
+223.237.242.63 3 3 463 20220802090152
+42.111.228.64 3 3 389 20220819083504
+223.186.147.250 19 45 1386477 20220824215253
+157.45.99.141 17 17 44244 20220820021159
+157.45.20.231 3 3 75 20220802032129
+117.230.53.74 21 46 436934 20220811201359
+106.197.228.46 1 1 185 20220821084952
+27.59.18.229 1 1 182 20220815075926
+157.45.198.95 15 15 824 20220803203513
+157.45.96.232 2 2 428 20220813225603
+80.244.85.86 1 1 131 20220821032950
+42.105.125.190 42 68 1470780 20220802042255
+157.45.162.229 4 4 764 20220814094553
+223.227.17.12 14 14 4042 20220804005642
+42.107.205.51 4 4 1786 20220815234421
+223.227.22.170 7 7 792 20220827013006
+198.235.24.159 1 1 151 20220813190819
+42.107.221.226 2 2 268 20220818204918
+157.45.66.53 1 1 183 20220821053254
+3.89.120.25 1 1 131 20220823142907
+157.45.196.99 21 46 4959 20220825105916
+54.234.34.174 1 1 131 20220825030410
+157.45.131.17 7 7 1413 20220804014324
+81.162.127.190 1 1 0 20220818071451
+106.197.232.174 28 28 8396 20220802073146
+157.45.100.109 14 14 1617 20220802084122
+223.237.224.146 1 1 213 20220801102933
+223.237.205.112 69 158 4133851 20220825065054
+157.45.210.130 19 44 7127 20220820094726
+223.186.159.227 6 6 3514 20220830031122
+221.162.113.216 1 1 0 20220813233900
+123.198.120.46 1 1 131 20220819004034
+157.50.41.148 2 2 91 20220816063239
+34.215.160.100 1 1 131 20220818142129
+157.50.59.163 12 12 20862 20220810044745
+223.186.137.220 4 4 452 20220802000453
+223.237.255.230 10 25 6095 20220817101647
+157.50.0.230 4 4 816 20220802001305
+157.45.92.142 1 1 185 20220814024852
+116.66.189.247 28 28 11227 20220801102645
+223.237.251.224 31 57 1477691 20220801212255
+34.233.128.137 1 1 131 20220821093244
+213.103.140.126 1 1 131 20220821085125
+42.105.124.61 6 6 146574 20220802045801
+157.45.111.41 12 69 1060665 20220816043624
+157.50.41.164 12 12 5304 20220818033141
+223.237.205.232 24 76 370126 20220825043551
+157.50.40.179 36 61 4714 20220815091429
+157.50.8.13 22 48 1471863 20220801063033
+157.45.132.76 6 6 1037 20220802014818
+54.190.71.133 1 1 131 20220821144902
+157.50.27.23 10 10 29995 20220829043258
+54.185.192.55 1 1 131 20220818142910
+49.44.82.4 4 19 346703 20220822042743
+157.45.129.156 20 20 3261 20220804052902
+157.45.71.188 67 90 445075 20220819042032
+27.59.105.9 5 5 544 20220803065842
+157.45.245.207 15 15 1306 20220802081249
+157.50.12.199 44 113 2767647 20220819042110
+157.50.36.74 6 6 934 20220803042643
+157.45.21.77 3 3 304 20220816110350
+157.50.54.157 1 1 1107 20220811225107
+157.45.186.156 12 12 973 20220829060620
+157.45.198.174 4 4 1145 20220815064846
+157.50.34.49 10 10 1037 20220822090808
+83.209.27.152 1 1 0 20220823150305
+27.59.66.24 58 83 18056 20220823201244
+157.45.116.80 9 35 1468146 20220817065114
+54.234.72.206 2 2 262 20220826080812
+106.197.208.148 3 3 2694 20220830112134
+157.50.38.16 2 2 670 20220804040345
+157.45.62.155 4 20 1378837 20220819075501
+223.237.229.10 4 4 353 20220801094308
+1.39.186.63 6 6 702 20220802223501
+106.206.83.130 2 2 185 20220805052507
+157.45.145.231 75 75 13904 20220803193635
+223.186.134.212 41 67 1390680 20220802000359
+157.50.3.51 9 35 1468155 20220805091649
+106.197.249.32 7 7 885 20220804005542
+27.106.94.9 4 19 346703 20220817005313
+162.142.125.9 1 1 131 20220806153558
+157.45.122.170 1 1 186 20220805073841
+223.237.202.158 17 43 1464241 20220818013244
+223.227.17.195 1 1 188 20220801201634
+106.197.213.147 1 1 51 20220803091849
+157.45.241.243 6 6 273 20220804062344
+223.186.65.73 19 45 1468900 20220819051057
+122.171.22.71 27 53 1469799 20220802022845
+157.45.78.199 4 4 1161 20220804020541
+157.45.165.48 58 83 30563 20220829112652
+42.105.120.231 19 19 1485 20220806104554
+27.97.28.183 41 67 1393520 20220802000741
+106.197.202.91 24 24 1927 20220802201648
+42.105.120.212 6 6 13013 20220803004650
+223.237.218.155 1 1 185 20220820095519
+157.45.224.47 1 1 214 20220812225357
+152.32.211.33 15 18 36762 20220816164016
+95.68.185.210 1 1 0 20220815233749
+157.45.85.28 31 56 11247 20220810104132
+3.94.195.70 1 1 131 20220813202820
+157.50.39.78 13 13 162031 20220810044607
+223.186.139.191 65 91 1486671 20220801060024
+54.163.126.9 1 1 131 20220818071541
+223.186.130.62 102 117 27686 20220802054820
+157.50.36.251 20 35 5586 20220803110631
+157.45.228.161 4 20 1201826 20220811032019
+198.235.24.27 1 1 151 20220806023602
+157.45.9.108 1 1 183 20220829235333
+42.105.120.61 6 6 2827 20220819100442
+42.105.121.163 1 1 210 20220804040240
+106.197.214.99 12 12 2167 20220802090125
+157.45.254.121 33 58 14488 20220827102302
+223.186.82.92 6 6 971 20220815015502
+157.45.194.168 6 6 2250 20220817002646
+157.45.213.55 19 19 988 20220803211010
+157.50.46.67 1 1 206 20220820044812
+27.59.120.156 1 1 186 20220815033213
+157.45.14.155 21 47 1472150 20220804022634
+223.186.17.174 8 8 772 20220801235410
+223.231.175.219 1 1 180 20220817072600
+203.192.253.243 7 7 2101 20220816065222
+157.50.39.70 1 1 185 20220827105722
+106.206.62.37 41 66 11431 20220816074500
+106.66.174.231 1 1 2270 20220818013659
+106.197.215.55 25 51 1473252 20220817080710
+34.236.144.137 1 1 131 20220826115252
+106.206.16.218 37 63 1471342 20220802005220
+157.45.181.161 1 1 209 20220817102419
+157.50.39.249 71 86 10735 20220804064900
+157.45.241.34 1 1 204 20220815030346
+223.237.238.25 10 10 990 20220801235851
+157.50.52.247 32 32 2124 20220803091358
+172.58.61.77 4 19 346703 20220822042838
+52.55.215.33 1 1 131 20220829132932
+223.186.8.253 24 347 667682 20220804052759
+157.45.8.95 1 1 51 20220804022716
+176.53.220.249 1 1 131 20220811144912
+157.45.175.58 1 1 211 20220827084333
+157.50.24.48 9 9 1339 20220804005514
+27.59.88.202 2 2 408 20220801071935
+157.45.229.43 1 1 209 20220821050927
+172.58.61.140 4 19 346703 20220825042026
+205.210.31.32 3 3 453 20220807121914
+157.45.131.2 1 1 190 20220809225217
+157.45.122.218 64 89 16691 20220823010003
+54.89.142.145 1 1 131 20220815214412
+27.59.83.98 29 113 1709154 20220821091901
+223.186.131.191 7 7 873 20220802062544
+157.45.232.201 47 47 999598 20220826001603
+106.197.241.184 12 28 1381338 20220825045506
+157.50.58.66 3 3 75 20220817043904
+157.45.103.43 4 4 526 20220805013140
+49.205.149.234 1 1 1107 20220803192222
+42.105.120.138 7 22 689 20220810101641
+106.197.193.71 6 6 273 20220805090554
+205.185.121.69 3 3 393 20220824180956
+27.59.96.115 1 1 213 20220815100742
+42.105.120.240 4 4 2725 20220826105215
+157.45.154.221 4 4 337 20220818085919
+198.235.24.132 1 1 151 20220803165135
+27.59.106.123 21 21 3921 20220805000216
+157.50.22.251 31 56 22438 20220817001014
+157.45.105.201 20 20 157261 20220802045652
+157.45.177.104 12 38 1470828 20220828070437
+223.227.12.234 2 2 408 20220803193911
+42.105.125.232 5 5 934 20220812035012
+157.50.6.197 26 67 1708152 20220810045156
+223.231.138.99 4 4 591 20220804010532
+157.45.93.207 22 22 1001 20220820054331
+157.45.214.143 5 5 519 20220801192639
+157.45.34.92 7 7 1683 20220802204508
+157.50.5.74 1 1 186 20220812105328
+157.50.55.19 9 49 25191 20220810044139
+103.86.104.225 70 102 96028 20220804005551
+223.227.18.54 1 1 225 20220802093514
+106.206.53.175 38 38 2654 20220802000133
+157.45.201.162 1 1 184 20220811091542
+106.197.227.190 9 35 1386237 20220804014740
+42.105.124.11 32 32 3196 20220802000508
+157.45.145.99 28 64 1684492 20220825045541
+1.187.255.33 4 4 501 20220803032857
+223.231.156.203 25 25 3562 20220825083438
+223.237.235.125 10 36 1468201 20220824055705
+157.50.56.111 3 18 1107 20220816074821
+223.237.255.119 2 2 418 20220821085304
+42.105.125.80 6 6 7227 20220829093530
+223.237.204.208 2 2 1238 20220825060543
+157.50.1.220 5 20 346834 20220807012432
+106.206.109.239 60 144 3250520 20220812222146
+157.45.6.214 2 2 50 20220802032339
+157.45.156.63 8 8 328 20220816103909
+157.45.194.107 4 4 812 20220801091215
+157.50.51.63 3 19 1107 20220805210147
+157.50.1.168 14 14 2450 20220831103700
+42.105.124.242 1 1 210 20220814063858
+205.210.31.31 1 1 36679 20220816061614
+223.186.66.63 5 5 702 20220804071121
+106.197.196.81 1 1 193 20220827064544
+157.45.243.82 6 6 273 20220802060140
+157.50.50.93 17 17 4534 20220807023708
+42.105.120.186 9 50 970100 20220822002939
+223.237.247.15 1 1 206 20220802080415
+1.187.246.184 2 2 80 20220803021309
+157.45.139.159 28 54 1477890 20220805000534
+223.186.158.44 48 74 1481078 20220824010047
+27.59.57.231 4 4 162 20220823201149
+157.50.51.207 2 2 139909 20220817043809
+157.50.30.173 8 8 364 20220819043035
+157.45.167.155 97 123 1500675 20220802065246
+157.45.106.15 48 48 25655 20220828173530
+157.45.42.182 2 2 91 20220804012445
+42.105.120.233 18 42 314695 20220802045856
+157.50.63.5 12 12 996 20220816194830
+223.237.244.206 2 2 1238 20220803003538
+157.45.253.255 23 23 2900 20220820084615
+157.45.152.140 7 7 1679 20220822070920
+51.68.111.184 1 1 131 20220822012820
+157.45.27.64 7 7 1691 20220824074912
+42.105.121.234 6 6 1019 20220805103217
+157.50.52.129 44 76 498369 20220813050312
+27.59.57.68 14 14 3352 20220809070642
+27.59.81.198 2 2 1238 20220802210438
+106.197.224.31 3 3 290 20220817101817
+106.197.197.81 22 48 1465429 20220804050443
+89.104.100.51 1 1 131 20220812145629
+42.105.120.153 10 10 3719 20220827073938
+157.45.70.141 8 8 1065 20220812212518
+157.45.99.160 1 1 180 20220820235303
+157.45.31.250 1 1 180 20220824053542
+157.45.245.21 15 41 1469489 20220801234209
+157.50.23.10 9 9 1816 20220816081932
+157.50.17.168 2 2 50 20220819042244
+157.45.69.228 36 61 10560 20220829083636
+111.93.159.50 4 19 346703 20220808231927
+42.105.121.253 1 1 381 20220829025939
+157.50.41.215 2 2 1174 20220816214813
+223.237.208.156 9 35 1468168 20220804102900
+191.101.31.31 2 2 3752 20220810215301
+157.45.253.253 7 7 1033 20220801235318
+27.59.112.90 2 2 2453 20220818033850
+27.97.202.239 2 2 81 20220802090933
+157.45.5.14 2 2 50 20220802032428
+157.50.10.84 8 8 200 20220816030041
+27.59.74.179 62 87 21645 20220815014944
+223.237.226.83 2 2 237 20220802090342
+162.142.125.8 1 1 131 20220805085306
+157.45.10.73 10 10 3336 20220816213559
+223.237.238.128 1 1 175 20220829075924
+157.45.41.123 6 6 273 20220815233313
+103.86.104.226 10 10 455 20220818040151
+42.105.120.168 6 6 273 20220811191453
+223.186.9.126 1 1 180 20220828104127
+157.50.64.176 29 55 1470231 20220802004828
+49.205.149.3 4 4 1146 20220804045237
+157.45.107.79 1 1 185 20220802015918
+157.50.38.142 2 2 82 20220813205504
+35.92.117.87 1 1 131 20220827143055
+223.231.140.120 2 2 1238 20220827064359
+42.105.124.210 16 16 879 20220822044448
+223.237.234.138 52 78 1475323 20220801204315
+89.104.100.190 1 1 131 20220810145055
+157.45.204.230 15 15 2474 20220816005456
+106.197.211.222 1 1 180 20220801091622
+157.45.177.140 17 43 1470909 20220820090831
+54.147.172.146 1 1 131 20220821034325
+157.45.62.101 5 5 561 20220803064916
+157.45.24.227 2 2 50 20220802032409
+223.186.151.194 1 1 185 20220804041157
+54.87.15.9 1 1 131 20220811035815
+205.210.31.28 1 1 151 20220803061344
+157.50.22.184 5 5 125 20220820021339
+27.59.48.68 77 439 9818888 20220818055048
+223.186.153.145 21 85 2670341 20220817003824
+157.50.26.72 29 29 321037 20220820021302
+52.203.252.66 1 1 131 20220821085141
+198.235.24.141 1 1 151 20220806181801
+223.186.105.116 26 26 87050 20220826082541
+157.45.100.200 59 110 1899919 20220802044848
+223.227.19.227 22 22 12505 20220803044820
+42.105.125.247 1 1 210 20220804015756
+157.45.217.104 1 1 51 20220801234758
+167.248.133.44 2 2 262 20220824090626
+157.50.51.206 5 5 455 20220823201415
+49.37.184.186 22 22 4845 20220828025653
+96.55.135.33 1 1 0 20220826053057
+157.45.199.155 40 97 2811052 20220823034717
+157.50.6.137 16 16 173565 20220813044632
+157.50.54.218 7 7 25568 20220823044429
+157.45.17.43 11 11 2035 20220804011258
+34.204.43.118 1 1 131 20220816225921
+157.45.133.58 1 1 212 20220829204044
+157.50.57.252 2 2 50 20220810044638
+157.50.51.77 1 1 1107 20220811231239
+209.141.36.112 1 1 131 20220823180708
+157.50.35.122 1 1 1107 20220813051004
+223.237.248.216 61 61 3373 20220809081032
+34.239.108.146 1 1 131 20220819014133
+1.187.241.82 2 2 102 20220803021309
+223.231.147.17 4 4 182 20220819061932
+42.107.205.247 2 2 383 20220804004823
+157.45.196.90 1 1 215 20220812201951
+49.37.190.221 8 8 4316 20220818030932
+157.50.53.252 1 1 1107 20220813044641
+223.186.80.90 13 13 1243 20220811061109
+157.45.62.95 9 35 1468155 20220812040307
+27.97.201.2 3 3 897 20220818013703
+157.45.212.181 25 25 2450 20220802210117
+157.45.139.202 5 5 213 20220827045721
+106.76.23.72 14 14 563 20220802091213
+42.105.121.177 10 10 756 20220802042309
+157.45.242.242 9 35 1468156 20220830011832
+157.45.173.175 11 11 3426 20220813102023
+42.105.121.5 1 1 210 20220804015747
+157.45.160.226 4 4 1758 20220815235503
+42.105.124.57 1 1 51 20220822043947
+223.186.91.24 5 21 1379944 20220817070519
+157.45.191.47 11 11 613 20220802081412
+223.186.42.59 20 23 3866 20220802062519
+42.105.124.156 21 36 12886 20220827073949
+34.219.13.26 1 1 131 20220804141029
+42.105.124.185 22 48 1472248 20220812074125
+42.105.122.228 5 5 613 20220805121401
+223.186.75.161 2 2 366 20220804231224
+157.45.186.77 7 7 1674 20220829224516
+157.45.41.183 7 7 1683 20220804201823
+157.45.203.107 7 7 1681 20220817065603
+223.186.157.248 52 77 13137 20220809052446
+173.239.199.67 2 2 262 20220831104928
+223.237.201.169 9 35 1468143 20220818041502
+223.186.221.164 1 1 217 20220813073418
+223.237.223.35 36 37 266727 20220819211934
+102.165.41.69 1 1 151 20220810215137
+157.45.241.179 1 1 193 20220821035608
+42.105.126.183 3 3 444 20220827065921
+157.50.52.117 19 45 1466791 20220804005612
+157.50.58.120 4 4 1775 20220815234056
+106.197.241.72 9 9 1880 20220802040150
+157.45.185.209 1 1 207 20220812074239
+157.50.4.106 3 3 615 20220804005617
+157.45.145.134 2 2 360 20220804230420
+167.94.138.118 2 2 262 20220827073751
+54.226.61.48 1 1 131 20220816225916
+106.206.43.203 65 91 1488209 20220802172332
+106.197.250.237 1 1 191 20220816042535
+157.50.42.108 18 44 1463786 20220804001615
+223.237.234.73 1 1 51 20220801235008
+157.45.113.155 38 38 1043012 20220802062146
+223.237.241.110 1 1 1107 20220803061929
+157.45.133.50 74 131 3002045 20220810222056
+124.241.16.84 1 1 0 20220814223146
+157.45.188.191 6 6 1476 20220831060447
+175.121.154.144 2 2 131 20220828221615
+157.45.222.52 44 69 9807 20220826092926
+103.69.21.101 15 15 6358 20220829193113
+157.45.186.240 9 9 963 20220810071038
+157.45.178.159 12 12 3870 20220826051705
+42.105.124.183 1 1 202 20220819112438
+106.206.34.124 9 23 157338 20220805015638
+223.237.226.162 30 55 6470 20220813101824
+27.59.89.91 1 1 191 20220818215439
+27.96.106.222 4 4 524 20220812012206
+205.210.31.25 1 1 151 20220803014609
+157.45.221.105 23 94 2260893 20220826030958
+106.197.241.140 13 85 3103654 20220826020431
+27.97.200.143 1 1 183 20220809024717
+27.97.200.44 4 4 1254 20220818013811
+126.216.82.193 1 1 0 20220802070804
+42.105.125.67 3 3 405 20220809224018
+157.45.199.185 55 110 724022 20220802033151
+24.68.19.24 1 1 131 20220818074941
+157.45.64.141 2 2 374 20220830053046
+223.186.25.128 9 35 1468155 20220819194802
+223.186.49.152 1 1 212 20220801091831
+157.45.82.31 5 5 362 20220809203151
+157.45.136.250 7 7 807 20220818014501
+157.45.182.86 1 1 220 20220819001203
+223.186.133.63 29 29 89608 20220801075957
+157.45.2.211 7 23 1375402 20220824014258
+42.105.120.9 5 5 1480 20220818013650
+223.186.145.35 12 12 3846 20220827040156
+157.45.70.234 1 1 1107 20220823044835
+89.70.88.37 2 2 262 20220823142904
+157.45.17.185 12 38 1469091 20220813000949
+42.105.125.64 2 2 78 20220806084057
+106.197.251.144 1 1 175 20220816055747
+223.186.137.6 28 43 10737 20220809073743
+106.76.8.145 2 2 366 20220803220200
+27.59.67.222 20 40 8571 20220803063301
+157.45.202.214 2 2 91 20220814080730
+3.80.38.69 1 1 131 20220813233905
+104.255.169.112 2 2 3752 20220810215301
+157.45.101.11 4 20 1238 20220811202250
+157.45.248.46 1 1 185 20220822055237
+157.45.38.120 7 7 1683 20220803050456
+157.50.41.12 1 1 1107 20220810064305
+157.45.190.232 33 33 4663 20220804080635
+157.45.183.204 6 6 425 20220827210305
+157.50.57.144 11 27 1040187 20220810043936
+223.186.154.164 14 14 7679 20220827061409
+157.45.44.254 20 20 5683 20220803082902
+42.105.120.20 4 4 1771 20220816013557
+59.15.55.42 1 1 0 20220816013504
+157.50.68.47 1 1 185 20220815233414
+157.45.131.106 14 14 4219 20220802013703
+45.127.47.176 11 11 3926 20220801035324
+223.186.3.185 1 1 1107 20220830091935
+157.45.33.13 4 4 1145 20220812100108
+49.37.184.213 16 16 4689 20220804074934
+157.45.204.103 4 4 182 20220802082200
+157.45.254.58 14 29 3163 20220822092221
+223.186.129.39 32 32 2436 20220801103117
+106.195.33.181 15 15 4240 20220802070243
+205.210.31.9 2 2 302 20220805005734
+42.105.125.56 4 4 1143 20220813020311
+157.45.6.145 1 1 207 20220815233801
+157.50.13.254 4 4 182 20220810032140
+157.45.125.197 2 2 374 20220827022257
+27.59.16.82 1 1 193 20220829064841
+42.105.124.80 1 1 1107 20220812065600
+27.59.66.70 12 12 942 20220803115709
+157.45.170.122 25 25 4991 20220816000714
+157.45.241.149 4 4 636 20220828013610
+106.197.248.69 10 10 929 20220815204228
+223.186.91.68 6 6 273 20220813045557
+157.45.44.82 7 7 989 20220802031248
+157.45.155.32 1 1 210 20220802012133
+209.141.49.169 5 5 655 20220825175447
+157.50.55.105 6 6 560 20220802002742
+157.50.42.52 4 4 339 20220810025826
+157.45.118.222 1 1 1107 20220812073317
+223.186.156.14 8 8 346 20220822210442
+103.86.106.90 11 11 85682 20220815041045
+157.50.48.65 7 7 1690 20220812203540
+106.51.241.209 4 20 1378837 20220825011958
+167.248.133.120 1 1 11784 20220814083846
+157.50.54.174 8 8 1477 20220804072209
+157.50.10.80 2 2 2474 20220823064335
+223.237.194.47 12 12 1241 20220810002223
+223.186.147.155 1 1 204 20220810094740
+157.45.124.52 39 39 6086 20220825093316
+27.59.80.131 1 1 175 20220810040928
+157.45.185.220 8 8 1887 20220817215420
+157.45.186.102 10 10 3576 20220831060353
+157.45.47.137 38 38 2847 20220810101812
+47.242.182.173 1 2 1033241 20220805143228
+27.59.24.69 62 88 1395605 20220804005053
+157.50.58.99 6 6 24461 20220812042809
+157.45.71.218 26 51 7313 20220812232212
+219.90.103.198 4 19 346703 20220825041941
+157.45.140.222 8 8 2239 20220804010625
+157.45.223.219 1 1 214 20220827100116
+157.50.43.194 8 8 16436 20220810044243
+157.50.5.103 53 78 16688 20220828045648
+157.45.17.32 3 3 1569 20220815233426
+157.45.187.153 2 2 262 20220803063109
+1.39.182.222 2 2 91 20220831081331
+157.50.50.11 19 19 301634 20220810044417
+157.45.187.185 1 1 188 20220803031851
+157.45.182.24 11 11 807 20220809053105
+157.45.78.46 1 1 187 20220812004836
+157.45.4.167 2 2 50 20220801042544
+157.45.204.233 6 6 273 20220804010711
+157.45.201.75 1 1 192 20220804220302
+157.50.21.234 25 25 86841 20220816040139
+223.28.172.248 1 1 0 20220825030354
+157.50.45.6 7 7 1690 20220815001740
+176.53.217.143 1 1 131 20220811073420
+198.235.24.5 1 1 36691 20220805131756
+223.186.81.160 24 27 1510274 20220819072505
+207.65.150.237 1 1 131 20220813232317
+157.50.69.242 8 8 2860 20220816104033
+223.237.199.183 11 11 1981 20220813034104
+157.45.165.89 26 26 8009 20220803011753
+157.45.158.45 1 1 203 20220810213013
+157.45.179.131 17 43 1471658 20220831060005
+42.105.124.216 1 1 202 20220821020709
+42.105.124.88 24 24 190608 20220803004631
+8.210.8.100 1 1 131 20220805102824
+157.45.249.175 19 45 1471024 20220816043657
+198.235.24.154 1 1 36679 20220808001521
+157.45.22.19 1 1 207 20220804211901
+223.237.236.106 87 87 2702602 20220811045707
+157.45.208.4 30 30 1043370 20220803042836
+157.45.71.149 1 1 108 20220813102442
+223.237.219.242 1 1 209 20220809022304
+157.45.153.31 91 116 35741 20220824100840
+157.50.31.3 37 37 2566 20220805092308
+106.197.234.179 16 31 14608 20220827102721
+157.45.235.28 17 43 1463674 20220828212558
+42.105.121.83 2 2 253 20220802042524
+42.105.125.197 2 2 208 20220804015822
+157.45.53.133 6 6 1278 20220802000002
+27.59.80.142 39 54 6285 20220801022953
+103.69.21.123 24 49 8433 20220801101116
+157.50.11.58 33 57 346723 20220813044338
+157.50.7.252 16 16 2358 20220802082724
+157.50.27.114 1 1 1107 20220829222104
+1.39.191.58 6 6 734 20220801105102
+175.207.246.13 1 1 131 20220813233903
+3.80.120.81 1 1 131 20220812013128
+157.45.158.236 3 3 425 20220821225232
+157.50.60.55 28 53 11339 20220817091117
+172.58.5.155 7 37 693275 20220825042027
+157.45.151.175 31 31 8654 20220831065159
+157.50.39.93 4 4 1761 20220817213101
+45.127.47.177 28 53 8312 20220817235714
+106.197.221.102 30 88 2129141 20220819072716
+223.237.248.32 20 35 3980 20220815085454
+157.45.122.234 9 9 1490 20220815072402
+157.45.192.163 8 8 4277 20220819030603
+157.50.18.85 2 2 50 20220819042216
+157.45.63.86 4 4 1778 20220818004246
+176.53.221.225 1 1 131 20220810233533
+223.186.159.240 11 11 1251 20220802025221
+223.186.33.60 1 1 187 20220814025847
+157.45.122.30 4 4 182 20220802001217
+157.45.173.44 5 5 1977 20220815234839
+49.205.131.83 10 10 5053 20220818060639
+167.94.138.119 1 1 131 20220817084005
+157.50.31.191 8 8 2105 20220814083100
+223.186.113.53 18 18 1223 20220825200737
+157.45.124.221 1 1 210 20220813102129
+157.45.93.54 38 71 1228719 20220820022635
+223.186.141.66 27 62 2721095 20220817045646
+157.50.21.217 4 4 182 20220816002425
+157.50.67.3 10 10 1106 20220805051117
+157.45.76.136 1 1 219 20220815015915
+157.45.179.84 15 30 2389 20220830084736
+223.186.146.85 12 12 2933 20220815234447
+35.170.242.59 1 1 131 20220815214358
+42.105.120.179 1 1 210 20220816002457
+157.50.38.200 13 13 4381 20220828103851
+157.50.34.249 60 91 550248 20220810000142
+106.197.197.219 14 14 6489 20220829212908
+27.59.96.111 46 46 5150 20220814013625
+42.105.124.67 1 1 109 20220820234535
+42.105.116.101 1 1 202 20220822223812
+27.59.105.82 19 34 7216 20220824092637
+157.45.238.187 1 1 210 20220809071953
+157.45.33.254 1 1 180 20220831071648
+114.203.139.71 1 1 131 20220818042957
+89.104.101.120 1 1 131 20220811153506
+49.205.150.126 1 1 202 20220819043129
+27.59.88.45 1 1 1107 20220814233017
+42.105.124.148 4 4 582 20220809232544
+223.186.10.61 38 38 1956 20220810081218
+223.186.145.99 34 59 10112 20220802082019
+157.45.93.32 1 1 180 20220827043813
+223.237.218.171 2 2 366 20220805075023
+157.45.82.217 3 3 497 20220802190319
+106.197.251.72 3 3 421 20220804105441
+103.69.21.115 23 38 3131 20220828021242
+157.45.58.191 28 85 2778701 20220819014329
+157.45.36.50 16 16 1191 20220802091455
+157.45.109.112 12 12 2934 20220802082947
+157.50.58.226 26 95 2800711 20220829022015
+157.45.244.203 17 17 3694 20220804010335
+198.235.24.30 1 1 151 20220806120216
+223.186.141.40 24 50 1466854 20220829062437
+157.45.172.179 1 1 202 20220804014548
+3.80.229.115 1 1 131 20220813172854
+157.50.16.86 10 10 1754 20220812075747
+223.186.40.45 40 66 1479367 20220813084039
+223.237.196.157 1 1 184 20220802093240
+18.212.216.203 1 1 131 20220829132814
+223.237.209.204 1 1 207 20220805075307
+223.227.12.125 1 1 207 20220828075347
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20220801 2187 3390 37670191 106
+20220802 3663 5942 94999025 229
+20220803 890 1139 8036574 85
+20220804 1577 2497 27480457 135
+20220805 286 433 8388527 48
+20220806 79 79 7698 12
+20220807 29 60 1731669 6
+20220808 43 106 1779711 6
+20220809 557 805 7948904 39
+20220810 837 1369 17945815 70
+20220811 563 803 14978392 38
+20220812 917 1439 34537627 49
+20220813 748 1489 36780507 68
+20220814 153 204 1536332 27
+20220815 679 1013 9361012 70
+20220816 683 1088 11998402 77
+20220817 948 1859 34371611 50
+20220818 680 928 682827468 71
+20220819 529 863 13173868 46
+20220820 596 842 6440926 44
+20220821 401 634 10939621 33
+20220822 435 714 4673170 39
+20220823 388 606 7798252 39
+20220824 479 762 8242538 37
+20220825 622 1427 19324795 38
+20220826 548 875 13393892 30
+20220827 599 1488 770926105 51
+20220828 510 1059 19291616 26
+20220829 974 1343 19946439 51
+20220830 155 247 2976563 17
+20220831 434 511 6583872 30
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 6
+30s-2mn 309
+30mn-1h 24
+15mn-30mn 48
+0s-30s 919
+5mn-15mn 143
+2mn-5mn 218
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 106
+/schoolapi/studentprofile.php 2555 490185 831 481
+/schoolapi/newlogin.php 1779 70430 124 76
+/schoolapi/newloginid.php 1772 81356 133 52
+/updateAttendance.php 1633 40825 40 62
+/get_parent_request_dashboard.php 995 69493 0 11
+/get_student_payment_dashboard.php 993 52727 0 15
+/get_agent_payment_dashboard.php 993 52523 0 33
+//get_parent_request_dashboard.php 836 109516 0 38
+//get_agent_payment_dashboard.php 835 109254 1 65
+//get_student_payment_dashboard.php 835 109385 0 44
+//getAttendancedata.php 720 344962 0 19
+/getAttendancedata.php 703 85284889 5 8
+/schoolapi/feedetails.php 620 33516 14 75
+/login.php 579 555237 38 102
+/ 441 407949 362 220
+/schoolapi/studentgrade.php 412 15607 1 25
+/schoolapi/stu_attendence.php 395 42716 5 5
+/schoolapi/notifylist.php 383 364692 28 61
+/schoolapi/parentprofile.php 331 17223 5 41
+/schoolapi/firstreportcard.php 316 31648 1 5
+/schoolapi/firstsem_co_scholastic_area.php 316 33758 4 6
+/schoolapi/firstsem_co_scholastic_acheive.php 315 33769 7 4
+/view-all-student.php 290 14588864 8 3
+/schoolapi/notifyview.php 281 128984 2 38
+/schoolapi/fileattachment.php 281 27538 5 61
+/schoolapi/parentreqestlistview.php 19 1418 0 7
+/dailyReportattendance.php 11 1161528 0 1
+/view-all-parent-requests.php 32 199943 0 0
+/add_ParentRequestResponse.php 2 44 0 0
+/add_student_payment.php 1 169 0 0
+/index.php/User/sendsmscode 1 131 0 0
+//ssr_apk.php 16 41679 0 0
+/schoolapi/allsem_co_scholastic_area.php 49 5157 0 1
+/webfonts/fa-regular-400.woff2 113 870912 0 8
+//co_scholastic_area_first.php 75 175962 0 1
+/add_announcement.php 6 816 0 0
+/index.php/Wap/Api/getBanner 1 131 0 0
+//co_scholastic_acheive_all.php 9 21955 0 0
+//co_scholastic_acheive_second.php 10 23600 0 0
+/schoolapi/parentrequestlist.php 147 8574 6 45
+/view-account-details.php 7 23026 1 0
+/schoolapi/updatepassword.php 69 5054 1 1
+/fonts/Flaticon.woff2 73 389312 0 0
+/student-payment.php 4 23901 0 0
+/Dashboard.php 28 258543 1 0
+/getStuCasteCategory.php 1 286 0 0
+/student-study-certificate.php 1 149279 0 0
+/logout.php 4 508 0 0
+/view-all-parent-request-responses.php 12 81479 0 0
+/yearattendance.php 4 863582 0 2
+/schoolapi/secondsem_co_scholastic_acheive.php 48 5155 1 1
+/announcement.php 19 119537 0 0
+//stu-attendence-calender-view-apk.php 125 1171047 2 2
+/view-all-parent-requests-current-day.php 1 5449 0 0
+/student-parents.php 2 14552 0 0
+/index.php 152 20922 3 0
+/webfonts/fa-solid-900.woff2 115 5425360 0 29
+/add_event_gallery_images.php 4 568 0 0
+/fetch_student_payment.php 1 27 0 0
+/student-all-payments-reciept-detail.php 1 102748 0 0
+/add-new-student.php 3 28616 0 0
+/student-marks-entry.php 6 441011 0 0
+/fetch_student_adm_no_section.php 1 55 0 0
+//co_scholastic_acheive_first.php 93 221464 1 1
+/add_student_master.php 2 276 0 0
+/cal.php 18 204509 2 1
+/add-new-event-gallery.php 10 52277 1 0
+/fetch_student_academic_year_by_grade.php 1 91 0 0
+/index.php/Home/Public/login.html 1 131 0 0
+/student-details.php 12 84245 1 0
+/index.php/api/other/appSetting 1 131 0 0
+/add_student_parent.php 1 169 0 0
+/fetch_grade_academic_year.php 2 250 0 0
+/all_sem_report.php 45 304800 1 0
+/announcement_delete.php 1 155 0 0
+/view-all-teachers.php 2 19891 1 0
+/view-all-event-gallery.php 5 33730 0 0
+//co_scholastic_area_second.php 8 18802 0 0
+/schoolapi/allsem_co_scholastic_acheive.php 49 5170 0 1
+/view_attendance.php 195 811617 12 0
+/UpdateStatusParentRequestResponse.php 2 44 0 0
+/attendance.php 170 1900304 5 0
+//asr_apk.php 15 49340 0 0
+/editAttandance.php 4 48830 0 0
+/view-all-holiday.php 2 10884 0 0
+/fetch_student_year.php 1 27 0 0
+/schoolapi/secondreportcard.php 48 4738 0 0
+/schoolapi/insertparentrequest.php 20 792 1 0
+/add_student_bank_details.php 1 174 0 0
+/view-all-student-credential.php 2 482098 0 0
+/student-bank-details.php 2 13301 0 0
+/schoolapi/allreportcard.php 49 4766 0 1
+/schoolapi/secondsem_co_scholastic_area.php 48 5125 0 0
+/index.php/Wap/Api/getSystemNotice 1 131 0 0
+/studentmarksentry.php 8 44381 0 0
+/index.php/sign 1 131 0 0
+/co_scholastic_acheivement.php 1 41592 0 0
+/view-event-gallery-images.php 3 40768 0 0
+/add-new-user-admin.php 1 5724 0 0
+//co_scholastic_area_all.php 5 11456 0 0
+//webfonts/fa-solid-900.woff2 152 7877920 0 9
+/monthlyArepForAllStu.php 26 2788119 0 1
+/attendance_new.php 214 1166001 13 3
+/login.php/sitemap.xml 1 1107 0 0
+//fsr_apk.php 174 470178 0 2
+/add-announcement.php 10 58422 0 0
+END_SIDER

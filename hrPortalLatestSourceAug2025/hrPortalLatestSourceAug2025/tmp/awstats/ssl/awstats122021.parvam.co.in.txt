@@ -1,0 +1,453 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202112 will be lost/reset.
+# Last config file used to build this data file was /home4/parvamco/tmp/awstats/ssl/awstats.parvam.co.in.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2014                
+POS_TIME 2693                
+POS_VISITOR 8284                
+POS_DAY 11992               
+POS_DOMAIN 3470                
+POS_LOGIN 3803                
+POS_ROBOT 3958                
+POS_WORMS 4217                
+POS_EMAILSENDER 4348                
+POS_EMAILRECEIVER 4491                
+POS_SESSION 12815               
+POS_SIDER 13023               
+POS_FILETYPES 4626                
+POS_DOWNLOADS 4895                
+POS_OS 4943                
+POS_BROWSER 5124                
+POS_SCREENSIZE 5766                
+POS_UNKNOWNREFERER 5840                
+POS_UNKNOWNREFERERBROWSER 6492                
+POS_ORIGIN 7053                
+POS_SEREFERRALS 7194                
+POS_PAGEREFS 7357                
+POS_SEARCHWORDS 7505                
+POS_KEYWORDS 7657                
+POS_MISC 2356                
+POS_ERRORS 7716                
+POS_CLUSTER 3659                
+POS_SIDER_404 7881                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20220101001637 15 3341 17701548344895
+FirstTime 20211201104005
+LastTime 20211231141319
+LastUpdate 20220101052830 15 0 14 0 0
+TotalVisits 131                 
+TotalUnique 90                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 92                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+TotalMisc 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+RealPlayerSupport 0 0 0
+FlashSupport 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+QuickTimeSupport 0 0 0
+AddToFavourites 0 14 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 225 6939 2265634588 27 93 1715
+1 131 4286 1398405550 9 51 522688
+2 326 8616 2814479512 6 85 956
+3 106 5759 1968101600 24 53 1776
+4 63 3143 998135499 2 19 285
+5 44 104 909360 45 56 10236
+6 70 1501 480550272 16 49 2266851
+7 47 1034 324767565 7 17 1356
+8 2 10 262 47 48 3351
+9 7 7 26532 38 47 27052
+10 9 31 420607 18 24 2253
+11 3 8 12034 14 20 13902
+12 5 5 35556 32 36 15021
+13 1 1 11766 15 16 38836
+14 3 3 12020 24 24 38421
+15 0 0 0 43 43 3155
+16 0 0 0 23 23 1581
+17 1 1 11773 6 6 73736
+18 1 1 36517 8 8 927
+19 0 0 0 5 5 962
+20 0 3 71619 333 333 17543
+21 44 140 1637045 9 26 468
+22 241 9888 3212625455 9 77 666709
+23 318 13397 4453857343 33 121 3477
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 7
+in 1292 52670 17447050681
+us 296 1933 415316459
+ca 40 63 464305
+cn 13 205 56815680
+ru 3 3 35297
+jp 2 2 23536
+gr 1 1 36517
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 3
+(firefox/)([0-9]\.|[0-1][0]\.) 2 73058 20211222171713 0
+no_user_agent 2 73046 20211228135546 0
+Googlebot/ 1 0 20211215000355 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+svg 1 114153 0 0
+png 92 5230067 0 0
+woff2 121 4459912 0 0
+js 1011 14708013 0 0
+html 58 244770 0 0
+jpg 50783 17815820314 0 0
+env 1 11773 0 0
+css 1343 14344989 0 0
+php 1465 64784941 0 0
+Unknown 2 23543 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 8
+winxp 2 1
+linux 3 2
+win10 9567 315
+linuxandroid 2249 361
+macosx9 1 1
+win7 42657 934
+Unknown 17 17
+ios_iphone 381 16
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 26
+opera82.0.4227.33 12 4
+safari15.1 381 16
+chrome96.0.4664.93 2146 66
+chrome94.0.4606.71 20 4
+opera82.0.4227.23 22 7
+chrome77.0.3865.116 93 26
+Unknown 14 14
+android 2 2
+chrome35.0.2309.372 1 1
+firefox24.0 1 1
+chrome94.0.4606.61 68 29
+opera81.0.4196.60 1196 36
+chrome41.0.2227.0 1 1
+chrome96.0.4664.104 77 25
+chrome90.0.4430.210 81 35
+chrome87.0.4280.141 63 40
+mozilla 3 3
+chrome56.0.2924.87 2 1
+firefox11.0 1 0
+chrome95.0.4638.54 19 3
+chrome62.0.3202.84 99 32
+chrome96.0.4664.45 6782 241
+chrome63.0.3239.108 2 2
+chrome96.0.4664.110 42190 950
+chrome35.0.1916.47 1 1
+chrome96.0.4664.92 1600 107
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 8
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20211231141319
+WhatsApp/2.21.21.17_A 20211215013408
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20211227025127
+WhatsApp/2.21.15.20_A 20211218014727
+WhatsApp/2.21.22.26_A 20211202053438
+WhatsApp/2.21.21.19_A 20211220020132
+WhatsApp/2.21.23.23_A 20211220012042
+Expanse_indexes_the_network_perimeters_of_our_customers._If_you_have_any_questions_or_concerns,_please_reach_out_to:_scaninfo@expanseinc.com 20211228181417
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 7
+WhatsApp/2.21.23.23_A 20211220012042
+WhatsApp/2.21.21.19_A 20211220020132
+Expanse_indexes_the_network_perimeters_of_our_customers._If_you_have_any_questions_or_concerns,_please_reach_out_to:_scaninfo@expanseinc.com 20211228181417
+WhatsApp/2.21.21.17_A 20211215013408
+WhatsApp/2.21.22.26_A 20211202053438
+WhatsApp/2.21.15.20_A 20211218014727
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20211227025127
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 117 122
+From1 0 0
+From2 2 2
+From3 0 0
+From4 1528 54753
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 2 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 7
+400 263 13676
+404 445 0
+401 359 18532
+301 82 18564
+406 73 16498
+206 24 3451857
+409 5 415
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 3
+/robots.txt 1 -
+/ 6 -
+/seft/css/img/preloader.gif 438 https://parvam.co.in/seft/css/style.css
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 92
+103.57.83.151 791 33255 11138678691 20211230224802
+49.206.8.119 141 6446 2060869850 20211209212922
+103.57.83.156 76 4609 1545228520 20211216044626
+103.57.83.153 61 2229 735837676 20211210000637
+103.57.83.144 60 1248 397262537 20211214071654
+103.57.83.158 48 3684 1233515952 20211222000547
+49.206.12.77 38 635 194861893 20211227021157
+157.45.37.6 36 1212 407228046 20211214065554
+157.45.86.205 26 50 488461 20211215021206
+106.206.71.149 25 50 453767 20211221063854
+157.45.201.133 23 24 51802 20211215002119
+157.45.123.77 19 63 822431 20211220025425
+157.45.89.130 18 19 41820 20211215014333
+157.50.54.141 15 50 419820 20211202054001
+47.11.67.179 15 16 46164 20211220055643
+49.206.14.181 14 45 728302 20211210015703
+157.50.48.12 14 48 547635 20211215020518
+157.50.35.242 13 36 447481 20211219233407
+103.57.83.155 12 361 137936240 20211201233927
+36.255.87.0 11 203 56792147 20211201221813
+157.45.53.16 9 10 40456 20211219211122
+157.45.158.143 9 10 40456 20211219211119
+157.45.130.239 8 9 42682 20211215002036
+157.50.4.41 8 52 814050 20211215000456
+157.45.191.216 7 29 409775 20211219214031
+49.37.180.0 1 2 1036 20211215213456
+157.45.207.235 1 1 2488 20211215013408
+47.11.95.57 2 2 262 20211220140815
+157.50.17.186 2 7 262 20211223111909
+157.45.9.83 1 1 151 20211209231621
+34.96.130.14 1 1 36517 20211228181417
+49.37.177.67 1 4 1036 20211219214332
+157.45.107.48 2 10 262 20211224071102
+49.44.85.164 3 19 415987 20211202005628
+1.39.129.9 4 20 416131 20211202214144
+157.45.126.53 3 4 73841 20211221035149
+34.96.130.26 1 1 36517 20211224043904
+162.142.125.196 1 1 11764 20211201104005
+157.45.8.244 4 26 335193 20211215000324
+153.127.26.220 2 2 23536 20211222222134
+49.37.178.234 1 5 1036 20211212220838
+45.90.62.98 1 1 11760 20211223095255
+47.11.74.150 4 4 524 20211220070609
+92.118.160.17 1 1 36517 20211227025127
+157.45.229.110 4 26 407025 20211219062210
+47.11.66.204 4 26 407025 20211220020146
+47.11.86.183 2 2 262 20211221050052
+49.37.187.226 1 3 1036 20211218022501
+157.43.196.159 7 29 409775 20211215001835
+49.37.178.190 1 2 1036 20211209012122
+47.11.73.170 3 3 2750 20211220034643
+157.45.144.192 3 3 2750 20211215001305
+157.50.61.227 2 10 262 20211227085445
+157.45.152.74 3 3 2750 20211221002748
+27.59.106.28 1 1 2488 20211218014727
+49.37.180.217 1 4 1036 20211214215257
+157.45.85.196 2 2 262 20211215120501
+157.45.32.230 1 1 131 20211201224413
+49.37.185.33 1 2 1036 20211213215448
+157.45.118.62 2 2 262 20211224093606
+157.50.18.179 2 2 262 20211220222406
+157.45.55.99 4 26 407025 20211219221252
+157.45.16.134 0 16 335833 
+157.45.107.97 2 3 262 20211225222608
+157.45.80.70 4 26 407025 20211215000409
+66.249.83.67 1 2 73579 20211215000208
+49.37.188.82 1 3 1036 20211221213622
+61.164.47.194 2 2 23533 20211225132250
+223.231.160.187 4 20 416118 20211201232700
+203.192.221.135 4 20 416169 20211214065152
+157.45.159.85 2 2 262 20211215002057
+45.61.146.242 3 3 35316 20211211173245
+157.45.134.73 4 26 407025 20211215000354
+49.37.183.69 1 1 1036 20211213030551
+167.248.133.43 1 1 11762 20211230121932
+157.45.131.88 2 2 262 20211202053438
+167.94.138.113 1 1 11758 20211231141319
+157.45.137.59 4 26 407025 20211219053431
+176.113.42.34 1 1 11765 20211224121725
+157.45.97.214 2 2 262 20211221052610
+47.11.73.240 3 3 2750 20211220053603
+157.45.211.24 1 4 5182 20211208212904
+157.45.89.197 4 26 407025 20211218103055
+176.53.217.195 1 1 11760 20211224095737
+47.11.86.69 7 7 4568 20211220100104
+157.45.128.234 3 3 2750 20211219063857
+157.45.112.221 2 9 262 20211230071934
+89.104.111.141 1 1 11772 20211223115958
+64.233.173.73 0 1 71091 
+157.45.27.206 7 7 4568 20211215030551
+157.45.225.74 1 4 1036 20211206230056
+49.37.177.190 1 2 1036 20211220215714
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 29
+20211201 55 2032 669027459 7
+20211202 89 2107 603777457 7
+20211203 20 25 72645 1
+20211205 12 23 56127 2
+20211206 2 5 12809 2
+20211207 43 3907 1304075518 2
+20211208 17 148 43876309 2
+20211209 18 67 1108876 5
+20211210 19 1096 371868176 2
+20211211 1 1 11773 1
+20211212 1 5 1036 1
+20211213 7 24 419277 3
+20211214 130 3450 1115026990 7
+20211215 162 2161 617177920 20
+20211216 37 2754 932044597 3
+20211217 18 932 299429098 2
+20211218 6 30 410549 3
+20211219 58 196 2570054 11
+20211220 68 136 1293534 12
+20211221 39 976 312519294 8
+20211222 5 886 311306520 2
+20211223 20 600 194590795 4
+20211224 7 15 60566 5
+20211225 4 5 23795 3
+20211227 208 6550 2158463102 6
+20211228 216 8074 2685233197 3
+20211229 336 16136 5440436477 2
+20211230 48 2535 854836767 4
+20211231 1 1 11758 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 5
+30s-2mn 12
+0s-30s 79
+2mn-5mn 9
+5mn-15mn 13
+15mn-30mn 8
+30mn-1h 5
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 28
+/seft/get_agent_payment_dashboard.php 367 23161 5 46
+/seft/get_student_payment_dashboard.php 367 25092 11 17
+/seft/student-payment.php 126 478371 3 0
+/seft/view-all-student.php 114 63449938 3 2
+/seft/login.php 109 91723 18 17
+/seft/student-insert-form.php 74 165694 36 6
+/seft/Dashboard.php 62 381909 2 1
+/seft/webfonts/fa-solid-900.woff2 56 3790320 0 16
+/seft/fetch_student_year.php 55 525 0 0
+/seft/fetch_student_payment.php 52 497 0 0
+/seft/ 44 5809 33 4
+/seft/add_student_payment.php 42 6977 0 0
+/seft/index.php 37 5027 1 0
+/seft/webfonts/fa-regular-400.woff2 35 421848 0 5
+/seft/fonts/Flaticon.woff2 30 247744 0 0
+/seft/student-details.php 26 108135 1 1
+/seft/add_student_insert_master.php 16 2458 0 0
+/ 14 238961 13 13
+/seft/add-new-student.php 5 17995 2 0
+/seft/update-sadmin-student-payment.php 3 10074 0 0
+/seft/add-new-agent.php 3 10332 0 0
+/seft/delete_sadmin_student_payment.php 2 334 0 0
+/seft/update_sadmin_stu_payment.php 2 304 0 0
+/admin 2 23543 2 2
+/seft/view-agents.php 1 3452 0 0
+/.env 1 11773 1 1
+/seft/student-payment-print.php 1 2926 0 0
+/seft/getStuPayDetDate.php 1 17 0 0
+END_SIDER

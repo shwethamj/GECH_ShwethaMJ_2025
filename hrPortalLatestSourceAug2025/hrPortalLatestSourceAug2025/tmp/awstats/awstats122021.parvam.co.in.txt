@@ -1,0 +1,659 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202112 will be lost/reset.
+# Last config file used to build this data file was /home4/parvamco/tmp/awstats/awstats.parvam.co.in.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2010                
+POS_TIME 2672                
+POS_VISITOR 16481               
+POS_DAY 16971               
+POS_DOMAIN 3289                
+POS_LOGIN 3544                
+POS_ROBOT 3699                
+POS_WORMS 3831                
+POS_EMAILSENDER 3962                
+POS_EMAILRECEIVER 4105                
+POS_SESSION 17114               
+POS_SIDER 17272               
+POS_FILETYPES 4240                
+POS_DOWNLOADS 4455                
+POS_OS 4525                
+POS_BROWSER 4637                
+POS_SCREENSIZE 4775                
+POS_UNKNOWNREFERER 4849                
+POS_UNKNOWNREFERERBROWSER 5077                
+POS_ORIGIN 5197                
+POS_SEREFERRALS 5330                
+POS_PAGEREFS 5474                
+POS_SEARCHWORDS 5622                
+POS_KEYWORDS 5774                
+POS_MISC 2336                
+POS_ERRORS 5833                
+POS_CLUSTER 3400                
+POS_SIDER_404 5959                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20220101003644 9 1815 17049889854165
+FirstTime 0
+LastTime 20211222171531
+LastUpdate 20220101052829 9 0 8 0 0
+TotalVisits 11                  
+TotalUnique 11                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 11                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+RealPlayerSupport 0 0 0
+FlashSupport 0 0 0
+JavaEnabled 0 0 0
+QuickTimeSupport 0 0 0
+JavascriptDisabled 0 0 0
+DirectorSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+TotalMisc 0 0 0
+PDFSupport 0 0 0
+AddToFavourites 0 1 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1 1 9164 19 19 1694
+1 0 0 0 22 23 3188
+2 0 0 0 13 13 2504
+3 0 0 0 14 14 2962
+4 0 0 0 146 146 1903
+5 1 2 11956 254 381 21666
+6 0 0 0 22 25 2367
+7 0 0 0 10 10 1677
+8 0 0 0 32 32 1612
+9 0 0 0 23 25 3651
+10 0 0 0 24 25 4490
+11 0 0 0 41 42 2824
+12 0 0 0 88 88 3348
+13 0 0 0 40 41 4056
+14 0 0 0 13 13 1748
+15 0 0 0 3 3 684
+16 0 0 0 26 29 1915
+17 45 45 3708 81 184 2129
+18 0 0 0 13 13 2522
+19 0 0 0 48 48 2272
+20 0 0 0 9 9 1148
+21 0 0 0 12 12 1855
+22 0 0 0 35 35 2985
+23 12 40 622738 23 28 2522
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 3
+us 48 48 16345
+in 10 38 619265
+cn 1 2 11956
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+Unknown 45 3708 0 0
+js 15 252871 0 0
+txt 1 8742 0 0
+php 8 20759 0 0
+css 10 93728 0 0
+png 1 71091 0 0
+jpg 2 96395 0 0
+html 3 3496 0 0
+woff2 3 96776 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/license.txt 1 0 8742
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 4
+macosx9 2 1
+Unknown 45 45
+win10 38 10
+win7 3 3
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 5
+mozilla 36 36
+Unknown 9 9
+chrome36.0.1985.125 2 1
+msie11.0 3 3
+chrome96.0.4664.45 38 10
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Cpanel-HTTP-Client/1.0 20211222170736
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20211222171531
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Cpanel-HTTP-Client/1.0 20211222170736
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 50 51
+From1 0 0
+From2 0 0
+From3 0 0
+From4 9 37
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+406 170 38420
+409 37 3071
+301 157 36005
+404 886 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 367
+/admin/ 1 -
+/wp-admin/includes/class-wp-media-list-data.php 5 -
+/blog/wp-includes/wlwmanifest.xml 4 -
+/Include/EcsServerApi.js 1 -
+/CuteSoft_Client/CuteEditor/ImageEditor/listfiles.aspx 1 -
+/images/clients/client2.png 5 -
+/plugin.php 1 -
+/new_gb/help/images/usage/3.3.gif 1 -
+/1index.php 5 -
+/alwso.php 5 -
+/www.php 4 -
+/api/api_user.xml 1 -
+/next/img/logo.gif 1 -
+/help/user/index.html 1 -
+/wordpress/ 3 -
+/f.php 4 -
+/baindex.php 4 -
+/jcms/index.jsp 1 -
+/images/login/icon-up.gif 1 -
+/2018/wp-includes/wlwmanifest.xml 2 -
+/Editor.js 1 -
+/app/Tpl/fanwe_1/js/DD_belatedPNG_0.0.8a-min.js 1 -
+/forum.php 1 -
+/app/images/login/toplogo.gif 1 -
+/Images/login/lefttu.jpg 1 -
+/Search.html 1 -
+/wso.php 5 -
+/images/zh-CN/logo.ico 1 -
+/default/css/em_css.css 1 -
+/helpnew/faq/faq_simple_zh_CN.jsp 1 -
+/archive/archive.css 1 -
+/web/wp-includes/wlwmanifest.xml 4 -
+/Public/Admin/Images/login_main_bg.jpg 1 -
+/public/about.html 1 -
+/2020/wp-includes/wlwmanifest.xml 2 -
+/up.php 4 -
+/themes/default/default.css 1 -
+/apps/admin/_static/image/login_box_bg.png 1 -
+/tpl/user/tpl1/css/skins/blue.css 1 -
+/ids/admin/userhome/forgetPwd.jsp 1 -
+/images/mobile_img.png 5 -
+/admin/start/index.php 1 -
+/doku.php 1 -
+/cms/wp-admin/install.php 1 -
+/admin 1 -
+/API/DW/Dwplugin/TemplateManage/manage_site.htm 1 -
+/images/slider/slider_img2.jpg 5 -
+/ids/admin/login.jsp 1 -
+/addons/theme/stv2/_static/ts2/layout.css 1 -
+/oldsite/wp-admin/install.php 1 -
+/media/wp-includes/wlwmanifest.xml 2 -
+/ads.txt 4 -
+/images/clients/client7.png 5 -
+/v.php 4 -
+/API/DW/Dwplugin/ThirdPartyTags/SiteFactory.xml 1 -
+/wordpress/wp-admin/setup-config.php 2 -
+/images/clients/client9.jpg 5 -
+/Providers/HtmlEditorProviders/Telerik/Telerik.Web.UI.DialogHandler.aspx 5 -
+/images/recent_post2.jpg 5 -
+/issmall/ 1 -
+/bbs/ 1 -
+/images/login/logo.gif 1 -
+/tpl/login/user/images/login_bg_1.jpg 1 -
+/qindex.php 4 -
+/history.txt 1 -
+/FoxWSO.php 5 -
+/Admin/Images/LoginImages/admin_text.gif 1 -
+/100.php 4 -
+/wp_wrong_datlib.php 5 -
+/wp-includes/wlwmanifest.xml 4 -
+/mar.php 4 -
+/shx.php 5 -
+/admin/login.asp 1 -
+/0byte.php 4 -
+/blog/ 1 -
+/wp/wp-includes/wlwmanifest.xml 4 -
+/pub/skins/pmwiki/pmwiki.css 1 -
+/phpmyadmin/ 1 -
+/g.php 4 -
+/plugins/filemanager/filemanager/js 1 -
+/images/login/eyoumail.gif 1 -
+/examples/readonly.html 1 -
+/fckeditor/editor/js/fckeditorcode_ie.js 1 -
+/Site/Pages/WebResources.ashx/PoweredByKodakImage 1 -
+/imagesschool/style1/flash2.jpg 1 -
+/shop/wp-includes/wlwmanifest.xml 4 -
+/mini.php 5 -
+/admin/js/IdSUtil.js 1 -
+/feed.asp 1 -
+/admin/inc/xml.xslt 1 -
+/wp-blog.php 5 -
+/cms/wp-includes/wlwmanifest.xml 4 -
+/sh3ll.php 4 -
+/help/en/h_authenticate.html 1 -
+/web2/login_template/1.files/Logo1.jpg 1 -
+/console/auth/reg_newuser.jsp 1 -
+/UserCenter/css/admin/bgimg/admin_all_bg.png 1 -
+/API/DW/Dwplugin/TemplateManage/login_site.htm 1 -
+/wp-content 1 -
+/static/images/logo/webserver_small.gif 1 -
+/777.php 4 -
+/V3.php 4 -
+/forum/ 1 -
+/wp-content/ 8 -
+/sito/wp-includes/wlwmanifest.xml 4 -
+/website/wp-includes/wlwmanifest.xml 4 -
+/admin/SouthidcEditor/ewebeditor.asp 1 -
+/robots.txt 8 -
+/Images/login/biaoti.jpg 1 -
+/403.php 5 -
+/xleet.php 4 -
+/system/language/zh-cn.xml 1 -
+/plus/heightsearch.php 1 -
+/fckeditor/fckconfig.js 1 -
+/images/login9/login_33.jpg 1 -
+/dup-installer/main.installer.php 34 -
+/admin/template/article_more/config.htm 1 -
+/sym.php 5 -
+/images/clients/client11.jpg 5 -
+/symlink.php 5 -
+/login/Jeecms.do 1 -
+/wp-wso.php 4 -
+/test_404_page/ 1 -
+/App_Master/Telerik.Web.UI.DialogHandler.aspx 5 -
+/ycportal/js/wbTextBox/showimg.jsp 1 -
+/admin.php 2 -
+/CuteSoft_Client/CuteEditor/Help/default.htm 1 -
+/fckeditor/fckeditor.js 1 -
+/archiver/ 1 -
+/data.php 5 -
+/c.php 5 -
+/z.php 4 -
+/template/home.htm 1 -
+/Template/Default/Skin/user/images/login_back.jpg 1 -
+/CHANGELOG.txt 1 -
+/CuteSoft_Client/CuteEditor/Images/log.gif 1 -
+/data/admin/ver.txt 1 -
+/images/clients/client8.png 5 -
+/whir_system/login.aspx 1 -
+/Wq_StranJF.js 1 -
+/11index.php 5 -
+/editor/js/fckeditorcode_ie.js 1 -
+/style/default/hdwiki.css 1 -
+/images/slider/slider_img1.jpg 5 -
+/archiver 1 -
+/back/scripts/jspxcms_choose.js 1 -
+/wp-admin/install.php 1 -
+/plus/download.php 1 -
+/DialogHandler/adminHtmlEditorProviders/Telerik/Telerik.Web.UI.DialogHandler.aspx 5 -
+/auth/login 1 -
+/wp/ 1 -
+/wordpress/wp-includes/wlwmanifest.xml 4 -
+/2019/wp-includes/wlwmanifest.xml 4 -
+/ymail/images/index_r1_c4.jpg 1 -
+/new.php 4 -
+/siteserver/upgrade/default.aspx 1 -
+/docs/DOCUMENTATION.txt 1 -
+/coremail/common/help/images/helplogo.gif 1 -
+/site/wp-includes/wlwmanifest.xml 4 -
+/images/hwem.css 1 -
+/cgi/index.cgi 1 -
+/docs/ 1 -
+/images/vuln.php 6 -
+/inc/playerKinds.xml 1 -
+/images/clients/client4.png 5 -
+/admin/login.php 1 -
+/images/welcome_img.jpg 5 -
+/system/Update.aspx 1 -
+/common/help/images/helplogo_zh.gif 1 -
+/Scripts/jquery/maticsoft.jquery.min.js 1 -
+/etrakit2/App_Master/Telerik.Web.UI.DialogHandler.aspx 5 -
+/list.php 1 -
+/autoload_classmap.php 5 -
+/examples/index.html 1 -
+/licence.txt 1 -
+/master/login.aspx 1 -
+/3index.php 5 -
+/themes/graphics/horde-power1.png 1 -
+/Admin/Images/LoginImages/admin_top.gif 1 -
+/sym403.php 5 -
+/max-templates/classic/styles/app.css 1 -
+/plug/publish 1 -
+/datacenter/downloadApp/showDownload.do 1 -
+/rss.php 1 -
+/docs.css 1 -
+/images/logo/logo1.png 5 -
+/js/ajax_x.js 1 -
+/forums/list.page 1 -
+/deptWebsiteAction.do 1 -
+/digg.php 1 -
+/editor/fckeditor.js 1 -
+/dialog/dialog.js 1 -
+/m 1 -
+/script/login.js 1 -
+/404.php 4 -
+/Help 1 -
+/2index.php 5 -
+/Telerik.Web.UI.DialogHandler.axd 5 -
+/wikindex.php 4 -
+/shell.php 5 -
+/wp-cron.php 1 -
+/install 1 -
+/index.php 5 -
+/fckeditor/editor/dtd/fck_dtd_test.html 1 -
+/changelog.txt 1 -
+/uc_server/control/admin/db.php 1 -
+/.env.save 1 -
+/webbuilder/script/locale/wb-lang-zh_CN.js 1 -
+/DesktopModules/Admin/RadEditorProvider/DialogHandler.aspx 5 -
+/data/images/wap_logo.gif 1 -
+/e/master/login.aspx 1 -
+/CuteSoft_Client/CuteEditor/Style/IE.css 1 -
+/app/images/login/logo.png 1 -
+/admin/login.aspx 1 -
+/system/Login.aspx 1 -
+/FCK/editor/js/fckeditorcode_ie.js 1 -
+/includes/general.js 1 -
+/debug/default/view 1 -
+/wi.php 4 -
+/images/clients/client6.png 5 -
+/FCK/fckeditor.js 1 -
+/kindeditor.js 1 -
+/app/home/skins/default/style.css 1 -
+/etrakit/App_Master/Telerik.Web.UI.DialogHandler.aspx 5 -
+/stylesheet.css 1 -
+/ks_inc/ajax.js 1 -
+/themes/default/graphics/horde-power1.png 1 -
+/kindeditor-min.js 1 -
+/Site/SystemThemes/7917A0869761B5458281E407AE0090F5/Images/ISBanner58px.jpg 1 -
+/ 16 -
+/base/login/login.php 1 -
+/seft/css/img/preloader.gif 2 http://parvam.co.in/seft/css/style.css
+/js/buttons.js 1 -
+/wp1/wp-includes/wlwmanifest.xml 4 -
+/bencandy.php 1 -
+/images/login_Name.jpg 1 -
+/m.php 4 -
+/web/wp-admin/install.php 1 -
+/admin/SouthidcEditor/Dialog/dialog.js 1 -
+/xx.php 4 -
+/1.php 5 -
+/test/wp-admin/install.php 1 -
+/phpmyadmin/docs.css 1 -
+/b.php 5 -
+/stindex.php 5 -
+/API/DW/Dwplugin/SystemLabel/SiteConfig.htm 1 -
+/coremail/common/help/images/helplogo_zh.gif 1 -
+/media-admin.php 6 -
+/404.jpg 1 -
+/clientscript/vbulletin_ajax_htmlloader.js 1 -
+/public/js/ipb.js 1 -
+/new-index.php 4 -
+/rss.aspx 1 -
+/nobody/mobile.htm 1 -
+/blog/wp-admin/install.php 1 -
+/static/hgicon.png 1 -
+/advfile/ad12.js 1 -
+/examples/file-manager.html 1 -
+/alfa.php 5 -
+/images/clients/client5.png 5 -
+/_profiler/phpinfo 1 -
+/User/Login.aspx 1 -
+/plus/sitemap.html 1 -
+/xox.php 4 -
+/wp/wp-admin/install.php 1 -
+/images/clients/client3.png 5 -
+/admin/editor/ 1 -
+/backup/wp-admin/install.php 1 -
+/app/login.jsp 1 -
+/Images/login/mainlogo.gif 1 -
+/plus/rssmap.html 1 -
+/admin/index.php 1 -
+/.well-known/ 7 binance.com
+/ckfinder/ckfinder.html 1 -
+/root.php 4 -
+/media/com_hikashop/js/hikashop.js 1 -
+/humans.txt 4 -
+/skin/frontend/default/modern/css/styles.css 1 -
+/help/ch_gb/images/help-title.gif 1 -
+/member/space/company/info.txt 1 -
+/templates/jsn_glass_pro/ext/hikashop/jsn_ext_hikashop.css 1 -
+/images/logo_88x31.gif 1 -
+/new/wp-admin/install.php 1 -
+/Ntalker/lawfirm.aspx 1 -
+/extman/default/images/logo.gif 1 -
+/default/images/logo.gif 1 -
+/c99.php 4 -
+/app/js/source/wcmlib/WCMConstants.js 1 -
+/Admin/Login.aspx 1 -
+/images/clients/client1.png 5 -
+/maintlogin.jsp 1 -
+/customdir/images/english_logo.jpg 1 -
+/console/js/CWCMDialogHead.js 1 -
+/images/default/post_bt.gif 1 -
+/fw.php 5 -
+/images/phone_img.png 5 -
+/images/logo_product-cml.png 1 -
+/whir_system/module/security/login.aspx 1 -
+/minimo.php 4 -
+/wp.php 4 -
+/th1s_1s_a_4o4.html 31 http://www.google.com/url
+/console/include/not_login.htm 1 -
+/images/branding/logo.gif 1 -
+/nee.php 4 -
+/README.txt 1 -
+/Prompt/images/P_Wrong.gif 1 -
+/wp2/wp-includes/wlwmanifest.xml 4 -
+/news/wp-includes/wlwmanifest.xml 4 -
+/edit-form.php 4 -
+/jcms/index_jcms.jsp 1 -
+/images/logo/logo3.png 5 -
+/ckeditor/ckeditor.js 1 -
+/script/valid_formdata.js 1 -
+/ckfinder/install.txt 1 -
+/Admin/Common/HelpLinks.xml 1 -
+/fckeditor.js 1 -
+/index.cgi 1 -
+/x.php 5 -
+/plugins/anchor/anchor.js 1 -
+/common/help/images/helplogo.gif 1 -
+/system/skins/default/system.login.htm 1 -
+/site/wp-admin/install.php 1 -
+/defau1t.php 4 -
+/images/2_11.gif 1 -
+/old-index.php 5 -
+/ups.php 6 -
+/priv8.php 4 -
+/wordpress/wp-admin/install.php 1 -
+/Telerik.Web.UI.DialogHandler.aspx 5 -
+/include/dialog/config.php 1 -
+/a.php 5 -
+/adminsoft/templates/images/login_bg_top.jpg 1 -
+/images/clients/client10.png 5 -
+/API/DW/Dwplugin/TemplateManage/save_template.htm 1 -
+/extern.php 1 -
+/Error.aspx 1 -
+/doc.php 5 -
+/asp.net/README.txt 1 -
+/V5.php 4 -
+/old/wp-admin/install.php 1 -
+/pub/guiedit/guiedit.js 1 -
+/common/common.js 1 -
+/blog/robots.txt 1 -
+/admin/admin_login.php 1 -
+/images/logo-white.png 1 -
+/inc/Templates/rss.xslt 1 -
+/lang/en.js 1 -
+/fckeditor/license.txt 1 -
+/phpmyadmin/themes/original/img/logo_right.png 1 -
+/include/dedeajax2.js 1 -
+/Install/logo.gif 1 -
+/o.php 4 -
+/inc/rsd.php 1 -
+/wp-admin/css/ 7 binance.com
+/sindex.php 4 -
+/images/recent_post1.jpg 5 -
+/test/wp-includes/wlwmanifest.xml 4 -
+/addons/theme/stv1/_static/ts2/layout.css 1 -
+/wcm/ 1 -
+/etrakit3/App_Master/Telerik.Web.UI.DialogHandler.aspx 5 -
+/template/1/bluewise/_files/jspxcms.css 1 -
+/License.txt 1 -
+/admin/SouthidcEditor/ButtonImage/standard/componentmenu.gif 1 -
+/ckeditor/ckfinder/ckfinder.html 1 -
+/console/js/CTRSRequestParam.js 1 -
+/siteserver/login.aspx 1 -
+/ckeditor/ckfinder/install.txt 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 11
+162.214.80.40 33 33 2664 20211222171531
+49.206.14.181 10 38 619265 20211209233850
+66.133.109.36 3 3 261 20211222171530
+18.159.196.172 3 3 261 20211222171530
+35.245.188.175 2 2 3473 20211209235200
+34.221.255.206 2 2 174 20211222171530
+3.142.122.14 2 2 174 20211222171530
+35.185.241.102 1 1 9164 20211215000220
+119.91.129.52 1 2 11956 20211201052749
+34.219.87.132 1 1 87 20211222171530
+3.19.56.43 1 1 87 20211222171530
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 4
+20211201 1 2 11956 1
+20211209 12 40 622738 2
+20211215 1 1 9164 1
+20211222 45 45 3708 7
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+5mn-15mn 1
+0s-30s 10
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 29
+/.well-known/acme-challenge/7vid6d7o6tJbQfN5vFqlZ9Tjay8eFX-YR9S5gZOCirc 4 348 4 0
+/.well-known/acme-challenge/nXXQPNjEXpaCDUAgs3vdw5FCNCUApWcqKd-p3kbMlus 4 348 0 0
+/.well-known/acme-challenge/P3s9WRj426iLrLnI87PNsYlvrXY2KQE89tNXmOjZDzM 4 348 1 2
+/.well-known/acme-challenge/BEq7wxR619AJKuxU-qQWVLdPvTcmKL5InhqXLspGrGQ 4 348 0 1
+/.well-known/acme-challenge/f7D5lfagVZO-IueVbJSaps6kP_76wRZh5oKju8PziBU 4 348 0 0
+/.well-known/acme-challenge/N2BgY0Bg2w1lfcVcD90eSnP4tXgvr_fNm3M6SE536y8 4 348 1 4
+/.well-known/acme-challenge/l7O4SXXTXQa1CTQ3qrSFjZ6bfznAumZfZtiwagfk2Gw 4 348 0 0
+/.well-known/acme-challenge/ttuyGDYJgPQCqBbtoYly0aeiNAX2TK8tIF6aDTsQWWQ 4 348 0 0
+/.well-known/acme-challenge/_AeX4mbIwc0fGiKD4pZOH0U52mjCsijVHygZ3MmOTbY 4 348 0 0
+/seft/login.php 3 4849 0 1
+/seft/ 2 282 2 0
+/readme.html 1 3214 1 1
+/seft/webfonts/fa-solid-900.woff2 1 74320 0 0
+/.well-known/acme-challenge/9UB-OIAHT0KC6Z9Y685D5K5G2K31DELM 1 64 0 0
+/seft/get_agent_payment_dashboard.php 1 39 0 0
+/seft/fonts/Flaticon.woff2 1 8848 0 0
+/.well-known/acme-challenge/FJPW4WRS68_OF11KJIOWOLV8O7G00C23 1 64 0 0
+/seft/Dashboard.php 1 6532 0 0
+/seft/student-insert-form.php 1 9164 1 1
+/seft/get_student_payment_dashboard.php 1 39 0 1
+/.well-known/acme-challenge/VUTCEMD1R2WNY7MO6GTHJNXH8ZAR5J4F 1 64 0 0
+/.well-known/acme-challenge/V_0P-675AUOT1GT_RNZUZIXN-GNX3PXA 1 64 0 0
+/.well-known/acme-challenge/5M-EXRYZ6-IF2NII-XO-0LQG9E4YXRXD 1 64 0 0
+/.well-known/acme-challenge/EYKZVCH3IK_EVFRQED9FOA7JY2YI9T4I 1 64 0 0
+/.well-known/acme-challenge/TKIPOHOD9ZAFGRFM_MTCFR-98KIE7C3V 1 64 1 0
+/seft/index.php 1 136 0 0
+/.well-known/acme-challenge/0DXZQVUX3P6QOC3ERAAX9OEUJ4A95H2S 1 64 0 0
+/.well-known/acme-challenge/VYNZ6YIR_3DW0RZ04LJ8P00RFHZSRA-T 1 64 0 0
+/seft/webfonts/fa-regular-400.woff2 1 13608 0 0
+END_SIDER

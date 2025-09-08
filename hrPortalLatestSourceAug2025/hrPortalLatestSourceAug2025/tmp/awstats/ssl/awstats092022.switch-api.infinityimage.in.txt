@@ -1,0 +1,1291 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202209 will be lost/reset.
+# Last config file used to build this data file was /home4/parvamco/tmp/awstats/ssl/awstats.switch-api.infinityimage.in.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2029                
+POS_TIME 2701                
+POS_VISITOR 7293                
+POS_DAY 10571               
+POS_DOMAIN 3514                
+POS_LOGIN 3794                
+POS_ROBOT 3949                
+POS_WORMS 4116                
+POS_EMAILSENDER 4247                
+POS_EMAILRECEIVER 4390                
+POS_SESSION 11537               
+POS_SIDER 11745               
+POS_FILETYPES 4525                
+POS_DOWNLOADS 4642                
+POS_OS 4690                
+POS_BROWSER 4829                
+POS_SCREENSIZE 5155                
+POS_UNKNOWNREFERER 5229                
+POS_UNKNOWNREFERERBROWSER 5687                
+POS_ORIGIN 6054                
+POS_SEREFERRALS 6200                
+POS_PAGEREFS 6344                
+POS_SEARCHWORDS 6520                
+POS_KEYWORDS 6672                
+POS_MISC 2365                
+POS_ERRORS 6731                
+POS_CLUSTER 3650                
+POS_SIDER_404 6831                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20221001124549 1 0 21426366014212
+FirstTime 20220901000144
+LastTime 20220930163828
+LastUpdate 20221002063142 1 0 0 0 0
+TotalVisits 173                 
+TotalUnique 72                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 72                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+RealPlayerSupport 0 0 0
+FlashSupport 0 0 0
+AddToFavourites 0 0 0
+PDFSupport 0 0 0
+DirectorSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+QuickTimeSupport 0 0 0
+JavascriptDisabled 0 0 0
+TotalMisc 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 326853 326853 32263358 109 109 5424
+1 200890 200890 20237187 7 7 678
+2 1588 1588 5477549 0 0 0
+3 2123 2123 4521859 0 0 0
+4 982 982 2804911 0 0 0
+5 1322 1322 3290199 0 0 0
+6 108 108 4283 0 0 0
+7 724 724 407282 0 0 0
+8 301 301 1102360 0 0 0
+9 1195 1195 3373909 0 0 0
+10 1726 1726 5330305 0 0 0
+11 3987 3987 7030917 0 1 0
+12 6041 6041 21649560 0 0 0
+13 3415 3415 9857392 0 1 0
+14 2982 2982 2273555 1 2 2
+15 673 673 528367 0 0 0
+16 7 7 172 0 0 0
+17 2230 2230 330772 0 0 0
+18 8233 8233 963632 0 0 0
+19 67539 67539 14542658 89 89 20114
+20 150579 150579 23308209 89 89 20114
+21 165190 165190 16267303 68 68 15368
+22 306264 306264 33152831 162 162 36160
+23 326540 326540 28758618 62 62 13786
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 4
+in 1581257 1581257 237317330
+us 219 219 159786
+ca 14 14 28
+ru 2 2 44
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 1
+no_user_agent 1 2 20220904144737 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 2
+html 2710 31221416 0 0
+Unknown 1578782 206255772 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 4
+win10 692865 692865
+win7 855952 855952
+macosx14 32660 32660
+Unknown 15 15
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 11
+Unknown 14 14
+chrome94.0.4606.61 2 2
+chrome104.0.5112.102 16 16
+mozilla 1 1
+chrome104.0.0.0 101652 101652
+opera90.0.4480.84 1722 1722
+opera90.0.4480.54 875 875
+chrome94.0.4606.71 843395 843395
+chrome106.0.0.0 106 106
+chrome105.0.0.0 601049 601049
+chrome103.0.0.0 32660 32660
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20220930064823
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20220904110157
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20220930064823
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 17 17
+From1 0 0
+From2 0 0
+From3 49 49
+From4 1581426 1581426
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://localhost:4200 49 49
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+404 92 0
+406 494 111644
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 2
+/index.php/Dashboard/getCriticalCallBack 36 https://switch.infinityimage.in/
+/index.php/Dashboard/getCriticalPayment 56 https://switch.infinityimage.in/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 72
+122.179.50.67 154186 154186 13125615 20220919015903
+122.172.241.114 126532 126532 12296810 20220927015334
+122.167.94.87 105169 105169 10245031 20220915012615
+122.179.63.36 86876 86876 9505694 20220920015514
+122.179.48.230 84276 84276 5804517 20220905011934
+122.167.127.150 82016 82016 7336013 20220916005812
+122.179.42.120 81489 81489 9555508 20220929015709
+171.76.121.240 80580 80580 8715839 20220914015818
+171.61.88.27 77638 77638 6116661 20220909005804
+122.167.64.149 77499 77499 8929529 20220907015808
+122.167.98.138 73570 73570 7389881 20220902005939
+122.167.98.84 72509 72509 6710817 20220908015337
+122.171.47.94 64195 64195 7585390 20220928000913
+171.76.79.2 61410 61410 7243122 20220913015935
+122.172.41.197 49595 49595 5894193 20220921015742
+122.172.51.220 48611 48611 5532418 20220906015223
+122.167.112.141 47921 47921 6640374 20220926005710
+171.76.95.66 34238 34238 4042769 20220923011606
+122.172.34.92 26759 26759 3589871 20220912015812
+122.171.55.126 23154 23154 2647732 20220928015226
+122.172.51.45 21490 21490 2253860 20220930010530
+122.172.50.1 15789 15789 1354549 20220929231033
+103.92.100.129 12516 12516 23060599 20220922210942
+122.172.44.66 9866 9866 2056761 20220929205718
+122.171.23.45 8420 8420 16387215 20220929150227
+122.167.110.181 7273 7273 1326004 20220925204333
+205.210.31.40 1 1 2 20220924061557
+49.205.149.26 165 165 24227 20220929232716
+49.205.149.81 1295 1295 837924 20220919015131
+49.205.144.38 447 447 273380 20220913012446
+122.171.17.212 1736 1736 6568751 20220919122411
+122.171.22.74 177 177 1454453 20220919142139
+205.210.31.174 1 1 2 20220918160208
+49.205.144.16 370 370 270752 20220902005748
+198.235.24.16 1 1 2 20220916180331
+49.205.151.69 555 555 371576 20220906014928
+198.235.24.23 1 1 2 20220910205047
+49.205.148.193 352 352 280432 20220929015250
+198.235.24.24 1 1 2 20220930064823
+205.210.31.146 1 1 2 20220912133702
+205.210.31.39 1 1 2 20220927042755
+198.235.24.152 1 1 2 20220917041459
+205.210.31.35 1 1 2 20220912144319
+49.205.150.236 889 889 445562 20220907015720
+49.205.150.207 147 147 34225 20220912010502
+49.205.145.32 946 946 437922 20220908011618
+122.172.47.25 7877 7877 899719 20220929221733
+49.205.148.92 291 291 121403 20220916005052
+1.39.131.241 599 599 1352300 20220901063344
+122.171.17.76 726 726 3007083 20220923130056
+122.171.21.25 3086 3086 16707170 20220912143505
+49.205.149.255 4 4 166 20220901011243
+42.105.119.31 120 120 4830 20220901074844
+176.53.219.144 1 1 22 20220901144845
+49.205.149.202 784 784 2346933 20220914015821
+198.235.24.53 1 1 2 20220911162316
+49.205.146.192 2483 2483 194654 20220925204225
+122.171.22.39 1616 1616 1260451 20220930163828
+49.205.144.148 985 985 595883 20220915012442
+49.205.147.77 2012 2012 727327 20220923011442
+49.205.145.137 427 427 209750 20220909005555
+205.210.31.52 1 1 2 20220906162636
+49.205.148.114 3639 3639 453537 20220926003451
+167.248.133.60 1 1 22 20220904110157
+49.205.149.170 7969 7969 987070 20220928005116
+157.45.174.48 218 218 159764 20220930005516
+205.210.31.158 1 1 2 20220916125520
+49.205.150.240 1104 1104 1435841 20220921015642
+49.205.144.134 6879 6879 667237 20220927005543
+205.210.31.43 1 1 2 20220906150158
+176.53.218.107 1 1 22 20220901132029
+198.235.24.151 1 1 2 20220923130502
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20220901 56941 56941 10325460 10
+20220902 17939 17939 1495953 2
+20220903 2 2 83 1
+20220904 67312 67312 9832861 5
+20220905 57213 57213 8515819 6
+20220906 52919 52919 9112323 8
+20220907 79765 79765 15064196 7
+20220908 97461 97461 9413305 6
+20220909 18243 18243 4396183 8
+20220910 34 34 1360 2
+20220911 16443 16443 2295326 3
+20220912 49843 49843 9755615 9
+20220913 70684 70684 11786760 5
+20220914 118230 118230 19573984 7
+20220915 84155 84155 10387876 8
+20220916 22248 22248 2064222 6
+20220917 521 521 839735 2
+20220918 90341 90341 9380951 3
+20220919 124415 124415 14421988 6
+20220920 49545 49545 9875666 5
+20220921 30978 30978 4353007 4
+20220922 26545 26545 6114796 7
+20220923 12385 12385 1438419 6
+20220924 1 1 2 1
+20220925 41789 41789 6814700 7
+20220926 100579 100579 13764881 6
+20220927 121809 121809 15571710 6
+20220928 78149 78149 16598057 9
+20220929 81722 81722 11747476 12
+20220930 13281 13281 2534474 6
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+15mn-30mn 4
+2mn-5mn 1
+30mn-1h 26
+1h+ 95
+0s-30s 40
+30s-2mn 1
+5mn-15mn 6
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 935
+/index.php/Dashboard/getCriticalCallBack 814162 32754995 35 98
+/index.php/Dashboard/getCriticalPayment 746921 28477062 79 52
+/index.php/customer 2524 96600784 1 0
+/index.php/call 2248 31783879 0 0
+/index.php/customer/getCompanyName 2186 217711 0 0
+/index.php/order/getOrder/ 1382 30771613 2 4
+/index.php/Order/orderid 1345 74910 0 0
+/index.php/Call/viewComment 1304 424911 0 0
+/index.php/Call/getcompanyname 906 60767 0 0
+/index.php/customer/getCustomerdata/ 872 414050 0 0
+/index.php/Call/disposeCall 854 33306 0 0
+/index.php/customer/getProdata 843 82226 0 0
+/index.php/customer/checkCustomer/companyName 791 15893 0 0
+/index.php/Dashboard 687 112743 0 2
+/index.php/Login 435 69203 38 0
+/index.php/Order/ 264 5147 0 0
+/index.php/customer/checkCustomer/email 254 3444 0 0
+/index.php/Payment/create/1 234 4329 0 0
+/index.php/Payment 171 10256674 0 0
+/index.php/Order/getordervalues 158 16187 0 0
+/index.php/customer/getCustomerNameList 150 4496553 0 0
+/index.php/customer/create/18 145 2847 0 0
+/index.php/customer/updatecustomer/ 138 23074 0 0
+/index.php/call/create/19 107 4427 0 0
+/index.php/call/create/18 102 1887 0 0
+/index.php/order/getproducts/2168 1 250 0 0
+/index.php/order/getproducts/2218 2 382 0 0
+/index.php/customer/createPro/4197 1 49 0 0
+/index.php/customer/createPro/4080 1 49 0 0
+/index.php/order/getOneOrder/2249 1 606 0 0
+/index.php/order/createProduct/2236 1 24 0 0
+/index.php/customer/createPro/4270 1 45 0 0
+/index.php/order/getproducts/2172 4 924 0 0
+/index.php/order/getproducts/2265 2 420 0 0
+/index.php/order/getOneOrder/2242 4 2884 0 0
+/index.php/order/createProduct/2190 1 24 0 0
+/index.php/order/getOneOrder/2262 3 1791 0 0
+/index.php/order/createProduct/2219 1 24 0 0
+/index.php/customer/createPro/4347 1 49 0 0
+/index.php/order/getOneOrder/1905 2 1342 0 0
+/index.php/order/getproducts/2214 1 205 0 0
+/index.php/customer/createPro/4299 1 49 0 0
+/index.php/order/getproducts/2269 1 217 0 0
+/index.php/order/getproducts/1343 2 468 0 0
+/index.php/order/getproducts/1668 1 169 0 0
+/index.php/order/getOneOrder/1945 5 3105 0 0
+/index.php/order/getOneOrder/1983 1 677 0 0
+/index.php/order/getproducts/2093 4 716 0 0
+/index.php/order/getproducts/1150 3 513 0 0
+/index.php/order/getproducts/2223 1 231 0 0
+/index.php/order/getproducts/1183 3 672 0 0
+/index.php/customer/create/16 32 624 0 0
+/index.php/employee/getOneEmployee/5 35 7525 0 0
+/index.php/customer/createPro/4249 1 49 0 0
+/index.php/order/getOneOrder/2239 1 625 0 0
+/index.php/order/getproducts/2278 1 216 0 0
+/index.php/customer/createPro/4121 1 48 0 0
+/index.php/order/updateOrder/2169/1 2 41 0 0
+/index.php/order/getproducts/1886 3 624 0 0
+/index.php/order/getproducts/2246 2 456 0 0
+/index.php/order/createProduct/2270 1 24 0 0
+/index.php/order/getOneOrder/2138 1 730 0 0
+/index.php/customer/createPro/4157 1 48 0 0
+/index.php/order/getproducts/2281 2 378 0 0
+/index.php/order/getOneOrder/766 1 636 0 0
+/index.php/customer/createPro/4134 1 45 0 0
+/index.php/order/getproducts/2296 2 396 0 0
+/index.php/order/getproducts/1284 1 200 0 0
+/index.php/order/getproducts/1801 1 188 0 0
+/index.php/employee/getOneEmployee/11 10 2676 0 0
+/index.php/order/getproducts/1723 1 217 0 0
+/index.php/customer/createPro/4171 1 917 0 0
+/index.php/call/create/9 4 74 0 0
+/index.php/order/createProduct/2259 1 24 0 0
+/index.php/order/getOneOrder/2060 1 607 0 0
+/index.php/order/createProduct/2212 1 24 0 0
+/index.php/order/getOneOrder/1454 1 609 0 0
+/index.php/order/getproducts/2190 3 717 0 0
+/index.php/customer/createPro/undefined 8 408 0 0
+/index.php/order/orderdelete/2238 1 27 0 0
+/index.php/customer/create/14 6 117 0 0
+/index.php/order/getproducts/1054 1 215 0 0
+/index.php/customer/createPro/4281 1 48 0 0
+/index.php/order/getOneOrder/1654 1 660 0 0
+/index.php/order/createProduct/11 2 48 0 0
+/index.php/customer/createPro/4078 1 891 0 0
+/index.php/order/createProduct/2241 1 24 0 0
+/index.php/employee/getOneEmployee/8 20 4460 0 0
+/index.php/order/getproducts/2287 1 234 0 0
+/index.php/order/getOneOrder/1172 1 667 0 0
+/index.php/order/getOneOrder/2270 1 664 0 0
+/index.php/order/getOneOrder/2174 3 1851 0 0
+/index.php/order/getOneOrder/2265 2 1258 0 0
+/index.php/order/getOneOrder/1957 1 662 0 0
+/index.php/order/getOneOrder/2219 1 607 0 0
+/index.php/employee/getOneEmployee/16 1 213 0 0
+/index.php/customer/createPro/4210 1 45 0 0
+/index.php/order/getOneOrder/2056 2 1306 0 0
+/index.php/order/updateOrder/1893/1 2 41 0 0
+/index.php/employee/getOneEmployee/12 5 1070 0 0
+/index.php/order/getOneOrder/2190 3 1806 0 0
+/index.php/customer/createPro/4186 2 90 0 0
+/index.php/order/getproducts/1594 1 216 0 0
+/index.php/order/createProduct/2255 1 24 0 0
+/index.php/order/getproducts/2227 3 876 0 0
+/index.php/order/getproducts/2205 1 160 0 0
+/index.php/order/getproducts/2249 1 175 0 0
+/index.php/order/getproducts/811 1 184 0 0
+/index.php/customer/createPro/4207 1 45 0 0
+/index.php/order/getproducts/1592 2 476 0 0
+/index.php/order/getOneOrder/2253 1 656 0 0
+/index.php/customer/createPro/4235 1 46 0 0
+/index.php/order/getOneOrder/2200 1 658 0 0
+/index.php/order/getOneOrder/2192 3 2010 0 0
+/index.php/order/getOneOrder/2263 2 1218 0 0
+/index.php/order/getproducts/2169 2 50 0 0
+/index.php/order/getOneOrder/2268 2 1210 0 0
+/index.php/order/getOneOrder/1611 2 1232 0 0
+/index.php/order/getOneOrder/2179 1 602 0 0
+/index.php/employee/getOneEmployee/22 1 211 0 0
+/index.php/order/createProduct/2302 1 24 0 0
+/index.php/order/getproducts/1480 1 234 0 0
+/index.php/customer/createPro/4144 1 49 0 0
+/index.php/order/getOneOrder/2252 7 4431 0 0
+/index.php/order/getproducts/1777 4 848 0 0
+/index.php/order/getproducts/1742 1 230 0 0
+/index.php/order/createProduct/2253 1 24 0 0
+/index.php/order/getOneOrder/2229 1 657 0 0
+/index.php/customer/createPro/4156 1 46 0 0
+/index.php/customer/createPro/4256 1 45 0 0
+/index.php/order/getproducts/1633 6 1074 0 0
+/index.php/order/getOneOrder/2222 10 6713 0 0
+/index.php/order/getOneOrder/2209 3 1875 0 0
+/index.php/order/createProduct/2180 1 24 0 0
+/index.php/employee/getOneEmployee/10 3 645 0 0
+/index.php/customer/createPro/4247 1 48 0 0
+/index.php/order/getOneOrder/2237 1 617 0 0
+/index.php/order/getproducts/2234 2 444 0 0
+/index.php/order/getproducts/2257 3 504 0 0
+/index.php/customer/checkCustomer/abn 24 533 0 0
+/index.php/customer/createPro/4209 1 46 0 0
+/index.php/customer/createPro/4204 1 45 0 0
+/index.php/order/getOneOrder/2292 1 656 0 0
+/index.php/order/updateOrder/2257/15 2 41 0 0
+/index.php/order/getOneOrder/2046 1 605 0 0
+/index.php/order/getproducts/1173 1 194 0 0
+/index.php/customer/createPro/4241 1 45 0 0
+/index.php/order/getOneOrder/1630 1 633 0 0
+/index.php/order/getproducts/1454 1 244 0 0
+/index.php/order/getproducts/2279 1 194 0 0
+/index.php/order/createProduct/2274 1 24 0 0
+/index.php/order/getOneOrder/2009 1 593 0 0
+/index.php/order/getproducts/1519 1 195 0 0
+/index.php/customer/createPro/4174 1 45 0 0
+/index.php/order/createProduct/2210 1 24 0 0
+/index.php/customer/createPro/4213 1 879 0 0
+/index.php/order/getOneOrder/2294 3 1863 0 0
+/index.php/order/createProduct/2281 1 24 0 0
+/index.php/customer/createPro/4113 1 48 0 0
+/index.php/order/getproducts/2283 4 756 0 0
+/index.php/order/getOneOrder/1773 2 1328 0 0
+/index.php/order/getproducts/2256 2 420 0 0
+/index.php/order/getproducts/2253 1 187 0 0
+/index.php/order/createProduct/2177 1 24 0 0
+/index.php/order/createProduct/2275 1 24 0 0
+/index.php/order/getOneOrder/2079 7 4880 0 0
+/index.php/order/getproducts/2178 1 209 0 0
+/index.php/order/getproducts/2207 1 196 0 0
+/index.php/order/getOneOrder/1992 1 623 0 0
+/index.php/order/createProduct/22 1 24 0 0
+/index.php/order/getOneOrder/2197 1 638 0 0
+/index.php/order/getproducts/2244 1 173 0 0
+/index.php/order/createProduct/2250 1 24 0 0
+/index.php/order/getproducts/2078 8 1408 0 0
+/index.php/customer/create/11 30 585 0 0
+/index.php/order/getOneOrder/1828 1 592 0 0
+/index.php/order/getproducts/2186 2 462 0 0
+/index.php/order/getproducts/2198 1 206 0 0
+/index.php/order/getOneOrder/1181 2 1246 0 0
+/index.php/order/getOneOrder/2291 1 631 0 0
+/index.php/order/getproducts/1935 2 366 0 0
+/index.php/order/getOneOrder/2236 2 1258 0 0
+/index.php/order/getOneOrder/2211 1 655 0 0
+/index.php/order/getproducts/2293 3 729 0 0
+/index.php/order/getproducts/2188 2 346 0 0
+/index.php/order/getproducts/1946 1 216 0 0
+/index.php/customer/createPro/4149 1 49 0 0
+/index.php/order/createProduct/2204 1 24 0 0
+/index.php/employee/getOneEmployee/18 11 2365 0 0
+/index.php/order/createProduct/2245 1 24 0 0
+/index.php/order/getproducts/2263 2 476 0 0
+/index.php/order/getOneOrder/2214 1 622 0 0
+/index.php/order/getOneOrder/1227 1 671 0 0
+/index.php/order/getproducts/2220 1 189 0 0
+/index.php/order/createProduct/2207 1 24 0 0
+/index.php/order/createProduct/2225 1 24 0 0
+/index.php/order/createProduct/2234 1 24 0 0
+/index.php/order/getproducts/2267 1 178 0 0
+/index.php/order/createProduct/2192 1 24 0 0
+/index.php/order/createProduct/2179 1 24 0 0
+/index.php/order/getproducts/2216 2 422 0 0
+/index.php/customer/createPro/4271 1 45 0 0
+/index.php/order/getOneOrder/2168 1 595 0 0
+/index.php/order/createProduct/2227 1 24 0 0
+/index.php/order/getOneOrder/1684 1 600 0 0
+/index.php/order/getproducts/864 1 170 0 0
+/index.php/order/getOneOrder/2078 8 5704 0 0
+/index.php/order/getproducts/2200 1 208 0 0
+/index.php/customer/createPro/4111 1 45 0 0
+/index.php/order/getOneOrder/1836 2 1214 0 0
+/index.php/order/getproducts/2201 3 636 0 0
+/index.php/customer/createPro/4108 1 49 0 0
+/index.php/order/getproducts/2177 1 232 0 0
+/index.php/order/getOneOrder/2226 2 1344 0 0
+/index.php/order/getOneOrder/2106 2 1352 0 0
+/index.php/order/getproducts/1721 1 220 0 0
+/index.php/customer/createPro/4328 2 92 0 0
+/index.php/order/createProduct/2265 1 24 0 0
+/index.php/order/getOneOrder/2280 1 595 0 0
+/index.php/order/getOneOrder/1106 1 666 0 0
+/index.php/order/getOneOrder/2257 3 1871 0 0
+/index.php/order/getproducts/1631 1 231 0 0
+/index.php/order/getproducts/1375 1 230 0 0
+/index.php/order/getproducts/1163 1 190 0 0
+/index.php/order/getproducts/2057 1 179 0 0
+/index.php/employee/getEmployeeForEmployee/ 8 5912 0 0
+/index.php/order/getOneOrder/783 3 1863 0 0
+/index.php/customer/createPro/4180 1 918 0 0
+/index.php/order/getOneOrder/1767 8 5152 0 0
+/index.php/order/getOneOrder/1711 9 5409 0 0
+/index.php/order/createProduct/2181 1 24 0 0
+/index.php/customer/createPro/4141 1 48 0 0
+/index.php/order/getproducts/2165 1 250 0 0
+/index.php/order/getproducts/1684 1 169 0 0
+/index.php/order/getOneOrder/599 1 613 0 0
+/index.php/order/getOneOrder/2232 1 635 0 0
+/index.php/order/getproducts/2171 1 227 0 0
+/index.php/order/createProduct/2258 1 24 0 0
+/index.php/order/getOneOrder/1723 1 629 0 0
+/index.php/order/getproducts/1324 1 185 0 0
+/index.php/customer/createPro/4267 1 45 0 0
+/index.php/order/createProduct/2256 1 24 0 0
+/index.php/customer/createPro/4166 1 46 0 0
+/index.php/customer/createPro/4292 1 45 0 0
+/index.php/order/getproducts/1750 1 236 0 0
+/index.php/order/getproducts/1468 1 210 0 0
+/index.php/order/getOneOrder/2196 2 1222 0 0
+/index.php/order/getproducts/2236 2 430 0 0
+/index.php/order/getproducts/2212 1 265 0 0
+/index.php/order/getOneOrder/1392 1 634 0 0
+/index.php/order/getproducts/2245 2 450 0 0
+/index.php/order/getOneOrder/2207 1 603 0 0
+/index.php/order/getproducts/1992 1 244 0 0
+/index.php/order/getproducts/2282 2 410 0 0
+/index.php/order/getOneOrder/1166 5 3000 0 0
+/index.php/order/getproducts/2185 4 712 0 0
+/index.php/order/createProduct/2291 1 24 0 0
+/index.php/customer/createProductEdit/2298 4 152 0 0
+/index.php/order/getOneOrder/1916 1 651 0 0
+/index.php/customer/createPro/4379 1 49 0 0
+/index.php/order/getOneOrder/1634 2 1230 0 0
+/index.php/order/getproducts/2193 1 183 0 0
+/index.php/order/getproducts/2295 1 211 0 0
+/index.php/order/getproducts/2226 2 406 0 0
+/index.php/order/getOneOrder/1777 4 2588 0 0
+/index.php/order/getOneOrder/2264 2 1250 0 0
+/index.php/customer/createPro/4202 1 48 0 0
+/index.php/customer/createPro/4146 1 48 0 0
+/index.php/order/getOneOrder/2187 2 1164 0 0
+/index.php/customer/checkEditCustomers/companyName 43 14498 0 0
+/index.php/order/getOneOrder/1482 1 596 0 0
+/index.php/customer/createPro/4260 1 45 0 0
+/index.php/order/getOneOrder/1909 2 1210 0 0
+/index.php/order/getproducts/2199 1 238 0 0
+/index.php/order/getproducts/2001 1 162 0 0
+/index.php/order/createProduct/2232 1 24 0 0
+/index.php/order/getOneOrder/2189 3 1875 0 0
+/index.php/Customer/markDone 43 1161 0 0
+/index.php/order/getOneOrder/1720 1 598 0 0
+/index.php/call/create/11 30 555 0 0
+/index.php/order/getproducts/766 1 166 0 0
+/index.php/order/getOneOrder/2244 1 595 0 0
+/index.php/order/createProduct/2185 1 24 0 0
+/index.php/order/getproducts/599 1 261 0 0
+/index.php/order/getproducts/2299 1 231 0 0
+/index.php/order/createProduct/2298 1 24 0 0
+/index.php/customer/createPro/4237 1 48 0 0
+/index.php/order/getproducts/1838 1 225 0 0
+/index.php/customer/createPro/4132 1 48 0 0
+/index.php/order/getproducts/2203 2 436 0 0
+/index.php/order/getOneOrder/787 1 634 0 0
+/index.php/order/getOneOrder/2204 2 1244 0 0
+/index.php/order/createProduct/15 1 24 0 0
+/index.php/order/getproducts/2083 1 253 0 0
+/index.php/order/getproducts/1746 1 226 0 0
+/index.php/order/getproducts/1916 1 237 0 0
+/index.php/order/getOneOrder/2296 2 1202 0 0
+/index.php/order/getproducts/1421 1 164 0 0
+/index.php/order/getproducts/1651 3 747 0 0
+/index.php/order/getOneOrder/1519 1 657 0 0
+/index.php/customer/createPro/4233 1 48 0 0
+/index.php/order/getproducts/2183 1 199 0 0
+/index.php/order/createProduct/2237 1 24 0 0
+/index.php/order/getproducts/1231 7 1652 0 0
+/index.php/order/getOneOrder/1173 1 614 0 0
+/index.php/order/getproducts/2210 2 436 0 0
+/index.php/order/getOneOrder/2290 1 603 0 0
+/index.php/order/getOneOrder/1054 1 635 0 0
+/index.php/order/getOneOrder/1199 2 1446 0 0
+/index.php/order/getproducts/1168 2 436 0 0
+/index.php/order/createProduct/2196 1 24 0 0
+/index.php/order/getOneOrder/2212 1 609 0 0
+/index.php/order/getOneOrder/2146 1 604 0 0
+/index.php/order/getOneOrder/2165 1 619 0 0
+/index.php/order/getproducts/1598 1 197 0 0
+/index.php/order/getproducts/1767 8 1968 0 0
+/index.php/order/getproducts/1578 1 227 0 0
+/index.php/order/getproducts/1373 1 225 0 0
+/index.php/customer/deletecustomer/ 23 621 0 0
+/index.php/order/getOneOrder/2240 7 4900 0 0
+/index.php/customer/createPro/4104 1 49 0 0
+/index.php/order/getOneOrder/2057 1 605 0 0
+/index.php/order/getproducts/2202 1 169 0 0
+/index.php/order/createProduct/2249 1 24 0 0
+/index.php/order/getproducts/2174 3 537 1 0
+/index.php/order/createProduct/2299 1 24 0 0
+/index.php/order/createProduct/2238 1 24 0 0
+/index.php/order/createProduct/2214 1 24 0 0
+/index.php/order/getproducts/545 1 164 0 0
+/index.php/order/getproducts/1816 1 202 0 0
+/index.php/order/getproducts/2138 1 289 0 0
+/index.php/order/getproducts/2170 2 434 0 0
+/index.php/order/getOneOrder/1592 2 1278 0 0
+/index.php/order/getproducts/1359 2 372 0 0
+/index.php/order/getOneOrder/1929 1 648 0 0
+/index.php/order/getOneOrder/1577 3 2088 0 0
+/index.php/customer/createPro/4221 1 48 0 0
+/index.php/order/getOneOrder/1614 3 1995 0 0
+/index.php/order/getOneOrder/1596 1 614 0 0
+/index.php/order/createProduct/2254 1 24 0 0
+/index.php/order/getproducts/1711 9 1611 0 0
+/index.php/order/getproducts/1740 1 214 0 0
+/index.php/order/getOneOrder/1324 1 624 0 0
+/index.php/order/getproducts/2209 3 768 0 0
+/index.php/order/getOneOrder/2093 4 2336 0 0
+/index.php/customer/createPro/4168 1 898 0 0
+/index.php/order/getproducts/2086 6 1338 0 0
+/index.php/order/orderdelete/2224 1 27 0 0
+/index.php/order/getproducts/2219 1 235 0 0
+/index.php/order/getproducts/2213 1 227 0 0
+/index.php/order/getOneOrder/1714 4 2416 0 0
+/index.php/order/createProduct/2267 1 24 0 0
+/index.php/order/createProduct/2202 1 24 0 0
+/index.php/customer/createPro/4153 1 898 0 0
+/index.php/Reports/getPaymentReportMonthly 1 20098 0 0
+/index.php/order/getproducts/2106 2 640 0 0
+/index.php/order/getproducts/2046 1 215 0 0
+/index.php/employee/getOneEmployee/19 13 2704 0 0
+/index.php/customer/createPro/4231 1 45 0 0
+/index.php/order/createProduct/2186 1 24 0 0
+/index.php/order/getproducts/2266 1 181 0 0
+/index.php/customer/createPro/4142 1 48 0 0
+/index.php/order/getOneOrder/2300 1 838 0 0
+/index.php/customer/createPro/4145 2 92 0 0
+/index.php/customer/createPro/4343 1 45 0 0
+/index.php/order/getproducts/2194 4 796 0 0
+/index.php/order/createProduct/2268 1 24 0 0
+/index.php/order/getOneOrder/1602 2 1212 0 0
+/index.php/order/getproducts/1606 1 185 0 0
+/index.php/order/getproducts/1603 1 236 0 0
+/index.php/order/getproducts/1784 1 186 0 0
+/index.php/order/getproducts/1967 6 1416 0 0
+/index.php/order/getproducts/2182 3 636 0 0
+/index.php/order/getproducts/2043 2 442 0 0
+/index.php/order/getOneOrder/1816 1 590 0 0
+/index.php/order/getproducts/2230 1 226 0 0
+/index.php/order/getOneOrder/1884 1 694 0 0
+/index.php/order/getproducts/1865 1 321 0 0
+/index.php/order/createProduct/2178 1 24 0 0
+/index.php/order/createProduct/2294 1 24 0 0
+/index.php/order/getOneOrder/2181 2 1228 0 0
+/index.php/order/getproducts/2237 1 184 0 0
+/index.php/order/getproducts/2176 1 208 0 0
+/index.php/customer/createPro/4339 1 46 0 0
+/index.php/order/getOneOrder/2217 2 1292 0 0
+/index.php/order/getOneOrder/2220 1 649 0 0
+/index.php/order/getOneOrder/2238 1 613 0 0
+/index.php/order/createProduct/2222 1 24 0 0
+/index.php/order/getproducts/1563 1 172 0 0
+/index.php/order/getOneOrder/1740 1 718 0 0
+/index.php/order/getproducts/1165 1 174 0 0
+/index.php/order/getproducts/2280 1 191 0 0
+/index.php/order/getproducts/1714 4 804 0 0
+/index.php/order/getOneOrder/2288 2 1264 0 0
+/index.php/order/getproducts/1482 1 228 0 0
+/index.php/order/createProduct/2251 1 24 0 0
+/index.php/order/getOneOrder/2277 1 632 0 0
+/index.php/order/getproducts/1609 1 247 0 0
+/index.php/order/createProduct/2271 1 24 0 0
+/index.php/order/createProduct/2276 1 24 0 0
+/index.php/order/getOneOrder/2173 2 1252 0 0
+/index.php/order/getOneOrder/2245 2 1240 0 0
+/index.php/order/getOneOrder/1784 1 677 0 0
+/index.php/order/createProduct/2199 1 24 0 0
+/index.php/order/createProduct/2230 1 24 0 0
+/index.php/order/getOneOrder/2086 6 3824 0 0
+/index.php/order/getOneOrder/1375 1 603 0 0
+/index.php/order/getOneOrder/1587 1 651 0 0
+/index.php/order/createProduct/2264 1 24 0 0
+/index.php/order/getproducts/707 2 478 0 0
+/index.php/order/getproducts/1929 1 248 0 0
+/index.php/order/createProduct/2305 1 24 0 0
+/index.php/order/getOneOrder/864 1 694 0 0
+/index.php/order/createProduct/2184 1 24 0 0
+/index.php/employee/getOneEmployee/15 24 4968 0 0
+/index.php/customer/createPro/4124 1 49 0 0
+/index.php/order/getproducts/1757 1 220 0 0
+/index.php/employee/getOneEmployee/9 2 428 0 0
+/index.php/order/getproducts/1106 1 184 0 0
+/index.php/order/getproducts/2060 1 189 0 0
+/index.php/order/getOneOrder/2254 2 1232 0 0
+/index.php/order/getOneOrder/2043 2 1261 0 0
+/index.php/order/getproducts/1392 1 220 0 0
+/index.php/order/updateProduct/5205 1 396 0 0
+/index.php/customer/create/19 82 1599 0 0
+/index.php/order/getOneOrder/2022 1 604 0 0
+/index.php/order/getOneOrder/1912 3 1938 0 0
+/index.php/order/createProduct/2293 1 24 0 0
+/index.php/order/createProduct/2183 1 24 0 0
+/index.php/order/createProduct/2220 1 24 0 0
+/index.php/order/getOneOrder/2016 1 611 0 0
+/index.php/order/createProduct/2242 1 24 0 0
+/index.php/order/getproducts/2208 2 352 0 0
+/index.php/order/getproducts/2204 2 366 0 0
+/index.php/order/createProduct/2221 1 24 0 0
+/index.php/customer/createPro/4223 1 46 0 0
+/index.php/order/createProduct/2217 1 24 0 0
+/index.php/order/getOneOrder/707 2 1238 0 0
+/index.php/order/getproducts/2285 1 216 0 0
+/index.php/order/getproducts/1912 3 546 0 0
+/index.php/order/getproducts/1957 1 254 0 0
+/index.php/customer/createPro/4175 1 45 0 0
+/index.php/order/getproducts/1893 5 1630 0 0
+/index.php/order/getOneOrder/2177 1 657 0 0
+/index.php/order/createProduct/2224 1 24 0 0
+/index.php/order/createProduct/2285 1 24 0 0
+/index.php/order/getproducts/1690 1 170 0 0
+/index.php/order/createProduct/2260 1 24 0 0
+/index.php/customer/checkEditCustomers/email 96 156025 0 0
+/index.php/order/getproducts/592 1 168 0 0
+/index.php/order/getproducts/2184 2 440 0 0
+/index.php/order/getOneOrder/1343 2 1232 0 0
+/index.php/customer/createPro/4298 3 138 0 0
+/index.php/order/getOneOrder/2259 2 1334 0 0
+/index.php/order/getOneOrder/2281 2 1280 0 0
+/index.php/order/getOneOrder/2172 4 2392 0 0
+/index.php/customer/createPro/4325 1 49 0 0
+/index.php/call/create/12 14 2688 0 0
+/index.php/order/getproducts/1587 1 211 0 0
+/index.php/order/getproducts/2239 1 276 0 0
+/index.php/order/getproducts/2224 2 344 0 0
+/index.php/order/getOneOrder/2271 1 641 0 0
+/index.php/customer/createPro/4242 1 45 0 0
+/index.php/order/getOneOrder/2295 1 622 0 0
+/index.php/order/getproducts/1961 4 908 0 0
+/index.php/order/createProduct/2189 1 24 0 0
+/index.php/order/getOneOrder/2218 2 1324 0 0
+/index.php/customer/createPro/4102 1 879 0 0
+/index.php/order/getproducts/787 1 244 0 0
+/index.php/order/getOneOrder/2201 3 1890 0 0
+/index.php/customer/createPro/4155 1 45 0 0
+/index.php/order/getproducts/2242 4 996 0 0
+/index.php/order/createProduct/2243 1 24 0 0
+/index.php/order/createProduct/2266 1 24 0 0
+/index.php/order/getproducts/2274 3 681 0 0
+/index.php/order/getproducts/2298 1 220 0 0
+/index.php/customer/createPro/4262 1 48 0 0
+/index.php/order/getOneOrder/1893 5 3377 0 0
+/index.php/customer/createPro/4112 1 46 0 0
+/index.php/customer/createPro/4187 1 908 0 0
+/index.php/customer/createPro/4211 1 48 0 0
+/index.php/customer/createPro/4151 1 45 0 0
+/index.php/order/getOneOrder/2184 2 1316 0 0
+/index.php/order/getproducts/2229 1 257 0 0
+/index.php/order/getOneOrder/1906 1 636 0 0
+/index.php/order/createProduct/2292 1 24 0 0
+/index.php/order/getproducts/1906 1 244 0 0
+/index.php/order/getOneOrder/2087 2 1270 0 0
+/index.php/order/getOneOrder/2287 1 601 0 0
+/index.php/order/getproducts/2268 2 440 0 0
+/index.php/order/getproducts/1760 1 223 0 0
+/index.php/order/getOneOrder/1961 4 2416 0 0
+/index.php/order/getOneOrder/2283 4 2636 0 0
+/index.php/order/createProduct/2205 1 24 0 0
+/index.php/order/getproducts/2251 1 220 0 0
+/index.php/order/getproducts/2294 3 771 0 0
+/index.php/order/createProduct/2282 1 24 0 0
+/index.php/order/createProduct/2306 1 24 0 0
+/index.php/order/getOneOrder/1373 1 602 0 0
+/index.php/customer/createPro/4117 1 46 0 0
+/index.php/order/getOneOrder/2223 1 594 0 0
+/index.php/order/getproducts/1334 1 180 0 0
+/index.php/order/getOneOrder/2255 1 649 0 0
+/index.php/order/getproducts/1983 1 236 0 0
+/index.php/order/getproducts/2233 1 209 0 0
+/index.php/order/getproducts/2243 1 160 0 0
+/index.php/order/getOneOrder/1920 1 668 0 0
+/index.php/order/createProduct/2304 1 24 0 0
+/index.php/order/createProduct/2197 1 24 0 0
+/index.php/order/getOneOrder/1635 1 647 0 0
+/index.php/order/createProduct/2213 1 24 0 0
+/index.php/order/getproducts/2255 1 234 0 0
+/index.php/order/getOneOrder/2234 2 1216 0 0
+/index.php/order/getOneOrder/1284 1 614 0 0
+/index.php/customer/createPro/4374 1 45 0 0
+/index.php/customer/createPro/4349 1 46 0 0
+/index.php/order/getOneOrder/1886 3 1791 0 0
+/index.php/order/getOneOrder/2025 11 6918 0 0
+/index.php/order/getOneOrder/1164 2 1214 0 0
+/index.php/order/createProduct/2223 1 24 0 0
+/index.php/customer/createPro/4306 1 46 0 0
+/index.php/order/getproducts/2262 3 537 0 0
+/index.php/customer/createPro/4326 2 90 0 0
+/index.php/customer/createPro/4176 1 49 0 0
+/index.php/order/createProduct/2246 1 24 0 0
+/index.php/order/getOneOrder/2282 2 1250 0 0
+/index.php/order/createProduct/2187 1 24 0 0
+/index.php/order/getproducts/1828 1 184 0 0
+/index.php/order/getOneOrder/1891 3 2058 0 0
+/index.php/order/getproducts/1602 2 340 0 0
+/index.php/order/getproducts/2238 1 276 0 0
+/index.php/order/getOneOrder/2297 2 1246 0 0
+/index.php/order/getproducts/2302 7 1211 0 0
+/index.php/order/getproducts/2016 1 219 0 0
+/index.php/Call/markCallDone 46 1794 0 0
+/index.php/order/getproducts/965 2 376 0 0
+/index.php/order/createProduct/2284 1 24 0 0
+/index.php/customer/createPro/4173 1 45 0 0
+/index.php/order/createProduct/2262 1 24 0 0
+/index.php/customer/createPro/4178 1 879 0 0
+/index.php/order/getOneOrder/2188 2 1260 0 0
+/index.php/order/getproducts/593 1 162 0 0
+/index.php/order/getOneOrder/2260 2 1272 0 0
+/index.php/order/getOneOrder/2017 1 670 0 0
+/index.php/order/createProduct/2211 1 24 0 0
+/index.php/customer/createPro/4107 2 966 0 0
+/index.php/order/getproducts/1960 3 588 0 0
+/index.php/order/getOneOrder/2001 1 572 0 0
+/index.php/order/createProduct/2193 1 24 0 0
+/index.php/order/getproducts/1794 7 1659 0 0
+/index.php/order/createProduct/2240 1 24 0 0
+/index.php/order/createProduct/2206 1 24 0 0
+/index.php/order/getOneOrder/2261 2 1206 0 0
+/index.php/order/getOneOrder/593 1 607 0 0
+/index.php/customer/createPro/4324 1 45 0 0
+/index.php/customer/checkEditCustomers/mobile 24 367 0 0
+/index.php/order/getOneOrder/1594 1 632 0 0
+/index.php/order/createProduct/2252 1 24 0 0
+/index.php/order/getproducts/2222 9 1926 0 0
+/index.php/order/getOneOrder/2193 1 613 0 0
+/index.php/order/getOneOrder/1598 1 621 0 0
+/index.php/order/getOneOrder/2105 7 4508 0 0
+/index.php/order/getproducts/2056 2 580 0 0
+/index.php/order/getproducts/2273 1 182 0 0
+/index.php/customer/createPro/4224 1 48 0 0
+/index.php/customer/createPro/4161 1 49 0 0
+/index.php/order/getproducts/2215 1 219 0 0
+/index.php/order/getproducts/2191 3 756 0 0
+/index.php/customer/createPro/4252 1 898 0 0
+/index.php/order/getproducts/1928 1 171 0 0
+/index.php/order/getOneOrder/2191 3 1854 0 0
+/index.php/order/getproducts/2211 1 246 0 0
+/index.php/order/getproducts/1829 5 1065 0 0
+/index.php/order/getOneOrder/2072 1 646 0 0
+/index.php/order/getOneOrder/1165 1 597 0 0
+/ 17 94 17 17
+/index.php/order/getproducts/1685 1 244 0 0
+/index.php/order/getproducts/1877 1 209 0 0
+/index.php/order/getproducts/1422 1 189 0 0
+/index.php/order/getproducts/2197 1 187 0 0
+/index.php/customer/createPro/4243 1 45 0 0
+/index.php/order/getproducts/2079 7 1365 0 0
+/index.php/order/getOneOrder/1658 1 639 0 0
+/index.php/order/getproducts/1596 1 229 0 0
+/index.php/order/getproducts/2187 2 434 0 0
+/index.php/customer/createPro/4309 1 46 0 0
+/index.php/order/getproducts/2270 1 227 0 0
+/index.php/order/getproducts/2276 2 356 0 0
+/index.php/order/getOneOrder/558 1 632 0 0
+/index.php/order/getproducts/2271 1 187 0 0
+/index.php/order/getproducts/2146 1 220 0 0
+/index.php/order/createProduct/2176 1 24 0 0
+/index.php/order/getproducts/2300 1 244 0 0
+/index.php/order/getOneOrder/1921 1 658 0 0
+/index.php/order/getOneOrder/1661 1 670 0 0
+/index.php/order/getproducts/1975 4 828 0 0
+/index.php/order/createProduct/2201 1 24 0 0
+/index.php/order/getproducts/2181 2 360 0 0
+/index.php/order/getOneOrder/1838 1 599 0 0
+/index.php/order/createProduct/2297 1 24 0 0
+/index.php/order/getOneOrder/2250 1 592 0 0
+/index.php/order/getproducts/562 1 226 0 0
+/index.php/order/getOneOrder/2213 1 609 0 0
+/index.php/customer/createPro/4377 1 48 0 0
+/index.php/order/getproducts/1577 3 732 0 0
+/index.php/customer/createPro/4101 1 48 0 0
+/index.php/order/getproducts/2260 2 454 0 0
+/index.php/order/createProduct/2301 1 24 0 0
+/index.php/order/getproducts/2288 2 472 0 0
+/index.php/order/getproducts/1314 4 716 0 0
+/index.php/order/getOneOrder/592 1 603 0 0
+/index.php/order/getOneOrder/989 1 682 0 0
+/index.php/order/createProduct/2218 1 24 0 0
+/index.php/order/getOneOrder/2013 1 609 0 0
+/index.php/customer/createPro/4152 1 48 0 0
+/index.php/order/getOneOrder/1631 1 668 0 0
+/index.php/order/getOneOrder/2285 1 621 0 0
+/index.php/order/getproducts/1302 1 236 0 0
+/index.php/order/getproducts/2241 1 251 0 0
+/index.php/order/updateOrder/2043/1 2 41 0 0
+/index.php/order/getOneOrder/1949 1 668 0 0
+/index.php/employee/getOneEmployee/6 7 1456 0 0
+/index.php/order/getproducts/2248 4 736 0 0
+/index.php/customer/createPro/4218 1 49 0 0
+/index.php/order/createProduct/2296 1 24 0 0
+/index.php/order/getOneOrder/965 2 1292 0 0
+/index.php/order/getOneOrder/2293 3 2022 0 0
+/index.php/order/getOneOrder/2306 1 648 0 0
+/index.php/customer/createPro/4139 1 46 0 0
+/index.php/customer/createPro/4278 1 49 0 0
+/index.php/order/getOneOrder/1344 1 641 0 0
+/index.php/customer/createPro/4179 2 92 0 0
+/index.php/customer/createPro/4191 1 45 0 0
+/index.php/order/getproducts/2232 1 246 0 0
+/index.php/order/getproducts/1905 2 450 0 0
+/index.php/order/getOneOrder/2199 1 669 0 0
+/index.php/customer/createPro/4160 1 45 0 0
+/index.php/order/createProduct/2228 1 24 0 0
+/index.php/order/getOneOrder/1599 1 641 0 0
+/index.php/order/createProduct/2229 1 24 0 0
+/index.php/order/getOneOrder/562 1 694 0 0
+/index.php/order/getproducts/2228 1 220 0 0
+/index.php/order/getOneOrder/2267 1 660 0 0
+/index.php/order/getOneOrder/1636 5 3230 0 0
+/index.php/order/getOneOrder/2194 4 2448 0 0
+/index.php/customer/createPro/4333 1 48 0 0
+/index.php/order/createProduct/2175 1 24 0 0
+/index.php/order/getproducts/2297 2 352 0 0
+/index.php/order/getOneOrder/997 3 1977 0 0
+/index.php/customer/createPro/4320 1 45 0 0
+/index.php/order/getOneOrder/2198 1 620 0 0
+/index.php/order/getproducts/1630 1 250 0 0
+/index.php/order/getproducts/2105 7 1806 0 0
+/index.php/order/getproducts/2179 1 219 0 0
+/index.php/order/createProduct/2288 1 24 0 0
+/index.php/order/getOneOrder/1231 7 4459 0 0
+/index.php/order/getproducts/1949 1 243 0 0
+/index.php/order/getOneproducts/5752 1 187 0 0
+/index.php/order/getproducts/1627 1 232 0 0
+/index.php/customer/createPro/4200 1 49 0 0
+/index.php/customer/createPro/4212 1 48 0 0
+/index.php/order/createProduct/2261 1 24 0 0
+/index.php/order/getOneOrder/2221 3 2001 0 0
+/index.php/customer/createPro/4125 1 892 0 0
+/index.php/order/getOneOrder/2151 1 679 0 0
+/index.php/order/getOneOrder/1578 1 647 0 0
+/index.php/customer/createPro/4133 1 48 0 0
+/index.php/order/getproducts/2284 1 179 0 0
+/index.php/order/getOneOrder/2258 2 1267 0 0
+/index.php/order/getproducts/1614 3 657 0 0
+/index.php/order/getOneOrder/2227 3 1875 0 0
+/index.php/employee/getOneEmployee/14 18 3798 0 0
+/index.php/order/createProduct/2226 1 24 0 0
+/index.php/order/getOneOrder/1563 1 610 0 0
+/index.php/order/getOneOrder/1668 1 620 0 0
+/index.php/customer/createProductEdit/4268 4 152 0 0
+/index.php/order/getOneOrder/1014 1 658 0 0
+/index.php/order/createProduct/2182 1 24 0 0
+/index.php/customer/createPro/4120 1 45 0 0
+/index.php/order/getproducts/1773 2 474 0 0
+/index.php/order/getproducts/1344 1 169 0 0
+/index.php/order/getOneOrder/2215 1 588 0 0
+/index.php/order/getproducts/1921 1 270 0 0
+/index.php/order/getOneOrder/2210 2 1198 0 0
+/index.php/order/getOneOrder/2182 3 1815 0 0
+/index.php/order/getproducts/2087 2 454 0 0
+/index.php/order/getOneOrder/1757 1 616 0 0
+/index.php/order/getOneOrder/1168 2 1164 0 0
+/index.php/order/getproducts/2247 4 696 0 0
+/index.php/order/getOneOrder/2195 4 2404 0 0
+/index.php/order/createProduct/2300 1 24 0 0
+/index.php/order/getproducts/1658 1 176 0 0
+/index.php/order/getproducts/997 3 789 0 0
+/index.php/order/getOneOrder/1627 1 593 0 0
+/index.php/order/getOneOrder/2178 1 646 0 0
+/index.php/order/getproducts/1227 1 239 0 0
+/index.php/order/createProduct/2278 1 24 0 0
+/index.php/order/getproducts/2231 1 176 0 0
+/index.php/order/getproducts/2289 3 561 0 0
+/index.php/order/createProduct/2277 1 24 0 0
+/index.php/customer/createProductEdit/4187 4 152 0 0
+/index.php/order/createProduct/2215 1 24 0 0
+/index.php/order/getOneOrder/2269 1 611 0 0
+/index.php/order/getproducts/1987 2 472 0 0
+/index.php/order/getOneOrder/1422 1 639 0 0
+/index.php/order/getOneOrder/1960 3 1953 0 0
+/index.php/order/getproducts/1611 2 438 0 0
+/index.php/order/getOneOrder/2203 2 1638 0 0
+/index.php/order/checkPoNumber/ 6 905 0 0
+/index.php/order/createProduct/2203 1 24 0 0
+/index.php/order/getproducts/2206 3 561 0 0
+/index.php/order/createProduct/2188 1 24 0 0
+/index.php/order/createProduct/2269 1 24 0 0
+/index.php/order/getOneOrder/2171 1 621 0 0
+/index.php/order/createProduct/2290 1 24 0 0
+/index.php/customer/createPro/4201 1 48 0 0
+/index.php/order/getOneOrder/1685 1 600 0 0
+/index.php/order/getOneOrder/2299 1 641 0 0
+/index.php/order/getOneOrder/2289 3 1893 0 0
+/index.php/customer/createPro/4315 1 46 0 0
+/index.php/order/getOneOrder/1967 6 3831 0 0
+/index.php/order/getOneOrder/1935 2 1400 0 0
+/index.php/order/getOneOrder/811 1 590 0 0
+/index.php/order/getOneOrder/2243 1 590 0 0
+/index.php/order/getOneOrder/2278 1 666 0 0
+/index.php/order/updateOrder/1967/11 2 41 0 0
+/index.php/customer/createPro/4318 1 918 0 0
+/index.php/order/createProduct/2209 1 24 0 0
+/index.php/order/updateOrder/2025/22 2 41 0 0
+/index.php/order/getproducts/2173 2 448 0 0
+/index.php/order/getOneOrder/1183 3 1962 0 0
+/index.php/order/getproducts/1166 5 955 0 0
+/index.php/order/getproducts/2217 2 458 0 0
+/index.php/order/getOneOrder/1801 1 643 0 0
+/index.php/order/getOneOrder/2180 2 1246 0 0
+/index.php/order/getOneOrder/2233 1 614 0 0
+/index.php/order/getOneOrder/2186 2 1202 0 0
+/index.php/order/getproducts/1654 1 192 0 0
+/index.php/order/getOneOrder/2256 2 1220 0 0
+/index.php/customer/createPro/4232 1 48 0 0
+/index.php/order/getproducts/2192 3 543 0 0
+/index.php/order/getOneOrder/1946 1 642 0 0
+/index.php/order/getproducts/1717 2 376 0 0
+/index.php/order/getOneOrder/1975 4 2652 0 0
+/index.php/order/getproducts/1945 5 905 0 0
+/index.php/order/createProduct/1 3 72 0 0
+/index.php/customer/createPro/4290 1 45 0 0
+/index.php/order/getOneOrder/1606 1 667 0 0
+/index.php/order/getproducts/1599 1 228 0 0
+/index.php/order/getproducts/2286 1 178 0 0
+/index.php/customer/checkEditCustomers/tel_no 37 566 0 0
+/index.php/customer/createPro/4248 1 46 0 0
+/index.php/order/getOneOrder/2276 2 1236 0 0
+/index.php/order/createProduct/2208 1 24 0 0
+/index.php/order/getOneOrder/2208 2 1260 0 0
+/index.php/order/getOneOrder/2302 7 4617 0 0
+/index.php/order/updateOrder/2302/11 2 41 0 0
+/index.php/customer/createPro/4269 1 46 0 0
+/index.php/order/getproducts/2024 7 1337 0 0
+/index.php/order/getproducts/2235 3 798 0 0
+/index.php/customer/createPro/4122 1 45 0 0
+/index.php/customer/createPro/4319 1 46 0 0
+/index.php/order/getOneOrder/2216 2 1186 0 0
+/index.php/order/getOneOrder/2251 1 635 0 0
+/index.php/order/getproducts/1014 1 183 0 0
+/index.php/order/getproducts/2131 1 216 0 0
+/index.php/order/getproducts/2258 2 484 0 0
+/index.php/order/getOneOrder/1468 1 618 0 0
+/index.php/order/createProduct/2279 1 24 0 0
+/index.php/order/getOneOrder/2225 1 638 0 0
+/index.php/order/getOneOrder/2231 1 597 0 0
+/index.php/order/getOneOrder/1717 2 1348 0 0
+/index.php/order/createProduct/2216 1 24 0 0
+/index.php/order/createProduct/2194 1 24 0 0
+/index.php/order/getproducts/2250 1 166 0 0
+/index.php/order/createProduct/2233 1 24 0 0
+/index.php/order/getOneOrder/2014 4 2592 0 0
+/index.php/order/getOneOrder/1302 1 632 0 0
+/index.php/order/getOneOrder/1651 3 1989 0 0
+/index.php/order/getproducts/2254 2 368 0 0
+/index.php/order/getOneOrder/1760 1 673 0 0
+/index.php/order/getOneOrder/1334 1 643 0 0
+/index.php/customer/createPro/4337 4 184 0 0
+/index.php/order/getproducts/2022 1 173 0 0
+/index.php/order/getOneOrder/1746 1 610 0 0
+/index.php/order/getproducts/2277 1 188 0 0
+/index.php/order/getOneOrder/1603 1 623 0 0
+/index.php/order/getproducts/2261 2 380 0 0
+/index.php/customer/createPro/4282 1 48 0 0
+/index.php/order/getOneproducts/5205 1 184 0 0
+/index.php/order/getOneOrder/1750 1 601 0 0
+/index.php/order/createProduct/2248 1 24 0 0
+/index.php/customer/createPro/4238 1 48 0 0
+/index.php/order/getproducts/1635 1 183 0 0
+/index.php/order/getOneOrder/2275 4 2608 0 0
+/index.php/order/getOneOrder/2224 2 1268 0 0
+/index.php/customer/createPro/4291 1 45 0 0
+/index.php/customer/createPro/4240 1 48 0 0
+/index.php/order/createProduct/2198 1 24 0 0
+/index.php/order/getproducts/2025 11 2409 0 0
+/index.php/customer/createPro/4250 1 45 0 0
+/index.php/customer/checkCustomer/mobile 35 723 0 0
+/index.php/order/getproducts/2259 2 656 0 0
+/index.php/Reports/getSalesReportDaily 11 1587 0 0
+/index.php/customer/createPro/4064 1 49 0 0
+/index.php/call/create/8 40 740 0 0
+/index.php/order/getproducts/2252 7 1505 0 0
+/index.php/order/getOneOrder/2298 1 712 0 0
+/index.php/order/getproducts/1164 2 428 0 0
+/index.php/order/getproducts/2221 3 783 0 0
+/index.php/order/createProduct/2286 1 24 0 0
+/index.php/order/getOneOrder/2235 3 1926 0 0
+/index.php/order/getOneOrder/1150 3 1959 0 0
+/index.php/call/create/5 2 384 0 0
+/index.php/order/getOneOrder/2083 1 678 0 0
+/index.php/order/createProduct/2231 1 24 0 0
+/index.php/order/createProduct/2239 1 24 0 0
+/index.php/order/getproducts/2291 1 202 0 0
+/index.php/order/getOneOrder/2272 2 1250 0 0
+/index.php/order/getOneOrder/1690 1 614 0 0
+/index.php/order/getOneOrder/2024 7 4669 0 0
+/index.php/customer/createPro/4225 1 49 0 0
+/index.php/order/createProduct/2287 1 24 0 0
+/index.php/order/getproducts/2225 1 174 0 0
+/index.php/order/getproducts/2292 1 182 0 0
+/index.php/order/getproducts/2189 3 708 0 0
+/index.php/customer/createPro/4193 1 46 0 0
+/index.php/order/getOneOrder/2241 1 620 0 0
+/index.php/order/getOneOrder/2170 2 1212 0 0
+/index.php/order/createProduct/2272 1 24 0 0
+/index.php/customer/createPro/4321 1 48 0 0
+/index.php/order/createProduct/2263 1 24 0 0
+/index.php/customer/createPro/4323 1 45 0 0
+/index.php/order/getOneOrder/2131 1 631 0 0
+/index.php/customer/createPro/4258 1 49 0 0
+/index.php/customer/createPro/4128 1 49 0 0
+/index.php/order/createProduct/2191 1 24 0 0
+/index.php/order/getproducts/2195 4 1016 0 0
+/index.php/order/getproducts/2272 2 366 0 0
+/index.php/order/getproducts/2017 1 185 0 0
+/index.php/customer/createPro/4061 1 49 0 0
+/index.php/order/getOneOrder/1721 1 589 0 0
+/index.php/order/getproducts/989 1 223 0 0
+/index.php/order/getproducts/2180 2 414 0 0
+/index.php/order/getOneOrder/2176 1 631 0 0
+/index.php/order/getOneOrder/2284 1 615 0 0
+/index.php/customer/createPro/4203 1 879 0 0
+/index.php/order/getOneOrder/2183 1 621 0 0
+/index.php/order/getOneOrder/1865 1 641 0 0
+/index.php/order/getOneOrder/2206 3 1947 0 0
+/index.php/order/getOneOrder/1421 1 595 0 0
+/index.php/order/createProduct/2244 1 24 0 0
+/index.php/order/getproducts/2306 1 255 0 0
+/index.php/order/getOneOrder/2205 1 618 0 0
+/index.php/order/getproducts/2196 2 352 0 0
+/index.php/order/createProduct/2273 1 24 0 0
+/index.php/order/getproducts/1891 3 567 0 0
+/index.php/order/getproducts/2240 7 1715 0 0
+/index.php/order/getOneOrder/1480 1 597 0 0
+/index.php/order/getproducts/2014 4 688 0 0
+/index.php/order/getOneOrder/1359 2 1334 0 0
+/index.php/order/getOneOrder/2247 4 2684 0 0
+/index.php/order/getproducts/1181 2 430 0 0
+/index.php/order/getOneOrder/2274 3 2040 0 0
+/index.php/order/getOneOrder/1633 6 3750 0 0
+/index.php/order/getproducts/1172 1 231 0 0
+/index.php/order/getOneOrder/2228 1 642 0 0
+/index.php/customer/createPro/4137 1 48 0 0
+/index.php/customer/createPro/4059 1 46 0 0
+/index.php/order/getOneOrder/2286 1 606 0 0
+/index.php/order/getproducts/2009 1 183 0 0
+/index.php/order/getOneOrder/1829 5 3375 0 0
+/index.php/order/getproducts/1884 1 250 0 0
+/index.php/order/createProduct/2235 1 24 0 0
+/index.php/customer/createPro/4358 1 46 0 0
+/index.php/customer/createPro/4188 1 46 0 0
+/index.php/order/createProduct/2289 1 24 0 0
+/index.php/customer/createPro/4322 1 49 0 0
+/index.php/order/getOneOrder/1253 1 582 0 0
+/index.php/order/getOneOrder/1987 2 1204 0 0
+/index.php/order/getproducts/1661 1 169 0 0
+/index.php/order/getproducts/1636 5 915 0 0
+/index.php/order/getproducts/1909 2 486 0 0
+/index.php/order/createProduct/2295 1 24 0 0
+/index.php/order/createProduct/2280 1 24 0 0
+/index.php/customer/createPro/4190 1 48 0 0
+/index.php/order/getproducts/1199 2 648 0 0
+/index.php/order/getproducts/1253 1 227 0 0
+/index.php/customer/createPro/4185 1 45 0 0
+/index.php/customer/deleteEditProCustomer 1 27 0 0
+/index.php/order/getOneOrder/2169 2 1212 0 0
+/index.php/customer/createPro/4229 1 880 0 0
+/index.php/customer/createPro/4239 1 49 0 0
+/index.php/order/getOneOrder/2248 4 2428 0 0
+/index.php/order/getproducts/1836 2 472 0 0
+/index.php/order/getOneOrder/2279 1 605 0 0
+/index.php/order/getOneOrder/1314 4 2664 0 0
+/index.php/order/getproducts/1634 2 498 0 0
+/index.php/Payment/view/3436 1 220 0 0
+/index.php/order/getOneOrder/1163 1 591 0 0
+/index.php/customer/createPro/4289 1 46 0 0
+/index.php/order/getOneOrder/2185 4 2836 0 0
+/index.php/customer/createPro/4158 1 48 0 0
+/index.php/order/getOneOrder/1928 1 654 0 0
+/index.php/order/getproducts/2013 1 210 0 0
+/index.php/order/getproducts/1720 1 198 0 0
+/index.php/order/getproducts/1920 1 236 0 0
+/index.php/customer/createPro/4162 1 45 0 0
+/index.php/customer/create/12 10 195 0 0
+/index.php/order/getproducts/2290 1 206 0 0
+/index.php/order/getOneOrder/1609 1 651 0 0
+/index.php/order/getOneOrder/2246 2 1302 0 0
+/index.php/order/createProduct/2303 1 24 0 0
+/index.php/order/getOneOrder/2273 1 644 0 0
+/index.php/order/getproducts/2275 4 728 0 0
+/index.php/order/getproducts/558 1 219 0 0
+/index.php/order/getproducts/2264 2 360 0 0
+/index.php/order/getOneOrder/545 1 652 0 0
+/index.php/order/getOneOrder/2266 1 664 0 0
+/index.php/order/updateProduct/5752 1 395 0 0
+/index.php/order/getproducts/783 3 594 0 0
+/index.php/order/createProduct/2200 1 24 0 0
+/index.php/order/getOneOrder/2230 1 647 0 0
+/index.php/order/getOneOrder/1742 1 600 0 0
+/index.php/order/getOneOrder/2202 1 604 0 0
+/index.php/order/createProduct/2195 1 24 0 0
+/index.php/order/getproducts/2072 1 208 0 0
+/index.php/order/getOneOrder/1794 7 4473 0 0
+/index.php/customer/createPro/4103 1 49 0 0
+/index.php/order/getproducts/2151 1 321 0 0
+/index.php/customer/createPro/4266 1 45 0 0
+/index.php/order/getOneOrder/1877 1 723 0 0
+/index.php/order/createProduct/2257 1 24 0 0
+/index.php/order/createProduct/2283 1 24 0 0
+/index.php/order/createProduct/2247 1 24 0 0
+END_SIDER

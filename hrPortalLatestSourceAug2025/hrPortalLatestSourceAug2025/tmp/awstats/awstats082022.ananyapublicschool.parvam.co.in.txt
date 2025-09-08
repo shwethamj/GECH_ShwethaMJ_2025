@@ -1,0 +1,1652 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202208 will be lost/reset.
+# Last config file used to build this data file was /home4/parvamco/tmp/awstats/awstats.ananyapublicschool.parvam.co.in.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2029                
+POS_TIME 2711                
+POS_VISITOR 53996               
+POS_DAY 72245               
+POS_DOMAIN 3612                
+POS_LOGIN 4252                
+POS_ROBOT 4407                
+POS_WORMS 5076                
+POS_EMAILSENDER 5207                
+POS_EMAILRECEIVER 5350                
+POS_SESSION 73101               
+POS_SIDER 73302               
+POS_FILETYPES 5485                
+POS_DOWNLOADS 5722                
+POS_OS 5770                
+POS_BROWSER 6245                
+POS_SCREENSIZE 9170                
+POS_UNKNOWNREFERER 9244                
+POS_UNKNOWNREFERERBROWSER 10118               
+POS_ORIGIN 10802               
+POS_SEREFERRALS 10944               
+POS_PAGEREFS 11124               
+POS_SEARCHWORDS 11496               
+POS_KEYWORDS 11648               
+POS_MISC 2375                
+POS_ERRORS 11707               
+POS_CLUSTER 4108                
+POS_SIDER_404 11843               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20220901003708 115 31484 23803620698798
+FirstTime 20220801004532
+LastTime 20220831212250
+LastUpdate 20220901062850 115 0 114 0 0
+TotalVisits 742                 
+TotalUnique 478                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 486                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+DirectorSupport 0 0 0
+JavascriptDisabled 0 0 0
+JavaEnabled 0 0 0
+RealPlayerSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+FlashSupport 0 0 0
+TotalMisc 0 0 0
+PDFSupport 0 0 0
+AddToFavourites 0 3 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 92 260 5707726 158 269 1454199
+1 86 194 5552678 305 459 2189987
+2 61 84 435278 388 484 1313348
+3 66 112 2081525 304 394 1321519
+4 50 65 353127 239 316 1134180
+5 79 126 2092195 431 457 344069
+6 55 100 1046694 201 240 206272
+7 65 110 1047579 2033 2062 1290640
+8 64 95 702941 247 273 304213
+9 38 38 8666 184 196 44658
+10 79 126 3115622 399 422 337279
+11 71 101 702155 371 398 790816
+12 77 123 2087129 367 421 1816969
+13 56 87 1731451 290 307 57173
+14 83 160 3808567 211 243 55492
+15 33 50 352743 164 175 31054
+16 72 151 1775905 437 682 1236940
+17 51 96 1048484 942 963 16806
+18 73 103 702599 4541 4627 1161790
+19 63 110 3113508 304 414 1421400
+20 61 114 3285125 340 427 1255920
+21 34 37 3115236 246 386 2568547
+22 30 75 1043230 93 105 15637
+23 58 158 4229295 185 285 1374157
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 33
+us 1131 2132 32930363
+in 68 186 6668380
+cn 61 101 5004739
+gb 50 50 7450
+ca 24 26 2069724
+ru 22 22 6341
+at 17 17 3503
+gr 15 15 2265
+de 14 14 2034
+my 13 13 1963
+au 11 11 1661
+fr 10 25 347609
+cl 7 8 1036641
+ie 7 7 1057
+br 6 6 906
+ua 6 6 11256
+ar 5 5 755
+jp 4 4 524
+nl 4 4 584
+se 3 3 393
+ro 2 2 282
+id 2 3 1035886
+sc 2 2 0
+it 2 2 3752
+dz 2 2 262
+ir 1 1 131
+kr 1 1 131
+bg 1 1 131
+es 1 1 131
+is 1 1 151
+hn 1 1 151
+ch 1 1 0
+sg 2 2 302
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 14
+Applebot/ 1026 13640243 20220831211949 0
+Googlebot/ 175 1456696 20220830090636 0
+bingpreview 48 2137548 20220830120450 0
+Go\-http\-client/ 31 1441 20220831122914 0
+spider 16 163534 20220811003912 0
+bingbot/ 9 4107 20220830114845 0
+no_user_agent 6 906 20220827034745 0
+(firefox/)([0-9]\.|[0-1][0]\.) 4 584 20220816080007 0
+feed 2 1035735 20220810215405 0
+curl 2 1032285 20220812162315 0
+ruby/ 1 131 20220803165152 0
+Googlebot\-Image/ 1 1032134 20220828073839 0
+unknown 1 1107 20220804140746 1
+bot[\s_+:,\.\;\/\\-] 1 131 20220818144250 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+js 563 6349702 0 0
+html 1198 162065 0 0
+jpg 74 6874043 0 0
+woff2 147 6427592 0 0
+php 146 197097 0 0
+png 23 22800043 0 0
+xml 1 1107 0 0
+Unknown 5 655 0 0
+css 518 6327154 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 29
+Unknown 88 55
+androidmarshmallow 7 5
+macosx14 973 208
+winxp 7 7
+win2000 7 7
+linux 132 52
+androidlollipop 2 2
+android 40 8
+macosx11 2 2
+macosx8 1 1
+macosx13 4 4
+linuxubuntu 13 13
+winvista 2 2
+androidpie 1 1
+win10 1095 911
+macosx10 7 7
+macosx9 2 2
+androidnougat 8 8
+win2003 1 1
+macosx15 44 44
+android10 63 16
+unix 1 1
+androidkitkat 12 12
+win8.1 4 4
+ios_iphone 29 23
+winnt 18 18
+winlong 1 1
+win7 110 81
+win8 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 133
+firefox102.0 5 5
+chrome56.0.2924.76 51 51
+chrome77.0.3925.88 1 1
+chrome74.0.3379.88 1 1
+chrome71.0.3763.88 1 1
+chrome70.0.2446.88 1 1
+chrome103.0.0.0 109 45
+chrome71.0.1662.88 1 1
+firefox59.0 4 4
+chrome11.0.696.71 8 8
+chrome91.0.4469.0 19 4
+chrome35.0.2309.372 1 1
+firefox85.0 3 3
+chrome72.0.1379.88 1 1
+chrome96.0.4664.110 27 27
+chrome73.0.1682.88 1 1
+firefox28.0 4 4
+chrome26.0.1410.65 1 1
+chrome80.0.3987.162 1 1
+chrome100.0.4896.88 4 4
+chrome101.0.0.0 20 4
+chrome20.0.1132.57 1 1
+Unknown 34 31
+chrome76.0.3809.71 19 4
+chrome19.0.1084.9 4 4
+chrome100.0.4896.75 19 4
+msie9.0 7 0
+chrome89.0.4389.82 2 2
+chrome76.0.3809.132 14 14
+chrome96.0.4664.45 5 5
+chrome77.0.3478.88 1 1
+chrome79.0 44 44
+safari15.6 4 3
+edge18 1 1
+chrome70.0.1130.88 1 1
+chrome74.0.3751.88 1 1
+chrome67.0.3396.62 2 2
+chrome70.0.2476.88 1 1
+chrome71.0.3578.98 15 15
+chrome79.0.3524.88 1 1
+safari15.0 1 1
+chrome60.0.3112.101 1 1
+chrome104.0.0.0 49 10
+chrome72.0.1485.88 1 1
+chrome49.0.2623.112 10 2
+msie6.0 5 5
+chrome73.0.2413.88 1 1
+safari 4 2
+chrome80.0.3987.149 222 206
+chrome60.0.3112.107 8 8
+opera80.0.4170.63 2 2
+chrome75.0.1804.88 1 1
+chrome74.0.2146.88 1 1
+chrome83.0.4103.61 18 4
+firefox103.0 1 1
+firefox70.0 1 1
+chrome78.0.3365.88 1 1
+msie10.0 2 2
+chrome68.0.3440.106 2 2
+chrome74.0.3729.169 5 5
+chrome36.0.1985.125 1 1
+firefox83.0 1 1
+chrome75.0.3276.88 1 1
+firefox33.0 1 1
+chrome101.0.4951.54 106 26
+chrome104.0.5112.81 1 1
+chrome102.0.5005.63 1 1
+chrome73.0.2987.88 1 1
+firefox68.0 8 1
+chrome88.0.4240.193 161 161
+msie8.0 1 1
+safari10.0 4 4
+chrome85.0.4183.121 5 5
+opera53.0.2907.57 2 2
+safari13.0.3 1 1
+chrome76.0.1860.88 1 1
+chrome73.0.3537.88 1 1
+chrome95.0.4638.54 6 6
+chrome73.0.3140.88 1 1
+chrome41.0.2227.1 1 1
+chrome74.0.3959.88 1 1
+chrome27.0.1453.93 2 2
+chrome65.0.3298.4 2 2
+chrome90.0.4430.72 2 2
+chrome51.0.2704.84 1 1
+chrome78.0.3904.108 235 235
+chrome67.0.3396.99 2 2
+chrome102.0.0.0 20 5
+chrome81.0.4044.138 28 12
+chrome97.0.4692.99 971 204
+chrome39.0.2171.95 2 2
+chrome79.0.3945.88 1 1
+chrome28.0.1468.0 2 2
+chrome84.0.4147.89 1 1
+chrome76.0.3849.88 1 1
+mozilla 53 23
+chrome60.0.3112.113 1 1
+chrome96.0.4664.55 3 3
+chrome79.0.3945.79 38 8
+chrome83.0.4103.106 44 44
+chrome78.0.3787.88 1 1
+firefox78.0 1 1
+chrome75.0.3825.88 1 1
+chrome72.0.1501.88 1 1
+chrome91.0.4472.114 7 7
+chrome41.0.2225.0 1 1
+chrome63.0.3239.132 7 7
+chrome71.0.3543.88 1 1
+chrome80.0.3987.119 1 1
+chrome35.0.1916.47 2 2
+firefox91.0 2 2
+firefox72.0 1 1
+chrome67.0.3396.87 2 2
+firefox21.0 1 1
+chrome77.0.3763.88 1 1
+chrome75.0.1814.88 1 1
+firefox89.0 1 1
+chrome77.0.2157.88 1 1
+chrome89.0.4389.114 41 41
+chrome70.0.1878.88 1 1
+safari15.5 1 1
+chrome80.0.3987 1 1
+chrome78.0.1862.88 1 1
+chrome45.0.2454.94 2 2
+chrome65.0.3325.109 15 12
+firefox57.0 19 4
+chrome84.0.4147.105 4 4
+chrome5.0.375.99 1 1
+chrome71.0.2762.88 1 1
+chrome95.0.4638.69 32 32
+chrome70.0.1856.88 1 1
+chrome83.0.4103.97 19 19
+android 12 12
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 12
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20220827073751
+fasthttp 20220805143230
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20220814180744
+wp_is_mobile 20220829182421
+axios/0.21.4 20220812194510
+Python/3.6_aiohttp/3.5.4 20220812044143
+APIs-Google_(_https://developers.google.com/webmasters/APIs-Google.html) 20220821042946
+Python/3.9_aiohttp/3.8.1 20220823132551
+Mozilla/5.0_Firefox/33.0 20220824184453
+Python/3.10_aiohttp/3.8.1 20220821191221
+okhttp/3.3.1 20220816163929
+Mozilla/5.0_(compatible;_Dataprovider.com) 20220819120915
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 9
+Python/3.10_aiohttp/3.8.1 20220821191221
+okhttp/3.3.1 20220816163929
+Python/3.6_aiohttp/3.5.4 20220812044143
+axios/0.21.4 20220812194510
+wp_is_mobile 20220829182421
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20220814180744
+fasthttp 20220805143230
+APIs-Google_(_https://developers.google.com/webmasters/APIs-Google.html) 20220821042946
+Python/3.9_aiohttp/3.8.1 20220823132551
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 1184 1234
+From1 4 4
+From2 5 5
+From3 5 20
+From4 299 1412
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+www_google_com 3 3
+www_bing_com 2 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 5
+http://mail.ananyapublicschool.com/css/all.min.css 2 2
+https://seoquality.ru/www.ananyapublicschool.com 1 1
+https://l.facebook.com 1 1
+http://mail.ananyapublicschool.com 1 1
+http://mail.ananyapublicschool.com/login.php 0 15
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+101 1 0
+409 380 30046
+206 4 524
+406 5361 1204354
+404 7861 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 641
+/anquan/qgga.asp 1 http://www.ananyapublicschool.com/anquan/qgga.asp
+/Public/uploads/web/step1.png 1 http://www.ananyapublicschool.com/Public/uploads/web/step1.png
+/otc/ 1 http://www.ananyapublicschool.com/otc/
+/wp 3 -
+/mobile/login.html 1 http://www.ananyapublicschool.com/mobile/login.html
+/public/web/css/add//index.css 1 http://www.ananyapublicschool.com/public/web/css/add//index.css
+/backup 1 -
+/banner.do 1 http://www.ananyapublicschool.com/banner.do
+/h5.html 1 http://www.ananyapublicschool.com/h5.html
+/static/home/css/new_cfb.css 1 http://www.ananyapublicschool.com/static/home/css/new_cfb.css
+/skin/js/common.js 1 http://www.ananyapublicschool.com/skin/js/common.js
+/wp-content/plugins/instabuilder2/assets/css/instabuilder2.css 7 www.google.com
+/site/api/v1/site/vipExclusiveDomain/getGuestDomain 1 http://www.ananyapublicschool.com/site/api/v1/site/vipExclusiveDomain/getGuestDomain
+/login.html 2 http://www.ananyapublicschool.com/login.html
+/ALFA_DATA/alfacgiapi/perl.alfa 5 www.google.com
+/Application/Buy/Static/js/if.js 1 http://www.ananyapublicschool.com/Application/Buy/Static/js/if.js
+/static/js/jump/go.js 1 http://www.ananyapublicschool.com/static/js/jump/go.js
+/api/config/proxy_servers 1 http://www.ananyapublicschool.com/api/config/proxy_servers
+/api/uploads/apimap 1 http://www.ananyapublicschool.com/api/uploads/apimap
+/api/v8.common/speed 1 http://www.ananyapublicschool.com/api/v8.common/speed
+/nyyh/game.css 1 http://www.ananyapublicschool.com/nyyh/game.css
+/app/common/getRegisterSet 1 http://www.ananyapublicschool.com/app/common/getRegisterSet
+/Pay_Index.html 1 http://www.ananyapublicschool.com/Pay_Index.html
+/index/newapi/api 1 http://www.ananyapublicschool.com/index/newapi/api
+/assets/filemanager/dialog.php 1 -
+/lib/public.js 1 http://www.ananyapublicschool.com/lib/public.js
+/.well-known/ 1 binance.com
+/favicon.png 39 -
+/static/home/css/css.css 1 http://www.ananyapublicschool.com/static/home/css/css.css
+/stock/search.html 1 http://www.ananyapublicschool.com/stock/search.html
+/zxkj/js/customer-chat-widget.min.js 1 http://www.ananyapublicschool.com/zxkj/js/customer-chat-widget.min.js
+//ALFA_DATA/alfacgiapi/py.alfa 1 -
+/api/ApiHub/fetchJinse 1 http://www.ananyapublicschool.com/api/ApiHub/fetchJinse
+/olux.php 3 www.bing.com
+/static/wap/css/common.css 1 http://www.ananyapublicschool.com/static/wap/css/common.css
+/template/mb/lang/text-zh.json 1 http://www.ananyapublicschool.com/template/mb/lang/text-zh.json
+/h5 1 http://www.ananyapublicschool.com/h5
+/system_log.php 3 www.bing.com
+/assets/room/css/room_mobile.css 1 http://www.ananyapublicschool.com/assets/room/css/room_mobile.css
+//wp-admin/admin-ajax.php 2 www.google.com
+/kefu.php 1 http://www.ananyapublicschool.com/kefu.php
+/reg.php 1 http://www.ananyapublicschool.com/reg.php
+/room/script/face.js 1 http://www.ananyapublicschool.com/room/script/face.js
+/getConfig/listPopFrame.do 2 http://www.ananyapublicschool.com/getConfig/listPopFrame.do
+/assets/images/mobile/dou_charge_money_icon.png 1 http://www.ananyapublicschool.com/assets/images/mobile/dou_charge_money_icon.png
+/xy/ 1 http://www.ananyapublicschool.com/xy/
+/js/pups.js 1 http://www.ananyapublicschool.com/js/pups.js
+/alfacgiapi 3 www.bing.com
+/admin/controller/extension/extension/alfacgiapi 3 www.bing.com
+/api/v1/app-info 1 http://www.ananyapublicschool.com/api/v1/app-info
+/data/json/config.json 1 http://www.ananyapublicschool.com/data/json/config.json
+/api/shares/hqStrList 1 http://www.ananyapublicschool.com/api/shares/hqStrList
+/kkrp/site/info 1 http://www.ananyapublicschool.com/kkrp/site/info
+/sitemaps.xml 5 -
+/js/tvConfig.js 1 http://www.ananyapublicschool.com/js/tvConfig.js
+/wp-includes/css/wp-config.php 3 www.bing.com
+/wp-login.php 1 -
+/static/wap/js/order.js 1 http://www.ananyapublicschool.com/static/wap/js/order.js
+/js/subsidy/bk.min.js 1 http://www.ananyapublicschool.com/js/subsidy/bk.min.js
+/images/editor/separator.gif 2 -
+/wp-content/ALFA_DATA 3 www.bing.com
+/files/pub_reset.css 1 http://www.ananyapublicschool.com/files/pub_reset.css
+/defau11.php 4 -
+/atom.xml 6 -
+/assets/images/mobile/ic_launcher.png 1 http://www.ananyapublicschool.com/assets/images/mobile/ic_launcher.png
+//wp-includes/wp-class.php 1 -
+/wordpress/wp-json/wp/v2/users 3 -
+/kkrps/im_group/show_members 1 http://www.ananyapublicschool.com/kkrps/im_group/show_members
+/sdk.html 1 http://www.ananyapublicschool.com/sdk.html
+/static/imgs/game/green2.png 1 http://www.ananyapublicschool.com/static/imgs/game/green2.png
+/detaila/js/unified_service.js 1 http://www.ananyapublicschool.com/detaila/js/unified_service.js
+/member/js/lang_zh_CN.js 1 http://www.ananyapublicschool.com/member/js/lang_zh_CN.js
+/infe/rest/fig/advertise/common.json 1 http://www.ananyapublicschool.com/infe/rest/fig/advertise/common.json
+/detaila/js/ntkfstat.js 1 http://www.ananyapublicschool.com/detaila/js/ntkfstat.js
+/api/product/info/1 1 http://www.ananyapublicschool.com/api/product/info/1
+/Public/css/hall.css 1 http://www.ananyapublicschool.com/Public/css/hall.css
+//ALFA_DATA/alfacgiapi/perl.alfa 3 -
+/gaga/city.php 1 http://www.ananyapublicschool.com/gaga/city.php
+/ups.php 3 www.bing.com
+/nyyh/chkjs.js 1 http://www.ananyapublicschool.com/nyyh/chkjs.js
+/beence.php 3 www.bing.com
+/sitemap.xml.gz 5 -
+/wp-content/uploads/cgialfa 3 www.bing.com
+/common/member/js/user.util.js 1 http://www.ananyapublicschool.com/common/member/js/user.util.js
+/skin/main/onload.js 1 http://www.ananyapublicschool.com/skin/main/onload.js
+/site/info 1 http://www.ananyapublicschool.com/site/info
+/api/Game/getAppConfig 1 http://www.ananyapublicschool.com/api/Game/getAppConfig
+/css/bootstrap.min.css.map 4 -
+/api/backstageManagement/system/systemConfigForPlatform 1 http://www.ananyapublicschool.com/api/backstageManagement/system/systemConfigForPlatform
+/Content/common/web/CommonActivity.css 1 http://www.ananyapublicschool.com/Content/common/web/CommonActivity.css
+/Content/css/wzwstylel.css 1 http://www.ananyapublicschool.com/Content/css/wzwstylel.css
+/Public/Home/ecshe_css/main.css 1 http://www.ananyapublicschool.com/Public/Home/ecshe_css/main.css
+/us/img/nyyh/chkjs.js 1 http://www.ananyapublicschool.com/us/img/nyyh/chkjs.js
+/static/diff_worker.js 1 http://www.ananyapublicschool.com/static/diff_worker.js
+/upload.php 3 www.bing.com
+/portal/index/protocol.html 1 http://www.ananyapublicschool.com/portal/index/protocol.html
+/style.php 3 www.bing.com
+/m/ticker/usdtqc 1 http://www.ananyapublicschool.com/m/ticker/usdtqc
+/api/index/webconfig 1 http://www.ananyapublicschool.com/api/index/webconfig
+/Public/Wchat/css/index.css 1 http://www.ananyapublicschool.com/Public/Wchat/css/index.css
+/phalapi/public/ 2 http://www.ananyapublicschool.com/phalapi/public/
+/home/login.jpg 1 http://www.ananyapublicschool.com/home/login.jpg
+/wp-admin/ALFA_DATA 3 www.bing.com
+/api/Index/getLangCfg 1 http://www.ananyapublicschool.com/api/Index/getLangCfg
+/js/bootstrap.min.js.map 4 -
+/static/Mobile/js/common.js 1 http://www.ananyapublicschool.com/static/Mobile/js/common.js
+/xmlrpc.php 1115 -
+/client/static/icon/hangqingicon.png 1 http://www.ananyapublicschool.com/client/static/icon/hangqingicon.png
+/template/css/login.css 1 http://www.ananyapublicschool.com/template/css/login.css
+/v2/block/home/app/hot 1 http://www.ananyapublicschool.com/v2/block/home/app/hot
+/apiApp/app/site/info 1 http://www.ananyapublicschool.com/apiApp/app/site/info
+/api/site/getInfo.do 1 http://www.ananyapublicschool.com/api/site/getInfo.do
+/wp-booking.php 3 www.bing.com
+/aws.yml 3 -
+/images/logo-default-400x46.png 1 http://www.ananyapublicschool.com/images/logo-default-400x46.png
+/templates/beez3/alfacgiapi 3 www.bing.com
+/config.php 3 www.bing.com
+/6/ 1 http://www.ananyapublicschool.com/6/
+/static/tabBar/trade.png 1 http://www.ananyapublicschool.com/static/tabBar/trade.png
+/bk 1 -
+/api/v/index/queryOfficePage 1 http://www.ananyapublicschool.com/api/v/index/queryOfficePage
+/config/aws.yml 3 -
+/admin/controller/extension/extension/cgialfa 3 www.bing.com
+/vendor/phpunit/phpunit/build.xml 1 -
+/wap 1 http://www.ananyapublicschool.com/wap
+/friendGroup/list 1 http://www.ananyapublicschool.com/friendGroup/list
+/static/common/js/vant/vant.min.js 1 http://www.ananyapublicschool.com/static/common/js/vant/vant.min.js
+/trade/mobile/login.php 1 http://www.ananyapublicschool.com/trade/mobile/login.php
+/archives.php 3 www.bing.com
+/cms 2 -
+/m/env.js 1 http://www.ananyapublicschool.com/m/env.js
+/im/App/config 1 http://www.ananyapublicschool.com/im/App/config
+/home/login/login_index.html 1 http://www.ananyapublicschool.com/home/login/login_index.html
+/.well-known/alfacgiapi 3 www.bing.com
+/phpinfo.php 3 -
+/wap.html 1 http://www.ananyapublicschool.com/wap.html
+/api/help_documents/nitice_list 1 http://www.ananyapublicschool.com/api/help_documents/nitice_list
+/static/index/css/iindex.css 1 http://www.ananyapublicschool.com/static/index/css/iindex.css
+/fePublicInfo/ 1 http://www.ananyapublicschool.com/fePublicInfo/
+/ajax/allcoin_a/id/0 1 http://www.ananyapublicschool.com/ajax/allcoin_a/id/0
+/newApp/winMessTopQuery.php 1 http://www.ananyapublicschool.com/newApp/winMessTopQuery.php
+/wp_wrong_datlib.php 3 www.bing.com
+/wp-content/plugins/dzs-zoomsounds/savepng.php 1 -
+/home/GetQrCodeInfo 1 http://www.ananyapublicschool.com/home/GetQrCodeInfo
+/sitemap_index.xml 7 -
+/step1.asp 1 http://www.ananyapublicschool.com/step1.asp
+/wp.php 3 www.bing.com
+/h5/static/tabbar/txl.png 1 http://www.ananyapublicschool.com/h5/static/tabbar/txl.png
+/templates/beez3/ALFA_DATA 3 www.bing.com
+/index/login/index.html 1 http://www.ananyapublicschool.com/index/login/index.html
+/loan/css/index.css 1 http://www.ananyapublicschool.com/loan/css/index.css
+/home/ 1 http://www.ananyapublicschool.com/home/
+/index/overt/regist/inviteid 1 http://www.ananyapublicschool.com/index/overt/regist/inviteid
+/Home/Bind/binding 1 http://www.ananyapublicschool.com/Home/Bind/binding
+//wp-content/plugins/instabuilder2/cache/up.php 2 www.google.com
+/im/h5/ 1 http://www.ananyapublicschool.com/im/h5/
+/api/config 1 http://www.ananyapublicschool.com/api/config
+/service 1 http://www.ananyapublicschool.com/service
+/static/wap/js/common.js 1 http://www.ananyapublicschool.com/static/wap/js/common.js
+/api/user/dataDictionaryService/list 1 http://www.ananyapublicschool.com/api/user/dataDictionaryService/list
+/code/js/config.js 1 http://www.ananyapublicschool.com/code/js/config.js
+/assets/js/dmshub.js 1 http://www.ananyapublicschool.com/assets/js/dmshub.js
+/static/img/bitbeb-logo.png 1 http://www.ananyapublicschool.com/static/img/bitbeb-logo.png
+/home/banner/getLogo 1 http://www.ananyapublicschool.com/home/banner/getLogo
+/api/v1/member/kefu 1 http://www.ananyapublicschool.com/api/v1/member/kefu
+/assets/images/redian.jpg 1 http://www.ananyapublicschool.com/assets/images/redian.jpg
+/source/20220119/static/wap/js/order.js 1 http://www.ananyapublicschool.com/source/20220119/static/wap/js/order.js
+/Public/Home/js/common.js 1 http://www.ananyapublicschool.com/Public/Home/js/common.js
+/wp-admin/install.php 1 -
+/api/v2/config/index 1 http://www.ananyapublicschool.com/api/v2/config/index
+/dist/images/mask/guide/cn/step1.jpg 1 http://www.ananyapublicschool.com/dist/images/mask/guide/cn/step1.jpg
+/stock2c1/api/site/getInfo.do 1 http://www.ananyapublicschool.com/stock2c1/api/site/getInfo.do
+/index/index/ajaxdata 1 http://www.ananyapublicschool.com/index/index/ajaxdata
+/api/hevent 1 http://www.ananyapublicschool.com/api/hevent
+/wap/ 2 http://www.ananyapublicschool.com/wap/
+/phone/images/icon_01.png 1 http://www.ananyapublicschool.com/phone/images/icon_01.png
+/api/apps/config 1 http://www.ananyapublicschool.com/api/apps/config
+/api/product/topRank 1 http://www.ananyapublicschool.com/api/product/topRank
+/legion.php 3 www.bing.com
+/site.js 1 http://www.ananyapublicschool.com/site.js
+/biz/server/config 1 http://www.ananyapublicschool.com/biz/server/config
+/images/no.jpg 1 http://www.ananyapublicschool.com/images/no.jpg
+/filemanager/dialog.php 1 -
+/m/allticker/1 1 http://www.ananyapublicschool.com/m/allticker/1
+/wp-includes/js/jquery/jquery.js 2 -
+/standalone.html 1 http://www.ananyapublicschool.com/standalone.html
+/up.php 3 www.bing.com
+/login 2 http://www.ananyapublicschool.com/login
+/admin 1 http://www.ananyapublicschool.com/admin
+/admin/view/javascript/common.js 2 -
+/wp-content/export.php 3 www.bing.com
+/wp-includes/images/css.php 3 www.bing.com
+/wp-load.php 3 www.bing.com
+/wp-includes/wp-atom.php 3 www.bing.com
+/login/css/latofonts.css 1 http://ananyapublicschool.com/login.php
+/static/home/imgs/jkjl.png 1 http://www.ananyapublicschool.com/static/home/imgs/jkjl.png
+/1index.php 3 www.bing.com
+/img/zllqdk.png 1 http://www.ananyapublicschool.com/img/zllqdk.png
+/api/web/user/getIndexData.php 1 http://www.ananyapublicschool.com/api/web/user/getIndexData.php
+/static/home/css/common.css 1 http://www.ananyapublicschool.com/static/home/css/common.css
+/wp-includes/css/css.php 3 www.bing.com
+/mobile 1 http://www.ananyapublicschool.com/mobile
+/static/css/mobile.css 1 http://www.ananyapublicschool.com/static/css/mobile.css
+/static/v2/css/index.css 1 http://www.ananyapublicschool.com/static/v2/css/index.css
+/ws/index/getTheLotteryInitList 1 http://www.ananyapublicschool.com/ws/index/getTheLotteryInitList
+/api/stock/getSingleStock.do 1 http://www.ananyapublicschool.com/api/stock/getSingleStock.do
+/blog 2 -
+/assets/res/mods/room.js 1 http://www.ananyapublicschool.com/assets/res/mods/room.js
+/static/home/imgs/pico.png 1 http://www.ananyapublicschool.com/static/home/imgs/pico.png
+/images/remen.png 1 http://www.ananyapublicschool.com/images/remen.png
+/wp/wp-json/wp/v2/users 3 -
+/index/wodedingdan.png 1 http://www.ananyapublicschool.com/index/wodedingdan.png
+/cgialfa 3 www.bing.com
+/static/common/js/common.js 1 http://www.ananyapublicschool.com/static/common/js/common.js
+/1.php 3 www.bing.com
+/Public/Home/js/cls.js 1 http://www.ananyapublicschool.com/Public/Home/js/cls.js
+/robots.txt 79 -
+/Hander/emploer_Handler.ashx 1 http://www.ananyapublicschool.com/Hander/emploer_Handler.ashx
+/ctl/login.php 1 http://www.ananyapublicschool.com/ctl/login.php
+/melody/api/v1/pageconfig/list 1 http://www.ananyapublicschool.com/melody/api/v1/pageconfig/list
+/css/skin/ymPrompt.css 1 http://www.ananyapublicschool.com/css/skin/ymPrompt.css
+/.vscode/sftp.json 16 -
+/api/message/webInfo 1 http://www.ananyapublicschool.com/api/message/webInfo
+/main 4 http://www.ananyapublicschool.com/main
+/api/exclude/siteConfig/webSiteConfig 1 http://www.ananyapublicschool.com/api/exclude/siteConfig/webSiteConfig
+/media-admin.php 3 www.bing.com
+/api/Index/getLottery 1 http://www.ananyapublicschool.com/api/Index/getLottery
+/wp-content/outcms.php 3 www.bing.com
+/1-200611214053U8.jpg 1 http://www.ananyapublicschool.com/1-200611214053U8.jpg
+/wap/assets/images/icon1/12306.png 1 http://www.ananyapublicschool.com/wap/assets/images/icon1/12306.png
+/wp-commentin.php 3 -
+/m/lotto-h5/manifest.json 1 http://www.ananyapublicschool.com/m/lotto-h5/manifest.json
+/Home/Index/ajaxTJ 1 http://www.ananyapublicschool.com/Home/Index/ajaxTJ
+/t000/login-img-3.svg 1 http://www.ananyapublicschool.com/t000/login-img-3.svg
+/Home/Get/getJnd28 1 http://www.ananyapublicschool.com/Home/Get/getJnd28
+/api/client/home_project_list 1 http://www.ananyapublicschool.com/api/client/home_project_list
+/static/download/style.css 1 http://www.ananyapublicschool.com/static/download/style.css
+/home/help 1 http://www.ananyapublicschool.com/home/help
+/assets/app-manifest.json 1 http://www.ananyapublicschool.com/assets/app-manifest.json
+/index 1 http://www.ananyapublicschool.com/index
+/index/webapi/service 1 http://www.ananyapublicschool.com/index/webapi/service
+/blog/xmlrpc.php 1074 -
+/wordpress 3 -
+/wp-content/plugins/backup_index.php 3 www.bing.com
+/app/config/getConfig 1 http://www.ananyapublicschool.com/app/config/getConfig
+/_ignition/health-check/ 1 -
+/Content/Wap/base.css 1 http://www.ananyapublicschool.com/Content/Wap/base.css
+/admin/webadmin.php 1 http://www.ananyapublicschool.com/admin/webadmin.php
+/api/index/grailindex 1 http://www.ananyapublicschool.com/api/index/grailindex
+/mtja.html 1 http://www.ananyapublicschool.com/mtja.html
+/wap/trading/get_newallorder_ajax 1 http://www.ananyapublicschool.com/wap/trading/get_newallorder_ajax
+/entry/login 1 http://www.ananyapublicschool.com/entry/login
+/api/system/system/config/get 1 http://www.ananyapublicschool.com/api/system/system/config/get
+/login/img/nyyh/chkjs.js 1 http://www.ananyapublicschool.com/login/img/nyyh/chkjs.js
+/static/js/config.js 1 http://www.ananyapublicschool.com/static/js/config.js
+/wp-content/themes/twentynineteen/404.php 1 -
+/Template/Mobile/js/main.js 1 http://www.ananyapublicschool.com/Template/Mobile/js/main.js
+/api/index/setting 1 http://www.ananyapublicschool.com/api/index/setting
+/admin/index.php 6 -
+/public/img/cz1.png 1 http://www.ananyapublicschool.com/public/img/cz1.png
+/web/api/getBanner 1 http://www.ananyapublicschool.com/web/api/getBanner
+/login/kefuxian.mvc 1 http://www.ananyapublicschool.com/login/kefuxian.mvc
+/js/header-rollup-554.js 2 -
+/Templates/user/js/global.js 1 http://www.ananyapublicschool.com/Templates/user/js/global.js
+/images/src_images_but_dianz_s.png 1 http://www.ananyapublicschool.com/images/src_images_but_dianz_s.png
+/assets/admin/js/filemanager/dialog.php 1 -
+/index/login/register 1 http://www.ananyapublicschool.com/index/login/register
+/css/img/preloader.gif 83 http://ananyapublicschool.parvam.co.in/css/style.css
+/api/notice 2 http://www.ananyapublicschool.com/api/notice
+/static/guide/ab.css 1 http://www.ananyapublicschool.com/static/guide/ab.css
+/static/idcard3.png 1 http://www.ananyapublicschool.com/static/idcard3.png
+/index/login/login 1 http://www.ananyapublicschool.com/index/login/login
+/assets/extension/market/css/mt4.css 1 http://www.ananyapublicschool.com/assets/extension/market/css/mt4.css
+/Public/home/js/check.js 1 http://www.ananyapublicschool.com/Public/home/js/check.js
+/misc/ajax.js 2 -
+/jiaoyimao/default.css 1 http://www.ananyapublicschool.com/jiaoyimao/default.css
+/assets/plugins/filemanager/dialog.php 1 -
+/static/wap/css/tipmask.css 1 http://www.ananyapublicschool.com/static/wap/css/tipmask.css
+/install.inc/vipsignInstall.css 1 http://www.ananyapublicschool.com/install.inc/vipsignInstall.css
+/api/index/index 1 http://www.ananyapublicschool.com/api/index/index
+/hetong/yq 1 http://www.ananyapublicschool.com/hetong/yq
+/resources/css/headernav.css 1 http://www.ananyapublicschool.com/resources/css/headernav.css
+/assets/images/dy.jpg 1 http://www.ananyapublicschool.com/assets/images/dy.jpg
+/sites/default/files/alfacgiapi 3 www.bing.com
+/api/public/ 1 http://www.ananyapublicschool.com/api/public/
+/static/config.js 1 http://www.ananyapublicschool.com/static/config.js
+/wp-signin.php 3 www.bing.com
+/Public/home/js/fukuang.js 1 http://www.ananyapublicschool.com/Public/home/js/fukuang.js
+/s_api/basic/config_js 1 http://www.ananyapublicschool.com/s_api/basic/config_js
+/public/static/index/picture/img_33.png 1 http://www.ananyapublicschool.com/public/static/index/picture/img_33.png
+/uploads/admin/202103/60584c5b88017.png 1 http://www.ananyapublicschool.com/uploads/admin/202103/60584c5b88017.png
+/flxztyfc.php 1 www.google.com
+/wp-includes/ID3/license.txt 11 -
+/api/index/config 1 http://www.ananyapublicschool.com/api/index/config
+/api/user/mobilelogin 1 http://www.ananyapublicschool.com/api/user/mobilelogin
+/PSBC-1 1 http://www.ananyapublicschool.com/PSBC-1
+/style.css 1 http://www.ananyapublicschool.com/style.css
+/assets/etc/query.css 1 http://www.ananyapublicschool.com/assets/etc/query.css
+/wp-includes/alfacgiapi 3 www.bing.com
+/blog/wp-json/wp/v2/users 3 -
+/detaila/images/h_v33_i.png 1 http://www.ananyapublicschool.com/detaila/images/h_v33_i.png
+/wp-plain.php 5 www.google.com
+/static/common/icon/zhuanru.png 1 http://www.ananyapublicschool.com/static/common/icon/zhuanru.png
+/test 2 -
+/Css/Hm.css 1 http://www.ananyapublicschool.com/Css/Hm.css
+/api/grame/getHomePtLottery 1 http://www.ananyapublicschool.com/api/grame/getHomePtLottery
+/pages/console/js/common.js 1 http://www.ananyapublicschool.com/pages/console/js/common.js
+/.local 1 https://www.google.com/
+/Public/js/common.js 1 http://www.ananyapublicschool.com/Public/js/common.js
+/api/currency/quotation_new 1 http://www.ananyapublicschool.com/api/currency/quotation_new
+/template/tmp1/js/common.js 1 http://www.ananyapublicschool.com/template/tmp1/js/common.js
+/wp/xmlrpc.php 1104 -
+/hg556/js/main.js 1 http://www.ananyapublicschool.com/hg556/js/main.js
+/mytio/config/base 1 http://www.ananyapublicschool.com/mytio/config/base
+/assets/AssetManifest.json 1 http://www.ananyapublicschool.com/assets/AssetManifest.json
+/proxy/settings 1 http://www.ananyapublicschool.com/proxy/settings
+/export.php 3 www.bing.com
+/s_ne.php 3 www.bing.com
+/uploads/20210928/01737e4f85f971bdf4d892dfaee6579c.png 1 http://www.ananyapublicschool.com/uploads/20210928/01737e4f85f971bdf4d892dfaee6579c.png
+/js/common.js 1 http://www.ananyapublicschool.com/js/common.js
+/static/common/icon/shimin.png 1 http://www.ananyapublicschool.com/static/common/icon/shimin.png
+/news-and-Events.php 3 -
+/js/config.js 1 http://www.ananyapublicschool.com/js/config.js
+/info.php 3 -
+/dev 2 -
+/Public/Mobile/ecshe_css/wapmain.css 1 http://www.ananyapublicschool.com/Public/Mobile/ecshe_css/wapmain.css
+/m 1 http://www.ananyapublicschool.com/m
+/administrator/help/en-GB/toc.json 2 -
+/static/images/login_bg.jpg 1 http://www.ananyapublicschool.com/static/images/login_bg.jpg
+/css/scanner.css 1 http://www.ananyapublicschool.com/css/scanner.css
+/a/other/codepay/js/codepay_util.js 1 http://www.ananyapublicschool.com/a/other/codepay/js/codepay_util.js
+/api/getconfig.aspx 1 http://www.ananyapublicschool.com/api/getconfig.aspx
+/legal/currency/set 1 http://www.ananyapublicschool.com/legal/currency/set
+/api/pc/cms-config 1 http://www.ananyapublicschool.com/api/pc/cms-config
+/php.ini 1 -
+/new/xmlrpc.php 1106 -
+/assets/mstock/newimg/guid-title.png 1 http://www.ananyapublicschool.com/assets/mstock/newimg/guid-title.png
+/about.php 5 www.bing.com
+/resource/home/js/common.js 1 http://www.ananyapublicschool.com/resource/home/js/common.js
+/wordpress/xmlrpc.php 1106 -
+/wp-admin/alfacgiapi 3 www.bing.com
+/static/css/reset.css 1 http://www.ananyapublicschool.com/static/css/reset.css
+/wp-json/wp/v2/users 3 -
+/zz/address.php 1 http://www.ananyapublicschool.com/zz/address.php
+//fox.php 1 -
+/client/api/findConfigByKey 1 http://www.ananyapublicschool.com/client/api/findConfigByKey
+/static/home/js/rooms.js 1 http://www.ananyapublicschool.com/static/home/js/rooms.js
+/js/basic.js 1 http://www.ananyapublicschool.com/js/basic.js
+/Public/css/errorCss.css 1 http://www.ananyapublicschool.com/Public/css/errorCss.css
+/old/xmlrpc.php 1106 -
+/appxz/index.html 1 http://www.ananyapublicschool.com/appxz/index.html
+/radio.php 3 www.bing.com
+/dist/images/mask/bg1.jpg 1 http://www.ananyapublicschool.com/dist/images/mask/bg1.jpg
+/infe/rest/flash/getServerIP.json 1 http://www.ananyapublicschool.com/infe/rest/flash/getServerIP.json
+/api/Index/getconfig 1 http://www.ananyapublicschool.com/api/Index/getconfig
+/static/image/logo.png 1 http://www.ananyapublicschool.com/static/image/logo.png
+/api/index 1 http://www.ananyapublicschool.com/api/index
+/_profiler/phpinfo 3 -
+/source/20220119/static/wap/css/trade-history.css 1 http://www.ananyapublicschool.com/source/20220119/static/wap/css/trade-history.css
+/s_e.php 3 www.bing.com
+/wp-includes/ALFA_DATA 3 www.bing.com
+/wp-content/mu-plugins/db-safe-mode.php 3 www.bing.com
+/mobile21/js/index/gameManagement.js 1 http://www.ananyapublicschool.com/mobile21/js/index/gameManagement.js
+/assets/images/mobile/dou_icon_money.png 1 http://www.ananyapublicschool.com/assets/images/mobile/dou_icon_money.png
+/static/v/v2/image/star.png 1 http://www.ananyapublicschool.com/static/v/v2/image/star.png
+/public/css/style.css 1 http://www.ananyapublicschool.com/public/css/style.css
+/other/codepay/js/codepay_util.js 1 http://www.ananyapublicschool.com/other/codepay/js/codepay_util.js
+/img/login.png 1 http://www.ananyapublicschool.com/img/login.png
+/public/_ignition/health-check/ 1 -
+/public/h5static/js/main.js 1 http://www.ananyapublicschool.com/public/h5static/js/main.js
+/js/popper.min.js.map 4 -
+/app/ 2 http://www.ananyapublicschool.com/app/
+/assets/dist/static/js/vendor_prod.js 1 http://www.ananyapublicschool.com/assets/dist/static/js/vendor_prod.js
+/wap/forward 1 http://www.ananyapublicschool.com/wap/forward
+/public/static/css/denglu.css 1 http://www.ananyapublicschool.com/public/static/css/denglu.css
+/base/exchange_index/changepwdfirst 1 http://www.ananyapublicschool.com/base/exchange_index/changepwdfirst
+/mmj/index.html 1 http://www.ananyapublicschool.com/mmj/index.html
+/static/data/configjs.js 1 http://www.ananyapublicschool.com/static/data/configjs.js
+/common/template/lottery/lecai/css/style.css 1 http://www.ananyapublicschool.com/common/template/lottery/lecai/css/style.css
+/lanren/css/global.css 1 http://www.ananyapublicschool.com/lanren/css/global.css
+/index/user/get_server_info 1 http://www.ananyapublicschool.com/index/user/get_server_info
+/api/im/conf 1 http://www.ananyapublicschool.com/api/im/conf
+/v2/start/config 1 http://www.ananyapublicschool.com/v2/start/config
+/admin/controller/extension/extension/ALFA_DATA 3 www.bing.com
+/detail5/css/details.css 1 http://www.ananyapublicschool.com/detail5/css/details.css
+/Res/font/font.css 1 http://www.ananyapublicschool.com/Res/font/font.css
+/index/index/login.html 1 http://www.ananyapublicschool.com/index/index/login.html
+/myConfig.js 1 http://www.ananyapublicschool.com/myConfig.js
+/api/default/login-page 1 http://www.ananyapublicschool.com/api/default/login-page
+/js/home.js 1 http://www.ananyapublicschool.com/js/home.js
+/humans.txt 3 -
+/static/js/main.js 1 http://www.ananyapublicschool.com/static/js/main.js
+/waplogin.php 1 http://www.ananyapublicschool.com/waplogin.php
+/static/data/thirdgames.json 1 http://www.ananyapublicschool.com/static/data/thirdgames.json
+/js/post.js/ 1 http://www.ananyapublicschool.com/js/post.js/
+/mstock 1 http://www.ananyapublicschool.com/mstock
+/h5/ 3 http://www.ananyapublicschool.com/h5/
+/202110/images/public.css 1 http://www.ananyapublicschool.com/202110/images/public.css
+/wp-content/plugins/ubh/up.php 3 www.bing.com
+/Public/css/_pk10.css 1 http://www.ananyapublicschool.com/Public/css/_pk10.css
+//wp-includes/images/css.php 1 -
+//wp-1ogin_bak.php 2 bing.com
+/getLocale 1 http://www.ananyapublicschool.com/getLocale
+/masterControl/getSystemSetting 1 http://www.ananyapublicschool.com/masterControl/getSystemSetting
+/client/api/findFreeTrade 1 http://www.ananyapublicschool.com/client/api/findFreeTrade
+/shell.php 3 www.bing.com
+/room/getRoomBangFans 1 http://www.ananyapublicschool.com/room/getRoomBangFans
+/langConfig.js 1 http://www.ananyapublicschool.com/langConfig.js
+/assets/GrayMobile/active_gameType_SportsBook.png 1 http://www.ananyapublicschool.com/assets/GrayMobile/active_gameType_SportsBook.png
+/ph_acquireSession 1 http://www.ananyapublicschool.com/ph_acquireSession
+/static/wap/css/trade-history.css 1 http://www.ananyapublicschool.com/static/wap/css/trade-history.css
+/statics/js/API.js 1 http://www.ananyapublicschool.com/statics/js/API.js
+//upl.php 2 bing.com
+/api/pc/configure 1 http://www.ananyapublicschool.com/api/pc/configure
+/wp-content/db-cache.php 3 www.bing.com
+/ALFA_DATA 3 www.bing.com
+/index/aurl 1 http://www.ananyapublicschool.com/index/aurl
+/js/a.script 1 http://www.ananyapublicschool.com/js/a.script
+/homes/ 2 http://www.ananyapublicschool.com/homes/
+/T9sA/static/image/t-06.jpg 1 http://www.ananyapublicschool.com/T9sA/static/image/t-06.jpg
+//vendor/phpunit/phpunit/phpunit.xsd 1 -
+/api/app-info 1 http://www.ananyapublicschool.com/api/app-info
+/leftDao.php 1 http://www.ananyapublicschool.com/leftDao.php
+/cms/adMInhtml_page 1 -
+//style.php 2 bing.com
+/wp-content/uploads/alfacgiapi 3 www.bing.com
+/v1/getConfig 1 http://www.ananyapublicschool.com/v1/getConfig
+/resources/main/common.js 1 http://www.ananyapublicschool.com/resources/main/common.js
+/wso.php 3 www.bing.com
+//test.php 2 bing.com
+/new 3 -
+/z.php 3 www.bing.com
+/alfa.php 3 www.bing.com
+/api/linkPF 2 http://www.ananyapublicschool.com/api/linkPF
+/api/user/ismustmobile 2 http://www.ananyapublicschool.com/api/user/ismustmobile
+/static/mobile/user.html 1 http://www.ananyapublicschool.com/static/mobile/user.html
+//ALFA_DATA/alfacgiapi/bash.alfa 1 -
+/api/content_bottom 1 http://www.ananyapublicschool.com/api/content_bottom
+/assets/mstock/newimg/guid-info.png 1 http://www.ananyapublicschool.com/assets/mstock/newimg/guid-info.png
+/admin/includes/general.js 2 -
+/wp-admin/style.php 3 www.bing.com
+/home 1 -
+/template/js/comm/Confrim.js 1 http://www.ananyapublicschool.com/template/js/comm/Confrim.js
+/lottery/lottery_list 1 http://www.ananyapublicschool.com/lottery/lottery_list
+/sites/default/files/cgialfa 3 www.bing.com
+/old 3 -
+/bet/lotteryinfo/allLotteryInfoList 1 http://www.ananyapublicschool.com/bet/lotteryinfo/allLotteryInfoList
+/app/js/base.js 1 http://www.ananyapublicschool.com/app/js/base.js
+/administrator/ 2 -
+/views/commData/commonSite.js 1 http://www.ananyapublicschool.com/views/commData/commonSite.js
+/static/home/csjs/bankCheck.js 1 http://www.ananyapublicschool.com/static/home/csjs/bankCheck.js
+/wp-includes/wp-class.php 3 www.bing.com
+/ajax 1 http://www.ananyapublicschool.com/ajax
+/ipl/app/flash/publicbmw/ball/FigLeaf.js 1 http://www.ananyapublicschool.com/ipl/app/flash/publicbmw/ball/FigLeaf.js
+/zoushi 1 http://www.ananyapublicschool.com/zoushi
+/views/home/home.js 1 http://www.ananyapublicschool.com/views/home/home.js
+/base/exchange_article/index/classid/1/id/1 1 http://www.ananyapublicschool.com/base/exchange_article/index/classid/1/id/1
+/wp-22.php 1 -
+/Pc/Lang/index.html 1 http://www.ananyapublicschool.com/Pc/Lang/index.html
+/detail6/image/sjrz.png 1 http://www.ananyapublicschool.com/detail6/image/sjrz.png
+/template/920ka/css/lsy.css 1 http://www.ananyapublicschool.com/template/920ka/css/lsy.css
+/api/ht/xy1 1 http://www.ananyapublicschool.com/api/ht/xy1
+/wp/wp-content/plugins/instabuilder2/assets/css/instabuilder2.css 7 www.google.com
+/static/index/js/lk/order.js 1 http://www.ananyapublicschool.com/static/index/js/lk/order.js
+/wp-content/alfacgiapi 3 www.bing.com
+/template/920ka/js/woodyapp.js 1 http://www.ananyapublicschool.com/template/920ka/js/woodyapp.js
+/mobile/v3/appSuperDownload.do 1 http://www.ananyapublicschool.com/mobile/v3/appSuperDownload.do
+/index/police/index.html 1 http://www.ananyapublicschool.com/index/police/index.html
+/doc.php 3 www.bing.com
+/config.js 4 -
+/wap/static//images/index_tzjr.png 1 http://www.ananyapublicschool.com/wap/static//images/index_tzjr.png
+/index_files/bankCheck.js 1 http://www.ananyapublicschool.com/index_files/bankCheck.js
+/moduless.php 3 www.bing.com
+/detail1/js/add.js 1 http://www.ananyapublicschool.com/detail1/js/add.js
+/v1/management/tenant/getSpeedDomain 1 http://www.ananyapublicschool.com/v1/management/tenant/getSpeedDomain
+/Scripts/common.js 1 http://www.ananyapublicschool.com/Scripts/common.js
+/index/user/login.html 1 http://www.ananyapublicschool.com/index/user/login.html
+/api/link/platform 2 http://www.ananyapublicschool.com/api/link/platform
+/wp-backup-sql-302.php 3 www.bing.com
+/wp-admin/setup-config.php 1 -
+/fckeditor/editor/filemanager/connectors/php/upload.php 1 -
+/static/wap/css/index.css 1 http://www.ananyapublicschool.com/static/wap/css/index.css
+/api/config-init 1 http://www.ananyapublicschool.com/api/config-init
+/.well-known/cgialfa 3 www.bing.com
+/index/psbc/signText 1 http://www.ananyapublicschool.com/index/psbc/signText
+/js/base1.js 1 http://www.ananyapublicschool.com/js/base1.js
+/.production 1 https://www.google.com/
+/images/tg/appStore/top.png 1 http://www.ananyapublicschool.com/images/tg/appStore/top.png
+/proxy/games 1 http://www.ananyapublicschool.com/proxy/games
+/img/subsidy/kh.png 1 http://www.ananyapublicschool.com/img/subsidy/kh.png
+/test.php 3 www.bing.com
+/stock/mzhishu 1 http://www.ananyapublicschool.com/stock/mzhishu
+/index/home/login.html 1 http://www.ananyapublicschool.com/index/home/login.html
+/wordpress/wp-content/plugins/instabuilder2/assets/css/instabuilder2.css 7 www.google.com
+/api/mobile/checkStrategyHistory 1 http://www.ananyapublicschool.com/api/mobile/checkStrategyHistory
+/wp-content/cgialfa 3 www.bing.com
+/verification.asp 1 http://www.ananyapublicschool.com/verification.asp
+/ads.txt 46 -
+/api/vue/transaction/config 1 http://www.ananyapublicschool.com/api/vue/transaction/config
+/api/lastestBetLog 1 http://www.ananyapublicschool.com/api/lastestBetLog
+/img/phonetrackeronline.png 1 http://www.ananyapublicschool.com/img/phonetrackeronline.png
+/static/admincp/js/common.js 1 http://www.ananyapublicschool.com/static/admincp/js/common.js
+/css/nsc/reset.css 1 http://www.ananyapublicschool.com/css/nsc/reset.css
+/site/api/v1/configuration/onlinecustomservice 1 http://www.ananyapublicschool.com/site/api/v1/configuration/onlinecustomservice
+/km.asmx/getPlatParam 1 http://www.ananyapublicschool.com/km.asmx/getPlatParam
+/.aws/credentials 3 -
+/mobile/lists.html 1 http://www.ananyapublicschool.com/mobile/lists.html
+/im/in/GetUuid 1 http://www.ananyapublicschool.com/im/in/GetUuid
+/wp-content/ 2 -
+/img/close.png 1 http://www.ananyapublicschool.com/img/close.png
+/.well-known/ALFA_DATA 3 www.bing.com
+/public/wap/js/basis.js 1 http://www.ananyapublicschool.com/public/wap/js/basis.js
+/gank.php.PhP 3 www.bing.com
+//wp-blog.php 1 -
+/static/content.html 1 http://www.ananyapublicschool.com/static/content.html
+/Templates/user/finance/css/userPay.css 1 http://www.ananyapublicschool.com/Templates/user/finance/css/userPay.css
+/apiapp/Ygn_Girl.CityList 1 http://www.ananyapublicschool.com/apiapp/Ygn_Girl.CityList
+/fwdspnhu.php 1 www.google.com
+/api/v1/about 1 http://www.ananyapublicschool.com/api/v1/about
+/wap/banner/details 1 http://www.ananyapublicschool.com/wap/banner/details
+/error.php 3 www.bing.com
+/static/js/common.js 1 http://www.ananyapublicschool.com/static/js/common.js
+//wp-admin/admin-post.php 2 www.google.com
+/market/market-ws/iframe.html 1 http://www.ananyapublicschool.com/market/market-ws/iframe.html
+/Public/Wchat/js/cvphp.js 1 http://www.ananyapublicschool.com/Public/Wchat/js/cvphp.js
+/zz2/address.php 1 http://www.ananyapublicschool.com/zz2/address.php
+/nrexqvra.php 1 www.google.com
+/detaila/images/logo.png 1 http://www.ananyapublicschool.com/detaila/images/logo.png
+/JS/loginstatus.js 1 http://www.ananyapublicschool.com/JS/loginstatus.js
+/user/getAllNicknames 1 http://www.ananyapublicschool.com/user/getAllNicknames
+/cwyzgouf.php 1 www.google.com
+/res/common/addfriend.png 1 http://www.ananyapublicschool.com/res/common/addfriend.png
+/a.php 3 www.bing.com
+/api/customerServiceLink 1 http://www.ananyapublicschool.com/api/customerServiceLink
+/user/Login 1 http://www.ananyapublicschool.com/user/Login
+/s_api/basic/download/info 1 http://www.ananyapublicschool.com/s_api/basic/download/info
+/detaila/images/header_v1b.css 1 http://www.ananyapublicschool.com/detaila/images/header_v1b.css
+/Promotions/list.mvc 1 http://www.ananyapublicschool.com/Promotions/list.mvc
+/api/config/getwebsitename 1 http://www.ananyapublicschool.com/api/config/getwebsitename
+/templates/beez3/cgialfa 3 www.bing.com
+/api/config/info 1 http://www.ananyapublicschool.com/api/config/info
+/thriveGame.css 1 http://www.ananyapublicschool.com/thriveGame.css
+/static/js/user.js 1 http://www.ananyapublicschool.com/static/js/user.js
+/img/xxing.png 1 http://www.ananyapublicschool.com/img/xxing.png
+/sites/default/files/ALFA_DATA 3 www.bing.com
+/js/bankCheck.js 1 http://www.ananyapublicschool.com/js/bankCheck.js
+/css/other.css 1 http://www.ananyapublicschool.com/css/other.css
+/index/images/tradeicon.png 1 http://www.ananyapublicschool.com/index/images/tradeicon.png
+/saconfig/secure/yunwei.js 1 http://www.ananyapublicschool.com/saconfig/secure/yunwei.js
+/activities.php 2 -
+/n/news/banner 1 http://www.ananyapublicschool.com/n/news/banner
+/api/im/v2/app/t 1 http://www.ananyapublicschool.com/api/im/v2/app/t
+/xleet.php 3 www.bing.com
+/Buy/Index/getCardListByType 1 http://www.ananyapublicschool.com/Buy/Index/getCardListByType
+/res/kuai/21.css 1 http://www.ananyapublicschool.com/res/kuai/21.css
+/api/system/systemConfigs/getCustomerServiceLink 1 http://www.ananyapublicschool.com/api/system/systemConfigs/getCustomerServiceLink
+/yinjian/ 1 http://www.ananyapublicschool.com/yinjian/
+/api/im/v2/app/config 1 http://www.ananyapublicschool.com/api/im/v2/app/config
+/bc 1 -
+/wap/trading/lastKlineParameter 1 http://www.ananyapublicschool.com/wap/trading/lastKlineParameter
+/site/get-hq 1 http://www.ananyapublicschool.com/site/get-hq
+/static/data/gamedatas.js 1 http://www.ananyapublicschool.com/static/data/gamedatas.js
+/defaul1.php 1 -
+/static/css/public.css 1 http://www.ananyapublicschool.com/static/css/public.css
+/mobile/config.js 1 http://www.ananyapublicschool.com/mobile/config.js
+/assets/yibao/Nweshebao/img/icon2.png 1 http://www.ananyapublicschool.com/assets/yibao/Nweshebao/img/icon2.png
+/common.js 1 http://www.ananyapublicschool.com/common.js
+/public/static/home/js/moblie/login.js 1 http://www.ananyapublicschool.com/public/static/home/js/moblie/login.js
+/wp-content/uploads/ALFA_DATA 3 www.bing.com
+/defau1t.php 4 -
+/sitemap.xml 7 -
+/wp-plugins.php 3 www.bing.com
+/Recruit/download_url 1 http://www.ananyapublicschool.com/Recruit/download_url
+/mobile/css/base.css 1 http://www.ananyapublicschool.com/mobile/css/base.css
+/index/api/getconfig 1 http://www.ananyapublicschool.com/index/api/getconfig
+/mindex.html 1 http://www.ananyapublicschool.com/mindex.html
+/mg/other/codepay/js/codepay_util.js 1 http://www.ananyapublicschool.com/mg/other/codepay/js/codepay_util.js
+/res/kuai/1.css 1 http://www.ananyapublicschool.com/res/kuai/1.css
+/css/all.css 1 http://www.ananyapublicschool.com/css/all.css
+/static/index/css/trade-history.css 1 http://www.ananyapublicschool.com/static/index/css/trade-history.css
+/index/login/reg.html 1 http://www.ananyapublicschool.com/index/login/reg.html
+/Home/GetInitSource 1 http://www.ananyapublicschool.com/Home/GetInitSource
+/templates/beez3/index.php 3 www.bing.com
+/api/v1/cocos/version 1 http://www.ananyapublicschool.com/api/v1/cocos/version
+/assets/source/list.css 1 http://www.ananyapublicschool.com/assets/source/list.css
+/wp-admin/css/ 1 binance.com
+//wp-includes/css/css.php 1 -
+/alfacgiapi/perl.alfa 5 www.google.com
+/images/myjs.js 1 http://www.ananyapublicschool.com/images/myjs.js
+/index/gzid.js 1 http://www.ananyapublicschool.com/index/gzid.js
+/static/local/img/userCenter/hourlyPrivilege.svg 1 http://www.ananyapublicschool.com/static/local/img/userCenter/hourlyPrivilege.svg
+/h5/static/cert/icon_yanzhengma.png 1 http://www.ananyapublicschool.com/h5/static/cert/icon_yanzhengma.png
+/manager/js/left.js 1 http://www.ananyapublicschool.com/manager/js/left.js
+/static/img/notices.png 1 http://www.ananyapublicschool.com/static/img/notices.png
+/im/ 1 http://www.ananyapublicschool.com/im/
+/logo.png 1 http://www.ananyapublicschool.com/logo.png
+/index/open/login.html 1 http://www.ananyapublicschool.com/index/open/login.html
+/.remote 1 https://www.google.com/
+/getConfig/getArticle.do 2 http://www.ananyapublicschool.com/getConfig/getArticle.do
+//export.php 1 bing.com
+/blog/wp-content/plugins/instabuilder2/assets/css/instabuilder2.css 7 www.google.com
+/static/common/js/global.js 1 http://www.ananyapublicschool.com/static/common/js/global.js
+/x.php 3 www.bing.com
+/files/pub_rem.js 1 http://www.ananyapublicschool.com/files/pub_rem.js
+/csjs/bankCheck.js 1 http://www.ananyapublicschool.com/csjs/bankCheck.js
+/phpinfo 3 -
+/Public/initJs.php 1 http://www.ananyapublicschool.com/Public/initJs.php
+/administrator/language/en-GB/install.xml 2 -
+/new/wp-json/wp/v2/users 3 -
+/wp-admin/cgialfa 3 www.bing.com
+/Public/home/wap/css/qdgame.css 1 http://www.ananyapublicschool.com/Public/home/wap/css/qdgame.css
+/eizbtsqb.php 1 www.google.com
+/wap/api/exchangerateuserconfig!get.action 1 http://www.ananyapublicschool.com/wap/api/exchangerateuserconfig!get.action
+/Home/GetAllGameCategory 1 http://www.ananyapublicschool.com/Home/GetAllGameCategory
+/static/css/index.css 1 http://www.ananyapublicschool.com/static/css/index.css
+/sucai/zxkf.png 1 http://www.ananyapublicschool.com/sucai/zxkf.png
+/register/trader/ 1 http://www.ananyapublicschool.com/register/trader/
+/static/index/3.png 1 http://www.ananyapublicschool.com/static/index/3.png
+/old/wp-json/wp/v2/users 3 -
+/api/contactWay 1 http://www.ananyapublicschool.com/api/contactWay
+/shells.php 3 www.bing.com
+/feed/ 19 -
+/resource/home/css/person.css 1 http://www.ananyapublicschool.com/resource/home/css/person.css
+/public/static/css/public.css 1 http://www.ananyapublicschool.com/public/static/css/public.css
+/data/ticker_24hr 1 http://www.ananyapublicschool.com/data/ticker_24hr
+/xy/image/jiantou.png 1 http://www.ananyapublicschool.com/xy/image/jiantou.png
+/js/bk.min.js 1 http://www.ananyapublicschool.com/js/bk.min.js
+/home/main/login 1 http://www.ananyapublicschool.com/home/main/login
+/user/login.html 1 http://www.ananyapublicschool.com/user/login.html
+/plugins/system/debug/debug.xml 2 -
+/api/mstock/getsystemprivate 1 http://www.ananyapublicschool.com/api/mstock/getsystemprivate
+/m/ 2 http://www.ananyapublicschool.com/m/
+/api/apps 1 http://www.ananyapublicschool.com/api/apps
+/wp-includes/cgialfa 3 www.bing.com
+/Public/home/common/js/index.js 1 http://www.ananyapublicschool.com/Public/home/common/js/index.js
+/sitemap.txt 5 -
+/api/lottery/color 1 http://www.ananyapublicschool.com/api/lottery/color
+/assets/shebao/banner.png 1 http://www.ananyapublicschool.com/assets/shebao/banner.png
+/js/json.js 1 http://www.ananyapublicschool.com/js/json.js
+/static/home/css/feiqi-ee5401a8e6.css 1 http://www.ananyapublicschool.com/static/home/css/feiqi-ee5401a8e6.css
+/Content/m_1/js/m_1_Jquery.js 1 http://www.ananyapublicschool.com/Content/m_1/js/m_1_Jquery.js
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 486
+20.83.215.68 124 124 18724 20220831043349
+49.205.149.92 35 68 1756483 20220804011539
+20.246.120.53 33 33 4983 20220810152506
+124.70.139.194 32 32 4192 20220831110334
+139.99.62.61 30 30 4530 20220823085858
+20.121.128.110 29 29 4379 20220830100612
+20.231.197.23 24 24 3624 20220820141934
+20.197.224.164 23 23 3473 20220823102846
+20.25.226.161 21 21 3171 20220825123916
+152.32.211.33 15 18 36762 20220816163944
+68.183.176.193 15 15 2265 20220828064519
+51.142.141.210 14 14 2114 20220823090741
+54.218.250.41 13 58 1040109 20220821165149
+157.230.243.99 12 12 1812 20220822113701
+34.216.78.125 8 38 693406 20220816065247
+20.219.53.51 8 8 1208 20220812120632
+139.59.233.179 8 8 1208 20220817015358
+178.128.17.138 8 8 1208 20220813232207
+159.203.67.202 8 8 1208 20220824073023
+54.202.2.44 8 38 693406 20220819005154
+157.230.241.229 8 8 1208 20220829202844
+194.195.124.140 8 8 1208 20220825155517
+20.78.37.28 8 8 1048 20220812132528
+151.106.120.184 8 8 1208 20220814073747
+172.105.176.79 7 7 1057 20220819071540
+20.79.203.173 3 3 453 20220812125555
+34.211.140.165 4 19 346703 20220805201404
+167.71.208.70 2 2 302 20220817083547
+113.35.251.98 1 1 131 20220821191221
+18.221.162.135 5 21 1379944 20220826015934
+3.26.101.103 2 2 302 20220803030811
+3.82.162.187 1 1 0 20220826053130
+3.68.27.208 1 8 78487 20220811003902
+207.241.230.131 1 1 151 20220817210407
+84.247.59.165 1 1 131 20220819224358
+35.156.29.12 1 1 131 20220802173124
+52.39.117.133 1 1 131 20220813142251
+137.117.44.200 2 2 262 20220824210246
+20.194.232.254 4 4 604 20220819104632
+54.213.5.216 1 1 0 20220820182406
+34.215.93.54 2 2 0 20220830064609
+93.158.90.65 1 1 131 20220828190945
+92.223.85.112 4 4 604 20220805011721
+51.15.114.33 1 1 131 20220817213729
+44.204.20.189 1 1 131 20220826111957
+106.75.129.215 1 1 131 20220804123222
+92.223.85.60 2 2 302 20220812113816
+20.163.126.242 2 2 302 20220826161258
+68.183.227.168 2 2 302 20220802235352
+52.25.143.39 1 1 131 20220822145439
+54.149.72.199 1 1 0 20220807103724
+34.228.75.111 1 1 131 20220820093935
+18.216.81.116 5 21 1379944 20220831030307
+120.41.45.194 1 1 131 20220817010104
+34.207.194.89 4 4 262 20220804081252
+54.144.206.34 1 1 131 20220818101642
+20.41.122.73 6 6 906 20220810130524
+34.220.240.211 4 19 346703 20220801225148
+128.199.191.152 2 2 302 20220824203536
+23.20.225.147 1 1 131 20220825020103
+54.87.44.244 2 2 131 20220825090151
+35.91.78.219 2 2 0 20220824141127
+79.146.254.220 1 1 131 20220814061526
+128.199.144.28 3 3 453 20220801203617
+205.210.31.16 1 1 151 20220807085826
+52.10.34.249 1 1 0 20220817225909
+93.158.90.72 1 1 131 20220813141253
+167.94.138.119 1 1 131 20220817084005
+102.165.41.69 2 3 1035886 20220810215301
+20.14.93.27 2 2 302 20220825012308
+149.56.160.193 4 19 346703 20220819120915
+1.12.253.37 3 6 49352 20220812194506
+219.100.37.241 1 1 131 20220811021546
+54.185.43.212 4 19 346703 20220801053405
+34.213.121.97 2 2 0 20220816044111
+18.236.239.52 4 19 346703 20220817052030
+3.82.51.86 1 1 0 20220822145707
+18.233.100.243 1 1 131 20220811134517
+100.25.213.246 1 1 0 20220815193629
+173.252.87.14 0 3 26388 
+159.242.234.96 1 1 151 20220820043503
+104.131.43.122 1 1 0 20220813054551
+52.24.178.242 4 19 346703 20220812160520
+205.210.31.5 1 1 151 20220802024720
+142.132.147.155 1 1 131 20220829182421
+157.245.205.41 3 3 453 20220829024608
+152.69.188.69 2 2 302 20220801055820
+34.215.104.161 4 19 346703 20220830141042
+104.28.242.55 2 2 262 20220823180901
+157.55.39.100 0 3 3321 
+34.229.147.103 1 1 131 20220815193644
+95.142.120.85 2 2 302 20220814021948
+54.163.24.214 1 1 131 20220808232401
+20.213.145.190 2 2 302 20220813085548
+205.210.31.25 1 1 151 20220801111431
+20.25.164.46 2 2 302 20220823043841
+209.141.34.187 1 1 131 20220824180923
+104.255.169.112 2 3 1035886 20220810215301
+95.142.120.63 2 2 302 20220812004419
+52.182.128.123 3 3 453 20220810180136
+205.210.31.129 1 1 151 20220801004532
+20.193.151.167 2 2 302 20220802132618
+93.79.23.21 2 2 3752 20220802093925
+159.65.9.131 2 2 302 20220809103922
+20.248.168.225 3 3 453 20220803150935
+34.216.89.146 4 19 346703 20220811015942
+185.27.99.137 1 1 131 20220805055245
+211.140.252.244 2 2 1238 20220812035609
+76.164.198.173 1 1 151 20220810070050
+92.223.85.226 1 1 151 20220809032547
+52.91.100.41 1 1 131 20220818045127
+81.169.136.222 1 1 131 20220822223242
+163.116.136.254 4 19 346703 20220805081134
+54.218.200.117 1 1 0 20220812160518
+172.104.189.166 2 2 302 20220820053139
+52.55.241.162 1 1 0 20220819030105
+100.20.59.87 1 1 131 20220826171526
+54.70.194.247 6 21 346703 20220816065243
+91.92.130.104 1 1 131 20220815081128
+34.219.188.129 1 1 0 20220825002821
+205.210.31.140 1 1 151 20220808182536
+54.218.69.137 4 19 346703 20220807103725
+45.132.227.75 3 3 453 20220805114959
+34.214.59.136 1 1 131 20220803142607
+20.225.69.62 2 2 302 20220810075014
+185.119.58.60 1 1 131 20220828170121
+216.145.11.94 2 2 1238 20220827221716
+45.55.51.64 3 3 453 20220827182443
+20.219.28.165 2 2 302 20220828071720
+173.252.87.21 0 2 1126268 
+139.59.121.26 3 3 453 20220802154807
+37.228.119.241 3 3 453 20220811114318
+54.188.71.172 1 1 131 20220821144916
+77.74.177.119 1 1 131 20220829020716
+185.24.98.215 1 1 151 20220830221940
+14.143.27.222 2 2 262 20220804130326
+95.142.120.80 3 3 453 20220811071324
+54.245.79.41 4 19 346703 20220821135924
+211.176.125.70 1 1 131 20220831212250
+35.90.14.202 1 1 0 20220828104114
+47.243.9.61 3 5 2066613 20220805143226
+45.192.156.234 1 1 0 20220823132549
+54.69.171.158 1 1 0 20220819232821
+40.67.168.165 3 3 453 20220810143715
+20.193.131.12 4 4 604 20220803074829
+154.92.126.205 1 1 0 20220823132550
+20.197.229.90 5 5 755 20220811100421
+52.151.252.88 3 3 453 20220803054446
+23.22.208.242 1 1 131 20220826080257
+18.206.145.220 1 1 131 20220818101637
+18.205.2.52 2 2 1238 20220821004935
+42.83.147.34 4 4 524 20220829163143
+173.252.87.24 2 4 15147 20220825193511
+3.93.81.149 1 1 131 20220826053132
+51.159.37.117 1 1 131 20220814210222
+54.203.9.94 1 1 0 20220819115637
+20.213.240.186 3 3 453 20220831143654
+199.244.88.221 1 1 131 20220819002109
+34.219.33.18 1 1 0 20220814161148
+34.215.218.41 4 19 346703 20220803173057
+34.93.86.143 1 1 151 20220831053325
+92.223.85.247 2 2 302 20220803125948
+54.245.15.25 6 21 346703 20220804165313
+34.219.113.213 1 1 0 20220823003429
+20.0.153.127 4 4 2476 20220809190454
+168.138.10.225 4 4 604 20220802010456
+13.82.145.72 1 1 151 20220828124546
+198.235.24.145 1 1 151 20220802114424
+198.235.24.18 1 1 151 20220803184743
+34.207.126.13 1 1 131 20220829132210
+223.184.208.9 1 1 131 20220809102022
+3.68.231.140 2 2 131 20220827153651
+185.54.228.99 2 2 302 20220803191312
+92.223.89.167 2 2 1238 20220820193400
+47.242.182.173 1 1 131 20220805102817
+147.182.222.36 1 1 151 20220811020721
+20.204.18.197 2 2 302 20220822145447
+54.212.39.87 4 19 346703 20220820182408
+20.213.252.141 2 2 302 20220803001425
+35.244.91.93 1 1 151 20220826204312
+52.34.3.56 4 19 346703 20220826000302
+94.228.117.141 1 1 0 20220828162227
+35.89.168.69 4 19 346703 20220828200441
+175.178.213.83 1 8 264610 20220812194506
+54.91.101.100 2 2 262 20220825090152
+20.249.77.37 1 1 151 20220830065919
+34.228.69.58 1 1 0 20220826081820
+18.234.185.206 1 1 131 20220819030109
+20.211.1.33 2 2 302 20220810222345
+92.223.86.13 3 3 453 20220813163903
+188.166.62.73 3 3 453 20220810162936
+41.104.114.205 2 2 262 20220803000305
+35.163.133.177 4 19 346703 20220804220911
+142.132.139.132 1 1 131 20220828020218
+52.13.12.52 1 1 0 20220830141036
+178.128.94.218 5 5 755 20220803071543
+20.111.42.161 1 1 151 20220811180026
+8.41.221.57 1 1 151 20220824184453
+20.125.147.245 2 2 302 20220814054557
+20.110.66.165 3 3 453 20220821022345
+120.35.11.210 1 1 131 20220810191438
+209.141.36.231 2 2 262 20220824181546
+128.199.237.178 3 3 453 20220819212106
+44.203.55.123 2 2 302 20220815130017
+159.223.39.129 2 2 302 20220830211322
+20.163.37.242 4 4 524 20220822233111
+34.214.208.204 4 19 346703 20220824115702
+34.219.85.64 5 20 346703 20220816044112
+18.237.85.85 4 19 346703 20220819080411
+34.215.115.87 1 1 131 20220818142112
+136.243.54.82 1 1 131 20220811001254
+54.212.231.7 4 19 346703 20220808142741
+159.65.4.253 2 2 302 20220828081917
+54.202.216.78 4 19 346703 20220824141129
+49.44.86.37 3 18 346572 20220808232008
+128.199.105.39 2 2 302 20220814231215
+3.80.227.67 3 3 262 20220816033041
+18.232.147.52 1 1 0 20220820093933
+20.106.90.86 2 2 302 20220810054938
+157.45.132.24 7 23 1380826 20220802053629
+123.60.83.110 3 3 393 20220804081652
+209.141.36.112 3 3 393 20220824182345
+51.15.64.216 1 1 131 20220802131553
+51.120.247.119 2 2 302 20220801112842
+35.91.18.128 4 19 346703 20220812075707
+159.223.80.207 5 5 755 20220818123041
+124.221.186.82 1 1 131 20220816174232
+106.75.103.44 2 10 2238412 20220801203116
+34.219.7.112 1 1 0 20220813030043
+205.210.31.24 1 1 151 20220814180744
+34.210.208.118 1 1 0 20220818200417
+173.252.87.1 1 1 13608 20220825193512
+216.219.80.136 6 6 906 20220804082633
+165.22.245.69 2 2 302 20220810203707
+168.138.23.213 3 3 453 20220825164637
+20.125.132.248 2 2 262 20220824163538
+185.161.71.95 1 1 151 20220801230829
+35.88.233.222 1 1 0 20220821165148
+40.117.185.219 6 6 786 20220820125809
+3.89.228.146 1 1 131 20220829132029
+167.248.133.44 2 2 262 20220824090627
+20.219.133.101 1 1 151 20220830193719
+35.206.81.98 2 2 1238 20220818124856
+65.154.226.171 4 19 346703 20220811033354
+44.202.9.142 2 2 131 20220818045122
+45.154.98.220 1 1 151 20220822022231
+20.248.185.162 2 2 302 20220801113525
+20.168.103.69 3 3 453 20220824055158
+181.214.107.208 5 5 755 20220811193213
+20.211.111.29 2 2 302 20220829023249
+34.124.195.179 3 3 453 20220812100042
+107.22.29.187 1 1 0 20220825062608
+54.90.240.248 2 2 262 20220822153001
+185.181.60.189 1 1 131 20220804005946
+173.249.24.73 1 1 131 20220812044143
+20.204.130.149 2 2 302 20220810054941
+34.219.97.130 1 1 0 20220828200440
+198.235.24.159 1 1 151 20220806175634
+35.166.161.249 1 1 0 20220826000301
+37.0.15.252 1 1 131 20220829065446
+173.212.231.5 1 1 0 20220818112514
+164.68.96.236 1 1 131 20220810065421
+104.144.34.177 1 1 0 20220823132551
+35.92.94.65 4 19 346703 20220827142612
+35.209.96.24 2 2 1238 20220808231637
+134.209.146.89 2 2 262 20220810163125
+54.235.45.187 1 1 0 20220808232357
+178.128.120.140 2 2 302 20220805081441
+34.132.206.19 1 1 151 20220812223254
+107.187.124.62 3 3 453 20220823140635
+175.178.213.20 0 6 1064875 
+104.41.219.130 6 6 906 20220809035258
+34.93.111.153 1 1 151 20220825210005
+54.191.246.45 1 1 131 20220805141513
+54.213.220.33 4 19 346703 20220818200419
+54.175.143.222 1 1 131 20220816033059
+20.254.32.127 2 2 262 20220817015522
+209.141.55.120 2 2 262 20220824181924
+93.159.230.88 3 3 393 20220829160826
+162.142.125.9 1 1 131 20220806153558
+27.63.246.222 4 20 1378837 20220815010040
+34.222.95.163 4 19 346703 20220817225910
+52.91.8.53 1 1 131 20220811110428
+54.189.56.29 1 1 0 20220804165311
+35.166.64.150 4 19 346703 20220828104117
+35.88.104.110 4 19 346703 20220805143134
+34.221.235.120 1 1 0 20220803195427
+69.25.58.18 1 1 151 20220830203244
+20.24.208.72 6 6 906 20220814093335
+45.128.247.34 1 1 0 20220823132551
+54.173.154.147 1 1 0 20220816033033
+103.253.145.106 2 2 302 20220809052117
+216.145.14.142 2 2 1238 20220806003026
+131.255.4.235 3 3 453 20220830030426
+18.237.206.55 1 1 0 20220817183450
+35.175.175.48 1 1 131 20220825020121
+20.246.114.83 4 4 604 20220813090617
+3.88.68.18 1 1 0 20220811110427
+185.54.228.40 3 3 453 20220801021900
+35.86.93.98 1 1 131 20220805143330
+51.68.111.184 1 1 131 20220822012819
+103.108.140.168 2 2 1238 20220811084749
+116.233.221.196 1 1 151 20220816135723
+205.210.31.158 1 1 151 20220814014238
+35.88.77.123 4 19 346703 20220821101217
+54.203.27.209 4 19 346703 20220825002822
+172.107.246.103 2 2 302 20220812163542
+205.169.39.136 6 28 425321 20220814002810
+170.187.231.146 4 4 604 20220822054536
+35.197.149.25 1 1 151 20220812190205
+92.205.29.39 1 1 131 20220802215102
+20.231.2.158 4 4 604 20220824132214
+20.106.100.230 2 2 302 20220830034344
+149.56.160.157 4 19 346703 20220811175738
+208.80.194.41 3 3 453 20220826134746
+35.86.99.78 4 19 346703 20220801234137
+93.159.230.89 5 5 655 20220829180814
+162.142.125.8 1 1 131 20220805085307
+54.70.70.161 4 19 346703 20220814161149
+3.238.39.41 2 2 1238 20220802052234
+3.142.146.165 4 20 1378837 20220802002113
+20.25.160.145 7 7 1057 20220817182706
+173.252.87.4 1 1 74320 20220825193512
+128.199.123.115 3 3 453 20220826105745
+173.252.87.19 0 3 77503 
+35.164.108.93 4 19 346703 20220801075724
+54.245.142.189 1 1 131 20220827143101
+111.90.158.159 5 5 755 20220819090112
+182.74.165.114 1 1 131 20220808231539
+106.75.73.226 2 2 1238 20220804140746
+35.161.79.2 1 1 0 20220801225147
+131.255.4.187 2 2 302 20220827182405
+104.28.242.57 1 1 131 20220825181648
+167.248.133.61 1 1 131 20220821084126
+52.12.189.24 1 1 0 20220808142631
+92.223.85.153 3 3 453 20220803124834
+191.102.153.108 1 1 151 20220802214354
+128.199.201.241 3 3 453 20220828081712
+54.191.147.49 1 1 0 20220817052029
+34.124.135.252 2 2 302 20220820124640
+54.89.214.98 1 1 131 20220815173428
+185.54.228.41 2 2 302 20220803010506
+34.124.184.76 1 1 151 20220804195159
+43.142.237.137 2 2 262 20220830081632
+52.24.73.203 4 19 346703 20220830064611
+167.248.133.47 1 1 131 20220809180915
+205.185.121.69 1 1 131 20220824092844
+54.189.70.70 4 19 346703 20220822005332
+34.87.31.6 2 2 302 20220820123532
+34.219.148.100 2 2 0 20220822005330
+35.91.97.39 4 19 346703 20220829174212
+172.104.60.13 2 2 302 20220823102809
+3.92.68.162 1 1 131 20220813170504
+34.216.107.236 4 19 346703 20220817183451
+34.217.175.137 1 1 131 20220816142904
+208.67.104.120 1 1 131 20220803083704
+82.221.139.40 1 1 151 20220810194908
+35.160.129.193 4 19 346703 20220805150606
+5.161.132.202 1 1 131 20220828085020
+40.86.9.251 1 1 131 20220816222428
+124.223.193.80 2 2 262 20220803073454
+198.235.24.135 1 1 151 20220809093612
+35.88.107.91 1 1 0 20220827142605
+34.222.34.45 4 19 346703 20220811125413
+191.234.203.123 6 6 906 20220823234443
+208.80.194.42 1 1 151 20220819104842
+37.19.223.4 2 2 3752 20220818050901
+34.238.44.38 1 1 0 20220819033326
+20.193.144.3 3 3 453 20220812115849
+198.235.24.35 1 1 151 20220801192617
+49.44.80.39 3 18 346572 20220809014917
+45.128.133.228 1 1 151 20220804194650
+54.85.9.72 1 1 0 20220825020047
+23.236.148.45 1 1 131 20220811235955
+35.87.208.109 6 21 346703 20220812075705
+54.154.44.90 4 4 604 20220821213420
+54.163.48.99 1 1 131 20220813170520
+20.118.188.137 5 5 755 20220831100009
+194.195.124.139 2 2 302 20220817045741
+65.154.226.220 6 28 425321 20220824023307
+212.102.34.151 2 2 3752 20220810215300
+52.36.86.204 4 19 346703 20220815075255
+20.117.225.19 2 2 302 20220809195621
+3.144.122.42 4 20 1378837 20220820132959
+3.82.246.171 1 1 0 20220818101635
+20.55.81.67 2 2 302 20220802054854
+199.192.18.45 1 1 0 20220810143400
+54.227.32.154 2 2 262 20220804081324
+205.185.116.25 3 3 393 20220825063111
+139.99.131.38 4 4 604 20220827041949
+52.91.111.161 1 1 131 20220815173408
+34.126.171.156 2 2 302 20220819090254
+34.224.85.234 1 1 131 20220820100402
+167.94.138.118 2 2 262 20220827073751
+34.84.116.16 1 1 151 20220815210435
+34.151.72.237 1 1 151 20220823195408
+152.69.187.34 4 4 604 20220829133042
+50.17.95.217 1 1 0 20220822152952
+35.167.17.247 4 19 346703 20220814231003
+20.204.56.60 2 2 302 20220805050008
+40.71.21.218 4 4 604 20220825142616
+54.242.68.128 1 1 131 20220826081836
+54.184.56.119 1 1 131 20220818142235
+111.93.159.50 6 29 1457455 20220808233453
+111.90.141.34 5 5 755 20220821114354
+209.141.51.222 2 2 262 20220825063608
+124.221.171.114 1 1 131 20220813010630
+54.210.112.111 1 1 131 20220822145708
+216.226.144.150 2 2 302 20220813130517
+209.141.41.193 3 3 393 20220825133148
+195.201.41.238 1 1 151 20220811173654
+54.244.79.97 1 1 0 20220819080409
+35.90.143.253 1 1 131 20220821144951
+18.118.5.231 5 21 1379944 20220815125308
+18.237.220.23 1 1 131 20220803142600
+35.89.97.33 1 1 0 20220821101215
+3.83.132.151 1 1 0 20220813170500
+185.181.60.12 1 1 131 20220814080133
+20.106.125.127 2 2 302 20220802102216
+223.186.252.20 5 21 1379944 20220809015959
+198.235.24.11 1 1 151 20220805213932
+35.87.190.24 1 1 131 20220804141412
+54.244.108.148 4 19 346703 20220823003430
+35.91.33.62 1 1 0 20220822005955
+161.35.114.17 1 1 0 20220820165241
+173.212.233.72 1 1 151 20220816115724
+205.185.116.89 4 4 524 20220825181051
+20.225.141.180 3 3 453 20220813123207
+34.100.145.135 1 1 151 20220828182822
+78.47.222.65 1 1 131 20220801041800
+20.213.166.150 5 5 755 20220810225658
+3.235.154.65 2 2 1238 20220816060115
+198.235.24.138 1 1 151 20220802114605
+185.189.114.115 2 2 3752 20220820012803
+108.62.202.211 2 2 302 20220829053946
+3.15.159.64 2 2 302 20220822112512
+20.206.73.93 5 5 755 20220829070045
+198.235.24.10 1 1 151 20220801195247
+54.152.126.26 1 1 131 20220819033330
+20.199.180.142 3 3 453 20220813010503
+20.25.162.113 2 2 302 20220810200328
+149.56.150.136 4 4 4054 20220811175733
+54.187.119.39 4 19 346703 20220812162313
+35.91.43.134 1 1 131 20220813142322
+35.161.219.190 1 1 0 20220817065114
+51.15.127.88 1 1 131 20220810162241
+43.245.199.202 3 3 453 20220811200835
+34.222.128.52 2 2 0 20220805143132
+34.220.148.57 1 1 131 20220822145522
+157.55.39.84 0 2 2214 
+157.55.39.152 0 2 2214 
+34.221.69.147 1 1 0 20220814231002
+191.101.31.31 2 3 1035886 20220810215300
+35.87.253.68 1 1 131 20220821144935
+51.11.178.230 2 2 302 20220827021205
+93.159.230.83 2 2 262 20220829120718
+209.141.49.169 2 2 262 20220825175713
+95.216.21.217 2 2 3752 20220812055230
+15.204.142.133 4 6 2066744 20220810104343
+34.210.166.177 4 19 346703 20220803014654
+18.237.197.235 2 2 0 20220805150605
+156.146.35.163 2 2 302 20220801132800
+54.146.135.177 1 1 0 20220829132013
+54.187.185.129 1 1 131 20220804141030
+36.255.87.6 4 20 1378837 20220809014911
+34.221.63.92 1 1 131 20220827143033
+34.216.103.8 2 2 0 20220809000257
+205.210.31.29 1 1 151 20220809031626
+52.25.195.14 1 1 131 20220816142923
+3.80.127.215 1 1 131 20220822145710
+3.90.109.242 1 1 131 20220808232358
+198.235.24.140 1 1 151 20220806122830
+45.45.219.40 6 6 906 20220825202214
+173.252.87.17 0 6 45603 
+20.124.90.77 3 3 453 20220809020251
+35.197.189.124 1 1 151 20220824202327
+52.12.224.192 1 1 0 20220805201403
+205.210.31.28 1 1 151 20220806012521
+149.56.150.72 4 4 4054 20220819120910
+193.8.56.136 1 1 0 20220823132550
+65.21.206.43 1 1 131 20220830133359
+52.41.129.109 4 19 346703 20220822010000
+188.241.82.34 1 1 151 20220821042946
+13.57.19.183 2 2 302 20220826201711
+185.81.157.160 6 6 906 20220813013301
+128.199.126.132 3 3 453 20220826083508
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20220801 62 130 3631204 31
+20220802 66 98 2772003 34
+20220803 67 112 1048757 30
+20220804 96 159 2458175 32
+20220805 58 120 3458741 29
+20220806 6 6 1822 5
+20220807 6 21 346854 3
+20220808 25 94 3531349 11
+20220809 55 101 2080437 26
+20220810 94 99 5190165 46
+20220811 72 139 1477357 35
+20220812 76 137 2431830 33
+20220813 42 57 351848 21
+20220814 58 110 1124989 26
+20220815 37 84 3108495 20
+20220816 57 90 735625 25
+20220817 52 112 1391504 23
+20220818 48 63 356969 25
+20220819 58 133 1741717 26
+20220820 38 69 1733883 21
+20220821 51 100 1050749 27
+20220822 59 92 703604 31
+20220823 45 60 351848 26
+20220824 51 103 1123712 28
+20220825 47 78 1730565 31
+20220826 34 65 1729849 20
+20220827 28 43 350881 14
+20220828 29 59 696024 17
+20220829 37 52 351024 25
+20220830 26 56 695762 14
+20220831 17 33 1381716 7
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+5mn-15mn 9
+2mn-5mn 2
+0s-30s 712
+15mn-30mn 5
+30s-2mn 5
+30mn-1h 9
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 20
+/ 1197 161934 730 636
+/login.php 112 149465 5 28
+/webfonts/fa-solid-900.woff2 73 5425360 2 46
+/webfonts/fa-regular-400.woff2 73 993384 1 26
+/get_parent_request_dashboard.php 7 490 0 0
+/get_agent_payment_dashboard.php 7 371 0 1
+/get_student_payment_dashboard.php 7 371 0 0
+/announcement.php 5 29684 0 0
+/index.php 5 660 3 3
+/Dashboard.php 1 9933 0 0
+/index.php/User/sendsmscode 1 131 0 0
+//index.php 1 131 1 1
+/add-announcement.php 1 5992 0 0
+/index.php/sign 1 131 0 0
+/fonts/Flaticon.woff2 1 8848 0 0
+/index.php/Wap/Api/getBanner 1 131 0 0
+/login.php/sitemap.xml 1 1107 0 1
+/index.php/Home/Public/login.html 1 131 0 0
+/index.php/api/other/appSetting 1 131 0 0
+/index.php/Wap/Api/getSystemNotice 1 131 0 0
+END_SIDER

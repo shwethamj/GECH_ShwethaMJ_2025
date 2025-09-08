@@ -1,0 +1,1519 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202205 will be lost/reset.
+# Last config file used to build this data file was /home4/parvamco/tmp/awstats/ssl/awstats.parvamconsultech.parvam.co.in.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2031                
+POS_TIME 2705                
+POS_VISITOR 55644               
+POS_DAY 63919               
+POS_DOMAIN 3572                
+POS_LOGIN 3936                
+POS_ROBOT 4091                
+POS_WORMS 4264                
+POS_EMAILSENDER 4395                
+POS_EMAILRECEIVER 4538                
+POS_SESSION 64838               
+POS_SIDER 65051               
+POS_FILETYPES 4673                
+POS_DOWNLOADS 5094                
+POS_OS 5285                
+POS_BROWSER 5491                
+POS_SCREENSIZE 6473                
+POS_UNKNOWNREFERER 6547                
+POS_UNKNOWNREFERERBROWSER 7114                
+POS_ORIGIN 7590                
+POS_SEREFERRALS 7734                
+POS_PAGEREFS 7899                
+POS_SEARCHWORDS 8047                
+POS_KEYWORDS 8199                
+POS_MISC 2368                
+POS_ERRORS 8258                
+POS_CLUSTER 3792                
+POS_SIDER_404 8453                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20220601000209 2572 824248 21038136496702
+FirstTime 0
+LastTime 20220531235853
+LastUpdate 20220601063025 2572 0 2571 0 0
+TotalVisits 282                 
+TotalUnique 178                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 209                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 12 0
+PDFSupport 0 0 0
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+FlashSupport 0 0 0
+RealPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+TotalMisc 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 2227 4371 181389146 146 1866 759628
+1 1894 3139 105009539 100 1060 831647
+2 1463 2239 45631593 102 592 3538
+3 1290 2390 64036544 121 603 297629
+4 2569 4712 180441380 196 1226 2124432
+5 1828 3681 112421534 317 1462 605943
+6 1980 3230 317454394 273 1411 1384752
+7 522 898 17365234 70 235 1089043
+8 139 560 29173130 44 70 1338
+9 53 197 3977913 50 66 2272
+10 57 98 4958868 52 77 2782
+11 5 11 545853 26 39 153
+12 18 106 9258805 28 36 454
+13 4 13 955517 27 34 555
+14 2 10 764975 19 22 301
+15 0 0 0 102 103 2452
+16 2 16 3861431 112 120 487
+17 0 0 0 44 45 1026
+18 16 67 4617243 37 41 2521
+19 3 13 309985 66 78 239
+20 1 13 557765 121 122 570
+21 155 398 26908698 110 363 313417
+22 404 817 22112769 101 276 1142
+23 1964 5026 214353826 204 1629 9896
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 8
+in 13597 27727 1262131228
+au 1232 1330 7144136
+jp 762 1000 18422117
+lk 572 674 3124538
+us 411 1203 53694412
+cz 12 57 1039899
+ca 8 8 292172
+cn 2 6 257640
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 1
+no_user_agent 15 754647 20220527213535 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 18
+ttf 3 14520 0 0
+map 3 405147 0 0
+woff 11 231472 0 0
+svg 30 72560 0 0
+html 425 3574958 0 0
+css 4286 42189920 0 0
+pdf 7 215053 0 0
+woff2 804 36218252 0 0
+webp 2 101062 0 0
+png 1196 407290968 0 0
+gif 16 300190 0 0
+Unknown 113 834139 0 0
+php 15234 38067745 0 0
+jpeg 29 23012793 0 0
+jfif 1 79028 0 0
+jpg 4983 721919156 0 0
+js 4853 71287035 0 0
+ico 9 292144 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 2
+/schoolerp/Teacher_Docs/TCHPDF_42_341467699628dec8ea5578.pdf 1 0 105624
+/schoolerp/Student_Docs/STUPDF_50_87040993628e17c4d76cb.pdf 1 0 109429
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 9
+androidmarshmallow 20 2
+win10 30623 16298
+macosx 23 8
+win7 105 9
+win8.1 19 4
+ios_iphone 136 23
+linuxandroid 1057 237
+Unknown 15 15
+winxp 7 0
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 40
+Unknown 12 12
+chrome102.0.5005.62 41 10
+chrome92.0.4515.166 36 6
+android 4 4
+chrome100.0.4896.79 29 7
+chrome101.0.4951.61 276 87
+safari13.1.2 22 7
+chrome102.0.5005.59 6 0
+chrome96.0.4664.104 39 7
+opera60.0.2254.59405 14 3
+chrome92.0.4515.159 5 1
+safari15.4 126 13
+chrome91.0.4472.120 8 0
+chrome101.0.4951.54 7036 4550
+chrome102.0.5005.63 544 172
+chrome102.0.0.0 1915 1432
+chrome72.0.3626.121 4 4
+firefox11.0 7 0
+chrome90.0.4430.210 33 7
+chrome101.0.0.0 2294 1580
+chrome97.0.4692.87 13 1
+chrome83.0.4103.106 3 0
+mozilla 4 4
+chrome102.0.5005.61 210 74
+chrome101.0.4951.67 14001 5253
+opera62.5.2254.61243 134 19
+safari13.0.3 8 8
+chrome89.0.4389.105 4 0
+safari13.0.1 1 1
+chrome100.0.4896.88 67 7
+chrome74.0.3729.136 2 1
+chrome100.0.4896.60 57 12
+safari14.1.2 1 1
+chrome68.0.3440.91 4 0
+chrome100.0.4896.127 4552 3169
+chrome101.0.4951.41 402 111
+chrome62.0.3202.84 12 3
+firefox100.0 73 28
+chrome94.0.4606.85 5 1
+chrome87.0.4280.141 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20220515211315
+WhatsApp/2.22.2.73_A 20220528002047
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20220524084357
+WhatsApp/2.21.24.22_A 20220507000831
+WhatsApp/2.22.8.79_A 20220501235307
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+WhatsApp/2.21.24.22_A 20220507000831
+WhatsApp/2.22.8.79_A 20220501235307
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20220515211315
+WhatsApp/2.22.2.73_A 20220528002047
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 786 793
+From1 0 0
+From2 10 10
+From3 0 0
+From4 15800 31202
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 10 10
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 10
+301 36 9021
+302 16 66
+206 36 6618339
+401 36 1345
+500 28 0
+400 12 624
+403 1 134
+404 11225 566
+409 23 1909
+406 75 16950
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 632
+/243a574iCyCZd823175662571qGTSUUA6b9eb2.solutions 1 -
+/1fc423dVmLd82315a601fa1xERGvd81db2.black 1 -
+/a865f14hWdWqgHd8231cc02cd41lNc_rFDf97e03.top 1 -
+/martinrealtors/assets/js/greeting.js 3 https://parvamconsultech.com/martinrealtors/admin/
+/brick2brick/assets/js/sidebar-menu.js 3 https://parvamconsultech.com/brick2brick/admin/support-ticket.html
+/martinrealtors/admin/assets/js/bootstrap/popper.min.js.map 1 -
+/admin_phpinfo.php 1 -
+/brick2brick/assets/css/vendors/font-awesome.css 3 https://parvamconsultech.com/brick2brick/admin/support-ticket.html
+/martinrealtors/assets/css/vendors/flag-icon.css 5 https://parvamconsultech.com/martinrealtors/admin/addproperty.php
+/martinrealtors/assets/images/dashboard/1.png 3 https://parvamconsultech.com/martinrealtors/admin/
+/a4e7372fDQxSd8231a8e2eee1NUpqhspd047af.sexy 1 -
+/martinrealtors/assets/js/bootstrap/popper.min.js 4 https://parvamconsultech.com/martinrealtors/admin/addproperty.php
+/f00eb9bqBjd823138cdbb41vXgQvfd8303.gd 1 -
+/schoolerp/attendencelist(1).php 1 https://parvamconsultech.com/schoolerp/attendance.php
+/4e519b8xgcd82315ef79621ufriS5fb8ef.gd 2 -
+/f53f257ibOd8231559b3c41GnNXc718dfe.ca 1 -
+/5abc800eAId82318446b2b1ihsIM77f99c.tc 1 -
+/phpversion.php 1 -
+/schoolerp/Student_Docs/STUDOC_41_37713999362877f2784ae7.jpg 152 https://parvamconsultech.com/schoolerp/add-student-documents.php
+/config.js 4 -
+/brick2brick/assets/images/avtar/3.jpg 1 https://parvamconsultech.com/brick2brick/admin/general-widget.html
+/99385cfX-sdd823103029ed1Gps07c2f1.pw 1 -
+/martinrealtors/admin/assets/css/responsive.css.map 1 -
+/schoolerp/schoolapi/parentrequestview.php 1 -
+/54cbeccUtGwPd82313d64f1c1HNCinPJ7f5af9.ca 2 -
+/9f4ca9dADcVncMd82315348a621OPnjHSGtac713a.hosting 1 -
+/brick2brick/assets/images/user/5.jpg 6 https://parvamconsultech.com/brick2brick/admin/support-ticket.html
+/brick2brick/assets/images/user/1.jpg 2 https://parvamconsultech.com/brick2brick/admin/support-ticket.html
+/scho 1 https://console.firebase.google.com/
+/schoolerp/update_event_gallery_images.php 1 https://parvamconsultech.com/schoolerp/add-new-event-gallery.php
+/.avs/credentials 1 -
+/dpl_2022 1 -
+/schoolerp/Profile_images/Profile_images/STUIMG_2950459936267a01cb349a.jpg 27 https://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/martinrealtors/assets/js/chart/morris-chart/morris.js 3 https://parvamconsultech.com/martinrealtors/admin/
+/brick2brick/assets/images/logo/morden-logo.png 11 https://parvamconsultech.com/brick2brick/admin/support-ticket.html
+/schoolerp/images/logo.jpg 928 https://parvamconsultech.com/schoolerp/Dashboard.php
+/aakruthi-erp/dashboard 1 -
+/eb0b089KcXIHfd82310f452331MPQOnQ9dfaad.ca 1 -
+/7a4ff5erLiFVaLd8231b246cdc1XxrBof1cb82.fr 1 -
+/schoolerp/Student_Docs/STUDOC_40_120210501862877edd0b349.jpg 2 https://parvamconsultech.com/schoolerp/student-details.php
+/QP1 1 -
+/skipper.php 21 -
+/bd6f25aDArTrsGd8231e4621ce1tfTJELz1d163d.ag 1 -
+/206a3c2KLmid82311649ffa1TxBVRc34b7a1.shop 1 -
+/7910301ntLubsd8231c89ca371dmbbIMFb98106e.games 1 -
+/vuln.php 21 -
+/876d798LfsuEed823102010831RhFWOzVd01ae17.ca 1 -
+/aadhya_foundation/js/bootstrap.min.js.map 8 -
+/wp-content/uploads/typehub/custom/xhkcsquw/.sp3ctra_XO.php 1 www.google.com
+/145165aB-PoBQd82315052a8c1mAOpwZlVd02c3d.pw 1 -
+/a9bce10dPwYZd82311c184541gkMEBhm20506f.construction 1 -
+/bc7dfcdK_RybCd82312a8a3081WezmjKQl7f556f.fr 1 -
+/info.php 4 -
+/school_erp/ 1 -
+/martinrealtors/admin/assets/css/vendors/feather-icon.css.map 1 -
+/04edef0N-bJJd8231072a58a1dFcQsvCa4c438.market 2 -
+/d1a6266oCqNnd8231d7ad2641MsZbaBx238f22.link 1 -
+/brick2brick/assets/images/user/4.jpg 6 https://parvamconsultech.com/brick2brick/admin/support-ticket.html
+/institutionerp/upendra/css/img/preloader.gif 3 https://parvamconsultech.com/institutionerp/upendra/css/style.css
+/8cbb391NlAd8231366863f1dtuIadf65d2.fr 1 -
+/c022371wmiiYd82312223d801WKTo_kw5d351b.ws 1 -
+/martinrealtors/assets/js/chart/apex-chart/apex-chart.js 3 https://parvamconsultech.com/martinrealtors/admin/
+/martinrealtors/assets/css/vendors/bootstrap.css 5 https://parvamconsultech.com/martinrealtors/admin/addproperty.php
+/martinrealtors/assets/js/jquery-3.5.1.min.js 4 https://parvamconsultech.com/martinrealtors/admin/addproperty.php
+/schoolerp/Student_Docs/STUDOC_41_206518336062877f2784614.jpg 152 https://parvamconsultech.com/schoolerp/add-student-documents.php
+/schoolerp/Student_Docs/STUDOC_38_72318347062877ca987b40.jpg 1 https://parvamconsultech.com/schoolerp/student-details.php
+/brick2brick/assets/images/dashboard/chrome.png 1 https://parvamconsultech.com/brick2brick/admin/general-widget.html
+/martinrealtors/assets/css/vendors/chartist.css 4 https://parvamconsultech.com/martinrealtors/admin/
+/0c4998dKDkgFd8231aa2634d1ydtdc41073.tc 2 -
+/36a8e41lLXiIhd823118393c21pSPUaMqu7aa9e6.tc 1 -
+/1e260bcBzyeJd8231b26e1db1sEx_Hxl67413a.gd 1 -
+/4f227e8g_JBbXd8231b3db8e01-UJa_cvt1bf65c.gd 2 -
+/Qleaps_07_05_22/assets/js/popper.min.js.map 8 -
+/martinrealtors/assets/images/product/small/tshirt.png 4 https://parvamconsultech.com/martinrealtors/admin/addproperty.php
+/c31204fjYud8231311c9da1Wmuedc4c783.works 1 -
+/voobdosp.php 1 www.google.com
+/martinrealtors/assets/css/responsive.css 5 https://parvamconsultech.com/martinrealtors/admin/addproperty.php
+/c68d8fbpFDGfnd82317cd0fec1osmCBc98e55.ls 1 -
+/brick2brick/assets/images/dashboard/p-1.png 4 https://parvamconsultech.com/brick2brick/admin/dashboard.php
+/php_info.php 2 -
+/8e115feIZzd82314f926a21JVxCNb9e914.gn 1 -
+/59a55f9fCqd8231fe6c4e81xAysB166f37.gn 1 -
+/brick2brick/assets/js/notify/bootstrap-notify.min.js 1 https://parvamconsultech.com/brick2brick/admin/
+/8d04d4drKJd8231fdd330f1xwYyP41187c.do 1 -
+/brick2brick/assets/js/icons/feather-icon/feather-icon.js 3 https://parvamconsultech.com/brick2brick/admin/support-ticket.html
+/feed/ 5 -
+/35e48e5ZIaoLjd82313c3ba481ta_oijs500090.gf 1 -
+/schoolerp/Student_Docs/STUDOC_40_213981892162877edd09f38.jpg 2 https://parvamconsultech.com/schoolerp/student-details.php
+/4a9317elMAqGUZd82310a8ec311UemDQLKEdb01e4.photos 2 -
+/brick2brick/assets/js/bootstrap/popper.min.js 3 https://parvamconsultech.com/brick2brick/admin/support-ticket.html
+/db196f5JKpFOBd82317daa0801_WcUELkTa8c8dc.do 1 -
+/pinfo.php 1 -
+/b7cee41qJhujcd8231403666c1_xPLXuHRb74f2d.taipei 1 -
+/author/admin/ 2 -
+/brick2brick/admin/index.html 3 https://parvamconsultech.com/brick2brick/admin/dashboard.html
+/martinrealtors/assets/images/user/4.jpg 3 https://parvamconsultech.com/martinrealtors/admin/
+/phpinfos.php 1 -
+/fa553e0vqoyqd823176b703e1OHnrScK4651b6.mba 1 -
+/af8a603IZJDGd82311d663f41BNegGty2a9587.software 1 -
+/courses/ 3 -
+/schoolerp/schoolapi/parentrequestlistview.php 4 -
+/schoolerp/updateAttendance.php 1 https://parvamconsultech.com/schoolerp/student-marks-entry_back_up.php
+/30ddca7MEBkud82319ecdcec1JEIKIjj5d7a62.lc 1 -
+/martinrealtors/assets/images/avtar/emoji/1.png 4 https://parvamconsultech.com/martinrealtors/admin/addproperty.php
+/6b548a3ESbEUnd8231ff5eb911CIwqcQoMd7ee3e.shop 1 -
+/6d5a2b3tNvd8231cbdb4851n--rs606c50.mx 1 -
+/rjrmofaj.php 1 www.google.com
+/martinrealtors/assets/js/notify/index.js 3 https://parvamconsultech.com/martinrealtors/admin/
+/schoolerp/Student_Docs/STUDOC_41_67367406762877f27839f2.jpg 152 https://parvamconsultech.com/schoolerp/add-student-documents.php
+/0912aecEEeynEud82315bd05081hERgU5e0dd4.tz 1 -
+/schoolerp/js/bootstrap.min.js.map 224 -
+/schoolerp/Student_Docs/STUDOC_38_181443440862877ca9887c8.jpg 1 https://parvamconsultech.com/schoolerp/student-details.php
+/8fa032bwghssgd823146deef91WvIUX20e745.chat 1 -
+/060a59dCosOd8231112838f1qkvkGvd9d8ad.camera 1 -
+/736f5a5LuCd82311ab650b1NbXNq234198.solutions 2 -
+/67fb88bFwwd823196dab431RIVbpbaf31c.works 1 -
+/schoolerp/Profile_images/Profile_images/STUIMG_22269836461e92922555f5.jpg 24 https://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/c55bb05beUeiod8231d5805e91EbvVFovP989cad.gf 1 -
+/1732dd1EOBl-xd8231504ce6e1euDawHqecc6a92.me 2 -
+/breaktobreak/ 1 -
+/schoolerp/Profile_images/Profile_images/STUIMG_17128181576244469de2cf8.jpg 24 https://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/martinrealtors/assets/js/chart/chartist/chartist.js 3 https://parvamconsultech.com/martinrealtors/admin/
+/inje3ctor.php 21 -
+/martinrealtors/assets/images/dashboard/social/1.png 3 https://parvamconsultech.com/martinrealtors/admin/
+/d2ace3bXXMYZd82315f574d81aijMZPg665907.tv 1 -
+/schooperp/ 1 https://console.firebase.google.com/
+/schoolerp/Profile_images/STUIMG_19504111146263c692de087.jpg 5 https://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/tttt.php 21 -
+/sc 1 -
+/ef4e54bUIhpWd8231f14c11f1RVGowdW773dbc.shop 1 -
+/ads.txt 31 -
+/0b61c77M-atd82317e5d2541isvjDwb6fb76.gf 1 -
+/43d5ccePLGmxd8231423e2fb1sJQgdkKc776d8.works 1 -
+/brick2brick/assets/js/theme-customizer/customizer.js 3 https://parvamconsultech.com/brick2brick/admin/support-ticket.html
+/schoolerp/css/img/preloader.gif 3258 https://parvamconsultech.com/schoolerp/css/style.css
+/schoolerp/Profile_images/Profile_images/STUIMG_1572814160623ee484742b3.jpg 24 https://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/b57ce6c-SEQyd823105d68df1M_Albkkee98a7.show 1 -
+/schoolerp/Profile_images/Profile_images/Profile_images/STUIMG_186350695661ebe3513720d.jpg 17 https://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/Qleaps_19_04_22/assets/js/metisMenu.min.js.map 10 -
+/e35355dlzUkEd823188ce7151KmyptkG5767fb.ro 1 -
+/f440494qgUCd8231410d72d1WfScaG3d66d6.pw 1 -
+/config/aws.yml 4 -
+/c84df69grPwyd8231410cb371pDp_147e56.om 2 -
+/schoolerp/Student_Docs/STUDOC_38_199333808462877ca989778.jpg 1 https://parvamconsultech.com/schoolerp/student-details.php
+/0f7fb9eQBkFkd82310112c071qcQPhhB0ce450.gf 1 -
+/schooperp/image 1 https://console.firebase.google.com/
+/martinrealtors/assets/images/avtar/emoji/7.png 4 https://parvamconsultech.com/martinrealtors/admin/addproperty.php
+/martinrealtors/assets/images/dashboard/profile_img.png 3 https://parvamconsultech.com/martinrealtors/admin/
+/brick2brick/assets/images/product/small/chair.png 3 https://parvamconsultech.com/brick2brick/admin/support-ticket.html
+/Qleaps_19_04_22/assets/js/bootstrap.min.js.map 10 -
+/brick2brick/assets/css/vendors/icofont.css 3 https://parvamconsultech.com/brick2brick/admin/support-ticket.html
+/brick2brick/assets/images/avtar/emoji/7.png 4 https://parvamconsultech.com/brick2brick/admin/support-ticket.html
+/f7e0a20-QQd8231d1e8fd21madWo5deed1.pw 1 -
+/martinrealtors/assets/images/dashboard/social/4.png 3 https://parvamconsultech.com/martinrealtors/admin/
+/476f0baPASFrLgd82311ec378b1iQbNqpOm4bc717.nu 1 -
+/old_phpinfo.php 1 -
+/brick2brick/assets/css/vendors/bootstrap.css 3 https://parvamconsultech.com/brick2brick/admin/support-ticket.html
+/47430c1doarVd82318c9d3e21CfKIDiH40738b.tc 1 -
+/time.php 1 -
+/fafc50bzEgWd8231637c7ca1QFgrtvd7e694.gd 1 -
+/brick2brick/assets/images/user-card/3.jpg 1 https://parvamconsultech.com/brick2brick/admin/general-widget.html
+/schoolerp/Profile_images/Profile_images/STUIMG_3527126726242aef087bde.jpg 24 https://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/23d0457FDmNWd8231556631c1OLer3b1191.bar 1 -
+/schoolerp/Profile_images/STUIMG_1534354892623ee0828bd83.jpg 5 https://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/schoolerp/Profile_images/Profile_images/STUIMG_635816766625fc0b8e6dd6.jpg 19 https://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/brick2brick/assets/js/counter/counter-custom.js 3 https://parvamconsultech.com/brick2brick/admin/support-ticket.html
+/8bd5dfbijgwnpwd8231d025daa1sSlafcQW31b3f5.tc 1 -
+/332b04aDhGAId8231b68f2341AktmdkE883755.gl 1 -
+/up.php 21 -
+/training/ 2 -
+/if.php 21 -
+/dcccbe9Mesd8231d537ced1_ZaxVb16b5a.rent 2 -
+/alfa.php 21 -
+/schoolerp/rep_new.php 1 https://parvamconsultech.com/schoolerp/student-marks-entry.php
+/schoolerp/Student_Docs/STUDOC_40_125419466562877edd0c802.jpg 2 https://parvamconsultech.com/schoolerp/student-details.php
+/brick2brick/assets/images/smiley.png 4 https://parvamconsultech.com/brick2brick/admin/dashboard.php
+/martinrealtors/admin/assets/css/vendors/flag-icon.css.map 1 -
+/7714d97sRBSEd8231f9aa5cd1_RcvWvKa3b8d4.me 1 -
+/schoolerp/Teacher_Profile/TCHIMG_1318241004624d6be533bba.jpg 12 https://parvamconsultech.com/schoolerp/view-all-deleted-teachers.php
+/brick2brick/assets/css/color-1.css 3 https://parvamconsultech.com/brick2brick/admin/support-ticket.html
+/martinrealtors/Dashboard.html 3 -
+/d05776bIKNOVdd8231bcbe26d1gNxmzDbOd16d16.shop 1 -
+/brick2brick/assets/js/notify/index.js 1 https://parvamconsultech.com/brick2brick/admin/
+/brick2brick/assets/js/datepicker/date-picker/datepicker.en.js 1 https://parvamconsultech.com/brick2brick/admin/general-widget.html
+/brick2brick/assets/js/chart/chartist/chartist.js 1 https://parvamconsultech.com/brick2brick/admin/
+/martinrealtors/assets/images/landing/demo/1.jpg 2 https://parvamconsultech.com/martinrealtors/admin/dashboard.php
+/schoolerp/Profile_images/Profile_images/STUIMG_1276570896624583e204306.jpg 25 https://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/martinrealtors/assets/images/avtar/emoji/9.png 4 https://parvamconsultech.com/martinrealtors/admin/addproperty.php
+/schoolerp/Student_Docs/STUDOC_40_7634462662877edd0c0a3.jpg 2 https://parvamconsultech.com/schoolerp/student-details.php
+/brick2brick/assets/css/vendors/owlcarousel.css 1 https://parvamconsultech.com/brick2brick/admin/general-widget.html
+/0d50e04qWNlNpd82317639fad1raERBpQUfb48e5.vc 1 -
+/schooper 1 https://console.firebase.google.com/
+/martinrealtors/admin/assets/css/color-1.css.map 1 -
+/schoolerp/js/popper.min.js.map 224 -
+/c73c5a1AzTbxLd8231d6bb3df1sFL_XH-vc025d2.tc 1 -
+/793e5ffNlMHglwd8231cf024001-WUeHUGg40a672.email 1 -
+/26a52f3KrhVqGd8231b1164a61tBJGl90057b.group 2 -
+/d4297aflFzURVPd82319ac72db1dAiuDHdab950.gn 1 -
+/625b8ceQfpinMd823173ed3431X-EKwAqy0785f5.tc 1 -
+/4bd02bflhMfmd823154719cd1jOXDwxC08dbde.ki 1 -
+/brick2brick/assets/images/product/small/bag.png 4 https://parvamconsultech.com/brick2brick/admin/support-ticket.html
+/bricktobrick 1 -
+/brick2brick/assets/images/dashboard/p-2.png 4 https://parvamconsultech.com/brick2brick/admin/dashboard.php
+/38e293eyrKFEqbd82312b5a6cf1CIxCL89fbe7.tc 2 -
+/martinrealtors/assets/images/dashboard/p-1.png 3 https://parvamconsultech.com/martinrealtors/admin/
+/schoolerp/Student_Docs/STUDOC_40_28374983862877edd0aafe.jpg 2 https://parvamconsultech.com/schoolerp/student-details.php
+/brick2brick/assets/js/chart/apex-chart/stock-prices.js 1 https://parvamconsultech.com/brick2brick/admin/
+/brick2brick/assets/images/avtar/emoji/4.png 4 https://parvamconsultech.com/brick2brick/admin/support-ticket.html
+/martinrealtors/assets/js/counter/jquery.waypoints.min.js 3 https://parvamconsultech.com/martinrealtors/admin/
+/635ad33cmJkd8231480e4c51LLQhOP758703.shop 1 -
+/brick2brick/assets/js/prism/prism.min.js 2 https://parvamconsultech.com/brick2brick/admin/general-widget.html
+/ddcd15fiJpad82315d4bba31jQEc9eb81.com.tw 1 -
+/brick2brick/assets/js/datepicker/date-picker/datepicker.custom.js 1 https://parvamconsultech.com/brick2brick/admin/general-widget.html
+/118ed19PLOXMLd823138ba7991icFAvTBx850dba.at 1 -
+/brick2brick/assets/images/dashboard/social/4.png 4 https://parvamconsultech.com/brick2brick/admin/dashboard.php
+/Qleaps_07_05_22/assets/css/bootstrap.min.css.map 8 -
+/schoolerp/Profile_images/Profile_images/STUIMG_13324092236266923db2889.jpg 27 https://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/2dc0e8exJDy_gd82313f8163a1SxbjtNapd07825.works 1 -
+/schoolerp/Profile_images/ 20 https://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/b12d601opFd8231e2e5b231tFnlGad213d.pw 2 -
+/9b7c63eGZzd823126e61f11XKYFXa49d25.sb 1 -
+/aadhya_foundation/js/popper.min.js.map 8 -
+/aadhya_foundation/css/img/preloader.gif 90 https://parvamconsultech.com/aadhya_foundation/css/style.css
+/martinrealtors/assets/js/theme-customizer/customizer.js 4 https://parvamconsultech.com/martinrealtors/admin/addproperty.php
+/schoolerp/Profile_images/Profile_images/STUIMG_3892187536279032cb6c60.jpg 24 https://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/martinrealtors/assets/images/dashboard/impossible.png 2 https://parvamconsultech.com/martinrealtors/admin/dashboard.php
+/brick2brick/assets/css/vendors/feather-icon.css 3 https://parvamconsultech.com/brick2brick/admin/support-ticket.html
+/21e7943hMJ-d82312fae9471PAjKXh6b1e6b.ki 1 -
+/brick2bric 1 -
+/6eae259kvwed823115a729a1iTyNpH68ad0b.tc 1 -
+/schoo 1 https://console.firebase.google.com/
+/a3e7d0bmmhWXd8231b6743351qIQgW_qb2d00b.ga 1 -
+/application/config/s3.php 4 -
+/c5701cbKTKivZld8231ef1aad31ioxpUIeadffa.la 1 -
+/martinrealtors/assets/images/dashboard/p-2.png 3 https://parvamconsultech.com/martinrealtors/admin/
+/b6eb60bHqHIbGd8231724aa101mlBVXBxBe95496.shop 1 -
+/martinrealtors/assets/images/avtar/emoji/8.png 4 https://parvamconsultech.com/martinrealtors/admin/addproperty.php
+/7417580SZYId82312fdaf6c1iQHc400de.shop 1 -
+/cc19a0czxyr-mnd8231cf362b81SVPiGc006c33.tc 1 -
+/d479a43MkQdd8231a2c7e3e1ixCUBz32f82d.ki 1 -
+/08e08eezjvZMyad8231d29107e1LuikIbb5f5b9.gn 1 -
+/alfashell.php 21 -
+/brick2brick/assets/js/general-widget.js 1 https://parvamconsultech.com/brick2brick/admin/general-widget.html
+/martinrealtors/assets/css/vendors/icofont.css 5 https://parvamconsultech.com/martinrealtors/admin/addproperty.php
+/fad06e7-bwd8231b1e54f41JCCyCb0d491.md 1 -
+/4701a12LfvXad82313b7962f1rHItRFA79eda2.gn 1 -
+/vyrqpmay.php 1 www.google.com
+/ed5287fyEoGVd823167333df1rpoVlgM18cb04.gn 1 -
+/martinrealtors/assets/css/style.css 5 https://parvamconsultech.com/martinrealtors/admin/addproperty.php
+/schoolerp/Profile_images/Profile_images/STUIMG_12057034596267853d8afb0.jpg 16 https://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/schoolerp/Student_Docs/STUDOC_38_87252561962877ca987429.jpg 1 https://parvamconsultech.com/schoolerp/student-details.php
+/b9f46b3ZYqlPfKd82316a29fe81SqixBlRdc0e31.ki 1 -
+/59d525clmIzwd8231756514c1MUuhUJbacc969.gd 1 -
+/schoolerp/Student_Docs/STUDOC_36_188727134562877a03cb709.jpg 3 https://parvamconsultech.com/schoolerp/student-details.php
+/schoolerp/Profile_images/Profile_images/STUIMG_12222164628483c8e046a.jpg 24 https://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/brick2brick/assets/images/dashboard/boy-2.png 1 https://parvamconsultech.com/brick2brick/admin/general-widget.html
+/brick2brick/assets/js/datatable/datatables/jquery.dataTables.min.js 1 https://parvamconsultech.com/brick2brick/admin/support-ticket.html
+/martinrealtors/assets/js/dashboard/default.js 3 https://parvamconsultech.com/martinrealtors/admin/
+/b63034efPTetLd8231bc1664e1xuGEVlVid922a4.net.co 1 -
+/3a32462hAcwd823170a239b1UGNoPIfd6a71.fr 2 -
+/df18d94Qsmd8231017afc21GBRnc1fe336.luxe 1 -
+/Qleaps_19_04_22/assets/img/qleaps_client_imgs/logo.png 1 https://parvamconsultech.com/Qleaps_19_04_22/
+/bef6575hSglwd8231fe46ed51PQhnAFH1c12e9.ca 1 -
+/c653c8beEGd82319bfb1521KytPQ7abd06.me 1 -
+/schooperp/images 1 https://console.firebase.google.com/
+/96e0309mQaiWd82315e0546c1vXWL6adc42.gw 1 -
+/38c1adezISMgd823145155761jcABxnx40b34f.me 1 -
+/brick2brick/assets/images/dashboard/social/5.png 4 https://parvamconsultech.com/brick2brick/admin/dashboard.php
+/martinrealtors/dashbaord.html 1 -
+/schooperp/imag 1 https://console.firebase.google.com/
+/18b2223KtHjYd8231194ef0f1VqohlyY34f43d.pw 1 -
+/brick2brick/assets/js/sweetalert.min.js 3 https://parvamconsultech.com/brick2brick/Residential-Construction.html
+/brick2brick/assets/images/user/2.png 1 https://parvamconsultech.com/brick2brick/admin/support-ticket.html
+/brick2brick/assets/js/chart/knob/knob.min.js 1 https://parvamconsultech.com/brick2brick/admin/
+/schoolerp/Profile_images/STUPDF_40_70112817262877edd95985.jpg 2 https://parvamconsultech.com/schoolerp/student-details.php
+/brick2brick/assets/js/datepicker/date-picker/datepicker.js 1 https://parvamconsultech.com/brick2brick/admin/general-widget.html
+/38d1631LNmSd8231a6a9e2b1x-Gdvsc9bfd19.coffee 2 -
+/brick2brick/assets/images/product/small/tshirt.png 4 https://parvamconsultech.com/brick2brick/admin/support-ticket.html
+/Qleaps_19_04_22/assets/js/popper.min.js.map 10 -
+/schoolerp/Profile_images/STUIMG_903524138624bf089a29e7.jpg 5 https://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/063f75eRNxIXJd8231f0051271Inlmc_Ae239987.pw 1 -
+/brick2brick/assets/images/favicon.png 1 https://parvamconsultech.com/brick2brick/admin/
+/schoolerp/Student_Docs/STUDOC_40_77214617362877edd0b9a3.jpg 2 https://parvamconsultech.com/schoolerp/student-details.php
+/brick2brick/assets/css/vendors/animate.css 1 https://parvamconsultech.com/brick2brick/admin/
+/13485f4ZVCd8231b2726fb1PHFbt76a562.dog 1 -
+/schoolerp/Teacher_Profile/TCHIMG_765525616624c0c75b5c73.jpg 12 https://parvamconsultech.com/schoolerp/view-all-deleted-teachers.php
+/187ec21LQXJBpwd8231e570cb31orz-WcU44078b.cy 1 -
+/afbea17ZVahZd82314f0d50e1cMwBkzKf1c3ac.expert 2 -
+/61d57b8sCId823118da63a1klrz_8a0138.sexy 1 -
+/Qleaps_07_05_22/assets/js/metisMenu.min.js.map 8 -
+/martinrealtors/assets/js/prism/prism.min.js 3 https://parvamconsultech.com/martinrealtors/admin/
+/schoolerp/Student_Docs/STUDOC_41_24790045162877f278400e.jpg 152 https://parvamconsultech.com/schoolerp/add-student-documents.php
+/7dc8005AyDnd82317c0493d1qOGyKI7b058b.me 1 -
+/e11a00eOqdxd823192a81671lolwpAaa3664.tools 1 -
+/a11ac9bKtqXd82311feec681cexLyLa898ec.works 1 -
+/f231de9nIJad8231eba2d751mRySGs10b5a0.ye 2 -
+/9099406AZEnkd823102bcfb71KAxGkOD86c145.gd 1 -
+/90ec4a3MsCJapd82318e60ab41lUTKPnSh5847d7.works 1 -
+/js/vendor/NoSleep.min.js 1 https://www.parvamconsultech.com/kpl/
+/cbf1a8bxrGriVhd8231e414a7d1kkTMEbb24ba.gives 1 -
+/martinrealtors/assets/css/color-1.css 5 https://parvamconsultech.com/martinrealtors/admin/addproperty.php
+/schoolerp/Profile_images/Profile_images/STUIMG_186350695661ebe3513720d.jpg 75 https://parvamconsultech.com/schoolerp/view-all-student.php
+/martinrealtors/admin/assets/js/bootstrap/bootstrap.min.js.map 1 -
+/Qleaps_07_05_22/assets/js/sweetalert.min.js 3 https://parvamconsultech.com/Qleaps_07_05_22/index.html
+/martinrealtors/assets/css/vendors/feather-icon.css 5 https://parvamconsultech.com/martinrealtors/admin/addproperty.php
+/schoolerp/Profile_images/Profile_images/STUIMG_1534381671624d235f3336d.jpg 26 https://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/brick2brick/assets/js/bootstrap/bootstrap.min.js 3 https://parvamconsultech.com/brick2brick/admin/support-ticket.html
+/schoolerp/Student_Docs/STUDOC_36_118258975762877a03cd864.jpg 3 https://parvamconsultech.com/schoolerp/student-details.php
+/bd7ecebSPOd8231eefb7bc1no-aN8da752.tc 1 -
+/martinrealtors/assets/images/user/5.jpg 3 https://parvamconsultech.com/martinrealtors/admin/
+/schooperp 1 https://console.firebase.google.com/
+/bb79278xzAyPWd82316604a5f1PMKKADAJ78458d.works 1 -
+/Qleaps_19_04_22/assets/css/spacing.css.map 10 -
+/d6c2741-FmHRd823136161501lPrnsK_090733.gd 1 -
+/schoolerp/Profile_images/STUIMG_1276570896624583e204306.jpg 5 https://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/7dc691fnsnPEdEd82317c0493d1tHeDjORT42fdf5.tc 1 -
+/c99.php 21 -
+/schoolerp/Student_Docs/STUDOC_38_162490771862877ca986d9d.jpg 1 https://parvamconsultech.com/schoolerp/student-details.php
+/44c5171f--d823172e4bbd1cPG-x1423c0.action 1 -
+/test.php 1 -
+/martinrealtors/assets/js/form-validation-custom.js 1 https://parvamconsultech.com/martinrealtors/admin/addproperty.php
+/f7731efnfQd823193460a11IIpXv10cd64.dz 1 -
+/aws.yml 4 -
+/schoolerp/Profile_images/Profile_images/STUIMG_2004497418624c052d5f049.jpg 25 https://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/5e9f74fnXkwOd8231e8b3bab1PiJPd5b169.name 1 -
+/9e8fa01tRHd82314b127891LOGfd0980e0.top 2 -
+/martinrealtors/assets/images/dashboard/social/3.png 3 https://parvamconsultech.com/martinrealtors/admin/
+/qp1 1 -
+/8165a15MvpwIhd82318b7eac71qlqYBbTeb3bc76.pw 2 -
+/martinrealtors/admin/assets/css/vendors/icofont.css.map 1 -
+/ede6aabLlvIPvxd82313778d691yn_eqDfhb8e221.organic 1 -
+/infophp.php 2 -
+/brick2brick/assets/js/height-equal.js 1 https://parvamconsultech.com/brick2brick/admin/general-widget.html
+/2a81cd2mXKMUd8231b59c7f91PWwSV_g8da7d1.lt 1 -
+/martinrealtors/plugins/highlight/styles/monokai-sublime.css 11 https://parvamconsultech.com/martinrealtors/assets/css/plugins.css
+/brick2brick/assets/images/dashboard/1.png 4 https://parvamconsultech.com/brick2brick/admin/dashboard.php
+/.DS_Store 1 -
+/brick2brick/assets/js/chart/apex-chart/apex-chart.js 1 https://parvamconsultech.com/brick2brick/admin/
+/Qleaps_19_04_22/assets/img/qleaps_client_imgs/img7.jpg 1 https://parvamconsultech.com/Qleaps_19_04_22/
+/2afb6d9oielBWd82317741a571LXHcwbQBb476e0.my 2 -
+/bd70223rGVEWd8231eefb7bc1ABPTQTe17072f.coffee 1 -
+/schoolerp/Student_Docs/STUDOC_36_15012554162877a03cc3ee.jpg 3 https://parvamconsultech.com/schoolerp/student-details.php
+/brick2brick/assets/js/counter/jquery.waypoints.min.js 3 https://parvamconsultech.com/brick2brick/admin/support-ticket.html
+/martinrealtors/assets/js/config.js 4 https://parvamconsultech.com/martinrealtors/admin/addproperty.php
+/shell.php 21 -
+/martinrealtors/assets/images/dashboard/p-3.png 3 https://parvamconsultech.com/martinrealtors/admin/
+/brick2brick/assets/css/vendors/datatables.css 1 https://parvamconsultech.com/brick2brick/admin/support-ticket.html
+/2924360QjPZelid8231963a49d1hrsGhLa8325d.mp 1 -
+/aadhya_foundation/css/bootstrap.min.css.map 9 -
+/martinrealtors/admin/assets/css/style.css.map 1 -
+/gvfzyeoa.php 1 www.google.com
+/martinrealtors/assets/js/chart/morris-chart/prettify.min.js 3 https://parvamconsultech.com/martinrealtors/admin/
+/d973928HkBd82316dd57311TF_ZZ2a92d1.solutions 1 -
+/brick2brick/assets/images/logo/logo-icon.png 11 https://parvamconsultech.com/brick2brick/admin/support-ticket.html
+/aadhya_foundation/student-insert-form.php 1 -
+/phpinfo.php 4 -
+/ups.php 21 -
+/schoolerp/Profile_images/Profile_images/Profile_images/STUIMG_210114155762677be05e4f3.jpg 26 https://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/brick2brick/assets/css/vendors/date-picker.css 1 https://parvamconsultech.com/brick2brick/admin/general-widget.html
+/9c43493nP_phd823125f775c1lVuJbTd9dddb3.action 1 -
+/8aff446oAFFzsqd8231f78980e1GwFNYZ68ab1a.name 1 -
+/56c9444HFAXiDqd8231657e3a01yGlySpycd6ac9.cu 1 -
+/fw.php 21 -
+/sch 1 https://console.firebase.google.com/
+/martinrealtors/assets/js/chart/knob/knob.min.js 3 https://parvamconsultech.com/martinrealtors/admin/
+/95b957aIfsFzEld82314c209a41Qlsirmeeb3ff.luxe 2 -
+/schoope 1 https://console.firebase.google.com/
+/martinrealtors/assets/images/favicon.png 1 https://parvamconsultech.com/martinrealtors/admin/
+/schoolerp/Profile_images/Profile_images/STUIMG_1534354892623ee0828bd83.jpg 24 https://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/2503e5bh_vKwd8231bac1c701XeLurxxf66fa4.gd 1 -
+/d3bd191dhIrdd823115466681QHLamIT8351f3.ck 1 -
+/martinrealtors/assets/images/logo/logo-icon.png 4 https://parvamconsultech.com/martinrealtors/admin/addproperty.php
+/30a37e9NwiQFd8231ec833301SCupcVB7c2022.fish 1 -
+/Dpl_2022 1 -
+/brick2brick/assets/images/dashboard/safari.png 1 https://parvamconsultech.com/brick2brick/admin/general-widget.html
+/5576303NPFBd82316efee971pPeVkm7c9822.tc 1 -
+/i.php 1 -
+/martinrealtors/assets/images/product/small/headphone.png 4 https://parvamconsultech.com/martinrealtors/admin/addproperty.php
+/brick2brick/assets/images/dashboard/social/1.png 4 https://parvamconsultech.com/brick2brick/admin/dashboard.php
+/about-us/ 1 -
+/schoolerp/Profile_images/STUIMG_177867694624bf3bcf0c93.jpg 5 https://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/6867f59XWTd82313bc27f31ayEVS1c62b7.works 1 -
+/brick2brick/assets/css/responsive.css 3 https://parvamconsultech.com/brick2brick/admin/support-ticket.html
+/Qleaps_19_04_22/assets/img/qleaps_client_imgs/img1.jpg 1 https://parvamconsultech.com/Qleaps_19_04_22/
+/schoolerp/Profile_images/Female_Student.jpg 48 https://parvamconsultech.com/schoolerp/view-all-student.php
+/511d054UWMapd8231003e7dd1OBurvfm02f935.ki 1 -
+/4db8ec4Dfad8231898324c1LueXtd15fb3.do 1 -
+/schoolerp/css/bootstrap.min.css.map 232 -
+/schoolerp/Profile_images/STUIMG_635816766625fc0b8e6dd6.jpg 69 https://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/c330004MihUd82310fb72a21LVXDUN330183.style 1 -
+/Qleaps_19_04_22/assets/img/qleaps_client_imgs/img3.jpg 1 https://parvamconsultech.com/Qleaps_19_04_22/
+/70a6f26-crcd8231dc5eb161BkEac703d.ca 1 -
+/5cab12eBMJjd823161c6bf21ZoD84530a.gd 1 -
+/brick2brick/assets/images/dashboard/p-3.png 4 https://parvamconsultech.com/brick2brick/admin/dashboard.php
+/brick2brick/assets/images/avtar/emoji/9.png 3 https://parvamconsultech.com/brick2brick/admin/support-ticket.html
+/brick2brick/assets/css/vendors/flag-icon.css 3 https://parvamconsultech.com/brick2brick/admin/support-ticket.html
+/0d2b491pCAFd8231a6df0ca1oYkfIa2f4f8f.email 1 -
+/d7d51e2FqUd8231f86a55d1VRBhPf1f992.party 1 -
+/9f74041TjKzcd8231f018ec41NEDGQQH4295ce.pw 1 -
+/brick2brick/assets/js/dashboard/default.js 1 https://parvamconsultech.com/brick2brick/admin/
+/f339816aBAd8231ee44e751Itpbm5d142a.app 1 -
+/1c89126KukcV-d8231704c01d1SCfTLkdK5b3ffd.gd 1 -
+/schoolerp/Profile_images/Profile_images/STUIMG_177867694624bf3bcf0c93.jpg 24 https://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/5cc6018NkxJd8231d05e1fb1uLRFhN670d6f.tc 1 -
+/martinrealtors/admin/assets/js/icons/feather-icon/feather.min.js.map 1 -
+/f5dd331HKrd823186581061QkiZCf9d5b3.ag 1 -
+/33ce63cveZBmdId823184781ac1wYgDxc84b85.bs 1 -
+/90b4d23pggtWBd8231832b4a81GXAmStJA9b0f6f.gi 1 -
+/brick2brick/assets/js/support-ticket-custom.js 1 https://parvamconsultech.com/brick2brick/admin/support-ticket.html
+/schoolerp/Student_Docs/STUDOC_41_61595905862877f2782c21.jpg 152 https://parvamconsultech.com/schoolerp/add-student-documents.php
+/196be3ftTWaJd8231b10729e1pZOsjUDbb746a.tc 1 -
+/swcs/admin/css/img/preloader.gif 4 https://parvamconsultech.com/swcs/admin/view-cust-feedback.php
+/martinrealtors/assets/js/notify/bootstrap-notify.min.js 3 https://parvamconsultech.com/martinrealtors/admin/
+/schoolerp/Student_Docs/STUDOC_41_45231352562877f278225e.jpg 152 https://parvamconsultech.com/schoolerp/add-student-documents.php
+/fcf0764OKQged82313761c5e1b-cfgdab56adc.fr 1 -
+/cdn-cgi/rum 170 https://parvamconsultech.com/brick2brick/Paint-my-Home.html
+/ae514ebuqhd8231ebf50671OEWvQ403c05.gd 1 -
+/91794d2IKjgd82311d2dc5d1CT-FoL123102.works 1 -
+/martinrealtors/assets/images/smiley.png 3 https://parvamconsultech.com/martinrealtors/admin/
+/1b808e7Qp-BSd8231eb39e031ArufHpScb42d4.ki 1 -
+/wp-content/uploads/typehub/custom/uzmylqjm/.sp3ctra_XO.php 1 www.google.com
+/schoolerp/Student_Docs/STUDOC_38_164313421162877ca989d4b.jpg 1 https://parvamconsultech.com/schoolerp/student-details.php
+/schoolerp/Student_Docs/STUDOC_38_27309884862877ca987ffa.jpg 1 https://parvamconsultech.com/schoolerp/student-details.php
+/ab7af5eoqSWdd8231c4a14e91OTWUui_4a5c90.tc 1 -
+/brick2brick/assets/images/user/10.jpg 1 https://parvamconsultech.com/brick2brick/admin/support-ticket.html
+/brick2brick/assets/css/vendors/themify.css 3 https://parvamconsultech.com/brick2brick/admin/support-ticket.html
+/brick2brick/assets/images/user/6.jpg 2 https://parvamconsultech.com/brick2brick/admin/support-ticket.html
+/shell4.php 21 -
+/e16592eDDzHd82310c968841fFGdu_96f0a6.sale 1 -
+/school_erp 2 -
+/martinrealtors/assets/images/product/small/bag.png 4 https://parvamconsultech.com/martinrealtors/admin/addproperty.php
+/brick2brick/assets/js/chart/morris-chart/prettify.min.js 1 https://parvamconsultech.com/brick2brick/admin/
+/martinrealtors/assets/css/vendors/font-awesome.css 5 https://parvamconsultech.com/martinrealtors/admin/addproperty.php
+/brick2brick/assets/css/vendors/prism.css 2 https://parvamconsultech.com/brick2brick/admin/general-widget.html
+/schoolerp/schoolapi/parent_request_id=47 1 -
+/schooperp/images/ananya_logo.png 2 https://console.firebase.google.com/
+/3adacc1kPhd8231b0204821Kcinedfd11e.mx 1 -
+/brick2brick/assets/images/landing/demo/1.jpg 8 https://parvamconsultech.com/brick2brick/admin/userrequestlist.php
+/schoolerp/Teacher_Profile/TCHIMG_1499013325624d275f2f1d5.jpg 12 https://parvamconsultech.com/schoolerp/view-all-deleted-teachers.php
+/brick2brick/assets/img/leaflet/marker-shadow.png 7 https://parvamconsultech.com/brick2brick/contact.html
+/f93a92eoTqgbd8231b9266961BSEvufSd8db95.wtf 1 -
+/.git/config 4 -
+/seft/css/img/preloader.gif 2 https://parvamconsultech.com/seft/css/style.css
+/brick2brick_users 1 -
+/883ceb0AkQgDd8231a89db301LUWnwIldc0cd9.tc 1 -
+/d3ab097fKSQhcLd823169cc7cd1mCwVUfQ8dd0e1.photos 1 -
+/845abb9rMQoFd82313fe992d1ZGNM1ebfbc.me 1 -
+/schoolerp/Profile_images/Profile_images/STUIMG_40780870661eab486cfa4a.jpg 24 https://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/brick2brick/assets/images/dashboard/social/3.png 4 https://parvamconsultech.com/brick2brick/admin/dashboard.php
+/Qleaps_19_04_22/assets/img/qleaps_client_imgs/img5.jpg 1 https://parvamconsultech.com/Qleaps_19_04_22/
+/schooperp/ima 1 https://console.firebase.google.com/
+/14f69fbfyud8231c022a2c1VTXiC9027b7.lt 1 -
+/martinrealtors/admin/assets/css/vendors/bootstrap.css.map 1 -
+/347a600IKHkIjd82313b53f4c1Rcs_dYs913c3e.tc 1 -
+/nuked-clan/index.php 1 -
+/brick2brick/assets/images/user/7.jpg 2 https://parvamconsultech.com/brick2brick/admin/support-ticket.html
+/martinrealtors/assets/images/avtar/emoji/4.png 4 https://parvamconsultech.com/martinrealtors/admin/addproperty.php
+/80fb918wrzlupWd823153657231hMQqtcV214e86.om 1 -
+/brick2brick/assets/images/user/9.jpg 1 https://parvamconsultech.com/brick2brick/admin/support-ticket.html
+/skippershell.php 21 -
+/brick2brick/assets/js/greeting.js 1 https://parvamconsultech.com/brick2brick/admin/
+/schoolerp/Profile_images/Profile_images/STUIMG_209173316362429f1d61076.jpg 24 https://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/3ba7ff5dJouyd8231d26ce641XR_NWLP8a10ec.toys 2 -
+/Qleaps_19_04_22/assets/css/bootstrap.min.css.map 10 -
+/a61894cRKaWd82312d0fad41zXa1a45e1.sy 1 -
+/wso.php 21 -
+/brick2brick/assets/images/dashboard/firefox.png 1 https://parvamconsultech.com/brick2brick/admin/general-widget.html
+/1b72429poQeCd8231b6d1c6f1hYXuVpMc4cde6.me 1 -
+/wp-plain.php 4 www.google.com
+/28df60dfIgd823113301b01JhYDj9290f2.ki 1 -
+/brektobrek/ 2 -
+/Qleaps_07_05_22/mail_handler.php 1 https://parvamconsultech.com/Qleaps_07_05_22/
+/schoolerp/Student_Docs/STUDOC_38_108343270062877ca988e2c.jpg 1 https://parvamconsultech.com/schoolerp/student-details.php
+/brick2brick/assets/js/clipboard/clipboard.min.js 2 https://parvamconsultech.com/brick2brick/admin/general-widget.html
+/brick2brick/assets/images/logo/logo.png 11 https://parvamconsultech.com/brick2brick/admin/support-ticket.html
+/martinrealtors/assets/js/chart/chartjs/chart.min.js 3 https://parvamconsultech.com/martinrealtors/admin/
+/bc72858xmgvLVvd82312a8a3081iJXHd95a366.be 1 -
+/brick2brick/assets/images/dashboard/social/2.png 4 https://parvamconsultech.com/brick2brick/admin/dashboard.php
+/brick2brick/assets/css/vendors/whether-icon.css 1 https://parvamconsultech.com/brick2brick/admin/general-widget.html
+/martinrealtors/assets/css/vendors/prism.css 4 https://parvamconsultech.com/martinrealtors/admin/
+/a8a3aeeTVw-ywxd8231ef9b1ee1XnyvZfbnac22bc.works 1 -
+/bric2bric 1 -
+/qp3/ 1 -
+/martinrealtors/assets/js/custom-card/custom-card.js 3 https://parvamconsultech.com/martinrealtors/admin/
+/886ea07EgTud823173992cb1oYkNbmD0afaa9.ht 1 -
+/6a1ae3drQZd823166138691TbdNg7ddde3.az 1 -
+/brick2brick/assets/js/chart/chartist/chartist-plugin-tooltip.js 1 https://parvamconsultech.com/brick2brick/admin/
+/50eab6aFqMSPd8231df71a1c1Nd_Mqwt4d394f.me 1 -
+/apple-touch-icon.png 4 -
+/wp-admin/admin-ajax.php 2 www.google.com
+/schoolerp/Profile_images/Profile_images/STUIMG_13175251236242a169c07cd.jpg 24 https://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/hacked.php 21 -
+/martinrealtors/assets/js/bootstrap/bootstrap.min.js 4 https://parvamconsultech.com/martinrealtors/admin/addproperty.php
+/schoop 1 https://console.firebase.google.com/
+/e044dfdxLnd823190f73f01lWgCT869fb0.show 1 -
+/schoolerp/Student_Docs/STUDOC_41_57316025062877f278327d.jpg 152 https://parvamconsultech.com/schoolerp/add-student-documents.php
+/brick2brick/admin/ssets/js/bootstrap/bootstrap.min.js 1 https://parvamconsultech.com/brick2brick/admin/userrequestlistview.php
+/2b41447VEOUd82314106f961MCA542bb2.ki 1 -
+/brick2brick/assets/js/script.js 3 https://parvamconsultech.com/brick2brick/admin/support-ticket.html
+/schooperp/images/ 2 https://console.firebase.google.com/
+/schoolerp/Profile_images/STUIMG_2004497418624c052d5f049.jpg 5 https://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/schoolerp/Student_Docs/STUDOC_40_151959733062877edd17c45.jpg 2 https://parvamconsultech.com/schoolerp/student-details.php
+/schoolerp/images/ananya%20logo.png 62 https://parvamconsultech.com/schoolerp/view-single-tecaher.php
+/.aws/credentials 4 -
+/6acecadgsvd82317bb83021hczKH2534a8.ag 2 -
+/b7cfafew-uCUcd8231403666c1rbCpnProc3a715.pink 1 -
+/636926eVzeAyd823160ac7921-odof7b247.ca 1 -
+/schoolerp/Profile_images/Profile_images/STUIMG_19291022936263afcdbd00f.jpg 26 https://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/asdf.php 1 -
+/martinrealtors/assets/images/logo/logo.png 4 https://parvamconsultech.com/martinrealtors/admin/addproperty.php
+/brick2brick/assets/js/counter/jquery.counterup.min.js 3 https://parvamconsultech.com/brick2brick/admin/support-ticket.html
+/saudi.php 21 -
+/schoolapi/parentrequestlistview.php 5 -
+/robots.txt 79 -
+/acbdc09xnNwsud82319bca8241ByDDWe5b549.ag 1 -
+/schoolerp/Profile_images/Profile_images/STUIMG_903524138624bf089a29e7.jpg 25 https://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/057157cQUod82313e6c9b61BJazlb6d099.gd 1 -
+/schoolerp/bulk.php 4 https://parvamconsultech.com/schoolerp/bulk.php
+/brick2brick/assets/images/dashboard/profile_img.png 1 https://parvamconsultech.com/brick2brick/admin/
+/schoolerp/Profile_images/Profile_images/STUIMG_13137338916290c227956d3.jpg 13 https://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/martinrealtors/admin/index.html 2 https://parvamconsultech.com/martinrealtors/admin/userrequestlist.php
+/8f912fboJNLZd8231ae44e811CjhU-Y_2c07e8.gn 1 -
+/951cd38XCrICLd8231596d01d1uAbwkRHQb37671.ki 1 -
+/brick2brick/assets/images/avtar/emoji/1.png 4 https://parvamconsultech.com/brick2brick/admin/support-ticket.html
+/brick2brick/assets/images/avtar/emoji/8.png 4 https://parvamconsultech.com/brick2brick/admin/support-ticket.html
+/schoolerp/Profile_images/STUIMG_1534381671624d235f3336d.jpg 5 https://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/martinrealtors/assets/images/logo/morden-logo.png 4 https://parvamconsultech.com/martinrealtors/admin/addproperty.php
+/Qleaps_19_04_22/assets/img/qleaps_client_imgs/img2.jpg 1 https://parvamconsultech.com/Qleaps_19_04_22/
+/ 322 -
+/89fa2f1NGhDd82319f4e5f91fWb4a07cc.gu 2 -
+/martinrealtors/images/testimonials/17.jpg 2 https://parvamconsultech.com/martinrealtors/about.html
+/brick2brick/admin/bootstrap/css/bootstrap.min.css.map 53 -
+/schoolerp/Profile_images/Profile_images/STUIMG_869687415629481f07dd9a.jpg 2 https://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/7995230SgNUAd8231848bcf81qjwUyxSbfd333.ws 1 -
+/604ff11IiTaHd8231026a9011vYZWiJP757da3.ki 1 -
+/brick2brick/assets/js/chart/chartjs/chart.min.js 1 https://parvamconsultech.com/brick2brick/admin/
+/brick2brick/admin/bootstrap/js/bootstrap.min.js.map 46 -
+/schoolerp/Profile_images/Profile_images/STUIMG_46449152761eaac014e9df.jpg 24 https://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/brick2brick/assets/js/icons/feather-icon/feather.min.js 3 https://parvamconsultech.com/brick2brick/admin/support-ticket.html
+/5f9ca0btxcmKd8231d38ef341sLIFSnv1da9b6.ki 1 -
+/f72966dbzRbLd8231f0693bf1oYKp501775.bs 1 -
+/brick2brick/assets/images/product/small/headphone.png 3 https://parvamconsultech.com/brick2brick/admin/support-ticket.html
+/martinrealtors/assets/js/icons/feather-icon/feather-icon.js 4 https://parvamconsultech.com/martinrealtors/admin/addproperty.php
+/4447adaEtrdMCd8231f12de631hMArayIlb843f7.ki 1 -
+/brick2brick_user/ 1 -
+/brick2brick/assets/images/user/8.jpg 1 https://parvamconsultech.com/brick2brick/admin/support-ticket.html
+/schoolapi/ 1 -
+/martinrealtors/assets/js/icons/feather-icon/feather.min.js 4 https://parvamconsultech.com/martinrealtors/admin/addproperty.php
+/linusadmin-phpinfo.php 1 -
+/martinrealtors/assets/css/vendors/themify.css 5 https://parvamconsultech.com/martinrealtors/admin/addproperty.php
+/ru.php 21 -
+/schoolerp/Student_Docs/STUPDF_41_113638418762877f2792d13.pdf 1737 https://parvamconsultech.com/schoolerp/add-student-documents.php
+/d96d67eGwabd8231337a15a1Dgjsoh91e13f.ge 1 -
+/brick2brick/assets/js/config.js 3 https://parvamconsultech.com/brick2brick/admin/support-ticket.html
+/4d84180qjXzd823149da9c71jGVexQ470ace.pet 2 -
+/martinrealtors/assets/css/vendors/animate.css 4 https://parvamconsultech.com/martinrealtors/admin/
+/brick2brick/assets/js/owlcarousel/owl.carousel.js 1 https://parvamconsultech.com/brick2brick/admin/general-widget.html
+/46b0c5cB-axded82310fb11851jtiPU070be1.pw 1 -
+/Qleaps_07_05_22/assets/js/bootstrap.min.js.map 8 -
+/phpinfo 4 -
+/628c398mPTed82313637ab31vrBxZf5a1fdf.th 1 -
+/schoolerp/fail 4 https://parvamconsultech.com/schoolerp/student-marks-entry_back_up.php
+/Qleaps_19_04_22/assets/img/qleaps_client_imgs/img6.jpg 1 https://parvamconsultech.com/Qleaps_19_04_22/
+/brick2brick/assets/js/jquery-3.5.1.min.js 3 https://parvamconsultech.com/brick2brick/admin/support-ticket.html
+/c69c2c2rGzd82310293de21jJujY48589c.gf 1 -
+/martinrealtors/assets/js/chart/apex-chart/stock-prices.js 3 https://parvamconsultech.com/martinrealtors/admin/
+/martinrealtors/assets/js/chart/chartist/chartist-plugin-tooltip.js 3 https://parvamconsultech.com/martinrealtors/admin/
+/1bd66a0fn-fd82311c6e0bd1KuU911837.ls 1 -
+/schoolerp/Profile_images/Profile_images/STUIMG_14437307346242e15cedbed.jpg 25 https://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/schoolerp/Profile_images/Profile_images/STUIMG_19504111146263c692de087.jpg 26 https://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/martinrealtors/assets/js/sidebar-menu.js 4 https://parvamconsultech.com/martinrealtors/admin/addproperty.php
+/schoolerp/Profile_images/Profile_images/STUIMG_458748465625fb8c778683.jpg 25 https://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/80820absUPK-od8231ae151ab1yXRYjQmR83a17e.do 1 -
+/martinrealtors/admin/assets/css/vendors/font-awesome.css.map 1 -
+/de40c33yjhZd82315abbdcf1Ro-peXt09eff8.cars 2 -
+/c639ef9MOpHd8231dfd08631-HQXZAdb0aa9.rent 1 -
+/martinrealtors/assets/js/script.js 4 https://parvamconsultech.com/martinrealtors/admin/addproperty.php
+/martinrealtors/assets/images/product/small/chair.png 4 https://parvamconsultech.com/martinrealtors/admin/addproperty.php
+/Qleaps_07_05_22/assets/css/spacing.css.map 8 -
+/da8170cIWUd8231616218a1SQpyXbc78c0.ag 1 -
+/martinrealtors/assets/images/dashboard/social/2.png 3 https://parvamconsultech.com/martinrealtors/admin/
+/schoolapi/Student_ID=8 1 -
+/6409c33XvxRtfd8231d92a4d61jARK-_ls27ff8f.tc 1 -
+/9fbfc07gbDlyd823188ca9ec1NQzZbzLcf5e56.gd 1 -
+/martinrealtors/assets/images/dashboard/social/5.png 3 https://parvamconsultech.com/martinrealtors/admin/
+/brick2brick/assets/js/chart/morris-chart/raphael.js 1 https://parvamconsultech.com/brick2brick/admin/
+/apple-touch-icon-precomposed.png 4 -
+/brick2brick/assets/js/chart/morris-chart/morris.js 1 https://parvamconsultech.com/brick2brick/admin/
+/martinrealtors/assets/js/counter/jquery.counterup.min.js 3 https://parvamconsultech.com/martinrealtors/admin/
+/_profiler/phpinfo 4 -
+/application/config/sms_settings.php 4 -
+/52ba8e8yoDd8231b3f04ae1AIzWr7b829e.ki 1 -
+/brick2brick/admin/Userrequestlist.php 5 https://parvamconsultech.com/brick2brick/admin/userrequestlist.php
+/829ea85TjaExed8231a254c081caDiEEkSaa3ff0.black 1 -
+/martinrealtors/assets/images/dashboard/mirage-delete.png 3 https://parvamconsultech.com/martinrealtors/admin/
+/martinrealtors/assets/js/counter/counter-custom.js 3 https://parvamconsultech.com/martinrealtors/admin/
+/martinrealtors/plugins/perfect-scrollbar/perfect-scrollbar.css 11 https://parvamconsultech.com/martinrealtors/assets/css/plugins.css
+/schoolerp/Student_Docs/STUDOC_40_24470430062877edd169a7.jpg 2 https://parvamconsultech.com/schoolerp/student-details.php
+/eaca8dcqGMId82319c2aee71xxLsZIea86f1.tc 1 -
+/brick2brick/assets/css/vendors/chartist.css 1 https://parvamconsultech.com/brick2brick/admin/
+/brick2brick/assets/images/dashboard/mirage-delete.png 4 https://parvamconsultech.com/brick2brick/admin/dashboard.php
+/3283c7bdvEUSEd8231c3bfe591zncRxXnUb510d3.gn 2 -
+/brick2brick/assets/images/user/12.png 1 https://parvamconsultech.com/brick2brick/admin/support-ticket.html
+/brick2brick/assets/images/user/3.png 1 https://parvamconsultech.com/brick2brick/admin/support-ticket.html
+/schoolerp/Student_Docs/STUDOC_36_204783075162877a03cce53.jpg 3 https://parvamconsultech.com/schoolerp/student-details.php
+/schoolerp/Profile_images/STUIMG_17128181576244469de2cf8.jpg 5 https://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/25bb22ehCoEsd82313ff01e51bLtXwuZbf1e1c.uk 1 -
+/d458e86RJpdad82319dc9a861ZkoP42a9f1.works 1 -
+/uploader.php 21 -
+/schoolerp/add_event_gallery_images.php 2 https://parvamconsultech.com/schoolerp/add-new-event-gallery.php
+/c966680EXMed8231300c1f41Ohv-BUef6eff.iq 1 -
+/martinrealtors/assets/js/chart/morris-chart/raphael.js 3 https://parvamconsultech.com/martinrealtors/admin/
+/brick2brick/assets/images/user/11.png 1 https://parvamconsultech.com/brick2brick/admin/support-ticket.html
+/brick2brick/assets/js/custom-card/custom-card.js 2 https://parvamconsultech.com/brick2brick/admin/general-widget.html
+/30683d5bxood823190357541Byoaud1d9293.black 1 -
+/92151cdrkwqmSDd82316b879b41KlpkfF_f54cbe.pw 1 -
+/my_alfa.php 21 -
+/df217cfurSwFmd8231b4ed1471RTSG_LGY4f6973.name 1 -
+/schoolerp/Student_Docs/STUDOC_41_83359153462877f278118e.jpg 152 https://parvamconsultech.com/schoolerp/add-student-documents.php
+/schoolerp/Profile_images/Profile_images/STUIMG_19965558696242d8d05b8e9.jpg 24 https://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/c059d95cuuZd8231092d28e1EQL88afde.action 1 -
+/ff4d789Ydzh_Thd8231cad711d1DlTabUAe4c157.name 1 -
+/martinrealtors/admin/assets/css/vendors/themify.css.map 1 -
+/schoolerp/Profile_images/STUIMG_458748465625fb8c778683.jpg 5 https://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/45bfb71sOvFd823125d87aa1XlbyYof8328b.bf 1 -
+/8b8aa22UdhAd8231dd1277d1Upo5e0c6e.gd 1 -
+/2caf7b5KXJC-Td8231e3249411bWOXUFbr81fbd6.rent 1 -
+/brick2brick/assets/images/dashboard/impossible.png 3 https://parvamconsultech.com/brick2brick/admin/dashboard.php
+/schoolerp/Profile_images/Profile_images/STUIMG_94919687162861d247a7f0.jpg 17 https://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/302d247LmOLgTd823114f9e551utzfotJZ4ee087.pw 1 -
+/schoolerp/parvamAdmin/css/img/preloader.gif 8 https://parvamconsultech.com/schoolerp/parvamAdmin/css/style.css
+/tshop.php 21 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 209
+103.16.71.96 4012 11612 694630033 20220531234502
+27.111.75.61 1200 1293 7082489 20220519013131
+223.186.238.171 833 1222 19370355 20220531070406
+27.59.37.246 805 880 5086233 20220525063730
+103.16.71.103 765 842 4262273 20220517213342
+42.105.125.5 513 1223 23161925 20220530060206
+106.206.124.116 468 588 5325548 20220524055416
+49.205.150.2 409 988 41068119 20220523063958
+106.217.52.85 355 433 2955515 20220505015741
+27.59.67.57 354 415 2839369 20220525054549
+202.21.42.170 343 379 657174 20220509065749
+106.217.47.139 311 375 1873682 20220506065129
+42.105.124.205 307 383 5028114 20220524071233
+223.186.254.250 283 290 435140 20220503050950
+220.158.158.242 261 320 2089062 20220509022135
+106.76.247.170 244 247 2136154 20220525054002
+220.158.158.153 236 298 6943475 20220520062729
+106.196.29.133 235 315 1418036 20220527062946
+223.186.196.178 234 302 3820044 20220530061202
+42.105.118.5 233 259 1075039 20220520014200
+42.105.116.44 202 233 2191548 20220523035611
+49.205.151.176 188 597 27928722 20220517001031
+223.189.115.228 187 188 1089765 20220526062909
+202.21.42.131 175 204 2249079 20220510044521
+49.205.151.14 172 780 23313462 20220531235853
+223.231.190.51 12 12 19990 20220526041101
+42.105.116.203 82 147 3813814 20220509075314
+106.216.176.58 1 1 1915 20220501115634
+49.205.146.46 20 155 4331247 20220526055432
+157.45.4.185 1 1 94216 20220523104104
+223.231.171.122 24 24 37141 20220526051302
+49.44.83.164 4 82 3437672 20220518063225
+157.45.182.14 10 11 889 20220510105527
+106.206.89.46 8 11 11569 20220525233425
+223.227.19.228 3 11 944700 20220506070014
+223.186.81.62 25 25 41556 20220526010955
+203.192.241.74 2 9 609326 20220513120956
+157.45.227.208 0 3 0 
+205.210.31.147 1 1 36517 20220507032625
+203.192.204.49 1 3 199967 20220531054704
+106.217.47.149 64 158 3415890 20220502064406
+220.158.159.241 146 238 6282620 20220511044241
+42.105.116.94 6 58 4780720 20220507001106
+157.45.234.33 4 21 279427 20220505031441
+49.44.81.36 4 19 346195 20220511033240
+42.105.124.134 94 162 3703926 20220518063640
+42.105.126.194 26 93 1856429 20220502041000
+157.45.172.158 16 63 4617243 20220511185249
+1.39.142.204 3 4 2824 20220526103629
+157.45.169.247 17 19 12149 20220505060723
+42.105.118.180 71 101 2247464 20220504055110
+223.186.228.243 82 104 174157 20220530014738
+42.105.116.245 1 1 26617 20220507001119
+223.186.81.4 2 7 110018 20220505195623
+167.94.138.63 1 1 11765 20220508100123
+141.0.8.154 0 4 0 
+36.255.86.81 2 6 257640 20220514223352
+42.105.116.95 71 100 1782479 20220516073305
+203.192.251.185 1 3 199967 20220508114135
+203.192.204.76 1 5 305700 20220504115203
+49.205.150.188 11 104 7764018 20220517233214
+198.235.24.135 1 1 36529 20220508051835
+223.186.105.5 162 179 374000 20220517232853
+157.45.219.114 10 78 5607513 20220507000831
+223.186.158.118 1 5 255886 20220511092206
+42.105.126.26 4 29 791097 20220503023215
+42.105.118.159 133 219 4982304 20220517014636
+157.45.252.59 0 3 301711 
+141.0.9.16 2 5 153241 20220522042132
+27.59.88.244 0 4 252065 
+42.106.160.203 4 19 346633 20220519222259
+157.45.237.173 1 1 39640 20220505102839
+203.192.253.127 2 9 701645 20220521194110
+223.231.185.98 0 3 0 
+1.39.152.71 6 40 3436889 20220501235319
+195.74.76.194 12 57 1039899 20220518234539
+157.45.244.170 0 4 0 
+157.45.231.52 1 5 305700 20220501202320
+49.37.245.64 1 5 305700 20220511212019
+202.21.42.154 54 91 218285 20220530060924
+203.192.251.11 1 3 199967 20220517142706
+157.45.104.149 2 5 7100 20220501104433
+42.105.116.229 65 106 2054636 20220519052510
+157.45.174.190 11 64 4798066 20220510073108
+223.186.82.178 2 7 279724 20220512064555
+157.45.19.23 1 1 131 20220528002047
+106.206.121.253 167 206 1024445 20220503065327
+42.105.122.123 21 21 37177 20220525061804
+157.45.251.162 14 118 9457052 20220517085110
+157.45.169.11 74 82 436893 20220504070624
+122.177.133.205 2 40 2630578 20220501235520
+223.186.130.191 45 45 70139 20220526035037
+157.45.220.248 0 1 0 
+203.192.253.111 0 1 155649 
+157.45.26.230 61 145 986946 20220526065511
+49.37.245.146 2 2 254 20220519015926
+157.45.8.1 0 4 0 
+223.186.221.184 9 9 11967 20220531234402
+106.217.111.143 1 1 94216 20220523040401
+223.186.139.34 12 21 423989 20220503030644
+141.0.9.61 0 4 254132 
+157.45.229.208 5 20 4196378 20220519212353
+157.45.186.44 4 4 16660 20220505231115
+49.205.136.241 8 99 4978942 20220514022843
+157.45.19.69 1 1 1754 20220515115706
+203.192.253.46 1 3 199967 20220514122337
+223.237.212.161 6 6 1544 20220526015046
+205.210.31.142 1 1 36529 20220513214925
+223.231.185.102 0 4 0 
+49.205.141.1 1 1 94216 20220523034059
+157.45.217.226 2 7 7093 20220506081736
+106.196.18.134 22 22 37265 20220524075049
+106.76.246.254 2 2 1238 20220531020447
+106.196.19.136 8 8 12156 20220527064334
+42.105.117.131 130 130 195852 20220517064246
+223.231.176.154 0 2 0 
+49.205.151.37 1 4 1037 20220524064137
+162.142.125.210 1 1 11762 20220503085822
+49.44.78.203 4 19 346633 20220518002032
+49.44.83.71 1 15 173356 20220526061616
+157.45.247.66 0 4 0 
+157.45.31.92 56 144 2576166 20220526100655
+223.186.106.230 77 164 3478124 20220517065753
+27.63.51.229 72 196 6912644 20220531081802
+106.196.19.104 1 1 103 20220525002657
+198.235.24.2 1 1 36517 20220514065253
+157.45.183.107 65 65 524796 20220505040828
+74.125.209.95 0 3 459278 
+27.111.75.60 32 37 61647 20220525221547
+106.197.230.204 0 4 0 
+49.37.177.41 7 22 12956 20220517021948
+223.231.128.96 0 2 105733 
+223.231.151.45 0 4 0 
+205.210.31.5 1 1 36529 20220507094001
+157.45.208.107 0 3 0 
+157.45.241.52 13 71 4885568 20220517090338
+27.59.45.247 8 10 11568 20220524231613
+157.50.0.217 1 5 305700 20220505073651
+106.206.65.64 49 177 5430635 20220528072347
+49.44.78.39 1 5 305700 20220524035506
+27.59.50.94 94 94 144351 20220527021007
+157.45.182.17 1 6 1148797 20220511044142
+223.237.236.214 9 15 12845 20220527014404
+223.237.202.41 10 37 707895 20220526095641
+27.63.240.133 2 16 3861431 20220519163550
+106.196.25.136 30 30 55902 20220527090542
+223.178.61.139 19 162 8772405 20220515002311
+1.39.146.191 4 29 702281 20220526095221
+157.45.189.92 2 5 7093 20220508034623
+103.16.71.99 1 1 0 20220506000252
+42.105.116.101 1 1 94216 20220523042846
+27.63.249.101 0 2 0 
+203.192.241.89 0 2 198052 
+106.203.218.53 7 67 3942082 20220506025515
+42.105.117.87 119 141 581102 20220531070210
+205.210.31.134 1 1 36517 20220515211315
+223.237.199.146 4 4 532 20220525053600
+223.237.208.252 1 1 1014 20220520075507
+203.192.204.127 3 9 599901 20220525134809
+205.210.31.8 1 1 36517 20220514055419
+74.125.209.93 0 2 130062 
+27.63.245.49 1 3 6063 20220526083915
+42.105.126.73 104 211 3373189 20220506071444
+157.45.115.83 4 92 4777074 20220527014216
+106.217.95.5 23 55 725222 20220525071223
+74.125.209.66 0 2 562890 
+157.45.105.208 1 1 0 20220527035656
+27.63.252.10 6 22 418256 20220530002537
+49.205.139.208 6 24 3194483 20220517123502
+223.237.204.4 4 29 791097 20220503023316
+203.192.251.184 1 3 199967 20220526132137
+157.45.180.144 0 5 0 
+106.206.91.115 36 71 988788 20220505035251
+203.192.241.72 2 6 399934 20220528124709
+157.45.173.5 0 9 1094802 
+49.37.179.26 1 1 0 20220503001640
+220.158.158.135 27 27 11959 20220503023506
+157.45.181.239 8 27 4466870 20220515105446
+167.94.138.60 1 1 11771 20220524084357
+157.45.169.114 3 8 163107 20220503231101
+223.186.105.121 6 58 4781891 20220510000920
+106.197.228.244 1 5 255886 20220506070415
+157.50.18.44 1 1 29899 20220519062750
+49.205.144.201 12 25 152929 20220526062540
+220.158.158.54 6 6 2819 20220506073739
+49.205.143.43 2 16 59705 20220509083932
+49.205.148.16 4 111 2887654 20220526034512
+182.18.178.196 4 85 3567607 20220527234852
+157.45.99.12 1 5 305700 20220503020556
+103.250.152.228 4 19 346633 20220519222255
+157.45.171.104 15 64 647378 20220505011706
+203.192.204.53 1 3 199967 20220505030313
+205.210.31.32 1 1 36517 20220510110809
+183.82.15.168 1 1 131 20220531230658
+223.231.176.120 0 2 105733 
+223.237.233.50 8 60 4857010 20220517123942
+223.231.137.106 0 4 0 
+157.45.16.237 0 1 0 
+106.217.64.245 0 1 155649 
+123.108.201.101 1 20 823747 20220531235447
+1.39.174.233 3 8 105738 20220504024822
+203.192.253.35 0 2 259308 
+157.45.234.70 0 3 0 
+106.217.47.143 65 71 241743 20220505235214
+42.105.120.142 60 60 415421 20220504065343
+49.205.150.128 99 623 263030261 20220506064724
+223.231.160.99 0 2 105733 
+223.237.139.115 70 70 104468 20220504044124
+220.158.158.85 86 111 3092182 20220509044619
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20220501 48 252 12391751 8
+20220502 82 187 3692647 5
+20220503 624 877 9143895 14
+20220504 251 315 1822959 13
+20220505 546 1063 261655443 17
+20220506 444 766 15241136 12
+20220507 25 183 14296623 6
+20220508 6 25 255354 5
+20220509 909 1214 16971473 8
+20220510 230 552 25222647 9
+20220511 192 458 21577795 8
+20220512 3 11 583350 3
+20220513 2 10 342229 2
+20220514 46 148 5762662 7
+20220515 12 72 6110552 4
+20220516 268 357 3289550 4
+20220517 1255 2014 53242769 18
+20220518 610 1069 27242784 10
+20220519 945 1183 25894783 12
+20220520 453 577 9808233 10
+20220521 1 3 199967 1
+20220522 2 8 352239 1
+20220523 323 520 9055684 8
+20220524 1217 1634 23287297 14
+20220525 1481 1659 11076627 12
+20220526 548 1092 14312217 19
+20220527 914 1589 32305772 18
+20220528 550 2015 76787300 7
+20220529 315 1135 58623752 2
+20220530 2559 6334 389268499 12
+20220531 1735 4683 216288153 13
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+0s-30s 120
+30s-2mn 18
+1h+ 40
+30mn-1h 33
+5mn-15mn 32
+2mn-5mn 18
+15mn-30mn 21
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 325
+/schoolerp/get_parent_request_dashboard.php 3036 219935 0 16
+/schoolerp/get_agent_payment_dashboard.php 3036 160908 0 45
+/schoolerp/get_student_payment_dashboard.php 3036 179481 0 24
+/schoolerp/login.php 729 582939 9 11
+/schoolerp/Dashboard.php 405 3411130 7 2
+/schoolerp/getAttendancedata.php 399 644465 0 2
+/schoolerp/index.php 331 45047 4 0
+/schoolerp/view-all-student.php 284 3834627 5 0
+/schoolerp/student-marks-entry_back_up.php 240 1924856 6 0
+/schoolerp/webfonts/fa-solid-900.woff2 219 15458560 0 2
+/schoolerp/studentmarksentry.php 211 1115578 7 0
+/schoolerp/fonts/Flaticon.woff2 196 1628032 1 2
+/schoolerp/webfonts/fa-regular-400.woff2 193 2463048 0 4
+/schoolerp/student-details.php 180 2264229 0 0
+/schoolerp/first_sem_report.php 144 700901 4 0
+/schoolerp/updateAttendance.php 138 3450 0 0
+/schoolerp/attendance.php 115 593861 2 0
+/schoolerp/ 110 11893 38 2
+/schoolerp/view-all-parent-requests.php 110 650726 2 0
+/schoolerp/add-class-teacher.php 109 711952 1 0
+/schoolerp/view_attendance.php 105 518697 3 0
+/schoolerp/view-all-teachers.php 103 1361614 1 0
+/brick2brick/admin/login.php 101 194609 3 6
+/schoolerp/view-account-details.php 94 533954 3 1
+/schoolerp/add-new-student.php 92 807607 2 0
+/brick2brick/admin/assets/css/images/sort_asc.html 1 238 0 0
+/Qleaps_07_05_22/assets/fonts/fa-light-300.woff2 11 2042832 0 1
+/schoolerp/add-new-grade.php 52 297500 2 0
+/brick2brick/admin/index.php 15 2006 0 0
+/Qleaps_07_05_22/assets/fonts/gt-font/GTWalsheimPro-Regular.woff2 11 452496 0 0
+/schoolerp/update_teacher.php 4 556 0 0
+/martinrealtors/ 11 207086 3 1
+/schoolerp/restore_deleted_teacher.php 4 572 0 0
+/dpl/add_player.php 1 3141 0 0
+/Qleaps_17_05_22/assets/fonts/gt-font/GTWalsheimPro-Regular.woff2 4 164544 0 0
+/schoolerp/add-new-subject.php 41 270361 2 0
+/dpl/playerimages/IMG_20220311_185619_968.webp 1 22302 0 0
+/schoolerp/add_student_parent.php 8 1386 0 0
+/schoolerp/schoolapi/parentprofile.php 1 166 0 0
+/martinrealtors/index.php 3 409 0 0
+/schoolerp/update_announcement.php 1 136 0 0
+/schoolerp/monthlyArepForAllStu.php 7 512471 0 0
+/schoolerp/add_teacher_bank_details.php 2 358 0 0
+/testerp/webmaster/items/view_item/ 1 7561 0 0
+/brick2brick/about.html 1 5044 0 0
+/schoolapi/parentreqestlistview.php 2 608 0 1
+/brick2brick/Paint-my-Home.html 3 30648 0 1
+/schoolerp/student-marks-entry.php 26 142555 2 0
+/seft/webfonts/fa-solid-900.woff2 1 74320 0 1
+/testerp/webmaster/design/alldesign 2 28284 0 0
+/schoolerp/fetch_student_year.php 12 308 0 0
+/testerp/webmaster/inventory 3 23848 0 0
+/testerp/webmaster/accessory/create 1 11869 0 0
+/martinrealtors/webfonts/fa-brands-400.woff2 9 706248 0 1
+/testerp/webmaster/accessory 2 15644 0 0
+/dpl/playerimages/IMG_20210913_092101_347.webp 1 78760 0 1
+/schoolerp/dailyReportattendance.php 6 409559 0 0
+/qleaps/css/vendor/font-awesome/dist/font-awesome-animation.min.html 1 0 0 0
+/schoolerp/teacherPdf.php 1 104313 0 0
+/Qleaps_19_04_22/assets/fonts/gt-font/GTWalsheimPro-Medium.woff2 2 79280 1 1
+/schoolerp/fetch_tech_sub.php 23 2802 0 0
+/dpl/ 25 45960 24 24
+/testerp/webmaster/design 1 19888 0 0
+/martinrealtors/admin/addproperty.php 1 14032 0 0
+/schoolerp/parvamAdmin/webfonts/fa-regular-400.woff2 2 27216 0 0
+/testerp/webmaster/design/getquotationiteration 1 57 0 0
+/schoolerp/delete_event_gallery_master.php 2 334 0 0
+/schoolerp/add-student-documents.php 70 1151568 0 0
+/schoolerp/yearattendance.php 14 718307 1 2
+/schoolerp/view-all-parent-request-responses.php 40 266692 0 0
+/dpl/playerimages/0bd4c86d-6dd2-47d2-880a-21e52cdee0e2.jfif 1 79028 0 0
+/schoolerp/all_sem_report.php 22 123923 0 0
+/schoolerp/Section_master_delete.php 1 166 0 0
+/kpl/ 1 29899 1 1
+/Qleaps_07_05_22/assets/fonts/fa-solid-900.woff2 11 1517912 0 0
+/brick2brick/admin/dashboard.html 2 46042 0 0
+/schoolapi/feedetails.php 12 12460 1 2
+/schoolerp/student-study-certificate.php 11 531478 0 0
+/testerp/webmaster/project/nameValidations 1 25 0 0
+/testerp/webmaster/leads/customerReport 1 77685 0 0
+/schoolerp/fetch_teacher_and_staff_details.php 17 2237 0 0
+/dpl/dashboard.php 2 5348 1 1
+/schoolerp/add_student_documents.php 27 4752 0 0
+/schoolerp/fetch_techer_emp_id.php 25 615 0 2
+/schoolerp/student-bank-details.php 21 130098 0 0
+/qleaps/ 1 10951 1 0
+/schoolerp/add-new-user-admin.php 31 215584 0 0
+/schoolerp/update_users_password.php 2 282 0 0
+/Qleaps_07_05_22/assets/fonts/fa-regular-400.woff2 5 850100 1 2
+/brick2brick/projects.html 3 21924 0 0
+/Qleaps_07_05_22/ 50 428519 15 8
+/schoolerp/view-event-gallery-images.php 18 118758 0 0
+/schoolerp/add-new-tecaher-subject.php 8 48858 0 0
+/martinrealtors/admin/logout.php 3 381 0 0
+/schoolerp/schoolapi/notifylist.php 5 1399 0 1
+/martinrealtors/fonts/fontawesome-webfont3e6e.woff2 10 771600 0 0
+/Qleaps_07_05_22/assets/fonts/fa-brands-400.woff2 4 306000 0 2
+/schoolerp/student-payment.php 21 134681 0 0
+/testerp/webmaster/quotation/selectquotationnumber 1 148 0 0
+/testerp/webmaster/items 2 21755 0 0
+/schoolerp/update_student_master.php 12 1656 0 0
+/martinrealtors/admin/userrequestlist.php 2 50246 0 0
+/aadhya_foundation/fonts/Flaticon.woff2 6 53088 0 1
+/Qleaps_19_04_22/assets/fonts/gt-font/GTWalsheimPro-Regular.woff2 5 205680 0 0
+/aadhya_foundation/student-details.php 5 15933 0 0
+/martinrealtors/admin/dashboard.html 6 69221 0 1
+/testerp/webmaster/salesreport 1 10885 0 0
+/schoolerp/add_new_teacher_subject.php 1 180 0 0
+/testerp/webmaster/purchaseorder/view/25 1 11715 0 0
+/schoolerp/student-parents.php 43 295711 0 0
+/martinrealtors/contact-us.html 2 13342 0 0
+/schoolerp/restore_deleted_student.php 5 715 0 0
+/testerp/webmaster/snag 1 9084 0 0
+/schoolerp/add_grade_fee.php 10 1630 0 0
+/testerp/webmaster/staff 2 21840 0 0
+/testerp/webmaster/inventory/create 5 52075 1 1
+/schoolerp/add-new-event-gallery.php 27 140830 0 0
+/schoolerp/delete_event_gallery_image.php 2 359 0 0
+/testerp/webmaster/recieptnote/issuenoteinvoice/3 1 76324 0 0
+/schoolerp/UpdateStatusParentRequestResponse.php 17 374 0 0
+/Qleaps_17_05_22/assets/fonts/fa-solid-900.woff2 5 689960 0 0
+/schoolerp/parvamAdmin/fonts/Flaticon.woff2 1 8848 0 0
+/aadhya_foundation/student-insert-form.php 55 122059 15 0
+/schoolerp/update_parent.php 1 183 0 0
+/schoolerp/update_grade_fee.php 1 136 0 0
+/schoolerp/parvamAdmin/add-new-college.php 3 8163 1 0
+/testerp/webmaster/snag/view/16 3 38380 0 0
+/cpl-2022/ 8 14032 6 7
+/Qleaps_19_04_22/assets/fonts/gt-font/GTWalsheimPro-Black.woff2 5 207680 0 0
+/martinrealtors/admin/login.php 39 73285 2 1
+/testerp/webmaster/purchaseorder 5 54015 0 0
+/schoolerp/add-new-teacher.php 52 425191 1 0
+/brick2brick/Commercial-Construction.html 3 34130 0 0
+/swcs/admin/login.php 2 1483 0 0
+/Qleaps_19_04_22/site.html 10 133085 0 7
+/seft/login.php 2 2072 1 1
+/aadhya_foundation/get_agent_payment_dashboard.php 90 9606 1 15
+/testerp/webmaster/purchaserequest/general 1 32075 0 0
+/schoolerp/getStuPayDetDate.php 11 351 0 0
+/aadhya_foundation/ 6 665 4 1
+/brick2brick/admin/userrequestlist.php 17 370814 0 1
+/schoolerp/logout.php 56 7112 0 0
+/schoolerp/add_subject_master.php 16 2624 0 0
+/schoolerp/parvamAdmin/Dashboard.php 1 3126 0 0
+/schoolapi/updatepassword.php 1 73 0 0
+/schoolerp/delete_class_teacher_grade.php 5 825 0 0
+/schoolerp/add_new_holiday.php 6 984 0 0
+/testerp/webmaster/design/upload 1 15767 0 0
+/dpl/sold.php 1 62523 0 0
+/martinrealtors/admin/index.php 7 943 0 0
+/martinrealtors/webfonts/fa-regular-400.woff2 3 40764 0 0
+/brick2brick/admin/logout.php 8 1016 1 0
+/aadhya_foundation/webfonts/fa-regular-400.woff2 4 54432 0 0
+/schoolerp/view-all-deleted-student.php 29 442965 0 0
+/martinrealtors/edit.html 2 14504 0 0
+/testerp/webmaster/accessory/selectaccessorynumber 1 136 0 0
+/schoolerp/parvamAdmin/login.php 4 3500 0 1
+/brick2brick/project-details.html 3 15561 3 0
+/schoolerp/update_grade_master.php 4 544 0 0
+/schoolerp/second_sem_report.php 26 137254 0 0
+/brick2brick/Renovation.html 2 12524 0 0
+/schoolerp/add_announcement.php 14 1904 0 0
+/schoolerp/add_class_teacher.php 28 4620 0 0
+/brick2brick/admin/userrequestlistview.php 1 15992 0 0
+/schoolerp/update_class_teacher.php 11 1529 0 0
+/testerp/webmaster/recieptnote/inindex 1 8333 0 0
+/schoolerp/view-all-parent-requests-current-day.php 7 39709 1 0
+/martinrealtors/properties-grid-1.html 2 32534 0 0
+/brick2brick/ 11 197703 4 1
+/schoolerp/parvamAdmin/view-Colleges.php 1 3737 0 0
+/martinrealtors/font/flaticon08b7.ttf 3 14520 0 0
+/schoolerp/update_event_gallery_images.php 3 426 0 0
+/martinrealtors/faq.html 1 7578 1 0
+/testerp/webmaster/setup 1 7962 0 0
+/brick2brick/admin/dashboard.php 3 60979 0 0
+/brick2brick/Residential-Construction.html 11 140230 3 1
+/testerp/webmaster/quotation/selectquotation/ 1 25863 0 0
+/schoolerp/schoolapi/studentprofile.php 2 383 0 0
+/aadhya_foundation/Dashboard.php 10 29023 0 0
+/qp2/index.php/login 1 1304 0 0
+/testerp/webmaster/inventory/selectspace 5 2560 0 0
+/martinrealtors/my-listings.html 2 13304 0 0
+/aadhya_foundation/logout.php 2 254 0 0
+/schoolerp/error.html 12 847944 5 5
+/aadhya_foundation/login.php 8 6678 0 0
+/aakruthi-erp/ 5 11100 2 1
+/martinrealtors/dashboard.html 3 22230 0 0
+/martinrealtors/admin/dashboard.php 2 40832 0 0
+/brick2brick/admin/ 18 136906 5 1
+/Qleaps_17_05_22/assets/fonts/fa-regular-400.woff2 4 680080 1 0
+/schoolerp/teacher-bank-details.php 4 26455 0 0
+/schoolerp/add_event_gallery_images.php 7 994 0 0
+/brick2brick/Interiors.html 2 16762 0 1
+/martinrealtors/invoice.html 2 10914 0 0
+/testerp/webmaster/dashboard 3 36538 0 1
+/aadhya_foundation/webfonts/fa-solid-900.woff2 12 891840 0 4
+/schoolerp/view-all-holiday.php 25 177966 0 0
+/schoolerp/add_new_grade.php 9 1467 0 0
+/schoolerp/view-all-deleted-teachers.php 16 144718 1 0
+/schoolerp/parvamAdmin/webfonts/fa-solid-900.woff2 2 148640 0 0
+/schoolerp/view-all-subject.php 20 118118 0 0
+/schoolerp/add-new-grade-section.php 32 184429 1 0
+/schoolerp/schoolapi/parentreqestlistview.php 10 965 4 2
+/testerp/webmaster/items/create 1 12996 0 0
+/Qleaps_17_05_22/mail_handler.php 2 296 0 0
+/martinrealtors/admin/plugins/dropify/fonts/dropify.woff 1 3052 0 0
+/schoolerp/fetch_grade_academic_year.php 6 546 0 0
+/institutionerp/upendra/ 1 131 1 0
+/qleaps/css/vendor/font-awesome/fonts/fontawesome-webfont3e6e.woff2 1 77160 0 0
+/schoolerp/editAttandance.php 3 18490 0 0
+/brick2brick/assets/fonts/fontawesome-webfont3e6e.woff2 9 694440 0 1
+/schoolerp/grade_fee_delete.php 1 163 0 0
+/institutionerp/upendra/webfonts/fa-solid-900.woff2 1 74320 0 0
+/schoolerp/add_ParentRequestResponse.php 13 286 0 0
+/testerp/webmaster/inventory/selectproductnumber 7 763 0 0
+/testerp/webmaster/purchaseorder/mailpo/25 2 1280 0 0
+/aadhya_foundation/index.php 3 408 0 0
+/testerp/assets/bootstrap/fonts/glyphicons-halflings-regular.woff2 2 36056 0 0
+/schoolerp/attendance_new.php 72 482430 1 0
+/brick2brick/getyour_estimate.php 2 154 0 0
+/aadhya_foundation/view-all-student.php 15 97897 4 0
+/schoolerp/delete_student.php 9 1242 0 0
+/schoolerp/add_student_bank_details.php 4 710 0 0
+/aadhya_foundation/delete_student.php 1 138 0 0
+/schoolerp/teacher-details.php 14 89277 0 0
+/schoolerp/parvamAdmin/ 1 129 0 0
+/schoolerp/add-new-holiday.php 30 207520 1 0
+/martinrealtors/webfonts/fa-solid-900.woff2 10 802520 0 2
+/schoolerp/add-grade-fee.php 45 271524 1 0
+/Qleaps_19_04_22/assets/fonts/fa-solid-900.woff2 6 827952 0 0
+/schoolerp/report.php 2 4834 0 0
+/testerp/webmaster/purchaseorder/edit/25 1 12932 0 0
+/brick2brick/assets/fonts/revicons90c6.woff 7 52752 0 1
+/brick2brick/admin/apps_invoice-preview.html 1 14745 0 0
+/testerp/webmaster/project/selectstaff/project 1 382 0 0
+/institutionerp/upendra/webfonts/fa-regular-400.woff2 1 13608 0 0
+/seft/webfonts/fa-regular-400.woff2 1 13608 0 0
+/martinrealtors/payment-method.html 2 13442 0 0
+/swcs/admin/view-cust-feedback.php 2 4745 1 1
+/martinrealtors/login.php 15 20409 0 1
+/Qleaps_19_04_22/assets/fonts/gt-font/GTWalsheimPro-Bold.woff2 5 207620 0 0
+/schoolerp/student-all-payments-reciept-detail.php 22 2330092 0 1
+/Qleaps_19_04_22/ 26 186817 13 5
+/schoolerp/firebase/ 7 10109 1 1
+/Qleaps_17_05_22/assets/fonts/gt-font/GTWalsheimPro-Black.woff2 2 83072 0 0
+/brick2brick/contact.html 2 9568 0 1
+/schoolapi/parentprofile.php 7 684 2 0
+/aadhya_foundation/get_student_payment_dashboard.php 90 9606 3 3
+/testerp/login 3 6684 0 0
+/Qleaps_07_05_22/assets/fonts/gt-font/GTWalsheimPro-Black.woff2 7 290752 0 0
+/Qleaps_07_05_22/assets/fonts/gt-font/GTWalsheimPro-Bold.woff2 11 456764 0 0
+/aadhya_foundation/add_student_insert_master.php 12 1848 0 0
+/cpl-2022/success.html 2 2028 2 1
+/qp3/app/ 1 1693 0 0
+/schoolerp/rep_new.php 36 161365 1 3
+/Qleaps_07_05_22/site.html 4 79851 2 3
+/martinrealtors/about.html 2 19580 0 0
+/testerp/webmaster/purchaserequest/purchaserequestinvoice/228 2 74207 0 0
+/Qleaps_19_04_22/assets/fonts/fa-regular-400.woff2 2 340040 0 0
+/schoolerp/bulk.php 11 51846 1 0
+/schoolapi/marksdetails.php 3 25 2 2
+/schoolerp/delete_subject.php 3 459 1 0
+/brick2brick/admin/general-widget.html 1 26146 0 0
+/schoolerp/student-admission-detail-report.php 8 731154 0 1
+/testerp/webmaster/project/nameValidation 31 16525 0 0
+/brick2brick/admin/assets/css/images/sort_both.html 1 238 0 0
+/schoolerp/getStuCasteCategory.php 45 11686 0 1
+/brick2brick/assets/fonts/pe-icon-7-strokebb1d.woff 3 175668 0 0
+/ 11 327470 11 11
+/testerp/webmaster/purchaserequest 1 30899 0 0
+/schoolerp/parvamAdmin/index.php 1 134 0 0
+/testerp/webmaster/brand/selectbrand 5 3105 0 0
+/testerp/webmaster/staff/create 1 9242 0 1
+/schoolerp/attendencelist.php 15 1449216 0 2
+/qp2/ 1 1253 0 0
+/martinrealtors/admin/ 8 21004 1 0
+/martinrealtors/add-property.html 2 14524 0 0
+/swcs/admin/Dashboard.php 4 6850 1 1
+/institutionerp/upendra/login.php 3 3123 0 1
+/schoolerp/schoolapi/parentrequestlist.php 1 336 0 0
+/schoolerp/cal.php 66 702854 2 0
+/schoolerp/add-announcement.php 29 157082 1 0
+/Qleaps_17_05_22/assets/fonts/gt-font/GTWalsheimPro-Bold.woff2 4 166096 0 0
+/martinrealtors/change-password.html 2 9796 0 0
+/schoolerp/create_admin_users.php 12 1836 0 0
+/brick2brick/admin/support-ticket.html 1 18036 0 0
+/seft/ 1 131 0 0
+/martinrealtors/admin/apps_invoice-edit.html 1 21143 0 0
+/schoolerp/parvamAdmin/view-college-details.php 1 6769 0 0
+/schoolerp/update-sadmin-student-payment.php 9 46460 0 0
+/testerp/webmaster/purchaserequest/purchaserequestinvoice/227 1 74455 0 0
+/testerp/webmaster/snag/edit/25 1 11770 0 0
+/schoolerp/update_section_master.php 2 282 0 0
+/Qleaps_07_05_22/mail_handler.php 24 3165 0 3
+/brick2brick/admin/functions.php 8 584 0 0
+/testerp/assets/bootstrap/css/bootstrap.min.css.map 3 405147 0 0
+/schoolerp/view-user-admin-details.php 30 144414 0 0
+/schoolerp/student-payment-reciept.php 6 641322 0 1
+/schoolerp/download_report.php 11 1085255 0 1
+/brick2brick/services.html 4 17106 1 0
+/testerp/login/do 3 108 0 0
+/schoolerp/fetch_student_payment.php 7 176 0 0
+/schoolerp/view-all-event-gallery.php 37 240051 0 0
+/Qleaps_17_05_22/ 10 84786 4 2
+/martinrealtors/single-property-1.html 3 50685 1 1
+/schoolerp/add_student_master.php 38 5669 1 0
+/schoolerp/add_teacher_master.php 15 1813 0 0
+/Qleaps_17_05_22/assets/fonts/fa-brands-400.woff2 5 382500 0 1
+/testerp/webmaster/project/selectdepartment/ 2 442 0 0
+/schoolerp/update_student_bank_details.php 2 306 0 0
+/Qleaps_17_05_22/assets/fonts/fa-light-300.woff2 6 1114272 0 2
+/testerp/webmaster/purchaseorder/selectpurchaseordernumber 5 595 0 0
+/schoolerp/update_sadmin_stu_payment.php 8 1145 1 0
+/qleaps/css/vendor/bootstrap-theme.min.html 1 0 0 0
+/schoolapi/studentprofile.php 11 1182 2 1
+/schoolerp/update_subject_master.php 2 276 0 0
+/martinrealtors/register.html 3 17922 1 2
+/schoolerp/add_new_grade_section.php 9 1494 0 0
+/Qleaps_19_04_22/assets/fonts/fa-light-300.woff2 6 1114272 0 0
+/schoolerp/announcement.php 53 290645 1 0
+/schoolerp/grade_master_delete.php 4 667 0 0
+/swcs/admin/index.php 1 132 0 0
+/martinrealtors/user-profile.html 2 10286 0 0
+/schoolerp/add_student_payment.php 6 1040 0 0
+/schoolerp/view-single-tecaher.php 7 36263 0 0
+END_SIDER

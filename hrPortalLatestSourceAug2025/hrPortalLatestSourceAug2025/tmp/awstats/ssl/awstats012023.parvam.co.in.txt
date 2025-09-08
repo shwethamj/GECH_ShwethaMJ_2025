@@ -1,0 +1,358 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202301 will be lost/reset.
+# Last config file used to build this data file was /home4/parvamco/tmp/awstats/ssl/awstats.parvam.co.in.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2014                
+POS_TIME 2689                
+POS_VISITOR 7380                
+POS_DAY 7873                
+POS_DOMAIN 3242                
+POS_LOGIN 3512                
+POS_ROBOT 3667                
+POS_WORMS 3867                
+POS_EMAILSENDER 3998                
+POS_EMAILRECEIVER 4141                
+POS_SESSION 8061                
+POS_SIDER 8218                
+POS_FILETYPES 4276                
+POS_DOWNLOADS 4443                
+POS_OS 4491                
+POS_BROWSER 4736                
+POS_SCREENSIZE 5366                
+POS_UNKNOWNREFERER 5440                
+POS_UNKNOWNREFERERBROWSER 5812                
+POS_ORIGIN 6179                
+POS_SEREFERRALS 6312                
+POS_PAGEREFS 6456                
+POS_SEARCHWORDS 6604                
+POS_KEYWORDS 6756                
+POS_MISC 2353                
+POS_ERRORS 6815                
+POS_CLUSTER 3368                
+POS_SIDER_404 6943                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20230107180200 5 1583 27019452912478
+FirstTime 20230101043820
+LastTime 20230107180200
+LastUpdate 20230108052303 5 0 5 0 0
+TotalVisits 12                  
+TotalUnique 10                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 10                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+FlashSupport 0 0 0
+TotalMisc 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+JavaEnabled 0 0 0
+QuickTimeSupport 0 0 0
+DirectorSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 1 1 0
+1 0 0 0 1 1 232
+2 0 0 0 1 1 36691
+3 2 2 73358 1 2 232
+4 56 56 660813 1 1 232
+5 0 0 0 2 2 267
+6 0 0 0 3 3 267
+7 0 0 0 0 0 0
+8 0 0 0 1 1 0
+9 1 1 36691 11 11 1599
+10 3 26 367245 3 4 319
+11 0 0 0 1 1 35
+12 0 0 0 1 1 232
+13 0 0 0 2 2 267
+14 0 0 0 3 3 336
+15 2 2 73370 0 0 0
+16 0 0 0 0 0 0
+17 1 1 36679 5 5 783
+18 2 2 73370 0 0 0
+19 0 0 0 0 0 0
+20 1 1 36691 3 3 302
+21 1 1 36679 2 2 87
+22 0 0 0 2 2 267
+23 0 0 0 1 1 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 4
+us 56 56 660813
+ca 6 6 220110
+cn 4 4 146728
+in 3 26 367245
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 2
+no_user_agent 1 36691 20230106021052 0
+unknown 1 0 20230102032815 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+php 51 568102 0 0
+jpg 1 35626 0 0
+html 18 461213 0 0
+png 1 71091 0 0
+js 11 165136 0 0
+css 10 93728 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 15
+Unknown 6 6
+win8 1 1
+win7 3 3
+win10 11 11
+android 26 3
+macosx11 4 4
+macosx10 2 2
+linux 8 8
+macosx8 2 2
+linuxubuntu 2 2
+macosx9 4 4
+win8.1 5 5
+bsdopenbsd 2 2
+winxp 15 15
+winnt 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 26
+chrome34.0.1847.137 5 5
+chrome55.0.2919.83 1 1
+chrome41.0.2227.0 4 4
+chrome35.0.3319.102 2 2
+Unknown 6 6
+chrome70.0.3538.77 2 2
+chrome36.0.1985.125 2 2
+chrome41.0.2225.0 3 3
+chrome102.0.0.0 26 3
+chrome53.0.2820.59 1 1
+chrome41.0.2224.3 3 3
+chrome36.0.1944.0 2 2
+chrome54.0.2866.71 1 1
+chrome41.0.2228.0 2 2
+chrome40.0.2214.93 2 2
+chrome35.0.1916.47 2 2
+chrome35.0.2309.372 1 1
+chrome44.0.2403.155 1 1
+chrome36.0.1985.67 4 4
+chrome37.0.2049.0 1 1
+chrome37.0.2062.124 2 2
+chrome89.0.4389.114 7 7
+chrome34.0.1866.237 5 5
+chrome49.0.2656.18 1 1
+firefox47.0 4 4
+chrome41.0.2226.0 2 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20230107180200
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20230107180200
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 67 67
+From1 0 0
+From2 0 0
+From3 0 0
+From4 2 25
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+406 6 1356
+400 9 468
+401 11 385
+301 14 3248
+404 5 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 3
+/ 3 -
+/wp-content/themes/seotheme/db.php 1 www.google.com
+/seft/css/img/preloader.gif 1 https://parvam.co.in/seft/css/style.css
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 10
+199.195.253.105 56 56 660813 20230101043833
+101.68.211.2 3 3 110049 20230105213012
+106.196.7.101 3 26 367245 20230103104815
+205.210.31.166 1 1 36679 20230107180200 20230107180200 /
+198.235.24.184 1 1 36679 20230103170725
+205.210.31.177 1 1 36691 20230106201711
+198.235.24.182 1 1 36691 20230106181411
+183.136.225.46 1 1 36679 20230102032749
+198.235.24.41 1 1 36679 20230106030358
+198.235.24.143 1 1 36691 20230103091835
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 6
+20230101 57 57 697492 2
+20230102 1 1 36679 1
+20230103 6 29 477306 4
+20230105 1 1 36679 1
+20230106 3 3 110061 3
+20230107 1 1 36679 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+2mn-5mn 1
+0s-30s 10
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 60
+/ 10 366838 10 9
+/adminer-4.7.1-mysql.php 1 11810 0 0
+/adminer-4.7.4.php 1 11802 0 0
+/data/adminer.php 1 11792 0 0
+/adminer-4.6.3-mysql.php 1 11801 0 0
+/adminer.php 1 11790 1 0
+/adminer-4.6.2-mysql.php 1 11809 0 0
+/adminer-4.7.4/ 1 11794 0 0
+/adminer-4.6.1.php 1 11806 0 0
+/adminer-4.7.3.php 1 11804 0 0
+/adminer-4.7.7-mysql.php 1 11810 0 0
+/adminer-4.8.0-en.php 1 11804 0 0
+/adminer/adminer.php 1 11791 0 0
+/tools/adminer.php 1 11800 0 0
+/adminer-4.7.2.php 1 11795 0 0
+/adminer-4.7.5-en.php 1 11797 0 0
+/adminer-4.8.0.php 1 11802 0 0
+/adminer-4.8.0-mysql-en.php 1 11809 0 0
+/adminer-4.6.3-mysql-en.php 1 11810 0 0
+/phpmyadmin.php 1 11796 0 0
+/adminer-4.7.0-mysql.php 1 11808 0 0
+/adminer-4.6.2-mysql-en.php 1 11811 0 0
+/adminer-4.7.5.php 1 11797 0 0
+/mysql.php 1 11791 0 0
+/adminer-4.7.6-mysql.php 1 11809 0 0
+/seft/get_student_payment_dashboard.php 1 131 0 1
+/seft/student-insert-form.php 1 1402 1 0
+/adminer-4.8.0/ 1 11801 0 0
+/adminer-4.7.8-mysql.php 1 11803 0 0
+/adminer-4.6.2.php 1 11798 0 0
+/adminer1.php 1 11789 0 0
+/sql.php 1 11789 0 0
+/adminer-4.7.1-mysql-en.php 1 11805 0 0
+/adm.php 1 11795 0 0
+/adminer-4.7.7/ 1 11801 0 0
+/adminer-4.6.3.php 1 11798 0 0
+/adminer-4.7.8-en.php 1 11805 0 0
+/adminer-4.7.1.php 1 11798 0 0
+/adminer-4.7.4-mysql.php 1 11803 0 1
+/adm/adminer.php 1 11799 0 0
+/adminer/ 1 11797 0 0
+/adminer-4.6.2-en.php 1 11806 0 0
+/seft/get_agent_payment_dashboard.php 1 131 0 0
+/adminer-4.7.8.php 1 11796 0 0
+/adminer-4.6.2/ 1 11800 0 0
+/manager/adminer.php 1 11804 0 0
+/adminer-4.7.7-mysql-en.php 1 11805 0 0
+/_adminer.php 1 11797 0 0
+/adminer-4.7.3-mysql.php 1 11800 0 0
+/adminer-4.6.3/ 1 11793 0 0
+/adminer-4.7.7.php 1 11801 0 0
+/adminer-4.7.1/ 1 11795 0 0
+/adminer-4.7.6.php 1 11797 0 0
+/adminer-4.7.0.php 1 11805 0 0
+/adminer-mysql.php 1 11797 0 0
+/adminer-4.7.5-mysql.php 1 11803 0 0
+/adminer-4.7.8/ 1 11794 0 0
+/adminer-4.7.7-en.php 1 11800 0 0
+/adminer-4.8.0-mysql.php 1 11803 0 0
+/admin/adminer.php 1 11798 0 0
+END_SIDER

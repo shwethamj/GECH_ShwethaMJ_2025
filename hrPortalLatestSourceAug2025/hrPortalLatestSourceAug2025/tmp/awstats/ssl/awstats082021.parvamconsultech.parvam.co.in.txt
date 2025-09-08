@@ -1,0 +1,390 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202108 will be lost/reset.
+# Last config file used to build this data file was /home4/parvamco/tmp/awstats/ssl/awstats.parvamconsultech.parvam.co.in.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2031                
+POS_TIME 2710                
+POS_VISITOR 13776               
+POS_DAY 15175               
+POS_DOMAIN 3296                
+POS_LOGIN 3589                
+POS_ROBOT 3744                
+POS_WORMS 3942                
+POS_EMAILSENDER 4073                
+POS_EMAILRECEIVER 4216                
+POS_SESSION 15321               
+POS_SIDER 15505               
+POS_FILETYPES 4351                
+POS_DOWNLOADS 4511                
+POS_OS 4559                
+POS_BROWSER 4733                
+POS_SCREENSIZE 5061                
+POS_UNKNOWNREFERER 5135                
+POS_UNKNOWNREFERERBROWSER 5293                
+POS_ORIGIN 5446                
+POS_SEREFERRALS 5580                
+POS_PAGEREFS 5743                
+POS_SEARCHWORDS 5891                
+POS_KEYWORDS 6043                
+POS_MISC 2374                
+POS_ERRORS 6102                
+POS_CLUSTER 3445                
+POS_SIDER_404 6220                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20210901031226 89 29512 12055509133042
+FirstTime 20210828080707
+LastTime 20210831225655
+LastUpdate 20210901050927 89 0 88 0 0
+TotalVisits 43                  
+TotalUnique 36                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 36                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+AddToFavourites 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+FlashSupport 0 0 0
+RealPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+DirectorSupport 0 0 0
+JavaEnabled 0 0 0
+TotalMisc 0 0 0
+PDFSupport 0 0 0
+QuickTimeSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 2 2 76 9 11 1846
+1 0 0 0 4 4 904
+2 1 1 14248 3 9 114
+3 5 5 4599 5 9 904
+4 0 0 0 1 2 264
+5 4 4 152 3 5 128
+6 0 0 0 0 0 0
+7 4 19 323338 3 7 288
+8 23 98 1656373 1 9 0
+9 1 1 38 10 13 566
+10 6 128 2357038 3 98 746
+11 16 104 1557115 2 3 76
+12 0 0 0 0 0 0
+13 3 64 1170952 0 0 0
+14 3 68 1170952 5 9 528
+15 0 0 0 0 0 0
+16 4 4 152 5 9 76
+17 0 0 0 0 0 0
+18 0 0 0 0 0 0
+19 2 2 76 6 6 632
+20 1 1 38 0 1 0
+21 0 0 0 2 3 302
+22 11 72 1162446 2 7 0
+23 6 143 2651879 3 5 490
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 7
+in 61 685 12068294
+us 24 24 912
+cl 2 2 76
+de 2 2 76
+ru 1 1 38
+es 1 1 38
+ro 1 1 38
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 2
+bingbot/ 20 760 20210831234549 0
+YandexBot/ 2 76 20210830052920 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 5
+jpg 64 4515936 0 0
+woff2 7 397460 0 0
+js 281 4179202 0 0
+html 85 402506 0 0
+css 279 2574368 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 8
+macosx 90 10
+win7 82 6
+win10 164 31
+ios_iphone 143 6
+linuxandroid 206 8
+macosx10 1 1
+Unknown 7 7
+linux 23 23
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 13
+chrome39.0.2171.95 1 1
+chrome83.0.4103.97 18 18
+safari14.1.1 62 1
+firefox52.0 3 3
+chrome92.0.4515.159 459 48
+chrome60.0.3112.107 1 1
+safari 81 5
+chrome79.0.3945.79 2 2
+chrome89.0.4389.90 1 1
+Unknown 7 7
+chrome92.0.4515.107 17 2
+chrome91.0.4472.114 2 2
+chrome72.0.3626.121 62 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+WhatsApp/2.21.16.20_A 20210831034420
+Go-http-client/1.1 20210830092341
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+WhatsApp/2.21.16.20_A 20210831034420
+Go-http-client/1.1 20210830092341
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 81 81
+From1 0 0
+From2 2 2
+From3 0 0
+From4 9 633
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 2 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+404 124 0
+400 3 156
+301 4 996
+406 26 5876
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 75
+/robots.txt 14 -
+/wp-content/uploads/sites/10/elementor/thumbs/woman-with-diamond-earrings-1-p9tc0babccdfspp1rmqucixqtn14bnngtlnlvmqaa0.jpg 1 https://parvamconsultech.com/bwflyerfeel3/
+/tag/new/feed/ 1 -
+/q4dj6u1g.php 1 https://parvamconsultech.com/q4dj6u1g.php
+/wp-content/uploads/sites/10/elementor/css/post-350d8a7.css 1 https://parvamconsultech.com/bwflyerfeel3/
+/wp-includes/js/jquery/jquery.minaf6c.js 1 https://parvamconsultech.com/bwflyerfeel3/
+/wp-content/plugins/elementor/assets/lib/swiper/swiper.min48f5.js 2 https://parvamconsultech.com/bwflyerfeel3/
+/wp-includes/js/dist/vendor/react-dom.mincd00.js 2 https://parvamconsultech.com/bwflyerfeel3/
+/wp-content/themes/hello-elementor/theme.min8066.css 1 https://parvamconsultech.com/bwflyerfeel3/
+/wp-content/plugins/elementor/assets/js/preloaded-modules.minccfb.js 2 https://parvamconsultech.com/bwflyerfeel3/
+/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend2745.css 1 https://parvamconsultech.com/bwflyerfeel3/
+/wp-includes/js/wp-embed.min41a3.js 2 https://parvamconsultech.com/bwflyerfeel3/
+/pass.php 1 -
+/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min1849.css 1 https://parvamconsultech.com/bwflyerfeel3/
+/bw_video/index.html 2 -
+/wp-content/plugins/metform/public/assets/js/htm357c.js 2 https://parvamconsultech.com/bwflyerfeel3/
+/wp-content/uploads/sites/10/elementor/css/post-12218630.css 2 https://parvamconsultech.com/bwflyerfeel3/
+/wp-content/plugins/metform/public/assets/js/app357c.js 2 https://parvamconsultech.com/bwflyerfeel3/
+/wp-content/plugins/elementor/assets/js/frontend.minccfb.js 2 https://parvamconsultech.com/bwflyerfeel3/
+/wp-includes/js/dist/escape-html.minc6f4.js 2 https://parvamconsultech.com/bwflyerfeel3/
+/wp-includes/js/dist/vendor/regenerator-runtime.minb36a.js 2 https://parvamconsultech.com/bwflyerfeel3/
+/fzquipl6.php 1 https://parvamconsultech.com/fzquipl6.php
+/wp-content/plugins/elementskit-lite/widgets/init/assets/js/elementor25b6.js 2 https://parvamconsultech.com/bwflyerfeel3/
+/wp-content/uploads/sites/10/2021/07/sexy-elegant-woman-posing-at-luxury-hotel-1-682x1024.jpg 1 https://parvamconsultech.com/bwflyerfeel3/
+/wp-content/plugins/elementskit-lite/widgets/init/assets/css/widget-styles25b6.css 1 https://parvamconsultech.com/bwflyerfeel3/
+/wp-content/plugins/elementor/assets/js/webpack.runtime.minccfb.js 2 https://parvamconsultech.com/bwflyerfeel3/
+/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.minb683.css 1 https://parvamconsultech.com/bwflyerfeel3/
+/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.minccfb.css 1 https://parvamconsultech.com/bwflyerfeel3/
+/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.minccfb.css 1 https://parvamconsultech.com/bwflyerfeel3/
+/wp-content/plugins/happy-elementor-addons/assets/js/happy-addons.min41fe.js 2 https://parvamconsultech.com/bwflyerfeel3/
+/4ef9d50wDdNFDd823127d2d451OVm_WbMl6af1e6.rip 1 -
+/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor2745.css 1 https://parvamconsultech.com/bwflyerfeel3/
+/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min52d5.css 1 https://parvamconsultech.com/bwflyerfeel3/
+/wp-content/plugins/elementor/assets/lib/jquery-numerator/jquery-numerator.min3958.js 2 https://parvamconsultech.com/bwflyerfeel3/
+/wp-includes/js/dist/vendor/react.mincd00.js 2 https://parvamconsultech.com/bwflyerfeel3/
+/wp-content/uploads/sites/10/elementor/css/post-92c82.css 1 https://parvamconsultech.com/bwflyerfeel3/
+/wp-content/uploads/sites/10/elementor/css/post-3588630.css 1 https://parvamconsultech.com/bwflyerfeel3/
+/moduleigtt/index.html 1 -
+/wp-content/uploads/sites/10/2021/07/couple.JPG 1 https://parvamconsultech.com/bwflyerfeel3/
+/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min05da.js 2 https://parvamconsultech.com/bwflyerfeel3/
+/sa3ldea5.php 1 https://parvamconsultech.com/sa3ldea5.php
+/wp-content/uploads/sites/10/elementor/css/post-9098630.css 2 https://parvamconsultech.com/bwflyerfeel3/
+/wp-content/uploads/sites/10/2021/07/face.JPG 1 https://parvamconsultech.com/bwflyerfeel3/
+/wp-includes/js/dist/vendor/lodash.minf492.js 2 https://parvamconsultech.com/bwflyerfeel3/
+/wp-content/plugins/elementor/assets/lib/dialog/dialog.mina288.js 2 https://parvamconsultech.com/bwflyerfeel3/
+/beautyacademybw/index.html 1 -
+/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min52d5.css 1 https://parvamconsultech.com/bwflyerfeel3/
+/admin/.env 1 -
+/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min52d5.css 1 https://parvamconsultech.com/bwflyerfeel3/
+/wp-content/plugins/elementor/assets/lib/animations/animations.minccfb.css 2 https://parvamconsultech.com/bwflyerfeel3/
+/wp-content/plugins/metform/public/assets/css/metform-ui357c.css 2 https://parvamconsultech.com/bwflyerfeel3/
+/wp-content/plugins/elementor/assets/js/frontend-modules.minccfb.js 2 https://parvamconsultech.com/bwflyerfeel3/
+/bw_video.html 1 -
+/wp-content/plugins/elementskit-lite/widgets/init/assets/css/responsive25b6.css 1 https://parvamconsultech.com/bwflyerfeel3/
+/wp-content/plugins/elementskit-lite/widgets/init/assets/js/animate-circle25b6.js 2 https://parvamconsultech.com/bwflyerfeel3/
+/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.minccfb.js 2 https://parvamconsultech.com/bwflyerfeel3/
+/bwflyerfeel/bwflyerfeel2 1 -
+/wp-content/themes/hello-elementor/style.min8066.css 1 https://parvamconsultech.com/bwflyerfeel3/
+/ads.txt 3 -
+/wp-content/plugins/happy-elementor-addons/assets/fonts/style.min41fe.css 1 https://parvamconsultech.com/bwflyerfeel3/
+/wp-includes/js/dist/element.minc7c1.js 2 https://parvamconsultech.com/bwflyerfeel3/
+/wp-includes/css/dist/block-library/style.min41a3.css 1 https://parvamconsultech.com/bwflyerfeel3/
+/wp-content/plugins/template-kit-export/public/assets/js/template-kit-export-public.min9f34.js 2 https://parvamconsultech.com/bwflyerfeel3/
+/294pu7dn.php 1 https://parvamconsultech.com/294pu7dn.php
+/wp-content/plugins/elementor/assets/css/frontend.minccfb.css 1 https://parvamconsultech.com/bwflyerfeel3/
+/wp-content/plugins/elementskit-lite/modules/elementskit-icon-pack/assets/css/ekiticons25b6.css 1 https://parvamconsultech.com/bwflyerfeel3/
+/wp-includes/js/dist/vendor/wp-polyfill.min2c7c.js 2 https://parvamconsultech.com/bwflyerfeel3/
+/wp-content/plugins/template-kit-export/public/assets/css/template-kit-export-public.min9f34.css 1 https://parvamconsultech.com/bwflyerfeel3/
+/wp-content/plugins/metform/public/assets/css/style357c.css 2 https://parvamconsultech.com/bwflyerfeel3/
+/wp-includes/js/jquery/ui/core.min35d0.js 2 https://parvamconsultech.com/bwflyerfeel3/
+/wp-content/plugins/elementor/assets/lib/share-link/share-link.minccfb.js 2 https://parvamconsultech.com/bwflyerfeel3/
+/wp-content/plugins/elementskit-lite/libs/framework/assets/js/frontend-script25b6.js 2 https://parvamconsultech.com/bwflyerfeel3/
+/wp-content/uploads/sites/10/elementor/css/post-5d8a7.css 1 https://parvamconsultech.com/bwflyerfeel3/
+/wp-content/plugins/elementskit-lite/widgets/init/assets/js/widget-scripts25b6.js 2 https://parvamconsultech.com/bwflyerfeel3/
+/wp-includes/js/jquery/jquery-migrate.mind617.js 2 https://parvamconsultech.com/bwflyerfeel3/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 36
+49.206.10.75 37 292 4919524 20210831034420
+122.172.175.197 13 169 3002678 20210831141535
+122.171.81.100 6 82 1498655 20210830132928
+103.3.32.69 2 17 323267 20210830082336
+131.220.6.152 2 2 76 20210831195344
+3.22.240.213 2 2 76 20210831161059
+94.176.172.227 1 1 38 20210830002625
+49.206.8.113 1 1 38 20210829230030
+34.220.2.82 1 1 38 20210830052620
+34.222.241.21 1 1 38 20210829225503
+179.61.175.179 1 1 38 20210829075545
+49.44.82.196 1 62 1162066 20210830231239
+54.184.203.18 1 1 38 20210830031929
+34.211.238.220 1 1 38 20210830223645
+52.27.56.223 1 1 38 20210830051426
+34.222.78.123 1 1 38 20210829225459
+18.237.123.165 1 1 38 20210829223810
+34.219.213.220 1 1 38 20210830051458
+54.149.65.70 1 1 38 20210830031856
+52.36.102.92 1 1 38 20210830225514
+3.239.36.223 1 1 38 20210830081221
+212.192.246.83 1 1 38 20210830034545
+206.189.200.74 1 1 38 20210831162726
+54.190.6.68 1 1 38 20210830225452
+54.190.92.59 1 1 38 20210831225649
+18.237.15.160 1 1 38 20210830223630
+44.196.58.136 1 1 38 20210828080707
+34.223.5.155 1 1 38 20210830001236
+3.88.194.64 1 1 38 20210828201006
+34.213.103.220 1 1 38 20210830052834
+54.149.199.92 1 1 38 20210830031921
+195.5.116.187 1 1 38 20210831162835
+179.61.187.211 1 1 38 20210830092341
+52.40.140.108 1 1 38 20210829223733
+1.39.162.192 1 62 1162066 20210830220334
+52.10.9.196 1 1 38 20210831225655
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 4
+20210828 2 2 76 2
+20210829 6 6 228 6
+20210830 72 631 10879255 26
+20210831 12 77 1189913 9
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+1h+ 1
+30s-2mn 3
+5mn-15mn 1
+30mn-1h 1
+0s-30s 37
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 9
+/ 33 1254 32 31
+/bwflyerfeel3/bw/bw/ 24 284565 3 7
+/bwflyerfeel/ 13 48896 7 2
+/bwflyerfeel/bwflyerfeel2.html 10 39933 0 2
+/bwflyerfeel/fonts/fontawesome-webfont.woff2 6 340680 0 1
+/bwflyerfeel1/ 3 13333 0 0
+/bwflyerfeel1/fonts/fontawesome-webfont.woff2 1 56780 0 0
+/bwflyerfeel3/ 1 14147 1 0
+/bw/ 1 378 0 0
+END_SIDER

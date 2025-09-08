@@ -1,0 +1,489 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202212 will be lost/reset.
+# Last config file used to build this data file was /home4/parvamco/tmp/awstats/ssl/awstats.zira.parvamm.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2018                
+POS_TIME 2691                
+POS_VISITOR 14376               
+POS_DAY 15134               
+POS_DOMAIN 3413                
+POS_LOGIN 3707                
+POS_ROBOT 3862                
+POS_WORMS 3994                
+POS_EMAILSENDER 4125                
+POS_EMAILRECEIVER 4268                
+POS_SESSION 15718               
+POS_SIDER 15925               
+POS_FILETYPES 4403                
+POS_DOWNLOADS 4648                
+POS_OS 4739                
+POS_BROWSER 4857                
+POS_SCREENSIZE 5020                
+POS_UNKNOWNREFERER 5094                
+POS_UNKNOWNREFERERBROWSER 5653                
+POS_ORIGIN 6020                
+POS_SEREFERRALS 6158                
+POS_PAGEREFS 6302                
+POS_SEARCHWORDS 6450                
+POS_KEYWORDS 6602                
+POS_MISC 2354                
+POS_ERRORS 6661                
+POS_CLUSTER 3563                
+POS_SIDER_404 6843                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20230101213958 1 0 12724369280224
+FirstTime 20221202034058
+LastTime 20221230054503
+LastUpdate 20230102052047 1 0 0 0 0
+TotalVisits 46                  
+TotalUnique 16                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 17                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+RealPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+DirectorSupport 0 0 0
+TotalMisc 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 11 0
+JavascriptDisabled 0 0 0
+JavaEnabled 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 130 145 6237684 66 539 18835463
+1 38 71 1265874 12 101 3411930
+2 259 409 18946635 78 673 26319874
+3 302 383 13322169 117 768 24261351
+4 291 401 11373043 94 1003 42460748
+5 103 136 4205258 28 245 12382867
+6 31 96 4889386 13 178 5596566
+7 3 3 67284 6 10 55791
+8 0 0 0 1 1 226
+9 1 2 14705 2 3 414
+10 0 0 0 1 1 398
+11 1 2 16251 4 4 1188
+12 0 0 0 0 0 0
+13 0 0 0 1 1 382
+14 1 1 40259 3 3 1178
+15 0 0 0 1 1 382
+16 0 0 0 0 0 0
+17 0 0 0 0 0 0
+18 1 1 40226 2 2 780
+19 0 0 0 0 0 0
+20 0 0 0 0 0 0
+21 111 223 7224568 39 969 32024484
+22 272 346 13749742 75 2524 85244749
+23 184 257 14029079 65 961 33063493
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 5
+in 1669 2338 87534090
+jp 31 70 5018679
+us 21 60 2611974
+ca 6 6 241169
+be 1 2 16251
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+pdf 1 3192076 0 0
+woff2 47 2454220 0 0
+jpg 99 8372324 0 0
+Unknown 1569 51250948 0 0
+woff 79 2815196 0 0
+png 99 16607774 0 0
+css 243 1806660 0 0
+js 306 8699588 0 0
+map 33 223377 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/storage/policy/1669810267.pdf 1 0 3192076
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 4
+win7 1 1
+win10 2409 1700
+android 55 17
+Unknown 11 10
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 6
+mozilla 5 4
+chrome107.0.0.0 240 106
+netscape5.0 1 1
+chrome108.0.0.0 2223 1611
+chrome95.0.4638.69 1 0
+Unknown 6 6
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20221221073347
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20221204114357
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20221218183845
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20221218183845
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 88 90
+From1 0 0
+From2 0 0
+From3 0 0
+From4 1640 2386
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 8
+500 88 36447197
+405 2 520492
+419 3 335529
+406 2 452
+404 7470 245400287
+206 8 872453
+400 1 0
+302 402 85854
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 102
+/storage/policy/1669898189.pdf 1 https://zira.parvamm.com/policies/show/39
+/storage/employees/1669356766.jpg 8 https://zira.parvamm.com/employee-leave
+/assets/img/profiles/avatar-19.jpg 77 https://zira.parvamm.com/clients-list
+/storage/policy/1669891970.pdf 1 https://zira.parvamm.com/policies
+/storage/policy/1670239387.pdf 1 https://zira.parvamm.com/policies
+/storage/employees/1670419145.jpg 150 https://zira.parvamm.com/employees-list
+/storage/employees/1670416956.jpg 155 https://zira.parvamm.com/employees
+/storage/employees/1670396988.jpg 173 https://zira.parvamm.com/employees
+/storage/clients/1663310182.jpg 2 https://zira.parvamm.com/clients
+/storage/clients/1668235120.jpg 2 https://zira.parvamm.com/clients
+/storage/employees/1670399901.jpg 156 https://zira.parvamm.com/employees
+/storage/employees/1670570004.jpg 145 https://zira.parvamm.com/employees-list
+/storage/projects/School%20Erp/1670473285.jpg 1 https://zira.parvamm.com/projects/show/School%20Erp
+/storage/policy/1670565820.pdf 2 https://zira.parvamm.com/policies
+/assets/img/profiles/avatar-08.jpg 6 https://zira.parvamm.com/activity
+/storage/employees/1670398100.png 155 https://zira.parvamm.com/employees
+/assets/img/logo2.png 8 https://zira.parvamm.com/settings/theme
+/storage/employees/1671186559.png 141 https://zira.parvamm.com/employees-list
+/storage/policy/1670239416.pdf 1 https://zira.parvamm.com/policies
+/storage/employees/1669791670.jpg 9 https://zira.parvamm.com/employee-leave
+/storage/settings/1671533922.jpg 2 https://zira.parvamm.com/settings/theme
+/assets/img/profiles/avatar-13.jpg 6 https://zira.parvamm.com/activity
+/storage/employees/1668251024.jpg 8 https://zira.parvamm.com/employee-leave
+/storage/employees/1670399521.png 154 https://zira.parvamm.com/employees
+/storage/employees/1670566238.jpg 2 https://zira.parvamm.com/employees-list
+/storage/employees/1670417767.jpg 1 -
+/assets/css/bootstrap.min.css.map 33 -
+/storage/clients/1670565657.jpg 5 https://zira.parvamm.com/clients
+/assets/js/pages/select2.init.js 7 https://zira.parvamm.com/settings/company
+/storage/employees/1670390719.jpg 157 https://zira.parvamm.com/employees
+/assets/img/logo.png 1572 https://zira.parvamm.com/employees
+/storage/employees/1671601103.jpg 56 https://zira.parvamm.com/employees
+/storage/clients/1670324821.jpg 41 https://zira.parvamm.com/clients
+/storage/employees/1671451097.png 125 https://zira.parvamm.com/employees-list
+/assets/img/logo3.png 2 https://zira.parvamm.com/settings/invoice
+/storage/employees/1670416916.png 153 https://zira.parvamm.com/employees
+/storage/clients/1663243147.png 2 https://zira.parvamm.com/clients
+/storage/employees/1670418934.jpg 150 https://zira.parvamm.com/employees
+/assets/img/profiles/default.jpg 198 https://zira.parvamm.com/employees
+/storage/clients/1671605176.jpg 17 https://zira.parvamm.com/clients
+/storage/employees/1670419230.jpg 148 https://zira.parvamm.com/employees-list
+/storage/settings/theme/1671533922.jpg 1 https://zira.parvamm.com/settings/theme
+/storage/employees/1663320677.png 8 https://zira.parvamm.com/employee-leave
+/storage/employees/1671598604.jpg 12 https://zira.parvamm.com/employees
+/storage/clients/1671692973.jpg 13 https://zira.parvamm.com/clients
+/assets/img/user.jpg 256 https://zira.parvamm.com/dashboard
+/storage/employees/1670399910.jpg 155 https://zira.parvamm.com/employees
+/invoices 2 https://zira.parvamm.com/invoices
+/storage/employees/1670393873.jpg 157 https://zira.parvamm.com/employees
+/storage/policy/1671706380.pdf 1 https://zira.parvamm.com/policies
+/storage/ 1 https://zira.parvamm.com/clients
+/storage/employees/1670326550.jpg 172 https://zira.parvamm.com/employees
+/storage/settings/1671177203.png 10 https://zira.parvamm.com/invoices/14
+/storage/employees/1670417101.jpg 155 https://zira.parvamm.com/employees
+/storage/employees/1670399638.jpg 157 https://zira.parvamm.com/employees
+/storage/employees/1669360066.png 1 https://zira.parvamm.com/employees
+/assets/css/select2.min.css 82 https://zira.parvamm.com/settings/invoice
+/storage/employees/1670418787.jpg 153 https://zira.parvamm.com/employees
+/storage/employees/1670398611.jpg 156 https://zira.parvamm.com/employees
+/storage/employees/1671451049.jpg 127 https://zira.parvamm.com/employees-list
+/storage/employees/1671451094.png 128 https://zira.parvamm.com/employees-list
+/assets/js/popper.min.js.map 33 -
+/assets/img/profiles/avatar-01.jpg 6 https://zira.parvamm.com/activity
+/storage/employees/1669436536.png 1 https://zira.parvamm.com/employees
+/storage/employees/1671605620.jpg 1 https://zira.parvamm.com/employees-list
+/storage/clients/1671693083.png 13 https://zira.parvamm.com/clients
+/storage/employees/1670397929.jpg 154 https://zira.parvamm.com/employees
+/storage/employees/1670400049.png 154 https://zira.parvamm.com/employees
+/storage/employees/1671600712.jpg 86 https://zira.parvamm.com/provident-fund
+/assets/js/bootstrap.min.js.map 33 -
+/storage/policy/undefined 3 https://zira.parvamm.com/policies
+/storage/employees/1663310602.jpg 2 https://zira.parvamm.com/employees/attendance
+/storage/clients/1670475396.png 41 https://zira.parvamm.com/clients
+/assets/img/profiles/avatar-05.jpg 6 https://zira.parvamm.com/activity
+/storage/settings/invoice/1671177203.png 2 https://zira.parvamm.com/settings/invoice
+/storage/projects/Martin/1671606335.jpg 6 https://zira.parvamm.com/projects/show/Martin
+/storage/employees/1670569966.jpg 147 https://zira.parvamm.com/employees-list
+/storage/clients/1670475370.jpg 41 https://zira.parvamm.com/clients
+/storage/employees/1670325307.jpg 156 https://zira.parvamm.com/employees
+/storage/settings/1671514865.jpg 2 https://zira.parvamm.com/invoices/15
+/storage/employees/1671604136.jpg 8 https://zira.parvamm.com/employees-list
+/storage/employees/1670325520.png 4 https://zira.parvamm.com/employees
+/assets/img/profiles/avatar-02.jpg 22 https://zira.parvamm.com/provident-fund
+/storage/settings/invoice/1671514865.jpg 1 https://zira.parvamm.com/settings/invoice
+/assets/js/select2.min.js 80 https://zira.parvamm.com/settings/invoice
+/storage/settings/1671534174.jpg 12 https://zira.parvamm.com/invoices/16
+/storage/employees/1671186997.jpg 144 https://zira.parvamm.com/employees-list
+/storage/employees/1668424839.png 1 https://zira.parvamm.com/employees
+/storage/settings/invoice/1671534174.jpg 2 https://zira.parvamm.com/settings/invoice
+/assets/img/profiles/avatar-16.jpg 6 https://zira.parvamm.com/activity
+/storage/employees/1670398443.png 172 https://zira.parvamm.com/employees
+/home 3 https://zira.parvamm.com/job-view/3
+/storage/employees/1671188510.png 138 https://zira.parvamm.com/employees-list
+/storage/employees/1670399870.jpg 156 https://zira.parvamm.com/employees
+/assets/img/favicon.png 25 https://zira.parvamm.com/dashboard
+/storage/policy/16702359590.pdf 1 https://zira.parvamm.com/policies
+/assets/libs/select2/select2.min.js 7 https://zira.parvamm.com/settings/company
+/storage/clients/1668151206.png 2 https://zira.parvamm.com/clients
+/storage/clients/1664005376.jpg 2 https://zira.parvamm.com/clients
+/client-profile.html 2 https://zira.parvamm.com/clients-list
+/storage/employees/1668250965.jpg 8 https://zira.parvamm.com/employee-leave
+/assets/libs/select2/select2.min.css 7 https://zira.parvamm.com/settings/company
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 17
+49.205.146.231 1461 2103 81368200 20221229035548
+49.205.144.62 131 146 3702147 20221229234527
+49.205.149.2 77 89 2463743 20221230054503
+220.158.159.208 31 70 5018679 20221224023913
+157.45.22.214 17 55 2556400 20221224021919
+52.114.32.28 1 1 13712 20221229012551
+87.236.176.45 1 1 15132 20221204114357
+167.248.133.45 1 2 14705 20221203095028
+198.235.24.134 1 1 40226 20221218183845
+198.235.24.148 1 1 40156 20221216232519
+205.210.31.147 1 1 40165 20221202222121
+198.235.24.38 1 1 40236 20221210061755
+162.142.125.222 1 1 13572 20221216072831
+162.142.125.213 1 1 13585 20221221073347
+205.210.31.151 1 1 40127 20221211073152
+205.210.31.52 1 1 40259 20221204142846
+87.236.176.74 0 1 1119 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 21
+20221202 18 49 1579192 2
+20221203 1 2 14705 1
+20221204 15 17 388848 3
+20221207 18 50 2549323 2
+20221208 51 97 9128103 1
+20221210 1 1 40236 1
+20221211 1 1 40127 1
+20221215 129 145 4173739 2
+20221216 161 260 7564816 3
+20221218 28 28 676857 2
+20221219 64 72 1671891 3
+20221220 259 371 15922932 3
+20221221 316 358 9132509 4
+20221222 68 91 4361690 2
+20221223 53 85 2467486 2
+20221224 48 125 7575079 2
+20221226 11 34 441006 2
+20221227 61 113 3426395 1
+20221228 144 208 10789385 3
+20221229 204 280 11014101 4
+20221230 77 89 2463743 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+5mn-15mn 2
+1h+ 14
+30s-2mn 1
+30mn-1h 4
+15mn-30mn 5
+2mn-5mn 3
+0s-30s 17
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 88
+/goal-tracking 117 3926879 0 2
+/employees-list 111 4890650 0 2
+/policies 86 2718531 0 1
+/dashboard 82 2517966 5 5
+/invoices 74 1800466 2 0
+/expenses 69 2407327 0 1
+/jobs 68 1756232 0 5
+/asset 63 1625972 0 3
+/tickets 54 1888672 0 0
+/login 52 956428 30 13
+/projects 52 2461414 0 1
+/clients-list 48 1371439 0 0
+/project-list 47 2240578 0 0
+/employees 45 1873670 1 1
+/clients 44 1258813 1 0
+/goal-type 43 1009202 0 0
+/provident-fund 37 1284131 0 0
+/leads 36 1174416 0 1
+/invoices/create 36 830815 0 1
+/employees/attendance 33 1062923 1 1
+/assets/plugins/toastr/toastr.js.map 33 223377 0 1
+/designations 32 799270 0 1
+/departments 30 713343 0 0
+/overtime 28 766075 0 0
+/holidays 27 634226 0 0
+/invoices/17 2 45542 0 0
+/policies/show/39 1 21043 0 0
+/assets/plugins/summernote/dist/font/summernote.woff 6 61944 0 0
+/profile 2 41744 0 1
+/leave-type 11 245237 1 0
+/invoices/16/edit 3 73133 0 0
+/tickets/show/client%20profile 5 111843 0 0
+/_debugbar/assets/javascript 16 2312496 1 0
+/backups 2 47167 0 0
+/_debugbar/assets/stylesheets 16 2120240 1 0
+/tickets/show/organic 1 21915 0 0
+/tickets/show/Leave 3 66179 0 0
+/tickets/show/Designation 3 65908 0 0
+/invoices/12/edit 2 48546 0 0
+/projects/show/Spicday 1 24395 0 0
+/invoices/15 3 68362 0 0
+/assets/fonts/CircularStd-Book.woff 17 585792 0 0
+/taxes 21 491281 0 1
+/assets/fonts/CircularStd-Bold.woff 16 619620 0 0
+/invoices/11 2 45478 0 0
+/settings/invoice 7 139519 0 0
+/settings/theme 8 157318 0 1
+/job-view/4 5 95104 0 0
+/job-view/5 7 133135 0 0
+/activity 8 144122 0 0
+/invoices/10/edit 3 72837 0 0
+/job-view/6 5 95449 0 0
+/invoices/13/edit 1 24252 0 0
+/users 4 91047 0 0
+/_ignition/health-check 5 245 0 0
+/invoices/8 1 22772 0 0
+/assets/fonts/CircularStd-Black.woff 16 619860 0 0
+/projects/show/ParvaM%20Website 4 97945 0 0
+/invoices/11/edit 1 24290 0 0
+/assets/fonts/CircularStd-BookItalic.woff 7 274540 0 0
+/invoices/10 4 91067 0 0
+/job-applicants 5 106636 0 0
+/assets/fonts/MaterialIcons-Regular.woff2 15 620200 0 0
+/invoices/14 3 68254 0 0
+/invoices/13 2 45516 0 0
+/projects/show/Organic%20registration%20Form 5 122531 0 1
+/invoices/16 7 159681 0 0
+/tickets/show/Policies-%20edit%20functionality%20uploaded%20files 1 22231 0 0
+/invoices/17/edit 1 24405 0 0
+/assets/fonts/line-awesome.woff2 16 676620 0 0
+/job-view/1 6 112874 1 0
+/projects/show/School%20Erp 1 25012 0 0
+/projects/show/Martin 6 145505 0 0
+/job-view/3 7 133811 1 0
+/assets/fonts/CircularStd-Medium.woff 17 653440 0 0
+/livewire/message/laravel_backup_panel::app 4 12405 0 0
+/policies/show/47 4 83149 0 0
+/settings/company 4 79472 0 0
+/tickets/show/Dashboard-earnings 2 44085 0 0
+/invoices/15/edit 1 24342 0 0
+/change-password 1 19268 0 0
+/job-view/2 4 76324 1 0
+/_debugbar/open 4 33712 0 0
+/assets/fonts/fontawesome-webfont.woff2 16 1157400 0 0
+/job-list 3 54271 0 1
+/employee-leave 25 801414 0 2
+/invoices/8/edit 1 24257 0 0
+/invoices/12 1 22744 0 0
+END_SIDER

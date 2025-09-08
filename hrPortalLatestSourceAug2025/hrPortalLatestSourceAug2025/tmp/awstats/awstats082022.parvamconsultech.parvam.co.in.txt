@@ -1,0 +1,1350 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202208 will be lost/reset.
+# Last config file used to build this data file was /home4/parvamco/tmp/awstats/awstats.parvamconsultech.parvam.co.in.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2027                
+POS_TIME 2707                
+POS_VISITOR 35684               
+POS_DAY 38939               
+POS_DOMAIN 3533                
+POS_LOGIN 3818                
+POS_ROBOT 3973                
+POS_WORMS 4232                
+POS_EMAILSENDER 4363                
+POS_EMAILRECEIVER 4506                
+POS_SESSION 39585               
+POS_SIDER 39792               
+POS_FILETYPES 4641                
+POS_DOWNLOADS 4986                
+POS_OS 5289                
+POS_BROWSER 5527                
+POS_SCREENSIZE 6047                
+POS_UNKNOWNREFERER 6121                
+POS_UNKNOWNREFERERBROWSER 6312                
+POS_ORIGIN 6498                
+POS_SEREFERRALS 6637                
+POS_PAGEREFS 6800                
+POS_SEARCHWORDS 6948                
+POS_KEYWORDS 7100                
+POS_MISC 2370                
+POS_ERRORS 7159                
+POS_CLUSTER 3674                
+POS_SIDER_404 7334                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20220901024303 68 14384 14619232155984
+FirstTime 20220801010213
+LastTime 20220831171656
+LastUpdate 20220901062854 68 0 67 0 0
+TotalVisits 98                  
+TotalUnique 77                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 81                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+AddToFavourites 0 62 0
+FlashSupport 0 0 0
+TotalMisc 0 0 0
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+DirectorSupport 0 0 0
+PDFSupport 0 0 0
+RealPlayerSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 233 418 7094698 2486 2553 2432942
+1 73 302 10326023 4194 4237 585176
+2 38 79 11425377 955 996 2918084
+3 112 418 12181980 901 950 1424391
+4 92 116 1830645 253 317 2508049
+5 208 294 4377134 77 267 3920773
+6 264 372 6616346 1558 1615 1337714
+7 27 27 15642 182 195 8182
+8 5 21 1379944 71 120 8348
+9 19 155 6111476 338 360 22382
+10 32 65 1769934 32 43 2206
+11 6 40 1972462 342 347 17503
+12 1 1 13532 150 150 9787
+13 0 0 0 94 100 11715
+14 0 0 0 58 61 6946
+15 0 5 684260 368 370 27327
+16 1 1 2216 97 150 10147
+17 19 21 381106 185 187 9824
+18 2 2 1076 296 310 6683
+19 0 0 0 304 310 17305
+20 11 55 1689666 241 247 3436
+21 1 1 17 266 309 6623
+22 15 35 772448 122 154 6946
+23 100 219 4968649 205 257 1500946
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 4
+in 851 1808 54285849
+us 240 401 6952554
+cn 141 411 12369503
+lk 27 27 6725
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 3
+Apache\-HttpClient/ 9359 1413209 20220808043702 0
+no_user_agent 160 14895200 20220810044229 0
+Dalvik/ 6 20288 20220830060805 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 15
+ico 2 73036 0 0
+jpg 273 34672394 0 0
+svg 3 7638 0 0
+Unknown 19 1415 0 0
+ttf 7 376236 0 0
+woff2 72 4297012 0 0
+webp 5 178360 0 0
+gif 9 1183410 0 0
+js 535 7401119 0 0
+pdf 5 538713 0 0
+css 399 6339011 0 0
+woff 1 16812 0 0
+php 1076 3633182 0 0
+png 157 14571165 0 0
+html 84 325128 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 3
+/martinrealtors/admin/assets/document/PROTYIMG_15725164162eb787e753be.pdf 2 0 114522
+/martinrealtors/admin/assets/document/PROTYIMG_187468552362eb787e75e8d.pdf 2 0 414460
+/martinrealtors/admin/assets/document/PROTYIMG_104002768162eb787e75c31.pdf 1 0 9731
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 11
+android 816 166
+ios_iphone 76 11
+Unknown 452 452
+win10 1067 545
+androidoreo 6 6
+androidpie 92 44
+android10 112 30
+androidnougat 19 3
+androidlollipop 1 1
+linux 5 0
+win7 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 21
+chrome91.0.4472.88 21 21
+chrome101.0.4951.41 56 5
+firefox103.0 2 2
+chrome91.0.4472.120 4 4
+chrome83.0.4103.106 29 13
+chrome83.0.4103.101 2 2
+chrome97.0.4692.98 40 11
+chrome73.0.3683.90 1 1
+chrome101.0.0.0 2 2
+chrome62.0.3202.84 4 4
+chrome104.0.0.0 718 381
+msie11.0 1 1
+chrome87.0.4280.101 2 2
+chrome103.0.5060.129 50 24
+chrome103.0.5060.134 260 43
+chrome103.0.0.0 617 226
+Unknown 452 452
+safari10.0 5 0
+chrome72.0.3626.121 63 30
+chrome102.0.0.0 242 24
+safari15.6 76 11
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+WhatsApp/2.22.16.75_A 20220810234318
+okhttp/3.12.0 20220830062129
+Cpanel-HTTP-Client/1.0 20220831171656
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+WhatsApp/2.22.16.75_A 20220810234318
+Cpanel-HTTP-Client/1.0 20220831171656
+okhttp/3.12.0 20220830062129
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 530 536
+From1 0 0
+From2 9 9
+From3 0 0
+From4 720 2102
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 9 9
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 9
+302 1 0
+409 173 14359
+301 11 2716
+404 3879 0
+500 1 869
+406 890 201140
+307 1 0
+101 5 0
+206 4 240718
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 795
+/wp-plugins.php 9 www.bing.com
+/SiLOh/ 1 -
+/schoolerp/events/EVNTIMG_68472935262fdedabc4b72.jpg 5 -
+/0euppyk2.php 1 http://parvamconsultech.com/0euppyk2.php
+/sindex.php 7 -
+/la42r0fc.php 1 http://parvamconsultech.com/la42r0fc.php
+/new/ 3 -
+/contents.php 1 parvamconsultech.com
+/schoolerp/events/EVNTIMG_102292007962b1708f38853.jpg 4 -
+//wp-includes/class-wp-roles.php 1 -
+//wp-content/plugins/wp-file-manager-pro/lib/php/connector.minimal.php 1 www.google.com
+/kindex.php 7 -
+/wp-includes/images/css.php 9 www.bing.com
+/wp-signin.php 9 www.bing.com
+/wp-admin/fresh.php 1 parvamconsultech.com
+/6iykl4u1.php 1 http://parvamconsultech.com/6iykl4u1.php
+/wp-includes/css/wp-config.php 9 www.bing.com
+/wp2.php 7 -
+/schoolerp/events/EVNTIMG_90675767562fe063511511.jpg 2 -
+/administrator/language/en-GB/en-GB.xml 3 -
+/gdkxfiyg.php 1 http://parvamconsultech.com/gdkxfiyg.php
+//lufix.php 1 -
+/lostdcshell.php 2 -
+/gank.php.PhP 9 www.bing.com
+/schoolerp/events/EVNTIMG_168052441462fe03851272a.jpg 3 -
+/pf07h52x.php 1 http://parvamconsultech.com/pf07h52x.php
+/sym403.php 13 -
+/wp-content/alfacgiapi 9 www.bing.com
+/wp-content/plugins/ubh/index.php 1 -
+/WSO.php 7 -
+//templates/atomic/error.php 1 -
+//wp-content/plugins/dzs-zoomsounds/a57bze8931.php 1 www.google.com
+/wp-content/uploads/readindex.php 7 -
+/demo/wp-links-opml.php 2 -
+/cgi-bin/MT//RxR.php 1 -
+//RxR.php 1 -
+/dev/ 1 -
+/s9hio0tc.php 1 http://parvamconsultech.com/s9hio0tc.php
+/new-index.php 13 -
+/wp-content/export.php 9 www.bing.com
+/wp-admin/includes/maint/wp-cron.php 7 -
+//alfa.php 1 -
+/12vot7d3.php 1 http://parvamconsultech.com/12vot7d3.php
+/public/_ignition/health-check/ 1 -
+/wp-includes/js/plupload/plupload.php 1 parvamconsultech.com
+/auto_seo.php 1 parvamconsultech.com
+/martinrealtors/admin/update.php 1 -
+/dr.php 9 -
+/wp-content/uploads/wp-stream.php 1 -
+/news/ 2 -
+//fresh1.php 1 -
+/env/config 1 -
+//abruzi.php4 1 www.google.com
+/schoolerpuat/css/img/preloader.gif 7 http://parvamconsultech.com/schoolerpuat/css/style.css
+/wp-admin/auto_seo.php 1 parvamconsultech.com
+/wp-content/plugins/simple-ads-manager/css/jslider.round.plastic.css 1 -
+/afs7clkh.php 1 http://parvamconsultech.com/afs7clkh.php
+/lf.php 8 -
+/assets/js/file-uploader/server/php/index.php 1 -
+/fresh2022.php 1 parvamconsultech.com
+/sbh789bd.php 1 http://parvamconsultech.com/sbh789bd.php
+/lq078g1t.php 1 http://parvamconsultech.com/lq078g1t.php
+/.well-known/ALFA_DATA 9 www.bing.com
+/wp-blog.php 9 -
+/wp-admin/shapes.php 1 -
+/css/load.php 1 parvamconsultech.com
+/cgi-bin/mt-xmlrpc.cgi 1 -
+/xo.php 7 -
+/wp-admin/includes/edit-tag-menu.php 7 -
+/wso2.php 7 -
+/cgi-bin/mt/mt-xmlrpc.cgi 1 -
+/mailershell.php 2 -
+/Cpanel.php 6 -
+/z.php 22 www.bing.com
+/arh4wfew.php 1 http://parvamconsultech.com/arh4wfew.php
+/new 2 -
+/schoolerp/events/EVNTIMG_194956108662fe06e009d3f.jpg 3 -
+/wp-admin/install.php 1 -
+/wp-content/plugins/xichang/x.php 1 -
+/v76w4y18.php 1 http://parvamconsultech.com/v76w4y18.php
+/home 2 -
+/cgi-bin/MT/mt-xmlrpc.cgi 1 -
+/css.php 3 www.bing.com
+/PenQf/ 1 -
+/backup 2 -
+/wp/rahma.php 7 -
+//modules/mod_araticlws/mod_araticlws.php 1 -
+//ffAA531.php 1 -
+/leaf.php 11 -
+/alex.php 9 -
+//cgi-etc/quti.php 1 -
+/wp-content/themes/twentythree/inc/index.php 1 parvamconsultech.com
+/backup/ 3 -
+/FoxWSOv1.php 7 -
+/p.php 7 -
+/phpinfo.html 1 -
+//local.php 1 -
+/wp-content/mu-plugins-old/index.php 3 www.bing.com
+/6yons0vf.php 1 http://parvamconsultech.com/6yons0vf.php
+/.aws/credentials 1 -
+/templates/atomic/error.php 1 -
+/wp-blockdown.php 3 parvamconsultech.com
+/wp-admin/include.php 1 parvamconsultech.com
+/YnXZn/KZTML/ 1 -
+/system_log.php 9 www.bing.com
+/hello.php 7 -
+/srx.php 1 -
+/q8lrkryh.php 1 http://parvamconsultech.com/q8lrkryh.php
+/tool.php 1 parvamconsultech.com
+//wp-content/uploads/typehub/custom/ulsorhod/bala.php 1 -
+/old/ 3 -
+//wp-content/plugins/gatewayapi/inc/a57bze8931.php 1 www.google.com
+/wp-stream.php 2 -
+/wp-admin/css/ 9 binance.com
+/wp-content/think.php 1 -
+//wp-content/uploads/p3d/bala.php 1 -
+/wp.php 16 www.bing.com
+/iLNYP/ 1 -
+/templates/beez3/ALFA_DATA 9 www.bing.com
+/wp-includes/alfacgiapi 9 www.bing.com
+/sxgycoz9.php 1 http://parvamconsultech.com/sxgycoz9.php
+/n.php 7 -
+/dup-installer/main.installer.php 2 -
+/jd4xcy9w.php 2 http://parvamconsultech.com/jd4xcy9w.php
+/wp-admin/ALFA_DATA 9 www.bing.com
+//modules/mod_ariimageslidersa/mod_ariimageslidersa.php 1 -
+/symlink.php 7 -
+/wp-content/plugins/formcraft/file-upload/server/content/upload.php 1 -
+//wp-includes/css/buttons.css 2 -
+/ez7tf6v1.php 1 http://parvamconsultech.com/ez7tf6v1.php
+/brick2brick/admin/assets/css/main.css 33 http://parvamconsultech.com/brick2brick/admin/interiorviewform.php
+/e.php 13 -
+/2.php 13 -
+/martinrealtors/admin/index.html 5 http://parvamconsultech.com/martinrealtors/admin/editaddproperty.php
+/wp-clearline.php 1 parvamconsultech.com
+/wp-blockup.php 2 parvamconsultech.com
+/schoolerp//css/img/preloader.gif 1 http://parvamconsultech.com/schoolerp//css/style.css
+/fw.php 1 -
+/mambots/content/moscode.xml 2 -
+/olux.php%09%09 1 -
+/alfacgiapi/perl.alfa 8 www.google.com
+/b4sm0w7u.php 1 http://parvamconsultech.com/b4sm0w7u.php
+/tryagshell.php 2 -
+/.index.env 1 -
+/radio.php 9 www.bing.com
+/old-index.php 21 www.bing.com
+/ALFA_DATA/alfacgiapi/perl.alfa 8 www.google.com
+/60589e49.php 1 http://parvamconsultech.com/60589e49.php
+/uploads/up.php 1 -
+/dVcWR/ioiOd/ 1 -
+/cmseg63x.php 1 http://parvamconsultech.com/cmseg63x.php
+/l26obioh.php 1 http://parvamconsultech.com/l26obioh.php
+/default.php 2 -
+/vp8wkj4h.php 1 http://parvamconsultech.com/vp8wkj4h.php
+/gjqkeh57.php 1 http://parvamconsultech.com/gjqkeh57.php
+/stqg08ax.php 1 http://parvamconsultech.com/stqg08ax.php
+/v2/ 1 -
+//style.php 1 -
+/dljRV/PenQf/ 1 -
+/corcr9ki.php 1 http://parvamconsultech.com/corcr9ki.php
+/vat0qomy.php 1 http://parvamconsultech.com/vat0qomy.php
+/11index.php 7 -
+/schoolerp/events/EVNTIMG_71334326162fe06e028299.jpg 1 -
+/it.php 7 -
+/phpinfo 2 -
+/commandshell.php 2 -
+/kovt7abc.php 1 http://parvamconsultech.com/kovt7abc.php
+/1337.php 1 -
+/phpinfo.php 2 -
+/w.php 7 -
+/qm6n27mi.php 1 http://parvamconsultech.com/qm6n27mi.php
+/doc.php 22 www.bing.com
+/g6sshell.php 2 -
+/__media__/js/netsoltrademark.php 1 -
+/wp-content/auto_seo.php 1 parvamconsultech.com
+/y.php 13 -
+/bb.php 8 -
+/schoolerp/parvamAdmin/css/img/preloader.gif 1 http://parvamconsultech.com/schoolerp/parvamAdmin/css/style.css
+/FoxWSO.php 7 -
+/mmjbubyb.php 1 http://parvamconsultech.com/mmjbubyb.php
+/saudishell.php 2 -
+/wp-content/themes/engl/pages.php 1 parvamconsultech.com
+/un39hig4.php 1 http://parvamconsultech.com/un39hig4.php
+/2022/ 2 -
+/media-admin.php 10 -
+/ohayo.php 7 -
+/Marvins.php 1 -
+/3index.php 17 www.bing.com
+/mini666.php 2 -
+//xleet-shell.php 1 -
+/old 2 -
+/internship 1 -
+/stindex.php 7 -
+/wp1/ 1 -
+/vendor/phpunit/phpunit/LICENSE 1 -
+/eLpLM/ 1 -
+/XxX.php 7 -
+/itomcfc2.php 1 http://parvamconsultech.com/itomcfc2.php
+//wp-content/themes/sketch/404.php 1 -
+/schoolerp/events/EVNTIMG_86713276662fe06dfebeb4.jpg 5 -
+/whtojs80.php 1 http://parvamconsultech.com/whtojs80.php
+//wp-content/plugins/ioptimizations/IOptimizes.php 2 -
+/a.php 24 -
+/e9zcudrl.php 1 http://parvamconsultech.com/e9zcudrl.php
+/xox.php 13 -
+/1.php 30 -
+/edit-form.php 7 -
+/wp-content/uploads/wp-blockdown.php 1 -
+/mt/mt-xmlrpc.cgi 1 -
+/bmr2k2im.php 1 http://parvamconsultech.com/bmr2k2im.php
+/bv5nbvk9.php 1 http://parvamconsultech.com/bv5nbvk9.php
+/xleet.php 9 www.bing.com
+/wp-admin/includes/alexusmailer2.0.php 1 -
+/wordpress/ 3 -
+//wp-content/plugins/formcraft/file-upload/server/php/files/a57bze8931.php 1 www.google.com
+/wp-one.php 7 -
+/8myrs1xc.php 1 http://parvamconsultech.com/8myrs1xc.php
+//wp-content/uploads/2022/04/db.php 1 -
+/aws.yml 1 -
+/2020/ 3 -
+/installer%20%281%29.php 2 -
+/demo/mambots/content/moscode.xml 2 -
+/schoolerp/events/EVNTIMG_180850470762fdedabdbf7f.jpg 3 -
+/templates/beez5/error.php 1 -
+/cgialfa 9 www.bing.com
+/schoolerp//attachDownload.html 6 -
+/owl.php 7 -
+/wp-content/cgialfa 9 www.bing.com
+/7cgkqu3b.php 1 http://parvamconsultech.com/7cgkqu3b.php
+/wp-content/plugins/three-column-screen-layout/db.php 1 -
+/schoolerp/events/EVNTIMG_87119490862fe06e01c6d8.jpg 3 -
+/0byte.php 7 -
+//wp-content/plugins/linkpreview/db.php 1 -
+/blog/ 3 -
+/r.php 13 -
+/wp-content/plugins/html404/index.html 1 -
+/indoxploit.php 1 -
+/schoolerp/events/EVNTIMG_155959311562fdedabe9ce7.jpg 3 -
+/s_ne.php 9 www.bing.com
+/language/en-GB/en-GB.xml 2 -
+/j.php 7 -
+/7g1kt1g2.php 1 http://parvamconsultech.com/7g1kt1g2.php
+/alf.php 13 -
+/.env.local 1 -
+/wp-content/themes/gaukingo/db.php 1 -
+/ws.php 7 -
+/sites/default/files/cgialfa 9 www.bing.com
+//mini.php 1 -
+/bypass.php 9 -
+/9kxq81xt.php 1 http://parvamconsultech.com/9kxq81xt.php
+//wp-content/plugins/apikey/a57bze8931.php 1 www.google.com
+/defau11.php 9 www.bing.com
+/zehir4shell.php 2 -
+/m.php 8 -
+//1index.php 1 -
+/iimouyed.php 1 www.google.com
+/54mksoh2.php 1 http://parvamconsultech.com/54mksoh2.php
+/webroot.php 2 -
+/blank.php 2 -
+/iranshell.php 2 -
+//admin 2 -
+/cms//RxR.php 1 -
+/fa.php 7 -
+/wp-content/plugins/vwcleanerplugin/bump.php 1 -
+/sym.php 9 -
+/.fk.php 6 -
+/tkwobugf.php 1 http://parvamconsultech.com/tkwobugf.php
+/test/ 3 -
+/templates/ja_purity/index.php 1 -
+/style.php 9 www.bing.com
+/yekxwino.php 1 www.google.com
+/cpl/ 1 -
+/mar.php 13 -
+/mt-xmlrpc.cgi 1 -
+/www.php 7 -
+//wp-content/mini.php 1 -
+//wp-content/uploads/kaswara/fonts_icon/a57bze8931/.__a57bze8931.php 1 www.google.com
+/.well-known/alfacgiapi 9 www.bing.com
+/wso1.php 7 -
+/application/config/sms_settings.php 1 -
+//wp-content/king.php 1 www.google.com
+/wp-admin/includes/block-line.php 7 -
+/rahma.php 7 -
+/_profiler/phpinfo 2 -
+/wp-content/uploads/wp-blockup.php 1 -
+/93zfckay.php 1 http://parvamconsultech.com/93zfckay.php
+/cms/mt-xmlrpc.cgi 1 -
+/event_ticketing/parkingmaster.php 3 http://parvamconsultech.com/event_ticketing/usermaster.php
+/6s6c5l44.php 1 http://parvamconsultech.com/6s6c5l44.php
+/schoolerp/css/img/preloader.gif 100 http://parvamconsultech.com/schoolerp/css/style.css
+/wp-content/ 4 -
+/mambots/editors/fckeditor/editor/filemanager/upload/php/upload.php 1 -
+/baindex.php 7 -
+/site/ 3 -
+/wso1337.php 7 -
+/templates/beez3/alfacgiapi 9 www.bing.com
+//wp-content/uploads/2022/06/db.php 1 -
+/wp-content/app.php 1 parvamconsultech.com
+/z58qhknf.php 1 http://parvamconsultech.com/z58qhknf.php
+/wp-content/alfacgiapi/perl.alfa 4 www.google.com
+/wp-admin/setup-config.php 2 -
+/l.php 7 -
+/uploadshell.php 2 -
+/6n9wne06.php 1 http://parvamconsultech.com/6n9wne06.php
+/wso.php 24 -
+/templates/beez3/error.php 1 -
+/wp-login.php 3 -
+/indishell.php 2 -
+/gentsdd3.php 1 http://parvamconsultech.com/gentsdd3.php
+/upload/server/php-files/index.php 1 -
+/a1jkxghb.php 1 http://parvamconsultech.com/a1jkxghb.php
+/MOOYT/ 1 -
+/vuln.php 1 -
+/test/wp-admin/setup-config.php 1 -
+/wp-configer.php 9 -
+/cyberwarrior.php 2 -
+/up.php 11 -
+/wp-includes/css/modules.php 1 -
+/alfacgiapi 9 www.bing.com
+/wp 2 -
+/wp-includes/ALFA_DATA 9 www.bing.com
+/q.php 7 -
+//export.php 1 -
+//shell20211028.php 1 -
+/opencart/ 2 -
+/schoolerp/events/EVNTIMG_177967094062b1708f39f86.jpg 2 -
+/lfqebmhv.php 1 http://parvamconsultech.com/lfqebmhv.php
+/rcc 1 -
+/nu3b1f5g.php 1 http://parvamconsultech.com/nu3b1f5g.php
+/mt//RxR.php 1 -
+/wp/ 3 -
+/wp_wrong_datlib.php 9 www.bing.com
+//wp-content/themes/zakra/image.php 1 -
+/wp-content/themes/classic/inc/index.php 1 parvamconsultech.com
+/wp-content/plugins/dzs-zoomsounds/savepng.php 1 -
+/404.php 9 -
+/g.php 7 -
+/wikindex.php 16 www.bing.com
+/admin/.env 2 -
+/config.js 1 -
+/bnorsoy1.php 1 http://parvamconsultech.com/bnorsoy1.php
+/orln1hba.php 1 http://parvamconsultech.com/orln1hba.php
+/wp-content/plugins/css-ready-sel/file.php 1 -
+/admin/assets/file-uploader/server/php/index.php 1 -
+/bx2dhwue.php 1 http://parvamconsultech.com/bx2dhwue.php
+//qarmiuse.php 1 -
+/hf9ldn53.php 1 http://parvamconsultech.com/hf9ldn53.php
+/main 2 -
+/upload/server/php-directory/index.php 1 -
+/wp-plain.php 4 www.google.com
+//autoload_classmap.php 1 -
+/wp-22.php 1 -
+/schoolerp/js/popper.min.js.map 20 -
+/2021/ 2 -
+/wp-content/db-cache.php 10 www.bing.com
+/.wp-cache.php 7 -
+//wp-content/uploads/Mjzrh.php 1 -
+/.well-known/ 10 -
+/wp-admin/style.php 9 www.bing.com
+/s_e.php 9 www.bing.com
+/schoolerp/events/EVNTIMG_155337470662fdedabf1f30.jpg 3 -
+/nsauflfc.php 1 http://parvamconsultech.com/nsauflfc.php
+/MZeRW/iLNYP/ 1 -
+/error.php 9 www.bing.com
+/upl.php 1 parvamconsultech.com
+//wp-content/plugins/wp-engine-module/bala.php 1 -
+/tmp/ 1 -
+/admin/controller/extension/extension/cgialfa 9 www.bing.com
+/x.php 23 www.bing.com
+/cms.php 7 -
+/ioiOd/ 1 -
+/u.php 13 -
+/wp-includes/SimplePie/index.php 1 parvamconsultech.com
+/h4cker.php 2 -
+/schoolerp/events/EVNTIMG_194198811662fdedabccf84.jpg 3 -
+/old-wp/ 1 -
+/templates/beez3/index.php 10 www.bing.com
+/wp-content/mu-plugins/db-safe-mode.php 9 www.bing.com
+//wp-admin/xleet.php 1 -
+/wp-admin/includes/mar.php 7 -
+/installer-backup.php 2 -
+/my7apkri.php 1 http://parvamconsultech.com/my7apkri.php
+/9y25zyh3.php 1 http://parvamconsultech.com/9y25zyh3.php
+/index.php 13 www.bing.com
+/phpinf.php 1 -
+/k2ll33d.php 2 -
+/schoolerp/events/EVNTIMG_82443635762fe06352034a.jpg 2 -
+/b.php 7 -
+/admin/FCKeditor/editor/filemanager/upload/php/upload.php 1 -
+/cwshell.php 2 -
+/css/index.php 1 parvamconsultech.com
+/wp-includes/wp-class.php 9 www.bing.com
+/news/wp-admin/setup-config.php 1 -
+/schoolerp/events/EVNTIMG_79733674662fe0385083e0.jpg 2 -
+/kTRUo/gSgSQ/ 1 -
+/mtos/mt-xmlrpc.cgi 1 -
+/ql8uqr5q.php 1 http://parvamconsultech.com/ql8uqr5q.php
+/orwyrsn4.php 1 http://parvamconsultech.com/orwyrsn4.php
+/.aws.yml 1 -
+/42war7ll.php 1 http://parvamconsultech.com/42war7ll.php
+//wp-content/plugins/ioptimization/bala.php 1 -
+/wp-lo.Php 1 parvamconsultech.com
+//fw.php 2 -
+//wp-content/plugins/wp-engine-module/a57bze8931.php 1 www.google.com
+/wp-admin.php 10 www.bing.com
+/d5ytkovp.php 1 http://parvamconsultech.com/d5ytkovp.php
+/wp-content/plugins/wp-file-manager/lib/php/connector.minimal.php 1 -
+//wp-content/plugins/gatewayapi/inc/css_js.php 1 www.google.com
+/templates/protostar/index.php 1 -
+/wp-admin/leaf.php 1 -
+/js/fckeditor/editor/filemanager/upload/php/upload.php 1 -
+/schoolerp/events/EVNTIMG_146906903262b1708f383a0.jpg 8 -
+/images/vuln.php 3 -
+/cgi-bin/mt//RxR.php 1 -
+/schoolerp/events/EVNTIMG_196207337762fe06dff4089.jpg 3 -
+/installer.php 3 -
+//fresh.php 1 -
+/v.php 7 -
+/alexusmailer2.0.php 1 -
+/wp-admin/includes/maint/wp-readindex.php 7 -
+/joomla/ 2 -
+/includes/FCKeditor/editor/filemanager/upload/php/upload.php 1 -
+/cfkcaaia.php 1 www.google.com
+//wp-content/plugins/wp-file-manager/lib/php/connector.minimal.php 1 www.google.com
+/data.php 9 -
+/sites/default/files/alfacgiapi 9 www.bing.com
+/wp-includes/css/css.php 9 www.bing.com
+/i.php 13 -
+/autoload_classmap.php 7 -
+/administrator/help/en-GB/toc.json 3 -
+/wp-backup-sql-302.php 9 www.bing.com
+/WSXRS/ 1 -
+/j78wcqf5.php 1 http://parvamconsultech.com/j78wcqf5.php
+/priv8.php 13 -
+/fresh.php 1 parvamconsultech.com
+/8zqi7f6y.php 1 http://parvamconsultech.com/8zqi7f6y.php
+//wp-content/plugins/ubh/con.php 1 -
+/fresh1.php 1 parvamconsultech.com
+/cp.php 7 -
+/assets/global/plugins/jquery-file-upload/server/php/files/jquery.php 1 parvamconsultech.com
+//wp-content/plugins/apikey/nocap.php 1 -
+/moduless.php 9 www.bing.com
+/4price.php 7 -
+/q8yis5a9.php 1 http://parvamconsultech.com/q8yis5a9.php
+/fkp7ea4v.php 1 http://parvamconsultech.com/fkp7ea4v.php
+/1e9104z8.php 1 http://parvamconsultech.com/1e9104z8.php
+/wp-content/ALFA_DATA/alfacgiapi/perl.alfa 4 www.google.com
+/0m4avzzo.php 1 http://parvamconsultech.com/0m4avzzo.php
+/wp-includes/wp-atom.php 9 www.bing.com
+/bc 2 -
+/ups.php 10 -
+/schoolerp/events/EVNTIMG_47584936862fe06350d0a2.jpg 2 -
+/k.php 13 -
+//wp-content/xleet.php 2 -
+/alfa123.php 7 -
+/schoolerp/events/EVNTIMG_115666113462fdedabe247e.jpg 3 -
+/simattacker.php 2 -
+/KZTML/ 1 -
+/s.php 13 -
+/KlMTf/YoOMg/ 2 -
+/schoolerp/events/EVNTIMG_187267375662fdedac044a7.jpg 2 -
+/templates/beez_20/index.php 1 -
+/alwso.php 7 -
+/seft/css/img/preloader.gif 2 http://parvamconsultech.com/seft/css/style.css
+/danblhea.php 1 http://parvamconsultech.com/danblhea.php
+/wp-admin/cgialfa 9 www.bing.com
+/xmrlpc.php 3 www.bing.com
+/wuphgjxb.php 1 http://parvamconsultech.com/wuphgjxb.php
+/wp-includes/cgialfa 9 www.bing.com
+/wp-confirm.php 9 -
+/ALFA_DATA 9 www.bing.com
+/0.php 7 -
+/public/assets/file-uploader/server/php/index.php 1 -
+/icemo6fe.php 1 http://parvamconsultech.com/icemo6fe.php
+/xxx.php 7 -
+/f.php 13 -
+//wp-content/plugins/wp-engine-module/wp-engine.php/wp-admin/admin-ajax.php 1 -
+/schoolerp/events/EVNTIMG_210605191862fdedac22279.jpg 2 -
+/wp-includes/ID3/license.txt 9 -
+//wp-content/plugins/ioptimizations/bala.php 1 -
+/MT//RxR.php 1 -
+/site/wp-admin/setup-config.php 1 -
+//defaul1.php 1 -
+//wp-2019.php 1 -
+/.env.save 1 -
+/admin/controller/extension/extension/ALFA_DATA 9 www.bing.com
+/sites/default/files/ALFA_DATA 9 www.bing.com
+/c.php 15 -
+/uploads/contexmini.php 7 -
+//wp-content/uploads/typehub/custom/a57bze8931/.__a57bze8931.php 1 www.google.com
+/wp-content/admin.php 1 parvamconsultech.com
+/schoolerp/events/EVNTIMG_44189790662fe038519b93.jpg 3 -
+/new-site/ 1 -
+/YNSXn/ 1 -
+/lock360.php 3 www.bing.com
+/alexusmailer%202.0.php 6 -
+//wp-includes/xleet.php 1 -
+/templates/rhuk_milkyway/index.php 1 -
+/t.php 13 -
+/wp-admin/tool.php 1 parvamconsultech.com
+//wp-content/admin.php 1 -
+/og1gde50.php 1 http://parvamconsultech.com/og1gde50.php
+/v1/ 1 -
+/schoolerp/events/EVNTIMG_589976062fdedac29489.jpg 3 -
+/schoolerp/events/EVNTIMG_157515750262fe063537627.jpg 2 -
+/file-uploader/server/php/index.php 1 -
+/wp-includes/js/jquery/jquery-migrate.min.js 3 -
+/wp-content/uploads/alfacgiapi 9 www.bing.com
+/wp-admin/includes/readindex.php 7 -
+/schoolerp/events/EVNTIMG_101025295762fdedac149d2.jpg 2 -
+/wp-content/plugins/ppus/up.php 1 -
+/schoolerp/events/EVNTIMG_157161411762fe06352488a.jpg 2 -
+/wze02o89.php 1 http://parvamconsultech.com/wze02o89.php
+/1zsbnot0.php 1 http://parvamconsultech.com/1zsbnot0.php
+/blog.php 7 -
+/7tvgrs8a.php 1 http://parvamconsultech.com/7tvgrs8a.php
+/39svpx1l.php 1 http://parvamconsultech.com/39svpx1l.php
+/at5bf0ue.php 1 http://parvamconsultech.com/at5bf0ue.php
+/cgi//RxR.php 1 -
+/wordpress/wp-admin/setup-config.php 1 -
+//wp-content/themes/twentyfive/include.php 1 -
+/wp-ad.php 7 -
+/blog/wp-admin/setup-config.php 1 -
+/TldOl/MOOYT/ 1 -
+/schoolerp/events/EVNTIMG_166904406262fe03852870c.jpg 3 -
+/wp-content/plugins/ubh/up.php 9 www.bing.com
+/olux.php 9 www.bing.com
+/3.php 21 -
+/locus7shell.php 2 -
+/defau1t.php 16 www.bing.com
+/1vp83w9u.php 1 http://parvamconsultech.com/1vp83w9u.php
+/unbema14.php 1 http://parvamconsultech.com/unbema14.php
+/shx.php 7 -
+/about.php 10 www.bing.com
+/sqlshell.php 2 -
+/cgi/mt-xmlrpc.cgi 1 -
+/schoolerp/css/bootstrap.min.css.map 21 -
+/z7856qqh.php 1 http://parvamconsultech.com/z7856qqh.php
+/wp-file.php 7 -
+//xleet.php 1 -
+/wp-content/plugins/upspy/index.php 1 -
+/8uqwc92m.php 1 http://parvamconsultech.com/8uqwc92m.php
+/kk.php 7 -
+/blog//RxR.php 1 -
+/wp-commentin.php 3 -
+//wp-content/plugins/hello.php 1 -
+/12.php 2 -
+/wp-admin/includes/leaf.php 1 -
+/m2hnu3zh.php 1 http://parvamconsultech.com/m2hnu3zh.php
+/assets/file-uploader/server/php/index.php 1 -
+/cms/ 3 -
+/.env/config 1 -
+/wp-content/wp-content/admin.php 1 parvamconsultech.com
+/martinrealtors/assets/images/landing/demo/1.jpg 31 http://parvamconsultech.com/martinrealtors/admin/addproperty.php
+/feed/ 12 -
+/kiss.php 7 -
+/ernebypass.php 2 -
+/MT/mt-xmlrpc.cgi 1 -
+//wp-content/plugins/ioptimization/a57bze8931.php 1 www.google.com
+/alexus.php 7 -
+/injection.php 2 -
+/t2a3gsa6.php 1 http://parvamconsultech.com/t2a3gsa6.php
+/100.php 7 -
+/schoolerp/events/EVNTIMG_67183517562fe0385008ba.jpg 3 -
+/templates/atomic/index.php 1 -
+/humans.txt 2 -
+/archives.php 9 www.bing.com
+/mi.php 7 -
+//old-index.php 1 -
+/test.php 9 www.bing.com
+/45f71y51.php 1 http://parvamconsultech.com/45f71y51.php
+/home/ 1 -
+/old-site/ 1 -
+/wp-content/vuln.php 1 -
+/gvutjxy9.php 1 http://parvamconsultech.com/gvutjxy9.php
+/wp-content/plugins/engl/pages.php 1 parvamconsultech.com
+/MARIJUANA.php 7 -
+/wordpress/wp-content/plugins/instabuilder2/assets/css/instabuilder2.css 1 www.google.com
+/content.php 7 -
+/pouyaserver.php 2 -
+/schoolerp/js/bootstrap.min.js.map 20 -
+/2index.php 13 -
+/wp-content/uploads/ALFA_DATA 9 www.bing.com
+/fk.php 1 -
+/8khwpqf1.php 1 http://parvamconsultech.com/8khwpqf1.php
+/export.php 9 www.bing.com
+/schoolerp/events/EVNTIMG_88395268262b1708f39aec.jpg 2 -
+/b1n4ry.php 2 -
+/q5ea5k8n.php 1 http://parvamconsultech.com/q5ea5k8n.php
+/beence.php 9 www.bing.com
+/nasgor.php 7 -
+/wp-content/uploads/2017/11/Doc1.pdf 1 -
+/leaf-mailer.php 1 -
+/schoolerp/events/EVNTIMG_53344446762fdedac1b802.jpg 2 -
+/admin/fckeditor/editor/filemanager/upload/php/upload.php 1 -
+/admin/controller/extension/extension/alfacgiapi 9 www.bing.com
+/demo/language/en-GB/en-GB.xml 2 -
+/simshell.php 2 -
+//wp-plain.php 1 -
+/vjtq3x6z.php 1 http://parvamconsultech.com/vjtq3x6z.php
+/authorize.php 1 parvamconsultech.com
+/index2.html 1 -
+/gazashell.php 2 -
+/wp-content/plugins/instabuilder2/assets/css/instabuilder2.css 1 www.google.com
+/ok.php 7 -
+/wp/wp-content/plugins/instabuilder2/assets/css/instabuilder2.css 1 www.google.com
+//wp-content/plugins/wp-work/infodata.php 1 -
+/shell.php 23 www.bing.com
+/info.php 2 -
+/brick2brick/assets/images/landing/demo/1.jpg 33 http://parvamconsultech.com/brick2brick/admin/interiorviewform.php
+//wp-content/bala.php 1 -
+/r91h5ddl.php 1 http://parvamconsultech.com/r91h5ddl.php
+/ 474 -
+/wp-content/plugins/backup_index.php 9 www.bing.com
+//wp-content/plugins/formcraft/file-upload/server/php/ 1 www.google.com
+/wp-content/uploads/leaf.php 1 -
+/wp-includes/sys.php 7 -
+/new.php 7 -
+/wp-includes/SimplePie/font-editor.php 1 parvamconsultech.com
+/wp-beckup.php 1 -
+/wp-content/wp-admin.php 7 -
+/wp-uploads.php 7 -
+/wp-content/plugins/core-engine/index.php 1 parvamconsultech.com
+/wp-admin/network/wp-footer.php 1 -
+/2017/ 2 -
+/schoolerp/js/toastr.js.map 13 -
+/blog/wp-content/plugins/instabuilder2/assets/css/instabuilder2.css 1 www.google.com
+//wp-content/x.php 1 www.google.com
+//wp-admin/admin-ajax.php 4 -
+/syrianshell.php 2 -
+//inbexw.php 1 -
+/wp2/ 1 -
+/xx.php 1 -
+/5gcuzczm.php 1 http://parvamconsultech.com/5gcuzczm.php
+//images/mod_config.php 1 -
+/rss.php 7 -
+/xv44ot2e.php 1 http://parvamconsultech.com/xv44ot2e.php
+/wordpress 2 -
+/bak/ 1 -
+/wp-content/includes/alexusmailer2.0.php 1 -
+/admin.php 2 parvamconsultech.com
+/uc5yba7x.php 1 http://parvamconsultech.com/uc5yba7x.php
+/upload.php 12 -
+/wp-conetnt/leaf.php 1 -
+/wsoshell.php 2 -
+/main/ 1 -
+/wp-log.php 1 parvamconsultech.com
+/g6shell.php 2 -
+/wp-supports.php 1 parvamconsultech.com
+/schoolerp/events/EVNTIMG_79869977162fe03852129d.jpg 3 -
+/b7r1ra8m.php 1 http://parvamconsultech.com/b7r1ra8m.php
+/1index.php 23 www.bing.com
+/wp-admin/css/modern/colors.css.php 7 -
+//wp-content/uploads/2022/07/db.php 1 -
+/blog/mt-xmlrpc.cgi 1 -
+/Sendemail.php 7 -
+/am2sguun.php 1 http://parvamconsultech.com/am2sguun.php
+//wp-content/themes/twentytwenty/content.php 1 -
+/shells.php 9 www.bing.com
+/test_404_page/ 60 -
+/wp-content/plugins/theme-configurator/mini.php 1 -
+/lSgWb/jOVMR/ 1 -
+/wp-logs.php 1 parvamconsultech.com
+/wp-content/plugins/formcraft/file-upload/server/php/upload.php 1 -
+/r57.php 2 -
+/wp-admin/includes/class-wp-media-list-data.php 7 -
+/ysx73d80.php 1 http://parvamconsultech.com/ysx73d80.php
+/63a3gd62.php 1 http://parvamconsultech.com/63a3gd62.php
+/freshtools.php 1 parvamconsultech.com
+/admin/upload.php 1 -
+/c99.php 1 -
+/legion.php 9 www.bing.com
+/!.php 7 -
+/robots.txt 148 -
+/wp-admin/includes/tablepress_controllers.php 7 -
+/ig75xcf6.php 1 http://parvamconsultech.com/ig75xcf6.php
+/wp-content/plugins/css-ready/file.php 1 -
+/jOVMR/ 1 -
+/vmwx9fi8.php 1 http://parvamconsultech.com/vmwx9fi8.php
+/plugins/system/debug/debug.xml 3 -
+/sosyeteshell.php 2 -
+/wp-content/includes/leaf.php 1 -
+/cgi-bin//RxR.php 1 -
+/wp-sid.php 1 parvamconsultech.com
+/alexus-mailer.php 7 -
+/dtf2ws6x.php 1 http://parvamconsultech.com/dtf2ws6x.php
+/anone.php 9 -
+/schoolerp/events/EVNTIMG_97524895362fe06e021110.jpg 2 -
+/sbcnfmtx.php 1 http://parvamconsultech.com/sbcnfmtx.php
+//wp-content/plugins/ioptimizations/a57bze8931.php 1 www.google.com
+/wp-admin/alfacgiapi 9 www.bing.com
+//wp-content/uploads/2022/05/db.php 1 -
+/wi.php 7 -
+//radio.php 1 -
+/o.php 13 -
+/2019/ 3 -
+/schoolerp/events/EVNTIMG_41698453262fe06352b3a8.jpg 2 -
+//bala.php 1 -
+/sites/all/libraries/elfinder/elfinder.php.html 1 -
+/templates/protostar/error.php 1 -
+/2018/ 3 -
+/wp-links-opml.php 2 -
+http://parvamconsultech.com/ 1 http://parvamconsultech.com/
+/wp-content/uploads/alexusmailer2.0.php 1 -
+/pqijrsne.php 1 http://parvamconsultech.com/pqijrsne.php
+/5e3yhzor.php 1 http://parvamconsultech.com/5e3yhzor.php
+/wp-content/includes/uploads/Va.php 7 -
+/includes/fckeditor/editor/filemanager/upload/php/upload.php 1 -
+/9tjngz4q.php 1 http://parvamconsultech.com/9tjngz4q.php
+/wp-content/cache.php 1 parvamconsultech.com
+/wp-content/uploads/small.php 7 -
+//ups.php 1 -
+/aqva4mfd.php 1 http://parvamconsultech.com/aqva4mfd.php
+/mtos//RxR.php 1 -
+/75e7f1ji.php 1 http://parvamconsultech.com/75e7f1ji.php
+/5u3ltm27.php 1 http://parvamconsultech.com/5u3ltm27.php
+/wp-admin/includes/media-site.php 7 -
+/erzxm3/ 1 -
+/.well-known/cgialfa 9 www.bing.com
+//wp-content/uploads/kaswara/fonts_icon/bala/bala.php 1 -
+/69yo12c7.php 1 http://parvamconsultech.com/69yo12c7.php
+/schoolerp/events/EVNTIMG_79600897562fdedabd3fb7.jpg 3 -
+/bk 2 -
+/wp-admin/robost.php 1 parvamconsultech.com
+/h.php 7 -
+/templates/beez/index.php 1 -
+/xmlrpc.php 4 -
+/schoolerp/events/EVNTIMG_31804336062fe06e0146c1.jpg 3 -
+/zehirshell.php 2 -
+/wx78tm9y.php 1 http://parvamconsultech.com/wx78tm9y.php
+/iuktpgjs.php 1 http://parvamconsultech.com/iuktpgjs.php
+//wp-content/plugins/apikey/apikey.php 1 www.google.com
+/templates/beez5/index.php 1 -
+//wp-content/plugins/wp-engine-module/wp-engine.php 2 -
+/wp-rss.php 7 -
+/FCKeditor/editor/filemanager/upload/php/upload.php 2 -
+/23ubz00m.php 1 http://parvamconsultech.com/23ubz00m.php
+/xmlrpcs.php 3 www.bing.com
+/alfa.php 30 -
+/bk/ 1 -
+/templates/beez_20/error.php 1 -
+/wp-content/plugins/widget-logic/mini.php 1 -
+/wp-content/plugins/fluid_forms/file-upload/server/php/index.php 1 -
+/_ignition/health-check/ 1 -
+/web/ 3 -
+/xindex.php 3 www.bing.com
+/schoolerp/Student_Docs/STUDOC_70_10043974262beb48987898.jpg 1 http://parvamconsultech.com/schoolerp/attachDownload.php
+/d.php 7 -
+//wp-content/plugins/ioptimization/IOptimize.php 2 -
+/config.php 9 www.bing.com
+/wp-content/plugins/wp-db-ajax-made/wp-ajax.php 1 -
+/wp-content/plugins/formcraft/file-upload/server/php/index.php 1 -
+/wp-admin/includes/maint/repair-bak.php 7 -
+/wp-content/outcms.php 9 www.bing.com
+/demo/feed/ 2 -
+/wp-content/wp-logins.php 7 -
+/templates/beez3/cgialfa 9 www.bing.com
+/wp-blog-post.php 1 -
+/cpanel.php 7 -
+/config/aws.yml 1 -
+/e9xul7sb.php 1 http://parvamconsultech.com/e9xul7sb.php
+/8ejquwal.php 1 http://parvamconsultech.com/8ejquwal.php
+/schoolerp/events/EVNTIMG_100969239262fe0635317d8.jpg 2 -
+/wp-content/ALFA_DATA 9 www.bing.com
+/editor/editor/filemanager/upload/php/upload.php 1 -
+/41.php 7 -
+/qluvm6ef.php 1 http://parvamconsultech.com/qluvm6ef.php
+/mini.php 13 -
+/temp/ 1 -
+/schoolerp/events/EVNTIMG_29913941162fdedac0acf3.jpg 2 -
+/schoolerp/events/EVNTIMG_70705068262fe063518a92.jpg 3 -
+/kcswuppy.php 1 http://parvamconsultech.com/kcswuppy.php
+/schoolerpuat_2_0/css/img/preloader.gif 1 http://parvamconsultech.com/schoolerpuat_2_0/css/style.css
+/schoolerp/events/EVNTIMG_110384405162fe06353c986.jpg 2 -
+/Gel.php 7 -
+/pbhmx7qs.php 1 http://parvamconsultech.com/pbhmx7qs.php
+/ads.txt 32 -
+/wp-content/uploads/cgialfa 9 www.bing.com
+/wp-content/plugins/seo/up.php 1 parvamconsultech.com
+/media/wso.php/ 1 www.google.com
+/wp-content/upload.php 1 -
+/qindex.php 3 www.bing.com
+/credentials.php 1 -
+/gSgSQ/ 1 -
+/install/ 1 -
+/wp-booking.php 9 www.bing.com
+/fckeditor/editor/filemanager/upload/php/upload.php 2 -
+//wp-content/plugins/cherry-plugin/admin/import-export/a57bze8931.php 1 www.google.com
+/wp-load.php 17 www.bing.com
+/yygzmqns.php 1 www.google.com
+/wp/wp-admin/setup-config.php 1 -
+/application/config/s3.php 1 -
+/777.php 7 -
+/4p2q8j5g.php 1 http://parvamconsultech.com/4p2q8j5g.php
+/if.php 7 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 81
+49.205.145.92 532 669 9729006 20220830062129
+36.255.87.0 78 78 13404 20220827002939
+157.45.246.80 69 102 282896 20220802000204
+36.255.87.4 61 306 11762360 20220804035503
+106.217.111.144 43 53 711663 20220810043013
+223.186.157.254 39 39 7553 20220824070319
+157.45.106.3 35 61 1397915 20220827005623
+106.217.111.155 30 89 1606840 20220804043716
+1.39.191.58 28 61 1768604 20220801105329
+202.21.43.67 27 27 6725 20220827021802
+49.205.149.92 23 112 12884020 20220804024650
+162.214.80.40 18 18 1152 20220831171656
+223.186.115.180 17 50 1728195 20220826234759
+49.205.147.100 16 98 4020793 20220811062551
+223.237.230.202 13 29 1384661 20220802043953
+150.129.89.188 11 76 3330862 20220811094214
+1.39.131.223 11 39 621470 20220819003517
+157.50.50.230 11 11 3397 20220829012329
+157.45.116.103 10 10 1879 20220827054219
+49.205.146.138 10 14 343836 20220802060005
+49.205.146.54 10 86 3056308 20220803035827
+74.125.210.214 8 8 5297 20220826051201
+157.45.193.35 7 20 3776 20220801010246
+157.50.52.130 7 7 2557 20220808043847
+157.45.29.54 6 70 2693353 20220811095751
+157.45.223.35 2 2 1076 20220824221413
+49.44.76.164 5 56 2024638 20220803033605
+157.45.101.11 4 20 1033372 20220811202243
+49.44.67.233 4 19 346703 20220811202315
+223.186.233.120 3 19 1378706 20220819111114
+1.39.140.95 2 2 254 20220801105340
+20.89.16.194 1 1 17 20220820075822
+74.125.210.175 0 1 312951 
+106.197.217.236 4 19 346703 20220816054538
+42.105.124.209 2 2 1076 20220802044630
+35.194.93.63 1 1 70156 20220810014834
+157.45.132.166 2 2 218 20220830060718
+36.255.87.6 0 7 0 
+157.50.27.140 2 2 1076 20220810043844
+157.45.61.10 4 4 2152 20220815233704
+27.59.48.68 2 2 1076 20220817003512
+157.50.55.158 2 2 1076 20220827021508
+157.50.8.233 3 3 1044 20220827065013
+106.197.228.193 4 19 346703 20220813055626
+74.125.210.208 4 5 313133 20220826051201
+49.44.85.169 3 16 309591 20220811202247
+20.186.113.250 1 1 17 20220807213103
+157.45.138.210 1 1 973 20220830062107
+223.186.42.211 2 9 87261 20220811090123
+49.205.140.255 0 3 0 
+36.255.87.3 2 20 593739 20220817112541
+49.44.78.201 2 21 827583 20220804030434
+103.86.104.224 2 2 1076 20220821103121
+49.44.86.107 2 21 827583 20220804001500
+74.125.209.75 4 4 171 20220826234350
+74.125.210.211 2 3 62121 20220826051050
+223.186.144.238 2 2 1076 20220801182107
+157.45.232.35 2 2 218 20220826034655
+49.44.83.197 4 19 346703 20220826050821
+175.101.69.68 1 20 827452 20220804030438
+157.45.252.73 2 2 218 20220826045640
+42.105.124.247 2 2 1076 20220809234030
+219.90.103.198 1 36 616599 20220804001500
+223.196.82.132 5 56 2024638 20220803033707
+223.186.156.247 1 1 13532 20220804122727
+157.45.147.233 2 2 1076 20220825054910
+223.186.148.204 2 2 1076 20220808022602
+20.14.84.251 1 1 17 20220808114831
+49.205.148.138 4 20 1378837 20220810000024
+157.45.119.252 6 6 1736 20220826051416
+74.125.215.107 1 1 2216 20220801161826
+74.125.210.173 1 2 67003 20220801171911
+20.252.41.37 0 5 684260 
+74.125.209.77 6 6 284 20220826234350
+157.45.212.170 4 4 2152 20220819221056
+103.86.104.227 4 4 2152 20220825234100
+157.45.199.185 2 2 1076 20220802032220
+157.45.244.141 6 6 381 20220826033749
+27.59.98.103 3 19 1378706 20220829082906
+74.125.209.79 3 3 142 20220826234340
+223.186.142.210 2 2 1238 20220811084353
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 25
+20220801 80 161 2343286 7
+20220802 59 79 1827215 8
+20220803 22 203 7260774 4
+20220804 119 606 29895039 10
+20220807 1 1 17 1
+20220808 10 10 3650 3
+20220809 2 2 1076 1
+20220810 60 111 3712147 6
+20220811 38 276 10272758 8
+20220813 5 24 726657 2
+20220814 0 7 0 0
+20220815 4 4 2152 1
+20220816 4 19 346703 1
+20220817 4 22 594815 2
+20220819 22 82 2836482 4
+20220820 1 1 17 1
+20220821 2 2 1076 1
+20220823 19 52 1731808 1
+20220824 80 80 409831 4
+20220825 136 149 407599 4
+20220826 213 269 4432366 14
+20220827 172 231 3150617 7
+20220829 38 54 1386528 3
+20220830 159 193 2271442 4
+20220831 9 9 576 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+5mn-15mn 5
+1h+ 6
+15mn-30mn 6
+2mn-5mn 9
+0s-30s 55
+30s-2mn 13
+30mn-1h 4
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 152
+/schoolerp/schoolapi/studentprofile.php 139 24563 3 6
+/schoolerp/schoolapi/studentgrade.php 121 4641 9 4
+/schoolerp/get_agent_payment_dashboard.php 89 5185 0 8
+/schoolerp/get_student_payment_dashboard.php 89 5932 0 0
+/schoolerp/get_parent_request_dashboard.php 89 7094 0 0
+/schoolerp/schoolapi/notifylist.php 55 35898 1 3
+/schoolerp/login.php 30 27000 1 3
+/schoolerp/schoolapi/newlogin.php 28 1105 7 3
+/schoolerp/schoolapi/notifyview.php 27 4229 0 1
+/schoolerp/schoolapi/fileattachment.php 27 2863 0 3
+/schoolerp/announcement.php 27 178047 0 0
+/schoolerp/schoolapi/newloginid.php 26 1182 4 2
+/schoolerp/add_announcement.php 25 2843 0 0
+/schoolerp/add-announcement.php 25 133858 1 1
+/schoolerpuat_2_0/ 20 2700 14 0
+/schoolerpuat_2_0/maintenence.php 20 18820 0 16
+/brick2brick/admin/interiorviewlist.php 15 212129 0 1
+/schoolerpuat/login.php 15 14742 3 3
+/martinrealtors/admin/editaddproperty.php 14 262740 0 1
+/schoolerp/Dashboard.php 11 109751 0 0
+/schoolerp/index.php 10 1360 0 0
+/martinrealtors/admin/listproperty.php 10 137269 1 2
+/event_ticketing/ticketmaster.php 10 56472 0 0
+/schoolerp/webfonts/fa-regular-400.woff2 9 108864 0 1
+/water/ 9 133131 7 2
+/.well-known/acme-challenge/XRRZ8Q3K-3FO_MA6-WADVD3BE60AE4MB 1 64 0 0
+/brick2brick/admin/interiorsinsert.php 3 34974 0 0
+/event_ticketing/Dashboard.php 3 5560 0 0
+/.well-known/acme-challenge/YJ5YXBB5-4G4__0NV0K8X61IZQHF0H0S 1 64 0 0
+/.well-known/acme-challenge/_SNSJUXA99E13MG8MB1SCA8MJKU6WB4Z 1 64 0 1
+/schoolerp/all_sem_report.php 4 25541 1 0
+/schoolerp/schoolapi/firstreportcard.php 2 214 0 0
+/water/faqs.html 1 7932 0 0
+/seft/index.php 1 136 0 0
+/schoolerp/studentmarksentry.php 4 25724 0 0
+/water/assets/fonts/fa-solid-900.woff2 7 822164 0 0
+/schoolerpuat/index.php 2 270 0 0
+/brick2brick/admin/ 3 393 2 0
+/seft/get_agent_payment_dashboard.php 1 54 0 1
+/.well-known/acme-challenge/RYGZ4XDEWSXCE468XQF_-I2JW041YYO6 1 64 0 0
+/schoolerp/updateAttendance.php 1 25 0 0
+/martinrealtors/webfonts/fa-solid-900.woff2 1 80252 0 0
+/schoolerp/parvamAdmin/webfonts/fa-solid-900.woff2 1 74320 0 1
+/water/assets/fonts/wastey-icon1efa.ttf 7 376236 0 0
+/.well-known/acme-challenge/683ND_YFIV23LGH9-TCZDIA6AXSS1OVF 1 64 0 1
+/schoolerp/schoolapi/allsem_co_scholastic_acheive.php 1 108 0 0
+/schoolerp/student-marks-entry.php 4 169072 0 0
+/schoolerp/co_scholastic_area_first.php 1 2179 0 0
+/seft/Dashboard.php 1 6497 0 0
+/brick2brick/admin/interiorsinsertdb.php 3 358 0 0
+/martinrealtors/admin/index.php 1 134 0 0
+/schoolerp/fsr_apk.php 3 6669 0 0
+/schoolerpuat_2_0/webfonts/fa-regular-400.woff2 1 0 0 0
+/schoolerp/co_scholastic_area.php 2 29261 0 0
+/martinrealtors/admin/updateaddproperty.php 3 75 0 0
+/martinrealtors/admin/listdeleteproperty.php 1 24 0 0
+/swcs/ 2 9968 2 2
+/.well-known/acme-challenge/NJQNOSPG_NCTM_DHX2W8PAJR5A0P3-5J 1 64 0 0
+/schoolerp/first_sem_report.php 1 6729 1 0
+/schoolerpuat_2_0/login.php 3 2700 1 1
+/martinrealtors/admin/fetch_contactinfo.php 1 78 0 0
+/.well-known/acme-challenge/R0MKFM4LNFSE2-914Z5FZQCOU0R92UB1 1 64 1 0
+/martinrealtors/fonts/fontawesome-webfont3e6e.woff2 1 77160 0 0
+/.well-known/acme-challenge/WQXKXSSFST00_NQS37XZ-LURYUM8FHEI 1 64 0 0
+/water/contact.html 1 6810 0 0
+/schoolerpuat_2_0/view-all-student.php 2 270 2 0
+/schoolerp/schoolapi/allreportcard.php 1 105 0 0
+/seft/webfonts/fa-solid-900.woff2 1 74320 0 0
+/.well-known/acme-challenge/L1AMWJYJNPA06QCT2CU03N-62O-L7BUS 1 64 0 0
+/schoolerp/logout.php 4 508 1 2
+/schoolerpuat/maintenence.php 2 1882 0 0
+/martinrealtors/admin/ 2 262 1 0
+/schoolerp/view-all-student-credential.php 5 895220 0 0
+/brick2brick/admin/renovation_view.php 2 61984 1 1
+/schoolerpuat_2_0/webfonts/fa-solid-900.woff2 1 0 0 0
+/schoolerp/schoolapi/allsem_co_scholastic_area.php 1 108 0 0
+/schoolerp/asr_apk.php 1 2273 0 0
+/martinrealtors/admin/dashboard.php 5 102485 1 0
+/brick2brick/ 1 70156 1 1
+/.well-known/acme-challenge/ZK116225A_OGGARK-Y89AI1JUO6R4CZB 1 64 1 0
+/water/assets/fonts/fa-brands-400.woff2 7 522900 0 1
+/event_ticketing/transaction_datewise.php 2 4857 0 1
+/schoolerp/fonts/Flaticon.woff2 7 53088 0 0
+/martinrealtors/admin/geteditpropertydoc.php 4 764 0 0
+/schoolerp/ 7 922 4 0
+/martinrealtors/admin/login.php 3 10525 0 1
+/demo/ 3 51 3 3
+/seft/login.php 2 1527 0 0
+/schoolerp/parvamAdmin/ 1 129 1 0
+/brick2brick/admin/interiorviewform.php 5 69885 0 1
+/event_ticketing/index.php 2 2499 0 0
+/schoolerp/attachDownload.php 1 291 0 0
+/.well-known/acme-challenge/OMFOUES4OO9AM5H43F0QBR4KOG0C-4FY 1 64 0 0
+/seft/ 1 131 0 0
+/.well-known/acme-challenge/28O9B8704HFGGK2NEN63H0M5RCTAWL0- 1 64 0 0
+/martinrealtors/webfonts/fa-brands-400.woff2 1 78472 0 0
+/brick2brick/admin/interiorupdateform.php 5 73550 0 0
+/schoolerp/parvamAdmin/login.php 1 1003 0 0
+/water/industries.html 1 7544 0 0
+/erp/ 2 4432 2 1
+/brick2brick/admin/interior_update_db.php 3 933 0 0
+/water/assets/fonts/fa-regular-400.woff2 7 1016064 0 2
+/schoolerpuat_2_0/index.php 1 135 0 0
+/.well-known/acme-challenge/E1W0CK6NTVNCRBSWEHKO2MKYILDRUE12 1 64 0 0
+/.well-known/acme-challenge/TCK-KWBX7CDNIRSTCVHF-C04QL20KD_W 1 64 0 0
+/brick2brick/admin/index.php 3 399 1 0
+/schoolerp/schoolapi/firstsem_co_scholastic_area.php 2 224 0 0
+/.well-known/acme-challenge/HKMCCRR88E7_QU_MCR70C42BH6ES3ND8 1 64 0 0
+/brick2brick/admin/assets/css/images/sort_both.html 2 476 0 0
+/martinrealtors/admin/viewproperty.php 1 16596 0 0
+/seft/webfonts/fa-regular-400.woff2 1 13608 0 0
+/water/assets/images/favicons/site.webmanifest 1 263 0 0
+/brick2brick/admin/login.php 7 24781 1 3
+/.well-known/acme-challenge/N3MB-NS6U7RJMIZJK6DD334UDASZNACQ 1 64 0 0
+/schoolerpuat/webfonts/fa-solid-900.woff2 8 520240 0 6
+/water/assets/fonts/fa-light-300.woff2 1 156896 0 0
+/schoolerpuat/webfonts/fa-regular-400.woff2 7 81648 0 1
+/event_ticketing/transaction.php 4 9838 0 0
+/schoolerp/schoolapi/parentprofile.php 1 51 0 0
+/seft/get_student_payment_dashboard.php 1 58 0 0
+/schoolerp/getAttendancedata.php 3 1122 0 0
+/martinrealtors/admin/updateeditdocs.php 4 100 0 0
+/.well-known/acme-challenge/9Q6WDEDRZJHT3RAK392R993RR-P51DPB 1 64 0 0
+/event_ticketing/user.php 4 10418 0 1
+/martinrealtors/ 1 18826 1 0
+/.well-known/acme-challenge/7UUU_14R3REH6ARUH9F52RA3J97JNN-2 1 64 0 0
+/event_ticketing/ 7 8725 2 0
+/schoolerp/webfonts/fa-solid-900.woff2 9 594560 0 1
+/schoolerp/co_scholastic_acheive_first.php 1 2154 0 0
+/water/company-values.html 2 18132 0 1
+/schoolerp/cal.php 1 13490 0 0
+/martinrealtors/admin/geteditproprty.php 3 526 0 0
+/martinrealtors/admin/insertaddproperty.php 1 601 0 0
+/event_ticketing/taxmaster.php 8 32038 0 0
+/schoolerp/attendance.php 2 27262 0 0
+/seft/fonts/Flaticon.woff2 1 8848 0 0
+/schoolerp/view-all-student.php 8 540690 5 0
+/schoolerp/schoolapi/firstsem_co_scholastic_acheive.php 2 224 0 0
+/schoolerp/parvamAdmin/webfonts/fa-regular-400.woff2 1 13608 0 0
+/schoolerpuat/webfonts/fa-regular-400.woff 1 16812 0 0
+/water/ind-d-medical.html 1 7588 0 1
+/schoolerp/view_attendance.php 2 12470 0 0
+/ParvamAppFeeback/ 4 24475 3 2
+/schoolerp/send_email_All_Students.php 1 170 0 0
+/event_ticketing/usermaster.php 6 33102 0 0
+/martinrealtors/admin/assets/css/images/sort_asc.html 2 476 0 0
+/martinrealtors/admin/addproperty.php 3 37893 0 0
+/brick2brick/admin/assets/css/images/sort_asc.html 2 476 0 0
+/brick2brick/admin/dashboard.php 3 61323 1 1
+/martinrealtors/admin/assets/css/images/sort_both.html 2 476 0 0
+/schoolerpuat/ 7 917 7 0
+/event_ticketing/settings.php 5 12743 0 0
+END_SIDER

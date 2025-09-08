@@ -1,0 +1,571 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202111 will be lost/reset.
+# Last config file used to build this data file was /home4/parvamco/tmp/awstats/awstats.switchdirection-api.infinityimage.in.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2034                
+POS_TIME 2716                
+POS_VISITOR 14263               
+POS_DAY 15336               
+POS_DOMAIN 3268                
+POS_LOGIN 3553                
+POS_ROBOT 3708                
+POS_WORMS 3878                
+POS_EMAILSENDER 4009                
+POS_EMAILRECEIVER 4152                
+POS_SESSION 15671               
+POS_SIDER 15849               
+POS_FILETYPES 4287                
+POS_DOWNLOADS 4418                
+POS_OS 4487                
+POS_BROWSER 4631                
+POS_SCREENSIZE 4857                
+POS_UNKNOWNREFERER 4931                
+POS_UNKNOWNREFERERBROWSER 5539                
+POS_ORIGIN 5953                
+POS_SEREFERRALS 6085                
+POS_PAGEREFS 6229                
+POS_SEARCHWORDS 6377                
+POS_KEYWORDS 6529                
+POS_MISC 2380                
+POS_ERRORS 6588                
+POS_CLUSTER 3409                
+POS_SIDER_404 6695                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20211201005111 143 39159 15824806328214
+FirstTime 20211105202319
+LastTime 20211130220017
+LastUpdate 20211201052703 143 0 142 0 0
+TotalVisits 29                  
+TotalUnique 27                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 27                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+FlashSupport 0 0 0
+JavascriptDisabled 0 0 0
+DirectorSupport 0 0 0
+TotalMisc 0 0 0
+AddToFavourites 0 1 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+RealPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1 1 605 30 30 83
+1 1 1 1600 1 1 83
+2 1 1 1600 0 0 0
+3 1 1 1600 0 0 0
+4 1 1 605 0 1 0
+5 0 0 0 0 0 0
+6 7 7 5230 52 132 83
+7 0 0 0 1 1 83
+8 1 1 605 0 0 0
+9 1 1 605 0 0 0
+10 2 2 2205 1 1 1600
+11 0 0 0 0 0 0
+12 0 0 0 0 0 0
+13 0 0 0 0 0 0
+14 4 4 2420 30 30 83
+15 0 0 0 1 1 83
+16 1 1 1600 1 1 83
+17 10 10 824 2 2 452
+18 7 7 4235 87 201 83
+19 0 0 0 0 0 0
+20 1 1 605 0 0 0
+21 8 9 6523 114 247 475
+22 1 1 605 1 1 226
+23 0 0 0 1 1 83
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 6
+us 26 27 14177
+cn 8 8 4840
+jp 7 7 4235
+gr 4 4 6400
+de 2 2 1210
+ru 1 1 605
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 1
+no_user_agent 1 1600 20211128104224 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 4
+Unknown 10 824 0 0
+php 13 7865 0 0
+txt 1 688 0 0
+html 25 22090 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/license.txt 1 0 688
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 6
+win10 4 4
+macosx9 20 19
+linuxandroid 2 2
+win7 3 3
+Unknown 19 19
+ios_iphone 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 9
+chrome84.0.4147.105 1 1
+chrome73.0.3683.90 2 2
+chrome76.0.3809.71 1 1
+Unknown 9 9
+chrome36.0.1985.125 20 19
+mozilla 10 10
+firefox57.0 3 3
+safari9.0 1 1
+chrome72.0.3626.119 2 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20211130220017
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20211128032201
+Cpanel-HTTP-Client/1.0 20211110170722
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20211110171426
+Expanse_indexes_the_network_perimeters_of_our_customers._If_you_have_any_questions_or_concerns,_please_reach_out_to:_scaninfo@expanseinc.com 20211126014402
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+Cpanel-HTTP-Client/1.0 20211110170722
+Expanse_indexes_the_network_perimeters_of_our_customers._If_you_have_any_questions_or_concerns,_please_reach_out_to:_scaninfo@expanseinc.com 20211126014402
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20211128032201
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 48 49
+From1 0 0
+From2 0 0
+From3 0 0
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+404 621 0
+409 12 996
+406 3 678
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 265
+/common/help/images/helplogo.gif 3 -
+/lang/en.js 2 -
+/plus/sitemap.html 2 -
+/admin/admin_login.php 1 -
+/install/ 2 -
+/apps/admin/_static/image/login_box_bg.png 3 -
+/2020/ 2 -
+/fckeditor/fckconfig.js 3 -
+/images/zh-CN/logo.ico 1 -
+/kindeditor-min.js 2 -
+/bak/ 2 -
+/CuteSoft_Client/CuteEditor/Style/IE.css 2 -
+/siteserver/login.aspx 3 -
+/doku.php 2 -
+/tpl/user/tpl1/css/skins/blue.css 3 -
+/images/logo_88x31.gif 3 -
+/whir_system/module/security/login.aspx 3 -
+/v1/ 2 -
+/inc/rsd.php 3 -
+/temp/ 2 -
+/Admin/Common/HelpLinks.xml 2 -
+/web/ 2 -
+/install 3 -
+/adminsoft/templates/images/login_bg_top.jpg 2 -
+/backup/ 2 -
+/ymail/images/index_r1_c4.jpg 3 -
+/plugins/anchor/anchor.js 2 -
+/licence.txt 2 -
+/ids/admin/userhome/forgetPwd.jsp 2 -
+/datacenter/downloadApp/showDownload.do 1 -
+/e/master/login.aspx 3 -
+/editor/fckeditor.js 3 -
+/test/ 2 -
+/fckeditor.js 3 -
+/pub/skins/pmwiki/pmwiki.css 3 -
+/admin/editor/ 1 -
+/was/help.jsp 1 -
+/admin/SouthidcEditor/Dialog/dialog.js 3 -
+/system/language/zh-cn.xml 2 -
+/images/login/icon-up.gif 3 -
+/addons/theme/stv1/_static/ts2/layout.css 3 -
+/API/DW/Dwplugin/TemplateManage/save_template.htm 3 -
+/whir_system/login.aspx 3 -
+/dev/ 2 -
+/static/images/logo/webserver_small.gif 1 -
+/tools/rss.aspx 3 -
+/images/default/post_bt.gif 3 -
+/plugin.php 3 -
+/images/branding/logo.gif 2 -
+/UserCenter/css/admin/bgimg/admin_all_bg.png 3 -
+/media/com_hikashop/js/hikashop.js 3 -
+/console/js/CWCMDialogHead.js 3 -
+/Site/SystemThemes/7917A0869761B5458281E407AE0090F5/Images/ISBanner58px.jpg 1 -
+/Admin/Images/LoginImages/admin_top.gif 2 -
+/2018/ 2 -
+/fckeditor/editor/dtd/fck_dtd_test.html 3 -
+/images/logo_product-cml.png 2 -
+/auth/login 3 -
+/plus/download.php 2 -
+/API/DW/Dwplugin/TemplateManage/manage_site.htm 3 -
+/new_gb/help/images/usage/3.3.gif 3 -
+/cgi/index.cgi 3 -
+/v2/ 2 -
+/login/Jeecms.do 2 -
+/Editor.js 3 -
+/images/hwem.css 3 -
+/admin.php 4 -
+/system/Update.aspx 2 -
+/test_404_page/ 3 -
+/CuteSoft_Client/CuteEditor/ImageEditor/listfiles.aspx 3 -
+/console/js/CTRSRequestParam.js 3 -
+/coremail/common/help/images/helplogo_zh.gif 3 -
+/wp-content 1 -
+/skin/frontend/default/modern/css/styles.css 3 -
+/issmall/ 3 -
+/helpnew/faq/faq_simple_zh_CN.jsp 3 -
+/admin/login.php 3 -
+/archiver/ 1 -
+/forum/ 1 -
+/include/dedeajax2.js 2 -
+/License.txt 3 -
+/ckfinder/install.txt 3 -
+/siteserver/upgrade/default.aspx 3 -
+/common/common.js 3 -
+/bk/ 2 -
+/addons/theme/stv2/_static/ts2/layout.css 3 -
+/nobody/mobile.htm 1 -
+/Help 2 -
+/old-wp/ 2 -
+/main/ 2 -
+/js/buttons.js 3 -
+/default/css/em_css.css 3 -
+/README.txt 3 -
+/wp1/ 2 -
+/wp-cron.php 1 -
+/img/pic/login/top-left.jpg 1 -
+/Prompt/images/P_Wrong.gif 2 -
+/dialog/dialog.js 3 -
+/forum.php 1 -
+/public/about.html 1 -
+/images/Default_bg_002.gif 1 -
+/ckeditor/ckeditor.js 3 -
+/wp/ 2 -
+/FCK/fckeditor.js 3 -
+/ckeditor/ckfinder/ckfinder.html 3 -
+/pub/guiedit/guiedit.js 3 -
+/jcms/index.jsp 2 -
+/ids/admin/login.jsp 2 -
+/User/Login.aspx 3 -
+/member/space/company/info.txt 2 -
+/fckeditor/fckeditor.js 3 -
+/Wq_StranJF.js 3 -
+/wp2/ 2 -
+/2019/ 2 -
+/back/scripts/jspxcms_choose.js 3 -
+/system/skins/default/system.login.htm 2 -
+/admin/ 2 -
+/templates/jsn_glass_pro/ext/hikashop/jsn_ext_hikashop.css 3 -
+/ckeditor/ckfinder/install.txt 3 -
+/data/admin/ver.txt 2 -
+/coremail/common/help/images/helplogo.gif 3 -
+/themes/default/graphics/horde-power1.png 2 -
+/CuteSoft_Client/CuteEditor/Help/default.htm 3 -
+/next/img/logo.gif 3 -
+/imagesschool/style1/flash2.jpg 1 -
+/fckeditor/editor/js/fckeditorcode_ie.js 3 -
+/blog/ 3 -
+/Public/Admin/Images/login_main_bg.jpg 1 -
+/themes/graphics/horde-power1.png 2 -
+/app/Tpl/fanwe_1/js/DD_belatedPNG_0.0.8a-min.js 3 -
+/admin/js/IdSUtil.js 3 -
+/admin/SouthidcEditor/ButtonImage/standard/componentmenu.gif 3 -
+/wordpress/ 2 -
+/Search.html 3 -
+/extern.php 3 -
+/tpl/login/user/images/login_bg_1.jpg 3 -
+/bencandy.php 3 -
+/digg.php 2 -
+/Error.aspx 3 -
+/404.jpg 2 -
+/admin/start/index.php 2 -
+/custom/SkinTemplate/skin/public/images/sys-logo-1caitong-180.jpg 1 -
+/new-site/ 2 -
+/jcms/index_jcms.jsp 2 -
+/help/ch_gb/images/help-title.gif 3 -
+/common/help/images/helplogo_zh.gif 3 -
+/Scripts/jquery/maticsoft.jquery.min.js 2 -
+/CuteSoft_Client/CuteEditor/Images/log.gif 3 -
+/console/include/not_login.htm 3 -
+/plug/publish 2 -
+/tmp/ 2 -
+/phpmyadmin/ 1 -
+/Admin/Login.aspx 2 -
+/new/ 2 -
+/Ntalker/lawfirm.aspx 3 -
+/Template/Default/Skin/user/images/login_back.jpg 2 -
+/Include/EcsServerApi.js 1 -
+/inc/Templates/rss.xslt 3 -
+/was5/web/index.jsp 1 -
+/include/dialog/config.php 2 -
+/themes/default/default.css 2 -
+/images/login9/login_33.jpg 3 -
+/old/ 2 -
+/Admin/Images/LoginImages/admin_text.gif 2 -
+/inc/playerKinds.xml 3 -
+/script/login.js 1 -
+/forums/list.page 3 -
+/ckfinder/ckfinder.html 3 -
+/deptWebsiteAction.do 3 -
+/webbuilder/script/locale/wb-lang-zh_CN.js 2 -
+/customdir/images/english_logo.jpg 1 -
+/admin 3 -
+/help/user/index.html 3 -
+/app/login.jsp 3 -
+/includes/general.js 2 -
+/admin/SouthidcEditor/ewebeditor.asp 3 -
+/console/auth/reg_newuser.jsp 3 -
+/docs/DOCUMENTATION.txt 3 -
+/ks_inc/ajax.js 2 -
+/base/login/login.php 2 -
+/business/images/index-gg1.jpg 1 -
+/master/login.aspx 2 -
+/index.cgi 3 -
+/kindeditor.js 2 -
+/logo/logo_jw.png 1 -
+/admin/login.asp 3 -
+/uc_server/control/admin/db.php 1 -
+/extman/default/images/logo.gif 3 -
+/plus/heightsearch.php 2 -
+/archive/archive.css 3 -
+/app/images/login/logo.png 3 -
+/old-site/ 2 -
+/js/ajax_x.js 2 -
+/API/DW/Dwplugin/SystemLabel/SiteConfig.htm 2 -
+/plugins/filemanager/filemanager/js 2 -
+/clientscript/vbulletin_ajax_htmlloader.js 3 -
+/static/hgicon.png 2 -
+/was/main.html 1 -
+/template/1/bluewise/_files/jspxcms.css 3 -
+/docs.css 3 -
+/bbs/ 1 -
+/app/js/source/wcmlib/WCMConstants.js 3 -
+/max-templates/classic/styles/app.css 2 -
+/data/images/wap_logo.gif 1 -
+/API/DW/Dwplugin/TemplateManage/login_site.htm 2 -
+/rss.aspx 2 -
+/images/logo-white.png 1 -
+/rss.php 3 -
+/FCK/editor/js/fckeditorcode_ie.js 3 -
+/admin/index.php 3 -
+/weblog/ 1 -
+/feed.asp 3 -
+/Install/logo.gif 2 -
+/api/api_user.xml 2 -
+/app/images/login/toplogo.gif 3 -
+/examples/readonly.html 2 -
+/plus/rssmap.html 2 -
+/CHANGELOG.txt 2 -
+/admin/login.aspx 3 -
+/include/install_ocx.aspx 1 -
+/images/login/eyoumail.gif 3 -
+/wcm/ 1 -
+/Images/login/mainlogo.gif 3 -
+/phpmyadmin/docs.css 3 -
+/fckeditor/license.txt 3 -
+/help/en/h_authenticate.html 1 -
+/default/images/logo.gif 3 -
+/web2/login_template/1.files/Logo1.jpg 3 -
+/public/js/ipb.js 3 -
+/eams/static/scripts/grade/course/input.js 1 -
+/app/home/skins/default/style.css 3 -
+/admin/inc/xml.xslt 3 -
+/robots.txt 4 -
+/changelog.txt 2 -
+/history.txt 3 -
+/maintlogin.jsp 3 -
+/system/Login.aspx 3 -
+/archiver 3 -
+/list.php 3 -
+/style/default/hdwiki.css 3 -
+/home/ 2 -
+/docs/ 2 -
+/Site/Pages/WebResources.ashx/PoweredByKodakImage 1 -
+/template/home.htm 2 -
+/phpmyadmin/themes/original/img/logo_right.png 3 -
+/readme.html 1 -
+/editor/js/fckeditorcode_ie.js 3 -
+/stylesheet.css 2 -
+/examples/index.html 2 -
+/demo/ 2 -
+/examples/file-manager.html 2 -
+/site/ 2 -
+/ycportal/js/wbTextBox/showimg.jsp 1 -
+/API/DW/Dwplugin/ThirdPartyTags/SiteFactory.xml 2 -
+/Images/login/lefttu.jpg 3 -
+/admin/template/article_more/config.htm 3 -
+/images/2_11.gif 3 -
+/script/valid_formdata.js 2 -
+/advfile/ad12.js 3 -
+/m 2 -
+/Images/login/biaoti.jpg 3 -
+/cms/ 2 -
+/asp.net/README.txt 2 -
+/images/login_Name.jpg 1 -
+/images/login/logo.gif 3 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 27
+43.135.167.149 7 7 4235 20211129182709
+159.75.25.179 7 8 4923 20211125212851
+119.91.96.237 5 5 3025 20211130063620
+34.125.96.109 2 2 1210 20211120140428
+66.133.109.36 2 2 174 20211110171426
+194.163.153.136 2 2 1210 20211118003125
+3.120.130.29 2 2 174 20211110171426
+162.214.80.40 2 2 128 20211110170722
+205.169.39.25 1 1 605 20211111083040
+167.94.138.60 1 1 605 20211128104225
+34.219.87.132 1 1 87 20211110171425
+92.118.160.13 1 1 1600 20211122101119
+92.118.160.45 1 1 1600 20211127025224
+35.211.138.144 1 1 605 20211118044536
+3.19.56.43 1 1 87 20211110171426
+36.99.136.131 1 1 605 20211130142705
+34.77.162.16 1 1 1600 20211122213939
+92.118.160.5 1 1 1600 20211120060454
+3.142.122.14 1 1 87 20211110171425
+167.94.138.58 1 1 605 20211130220017
+34.86.35.9 1 1 1600 20211119162533
+34.96.130.28 1 1 1600 20211126014402
+112.230.47.180 1 1 605 20211130065015
+185.218.124.139 1 1 605 20211105202319
+92.118.160.17 1 1 1600 20211128032201
+36.99.136.133 1 1 605 20211130142844
+52.39.4.59 1 1 87 20211110171425
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 14
+20211105 1 1 605 1
+20211110 10 10 824 7
+20211111 1 1 605 1
+20211117 1 1 605 1
+20211118 2 2 1210 2
+20211119 1 1 1600 1
+20211120 3 3 2810 3
+20211122 2 2 3200 2
+20211125 7 8 4923 1
+20211126 1 1 1600 1
+20211127 1 1 1600 1
+20211128 2 2 2205 2
+20211129 7 7 4235 1
+20211130 9 9 5445 5
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+30s-2mn 1
+2mn-5mn 1
+0s-30s 26
+5mn-15mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 6
+/ 25 22090 22 19
+/index.php 13 7865 0 3
+/.well-known/acme-challenge/cglInKvwtoyt6Spy31wB6ethSMYUuvb8lwWPrppIRNc 4 348 4 2
+/.well-known/acme-challenge/0iZ8nJUXwm8cN2LTmdCkmsVsCKGAyNmerSt2aQ9V7s4 4 348 2 4
+/.well-known/acme-challenge/FAQJQ9373IK2P3_U1U6KPVVT4ILC0MMD 1 64 0 1
+/.well-known/acme-challenge/QUSE9FSN2_HHYE4ZHJ1N7D3LAONH47VO 1 64 1 0
+END_SIDER

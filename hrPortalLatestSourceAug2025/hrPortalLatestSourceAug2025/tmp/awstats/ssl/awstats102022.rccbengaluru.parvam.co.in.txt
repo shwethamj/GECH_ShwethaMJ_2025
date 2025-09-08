@@ -1,0 +1,1375 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202210 will be lost/reset.
+# Last config file used to build this data file was /home4/parvamco/tmp/awstats/ssl/awstats.rccbengaluru.parvam.co.in.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2027                
+POS_TIME 2706                
+POS_VISITOR 93287               
+POS_DAY 103982              
+POS_DOMAIN 3606                
+POS_LOGIN 4221                
+POS_ROBOT 4376                
+POS_WORMS 5018                
+POS_EMAILSENDER 5149                
+POS_EMAILRECEIVER 5292                
+POS_SESSION 104819              
+POS_SIDER 105011              
+POS_FILETYPES 5427                
+POS_DOWNLOADS 5754                
+POS_OS 5802                
+POS_BROWSER 6186                
+POS_SCREENSIZE 7658                
+POS_UNKNOWNREFERER 7732                
+POS_UNKNOWNREFERERBROWSER 8410                
+POS_ORIGIN 8884                
+POS_SEREFERRALS 9033                
+POS_PAGEREFS 9295                
+POS_SEARCHWORDS 89082               
+POS_KEYWORDS 89234               
+POS_MISC 2370                
+POS_ERRORS 89293               
+POS_CLUSTER 4077                
+POS_SIDER_404 89447               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20221101003518 53 15142 12625288805978
+FirstTime 20221001042159
+LastTime 20221031233738
+LastUpdate 20221101061913 53 0 52 0 0
+TotalVisits 284                 
+TotalUnique 248                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 277                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavascriptDisabled 0 0 0
+DirectorSupport 0 0 0
+RealPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+TotalMisc 0 0 0
+PDFSupport 0 0 0
+FlashSupport 0 0 0
+AddToFavourites 0 7 0
+WindowsMediaPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 48 396 48433162 25 88 3520812
+1 30 220 26240253 37 88 3432072
+2 29 275 28407951 29 106 2856660
+3 23 274 20280719 16 91 2768067
+4 18 140 10692181 13 91 2959204
+5 12 89 6999852 19 115 3401255
+6 32 272 24344475 12 50 2808205
+7 17 95 7704156 23 77 2609992
+8 61 455 41455430 23 129 7240645
+9 27 108 8176376 49 208 5662025
+10 31 259 24340152 19 129 4441973
+11 21 202 12543053 20 85 961590
+12 8 85 1455970 15 88 2930462
+13 8 14 858871 27 104 2665695
+14 10 12 291204 36 47 1294641
+15 11 20 288852 25 102 5320714
+16 96 164 6811691 520 662 5217068
+17 1090 1100 11542151 3459 3620 7086925
+18 7 11 243072 1026 1120 13723755
+19 5 7 884441 15 52 1692824
+20 19 92 7479314 39 62 2445837
+21 22 166 13806636 29 107 4975133
+22 34 282 23646157 36 104 2407659
+23 38 405 28088003 9 45 1662846
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 27
+ru 1175 1177 10650780
+us 215 1445 115013023
+in 197 2224 195431024
+ca 37 37 2526221
+fr 22 88 6892943
+gb 8 59 15527623
+de 6 6 119880
+se 6 12 3532512
+nl 5 5 170083
+dk 4 61 3211607
+cn 3 4 690374
+np 3 4 79317
+jp 3 3 36615
+ro 2 2 39960
+co 2 2 23585
+tw 1 2 170243
+lv 1 1 19980
+it 1 1 19980
+cz 1 1 19980
+bg 1 1 11803
+no 1 1 19980
+pa 1 1 11795
+ua 1 1 19980
+cw 1 1 19980
+za 0 2 351675
+ph 0 1 169652
+at 0 1 233527
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 12
+(firefox/)([0-9]\.|[0-1][0]\.) 1147 10064253 20221029181927 0
+bingpreview 721 19571773 20221028102043 0
+Googlebot/ 452 5404731 20221031233711 0
+bingbot/ 227 39514899 20221030103521 0
+Applebot/ 85 799428 20221029095957 0
+Googlebot\-Image/ 58 13259565 20221031002831 0
+Go\-http\-client/ 52 670922 20221028173147 0
+no_user_agent 15 999839 20221028172410 0
+facebookexternalhit/ 12 219780 20221031212534 0
+TelegramBot 2 11004 20221002003511 0
+Firefox/1\.5 1 19980 20221016200943 0
+Dalvik/ 1 19980 20221016200503 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 13
+woff2 49 3780840 0 0
+json 1 11803 0 0
+png 291 81597013 0 0
+css 673 6152884 0 0
+ttf 88 9567428 0 0
+js 1311 12654667 0 0
+html 269 8841917 0 0
+jpg 826 157289602 0 0
+Unknown 3 35400 0 0
+php 1241 10884536 0 0
+woff 45 2553072 0 0
+env 1 11795 0 0
+jpeg 345 61633165 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 21
+win7 392 29
+android10 247 31
+ios_iphone 583 57
+macosx9 2 2
+macosx15 1 1
+win8.1 85 8
+symbian 1 1
+winxp 1145 1144
+androidkitkat 16 16
+androidfroyo 3 3
+androidpie 149 18
+androidnougat 6 6
+androidmarshmallow 8 8
+irix 1 1
+win10 1003 147
+Unknown 63 56
+linux 109 29
+win16 3 3
+android 1104 106
+macosx11 2 2
+linuxubuntu 220 29
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 69
+chrome94.0.4606.85 82 9
+chrome86.0.4240.198 71 5
+edge17 1 1
+chrome93.0.4577.62 8 8
+firefox106.0 127 10
+chrome60.0.3112.107 2 2
+chrome96.0.4664.110 1 1
+safari4.0 1146 1146
+safari14.1.1 1 1
+chrome83.0.4103.61 4 2
+chrome92.0.4515.166 1 1
+android 19 19
+chrome47.0.2526.106 1 1
+firefox11.0 1 0
+chrome63.0.3239.84 1 1
+chrome103.0.0.0 218 18
+chrome104.0.0.0 1 0
+chrome103.0.5060.53 46 5
+mozilla 23 16
+chrome99.0.4812.0 71 5
+chrome71.0.3578.98 21 21
+chrome33.0.1750.152 2 2
+safari13.0.1 2 2
+chrome85.0.4183.81 1 1
+chrome105.0.0.0 611 80
+chrome106.0.0.0 1278 118
+chrome57.0.2987.132 1 1
+msie9.0 94 0
+chrome96.0.4664.104 1 0
+chrome52.0.2731.98 8 8
+chrome101.0.4951.54 86 8
+chrome64.0.3251.0 1 1
+Unknown 40 40
+chrome87.0.4280.141 1 1
+firefox105.0 205 14
+firefox58.0 14 14
+safari 164 13
+chrome56.0.2924.87 42 3
+chrome99.0.4844.84 2 0
+chrome93.0.4577.63 2 2
+chrome102.0.0.0 79 6
+safari10.0 1 1
+chrome63.0.3239.132 1 0
+chrome100.0.4896.75 71 5
+nokia 1 1
+chrome72.0.3626.109 5 3
+chrome42.0.2311.90 1 1
+chrome101.0.4951.41 1 1
+firefox59.0 2 2
+firefox 1 1
+chrome79.0.3945.93 2 2
+chrome101.0.4951.61 2 1
+chrome71.0.3542.0 46 5
+chrome92.0.4515.159 2 2
+firefox55.0 1 1
+chrome89.0.4389.105 1 0
+firefox50.0 4 4
+chrome83.0.4103.97 13 13
+msie10.0 1 1
+safari14.1.2 1 1
+firefox47.0 1 1
+netscape4.77 1 1
+iphone 414 39
+firefox83.0 4 4
+chrome103.0.5060.114 4 2
+chrome97.0.4692.98 77 14
+firefox104.0 3 3
+chrome44.0.2403.157 1 1
+chrome93.0.4577.82 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 6
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20221031233738
+Mozilla/5.0_zgrab/0.x_(compatible;_Researchscan/http;__http://researchscan.comsys.rwth-aachen.de) 20221027093319
+WhatsApp/2.22.20.79_A 20221010011207
+Python/3.10_aiohttp/3.8.1 20221001085744
+Report_Runner 20221028172418
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20221031103015
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+Python/3.10_aiohttp/3.8.1 20221001085744
+WhatsApp/2.22.20.79_A 20221010011207
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20221031233738
+Report_Runner 20221028172418
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 242 439
+From1 445 445
+From2 27 38
+From3 715 715
+From4 268 3506
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 6
+www_bing_com 0 3
+www_google_com_tw 0 1
+google_com 0 1
+www_google_com_hk 1 1
+www_google_com 25 31
+www_google_co_in 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 571
+https://rccbengaluru.com:443/projectdetails.php 90 90
+https://rccbengaluru.com:443/projectdetails.php' 9 9
+https://l.facebook.com 7 7
+https://rccbengaluru.com:443/projectdetails.php'))) 6 6
+https://rccbengaluru.com:443/projectdetails.php') 5 5
+https://rccbengaluru.com:443/projectdetails.php) 5 5
+https://rccbengaluru.com:443/projectdetails.php\") 5 5
+https://rccbengaluru.com:443/projectdetails.php')) 5 5
+https://rccbengaluru.com:443/projectdetails.php\" 5 5
+https://rccbengaluru.com:443/projectdetails.php%' 4 4
+https://rccbengaluru.com:443/projectdetails.php\")) 4 4
+https://rccbengaluru.com:443/projectdetails.php))) 4 4
+https://rccbengaluru.com:443/projectdetails.php)) 4 4
+http://m.facebook.com 4 4
+https://l.instagram.com 2 2
+https://rccbengaluru.com:443/projectdetails.php')/**/uNION/**/aLl/**/selECT/**/nUlL,nUlL,nUlL,nUlL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php')))/**/UnIon/**/aLl/**/seLECT/**/nuLL,nuLL,nuLL,nuLL,nuLL,nuLL,nuLL,nuLL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php\"/**/unIOn/**/aLL/**/seLect/**/nuLl,nuLl,nuLl,nuLl,nuLl,nuLl,nuLl# 1 1
+https://rccbengaluru.com:443/projectdetails.php\"/**/unIon/**/aLL/**/SEleCt/**/NULl,NULl,NULl,NULl,NULl,NULl,NULl# 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/uNIon/**/ALl/**/SELEcT/**/NulL,NulL,NulL,NulL,NulL,NulL,NulL# 1 1
+https://rccbengaluru.com:443/projectdetails.php\")/**/uNiOn/**/aLL/**/seleCt/**/NULl# 1 1
+https://rccbengaluru.com:443/projectdetails.php\")/**/unIon/**/ALl/**/SElEct/**/nULL,nULL,nULL,nULL,nULL,nULL,nULL,nULL,nULL,nULL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php\"))/**/UNIoN/**/AlL/**/SElECT/**/nUll,nUll,nUll,nUll,nUll,nUll,nUll,nUll,nUll--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php))/**/UNIon/**/alL/**/SEleCT/**/nuLL,nuLL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php))/**/uNiOn/**/All/**/SElEct/**/NULl,NULl,NULl,NULl,NULl,NULl--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/UniOn/**/ALl/**/sELEcT/**/nULL# 1 1
+https://rccbengaluru.com:443/projectdetails.php')))/**/UnION/**/AlL/**/Select/**/nUll,nUll,nUll,nUll,nUll,nUll,nUll,nUll,nUll,nUll--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php'))/**/uNion/**/ALl/**/SelECT/**/NuLL,NuLL,NuLL,NuLL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/UNiOn/**/aLl/**/SElecT/**/NUll,NUll,NUll,NUll,NUll,NUll--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php))/**/uNIon/**/aLL/**/selecT/**/nULL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php')/**/UnIOn/**/alL/**/SeLeCT/**/nUlL,nUlL,nUlL,nUlL,nUlL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/uniOn/**/aLl/**/SeleCt/**/nUll# 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/UNion/**/alL/**/SelECt/**/nULl,nULl,nULl,nULl,nULl--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/UNiON/**/AlL/**/SELEcT/**/nULL,nULL,nULL,nULL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php\"/**/UNiOn/**/AlL/**/SelEct/**/nULL,nULL# 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/PrOcEdURe/**/aNaLySe(eXTrACtValUE(7127,coNCat(0x5c,0x71626b7671,(seLect/**/(caSE/**/whEN/**/(7127=7127)/**/theN/**/1/**/ELSe/**/0/**/enD)),0x717a6a7671)),1)/**/Or/**/'XRdh'='aVgT 1 1
+https://rccbengaluru.com:443/projectdetails.php'))/**/uNioN/**/aLL/**/SELeCT/**/nULl,nULl,nULl,nULl,nULl,nULl,nULl,nULl,nULl,nULl# 1 1
+https://rccbengaluru.com:443/projectdetails.php)/**/uNiON/**/alL/**/SeLEcT/**/Null,Null,Null,Null,Null,Null,Null,Null# 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/UNiON/**/aLl/**/SelECt/**/NULl,NULl,NULl,NULl--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php\")/**/uNIoN/**/aLl/**/seLect/**/NuLL,NuLL,NuLL,NuLL,NuLL,NuLL,NuLL,NuLL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php))/**/unioN/**/alL/**/SeleCt/**/nuLl,nuLl,nuLl,nuLl,nuLl# 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/UNiOn/**/AlL/**/SElect/**/NulL,NulL,NulL,NulL,NulL,NulL# 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/UnION/**/alL/**/SelECt/**/nULL,nULL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php%'/**/UnIon/**/AlL/**/SELeCT/**/nULL,nULL,nULL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php))/**/unION/**/ALl/**/sELecT/**/Null,Null,Null,Null,Null,Null,Null,Null# 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/uniON/**/alL/**/SEleCT/**/nulL,nulL,nulL,nulL,nulL,nulL,nulL,nulL,nulL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php\")/**/uNION/**/All/**/sELect/**/nUlL,nUlL,nUlL,nUlL,nUlL,nUlL,nUlL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php')/**/UNIon/**/alL/**/SELect/**/NULl,NULl,NULl,NULl,NULl,NULl--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php')/**/unioN/**/alL/**/sELECT/**/NULl,NULl,NULl,NULl,NULl,NULl,NULl,NULl,NULl--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php')))/**/UniOn/**/ALl/**/Select/**/nULl,nULl,nULl,nULl# 1 1
+https://rccbengaluru.com:443/projectdetails.php%'/**/uNioN/**/aLl/**/sELEcT/**/NULl,NULl,NULl,NULl,NULl,NULl,NULl,NULl,NULl--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php))/**/uNIoN/**/aLl/**/seLeCT/**/nULl,nULl,nULl,nULl,nULl,nULl,nULl--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php))/**/aND/**/UpDAtexmL(9447,cONCaT(0x2e,0x71626b7671,(SELEct/**/(ElT(9447=9447,1))),0x717a6a7671),8368)/**/aND/**/((5379/**/BEtWEEN/**/5379/**/aND/**/5379 1 1
+https://rccbengaluru.com:443/projectdetails.php)/**/UniOn/**/AlL/**/SELEcT/**/NulL,NulL,NulL,NulL,NulL,NulL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php')))/**/UniOn/**/aLL/**/selECt/**/nULl,nULl# 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/uniON/**/alL/**/sELeCT/**/NulL,NulL,NulL,NulL,NulL,NulL,NulL,NulL,NulL# 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/unIOn/**/ALl/**/sELecT/**/nUll,nUll,nUll,nUll,nUll,nUll# 1 1
+https://rccbengaluru.com:443/projectdetails.php))/**/aND/**/eXTrACtVAlUe(1854,COnCAt(0x5c,0x71626b7671,(SeleCt/**/(eLT(1854=1854,1))),0x717a6a7671))/**/aND/**/((4707/**/BETWEen/**/4707/**/aND/**/4707 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/pRoCEdure/**/anAlYSe(extrAcTValuE(7127,coNcat(0x5c,0x71626b7671,(SEleCT/**/(cASE/**/whEn/**/(7127=7127)/**/tHeN/**/1/**/ElsE/**/0/**/enD)),0x717a6a7671)),1)--/**/iZlS 1 1
+https://rccbengaluru.com:443/projectdetails.php\"/**/aND/**/upDATeXmL(9447,coNcaT(0x2e,0x71626b7671,(Select/**/(elT(9447=9447,1))),0x717a6a7671),8368)/**/aND/**/\"WFay\"/**/liKE/**/\"WFay 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/UnIon/**/ALl/**/SeLect/**/NuLl,NuLl,NuLl,NuLl,NuLl,NuLl,NuLl# 1 1
+https://rccbengaluru.com:443/projectdetails.php\")/**/UnIOn/**/aLL/**/SeLeCt/**/nuLl,nuLl--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php'))/**/uniOn/**/ALl/**/SELeCT/**/nULL,nULL,nULL,nULL,nULL,nULL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/aND/**/EXTRAcTValUE(1854,coNcat(0x5c,0x71626b7671,(SeleCt/**/(ELt(1854=1854,1))),0x717a6a7671))/**/aND/**/'fyve'='fyve 1 1
+https://rccbengaluru.com:443/projectdetails.php')/**/UNioN/**/alL/**/SELeCt/**/NuLL# 1 1
+https://rccbengaluru.com:443/projectdetails.php)))/**/UnIon/**/ALl/**/sElECt/**/Null,Null,Null,Null# 1 1
+https://rccbengaluru.com:443/projectdetails.php'))/**/uNIOn/**/aLL/**/seleCT/**/Null# 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/anD/**/(SeLEcT/**/3744/**/FRom(SeLEcT/**/Count(*),concaT(0x71626b7671,(SeLEcT/**/(ElT(3744/**/beTwEen/**/3744/**/anD/**/3744,1))),0x717a6a7671,FLOoR(RanD(0)*2))x/**/FRom/**/INFORMATION_SCHEMA.PLUGINS/**/groUp/**/By/**/x)a)--/**/mvmY 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/unIOn/**/All/**/Select/**/nUlL,nUlL# 1 1
+https://rccbengaluru.com:443/projectdetails.php'))/**/unIOn/**/alL/**/SELeCt/**/NUlL,NUlL,NUlL,NUlL,NUlL,NUlL,NUlL,NUlL,NUlL# 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/unION/**/All/**/seLeCt/**/nuLL,nuLL,nuLL,nuLL,nuLL,nuLL,nuLL,nuLL,nuLL,nuLL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php')))/**/UnIoN/**/alL/**/selECt/**/nuLl,nuLl,nuLl,nuLl,nuLl# 1 1
+https://rccbengaluru.com:443/projectdetails.php\")/**/uNiON/**/aLL/**/SELeCt/**/nuLL,nuLL,nuLL,nuLL,nuLL,nuLL,nuLL# 1 1
+https://rccbengaluru.com:443/projectdetails.php'))/**/unIon/**/ALl/**/sELEct/**/NUll,NUll,NUll,NUll--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php)))/**/UnIoN/**/aLL/**/SElECT/**/nULL,nULL,nULL,nULL,nULL,nULL,nULL,nULL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/UnION/**/alL/**/seLECT/**/nUll,nUll--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/unIoN/**/aLL/**/selEct/**/nulL,nulL,nulL,nulL# 1 1
+https://rccbengaluru.com:443/projectdetails.php')/**/UNIoN/**/aLL/**/SElecT/**/NULl,NULl,NULl,NULl,NULl,NULl,NULl# 1 1
+https://rccbengaluru.com:443/projectdetails.php%'/**/uNION/**/ALl/**/sElEcT/**/nUlL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php)/**/unION/**/All/**/sELECT/**/NulL,NulL,NulL,NulL# 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/UnIOn/**/aLl/**/SElECT/**/NULl,NULl,NULl,NULl,NULl,NULl,NULl,NULl# 1 1
+https://rccbengaluru.com:443/projectdetails.php')))/**/ANd/**/(SElECt/**/3744/**/FRom(SElECt/**/COunT(*),COncat(0x71626b7671,(SElECt/**/(eLT(3744=3744,1))),0x717a6a7671,FloOr(RANd(0)*2))x/**/FRom/**/INFORMATION_SCHEMA.PLUGINS/**/GROUp/**/bY/**/x)a)/**/ANd/**/((('aKBn'='aKBn 1 1
+https://rccbengaluru.com:443/projectdetails.php\")/**/UniOn/**/aLL/**/SeLeCT/**/Null,Null,Null,Null,Null,Null,Null,Null,Null# 1 1
+https://rccbengaluru.com:443/projectdetails.php\"/**/uNION/**/AlL/**/SEleCt/**/nUll,nUll,nUll,nUll# 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/uNIon/**/alL/**/SelEct/**/nULL,nULL,nULL,nULL,nULL,nULL,nULL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/unIOn/**/aLl/**/sELecT/**/nuLL,nuLL,nuLL,nuLL# 1 1
+https://rccbengaluru.com:443/projectdetails.php\"))/**/UniOn/**/ALl/**/sElECt/**/NULl,NULl,NULl,NULl,NULl--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php'))/**/UnION/**/aLl/**/SeLEcT/**/nUlL,nUlL,nUlL,nUlL,nUlL,nUlL,nUlL,nUlL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php)/**/And/**/(SeleCt/**/3744/**/FRom(SeleCt/**/cOunT(*),CoNcAt(0x71626b7671,(SeleCt/**/(elT(3744=3744,1))),0x717a6a7671,flOor(RAnd(0)*2))x/**/FRom/**/INFORMATION_SCHEMA.PLUGINS/**/grouP/**/By/**/x)a)/**/And/**/(1750/**/BEtwEEn/**/1750/**/And/**/1750 1 1
+https://rccbengaluru.com:443/projectdetails.php%'/**/UNIon/**/ALl/**/SElECt/**/nUlL,nUlL,nUlL,nUlL,nUlL,nUlL# 1 1
+https://rccbengaluru.com:443/projectdetails.php')/**/UnIOn/**/aLL/**/sELECt/**/NulL,NulL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/uNIon/**/All/**/seleCt/**/NulL,NulL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php')))/**/UNion/**/alL/**/sELect/**/nulL# 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/UNion/**/All/**/sElecT/**/Null,Null,Null,Null,Null,Null# 1 1
+https://rccbengaluru.com:443/projectdetails.php\"/**/UnION/**/aLl/**/SeLeCt/**/nulL,nulL,nulL,nulL,nulL# 1 1
+https://rccbengaluru.com:443/projectdetails.php)))/**/AnD/**/ROw(5818,5331)>(SELeCT/**/COunt(*),coNcAt(0x71626b7671,(SELeCT/**/(ElT(5818=5818,1))),0x717a6a7671,fLooR(RAnD(0)*2))x/**/frOM/**/(SELeCT/**/5103/**/Union/**/SELeCT/**/9541/**/Union/**/SELeCT/**/2598/**/Union/**/SELeCT/**/1290)a/**/gROUp/**/bY/**/x)/**/AnD/**/(((1612/**/BETweEN/**/1612/**/AnD/**/1612 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/ANd/**/(SelEct/**/3744/**/fROm(SelEct/**/COUNt(*),cONcAt(0x71626b7671,(SelEct/**/(eLt(3744=3744,1))),0x717a6a7671,fLOOr(RANd(0)*2))x/**/fROm/**/INFORMATION_SCHEMA.PLUGINS/**/gRoup/**/bY/**/x)a)/**/ANd/**/'OlEC'/**/likE/**/'OlEC 1 1
+https://rccbengaluru.com:443/projectdetails.php\"/**/UnIoN/**/aLl/**/sElECT/**/NUll,NUll,NUll--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php\")/**/unIOn/**/aLl/**/seLeCT/**/NuLL,NuLL,NuLL,NuLL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/anD/**/ExTrACtVAluE(1854,CoNcAt(0x5c,0x71626b7671,(sElEct/**/(ELt(1854=1854,1))),0x717a6a7671))/**/anD/**/'yrNk'/**/LIkE/**/'yrNk 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/UNiON/**/aLl/**/SeLeCt/**/nuLL,nuLL,nuLL,nuLL,nuLL,nuLL,nuLL,nuLL,nuLL,nuLL# 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/AnD/**/uPdatEXML(9447,ConcaT(0x2e,0x71626b7671,(SELEct/**/(ElT(9447=9447,1))),0x717a6a7671),8368)/**/AnD/**/'zdMI'/**/liKe/**/'zdMI 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/Union/**/aLL/**/sEleCT/**/NuLL,NuLL,NuLL,NuLL,NuLL,NuLL,NuLL,NuLL# 1 1
+https://rccbengaluru.com:443/projectdetails.php')/**/uniON/**/aLl/**/sELect/**/nUll,nUll# 1 1
+https://rccbengaluru.com:443/projectdetails.php%'/**/UNion/**/aLL/**/sELEcT/**/nUll,nUll,nUll,nUll,nUll,nUll,nUll,nUll,nUll,nUll# 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/aND/**/uPdAtexmL(9447,ConCAt(0x2e,0x71626b7671,(sELEct/**/(eLt(9447=9447,1))),0x717a6a7671),8368)/**/oR/**/'vKmx'='YsBs 1 1
+https://rccbengaluru.com:443/projectdetails.php')/**/uNIon/**/aLL/**/SElECT/**/nulL,nulL,nulL,nulL,nulL# 1 1
+https://rccbengaluru.com:443/projectdetails.php'))/**/aNd/**/roW(5818,5331)>(sEleCT/**/CounT(*),CONcAt(0x71626b7671,(sEleCT/**/(Elt(5818=5818,1))),0x717a6a7671,fLoor(RaNd(0)*2))x/**/froM/**/(sEleCT/**/5103/**/uniON/**/sEleCT/**/9541/**/uniON/**/sEleCT/**/2598/**/uniON/**/sEleCT/**/1290)a/**/GroUp/**/By/**/x)/**/aNd/**/(('fztt'/**/LIKe/**/'fztt 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/UnIoN/**/alL/**/SEleCt/**/nUlL,nUlL,nUlL,nUlL,nUlL# 1 1
+https://rccbengaluru.com:443/projectdetails.php\")/**/UNIon/**/aLL/**/SELecT/**/NUlL,NUlL,NUlL,NUlL,NUlL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php\"/**/Union/**/ALl/**/SElECt/**/Null,Null,Null,Null,Null# 1 1
+https://rccbengaluru.com:443/projectdetails.php')/**/UniOn/**/alL/**/SelECT/**/NuLl,NuLl# 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/UnIon/**/ALl/**/SEleCt/**/nUll,nUll,nUll--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php'))/**/unION/**/alL/**/seLeCT/**/NUlL,NUlL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php%'/**/unIoN/**/All/**/SELect/**/nuLl,nuLl,nuLl,nuLl,nuLl--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php')/**/unIoN/**/alL/**/SEleCT/**/nULl,nULl,nULl--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php\"/**/ANd/**/(SeLect/**/3744/**/FRoM(SeLect/**/COuNt(*),ConCAt(0x71626b7671,(SeLect/**/(ElT(3744=3744,1))),0x717a6a7671,fLOoR(RANd(0)*2))x/**/FRoM/**/INFORMATION_SCHEMA.PLUGINS/**/gROup/**/By/**/x)a)/**/ANd/**/\"lMYE\"=\"lMYE 1 1
+https://rccbengaluru.com:443/projectdetails.php'))/**/uNIOn/**/All/**/sEleCT/**/Null,Null,Null,Null,Null,Null,Null,Null,Null--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/UnIon/**/AlL/**/SelEct/**/NuLl,NuLl,NuLl,NuLl,NuLl,NuLl,NuLl--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php\"))/**/uNiON/**/All/**/sELeCT/**/NuLL,NuLL,NuLL,NuLL,NuLL# 1 1
+https://rccbengaluru.com:443/projectdetails.php\"))/**/uNION/**/aLl/**/selEct/**/nUll,nUll,nUll,nUll,nUll,nUll,nUll,nUll# 1 1
+https://rccbengaluru.com:443/projectdetails.php',EXtrActvAluE(8147,CONcAt(0x5c,0x71626b7671,(seLECT/**/(eLT(8147=8147,1))),0x717a6a7671))--/**/nKus 1 1
+https://rccbengaluru.com:443/projectdetails.php\"/**/UNIon/**/AlL/**/seLeCT/**/nUll,nUll--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php)/**/UNiON/**/aLl/**/sElECt/**/NULl,NULl,NULl,NULl,NULl,NULl,NULl,NULl--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/unION/**/AlL/**/sElECT/**/nulL,nulL,nulL,nulL,nulL,nulL,nulL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php\")/**/AnD/**/ExTrACtVALUE(1854,COncat(0x5c,0x71626b7671,(SELECt/**/(elT(1854=1854,1))),0x717a6a7671))/**/AnD/**/(\"VVIy\"/**/LIKe/**/\"VVIy 1 1
+https://rccbengaluru.com:443/projectdetails.php')/**/uNion/**/All/**/sELEcT/**/nuLL,nuLL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php'))/**/UnION/**/alL/**/SeLect/**/nULl,nULl,nULl,nULl,nULl# 1 1
+https://rccbengaluru.com:443/projectdetails.php\"))/**/uNIoN/**/ALl/**/seLECT/**/NUlL,NUlL,NUlL,NUlL,NUlL,NUlL,NUlL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/unioN/**/aLl/**/seLEct/**/nuLl,nuLl,nuLl,nuLl,nuLl,nuLl# 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/uNIon/**/alL/**/SELEcT/**/nuLL,nuLL,nuLL,nuLL,nuLL,nuLL# 1 1
+https://rccbengaluru.com:443/projectdetails.php)/**/AnD/**/UPdatExmL(9447,ConcAT(0x2e,0x71626b7671,(SeLecT/**/(eLt(9447=9447,1))),0x717a6a7671),8368)/**/AnD/**/(2421/**/betWeEN/**/2421/**/AnD/**/2421 1 1
+https://rccbengaluru.com:443/projectdetails.php)))/**/uNIon/**/aLl/**/SeLeCt/**/NulL,NulL,NulL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/unIon/**/AlL/**/SElecT/**/NulL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/unIoN/**/AlL/**/SElECT/**/NUlL,NUlL,NUlL,NUlL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php')/**/UNiOn/**/aLL/**/SeLECt/**/NUll,NUll,NUll,NUll# 1 1
+https://rccbengaluru.com:443/projectdetails.php)/**/unIOn/**/ALl/**/SELeCT/**/NULl,NULl,NULl,NULl# 1 1
+https://rccbengaluru.com:443/projectdetails.php\"/**/unIon/**/aLL/**/seLEct/**/NUll,NUll,NUll,NUll,NUll,NUll,NUll,NUll,NUll--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php\")/**/UNiOn/**/alL/**/SeLecT/**/nUlL,nUlL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php)/**/uniOn/**/AlL/**/seleCt/**/NULl,NULl,NULl,NULl,NULl,NULl# 1 1
+https://rccbengaluru.com:443/projectdetails.php'))/**/ANd/**/UpDATexML(9447,conCAt(0x2e,0x71626b7671,(seleCt/**/(Elt(9447=9447,1))),0x717a6a7671),8368)/**/ANd/**/(('cvxw'/**/LikE/**/'cvxw 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/uNiOn/**/All/**/SELECt/**/nUlL,nUlL,nUlL,nUlL,nUlL,nUlL,nUlL,nUlL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php'))/**/uNiON/**/aLL/**/SelEcT/**/nUlL,nUlL,nUlL,nUlL,nUlL,nUlL,nUlL,nUlL,nUlL,nUlL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php'))/**/UnIoN/**/All/**/SELeCt/**/nuLl,nuLl,nuLl,nuLl,nuLl,nuLl,nuLl--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php.'(,,\",()( 1 1
+https://rccbengaluru.com:443/projectdetails.php)/**/UNIOn/**/alL/**/sELECt/**/nulL,nulL# 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/UNIoN/**/AlL/**/SEleCT/**/nulL,nulL,nulL,nulL,nulL,nulL,nulL,nulL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php'))/**/uNioN/**/alL/**/sElEct/**/Null,Null,Null,Null,Null,Null# 1 1
+https://rccbengaluru.com:443/projectdetails.php%'/**/UNiON/**/aLL/**/SelEcT/**/nuLl,nuLl,nuLl,nuLl,nuLl,nuLl,nuLl,nuLl# 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/unIoN/**/ALl/**/SeLEct/**/NUll--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php')))/**/aNd/**/extRACtVaLuE(1854,cOnCAT(0x5c,0x71626b7671,(sELECT/**/(elT(1854=1854,1))),0x717a6a7671))/**/aNd/**/((('cRjD'='cRjD 1 1
+https://rccbengaluru.com:443/projectdetails.php\")/**/prOCEduRE/**/anALYse(EXtrActValUE(7127,concAt(0x5c,0x71626b7671,(sElEct/**/(CaSE/**/wheN/**/(7127=7127)/**/ThEn/**/1/**/ELsE/**/0/**/eNd)),0x717a6a7671)),1)/**/anD/**/(\"BRLK\"=\"BRLK 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/UNIoN/**/ALl/**/sELecT/**/nUll,nUll--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php')/**/UNioN/**/aLl/**/sELECT/**/Null,Null,Null,Null,Null,Null,Null# 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/UNiOn/**/alL/**/sELECT/**/NULl,NULl# 1 1
+https://rccbengaluru.com:443/projectdetails.php)/**/uNIOn/**/ALl/**/sElect/**/NUlL,NUlL,NUlL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php')/**/unIoN/**/alL/**/selEcT/**/NULl,NULl,NULl,NULl,NULl--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/Union/**/aLl/**/SelEcT/**/NulL,NulL,NulL,NulL,NulL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/UniON/**/aLL/**/SeLeCT/**/nUll# 1 1
+https://rccbengaluru.com:443/projectdetails.php\"))/**/UnIoN/**/alL/**/sELEcT/**/NuLL,NuLL,NuLL,NuLL# 1 1
+https://rccbengaluru.com:443/projectdetails.php'))/**/UnIOn/**/aLL/**/SelecT/**/NuLl,NuLl,NuLl# 1 1
+https://rccbengaluru.com:443/projectdetails.php'PDeChe<'\">LQTmBz 1 1
+https://rccbengaluru.com:443/projectdetails.php))/**/UNion/**/aLL/**/SElEcT/**/nULL,nULL,nULL,nULL,nULL,nULL,nULL,nULL,nULL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php)/**/UNioN/**/AlL/**/Select/**/nULl,nULl,nULl,nULl,nULl,nULl,nULl,nULl,nULl,nULl# 1 1
+https://rccbengaluru.com:443/projectdetails.php')/**/uNiOn/**/aLl/**/SeLEct/**/nUlL,nUlL,nUlL# 1 1
+https://rccbengaluru.com:443/projectdetails.php)/**/UNion/**/aLl/**/sELect/**/NULl,NULl,NULl,NULl,NULl,NULl,NULl,NULl,NULl--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php))/**/uNiON/**/All/**/sELECT/**/nUll,nUll,nUll,nUll,nUll,nUll# 1 1
+https://rccbengaluru.com:443/projectdetails.php\")/**/Union/**/ALl/**/sEleCT/**/nuLL,nuLL,nuLL,nuLL,nuLL,nuLL,nuLL,nuLL,nuLL,nuLL# 1 1
+https://rccbengaluru.com:443/projectdetails.php'))/**/UniON/**/AlL/**/SelEct/**/Null,Null,Null--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/AnD/**/(sELECt/**/3744/**/fROm(sELECt/**/CoUNT(*),COnCAt(0x71626b7671,(sELECt/**/(eLt(3744/**/betwEEn/**/3744/**/AnD/**/3744,1))),0x717a6a7671,flOOR(RAnD(0)*2))x/**/fROm/**/INFORMATION_SCHEMA.PLUGINS/**/GroUp/**/By/**/x)a)--/**/WtQg 1 1
+https://rccbengaluru.com:443/projectdetails.php)/**/unIon/**/All/**/sELECt/**/Null,Null,Null,Null,Null,Null,Null,Null,Null,Null--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php)))/**/uNioN/**/AlL/**/SeLecT/**/NulL,NulL,NulL# 1 1
+https://rccbengaluru.com:443/projectdetails.php'))/**/uNiON/**/alL/**/sEleCt/**/NulL,NulL,NulL,NulL,NulL,NulL,NulL,NulL,NulL,NulL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php)/**/UNion/**/AlL/**/SElECt/**/NUll--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php')/**/uniON/**/aLl/**/SeLECT/**/nULL,nULL,nULL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/uniOn/**/aLl/**/sElECT/**/NuLl,NuLl,NuLl,NuLl# 1 1
+https://rccbengaluru.com:443/projectdetails.php'))/**/uNIOn/**/All/**/SeLeCt/**/nULl,nULl# 1 1
+https://rccbengaluru.com:443/projectdetails.php\"))/**/UnioN/**/aLl/**/sELeCT/**/nUlL,nUlL,nUlL,nUlL,nUlL,nUlL,nUlL,nUlL,nUlL# 1 1
+https://rccbengaluru.com:443/projectdetails.php')/**/ANd/**/rOW(5818,5331)>(SEleCT/**/couNt(*),CoNcAT(0x71626b7671,(SEleCT/**/(eLt(5818=5818,1))),0x717a6a7671,fLoOr(RANd(0)*2))x/**/fRoM/**/(SEleCT/**/5103/**/UNiOn/**/SEleCT/**/9541/**/UNiOn/**/SEleCT/**/2598/**/UNiOn/**/SEleCT/**/1290)a/**/grOup/**/bY/**/x)/**/ANd/**/('ThzG'/**/LIkE/**/'ThzG 1 1
+https://rccbengaluru.com:443/projectdetails.php'))/**/uNion/**/aLl/**/SelEcT/**/nuLl,nuLl,nuLl,nuLl,nuLl,nuLl,nuLl,nuLl,nuLl# 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/UniON/**/AlL/**/selEct/**/NuLL,NuLL,NuLL,NuLL,NuLL,NuLL,NuLL,NuLL,NuLL,NuLL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php')/**/UNiOn/**/aLl/**/SELEct/**/Null,Null,Null,Null--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php)/**/UNioN/**/AlL/**/seleCT/**/nUll,nUll--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/UNion/**/AlL/**/SeLeCT/**/nULL,nULL,nULL,nULL,nULL# 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/unIOn/**/ALl/**/SeLEcT/**/Null,Null,Null,Null,Null,Null,Null,Null,Null,Null# 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/uNIOn/**/All/**/SelEct/**/NUlL,NUlL,NUlL,NUlL,NUlL,NUlL,NUlL,NUlL,NUlL,NUlL# 1 1
+https://rccbengaluru.com:443/projectdetails.php\"/**/uniON/**/ALl/**/SeLEct/**/nuLL,nuLL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/uNIon/**/All/**/SeleCt/**/nULL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php')))/**/unIon/**/aLL/**/SeLect/**/NUll,NUll,NUll,NUll,NUll,NUll,NUll# 1 1
+https://rccbengaluru.com:443/projectdetails.php,ExtRActVALUe(8147,cOnCAt(0x5c,0x71626b7671,(SeLect/**/(Elt(8147=8147,1))),0x717a6a7671)) 1 1
+https://rccbengaluru.com:443/projectdetails.php\")/**/PRoCEDURE/**/aNalYSe(eXTraCtvALue(7127,COncat(0x5c,0x71626b7671,(seLeCT/**/(CASe/**/WHEn/**/(7127=7127)/**/ThEN/**/1/**/eLSE/**/0/**/eND)),0x717a6a7671)),1)/**/And/**/(\"tIcd\"/**/liKe/**/\"tIcd 1 1
+https://rccbengaluru.com:443/projectdetails.php))/**/UNion/**/All/**/sELECt/**/NUll,NUll,NUll,NUll,NUll--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/uNION/**/aLl/**/SElECt/**/Null,Null,Null,Null--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php)/**/uNiON/**/All/**/sElEct/**/NulL,NulL,NulL,NulL,NulL,NulL,NulL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php')/**/proCedURE/**/ANalyse(eXTRAcTVALuE(7127,cOncat(0x5c,0x71626b7671,(Select/**/(CasE/**/wHEn/**/(7127=7127)/**/THen/**/1/**/ElSE/**/0/**/eNd)),0x717a6a7671)),1)/**/aNd/**/('LXGY'/**/lIKE/**/'LXGY 1 1
+https://rccbengaluru.com:443/projectdetails.php\"))/**/UNiON/**/aLl/**/SeLECT/**/NulL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php))/**/uNiOn/**/ALl/**/SEleCT/**/Null,Null,Null,Null,Null,Null,Null,Null,Null# 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/UniOn/**/alL/**/SELecT/**/nulL,nulL,nulL,nulL,nulL,nulL,nulL,nulL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/unION/**/All/**/sELect/**/nUll,nUll,nUll,nUll,nUll--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php))/**/anD/**/RoW(5818,5331)>(sELEcT/**/cOunT(*),CoNCat(0x71626b7671,(sELEcT/**/(elT(5818=5818,1))),0x717a6a7671,fLoOR(RanD(0)*2))x/**/fROM/**/(sELEcT/**/5103/**/uNiON/**/sELEcT/**/9541/**/uNiON/**/sELEcT/**/2598/**/uNiON/**/sELEcT/**/1290)a/**/GrOUP/**/By/**/x)/**/anD/**/((4981/**/BETwEeN/**/4981/**/anD/**/4981 1 1
+https://rccbengaluru.com:443/projectdetails.php\")/**/UNIon/**/All/**/SeLECt/**/NULl# 1 1
+https://rccbengaluru.com:443/projectdetails.php')/**/UnIOn/**/ALl/**/seLeCt/**/nulL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/UNIon/**/aLL/**/SELeCt/**/NuLl,NuLl,NuLl--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/UNion/**/All/**/SeLeCT/**/NuLL,NuLL,NuLL,NuLL,NuLL,NuLL,NuLL,NuLL,NuLL,NuLL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/UnION/**/alL/**/SEleCT/**/NUll,NUll,NUll,NUll# 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/UnioN/**/AlL/**/SELect/**/nulL,nulL,nulL,nulL,nulL# 1 1
+https://rccbengaluru.com:443/projectdetails.php'))/**/And/**/UpdAtEXML(9447,CoNcaT(0x2e,0x71626b7671,(SElECt/**/(ELt(9447=9447,1))),0x717a6a7671),8368)/**/And/**/(('TGQd'='TGQd 1 1
+https://rccbengaluru.com:443/projectdetails.php')))/**/UnioN/**/alL/**/SElEct/**/NUlL,NUlL,NUlL,NUlL,NUlL,NUlL,NUlL,NUlL# 1 1
+https://rccbengaluru.com:443/projectdetails.php\"/**/UniOn/**/alL/**/SeleCt/**/nUll# 1 1
+https://rccbengaluru.com:443/projectdetails.php\")/**/uNiOn/**/aLl/**/SeLECt/**/nULl,nULl,nULl,nULl,nULl,nULl# 1 1
+https://rccbengaluru.com:443/projectdetails.php\"/**/UnioN/**/All/**/SElect/**/NULl,NULl,NULl,NULl,NULl,NULl# 1 1
+https://rccbengaluru.com:443/projectdetails.php'))/**/UniOn/**/All/**/SELect/**/nuLL,nuLL,nuLL,nuLL,nuLL,nuLL,nuLL,nuLL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/ANd/**/ROw(5818,5331)>(SElECT/**/cOUNt(*),coNcaT(0x71626b7671,(SElECT/**/(eLt(5818=5818,1))),0x717a6a7671,FlOOr(RANd(0)*2))x/**/From/**/(SElECT/**/5103/**/unIoN/**/SElECT/**/9541/**/unIoN/**/SElECT/**/2598/**/unIoN/**/SElECT/**/1290)a/**/GRoUp/**/By/**/x)/**/ANd/**/'zzLh'='zzLh 1 1
+https://rccbengaluru.com:443/projectdetails.php'))/**/UnioN/**/ALl/**/SeLEct/**/nuLl,nuLl,nuLl,nuLl,nuLl,nuLl,nuLl,nuLl,nuLl--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php))/**/uNiOn/**/AlL/**/SeLECT/**/nuLL,nuLL,nuLL,nuLL,nuLL,nuLL,nuLL,nuLL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php%'/**/And/**/(sElecT/**/3744/**/FroM(sElecT/**/COUnT(*),ConcaT(0x71626b7671,(sElecT/**/(Elt(3744=3744,1))),0x717a6a7671,flooR(RAnd(0)*2))x/**/FroM/**/INFORMATION_SCHEMA.PLUGINS/**/gRoup/**/bY/**/x)a)/**/And/**/'GuoW%'='GuoW 1 1
+https://rccbengaluru.com:443/projectdetails.php')))/**/unioN/**/ALl/**/sElEct/**/nulL,nulL,nulL,nulL,nulL,nulL,nulL,nulL,nulL# 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/uniON/**/AlL/**/sEleCT/**/nuLL,nuLL,nuLL,nuLL,nuLL,nuLL,nuLL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php\")/**/aND/**/rOW(5818,5331)>(seLeCT/**/CoUnT(*),CoNCAT(0x71626b7671,(seLeCT/**/(ELt(5818=5818,1))),0x717a6a7671,fLOOr(RaND(0)*2))x/**/fRoM/**/(seLeCT/**/5103/**/unION/**/seLeCT/**/9541/**/unION/**/seLeCT/**/2598/**/unION/**/seLeCT/**/1290)a/**/grOUp/**/By/**/x)/**/aND/**/(\"sMGa\"=\"sMGa 1 1
+https://rccbengaluru.com:443/projectdetails.php\"/**/unIOn/**/AlL/**/SeLECT/**/Null,Null,Null--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php%'/**/UniOn/**/aLL/**/selEct/**/nuLL,nuLL,nuLL,nuLL,nuLL,nuLL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/uNiOn/**/All/**/sELEcT/**/nUll# 1 1
+https://rccbengaluru.com:443/projectdetails.php')/**/uNION/**/All/**/seleCt/**/NUlL,NUlL,NUlL,NUlL,NUlL,NUlL,NUlL,NUlL,NUlL# 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/ANd/**/UpdatExmL(9447,CoNcat(0x2e,0x71626b7671,(seLECt/**/(ElT(9447/**/BetwEeN/**/9447/**/ANd/**/9447,1))),0x717a6a7671),8368) 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/aND/**/(seLEct/**/3744/**/FroM(seLEct/**/coUNT(*),cONCAT(0x71626b7671,(seLEct/**/(elT(3744=3744,1))),0x717a6a7671,flOor(RaND(0)*2))x/**/FroM/**/INFoRMATION_SCHEMA.PLUGINS/**/GrOuP/**/bY/**/x)a)/**/oR/**/'XEgv'='AAyt 1 1
+https://rccbengaluru.com:443/projectdetails.php')/**/And/**/(sEleCT/**/3744/**/frOM(sEleCT/**/coUNT(*),COnCat(0x71626b7671,(sEleCT/**/(ElT(3744=3744,1))),0x717a6a7671,flOOr(RAnd(0)*2))x/**/frOM/**/INFORMATION_SCHEMA.PLUGINS/**/GroUP/**/bY/**/x)a)/**/And/**/('dLEN'='dLEN 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/UniOn/**/alL/**/sELEct/**/Null,Null,Null,Null,Null--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/Union/**/aLL/**/SelecT/**/nUlL,nUlL,nUlL,nUlL,nUlL,nUlL,nUlL,nUlL,nUlL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php\"/**/unioN/**/AlL/**/SeLect/**/nulL,nulL,nulL,nulL,nulL,nulL,nulL,nulL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php'))/**/unION/**/aLl/**/sElECt/**/nuLL# 1 1
+https://rccbengaluru.com:443/projectdetails.php')/**/uNion/**/aLl/**/sEleCt/**/NUll,NUll,NUll,NUll,NUll,NUll,NUll--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php)/**/PrOcedUre/**/AnAlYse(ExTrActVALUe(7127,CONCat(0x5c,0x71626b7671,(SELEct/**/(cASE/**/WHen/**/(7127=7127)/**/Then/**/1/**/elSE/**/0/**/End)),0x717a6a7671)),1)--/**/dRnP 1 1
+https://rccbengaluru.com:443/projectdetails.php\"/**/UniOn/**/aLl/**/seLEct/**/nULL# 1 1
+https://rccbengaluru.com:443/projectdetails.php')/**/UNiON/**/aLl/**/sELECt/**/Null,Null,Null,Null,Null,Null# 1 1
+https://rccbengaluru.com:443/projectdetails.php)))/**/And/**/ExtrAcTvALuE(1854,CoNCaT(0x5c,0x71626b7671,(SELect/**/(eLt(1854=1854,1))),0x717a6a7671))/**/And/**/(((7223/**/BeTWEEn/**/7223/**/And/**/7223 1 1
+https://rccbengaluru.com:443/projectdetails.php)/**/UNIon/**/aLL/**/SelECT/**/Null# 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/UNIon/**/alL/**/sELeCt/**/nUll,nUll,nUll,nUll,nUll,nUll,nUll,nUll,nUll,nUll--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php)))/**/UnIoN/**/aLL/**/sElEcT/**/nulL,nulL,nulL,nulL,nulL,nulL,nulL,nulL,nulL,nulL# 1 1
+https://rccbengaluru.com:443/projectdetails.php')/**/UnioN/**/ALl/**/SElEct/**/NuLl,NuLl,NuLl,NuLl,NuLl# 1 1
+https://rccbengaluru.com:443/projectdetails.php)/**/UnIOn/**/All/**/sELECT/**/Null,Null--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/unIoN/**/aLl/**/SELEct/**/nUlL,nUlL,nUlL,nUlL,nUlL,nUlL,nUlL,nUlL,nUlL,nUlL# 1 1
+https://rccbengaluru.com:443/projectdetails.php\")/**/UNiON/**/aLl/**/sELeCT/**/NULl,NULl,NULl# 1 1
+https://rccbengaluru.com:443/projectdetails.php')/**/Union/**/aLl/**/sElEct/**/nuLL,nuLL,nuLL,nuLL,nuLL,nuLL,nuLL,nuLL,nuLL,nuLL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php')))/**/ANd/**/upDAtexmL(9447,CONCaT(0x2e,0x71626b7671,(sELECT/**/(ElT(9447=9447,1))),0x717a6a7671),8368)/**/ANd/**/((('gSfT'='gSfT 1 1
+https://rccbengaluru.com:443/projectdetails.php))/**/PrOcedUre/**/AnalySE(extracTvAlUE(7127,cOnCAt(0x5c,0x71626b7671,(SeLECt/**/(CaSE/**/wHeN/**/(7127=7127)/**/TheN/**/1/**/eLSe/**/0/**/eND)),0x717a6a7671)),1)/**/AnD/**/((7916/**/BETwEEn/**/7916/**/AnD/**/7916 1 1
+https://rccbengaluru.com:443/projectdetails.php)/**/uniON/**/All/**/seLEcT/**/nuLl,nuLl,nuLl,nuLl,nuLl,nuLl,nuLl,nuLl,nuLl# 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/UNiOn/**/aLL/**/seLECt/**/NulL,NulL,NulL,NulL,NulL,NulL,NulL# 1 1
+https://rccbengaluru.com:443/projectdetails.php\"/**/uNion/**/alL/**/SElEct/**/NUlL,NUlL# 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/uNiOn/**/aLl/**/SELect/**/Null,Null,Null,Null,Null,Null--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/UniOn/**/aLL/**/SELeCT/**/nUll,nUll,nUll,nUll--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/UnioN/**/AlL/**/seLecT/**/NulL,NulL,NulL# 1 1
+https://rccbengaluru.com:443/projectdetails.php\"/**/aND/**/rOw(5818,5331)>(SELECt/**/cOuNT(*),cONcAT(0x71626b7671,(SELECt/**/(ElT(5818=5818,1))),0x717a6a7671,flooR(RaND(0)*2))x/**/FrOm/**/(SELECt/**/5103/**/uNiON/**/SELECt/**/9541/**/uNiON/**/SELECt/**/2598/**/uNiON/**/SELECt/**/1290)a/**/GrOUP/**/bY/**/x)/**/aND/**/\"nOql\"/**/Like/**/\"nOql 1 1
+https://rccbengaluru.com:443/projectdetails.php')/**/UNioN/**/AlL/**/SeleCt/**/nuLl,nuLl,nuLl,nuLl,nuLl,nuLl--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php\")/**/UnION/**/alL/**/selEcT/**/NulL,NulL,NulL,NulL,NulL,NulL,NulL,NulL,NulL,NulL# 1 1
+https://rccbengaluru.com:443/projectdetails.php)/**/UNIOn/**/aLl/**/SeLeCt/**/nULl,nULl,nULl,nULl,nULl,nULl--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php\"/**/uNION/**/AlL/**/seLECT/**/NULl,NULl,NULl,NULl,NULl,NULl,NULl,NULl--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/UnIOn/**/AlL/**/SELEcT/**/nuLL,nuLL,nuLL,nuLL,nuLL# 1 1
+https://rccbengaluru.com:443/projectdetails.php\"/**/ANd/**/ExtRactValue(1854,cONcAt(0x5c,0x71626b7671,(SeLecT/**/(ELt(1854=1854,1))),0x717a6a7671))/**/ANd/**/\"swJW\"=\"swJW 1 1
+https://rccbengaluru.com:443/projectdetails.php))/**/uNion/**/aLl/**/selEct/**/NUlL# 1 1
+https://rccbengaluru.com:443/projectdetails.php\")/**/uniON/**/alL/**/seleCT/**/NuLL,NuLL,NuLL,NuLL,NuLL,NuLL,NuLL,NuLL,NuLL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php\"/**/uniON/**/aLl/**/SEleCT/**/nuLL,nuLL,nuLL,nuLL,nuLL,nuLL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/UnIoN/**/alL/**/sElEcT/**/nUll--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php\")/**/UNion/**/alL/**/seLecT/**/nUll,nUll,nUll,nUll,nUll,nUll# 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/UNIOn/**/aLl/**/SeLECt/**/NUlL,NUlL,NUlL# 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/Union/**/alL/**/seLEct/**/NuLL,NuLL,NuLL,NuLL,NuLL,NuLL,NuLL,NuLL,NuLL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/And/**/UpdAtExML(9447,cONcat(0x2e,0x71626b7671,(selEcT/**/(eLT(9447=9447,1))),0x717a6a7671),8368)/**/And/**/'NJdX'='NJdX 1 1
+https://rccbengaluru.com:443/projectdetails.php)/**/unIoN/**/All/**/SelEct/**/NuLL,NuLL,NuLL,NuLL,NuLL,NuLL,NuLL,NuLL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php\")/**/UnION/**/aLl/**/SelECT/**/NuLl,NuLl,NuLl,NuLl,NuLl,NuLl,NuLl,NuLl# 1 1
+https://rccbengaluru.com:443/projectdetails.php')/**/UNIon/**/alL/**/SELeCT/**/nuLl,nuLl,nuLl,nuLl# 1 1
+https://rccbengaluru.com:443/projectdetails.php')))/**/Union/**/ALl/**/SeLEcT/**/nulL,nulL,nulL,nulL,nulL,nulL# 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/aNd/**/upDATExMl(9447,ConCaT(0x2e,0x71626b7671,(SEleCT/**/(elT(9447/**/BeTween/**/9447/**/aNd/**/9447,1))),0x717a6a7671),8368)--/**/RhTO 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/UnIon/**/All/**/SeLECt/**/Null,Null,Null,Null,Null,Null# 1 1
+https://rccbengaluru.com:443/projectdetails.php')))/**/UnIOn/**/alL/**/SElECT/**/Null--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php%'/**/aND/**/uPdateXML(9447,ConcaT(0x2e,0x71626b7671,(seleCT/**/(ELt(9447=9447,1))),0x717a6a7671),8368)/**/aND/**/'sEck%'='sEck 1 1
+https://rccbengaluru.com:443/projectdetails.php')))/**/uNion/**/ALl/**/SELecT/**/NuLl,NuLl,NuLl,NuLl,NuLl--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php')/**/UNIOn/**/alL/**/SelECT/**/NulL# 1 1
+https://rccbengaluru.com:443/projectdetails.php'))/**/ANd/**/EXTraCtvALuE(1854,CONcAt(0x5c,0x71626b7671,(SelEcT/**/(elT(1854=1854,1))),0x717a6a7671))/**/ANd/**/(('HEUt'/**/LIKe/**/'HEUt 1 1
+https://rccbengaluru.com:443/projectdetails.php)/**/unIOn/**/All/**/seleCT/**/nUll,nUll,nUll,nUll,nUll,nUll,nUll,nUll,nUll,nUll--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php')/**/UniOn/**/ALl/**/sEleCt/**/nuLL,nuLL,nuLL,nuLL,nuLL,nuLL,nuLL,nuLL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php')/**/uniOn/**/AlL/**/seLecT/**/nUlL,nUlL,nUlL# 1 1
+https://rccbengaluru.com:443/projectdetails.php'))/**/UnIoN/**/aLl/**/SElECt/**/nulL,nulL,nulL,nulL,nulL,nulL# 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/prOCEduRE/**/ANaLYse(ExTraCTvaluE(7127,ConCaT(0x5c,0x71626b7671,(seLECt/**/(cAse/**/WHen/**/(7127=7127)/**/tHeN/**/1/**/elsE/**/0/**/ENd)),0x717a6a7671)),1) 1 1
+https://rccbengaluru.com:443/projectdetails.php\"/**/uNiOn/**/AlL/**/selEct/**/nUlL,nUlL,nUlL,nUlL,nUlL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/UNIOn/**/All/**/SElecT/**/nULl,nULl,nULl,nULl,nULl,nULl,nULl,nULl,nULl--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php)/**/And/**/EXTRacTvALuE(1854,CONCAt(0x5c,0x71626b7671,(SELEcT/**/(elT(1854=1854,1))),0x717a6a7671))/**/And/**/(3077/**/bEtwEen/**/3077/**/And/**/3077 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/UNiON/**/AlL/**/sELEct/**/nULl,nULl--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/uNION/**/All/**/sEleCt/**/nuLl,nuLl,nuLl,nuLl,nuLl,nuLl--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/And/**/ROw(5818,5331)/**/Not/**/BETWeEN/**/0/**/And/**/(sEleCT/**/counT(*),COncAt(0x71626b7671,(sEleCT/**/(ElT(5818=5818,1))),0x717a6a7671,FloOR(RAnd(0)*2))x/**/From/**/(sEleCT/**/5103/**/Union/**/sEleCT/**/9541/**/Union/**/sEleCT/**/2598/**/Union/**/sEleCT/**/1290)a/**/grOup/**/bY/**/x)#/**/waAH 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/AnD/**/extRactVAlUe(1854,COncAT(0x5c,0x71626b7671,(sEleCt/**/(eLt(1854/**/BeTweEn/**/1854/**/AnD/**/1854,1))),0x717a6a7671))--/**/ykmV 1 1
+https://rccbengaluru.com:443/projectdetails.php')/**/uNiOn/**/All/**/SeleCT/**/nULl,nULl,nULl,nULl,nULl,nULl# 1 1
+https://rccbengaluru.com:443/projectdetails.php\")/**/uNioN/**/AlL/**/SElECt/**/nuLl,nuLl,nuLl--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php)/**/UNioN/**/aLL/**/SeLecT/**/NUll,NUll,NUll,NUll,NUll,NUll,NUll,NUll,NUll,NUll# 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/uNiOn/**/AlL/**/SEleCT/**/nulL,nulL,nulL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/uNiOn/**/alL/**/SelECt/**/nULl,nULl# 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/ANd/**/ExtRAcTvalUE(1854,cONcAT(0x5c,0x71626b7671,(sElECT/**/(ElT(1854/**/BeTWeeN/**/1854/**/ANd/**/1854,1))),0x717a6a7671))--/**/rxOG 1 1
+https://rccbengaluru.com:443/projectdetails.php)))/**/aND/**/(SeLEcT/**/3744/**/fRoM(SeLEcT/**/COunT(*),COnCaT(0x71626b7671,(SeLEcT/**/(ELt(3744=3744,1))),0x717a6a7671,FLoOr(RaND(0)*2))x/**/fRoM/**/INFORMATION_SCHEMA.PLUGINS/**/gRoUP/**/By/**/x)a)/**/aND/**/(((8679/**/bEtweeN/**/8679/**/aND/**/8679 1 1
+https://rccbengaluru.com:443/projectdetails.php'))/**/anD/**/(SelEcT/**/3744/**/fROM(SelEcT/**/cOUnt(*),cONcat(0x71626b7671,(SelEcT/**/(eLT(3744=3744,1))),0x717a6a7671,flooR(RanD(0)*2))x/**/fROM/**/INFORMATION_SCHEMA.PLUGINS/**/GroUP/**/By/**/x)a)/**/anD/**/(('oLQx'/**/LikE/**/'oLQx 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/UNiOn/**/aLl/**/selECT/**/nULL,nULL,nULL,nULL,nULL,nULL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php)))/**/uniOn/**/AlL/**/seLECT/**/nUll,nUll,nUll,nUll,nUll# 1 1
+https://rccbengaluru.com:443/projectdetails.php)/**/Union/**/AlL/**/SELecT/**/nuLL,nuLL,nuLL,nuLL,nuLL,nuLL,nuLL# 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/prOCEdUre/**/AnALyse(ExtrACtVaLUe(7127,coNcAT(0x5c,0x71626b7671,(SeLECT/**/(CAse/**/wHeN/**/(7127=7127)/**/Then/**/1/**/elSE/**/0/**/End)),0x717a6a7671)),1)/**/anD/**/'MhFf'='MhFf 1 1
+https://rccbengaluru.com:443/projectdetails.php,(SelEcT/**/2494/**/From/**/(SelEcT/**/roW(2494,5222)>(SelEcT/**/CoUnT(*),Concat(0x71626b7671,(SelEcT/**/(ELt(2494=2494,1))),0x717a6a7671,floOr(rANd(0)*2))x/**/From/**/(SelEcT/**/4513/**/UNIoN/**/SelEcT/**/6898/**/UNIoN/**/SelEcT/**/7171/**/UNIoN/**/SelEcT/**/8881)a/**/grouP/**/By/**/x))s) 1 1
+https://rccbengaluru.com:443/projectdetails.php')/**/uNIOn/**/All/**/SeLEct/**/nULL,nULL,nULL,nULL,nULL,nULL,nULL,nULL,nULL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php',(sElECT/**/2494/**/fROM/**/(sElECT/**/RoW(2494,5222)>(sElECT/**/cOuNt(*),coNCAT(0x71626b7671,(sElECT/**/(elT(2494=2494,1))),0x717a6a7671,fLoOR(RAnD(0)*2))x/**/fROM/**/(sElECT/**/4513/**/uNIOn/**/sElECT/**/6898/**/uNIOn/**/sElECT/**/7171/**/uNIOn/**/sElECT/**/8881)a/**/gROUp/**/By/**/x))s)--/**/ylSB 1 1
+https://rccbengaluru.com:443/projectdetails.php\")/**/uNION/**/All/**/SELect/**/NuLl,NuLl,NuLl,NuLl,NuLl,NuLl--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/UniOn/**/aLl/**/SElEct/**/NulL,NulL,NulL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php'))/**/And/**/(SELeCt/**/3744/**/FRom(SELeCt/**/cOUNT(*),ConCaT(0x71626b7671,(SELeCt/**/(eLT(3744=3744,1))),0x717a6a7671,fLOor(RAnd(0)*2))x/**/FRom/**/INFORMATION_SCHEMA.PLUGINS/**/GrOUP/**/bY/**/x)a)/**/And/**/(('PpEx'='PpEx 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/uNIon/**/alL/**/SElect/**/nuLl,nuLl,nuLl,nuLl,nuLl,nuLl# 1 1
+https://rccbengaluru.com:443/projectdetails.php))/**/anD/**/(SELeCT/**/3744/**/frOM(SELeCT/**/COUnt(*),coNCaT(0x71626b7671,(SELeCT/**/(ElT(3744=3744,1))),0x717a6a7671,flooR(RanD(0)*2))x/**/frOM/**/INFORMATION_SCHEMA.PLUGINS/**/GROuP/**/By/**/x)a)/**/anD/**/((5952/**/bETWEeN/**/5952/**/anD/**/5952 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/anD/**/ExtrACtVaLUe(1854,cOnCAT(0x5c,0x71626b7671,(seLect/**/(elT(1854=1854,1))),0x717a6a7671))/**/Or/**/'Uvoz'='ldwP 1 1
+https://rccbengaluru.com:443/projectdetails.php\"))/**/uNioN/**/alL/**/sELect/**/NuLL,NuLL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php\")/**/UniOn/**/AlL/**/SeleCT/**/Null,Null# 1 1
+https://rccbengaluru.com:443/projectdetails.php\"/**/UNIoN/**/aLl/**/seLECT/**/NuLL,NuLL,NuLL,NuLL,NuLL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php\"/**/ProcEDURe/**/AnalYse(ExTRaCtvalue(7127,COncaT(0x5c,0x71626b7671,(seLEct/**/(CasE/**/wHeN/**/(7127=7127)/**/tHeN/**/1/**/ELsE/**/0/**/ENd)),0x717a6a7671)),1)/**/And/**/\"UQKa\"/**/lIke/**/\"UQKa 1 1
+https://rccbengaluru.com:443/projectdetails.php%'/**/unIoN/**/ALl/**/SelECt/**/nulL,nulL,nulL,nulL,nulL,nulL,nulL,nulL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php))/**/uniOn/**/aLL/**/sElECT/**/Null,Null,Null,Null--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php)/**/unioN/**/aLL/**/SeLECt/**/nuLL,nuLL,nuLL,nuLL,nuLL,nuLL# 1 1
+https://rccbengaluru.com:443/projectdetails.php'))/**/UNioN/**/ALl/**/sELeCT/**/nULl,nULl,nULl,nULl,nULl,nULl,nULl,nULl# 1 1
+https://rccbengaluru.com:443/projectdetails.php\")/**/uNiON/**/aLl/**/SeleCt/**/NULl,NULl,NULl,NULl,NULl,NULl,NULl,NULl,NULl# 1 1
+https://rccbengaluru.com:443/projectdetails.php)))/**/UNIoN/**/AlL/**/SeLECT/**/Null# 1 1
+https://rccbengaluru.com:443/projectdetails.php')))/**/UnIon/**/AlL/**/SElect/**/NUll,NUll--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php))/**/uNion/**/alL/**/seLEcT/**/nuLl,nuLl,nuLl,nuLl,nuLl,nuLl,nuLl# 1 1
+https://rccbengaluru.com:443/projectdetails.php)/**/uNION/**/All/**/sElect/**/nuLl,nuLl,nuLl,nuLl,nuLl--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php\"))/**/uniOn/**/ALl/**/sELECt/**/nuLL,nuLL,nuLL,nuLL,nuLL,nuLL,nuLL,nuLL,nuLL,nuLL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php')))/**/UniOn/**/alL/**/seLEct/**/NUlL,NUlL,NUlL,NUlL,NUlL,NUlL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php))/**/UNIoN/**/ALl/**/sELEct/**/nULL,nULL,nULL# 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/uNIoN/**/AlL/**/SEleCT/**/nULL,nULL,nULL,nULL,nULL,nULL,nULL,nULL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/unIon/**/alL/**/sELeCT/**/nULL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php)))/**/uNioN/**/alL/**/SeLEcT/**/NulL,NulL,NulL,NulL,NulL,NulL,NulL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php%'/**/uNIon/**/alL/**/sElect/**/NulL,NulL,NulL,NulL,NulL,NulL,NulL# 1 1
+https://rccbengaluru.com:443/projectdetails.php')))/**/ProceDURE/**/aNAlYsE(ExTRacTvaLUE(7127,CoNcAt(0x5c,0x71626b7671,(sEleCt/**/(casE/**/WheN/**/(7127=7127)/**/tHeN/**/1/**/eLSE/**/0/**/eNd)),0x717a6a7671)),1)/**/ANd/**/((('qzuf'='qzuf 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/uNIoN/**/ALl/**/seLecT/**/NulL,NulL# 1 1
+https://rccbengaluru.com:443/projectdetails.php)/**/aND/**/rOw(5818,5331)/**/nOT/**/BETWeEN/**/0/**/aND/**/(SelEcT/**/coUnt(*),coNcaT(0x71626b7671,(SelEcT/**/(ElT(5818=5818,1))),0x717a6a7671,FLoOR(RaND(0)*2))x/**/FrOm/**/(SelEcT/**/5103/**/UniOn/**/SelEcT/**/9541/**/UniOn/**/SelEcT/**/2598/**/UniOn/**/SelEcT/**/1290)a/**/GROup/**/bY/**/x)--/**/Lsoy 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/UNion/**/AlL/**/SElEcT/**/NulL,NulL,NulL,NulL,NulL,NulL,NulL,NulL,NulL# 1 1
+https://rccbengaluru.com:443/projectdetails.php\")/**/UnIOn/**/ALl/**/SELEct/**/NuLl,NuLl,NuLl,NuLl--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php)/**/UNIOn/**/alL/**/sElect/**/NUll--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/uNioN/**/aLL/**/SelECT/**/nuLl,nuLl,nuLl# 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/UNioN/**/ALl/**/sElECT/**/nulL,nulL# 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/aND/**/(SeleCt/**/3744/**/FrOm(SeleCt/**/couNT(*),cONcat(0x71626b7671,(SeleCt/**/(eLT(3744=3744,1))),0x717a6a7671,FLoor(RaND(0)*2))x/**/FrOm/**/INFORMATION_SCHEMA.PLUGINS/**/GrOUp/**/By/**/x)a)/**/aND/**/'inCW'='inCW 1 1
+https://rccbengaluru.com:443/projectdetails.php')))/**/UNIoN/**/aLl/**/sELeCT/**/NuLL,NuLL,NuLL,NuLL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php\"/**/uNiON/**/All/**/sELECt/**/NuLl,NuLl,NuLl,NuLl,NuLl,NuLl,NuLl,NuLl,NuLl--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/uNIoN/**/AlL/**/sELECt/**/nuLL,nuLL# 1 1
+https://rccbengaluru.com:443/projectdetails.php\"/**/uniOn/**/AlL/**/selECT/**/nuLl--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php')/**/uNion/**/AlL/**/sElEcT/**/NUll,NUll,NUll,NUll,NUll,NUll,NUll,NUll,NUll# 1 1
+https://rccbengaluru.com:443/projectdetails.php)))/**/Union/**/alL/**/SeLECT/**/nULL,nULL,nULL,nULL,nULL,nULL,nULL,nULL,nULL# 1 1
+https://rccbengaluru.com:443/projectdetails.php\"))/**/UnIoN/**/aLL/**/SeLEcT/**/Null,Null,Null,Null,Null,Null# 1 1
+https://rccbengaluru.com:443/projectdetails.php)))/**/uniOn/**/ALl/**/seLeCT/**/NuLl,NuLl--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php\")/**/uNion/**/AlL/**/SEleCt/**/NULl,NULl,NULl,NULl# 1 1
+https://rccbengaluru.com:443/projectdetails.php')/**/AnD/**/UPDATExml(9447,COnCaT(0x2e,0x71626b7671,(sELEct/**/(eLt(9447=9447,1))),0x717a6a7671),8368)/**/AnD/**/('oxnf'/**/LIKe/**/'oxnf 1 1
+https://rccbengaluru.com:443/projectdetails.php')/**/unIoN/**/All/**/seleCT/**/NULl,NULl,NULl,NULl,NULl,NULl,NULl,NULl# 1 1
+https://rccbengaluru.com:443/projectdetails.php'))/**/uniON/**/aLl/**/SelEct/**/NUlL,NUlL,NUlL,NUlL,NUlL,NUlL,NUlL,NUlL,NUlL,NUlL# 1 1
+https://rccbengaluru.com:443/projectdetails.php')/**/aND/**/upDaTExmL(9447,ConCaT(0x2e,0x71626b7671,(seLEct/**/(eLT(9447=9447,1))),0x717a6a7671),8368)/**/aND/**/('VhnF'='VhnF 1 1
+https://rccbengaluru.com:443/projectdetails.php\"/**/UnION/**/AlL/**/seleCT/**/nuLL,nuLL,nuLL,nuLL,nuLL,nuLL,nuLL,nuLL,nuLL,nuLL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/UnIoN/**/aLL/**/SElecT/**/nUlL,nUlL,nUlL,nUlL,nUlL,nUlL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php\"/**/UNiOn/**/AlL/**/seleCT/**/nulL,nulL,nulL,nulL,nulL,nulL,nulL,nulL,nulL,nulL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php'))/**/procEdurE/**/AnalYse(EXtRACTVAluE(7127,concAT(0x5c,0x71626b7671,(sELeCt/**/(cAse/**/wHeN/**/(7127=7127)/**/tHEn/**/1/**/elSE/**/0/**/eND)),0x717a6a7671)),1)/**/aNd/**/(('zMAV'='zMAV 1 1
+https://rccbengaluru.com:443/projectdetails.php\"/**/UnION/**/alL/**/SeLeCt/**/NUll,NUll,NUll,NUll,NUll,NUll,NUll,NUll,NUll# 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/unIOn/**/AlL/**/SelECt/**/nuLL,nuLL,nuLL,nuLL,nuLL,nuLL,nuLL,nuLL,nuLL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php\"/**/unIon/**/ALl/**/seLEcT/**/nuLl,nuLl,nuLl,nuLl,nuLl,nuLl# 1 1
+https://rccbengaluru.com:443/projectdetails.php\")/**/uNIOn/**/aLl/**/SElECt/**/nUlL,nUlL,nUlL,nUlL,nUlL,nUlL,nUlL,nUlL# 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/UNion/**/alL/**/sElECt/**/Null,Null,Null,Null,Null,Null,Null# 1 1
+https://rccbengaluru.com:443/projectdetails.php)/**/uniOn/**/ALl/**/SElECt/**/nULl,nULl# 1 1
+https://rccbengaluru.com:443/projectdetails.php\"))/**/uniOn/**/alL/**/SelEcT/**/nULL# 1 1
+https://rccbengaluru.com:443/projectdetails.php\")/**/uNion/**/aLl/**/sElEct/**/nULL,nULL,nULL,nULL,nULL,nULL,nULL# 1 1
+https://rccbengaluru.com:443/projectdetails.php%'/**/UNIOn/**/alL/**/sELEct/**/NulL,NulL,NulL,NulL,NulL,NulL,NulL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php\"/**/UNIOn/**/AlL/**/seLeCt/**/NulL,NulL,NulL,NulL,NulL,NulL,NulL,NulL# 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/UNioN/**/AlL/**/seLEcT/**/NULl,NULl,NULl,NULl,NULl,NULl,NULl,NULl,NULl,NULl# 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/uNiOn/**/AlL/**/sELEct/**/NulL,NulL,NulL,NulL# 1 1
+https://rccbengaluru.com:443/projectdetails.php\")/**/unION/**/ALl/**/selECT/**/NulL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php%'/**/uNion/**/aLL/**/SELeCT/**/Null,Null,Null,Null# 1 1
+https://rccbengaluru.com:443/projectdetails.php))/**/UNioN/**/AlL/**/SELect/**/nULl,nULl# 1 1
+https://rccbengaluru.com:443/projectdetails.php')/**/pRoceDUre/**/AnalySE(EXTrAcTVaLUE(7127,COncat(0x5c,0x71626b7671,(SeLecT/**/(cASE/**/whEn/**/(7127=7127)/**/tHEN/**/1/**/elSE/**/0/**/eNd)),0x717a6a7671)),1)/**/AnD/**/('xCOt'='xCOt 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/aNd/**/extRacTvaluE(1854,coNcaT(0x5c,0x71626b7671,(SeleCT/**/(elT(1854/**/BEtWEen/**/1854/**/aNd/**/1854,1))),0x717a6a7671))#/**/epsw 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/aNd/**/updaTexml(9447,concAT(0x2e,0x71626b7671,(sELEct/**/(Elt(9447/**/beTwEEn/**/9447/**/aNd/**/9447,1))),0x717a6a7671),8368)#/**/TXDd 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/uNiON/**/All/**/SelEcT/**/nUll,nUll,nUll,nUll,nUll,nUll,nUll--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php\")/**/UNiON/**/aLl/**/sELEct/**/nuLl,nuLl# 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/UnION/**/aLL/**/seleCT/**/nULL,nULL,nULL,nULL,nULL,nULL,nULL,nULL,nULL# 1 1
+https://rccbengaluru.com:443/projectdetails.php')/**/UNIoN/**/AlL/**/sEleCT/**/NUll,NUll,NUll,NUll,NUll,NUll,NUll--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php')/**/And/**/eXTRACTValuE(1854,cONcAt(0x5c,0x71626b7671,(sElecT/**/(ElT(1854=1854,1))),0x717a6a7671))/**/And/**/('aFiX'/**/liKE/**/'aFiX 1 1
+https://rccbengaluru.com:443/projectdetails.php')))/**/UnIOn/**/alL/**/sELECT/**/NulL,NulL,NulL,NulL,NulL,NulL,NulL,NulL,NulL,NulL# 1 1
+https://rccbengaluru.com:443/projectdetails.php%'/**/prOceDURE/**/aNalYSE(EXtRACTVAluE(7127,cOncat(0x5c,0x71626b7671,(sEleCT/**/(CAse/**/whEn/**/(7127=7127)/**/TheN/**/1/**/ELSe/**/0/**/eNd)),0x717a6a7671)),1)/**/And/**/'mgnD%'='mgnD 1 1
+https://rccbengaluru.com:443/projectdetails.php')))/**/UNiOn/**/All/**/sELect/**/NUlL,NUlL,NUlL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php))/**/uNION/**/ALl/**/sElEcT/**/nUll,nUll,nUll,nUll,nUll,nUll,nUll,nUll,nUll,nUll# 1 1
+https://rccbengaluru.com:443/projectdetails.php)/**/uniON/**/aLL/**/sELecT/**/NuLl,NuLl,NuLl,NuLl--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php\"/**/unIoN/**/aLl/**/sELEct/**/nULL,nULL,nULL,nULL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php)/**/UniOn/**/alL/**/SeleCt/**/nUll,nUll,nUll,nUll,nUll--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/UnION/**/aLL/**/selEcT/**/nuLl,nuLl,nuLl,nuLl,nuLl,nuLl,nuLl# 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/uNioN/**/ALl/**/seLecT/**/nulL,nulL,nulL,nulL,nulL,nulL,nulL,nulL,nulL,nulL# 1 1
+https://rccbengaluru.com:443/projectdetails.php\")/**/UnIon/**/All/**/sELECt/**/nULl,nULl,nULl,nULl,nULl,nULl,nULl,nULl,nULl,nULl--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php'))/**/UNion/**/AlL/**/sElECt/**/NuLL,NuLL,NuLL,NuLL,NuLL# 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/UnIoN/**/All/**/sELEcT/**/NulL,NulL,NulL,NulL,NulL,NulL,NulL,NulL,NulL# 1 1
+https://rccbengaluru.com:443/projectdetails.php\"/**/uNioN/**/AlL/**/SELeCT/**/nULL,nULL,nULL,nULL,nULL,nULL,nULL,nULL,nULL# 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/UNIon/**/aLL/**/SeLEct/**/nULl,nULl,nULl,nULl,nULl,nULl,nULl,nULl# 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/uNIoN/**/aLl/**/seLEct/**/nULl,nULl,nULl,nULl,nULl# 1 1
+https://rccbengaluru.com:443/projectdetails.php'))/**/UniON/**/aLl/**/sElecT/**/NUlL,NUlL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php\"/**/uNIOn/**/ALl/**/seLecT/**/nULl,nULl,nULl,nULl,nULl,nULl,nULl,nULl,nULl,nULl# 1 1
+https://rccbengaluru.com:443/projectdetails.php'))/**/UNiON/**/AlL/**/SelecT/**/nuLL,nuLL,nuLL,nuLL,nuLL,nuLL,nuLL# 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/UNiON/**/aLL/**/selECT/**/NUll,NUll,NUll,NUll,NUll,NUll,NUll--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php\"))/**/uNIoN/**/alL/**/SelECt/**/nuLL,nuLL,nuLL,nuLL,nuLL,nuLL,nuLL,nuLL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php\"))/**/uniON/**/AlL/**/SELEct/**/nuLL,nuLL,nuLL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/And/**/roW(5818,5331)/**/NoT/**/bETWEeN/**/0/**/And/**/(SeLECT/**/Count(*),CoNcaT(0x71626b7671,(SeLECT/**/(ELt(5818=5818,1))),0x717a6a7671,floOr(RAnd(0)*2))x/**/FrOM/**/(SeLECT/**/5103/**/unION/**/SeLECT/**/9541/**/unION/**/SeLECT/**/2598/**/unION/**/SeLECT/**/1290)a/**/grouP/**/bY/**/x) 1 1
+https://rccbengaluru.com:443/projectdetails.php)/**/aND/**/(sELeCt/**/3744/**/FROm(sELeCt/**/COunt(*),coNCaT(0x71626b7671,(sELeCt/**/(Elt(3744/**/bEtwEen/**/3744/**/aND/**/3744,1))),0x717a6a7671,fLOor(RaND(0)*2))x/**/FROm/**/INFORMATION_SCHEMA.PLUGINS/**/gRoUP/**/bY/**/x)a)--/**/Axkw 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/UnIOn/**/ALl/**/sElEcT/**/NuLl,NuLl,NuLl,NuLl,NuLl,NuLl,NuLl,NuLl,NuLl--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php\"/**/uniON/**/All/**/SeLECT/**/NUlL,NUlL,NUlL,NUlL,NUlL,NUlL,NUlL,NUlL# 1 1
+https://rccbengaluru.com:443/projectdetails.php'))/**/uNIoN/**/All/**/SElECt/**/nUll,nUll,nUll,nUll,nUll--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/unIOn/**/All/**/SELect/**/Null,Null,Null# 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/uNiON/**/ALl/**/SeLecT/**/NUlL,NUlL,NUlL,NUlL,NUlL,NUlL,NUlL,NUlL,NUlL,NUlL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php\")/**/UniOn/**/alL/**/seLEcT/**/NUll,NUll,NUll,NUll,NUll# 1 1
+https://rccbengaluru.com:443/projectdetails.php%'/**/UniOn/**/All/**/SElECT/**/nULL,nULL,nULL# 1 1
+https://rccbengaluru.com:443/projectdetails.php')))/**/AnD/**/rOw(5818,5331)>(SEleCT/**/cOuNt(*),Concat(0x71626b7671,(SEleCT/**/(ELt(5818=5818,1))),0x717a6a7671,FLOor(RAnD(0)*2))x/**/FrOM/**/(SEleCT/**/5103/**/UNIon/**/SEleCT/**/9541/**/UNIon/**/SEleCT/**/2598/**/UNIon/**/SEleCT/**/1290)a/**/GroUP/**/bY/**/x)/**/AnD/**/((('fcoG'='fcoG 1 1
+https://rccbengaluru.com:443/projectdetails.php')/**/unIoN/**/All/**/SELect/**/nULl,nULl,nULl,nULl,nULl,nULl,nULl,nULl,nULl,nULl# 1 1
+https://rccbengaluru.com:443/projectdetails.php'))/**/uNioN/**/alL/**/SELect/**/nUll,nUll,nUll,nUll,nUll--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/PROCEdURE/**/ANaLYsE(ExTRaCTValUE(7127,CoNCAt(0x5c,0x71626b7671,(SeLect/**/(Case/**/WHen/**/(7127=7127)/**/tHEN/**/1/**/eLSE/**/0/**/ENd)),0x717a6a7671)),1)/**/aND/**/'xdAX'/**/LikE/**/'xdAX 1 1
+https://rccbengaluru.com:443/projectdetails.php\"))/**/anD/**/(SELECt/**/3744/**/fROm(SELECt/**/cOunT(*),coNCaT(0x71626b7671,(SELECt/**/(ElT(3744=3744,1))),0x717a6a7671,Floor(RanD(0)*2))x/**/fROm/**/INFORMATION_SCHEMA.PLUGINS/**/gRoup/**/bY/**/x)a)/**/anD/**/((\"BknH\"=\"BknH 1 1
+https://rccbengaluru.com:443/projectdetails.php\"/**/uNion/**/alL/**/SelECt/**/NUlL,NUlL,NUlL,NUlL,NUlL,NUlL,NUlL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php\"/**/And/**/Row(5818,5331)>(SeLEct/**/coUNt(*),cONcat(0x71626b7671,(SeLEct/**/(eLt(5818=5818,1))),0x717a6a7671,fLooR(RAnd(0)*2))x/**/FRoM/**/(SeLEct/**/5103/**/uniON/**/SeLEct/**/9541/**/uniON/**/SeLEct/**/2598/**/uniON/**/SeLEct/**/1290)a/**/GRoup/**/By/**/x)/**/And/**/\"UxQo\"=\"UxQo 1 1
+https://rccbengaluru.com:443/projectdetails.php\")/**/And/**/UpDATEXmL(9447,coNcAt(0x2e,0x71626b7671,(selecT/**/(ElT(9447=9447,1))),0x717a6a7671),8368)/**/And/**/(\"LCSv\"/**/LIke/**/\"LCSv 1 1
+https://rccbengaluru.com:443/projectdetails.php)/**/And/**/upDATEXMl(9447,cOnCAT(0x2e,0x71626b7671,(selEcT/**/(ELt(9447/**/bEtwEEN/**/9447/**/And/**/9447,1))),0x717a6a7671),8368)--/**/eLRc 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/uNioN/**/aLL/**/selECT/**/Null,Null,Null,Null,Null,Null,Null,Null# 1 1
+https://rccbengaluru.com:443/projectdetails.php'))/**/unIon/**/aLl/**/SELEct/**/NUll,NUll,NUll,NUll,NUll,NUll,NUll,NUll# 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/uNIOn/**/aLl/**/SeLEcT/**/NuLl,NuLl,NuLl,NuLl,NuLl,NuLl,NuLl,NuLl,NuLl,NuLl--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php\"/**/anD/**/upDAteXmL(9447,coNcaT(0x2e,0x71626b7671,(selEct/**/(eLt(9447=9447,1))),0x717a6a7671),8368)/**/anD/**/\"JzII\"=\"JzII 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/aND/**/roW(5818,5331)>(sEleCt/**/CoUNT(*),COnCAT(0x71626b7671,(sEleCt/**/(elT(5818=5818,1))),0x717a6a7671,flOOr(RaND(0)*2))x/**/frOM/**/(sEleCt/**/5103/**/uNIoN/**/sEleCt/**/9541/**/uNIoN/**/sEleCt/**/2598/**/uNIoN/**/sEleCt/**/1290)a/**/grOUP/**/bY/**/x)/**/aND/**/'TQEX'/**/LikE/**/'TQEX 1 1
+https://rccbengaluru.com:443/projectdetails.php')/**/And/**/(SELect/**/3744/**/FROm(SELect/**/cOUnT(*),cONCat(0x71626b7671,(SELect/**/(elT(3744=3744,1))),0x717a6a7671,FloOR(RAnd(0)*2))x/**/FROm/**/INFORMATION_SCHEMA.PLUGINS/**/groUP/**/By/**/x)a)/**/And/**/('kMgO'/**/Like/**/'kMgO 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/UNIoN/**/aLl/**/seLECT/**/nUlL,nUlL,nUlL,nUlL,nUlL,nUlL,nUlL,nUlL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/UniOn/**/aLl/**/seLecT/**/NUll,NUll,NUll,NUll,NUll# 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/unIoN/**/AlL/**/seLECt/**/nULL,nULL,nULL,nULL,nULL,nULL,nULL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php\"/**/UNioN/**/All/**/seLECT/**/nulL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php))/**/UNIoN/**/ALl/**/sELECt/**/NulL,NulL,NulL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/uNIon/**/ALl/**/sELECt/**/nuLl# 1 1
+https://rccbengaluru.com:443/projectdetails.php\")/**/UnioN/**/ALl/**/SelEcT/**/NuLl,NuLl,NuLl--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php\"))/**/aNd/**/UpdAteXML(9447,conCat(0x2e,0x71626b7671,(SElect/**/(eLt(9447=9447,1))),0x717a6a7671),8368)/**/aNd/**/((\"rMsS\"=\"rMsS 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/uNiON/**/ALl/**/seLECT/**/nUll,nUll,nUll,nUll# 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/UnIoN/**/aLl/**/sEleCt/**/nUll,nUll--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/UnioN/**/aLl/**/SeLecT/**/nuLL,nuLL,nuLL,nuLL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/uNIOn/**/All/**/seLEct/**/nulL,nulL,nulL,nulL,nulL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php\")/**/UniOn/**/ALl/**/SEleCT/**/NuLl,NuLl,NuLl# 1 1
+https://rccbengaluru.com:443/projectdetails.php)))/**/UniOn/**/alL/**/sElECt/**/nULL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/unION/**/aLL/**/SeLect/**/nulL,nulL,nulL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php'))/**/unIoN/**/AlL/**/SElect/**/Null,Null,Null--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/And/**/(sELEcT/**/3744/**/froM(sELEcT/**/cOunt(*),coNcAt(0x71626b7671,(sELEcT/**/(elT(3744/**/beTWeEN/**/3744/**/And/**/3744,1))),0x717a6a7671,flOOr(RAnd(0)*2))x/**/froM/**/INFORMATION_SCHEMA.PLUGINS/**/gROUP/**/bY/**/x)a)#/**/ZvBQ 1 1
+https://rccbengaluru.com:443/projectdetails.php')/**/UniON/**/alL/**/SelEcT/**/Null,Null,Null,Null,Null,Null,Null,Null,Null,Null--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php\"/**/PrOceDuRe/**/aNALySe(ExTraCtvAluE(7127,COncat(0x5c,0x71626b7671,(sElect/**/(CAse/**/whEn/**/(7127=7127)/**/tHEn/**/1/**/ElsE/**/0/**/eND)),0x717a6a7671)),1)/**/ANd/**/\"Onov\"=\"Onov 1 1
+https://rccbengaluru.com:443/projectdetails.php\")/**/UniON/**/All/**/SeLeCt/**/NULl,NULl,NULl,NULl,NULl,NULl,NULl--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php\"/**/uNiON/**/alL/**/seLEct/**/NuLl,NuLl,NuLl,NuLl,NuLl,NuLl,NuLl,NuLl,NuLl,NuLl# 1 1
+https://rccbengaluru.com:443/projectdetails.php\")/**/anD/**/EXtRactValue(1854,CONCAt(0x5c,0x71626b7671,(sELEcT/**/(elT(1854=1854,1))),0x717a6a7671))/**/anD/**/(\"aZzE\"=\"aZzE 1 1
+https://rccbengaluru.com:443/projectdetails.php)))/**/uniOn/**/aLl/**/SElEcT/**/nUlL,nUlL,nUlL,nUlL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php')/**/ANd/**/EXtRACTValuE(1854,COncAT(0x5c,0x71626b7671,(sEleCT/**/(eLt(1854=1854,1))),0x717a6a7671))/**/ANd/**/('kXUd'='kXUd 1 1
+https://rccbengaluru.com:443/projectdetails.php\")/**/ANd/**/upDAtEXml(9447,coNCAT(0x2e,0x71626b7671,(seLecT/**/(eLt(9447=9447,1))),0x717a6a7671),8368)/**/ANd/**/(\"Zalx\"=\"Zalx 1 1
+https://rccbengaluru.com:443/projectdetails.php)/**/proCeDuRe/**/AnalySe(EXtRAcTvALUe(7127,CONcaT(0x5c,0x71626b7671,(SElecT/**/(cAsE/**/whEn/**/(7127=7127)/**/THeN/**/1/**/ElsE/**/0/**/ENd)),0x717a6a7671)),1)/**/ANd/**/(4176/**/beTwEeN/**/4176/**/ANd/**/4176 1 1
+https://rccbengaluru.com:443/projectdetails.php\"/**/UnIoN/**/All/**/sEleCt/**/NUll,NUll,NUll,NUll# 1 1
+https://rccbengaluru.com:443/projectdetails.php)/**/UniON/**/ALl/**/sElEct/**/nuLL# 1 1
+https://rccbengaluru.com:443/projectdetails.php\")/**/UniOn/**/aLL/**/sElect/**/nUll,nUll,nUll,nUll,nUll--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php%'/**/UnIOn/**/alL/**/sElECt/**/NuLl,NuLl# 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/unIOn/**/aLL/**/sELEct/**/nuLl--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/PrOcedURE/**/aNALYse(EXtrACTValuE(7127,cONcAT(0x5c,0x71626b7671,(SeLeCt/**/(cAse/**/When/**/(7127=7127)/**/THeN/**/1/**/ElSE/**/0/**/enD)),0x717a6a7671)),1)--/**/lqpk 1 1
+https://rccbengaluru.com:443/projectdetails.php%'/**/UnIOn/**/aLl/**/sELECT/**/NUll# 1 1
+https://rccbengaluru.com:443/projectdetails.php\"))/**/aND/**/eXtRacTValue(1854,CONCAt(0x5c,0x71626b7671,(SEleCt/**/(ElT(1854=1854,1))),0x717a6a7671))/**/aND/**/((\"OkCj\"=\"OkCj 1 1
+https://rccbengaluru.com:443/projectdetails.php)/**/aND/**/extRAcTVaLUE(1854,CONcAT(0x5c,0x71626b7671,(sELeCT/**/(elT(1854/**/BEtWeEn/**/1854/**/aND/**/1854,1))),0x717a6a7671))--/**/uzzS 1 1
+https://rccbengaluru.com:443/projectdetails.php\"))/**/uniON/**/aLl/**/selecT/**/nULl,nULl,nULl,nULl,nULl,nULl--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php\"))/**/prOcEDUre/**/aNaLYsE(ExTRaCTValUe(7127,COncAt(0x5c,0x71626b7671,(SELect/**/(casE/**/WHEn/**/(7127=7127)/**/thEn/**/1/**/eLSE/**/0/**/ENd)),0x717a6a7671)),1)/**/aNd/**/((\"TYWk\"=\"TYWk 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/uNion/**/alL/**/SelEcT/**/Null,Null,Null,Null,Null,Null--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php))/**/UniOn/**/aLL/**/SeLeCT/**/NuLl,NuLl,NuLl,NuLl,NuLl,NuLl,NuLl,NuLl,NuLl,NuLl--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php)))/**/UNiON/**/ALl/**/SElECT/**/nUll,nUll,nUll,nUll,nUll,nUll,nUll,nUll# 1 1
+https://rccbengaluru.com:443/projectdetails.php\"))/**/UNIOn/**/aLl/**/SElect/**/NUll,NUll,NUll,NUll--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php)/**/UNiOn/**/ALl/**/SEleCt/**/NULl,NULl,NULl,NULl,NULl,NULl,NULl,NULl# 1 1
+https://rccbengaluru.com:443/projectdetails.php\"))/**/uNIoN/**/aLL/**/SELeCt/**/NUll,NUll# 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/uNIoN/**/ALl/**/SELect/**/NUll,NUll,NUll,NUll,NUll,NUll,NUll# 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/unIon/**/alL/**/SelECT/**/NULl,NULl# 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/UnioN/**/All/**/selECt/**/NuLl,NuLl,NuLl,NuLl,NuLl,NuLl,NuLl,NuLl--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/UnIoN/**/aLl/**/seleCT/**/nUlL,nUlL,nUlL# 1 1
+https://rccbengaluru.com:443/projectdetails.php')))/**/uNion/**/All/**/SeleCt/**/NUll,NUll,NUll,NUll,NUll,NUll,NUll--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php%'/**/UnioN/**/aLL/**/sElEct/**/NuLl,NuLl,NuLl,NuLl--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php\")/**/unIoN/**/AlL/**/SELeCT/**/nuLL,nuLL,nuLL,nuLL# 1 1
+https://rccbengaluru.com:443/projectdetails.php\")/**/unION/**/ALl/**/selecT/**/nuLl,nuLl,nuLl,nuLl,nuLl,nuLl,nuLl,nuLl,nuLl--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/unioN/**/All/**/seLEct/**/nuLl,nuLl,nuLl,nuLl,nuLl,nuLl,nuLl,nuLl,nuLl# 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/PROceduRE/**/ANALYSe(extracTVaLuE(7127,coNcaT(0x5c,0x71626b7671,(sELecT/**/(CAse/**/wHen/**/(7127=7127)/**/ThEn/**/1/**/elSE/**/0/**/eND)),0x717a6a7671)),1)#/**/KWDn 1 1
+https://rccbengaluru.com:443/projectdetails.php)/**/uNioN/**/ALl/**/SElEct/**/NuLl,NuLl,NuLl# 1 1
+https://rccbengaluru.com:443/projectdetails.php\")/**/anD/**/(SeLEcT/**/3744/**/frOm(SeLEcT/**/CoUnt(*),coNCAT(0x71626b7671,(SeLEcT/**/(eLt(3744=3744,1))),0x717a6a7671,FlOOr(RanD(0)*2))x/**/frOm/**/INFORMATION_SCHEMA.PLUGINS/**/GrOuP/**/bY/**/x)a)/**/anD/**/(\"TWUg\"=\"TWUg 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/unION/**/alL/**/selEct/**/NULl# 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/And/**/RoW(5818,5331)/**/noT/**/BEtWeen/**/0/**/And/**/(SeLeCt/**/CoUNt(*),COncaT(0x71626b7671,(SeLeCt/**/(eLT(5818=5818,1))),0x717a6a7671,FLoor(RAnd(0)*2))x/**/fROm/**/(SeLeCt/**/5103/**/uNion/**/SeLeCt/**/9541/**/uNion/**/SeLeCt/**/2598/**/uNion/**/SeLeCt/**/1290)a/**/gRoUp/**/bY/**/x)--/**/CyWc 1 1
+https://rccbengaluru.com:443/projectdetails.php'))/**/unIOn/**/AlL/**/SeLECT/**/nulL,nulL,nulL,nulL# 1 1
+https://rccbengaluru.com:443/projectdetails.php%'/**/aNd/**/exTRaCtvaLUE(1854,ConCaT(0x5c,0x71626b7671,(sElect/**/(eLt(1854=1854,1))),0x717a6a7671))/**/aNd/**/'BbuS%'='BbuS 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/UnIoN/**/All/**/SELeCt/**/nuLl,nuLl,nuLl,nuLl,nuLl,nuLl,nuLl,nuLl# 1 1
+https://rccbengaluru.com:443/projectdetails.php\"/**/aNd/**/(SelecT/**/3744/**/FRom(SelecT/**/COUnT(*),CoNCat(0x71626b7671,(SelecT/**/(elT(3744=3744,1))),0x717a6a7671,FLOor(RaNd(0)*2))x/**/FRom/**/INFORMATION_SCHEMA.PLUGINS/**/GRoUp/**/By/**/x)a)/**/aNd/**/\"mOgo\"/**/Like/**/\"mOgo 1 1
+https://rccbengaluru.com:443/projectdetails.php%'/**/unIOn/**/aLL/**/SeLecT/**/nulL,nulL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php)))/**/UNion/**/ALl/**/SelecT/**/NULl,NULl,NULl,NULl,NULl,NULl--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/uniOn/**/aLl/**/SeLeCT/**/NuLL,NuLL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/UNIOn/**/AlL/**/SELect/**/nUll,nUll,nUll,nUll,nUll,nUll,nUll,nUll,nUll# 1 1
+https://rccbengaluru.com:443/projectdetails.php\"))/**/aNd/**/ROw(5818,5331)>(SELect/**/COUnT(*),cONcAt(0x71626b7671,(SELect/**/(eLt(5818=5818,1))),0x717a6a7671,FLOor(RaNd(0)*2))x/**/frOM/**/(SELect/**/5103/**/UNiOn/**/SELect/**/9541/**/UNiOn/**/SELect/**/2598/**/UNiOn/**/SELect/**/1290)a/**/gRoup/**/By/**/x)/**/aNd/**/((\"BNNl\"=\"BNNl 1 1
+https://rccbengaluru.com:443/projectdetails.php'))/**/unIOn/**/AlL/**/SElEcT/**/nUlL,nUlL,nUlL,nUlL,nUlL,nUlL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php'))/**/UNIon/**/AlL/**/sELEcT/**/nUll,nUll,nUll,nUll,nUll,nUll,nUll# 1 1
+https://rccbengaluru.com:443/projectdetails.php\"/**/UNIOn/**/aLL/**/sELEcT/**/NuLL,NuLL,NuLL,NuLL,NuLL,NuLL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php\"))/**/uniOn/**/ALl/**/sElect/**/NULl,NULl,NULl# 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/UNiON/**/All/**/SELEcT/**/nUll,nUll,nUll,nUll,nUll,nUll,nUll,nUll# 1 1
+https://rccbengaluru.com:443/projectdetails.php\")/**/UNioN/**/aLL/**/SElEcT/**/nulL,nulL,nulL,nulL,nulL,nulL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php)/**/uniOn/**/aLl/**/SeLeCt/**/NUlL,NUlL,NUlL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php\")/**/unioN/**/alL/**/SeLeCt/**/nuLl,nuLl,nuLl,nuLl,nuLl# 1 1
+https://rccbengaluru.com:443/projectdetails.php)))/**/uNiOn/**/alL/**/sElEcT/**/nUlL,nUlL,nUlL,nUlL,nUlL,nUlL# 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/UnION/**/All/**/seLeCt/**/nULL,nULL,nULL,nULL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/unIOn/**/ALl/**/SELect/**/nuLL,nuLL,nuLL,nuLL# 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/unioN/**/ALl/**/SeLeCT/**/NULl,NULl,NULl# 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/uNiOn/**/aLl/**/SElect/**/nULl# 1 1
+https://rccbengaluru.com:443/projectdetails.php')/**/aNd/**/Row(5818,5331)>(selECT/**/Count(*),CONcaT(0x71626b7671,(selECT/**/(eLT(5818=5818,1))),0x717a6a7671,FLOoR(RaNd(0)*2))x/**/fRoM/**/(selECT/**/5103/**/UnioN/**/selECT/**/9541/**/UnioN/**/selECT/**/2598/**/UnioN/**/selECT/**/1290)a/**/GrouP/**/bY/**/x)/**/aNd/**/('hUba'='hUba 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/UnIoN/**/aLL/**/SeLecT/**/nulL,nulL,nulL,nulL,nulL,nulL,nulL,nulL,nulL# 1 1
+https://rccbengaluru.com:443/projectdetails.php%'/**/uNiON/**/ALl/**/seLeCt/**/NULl,NULl,NULl,NULl,NULl,NULl,NULl,NULl,NULl# 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/AnD/**/eXTRaCtVaLue(1854,CoNCAT(0x5c,0x71626b7671,(sELect/**/(eLT(1854/**/BETwEen/**/1854/**/AnD/**/1854,1))),0x717a6a7671)) 1 1
+https://rccbengaluru.com:443/projectdetails.php)/**/Union/**/AlL/**/sELEct/**/nUlL,nUlL,nUlL,nUlL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php')/**/UniOn/**/All/**/SeleCt/**/nUlL,nUlL,nUlL,nUlL,nUlL,nUlL,nUlL,nUlL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php)))/**/unIOn/**/ALl/**/SeLeCT/**/nUlL,nUlL,nUlL,nUlL,nUlL,nUlL,nUlL,nUlL,nUlL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php'))/**/AnD/**/eXtracTVALUE(1854,coNCAt(0x5c,0x71626b7671,(selEcT/**/(Elt(1854=1854,1))),0x717a6a7671))/**/AnD/**/(('mmrS'='mmrS 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/UnION/**/AlL/**/SeLEcT/**/nulL,nulL,nulL,nulL,nulL# 1 1
+https://rccbengaluru.com:443/projectdetails.php'))/**/uNiOn/**/All/**/SeLecT/**/NULl,NULl,NULl,NULl,NULl,NULl,NULl--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/uNioN/**/aLL/**/SELEcT/**/nULl,nULl,nULl--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php)/**/uNION/**/aLl/**/SeLEcT/**/Null,Null,Null,Null,Null,Null,Null# 1 1
+https://rccbengaluru.com:443/projectdetails.php'))/**/uNioN/**/aLl/**/seleCT/**/nulL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php\")/**/uniOn/**/aLl/**/SeLECT/**/NULl,NULl,NULl,NULl,NULl,NULl,NULl,NULl--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php\"/**/aND/**/extRaCTValuE(1854,COnCAt(0x5c,0x71626b7671,(SeLeCt/**/(ELt(1854=1854,1))),0x717a6a7671))/**/aND/**/\"QveI\"/**/LIkE/**/\"QveI 1 1
+https://rccbengaluru.com:443/projectdetails.php)/**/AnD/**/rOw(5818,5331)>(SELEct/**/couNt(*),CONcat(0x71626b7671,(SELEct/**/(eLt(5818=5818,1))),0x717a6a7671,floOR(RAnD(0)*2))x/**/froM/**/(SELEct/**/5103/**/uNioN/**/SELEct/**/9541/**/uNioN/**/SELEct/**/2598/**/uNioN/**/SELEct/**/1290)a/**/GrOup/**/By/**/x)/**/AnD/**/(3068/**/betWeEn/**/3068/**/AnD/**/3068 1 1
+https://rccbengaluru.com:443/projectdetails.php'))/**/procEDUrE/**/aNaLySe(extractvaLuE(7127,coNCaT(0x5c,0x71626b7671,(selEct/**/(CAse/**/wHen/**/(7127=7127)/**/THeN/**/1/**/eLsE/**/0/**/enD)),0x717a6a7671)),1)/**/aND/**/(('XSaM'/**/LIke/**/'XSaM 1 1
+https://rccbengaluru.com:443/projectdetails.php\"/**/uniON/**/AlL/**/SeleCT/**/NUll,NUll,NUll,NUll,NUll,NUll,NUll--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php%'/**/unioN/**/aLL/**/seLeCT/**/nULL,nULL,nULL,nULL,nULL,nULL,nULL,nULL,nULL,nULL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php))/**/UNion/**/AlL/**/SELeCt/**/NUll,NUll,NUll,NUll# 1 1
+https://rccbengaluru.com:443/projectdetails.php')/**/unioN/**/aLl/**/SeLect/**/NuLl,NuLl,NuLl,NuLl,NuLl,NuLl,NuLl,NuLl,NuLl,NuLl# 1 1
+https://rccbengaluru.com:443/projectdetails.php')))/**/uniON/**/aLl/**/sElEcT/**/nUlL,nUlL,nUlL,nUlL,nUlL,nUlL,nUlL,nUlL,nUlL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/UnIoN/**/aLl/**/sElECT/**/nulL,nulL,nulL,nulL,nulL,nulL,nulL,nulL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/anD/**/UpdateXML(9447,COnCAT(0x2e,0x71626b7671,(sElect/**/(ELt(9447/**/BetWEeN/**/9447/**/anD/**/9447,1))),0x717a6a7671),8368)--/**/frAQ 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/unIoN/**/AlL/**/sElECt/**/NuLL,NuLL,NuLL,NuLL,NuLL,NuLL,NuLL,NuLL,NuLL,NuLL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php)))/**/unioN/**/aLl/**/seLECT/**/NUll,NUll,NUll,NUll,NUll--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php'))/**/uNiON/**/alL/**/sELeCT/**/NUlL,NUlL,NUlL# 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/uNion/**/All/**/SEleCT/**/nULl,nULl,nULl,nULl,nULl,nULl,nULl# 1 1
+https://rccbengaluru.com:443/projectdetails.php')/**/UNion/**/alL/**/SElecT/**/nUll,nUll,nUll,nUll,nUll,nUll,nUll,nUll# 1 1
+https://rccbengaluru.com:443/projectdetails.php)))/**/unioN/**/aLl/**/sELeCt/**/nulL,nulL,nulL,nulL,nulL,nulL,nulL# 1 1
+https://rccbengaluru.com:443/projectdetails.php)/**/uNIOn/**/aLl/**/SELEcT/**/NUll,NUll,NUll,NUll,NUll,NUll,NUll,NUll,NUll--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php)))/**/AnD/**/UPDATExml(9447,COncat(0x2e,0x71626b7671,(sElECT/**/(elT(9447=9447,1))),0x717a6a7671),8368)/**/AnD/**/(((5283/**/bEtWEEn/**/5283/**/AnD/**/5283 1 1
+https://rccbengaluru.com:443/projectdetails.php)))/**/ProcedURE/**/anAlysE(ExtrACTVALuE(7127,Concat(0x5c,0x71626b7671,(sEleCT/**/(CAsE/**/WhEN/**/(7127=7127)/**/Then/**/1/**/ElSe/**/0/**/eND)),0x717a6a7671)),1)/**/And/**/(((5355/**/bEtWeeN/**/5355/**/And/**/5355 1 1
+https://rccbengaluru.com:443/projectdetails.php\"))/**/uniON/**/AlL/**/seLECt/**/NulL,NulL,NulL,NulL,NulL,NulL,NulL# 1 1
+https://rccbengaluru.com:443/projectdetails.php')))/**/UnION/**/AlL/**/seLecT/**/Null,Null,Null# 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/uNiOn/**/AlL/**/SELECt/**/nuLL,nuLL,nuLL,nuLL,nuLL,nuLL,nuLL,nuLL,nuLL,nuLL# 1 1
+https://rccbengaluru.com:443/projectdetails.php)/**/Union/**/aLl/**/sELeCT/**/Null,Null,Null# 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/uNIon/**/aLL/**/SeleCt/**/nUlL,nUlL,nUlL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php)))/**/UNiOn/**/AlL/**/SELEcT/**/nuLL,nuLL,nuLL,nuLL,nuLL,nuLL,nuLL,nuLL,nuLL,nuLL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/anD/**/Row(5818,5331)/**/nOt/**/beTwEEn/**/0/**/anD/**/(SeLEct/**/COunt(*),ConCaT(0x71626b7671,(SeLEct/**/(ELt(5818=5818,1))),0x717a6a7671,FLOoR(RanD(0)*2))x/**/fROM/**/(SeLEct/**/5103/**/unIoN/**/SeLEct/**/9541/**/unIoN/**/SeLEct/**/2598/**/unIoN/**/SeLEct/**/1290)a/**/GROuP/**/By/**/x)--/**/AxRV 1 1
+https://rccbengaluru.com:443/projectdetails.php'))/**/anD/**/Row(5818,5331)>(seLeCt/**/couNt(*),COncAT(0x71626b7671,(seLeCt/**/(Elt(5818=5818,1))),0x717a6a7671,fLOoR(RanD(0)*2))x/**/FRom/**/(seLeCt/**/5103/**/uNIon/**/seLeCt/**/9541/**/uNIon/**/seLeCt/**/2598/**/uNIon/**/seLeCt/**/1290)a/**/GrOup/**/bY/**/x)/**/anD/**/(('Ruuy'='Ruuy 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/uniOn/**/aLL/**/sElEcT/**/NUlL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/Union/**/alL/**/SElEcT/**/NuLl,NuLl,NuLl,NuLl,NuLl--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php')/**/uNIon/**/ALl/**/SElecT/**/NUlL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php\"))/**/unIon/**/All/**/selecT/**/NULl,NULl,NULl,NULl,NULl,NULl,NULl,NULl,NULl,NULl# 1 1
+https://rccbengaluru.com:443/projectdetails.php'))/**/UnIoN/**/All/**/SELECt/**/nULL,nULL# 1 1
+https://rccbengaluru.com:443/projectdetails.php\"/**/UNIoN/**/alL/**/seleCt/**/nuLL,nuLL,nuLL,nuLL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php\")/**/And/**/(seLEct/**/3744/**/FrOm(seLEct/**/cOuNt(*),coNcat(0x71626b7671,(seLEct/**/(ElT(3744=3744,1))),0x717a6a7671,FlooR(RAnd(0)*2))x/**/FrOm/**/INFORMATION_SCHEMA.PLUGINS/**/GrOup/**/By/**/x)a)/**/And/**/(\"pCxR\"/**/lIke/**/\"pCxR 1 1
+https://rccbengaluru.com:443/projectdetails.php'))/**/UniON/**/All/**/SeLECT/**/NuLL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php\"/**/uNiON/**/alL/**/sELect/**/nuLl,nuLl,nuLl# 1 1
+https://rccbengaluru.com:443/projectdetails.php\"/**/UNiOn/**/alL/**/sELEct/**/NULl,NULl,NULl# 1 1
+https://rccbengaluru.com:443/projectdetails.php)/**/unioN/**/AlL/**/sElect/**/NulL,NulL,NulL,NulL,NulL# 1 1
+https://rccbengaluru.com:443/projectdetails.php)))/**/uniOn/**/alL/**/seleCt/**/nULL,nULL# 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/AnD/**/roW(5818,5331)>(SELeCt/**/COuNt(*),CONCat(0x71626b7671,(SELeCt/**/(eLT(5818=5818,1))),0x717a6a7671,fLooR(RAnD(0)*2))x/**/froM/**/(SELeCt/**/5103/**/UNiON/**/SELeCt/**/9541/**/UNiON/**/SELeCt/**/2598/**/UNiON/**/SELeCt/**/1290)a/**/gROup/**/bY/**/x)/**/oR/**/'Tebg'='VzNZ 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/UnIon/**/AlL/**/sELEcT/**/nUlL,nUlL,nUlL# 1 1
+https://rccbengaluru.com:443/projectdetails.php\")/**/aNd/**/RoW(5818,5331)>(SeleCt/**/cOuNt(*),cOnCAT(0x71626b7671,(SeleCt/**/(eLT(5818=5818,1))),0x717a6a7671,FlOOR(RaNd(0)*2))x/**/FroM/**/(SeleCt/**/5103/**/unIon/**/SeleCt/**/9541/**/unIon/**/SeleCt/**/2598/**/unIon/**/SeleCt/**/1290)a/**/GRoUP/**/By/**/x)/**/aNd/**/(\"FWef\"/**/LikE/**/\"FWef 1 1
+https://rccbengaluru.com:443/projectdetails.php)/**/UNIOn/**/aLl/**/seLecT/**/Null,Null,Null,Null,Null,Null,Null--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/UNion/**/aLl/**/SelEcT/**/nULl,nULl,nULl,nULl,nULl,nULl,nULl,nULl,nULl--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php)/**/uniOn/**/aLL/**/SeLecT/**/NuLl,NuLl,NuLl,NuLl,NuLl# 1 1
+https://rccbengaluru.com:443/projectdetails.php)/**/uNion/**/All/**/SEleCt/**/nUlL,nUlL,nUlL,nUlL,nUlL,nUlL,nUlL,nUlL,nUlL# 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/unIon/**/alL/**/SelEct/**/Null,Null,Null,Null,Null--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php\")/**/uniON/**/aLL/**/SeLEcT/**/nUlL--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php%'/**/AnD/**/roW(5818,5331)>(SelEct/**/COUnt(*),coNCaT(0x71626b7671,(SelEct/**/(Elt(5818=5818,1))),0x717a6a7671,flOor(RAnD(0)*2))x/**/FrOM/**/(SelEct/**/5103/**/UnIOn/**/SelEct/**/9541/**/UnIOn/**/SelEct/**/2598/**/UnIOn/**/SelEct/**/1290)a/**/gROUP/**/By/**/x)/**/AnD/**/'jdAk%'='jdAk 1 1
+https://rccbengaluru.com:443/projectdetails.php'))/**/UNiON/**/alL/**/SeleCT/**/nUlL,nUlL,nUlL,nUlL# 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/UNiOn/**/All/**/selECT/**/NuLL,NuLL,NuLL,NuLL,NuLL,NuLL,NuLL,NuLL# 1 1
+https://rccbengaluru.com:443/projectdetails.php/**/aNd/**/(sELEcT/**/3744/**/fRoM(sELEcT/**/CouNT(*),COnCat(0x71626b7671,(sELEcT/**/(eLt(3744/**/betWEEN/**/3744/**/aNd/**/3744,1))),0x717a6a7671,FLoOR(RaNd(0)*2))x/**/fRoM/**/INFORMATION_SCHEMA.PLUGINS/**/GROup/**/bY/**/x)a) 1 1
+https://rccbengaluru.com:443/projectdetails.php'/**/UniON/**/aLL/**/seLECt/**/NULl,NULl,NULl,NULl,NULl,NULl--/**/- 1 1
+https://rccbengaluru.com:443/projectdetails.php%'/**/unION/**/alL/**/sElect/**/Null,Null,Null,Null,Null# 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+406 3582 809532
+206 15 2600328
+404 733 0
+409 44 3652
+400 52 2704
+401 135 6220
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 89
+/config/aws.yml 1 -
+/debug/default/view 6 -
+/qa/ 1 -
+/jgl4r3gs.php 3 https://www.rccbengaluru.com/jgl4r3gs.php
+/.aws/credentials 1 -
+/assets/icon/apple-touch-icon-158-precomposed.png 49 https://rccbengaluru.com/project.php
+/mfbtv8ui.php 3 https://www.rccbengaluru.com/mfbtv8ui.php
+/server-status 5 -
+/wp-includes/class-wordpress-license.php 7 -
+/s/3136322e3231342e38302e3430/_/ 3 -
+/s/0343e20383e2431323e2236313/_/ 2 -
+/works/ongoingproject.php 1 -
+/api/v2/cmdb/system/admin/admin 3 -
+/.DS_Store 6 -
+/02teaw81.php 3 https://www.rccbengaluru.com/02teaw81.php
+/14ur8ccd.php 3 https://www.rccbengaluru.com/14ur8ccd.php
+/wp-includes/pomo/umpomone.php 1 -
+/wp-content/plugins/ioptimization/IOptimize.php 6 www.google.com
+/0x7kvtgx.php 3 https://www.rccbengaluru.com/0x7kvtgx.php
+/planner/project.php 1 -
+/g34hbmnv.php 3 https://www.rccbengaluru.com/g34hbmnv.php
+/.git/config 7 -
+/1index.php 2 www.google.com
+/wp-includes/wp-system-cloud.php 5 -
+/contact/details.php 1 -
+/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application 6 -
+/wp-content/themes/seotheme/mar.php 2 www.google.com
+/qa/page-services-detail.php 6 -
+/wp-cron.php 1 www.google.com
+/config.json 5 -
+/wp-activate.php 1 www.google.com
+/phpinfo.php 1 -
+/info.rccbengaluru@gmail.com 1 -
+/__/hosting/verification 19 -
+/planner/index.php 1 -
+/about 5 -
+/application/config/sms_settings.php 1 -
+/yecuebmj.php 3 https://www.rccbengaluru.com/yecuebmj.php
+/qa/details.php 1 -
+/f34xw14l.php 3 https://www.rccbengaluru.com/f34xw14l.php
+/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js 277 https://rccbengaluru.com/project.php
+/zvvpnui3.php 3 https://www.rccbengaluru.com/zvvpnui3.php
+/wp-content/plugins/indeed-membership-pro/classes/PaymentGateways/mollie/vendor/phpunit/phpunit/phpunit.xsd 1 -
+/works/project.php 1 -
+/telescope/requests 5 -
+/gpsxto2n.php 3 https://www.rccbengaluru.com/gpsxto2n.php
+/config.js 1 -
+/planner/featuredproject.php 1 -
+/natural/ 1 -
+/qa/featuredproject.php 1 -
+/wp-admin/js/widgets/wp-login.php 5 -
+/login.action 5 -
+/n4vb68iy.php 3 https://www.rccbengaluru.com/n4vb68iy.php
+/info.php 6 -
+/api/search 5 -
+/static/admin/javascript/hetong.js 1 -
+/bk7bejil.php 3 https://www.rccbengaluru.com/bk7bejil.php
+/clb2yk1z.php 3 https://www.rccbengaluru.com/clb2yk1z.php
+/wp-content/uploads/2014/04/project.php 2 -
+/9wk50thc.php 4 https://www.rccbengaluru.com/9wk50thc.php
+/application/config/s3.php 1 -
+/.well-known/security.txt 1 -
+/pdc3suvn.php 3 https://www.rccbengaluru.com/pdc3suvn.php
+/works/details.php 1 -
+/wp-includes/shell20211028.php 2 www.google.com
+/8kb02180.php 4 https://www.rccbengaluru.com/8kb02180.php
+/2xss3eey.php 3 https://www.rccbengaluru.com/2xss3eey.php
+/wp-signup.php 1 www.google.com
+/wp-content/themes/seotheme/db.php 8 www.google.com
+/aws.yml 1 -
+/projectdetails.php 62 https://rccbengaluru.com:443/projectdetails.php
+/.well-known/traffic-advice 2 -
+/v2/_catalog 5 -
+/robots.txt 87 -
+/wp-includes/class-index-wordpress.php 7 -
+/planner/projectdetails.php 1 -
+/wp-includes/class-wp-page-icon.php 5 -
+/y3gja7mt.php 3 https://www.rccbengaluru.com/y3gja7mt.php
+/Public/home/js/check.js 1 -
+/qa/completedproject.php 1 -
+/_profiler/phpinfo 1 -
+/bpiewk67.php 3 https://www.rccbengaluru.com/bpiewk67.php
+/bj6ndmcr.php 3 https://www.rccbengaluru.com/bj6ndmcr.php
+/wp-commentin.php 1 www.google.com
+/5xi9ncgh.php 3 https://www.rccbengaluru.com/5xi9ncgh.php
+/voice/details.php 1 -
+/mptaefq5.php 3 https://www.rccbengaluru.com/mptaefq5.php
+/phpinfo 3 -
+/q7ji05nx.php 3 https://www.rccbengaluru.com/q7ji05nx.php
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 277
+194.32.120.28 723 723 6342879 20221030174435
+194.32.120.20 171 171 1500183 20221030175055
+194.32.120.19 169 169 1482637 20221030173001
+194.32.120.10 80 80 580583 20221030165122
+34.254.53.125 14 150 14094694 20221029083308
+27.59.24.110 13 108 9710905 20221030085507
+223.186.1.148 11 95 8488319 20221030102438
+157.45.29.84 11 92 7519131 20221028081446
+171.76.85.77 10 104 9145175 20221010061321
+114.79.168.170 10 127 12373347 20221027042357
+106.195.46.54 9 87 6955224 20221004091614
+157.45.98.25 9 90 8210060 20221029064211
+27.56.0.205 9 86 9994031 20221002003341
+49.37.187.29 9 84 6801172 20221003055631
+223.231.136.125 8 78 6052053 20221015073036
+27.56.49.85 8 82 9593384 20221002002627
+122.161.77.127 7 79 7423220 20221008062125
+103.180.3.196 7 83 6863992 20221009081852
+157.45.199.49 7 80 7168942 20221008033017
+157.45.133.125 7 83 8345979 20221010012048
+157.50.51.47 7 80 7437712 20221003101740
+223.231.156.86 7 88 7492140 20221016235033
+223.186.115.209 6 81 6222919 20221002230549
+106.51.26.23 6 78 7139067 20221021202639
+116.73.230.168 6 73 5899732 20221007002130
+167.248.133.46 1 1 11784 20221016084744
+113.31.105.130 1 1 19980 20221016202307
+35.89.9.122 3 3 50661 20221030152654
+195.28.26.93 1 1 19980 20221025093736
+157.55.39.185 0 2 22392 
+198.235.24.176 1 1 81642 20221020182445
+185.64.219.103 1 1 19980 20221022072513
+157.55.39.66 0 3 66455 
+198.235.24.26 1 1 81642 20221008095613
+38.242.139.187 1 1 19980 20221022072905
+34.245.171.114 5 46 453886 20221002113727
+198.235.24.53 1 1 36691 20221018171430
+20.7.68.194 1 1 19980 20221001152335
+123.252.174.226 0 1 54973 
+64.233.173.73 0 1 103232 
+136.243.21.130 1 1 19980 20221011205425
+205.210.31.27 1 1 81642 20221024004027
+35.89.62.178 1 1 19980 20221015165849
+205.210.31.52 2 2 163284 20221014123453
+62.171.133.125 1 1 19980 20221025093646
+205.210.31.38 1 1 81642 20221022212831
+93.159.230.83 4 4 79920 20221031233541
+40.94.29.72 0 47 3937984 
+45.72.35.199 5 46 725469 20221006122843
+51.254.49.110 1 1 81642 20221029015624
+89.184.89.162 1 1 19980 20221011205127
+61.147.15.67 1 1 19980 20221016200414
+54.37.137.53 1 1 19980 20221025093348
+157.50.50.186 2 5 1895835 20221022112431
+51.255.62.9 2 2 118321 20221029004444
+51.254.49.105 1 1 81642 20221029015603
+205.210.31.13 1 1 36679 20221023011842
+54.69.251.172 1 1 81642 20221025231844
+122.171.18.17 0 1 54973 
+18.237.197.60 1 1 81642 20221019220106
+3.126.219.214 1 2 24594 20221019220247
+167.94.138.46 1 2 588752 20221006084312
+27.56.50.229 3 3 17434 20221002003310
+50.115.116.117 1 1 76997 20221019220427
+114.137.187.220 0 1 150263 
+207.46.13.140 0 12 110303 
+40.77.167.70 0 3 5970 
+20.94.71.33 1 1 19980 20221007160937
+20.10.22.106 1 1 19980 20221013082941
+212.70.116.170 0 1 233527 
+20.86.6.19 1 1 19980 20221016075348
+54.191.28.43 1 1 19980 20221010164812
+94.198.43.10 1 1 19980 20221029033027
+89.46.62.125 1 1 19980 20221024154440
+20.194.36.19 1 1 19980 20221020174741
+138.201.59.241 1 1 19980 20221025093408
+41.174.74.75 0 2 351675 
+137.226.113.44 4 4 79920 20221027093319
+157.55.39.118 0 3 47679 
+20.10.142.11 1 1 19980 20221007140411
+59.90.29.20 6 73 6444733 20221005213145
+103.232.154.47 1 1 19980 20221010045717
+91.121.79.58 1 1 19980 20221022072641
+35.92.69.194 1 1 19980 20221015165904
+193.235.141.176 1 2 588752 20221010175918
+192.46.213.148 1 1 81642 20221003172606
+35.91.106.50 1 1 19980 20221010164833
+3.84.28.93 0 1 12311 
+51.158.37.181 1 1 36691 20221002084940
+52.39.204.23 1 1 19980 20221004162114
+167.248.133.63 1 2 588752 20221023084754
+185.2.5.87 1 1 19980 20221022073046
+133.242.174.119 1 1 12215 20221028192248
+34.211.129.214 1 1 19980 20221025215638
+157.45.157.145 0 1 112008 
+157.45.93.245 5 74 7552163 20221003102651
+205.210.31.49 1 1 36691 20221024025642
+27.63.240.209 1 22 2015077 20221008230757
+20.10.143.144 1 1 19980 20221013082319
+157.45.217.78 3 5 430558 20221015134927
+20.10.142.155 1 1 19980 20221007134201
+35.188.6.99 3 3 59940 20221028055328
+104.46.116.197 1 1 19980 20221006090443
+51.79.166.220 2 53 15312671 20221002002333
+35.90.123.8 1 1 19980 20221004162046
+51.255.62.11 1 1 36691 20221029004444
+51.254.49.104 1 1 36691 20221029015603
+205.210.31.186 1 1 81642 20221020230823
+162.142.125.221 1 1 11784 20221021083636
+205.210.31.169 1 1 81642 20221031233738
+20.1.183.88 1 1 19980 20221002064450
+157.45.208.98 5 42 1025477 20221013235607
+162.142.125.210 1 2 588752 20221019083927
+93.159.230.87 2 2 39960 20221031182912
+20.42.116.234 1 1 19980 20221021214521
+40.77.167.71 0 5 12684 
+185.192.70.65 3 3 26319 20221030170250
+195.211.77.140 1 1 81642 20221028172301
+52.27.171.64 1 1 19980 20221018201856
+209.141.51.222 1 1 19980 20221010071024
+20.1.207.221 1 1 19980 20221007134425
+198.235.24.50 2 2 163284 20221028085547
+115.99.253.16 6 74 6024312 20221010030632
+193.235.141.169 1 2 588752 20221015191413
+159.223.99.32 1 1 81642 20221003172603
+193.235.141.172 2 4 1177504 20221020213327
+167.71.193.214 1 1 19980 20221009141603
+72.14.201.140 1 1 19980 20221014111932
+164.68.108.205 1 1 19980 20221011205730
+49.205.144.50 5 73 6448524 20221007000833
+207.46.13.87 0 4 39907 
+198.235.24.40 1 1 36679 20221011140341
+198.235.24.156 1 1 81642 20221026172044
+157.50.57.178 1 16 161637 20221011125252
+106.196.20.117 6 79 7148962 20221013065907
+207.46.13.58 0 10 57825 
+93.190.141.73 1 1 19980 20221010002341
+198.235.24.172 1 1 81642 20221023055341
+18.237.21.68 1 1 81642 20221025231825
+52.55.204.108 1 1 81642 20221019221032
+107.175.70.241 1 1 19980 20221028170222
+198.235.24.128 1 1 36679 20221015205909
+45.82.121.130 1 1 19980 20221009141845
+35.202.21.98 1 1 19980 20221016025535
+49.37.191.227 5 70 4429991 20221001042234
+205.210.31.31 1 1 36691 20221015104329
+20.10.207.102 1 1 19980 20221007104124
+198.235.24.47 2 2 163284 20221020224949
+128.199.172.229 1 1 19980 20221009141544
+185.135.90.57 1 1 19980 20221011205616
+34.216.137.32 1 1 2161 20221021004325
+20.10.55.112 1 1 19980 20221002070219
+207.46.13.143 0 7 74907 
+167.94.138.63 1 2 588752 20221016084746
+40.94.29.25 4 34 1674428 20221019220439
+20.161.6.124 1 1 19980 20221007104658
+93.159.230.89 5 5 99900 20221031203501
+20.242.37.51 1 1 19980 20221006155131
+162.248.7.95 1 1 53743 20221019220427
+107.189.14.89 1 1 11793 20221013042506
+64.233.172.109 1 17 4905775 20221019011645
+157.45.210.150 1 2 39357 20221031114631
+103.146.217.187 4 41 3906855 20221007025639
+77.74.177.119 5 5 99900 20221031223525
+51.158.37.180 1 1 36679 20221010093502
+207.46.13.91 0 18 146289 
+44.234.24.7 1 1 11801 20221003172604
+202.90.136.82 0 1 169652 
+117.230.43.163 2 7 1446889 20221013074352
+205.210.31.172 1 1 81642 20221019100534
+157.230.243.127 2 2 48483 20221028172418
+3.252.152.210 1 1 11780 20221006213258
+69.10.40.142 1 1 81642 20221027001021
+104.45.211.239 1 1 81642 20221019220704
+137.184.8.161 4 4 79920 20221015213433
+49.205.198.38 5 82 8465656 20221006031105
+51.255.62.13 2 2 163284 20221029004444
+122.171.22.227 5 80 6769954 20221014112057
+170.187.181.59 1 1 36679 20221003172603
+117.230.34.171 4 57 2415529 20221009235713
+173.244.210.60 1 1 38096 20221019220427
+52.37.68.90 1 1 19980 20221018201828
+198.235.24.162 1 1 36679 20221019093047
+64.233.172.113 1 10 1385995 20221019011731
+40.77.167.7 0 3 23124 
+51.254.49.99 1 1 81642 20221029015624
+51.255.62.15 1 1 81642 20221029004444
+72.14.201.139 1 1 19980 20221003101346
+146.59.232.204 1 1 19980 20221011205242
+157.45.201.231 2 2 32434 20221008041643
+139.162.49.205 1 1 81642 20221028172417
+223.231.132.120 6 74 6468504 20221025233212
+190.2.134.27 1 1 19980 20221018171739
+210.65.88.143 1 1 19980 20221009141524
+52.15.236.92 1 1 19980 20221006181758
+185.162.235.118 2 4 55395 20221017024101
+20.14.102.50 2 2 39960 20221008220104
+179.43.175.204 1 1 11795 20221028172355
+167.94.138.118 2 3 600529 20221019084012
+3.225.48.73 1 2 24594 20221019220604
+205.210.31.28 1 1 36679 20221014024937
+205.210.31.150 1 1 81642 20221029202824
+157.45.98.42 0 1 169419 
+64.233.172.111 1 15 3736226 20221019011652
+40.94.29.26 0 1 568772 
+51.254.49.101 2 2 118321 20221029015603
+205.210.31.22 1 1 81642 20221030094944
+89.38.225.42 1 1 19980 20221015213945
+198.235.24.49 1 1 81642 20221011061540
+205.210.31.155 1 1 36691 20221014173101
+198.235.24.56 1 1 81642 20221011044859
+198.235.24.186 1 1 81642 20221015065623
+186.29.79.105 2 2 23585 20221017131628
+182.68.81.162 5 72 6438615 20221016214645
+152.32.174.171 1 1 19980 20221016220223
+34.221.76.205 1 1 81642 20221019222241
+40.84.37.203 1 1 19980 20221006153059
+198.235.24.143 1 1 81642 20221009190504
+167.94.138.117 1 2 588752 20221004175543
+207.46.13.138 0 20 110248 
+20.94.58.51 1 1 19980 20221015083433
+157.45.219.223 0 1 276112 
+51.159.102.248 1 1 81642 20221021111219
+20.1.169.1 1 1 19980 20221001150355
+86.48.13.45 4 61 3211607 20221002114312
+213.226.123.154 1 1 11803 20221024015630
+42.111.16.6 0 1 169419 
+51.255.62.6 1 1 81642 20221029004511
+46.235.42.137 1 1 19980 20221025093431
+205.210.31.183 1 1 36679 20221021180906
+205.210.31.170 1 1 81642 20221008081352
+54.202.43.190 0 1 12311 
+198.235.24.13 1 1 81642 20221027133756
+163.116.136.254 5 71 5869843 20221001222132
+193.235.141.178 2 4 1177504 20221031022400
+157.45.78.115 6 82 6791691 20221003022917
+27.56.0.13 1 1 6559 20221002005515
+205.210.31.146 1 1 81642 20221015002327
+51.254.49.108 1 1 81642 20221029015624
+157.55.39.38 0 4 17402 
+163.172.143.106 1 1 19980 20221009141801
+35.247.14.240 1 1 0 20221001085744
+133.242.140.127 1 1 12200 20221028192254
+139.162.39.160 1 1 36691 20221003172607
+223.187.119.192 1 7 104652 20221005042106
+40.94.29.65 5 70 5868086 20221019220347
+20.117.156.91 2 2 14275 20221013183138
+163.53.25.177 2 3 59337 20221010011207
+165.22.210.184 1 1 81642 20221003172609
+35.89.246.156 1 1 81642 20221019221851
+165.225.122.164 6 73 6444733 20221019011713
+52.34.190.233 1 1 19980 20221021004227
+20.163.14.6 2 2 14275 20221005222357
+103.208.69.12 6 73 6444733 20221026021359
+167.248.133.117 2 3 600538 20221031103014
+20.40.51.31 2 2 39960 20221006041302
+20.242.39.42 1 1 19980 20221006092515
+54.191.202.250 1 1 19980 20221006160310
+91.229.23.136 1 1 11790 20221006224904
+35.90.129.216 1 1 19980 20221025215706
+39.110.218.101 1 1 12200 20221028172355
+198.235.24.147 1 1 81642 20221005014912
+185.209.230.133 1 1 81642 20221020140609
+20.161.10.160 1 1 19980 20221007101814
+183.136.225.44 1 2 650414 20221020061733
+93.159.230.88 5 5 99900 20221031193436
+205.210.31.45 1 1 81642 20221002163922
+92.222.246.225 1 1 19980 20221009141942
+79.104.53.14 2 2 39960 20221028173814
+188.165.66.57 1 1 19980 20221025093600
+34.125.148.43 1 1 19980 20221027061834
+167.248.133.44 1 1 11783 20221020091158
+107.178.239.192 5 71 5877995 20221003164511
+40.94.29.44 0 1 568772 
+20.1.207.164 1 1 19980 20221007155059
+157.245.53.210 1 1 81642 20221028172416
+198.235.24.32 1 1 36691 20221011185520
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20221001 13 157 10478907 5
+20221002 46 429 45136312 16
+20221003 41 400 34912432 14
+20221004 12 91 7583936 4
+20221005 12 88 7992458 6
+20221006 22 155 10045329 14
+20221007 24 196 16434931 12
+20221008 24 190 16964519 10
+20221009 19 148 9501023 10
+20221010 32 283 24614054 13
+20221011 13 33 735168 13
+20221013 20 135 9727316 9
+20221014 9 84 6944946 5
+20221015 22 95 7489559 13
+20221016 19 168 14631191 9
+20221017 4 6 78980 2
+20221018 4 5 266050 4
+20221019 32 292 30580242 20
+20221020 13 22 1737054 13
+20221021 12 103 7450403 7
+20221022 7 11 2112370 6
+20221023 3 4 707073 3
+20221024 4 6 501791 4
+20221025 16 85 7025155 11
+20221026 13 147 13508551 5
+20221027 10 62 6249926 5
+20221028 24 105 8002532 13
+20221029 39 257 23645648 15
+20221030 1174 1360 28370693 9
+20221031 14 26 1585573 14
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+0s-30s 248
+2mn-5mn 8
+15mn-30mn 2
+30s-2mn 20
+5mn-15mn 6
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 22
+/projectdetails.php 1168 10074010 11 13
+/ 269 8841917 248 216
+/assets/font/fontawesome-webfont3e6e3e6e.woff2 49 3780840 6 1
+/assets/font/ionicons28b528b5.ttf 48 9048384 1 7
+/assets/font/et-line.woff 42 2319240 0 9
+/assets/font/autoraicond44cd44c.ttf 39 353496 1 1
+/page-services-detail.php 20 132444 2 6
+/project.php 14 238954 5 7
+/service.php 12 122884 2 7
+/details.php 10 150052 2 5
+/contact.php 9 55062 1 5
+/index.php 4 79920 0 0
+/.git/config 2 23596 2 2
+/assets/font/ionicons28b528b5.woff 2 135808 0 0
+/ongoingproject.php 2 12990 0 1
+/featuredproject.php 1 6427 0 0
+/wp-login.php 1 11793 1 1
+/autodiscover/autodiscover.json 1 11803 1 1
+/.env 1 11795 1 0
+/api/v2/cmdb/system/admin/admin 1 11804 0 1
+/assets/font/fontawesome-webfont3e6e3e6e.woff 1 98024 0 0
+/assets/font/fontawesome-webfont3e6e3e6e.ttf 1 165548 0 1
+END_SIDER

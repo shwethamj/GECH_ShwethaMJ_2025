@@ -1,0 +1,1252 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202205 will be lost/reset.
+# Last config file used to build this data file was /home4/parvamco/tmp/awstats/awstats.parvamconsultech.parvam.co.in.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2027                
+POS_TIME 2696                
+POS_VISITOR 39223               
+POS_DAY 44067               
+POS_DOMAIN 3534                
+POS_LOGIN 3870                
+POS_ROBOT 4025                
+POS_WORMS 4283                
+POS_EMAILSENDER 4414                
+POS_EMAILRECEIVER 4557                
+POS_SESSION 44870               
+POS_SIDER 45082               
+POS_FILETYPES 4692                
+POS_DOWNLOADS 5015                
+POS_OS 5425                
+POS_BROWSER 5598                
+POS_SCREENSIZE 6149                
+POS_UNKNOWNREFERER 6223                
+POS_UNKNOWNREFERERBROWSER 6487                
+POS_ORIGIN 6746                
+POS_SEREFERRALS 6892                
+POS_PAGEREFS 7057                
+POS_SEARCHWORDS 7205                
+POS_KEYWORDS 7357                
+POS_MISC 2360                
+POS_ERRORS 7416                
+POS_CLUSTER 3726                
+POS_SIDER_404 7595                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20220601000113 160 53096 11513858424065
+FirstTime 0
+LastTime 20220531235908
+LastUpdate 20220601063024 160 0 159 0 0
+TotalVisits 220                 
+TotalUnique 115                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 115                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+AddToFavourites 0 7 0
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+DirectorSupport 0 0 0
+JavascriptDisabled 0 0 0
+FlashSupport 0 0 0
+PDFSupport 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 890 1550 28710988 103 351 9047935
+1 1248 1934 34756177 77 527 3479399
+2 1502 1982 28518018 198 593 8822319
+3 1716 2248 28040046 160 741 4599411
+4 2302 2750 28850571 187 704 9870628
+5 1205 1382 9281425 90 409 12555402
+6 1809 2130 15248691 136 414 11078539
+7 739 1023 13938684 49 193 14846373
+8 178 217 3863882 153 169 1781767
+9 0 0 0 59 60 5244
+10 0 0 0 67 70 2080
+11 14 14 8551 54 67 2103
+12 4 7 3405 100 110 8077
+13 0 0 0 48 59 3948
+14 0 0 0 237 256 28748
+15 0 0 0 36 56 3519
+16 0 0 0 49 50 7112
+17 0 0 0 103 109 11715
+18 1 1 131 101 106 12536
+19 49 50 30537 25 32 3187
+20 187 227 2215110 68 117 10359
+21 259 356 6193898 28 93 6591717
+22 896 1345 17678225 119 413 384990
+23 870 1297 16677759 146 461 3967232
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 7
+in 10543 13982 174207259
+us 2108 2975 41124504
+au 700 829 4600337
+jp 448 629 12358679
+lk 68 96 1719497
+de 1 1 17
+af 1 1 5805
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 3
+Dalvik/ 223 64813788 20220530065931 0
+Apache\-HttpClient/ 80 56480 20220530065929 0
+no_user_agent 38 3537610 20220527032059 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 13
+php 13448 24537395 0 0
+pdf 23 916673 0 0
+ttf 3 14520 0 0
+png 153 77374245 0 0
+jpg 1472 83481401 0 0
+gif 9 282375 0 0
+Unknown 36 358831 0 0
+html 150 585344 0 0
+svg 23 52543 0 0
+css 1194 10654747 0 0
+webp 1 11880 0 0
+woff2 231 9930108 0 0
+js 1770 25816036 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 5
+/schoolerp/Student_Docs/STUPDF_43_1269534578628b08eadb599.pdf 2 0 217938
+/schoolerp/Student_Docs/STUPDF_50_87040993628e17c4d76cb.pdf 1 0 109429
+/schoolerp/Teacher_Docs/TCHPDF_44_189052093762907521c10ca.pdf 1 0 374713
+/schoolerp/Teacher_Docs/TCHPDF_42_341467699628dec8ea5578.pdf 1 0 105624
+/schoolerp/Student_Docs/STUPDF_51_18213285256290928d55421.pdf 1 0 108969
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 6
+linuxandroid 4008 2388
+win10 12038 9130
+androidlollipop 30 4
+win7 42 11
+Unknown 2295 2295
+ios_iphone 100 41
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 21
+chrome97.0.4692.98 267 163
+chrome98.0.4758.102 18 3
+firefox100.0 20 4
+chrome101.0.4951.41 818 605
+chrome100.0.4896.127 504 148
+safari15.5 1 1
+chrome99.0.4844.78 1 1
+msie11.0 9 9
+chrome60.0.3112.107 1 1
+Unknown 2295 2295
+safari13.0.3 62 35
+chrome75.0.3765.0 18 3
+chrome101.0.4951.61 2815 1681
+chrome102.0.5005.61 2677 2131
+chrome74.0.3729.185 58 26
+chrome101.0.4951.67 4177 2970
+chrome101.0.4951.54 3901 3233
+chrome92.0.4515.166 18 3
+chrome101.0.0.0 547 375
+chrome95.0.4638.74 269 177
+safari15.4 37 5
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+okhttp/3.12.0 20220531235848
+WhatsApp/2.21.24.22_A 20220504030730
+WhatsApp/2.22.9.78_A 20220530080316
+PostmanRuntime/7.26.10 20220527060850
+WhatsApp/2.22.10.73_A 20220524002252
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 5
+WhatsApp/2.22.9.78_A 20220530080316
+PostmanRuntime/7.26.10 20220527060850
+okhttp/3.12.0 20220531235848
+WhatsApp/2.21.24.22_A 20220504030730
+WhatsApp/2.22.10.73_A 20220524002252
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 2858 2859
+From1 1 1
+From2 13 13
+From3 0 0
+From4 10997 15640
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 13 13
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 9
+406 810 183060
+403 1 134
+101 8 0
+500 4 0
+409 108 8964
+404 4768 566
+206 74 18512945
+301 11 2743
+307 4 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 553
+/vehiclepassmobileapp/mobile-api/checkOut.php 1 -
+/martinrealtors/dashbo 1 -
+//theme.php 2 -
+/schoolerpuat/Profile_images/STUIMG_136430086062834f7b8c9c8.jpg 1 http://parvamconsultech.com/schoolerpuat/view-all-student.php
+/wp-content/plugins/unicode/cgi.php 1 parvamconsultech.com
+/p756yokh.php 1 http://parvamconsultech.com/p756yokh.php
+/0pwtxaip.php 1 http://parvamconsultech.com/0pwtxaip.php
+/wp-content/db-cache.php 2 www.bing.com
+/assets/elfinder/php/connector.minimal.php 1 -
+/BLOG 1 www.google.com
+/schoolerp/Profile_images/Profile_images/STUIMG_458748465625fb8c778683.jpg 1 http://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/Backup 1 www.google.com
+/wp-content/outcms.php 2 www.bing.com
+//wp-content/haccess.php 2 -
+/FORUM 1 www.google.com
+/wp-content/plugins/wordpress/aya.php 1 parvamconsultech.com
+/new 1 www.google.com
+/old 1 www.google.com
+/alfacgiapi 2 www.bing.com
+/schoolerp/Profile_images/Profile_images/STUIMG_209173316362429f1d61076.jpg 1 http://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/templates/beez3/index.php 2 www.bing.com
+/wp-includes/wp-atom.php 2 www.bing.com
+/assets/plugins/elfinder/php/connector.php 1 -
+/media-admin.php 2 www.bing.com
+/schoolerp/Student_Docs/STUDOC_40_28374983862877edd0aafe.jpg 2 http://parvamconsultech.com/schoolerp/student-details.php
+/wp-content/themes/twentythree/inc/index.php 1 parvamconsultech.com
+/wp-content/31cx4.php 1 parvamconsultech.com
+/schoolerp/Student_Docs/STUDOC_40_77214617362877edd0b9a3.jpg 2 http://parvamconsultech.com/schoolerp/student-details.php
+/yldc1gly.php 1 http://parvamconsultech.com/yldc1gly.php
+/wso.php 2 www.bing.com
+/admin/assets/fileupload/index.php 1 -
+//wp-admin/jh3im.php 1 -
+/wp-backup-sql-302.php 2 www.bing.com
+/haccess.php 1 bing.com
+/vuln.php 1 bing.com
+/admin/assets/elfinder/php/connector.php 1 -
+/ihbjlnf0.php 1 http://parvamconsultech.com/ihbjlnf0.php
+/admin_phpinfo.php 1 -
+/SG_Construction/projectsdetails3.php 1 -
+///theme.php 1 -
+/vehiclepassmobileapp/mobile-api/initialSetup.php 25 -
+/145s5wrj.php 1 http://parvamconsultech.com/145s5wrj.php
+/schoolerpuat/Profile_images/STUIMG_149416006628caa8b727dc.jpg 1 http://parvamconsultech.com/schoolerpuat/view-all-student.php
+/wp-content/plugins/ubh/up.php 2 www.bing.com
+/wp-content/plugins/dzs-zoomsounds/savepng.php 1 -
+/alfa.php 2 www.bing.com
+/ogm10v69.php 1 http://parvamconsultech.com/ogm10v69.php
+/schoolerp/Profile_images/Profile_images/STUIMG_3892187536279032cb6c60.jpg 1 http://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/q3lfcwig.php 1 http://parvamconsultech.com/q3lfcwig.php
+/schoolerp/Profile_images/Profile_images/STUIMG_12222164628483c8e046a.jpg 1 http://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/loader/ff.php 2 -
+/martinrealtors/da 1 -
+/assets/colors/form.php 1 parvamconsultech.com
+/schoolerp/Profile_images/STUIMG_1534354892623ee0828bd83.jpg 8 http://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/7p5zvzr5.php 1 http://parvamconsultech.com/7p5zvzr5.php
+/ov01lyhh.php 1 http://parvamconsultech.com/ov01lyhh.php
+/Qleaps_07_05_22/assets/js/metisMenu.min.js.map 1 -
+/cms/adMInhtml_page 1 -
+//wp-rvx.php 1 -
+/Parvamconsultech 1 www.google.com
+/l2ag91id.php 1 http://parvamconsultech.com/l2ag91id.php
+/6srpxbun.php 1 http://parvamconsultech.com/6srpxbun.php
+/knozxrcx.php 1 http://parvamconsultech.com/knozxrcx.php
+/wp-content/uploads/2017/11/Doc1.pdf 1 -
+/2018 1 www.google.com
+/assets/plugins/jqueryupload/server/php/index.php 1 -
+/cgialfa 2 www.bing.com
+/wp-includes/rest-api/fields/index.php 1 parvamconsultech.com
+//RxR.php 1 www.google.com
+/gvfzyeoa.php 1 www.google.com
+/1index.php 2 www.bing.com
+/schoolerp/login.php 1 http://parvamconsultech.com/schoolerp/login.php
+/style.php 4 www.bing.com
+/schoolerpuat/css/img/preloader.gif 127 http://parvamconsultech.com/schoolerpuat/css/style.css
+/36gy5g55.php 1 http://parvamconsultech.com/36gy5g55.php
+/schoolerp/Student_Docs/STUDOC_40_7634462662877edd0c0a3.jpg 2 http://parvamconsultech.com/schoolerp/student-details.php
+/schoolerp/parvamAdmin/get_agent_payment_dashboard.php 1 http://parvamconsultech.com/schoolerp/parvamAdmin/add-new-college-admin.php
+/ups.php 3 www.bing.com
+/ALFA_DATA 2 www.bing.com
+/schoolerp/images/logo.jpg 684 http://parvamconsultech.com/schoolerp/announcement.php
+/2014 1 www.google.com
+/wp-admin/style.php 2 www.bing.com
+/aakruthi-erp/uploads/design/Aakruthi1_22.jpg 1 http://parvamconsultech.com/aakruthi-erp/webmaster/project/view/8
+/wp-content/uploads/nginx-helper/index.php 1 parvamconsultech.com
+/schoolerpuat/Profile_images/STUIMG_87604471462873e9b3644a.jpg 1 http://parvamconsultech.com/schoolerpuat/view-all-student.php
+/defaul1.php 1 -
+/test/wp-admin/install.php 4 -
+/wp-includes/Text/Diff/content.php 1 parvamconsultech.com
+/info.php 1 -
+/phpversion.php 1 -
+/php_info.php 2 -
+/index.php 3 www.bing.com
+/parvamconsultech 1 www.google.com
+/schoolerp/Profile_images/Profile_images/Profile_images/STUIMG_210114155762677be05e4f3.jpg 1 http://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/.well-known/cgialfa 2 www.bing.com
+/schoolerpuat/Profile_images/STUIMG_1629849627628755d6534c2.jpg 1 http://parvamconsultech.com/schoolerpuat/view-all-student.php
+/hk1ue3bo.php 1 http://parvamconsultech.com/hk1ue3bo.php
+/i.php 1 -
+/2a6gvfdy.php 1 http://parvamconsultech.com/2a6gvfdy.php
+/schoolerp/Profile_images/Female_Student.jpg 11 http://parvamconsultech.com/schoolerp/view-all-student.php
+/7b6tku58.php 1 http://parvamconsultech.com/7b6tku58.php
+/wp-includes/images/smilies/2index.php 1 parvamconsultech.com
+/hv72hs7s.php 1 http://parvamconsultech.com/hv72hs7s.php
+/schooler/ 1 -
+/wp-content/plugins/backup_index.php 2 www.bing.com
+/wp-includes/alfacgiapi 2 www.bing.com
+/wp-includes/rest-api/search/2index.php 1 parvamconsultech.com
+/NEW 1 www.google.com
+/5opzn4o7.php 1 http://parvamconsultech.com/5opzn4o7.php
+/.well-known/ 7 binance.com
+/wp 1 www.google.com
+/wp-content/ 4 -
+/schoolerpuat/Profile_images/STUIMG_440533959628b07617aadb.jpg 1 http://parvamconsultech.com/schoolerpuat/view-all-student.php
+/schoolerpuat/js/bootstrap.min.js.map 3 -
+/cms/wp-admin/install.php 4 -
+/x5z0p46f.php 1 http://parvamconsultech.com/x5z0p46f.php
+/wp-content/haccess.php 1 bing.com
+/schoolerpuat/Profile_images/STUIMG_1525960224628caa8f9825e.jpg 1 http://parvamconsultech.com/schoolerpuat/view-all-student.php
+/Qleaps_07_05_22/assets/js/popper.min.js.map 1 -
+/config.json 1 -
+/zjmd4s1z.php 1 http://parvamconsultech.com/zjmd4s1z.php
+/debug/default/view 1 -
+/schoolerp/Profile_images/Profile_images/STUIMG_13324092236266923db2889.jpg 1 http://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/schoolerp/STUIMG_3892187536279032cb6c60.jpg 4 http://parvamconsultech.com/schoolerp/view-all-student.php
+/81g9qovq.php 1 http://parvamconsultech.com/81g9qovq.php
+/blog/wp-admin/install.php 4 -
+/bld0on5n.php 1 http://parvamconsultech.com/bld0on5n.php
+/wp/wp-admin/install.php 4 -
+/voobdosp.php 1 www.google.com
+/etdbqxvo.php 1 http://parvamconsultech.com/etdbqxvo.php
+/kjaqy05h.php 1 http://parvamconsultech.com/kjaqy05h.php
+/old-index.php 3 parvamconsultech.com
+/phpinfo 1 -
+/templates/beez3/alfacgiapi 2 www.bing.com
+/templates/beez3/ALFA_DATA 2 www.bing.com
+/7nt7ds6x.php 1 http://parvamconsultech.com/7nt7ds6x.php
+/hx8owknm.php 1 http://parvamconsultech.com/hx8owknm.php
+//wp-admin/css/colors/index.php 1 http://parvamconsultech.com//wp-admin/css/colors/index.php
+/sbiasl03.php 1 http://parvamconsultech.com/sbiasl03.php
+/feed/ 9 -
+/d48entmb.php 1 http://parvamconsultech.com/d48entmb.php
+/wp-content/mu-plugins/db-safe-mode.php 2 www.bing.com
+/schoolerputa 1 -
+/wp-content/themes/twentytwenty/content.php 1 parvamconsultech.com
+/wp-content/themes/twentytwenty/assets/aya.php 1 parvamconsultech.com
+/wp-content/plugins/googlebot/style.php 2 parvamconsultech.com
+/schoolerp/Profile_images/Profile_images/STUIMG_6801085936285d8f26815c.jpg 1 -
+/wp-content/plugins/BrutalShell/wp.php 1 parvamconsultech.com
+/vehiclepassmobileapp/mobile-api/getTicketNum.php 2 -
+/x2itaxc3.php 1 http://parvamconsultech.com/x2itaxc3.php
+/schoolerp/Profile_images/STUIMG_1534381671624d235f3336d.jpg 8 http://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/4eafgluj.php 1 http://parvamconsultech.com/4eafgluj.php
+/schoolerpuat/Profile_images/STUIMG_11671869886284e81431e76.jpg 1 http://parvamconsultech.com/schoolerpuat/view-all-student.php
+/b8b4sdz4.php 1 http://parvamconsultech.com/b8b4sdz4.php
+/.well-known/alfacgiapi 2 www.bing.com
+/ctnmf35w.php 1 http://parvamconsultech.com/ctnmf35w.php
+/lnh93w53.php 1 http://parvamconsultech.com/lnh93w53.php
+//wp-content/uploads/2019/index.php 1 http://parvamconsultech.com//wp-content/uploads/2019/index.php
+/6p10v2hu.php 1 http://parvamconsultech.com/6p10v2hu.php
+/sites/all/libraries/elfinder/src/connectors/php/connector.php 1 -
+/plugins/elfinder/php/connector.minimal.php 1 -
+/schoolerp/Profile_images/Profile_images/STUIMG_13137338916290c227956d3.jpg 2 http://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/2zay4r8u.php 1 http://parvamconsultech.com/2zay4r8u.php
+/schoolerp/Profile_images/STUIMG_903524138624bf089a29e7.jpg 8 http://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/wp-signin.php 2 www.bing.com
+/config.php 2 www.bing.com
+/up.php 2 www.bing.com
+/e58ksd1b.php 1 http://parvamconsultech.com/e58ksd1b.php
+/old_phpinfo.php 1 -
+/schoolerp/Student_Docs/STUDOC_40_24470430062877edd169a7.jpg 2 http://parvamconsultech.com/schoolerp/student-details.php
+/wp-includes/images/media/2index.php 1 parvamconsultech.com
+/2010 1 www.google.com
+/schoolerp/all_sem_report_apk.php 1 http://localhost/
+//wp-admin/disk.php 1 -
+/a13c2mop.php 1 http://parvamconsultech.com/a13c2mop.php
+/wp-includes/ID3/license.txt 2 -
+/WORDPRESS 1 www.google.com
+/wp-content/uploads/2022/index.php 1 parvamconsultech.com
+/wp-admin/kro.php 2 -
+/assets/plugins/elfinder/php/connector.minimal.php 1 -
+/wp-includes/cgialfa 2 www.bing.com
+/wp-content/plugins/school-management-pro/assets/css/admin_menu.css 1 parvamconsultech.com
+/29m6qcud.php 1 http://parvamconsultech.com/29m6qcud.php
+/schoolerp/Profile_images/Profile_images/STUIMG_19965558696242d8d05b8e9.jpg 1 http://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+//Yeo.php 1 -
+/wp-includes/class.wp.php 1 parvamconsultech.com
+/tl7kq846.php 1 http://parvamconsultech.com/tl7kq846.php
+/wp-content/alfacgiapi/perl.alfa 1 www.google.com
+/cznfkk9a.php 1 http://parvamconsultech.com/cznfkk9a.php
+/eig9jp86.php 1 http://parvamconsultech.com/eig9jp86.php
+/blog 1 www.google.com
+/loj38fsb.php 1 http://parvamconsultech.com/loj38fsb.php
+//mod_config.php 2 -
+/shell.php 2 www.bing.com
+/martinrealtors/css/bootstrap.min.css.map 1 -
+/martinrealtors/js/popper.min.js.map 1 -
+/schoolerpy/ 1 -
+/sites/default/files/cgialfa 2 www.bing.com
+/time.php 1 -
+/wp-content/export.php 2 www.bing.com
+/schoolerp/Student_Docs/STUDOC_36_188727134562877a03cb709.jpg 6 http://parvamconsultech.com/schoolerp/student-details.php
+/jpkgqdti.php 1 http://parvamconsultech.com/jpkgqdti.php
+/assets/js/elfinder/php/connector.php 1 -
+/martinrealtors/dashboard 1 -
+/test.php 3 www.bing.com
+/martinrealtors/dash 1 -
+/hwnxcmwk.php 1 http://parvamconsultech.com/hwnxcmwk.php
+/sites/all/libraries/elfinder/connectors/php/connector.php 1 -
+/BACKUP 1 www.google.com
+/2009 1 www.google.com
+/wp-admin/install.php 4 -
+/test 1 www.google.com
+/site 1 www.google.com
+/assets/fileupload/index.php 1 -
+/wp-includes/images/wlw/content.php 1 parvamconsultech.com
+/ioiOd/ 1 -
+/wp-content/uploads/alfacgiapi 2 www.bing.com
+/schoolerp/Profile_images/Profile_images/STUIMG_17128181576244469de2cf8.jpg 1 http://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+//wp-content/uploads/2020/02/index.php 1 http://parvamconsultech.com//wp-content/uploads/2020/02/index.php
+/wp.php 2 www.bing.com
+/wp-content/mu-plugins-old/index.php 1 -
+/schoolerp/STUIMG_14232197736267852f8a25d.jpg 4 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/Profile_images/Profile_images/STUIMG_903524138624bf089a29e7.jpg 1 http://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/schoolerp/Student_Docs/STUDOC_36_118258975762877a03cd864.jpg 6 http://parvamconsultech.com/schoolerp/student-details.php
+/schoolerpua/ 1 -
+/85xietk0.php 1 http://parvamconsultech.com/85xietk0.php
+/archives.php 2 www.bing.com
+/ex1pm7i4.php 1 http://parvamconsultech.com/ex1pm7i4.php
+/site/wp-admin/install.php 4 -
+/schoolerpuat/Profile_images/STUIMG_579074541628734bc2830b.jpg 1 http://parvamconsultech.com/schoolerpuat/view-all-student.php
+/martinrealtors/dashb 1 -
+/store 1 www.google.com
+/schoolerp/Teacher_Profile/TCHIMG_765525616624c0c75b5c73.jpg 11 http://parvamconsultech.com/schoolerp/view-all-deleted-teachers.php
+/schoolerpuat/Profile_images/STUIMG_132285590662907657c3fa4.jpg 1 http://parvamconsultech.com/schoolerpuat/view-all-student.php
+/s_e.php 2 www.bing.com
+/oldsite/wp-admin/install.php 4 -
+/sites/default/files/alfacgiapi 2 www.bing.com
+/wp-admin/admin-ajax.php 2 www.google.com
+/schoolerp/Profile_images/Profile_images/STUIMG_22269836461e92922555f5.jpg 1 http://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/_profiler/phpinfo 2 -
+//app.php 1 -
+/2012 1 www.google.com
+/schoolerp/STUIMG_12057034596267853d8afb0.jpg 4 http://parvamconsultech.com/schoolerp/view-all-student.php
+/radio.txt 2 -
+/wp-includes/js/jquery/content.php 1 parvamconsultech.com
+/wp-stream.php 1 parvamconsultech.com
+/STORE 1 www.google.com
+/schoolerp/Student_Docs/STUDOC_37_24608822962877b3c7ea18.jpg 2 http://parvamconsultech.com/schoolerp/student-details.php
+/wp-includes/images/css.php 2 www.bing.com
+/martinrealtors/images/testimonials/17.jpg 5 http://parvamconsultech.com/martinrealtors/about.html
+/s85n2gkp.php 1 http://parvamconsultech.com/s85n2gkp.php
+/schoolerp/Profile_images/Profile_images/STUIMG_46449152761eaac014e9df.jpg 1 http://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/wp-content/ALFA_DATA 2 www.bing.com
+/export.php 2 www.bing.com
+/about.php 7 www.bing.com
+/schoolerp/Profile_images/Profile_images/STUIMG_1276570896624583e204306.jpg 1 http://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/brick/ 1 -
+/schoolerp/Profile_images/Profile_images/STUIMG_635816766625fc0b8e6dd6.jpg 1 http://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/defau11.php 3 www.bing.com
+/cpl/ 2 https://www.google.com/
+/ul8ea0q2.php 1 http://parvamconsultech.com/ul8ea0q2.php
+/x.php 2 www.bing.com
+/schoolerp/Profile_images/STUPDF_40_70112817262877edd95985.jpg 2 http://parvamconsultech.com/schoolerp/student-details.php
+/h3nyio1j.php 1 http://parvamconsultech.com/h3nyio1j.php
+/schoolerp/Teacher_Profile/TCHIMG_1499013325624d275f2f1d5.jpg 11 http://parvamconsultech.com/schoolerp/view-all-deleted-teachers.php
+/wp-content/upkz.php 2 -
+/schoolerp/Profile_images/STUIMG_17128181576244469de2cf8.jpg 8 http://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/schoolerpuat/Profile_images/STUIMG_13137338916290c227956d3.jpg 1 http://parvamconsultech.com/schoolerpuat/view-all-student.php
+/0z13w4lc.php 1 http://parvamconsultech.com/0z13w4lc.php
+/plugins/jqueryupload/server/php/index.php 1 -
+/m01mhdq2.php 1 http://parvamconsultech.com/m01mhdq2.php
+/wp-plugins.php 1 www.bing.com
+/jlw8ds46.php 1 http://parvamconsultech.com/jlw8ds46.php
+//Marvins.php 1 -
+/legion.php 2 www.bing.com
+/jqueryupload/server/php/index.php 1 -
+/rdtysxn9.php 1 http://parvamconsultech.com/rdtysxn9.php
+/wogs513p.php 1 http://parvamconsultech.com/wogs513p.php
+/schoolerp/Student_Docs/STUDOC_40_120210501862877edd0b349.jpg 2 http://parvamconsultech.com/schoolerp/student-details.php
+/wp-includes/ALFA_DATA 2 www.bing.com
+/05t2zysj.php 1 http://parvamconsultech.com/05t2zysj.php
+/wp-commentin.php:cursosabersempre.com.br 2 parvamconsultech.com
+//sid.php 1 -
+/Deadcode1975xxxxxxxxxxxxxxxxxxxxxxxxxxxx.php%20=%20%3E%3E%20shell%20no%20work 2 -
+/.avs/credentials 1 -
+/wp-load.php 5 www.bing.com
+/wikindex.php 1 -
+/aQUWY/ 1 -
+/schoolerp/parvamAdmin/get_student_payment_dashboard.php 1 http://parvamconsultech.com/schoolerp/parvamAdmin/add-new-college-admin.php
+/schoolerp/Profile_images/Profile_images/STUIMG_2950459936267a01cb349a.jpg 1 http://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/assets/elfinder/php/connector.php 1 -
+/plugins/elfinder/php/connector.php 1 -
+/wp_wrong_datlib.php 2 www.bing.com
+/wp-includes/js/imgareaselect/content.php 1 parvamconsultech.com
+/schoolerpuat/Profile_images/STUIMG_2082102339628b08ead966b.jpg 1 http://parvamconsultech.com/schoolerpuat/view-all-student.php
+//wp-content/plugins/adriv/images/error_log.php 1 -
+/2020 1 www.google.com
+/sites/default/files/ALFA_DATA 2 www.bing.com
+//haccess.php 2 -
+/schoolerp/parvamAdmin/css/img/preloader.gif 14 http://parvamconsultech.com/schoolerp/parvamAdmin/css/style.css
+/schoolerp/Student_Docs/STUDOC_40_125419466562877edd0c802.jpg 2 http://parvamconsultech.com/schoolerp/student-details.php
+/wp-content/plugins/jupiterx-core/assets/images/warning-badge.svg 1 parvamconsultech.com
+/1rwjrkxh.php 1 http://parvamconsultech.com/1rwjrkxh.php
+/2016 1 www.google.com
+/2019 1 www.google.com
+///readme.php 1 -
+/schoolerp/Profile_images/STUIMG_177867694624bf3bcf0c93.jpg 8 http://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/robots.txt 67 -
+/pinfo.php 1 -
+/schoolerp/images/ananya%20logo.png 22 -
+/schoolerp/Profile_images/Profile_images/STUIMG_1534381671624d235f3336d.jpg 1 http://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/rjrmofaj.php 1 www.google.com
+/schoolerp/Profile_images/Profile_images/STUIMG_1534354892623ee0828bd83.jpg 1 http://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/Qleaps_07_05_22/assets/css/spacing.css.map 1 -
+/public/assets/fileupload/index.php 1 -
+/schoolerp/STUIMG_12222164628483c8e046a.jpg 5 http://parvamconsultech.com/schoolerp/view-all-student.php
+/wsoyanz.php 1 -
+/wp-content/uploads/typehub/custom/wyvtxiiz/.sp3ctra_XO.php 1 www.google.com
+/Qleaps_07_05_22/assets/css/bootstrap.min.css.map 1 -
+/martinrealtors/js/bootstrap.min.js.map 1 -
+//about.php 1 -
+/or8d450m.php 1 http://parvamconsultech.com/or8d450m.php
+/infophp.php 2 -
+//wp-admin/js/widgets/index.php 1 http://parvamconsultech.com//wp-admin/js/widgets/index.php
+/h0gn2oz3.php 1 http://parvamconsultech.com/h0gn2oz3.php
+/shop 1 www.google.com
+/wp-admin/css/ 7 binance.com
+/ijckzqdj.php 1 http://parvamconsultech.com/ijckzqdj.php
+/fl42afil.php 1 http://parvamconsultech.com/fl42afil.php
+/home.php 2 -
+/gix6tklh.php 1 http://parvamconsultech.com/gix6tklh.php
+/2017 1 www.google.com
+/Qleaps_07_05_22/assets/js/bootstrap.min.js.map 1 -
+/home 1 www.google.com
+/doc.php 2 www.bing.com
+/xmlrpc.php 1 -
+/vehiclepassmobileapp/mobile-api/getVehicles.php 13 -
+/admin/assets/plugins/elfinder/php/connector.php 1 -
+/mwy9n83c.php 1 http://parvamconsultech.com/mwy9n83c.php
+/wp-admin/alfacgiapi 2 www.bing.com
+/wp-includes/sodium_compat/namespaced/index.php 1 parvamconsultech.com
+/wp-includes/css/css.php 2 www.bing.com
+/upl.php 1 parvamconsultech.com
+/wp-includes/css/wp-config.php 2 www.bing.com
+/schoolerpuat/js/popper.min.js.map 3 -
+/imp.php 1 -
+/1975.php 2 -
+/schoolerp/Profile_images/Profile_images/STUIMG_186350695661ebe3513720d.jpg 79 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/Profile_images/Profile_images/STUIMG_40780870661eab486cfa4a.jpg 1 http://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/6nguqjoq.php 1 http://parvamconsultech.com/6nguqjoq.php
+/schoolerp/STUIMG_13020536456279083f0881b.jpg 4 http://parvamconsultech.com/schoolerp/view-all-student.php
+/wp-includes/Text/Diff/radio.php 1 parvamconsultech.com
+/wp-content/plugins/dos2unix/dos2unix.php 1 parvamconsultech.com
+/schoolerp/Student_Docs/STUDOC_37_192152670562877b3c7d166.jpg 1 http://parvamconsultech.com/schoolerp/student-details.php
+/7lk2alv8.php 1 http://parvamconsultech.com/7lk2alv8.php
+/linusadmin-phpinfo.php 1 -
+/schoolerp/Student_Docs/STUDOC_40_151959733062877edd17c45.jpg 2 http://parvamconsultech.com/schoolerp/student-details.php
+/humans.txt 4 -
+//wp-types.php 1 -
+//content.php 2 -
+/backup/wp-admin/install.php 4 -
+/aa.php 1 -
+/fb6vkd5k.php 1 http://parvamconsultech.com/fb6vkd5k.php
+/wp-includes/js/jquery/new-index.php 1 parvamconsultech.com
+/s_ne.php 2 www.bing.com
+/wp-content/cgialfa 2 www.bing.com
+/WP 1 www.google.com
+/new/wp-admin/install.php 4 -
+/wp-admin/cgialfa 2 www.bing.com
+/7k9b0v3z.php 1 http://parvamconsultech.com/7k9b0v3z.php
+/x1a2pxsc.php 1 http://parvamconsultech.com/x1a2pxsc.php
+/schoolerpTUIMG_12057034596267853d8afb0.jpg 8 -
+/web/wp-admin/install.php 4 -
+/admin.php 4 parvamconsultech.com
+/wp-content/themes/twentytwenty/2index.php 1 parvamconsultech.com
+/wp-content/plugins/wp-striplple/striplple.php 1 parvamconsultech.com
+/wp-includes/images/smilies/new-index.php 1 parvamconsultech.com
+/nuked-clan/index.php 1 -
+/wp-booking.php 2 www.bing.com
+/images/vuln.php 1 bing.com
+/xleet.php 2 www.bing.com
+/zfq4tgm9.php 1 http://parvamconsultech.com/zfq4tgm9.php
+/schoolerp/Profile_images/Profile_images/STUIMG_2004497418624c052d5f049.jpg 1 http://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/wp-includes/SimplePie/Parse/radio.php 1 parvamconsultech.com
+/.aws/credentials 1 -
+/Blog 1 www.google.com
+////xx.php 1 -
+/rwb8nuz6.php 1 http://parvamconsultech.com/rwb8nuz6.php
+/aws.yml 1 -
+/phpinfo.php 1 -
+/schoolerpuat/Profile_images/STUIMG_571423128628caa57885e3.jpg 1 http://parvamconsultech.com/schoolerpuat/view-all-student.php
+/wp-content/plugins/akismet/content.php 1 parvamconsultech.com
+/%E0%B2%B8%E0%B3%8D%E0%B2%95%E0%B3%82%E0%B2%B2%E0%B2%B0%E0%B3%8D%E0%B2%AA%E0%B3%81%E0%B2%A4/ 1 -
+/vyrqpmay.php 1 www.google.com
+/wp-content/languages/themes/radio.php 1 parvamconsultech.com
+/s4oy9kdl.php 1 http://parvamconsultech.com/s4oy9kdl.php
+/martinrealtors/das 1 -
+/wp-content/plugins/wpyii2/wpyii2.php 1 parvamconsultech.com
+/schoolerp/STUIMG_136430086062834f7b8c9c8.jpg 4 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/Profile_images/Male_Student.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/wp-content/plugins/seoo/masfix.php 2 parvamconsultech.com
+/ALFA_DATA/alfacgiapi/perl.alfa 4 www.google.com
+/schoolerpuat/Profile_images/STUIMG_12222164628483c8e046a.jpg 1 http://parvamconsultech.com/schoolerpuat/view-all-student.php
+/radio.php 2 www.bing.com
+/schoolerp/css/bootstrap.min.css.map 117 -
+/schoolerpuat/Profile_images/STUIMG_14232197736267852f8a25d.jpg 1 http://parvamconsultech.com/schoolerpuat/view-all-student.php
+/schoolerp/Profile_images/Profile_images/STUIMG_19291022936263afcdbd00f.jpg 1 http://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/wp-includes/sitemaps/providers/2index.php 1 parvamconsultech.com
+/schoolerp/Profile_images/STUIMG_19504111146263c692de087.jpg 9 http://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/forum 1 www.google.com
+/upload.php 2 www.bing.com
+/ehe47v9a.php 1 http://parvamconsultech.com/ehe47v9a.php
+/vehiclepassmobileapp/mobile-api/getPassDetails.php 5 -
+///xmlrp.php 1 -
+/czwbv5rh.php 1 http://parvamconsultech.com/czwbv5rh.php
+/wp-content/plugins/nodeps/wsb.php 1 parvamconsultech.com
+/schoolerp/Profile_images/Profile_images/STUIMG_14437307346242e15cedbed.jpg 1 http://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/schoolerputa/ 2 -
+/schoolerp/js/bootstrap.min.js.map 110 -
+/wp-content/uploads/2020/radio.php 1 parvamconsultech.com
+/moduless.php 2 www.bing.com
+/es9mlsd2.php 1 http://parvamconsultech.com/es9mlsd2.php
+/q6d1mok1.php 1 http://parvamconsultech.com/q6d1mok1.php
+/xc3zijdk.php 1 http://parvamconsultech.com/xc3zijdk.php
+/wp-content/plugins/nodeps/nodeps.php 1 parvamconsultech.com
+/6cstz8fv.php 1 http://parvamconsultech.com/6cstz8fv.php
+/wp-content/ALFA_DATA/alfacgiapi/perl.alfa 1 www.google.com
+/ni9xpsvm.php 1 http://parvamconsultech.com/ni9xpsvm.php
+/bfnvavkx.php 1 http://parvamconsultech.com/bfnvavkx.php
+/schoolerp/Profile_images/STUIMG_458748465625fb8c778683.jpg 8 http://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/schoolerp/Profile_images/STUIMG_1276570896624583e204306.jpg 9 http://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/schoolerp/Student_Docs/STUDOC_36_15012554162877a03cc3ee.jpg 6 http://parvamconsultech.com/schoolerp/student-details.php
+/wp-2019.php 1 parvamconsultech.com
+/olux.php 2 www.bing.com
+/schoolerpuat/Profile_images/STUIMG_320077816628f02aa4757a.jpg 1 http://parvamconsultech.com/schoolerpuat/view-all-student.php
+/aadhya_foundation/css/img/preloader.gif 4 http://parvamconsultech.com/aadhya_foundation/css/style.css
+/wordpress 1 www.google.com
+/wp-admin/ALFA_DATA 2 www.bing.com
+/schoolerpu/ 1 -
+/martinrealtors/css/styles.css.map 1 -
+/schoolerp/Profile_images/Profile_images/STUIMG_177867694624bf3bcf0c93.jpg 1 http://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/schoolerp/Profile_images/ 1 http://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/error.php 2 www.bing.com
+/config/aws.yml 1 -
+/ 360 -
+/qooz1lhr.php 1 http://parvamconsultech.com/qooz1lhr.php
+/schoolerp/js/popper.min.js.map 110 -
+/wp-content/uploads/cgialfa 2 www.bing.com
+/schoolerpuat/Profile_images/STUIMG_1837077431628caaa25af44.jpg 1 http://parvamconsultech.com/schoolerpuat/view-all-student.php
+//wp-admin/admin-ajax.php 1 www.google.com
+/schoolerp/Student_Docs/STUDOC_40_213981892162877edd09f38.jpg 2 http://parvamconsultech.com/schoolerp/student-details.php
+/schoolerpuat/Profile_images/STUIMG_6966843556284e414715d4.jpg 1 http://parvamconsultech.com/schoolerpuat/view-all-student.php
+/schoolerpuat/css/bootstrap.min.css.map 3 -
+/j1ugcby1.php 1 http://parvamconsultech.com/j1ugcby1.php
+////badguys.php 1 -
+/2013 1 www.google.com
+/schoolerp/STUIMG_12216649506284bcae0fa53.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerpuat/Profile_images/STUIMG_13020536456279083f0881b.jpg 1 http://parvamconsultech.com/schoolerpuat/view-all-student.php
+/jfne5byz.php 1 http://parvamconsultech.com/jfne5byz.php
+/wp-content/themes/twentytwenty/new-index.php 1 parvamconsultech.com
+/wp-content/uploads/typehub/custom/xagyrbwp/.sp3ctra_XO.php 1 www.google.com
+/schoolerp/Student_Docs/STUDOC_37_143567741562877b3c7e2c4.jpg 2 http://parvamconsultech.com/schoolerp/student-details.php
+/a3j34gfh.php 1 http://parvamconsultech.com/a3j34gfh.php
+/wordpress/wp-admin/install.php 4 -
+/wp-includes/SimplePie/Cache/radio.php 1 parvamconsultech.com
+/schoolerp/css/img/preloader.gif 1979 http://parvamconsultech.com/schoolerp/css/style.css
+/system_log.php 2 www.bing.com
+/wp-content/languages/plugins/radio.php 1 parvamconsultech.com
+/wp-includes/js/jquery/2index.php 1 parvamconsultech.com
+/schoolerp/Student_Docs/STUDOC_36_204783075162877a03cce53.jpg 6 http://parvamconsultech.com/schoolerp/student-details.php
+/5xt1xqby.php 1 http://parvamconsultech.com/5xt1xqby.php
+/wp-content/themes/fing/deter.php 1 parvamconsultech.com
+/wp-includes/assets/aya.php:youdermatologia.com.br 1 parvamconsultech.com
+/qie3nch8.php 1 http://parvamconsultech.com/qie3nch8.php
+/wp-content/vuln.php 1 bing.com
+/ou35btlr.php 1 http://parvamconsultech.com/ou35btlr.php
+/alfacgiapi/perl.alfa 4 www.google.com
+/SHOP 1 www.google.com
+/old/wp-admin/install.php 4 -
+/admin/controller/extension/extension/alfacgiapi 2 www.bing.com
+/templates/beez3/cgialfa 2 www.bing.com
+/fhzdklsk.php 1 http://parvamconsultech.com/fhzdklsk.php
+/2015 1 www.google.com
+/schoolerp/images/ananyalogo.png 18 -
+/schoolerp/Profile_images/Profile_images/STUIMG_13175251236242a169c07cd.jpg 1 http://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+///Chitoge.php 2 -
+/phpinfos.php 1 -
+/wp-content/alfacgiapi 2 www.bing.com
+/admin/fileupload/index.php 1 -
+//wp-content/plugins/pack/pack1.php 1 -
+/schoolerp/Profile_images/Profile_images/STUIMG_19504111146263c692de087.jpg 1 http://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/wp-2019.php:www.gpschamp.com 1 parvamconsultech.com
+/photography/ 1 -
+/wp-includes/images/media/aya.php:bagongyugto.com 1 parvamconsultech.com
+/vehiclepassmobileapp/mobile-api/login.php 8 -
+/schoolerpuat/Profile_images/STUIMG_327413347628caa8a17a4a.jpg 1 http://parvamconsultech.com/schoolerpuat/view-all-student.php
+/gank.php.PhP 2 www.bing.com
+/j5zbvgrf.php 1 http://parvamconsultech.com/j5zbvgrf.php
+/backup 1 www.google.com
+/inbexw.php 2 parvamconsultech.com
+//Legion.php 1 -
+/7ahpb2x7.php 1 http://parvamconsultech.com/7ahpb2x7.php
+/i6wsome8.php 1 http://parvamconsultech.com/i6wsome8.php
+/schoolerp/Profile_images/STUIMG_2004497418624c052d5f049.jpg 8 http://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/schoolerp/Student_Docs/STUDOC_37_179389895862877b3c7daac.jpg 2 http://parvamconsultech.com/schoolerp/student-details.php
+/06mge5hw.php 1 http://parvamconsultech.com/06mge5hw.php
+/7qvg23n6.php 1 http://parvamconsultech.com/7qvg23n6.php
+/admin/controller/extension/extension/ALFA_DATA 2 www.bing.com
+/schoolerp/Profile_images/Profile_images/STUIMG_94919687162861d247a7f0.jpg 1 http://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/schoolapi/loginnew.php 1 -
+/ads.txt 33 -
+/wp-plain.php 4 www.google.com
+/schoolerp/Profile_images/Profile_images/STUIMG_1572814160623ee484742b3.jpg 1 http://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/ly83xnlc.php 1 http://parvamconsultech.com/ly83xnlc.php
+/schoolerp/Teacher_Profile/TCHIMG_1318241004624d6be533bba.jpg 14 http://parvamconsultech.com/schoolerp/view-all-deleted-teachers.php
+/yuuki 1 -
+/ltqoy3yf.php 1 http://parvamconsultech.com/ltqoy3yf.php
+/3index.php 4 parvamconsultech.com
+/schoolerpuat/Profile_images/STUIMG_1498771796285dd22de453.jpg 1 http://parvamconsultech.com/schoolerpuat/view-all-student.php
+/schoolerput/ 1 -
+/schoolerp/brick2brick 1 -
+/beence.php 2 www.bing.com
+/schoolerp/Profile_images/./Profile_images/STUIMG_6801085936285d8f26815c.jpg 1 -
+/wp-includes/wp-class.php 2 www.bing.com
+/SG_Construction/assets/img/projects/01-full.html 1 -
+//FoxWSO.php 1 -
+/WordPress 1 www.google.com
+/1.php 2 www.bing.com
+/wp-json/wp/v2/users/ 2 -
+/wp-content/uploads/ALFA_DATA 2 www.bing.com
+/wp-content/languages/themes/index.php 1 parvamconsultech.com
+/gp6ipf9w.php 1 http://parvamconsultech.com/gp6ipf9w.php
+/wp-includes/images/media/new-index.php 1 parvamconsultech.com
+//radio.php 2 -
+/0q6nf4eu.php 1 http://parvamconsultech.com/0q6nf4eu.php
+/wp-includes/images/smilies/content.php 1 parvamconsultech.com
+/wp-includes/rest-api/fields/radio.php 1 parvamconsultech.com
+/schoolerp/Profile_images/Profile_images/Profile_images/STUIMG_186350695661ebe3513720d.jpg 1 http://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/2pgx95uo.php 1 http://parvamconsultech.com/2pgx95uo.php
+/z.php 2 www.bing.com
+/admin/controller/extension/extension/cgialfa 2 www.bing.com
+/config.js 1 -
+/schoolerp/Profile_images/Profile_images/STUIMG_3527126726242aef087bde.jpg 1 http://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+/817y94hj.php 1 http://parvamconsultech.com/817y94hj.php
+/m8cz8wo3.php 1 http://parvamconsultech.com/m8cz8wo3.php
+/martinrealtors/js/swiper.min.js.map 1 -
+/shells.php 2 www.bing.com
+/.well-known/ALFA_DATA 2 www.bing.com
+/defau1t.php 3 www.bing.com
+/ncxu2s57.php 1 http://parvamconsultech.com/ncxu2s57.php
+/wp-includes/images/crystal/content.php 1 parvamconsultech.com
+/a.php 2 www.bing.com
+/schoolerp/Profile_images/STUIMG_635816766625fc0b8e6dd6.jpg 79 http://parvamconsultech.com/schoolerp/view-all-deleted-student.php
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 115
+49.205.150.2 2887 3731 38448582 20220524031847
+49.205.151.176 1589 1922 21201026 20220517054207
+49.205.151.14 1470 1948 21221941 20220531233218
+49.205.150.128 1258 1509 13290354 20220506030517
+49.205.151.37 737 849 13413229 20220524064157
+27.111.75.61 700 829 4600337 20220519065804
+157.45.105.208 557 730 10660436 20220527050224
+106.217.111.143 466 602 8527993 20220523073215
+103.16.71.96 297 606 14529661 20220527205632
+157.45.234.33 231 268 2309088 20220505042410
+49.205.148.16 219 401 9510577 20220526031503
+157.50.12.4 216 317 1973146 20220525031242
+27.59.67.57 179 205 1528439 20220525054924
+223.186.140.170 176 248 4266808 20220524035205
+157.45.24.226 169 193 827604 20220526204312
+157.45.115.83 165 300 6421657 20220527020210
+157.45.52.79 130 156 1529004 20220519062646
+103.86.106.101 130 136 93448 20220526011749
+49.205.139.33 114 140 1531976 20220523005623
+220.158.158.153 113 191 4433569 20220520062117
+157.45.7.89 113 262 8593704 20220524041132
+49.205.150.188 112 145 959068 20220517232048
+103.16.71.101 107 136 3029950 20220509224757
+106.196.18.134 101 127 1503289 20220524075246
+220.158.158.54 100 100 63381 20220506075304
+157.45.160.91 1 1 131 20220530075922
+157.45.235.166 48 48 29494 20220519194414
+49.44.83.169 4 18 342000 20220509215059
+220.158.158.85 83 103 483120 20220509040905
+223.186.130.191 17 17 6818 20220526023041
+157.45.57.151 1 2 1037 20220529065021
+157.45.165.31 1 1 131 20220514005957
+220.158.158.135 40 40 14065 20220503023543
+106.197.240.203 24 54 1772211 20220505043550
+183.82.15.169 2 32 414135 20220514010201
+42.105.126.194 3 3 120 20220502020258
+49.205.142.16 2 3 1174 20220506001344
+157.45.245.227 6 6 1194 20220519224507
+223.231.158.54 8 8 2146 20220526035740
+203.109.91.132 2 33 414815 20220514010137
+27.59.82.176 1 1 197 20220527024349
+23.88.197.190 5 37 650754 20220521040854
+49.205.136.91 1 1 2220 20220516124450
+106.206.121.253 1 1 40 20220503053354
+157.50.23.219 12 12 6867 20220523081833
+49.205.139.208 2 5 1168 20220517121059
+157.45.251.162 1 1 131 20220517085015
+157.45.40.176 47 47 20248 20220519075122
+103.16.71.103 65 100 2938898 20220517213457
+157.45.52.161 5 6 1364 20220519024840
+223.186.115.197 41 41 6687 20220506073351
+49.205.137.12 9 25 1382115 20220530201619
+157.45.166.158 25 29 20544 20220530224247
+223.186.81.62 10 10 2156 20220526011304
+157.45.238.41 43 69 1488250 20220519075744
+220.158.158.242 34 81 4307729 20220509022733
+223.196.14.6 2 30 329140 20220514010207
+203.171.242.39 4 81 3083991 20220528042751
+49.44.87.74 2 33 414815 20220526005304
+119.227.190.4 1 1 131 20220509215023
+42.105.118.5 10 10 1236 20220519222757
+182.79.253.7 4 18 344223 20220518223001
+223.186.238.171 8 8 2006 20220531011436
+157.45.115.214 40 41 34206 20220527021619
+157.45.6.62 10 10 12447 20220523004003
+223.231.190.51 5 5 1793 20220526040654
+27.59.107.11 18 18 21137 20220519072055
+27.59.104.226 28 28 77776 20220526055018
+202.142.64.6 3 18 346064 20220509040357
+35.185.241.102 3 3 30510 20220527015341
+106.217.47.139 13 13 5116 20220506063429
+157.45.172.158 1 1 131 20220511184754
+157.45.182.245 5 5 3630 20220530070015
+157.45.44.96 4 4 476 20220520060247
+172.58.87.251 6 36 692128 20220509040451
+35.194.93.63 1 1 3414 20220529065024
+157.45.9.200 87 108 179121 20220526052508
+103.233.183.5 1 1 5805 20220523044502
+106.206.124.116 88 88 59320 20220524060240
+34.150.147.184 1 1 151 20220527021444
+157.45.37.166 14 40 1486486 20220518013453
+45.64.189.69 3 18 346067 20220502063426
+223.186.106.230 11 11 3633 20220517065132
+157.45.166.129 6 22 1379029 20220530080316
+223.231.171.122 20 20 15944 20220526052700
+27.59.37.246 41 67 1484824 20220525054237
+1.39.150.176 1 2 1043 20220506190926
+223.189.115.228 12 12 4813 20220526063533
+157.50.19.185 69 107 1199057 20220524042010
+202.21.42.170 28 28 38652 20220509223146
+106.197.224.162 1 1 1037 20220530072738
+157.45.33.227 1 1 199 20220519222510
+27.59.50.94 14 14 1918 20220527021016
+157.45.35.248 40 66 1483318 20220520060345
+202.21.42.131 4 4 5862 20220510063030
+223.186.105.5 27 27 2096 20220517231411
+220.158.159.68 23 57 2533356 20220520081737
+202.21.42.78 10 12 284188 20220511012816
+106.217.47.149 14 14 3786 20220502032613
+35.245.82.188 4 4 63995 20220529065024
+1.39.152.176 1 2 12790 20220526005205
+106.206.122.228 20 20 1016 20220505061442
+27.63.252.10 22 86 2166411 20220530003738
+223.231.158.56 4 20 1378767 20220530024043
+92.205.56.212 1 1 17 20220504125835
+49.205.136.241 60 140 2759587 20220514023619
+157.45.163.180 8 8 8311 20220505112418
+220.158.159.241 55 57 523459 20220511043224
+27.59.99.222 5 5 1243 20220528014302
+103.16.71.99 46 46 14618 20220506084419
+223.186.254.250 17 17 1238 20220503053153
+157.45.118.19 10 10 400 20220502010954
+202.21.42.154 26 52 1390795 20220531235908
+157.45.51.137 22 22 12711 20220519071442
+49.44.87.102 4 52 976439 20220527231038
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 27
+20220501 22 54 213886 1
+20220502 287 389 4788857 12
+20220503 570 654 5693407 9
+20220504 402 425 2325175 5
+20220505 356 423 4114514 9
+20220506 202 229 703133 9
+20220509 1161 1421 17792175 13
+20220510 110 206 6813413 5
+20220511 199 203 1007802 5
+20220514 67 236 3917808 6
+20220515 76 118 1050774 1
+20220516 326 416 4511340 6
+20220517 270 341 3986478 11
+20220518 979 1160 9456009 12
+20220519 1038 1584 22711700 19
+20220520 369 581 11138690 8
+20220521 5 37 650754 1
+20220522 270 359 2440037 1
+20220523 2375 2926 29899526 12
+20220524 1308 1773 32860508 13
+20220525 545 754 6134228 6
+20220526 593 800 10017553 16
+20220527 1116 1654 26546389 14
+20220528 10 87 3085234 3
+20220529 158 181 305599 4
+20220530 404 634 11306650 13
+20220531 651 868 10544459 6
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+30mn-1h 32
+1h+ 42
+5mn-15mn 23
+0s-30s 57
+2mn-5mn 21
+15mn-30mn 18
+30s-2mn 27
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 258
+/schoolerp/get_student_payment_dashboard.php 2278 165932 1 9
+/schoolerp/get_parent_request_dashboard.php 2278 190287 0 4
+/schoolerp/get_agent_payment_dashboard.php 2278 154041 0 58
+/schoolerp/schoolapi/studentprofile.php 913 179572 38 20
+/schoolerp/getAttendancedata.php 400 322984 1 2
+/schoolerp/login.php 350 295069 13 18
+/schoolerp/schoolapi/feedetails.php 242 450753 3 10
+/schoolerp/all-marks-report-links-apk.php 212 334641 4 0
+/schoolerp/view-all-student.php 203 1912062 18 4
+/schoolerp/schoolapi/loginnew.php 197 7765 18 5
+/schoolerp/Dashboard.php 178 1590117 7 1
+/schoolerp/schoolapi/parentreqestlistview.php 172 22037 0 6
+/schoolerp/index.php 135 18408 2 0
+/schoolerp/schoolapi/parentrequestlist.php 133 27529 0 4
+/schoolerp/studentmarksentry.php 130 635685 4 1
+/schoolerpuat/get_student_payment_dashboard.php 115 6175 0 0
+/schoolerpuat/get_parent_request_dashboard.php 115 7868 0 0
+/schoolerpuat/get_agent_payment_dashboard.php 115 6095 0 0
+/schoolerp/view-account-details.php 103 574717 3 0
+/schoolerp/student-details.php 98 691230 4 2
+/schoolerp/first_sem_report_apk.php 96 215637 1 1
+/schoolerp/view-all-parent-requests.php 94 533266 1 0
+/schoolerp/student-marks-entry_back_up.php 89 704623 0 0
+/schoolapi/feedetails.php 86 106174 1 8
+/schoolerp/ 83 7194 15 4
+/martinrealtors/register.html 4 23896 1 2
+/schoolerp/add-new-tecaher-subject.php 7 43534 0 0
+/schoolerp/add-new-event-gallery.php 24 127433 0 0
+/qp2/ 1 1253 0 1
+/schoolerp/teacherPdf.php 5 748491 0 0
+/schoolerp/student-all-payments-reciept-detail.php 5 534995 0 0
+/Qleaps_07_05_22/assets/fonts/fa-light-300.woff2 1 185712 0 0
+/schoolerp/parvamAdmin/Dashboard.php 2 6252 0 0
+/schoolerp/add_ParentRequestResponse.php 10 220 0 0
+/project_group/assets/webfonts/fa-brands-400.woff2 1 74288 0 0
+/schoolerpuat/add-grade-fee.php 31 199559 0 0
+/schoolerp/update_users_password.php 3 423 0 0
+/aakruthi-erp/webmaster/checkpoint 1 8106 0 0
+/schoolapi/parentrequestlist.php 44 5394 3 1
+/schoolerp/add_student_master.php 9 1242 0 0
+/schoolerp/editAttandance.php 2 13270 0 0
+/schoolerp/student-admission-detail-report.php 7 800871 0 1
+/Qleaps_07_05_22/mail_handler.php 1 127 0 0
+/schoolerp/first_sem_report.php 32 158367 3 0
+/schoolerpuat/login.php 15 14126 1 0
+/schoolerp/schoolapi/updatepassword.php 5 370 0 1
+/schoolerp/all_sem_report_apk.php 43 107318 0 0
+/schoolerpuat/create_admin_users.php 1 141 0 0
+/schoolerp/add_new_teacher_subject.php 2 358 0 0
+/schoolerp/view-all-subject.php 10 60073 0 0
+/schoolerpuat/add_teacher_master.php 1 139 0 0
+/schoolerp/view-all-holiday.php 3 21935 0 0
+/schoolerp/add_grade_fee.php 11 1782 0 0
+/schoolerpuat/view-all-subject.php 2 12646 0 0
+/schoolapi/studentprofile.php 64 7691 6 6
+/schoolerp/second_sem_report.php 8 43761 0 0
+/aadhya_foundation/get_student_payment_dashboard.php 4 212 0 0
+/schoolerp/add_teacher_documents.php 2 356 0 0
+/schoolerp/view-all-deleted-student.php 9 123506 0 0
+/schoolerpuat/add-new-grade.php 14 83230 0 0
+/schoolerp/schoolapi/insertparentrequest.php 34 1360 1 0
+/schoolerp/parvamAdmin/view-Colleges.php 2 7474 0 0
+/martinrealtors/add-property.html 6 21786 1 3
+/schoolerp/add_announcement.php 6 816 0 0
+/schoolerpuat/add-new-student.php 5 39661 1 0
+/schoolerp/view-all-event-gallery.php 42 255910 0 0
+/martinrealtors/favorited-listings.html 1 6784 0 0
+/aakruthi-erp/webmaster/leads/view_lead/49 2 14340 0 0
+/schoolerp/teacher-bank-details.php 9 58834 0 0
+/schoolerp/view-all-parent-request-responses.php 41 260498 0 0
+/schoolerp/Section_master_delete.php 1 166 0 0
+/schoolerp/add-teacher-documents.php 5 41118 0 0
+/schoolerpuat/add-new-grade-section.php 4 23143 0 0
+/schoolerpuat/update_teacher.php 1 139 0 0
+/schoolerp/add-announcement.php 12 66242 0 0
+/schoolerp/update_grade_master.php 1 136 0 0
+/aadhya_foundation/Dashboard.php 2 5804 0 0
+/Qleaps_07_05_22/ 2 28898 0 1
+/schoolerp/view-user-admin-details.php 31 156174 0 0
+/martinrealtors/dashboard.html 10 74100 1 0
+/schoolerp/add-grade-fee.php 51 332588 0 0
+/schoolerp/parvamAdmin/webfonts/fa-solid-900.woff2 1 74320 0 0
+/schoolerp/logout.php 38 4826 1 0
+/schoolerp/delete_event_gallery_image.php 8 1423 0 0
+/schoolerp/fetch_student_payment.php 13 321 0 0
+/schoolerpuat/add_new_teacher_subject.php 1 179 0 0
+/schoolerp/add_student_documents.php 3 526 0 0
+/schoolerp/rep_new.php 22 100945 0 1
+/aakruthi-erp/webmaster/project 1 10349 0 0
+/schoolerp/cal.php 40 387650 2 0
+/schoolerpuat/fetch_tech_sub.php 12 1198 0 0
+/Qleaps_07_05_22/assets/fonts/gt-font/GTWalsheimPro-Regular.woff2 1 41136 0 0
+/schoolerp/parvamAdmin/fonts/Flaticon.woff2 1 8848 0 0
+/martinrealtors/faq.html 2 15156 0 0
+/project_group/image1.webp 1 11880 0 0
+/schoolerp/add_new_holiday.php 3 489 0 0
+/schoolapi/loginnew.php 77 3033 12 4
+/aakruthi-erp/ 1 2220 1 0
+/martinrealtors/webfonts/fa-brands-400.woff2 6 470832 0 1
+/aakruthi-erp/webmaster/design/alldesign 1 10675 0 0
+/schoolerp/yearattendance.php 6 613362 0 0
+/schoolerp/bulk.php 8 36424 1 0
+/schoolerp/add-new-teacher.php 44 338354 1 0
+/martinrealtors/font/flaticon08b7.ttf 3 14520 0 0
+/schoolerp/parvamAdmin/view-college-details.php 3 13679 0 0
+/schoolerp/add_student_parent.php 1 173 0 0
+/aakruthi-erp/webmaster/project/view/8 1 10765 0 0
+/schoolerp/parvamAdmin/update_college_admin.php 1 152 0 0
+/schoolerp/parvamAdmin/view-college-admin-details.php 2 6625 0 0
+/schoolerp/add_student_payment.php 7 1211 0 0
+/schoolerp/add_new_grade_section.php 6 996 0 0
+/aadhya_foundation/get_agent_payment_dashboard.php 4 212 0 0
+/schoolerp/delete_stu_doc_image.php 6 1051 0 0
+/schoolerp/student-payment-reciept.php 3 320721 0 0
+/schoolerp/fetch_student_year.php 18 460 0 0
+/schoolerp/schoolapi/notifylist.php 26 26683 0 1
+/schoolerp/view-all-deleted-teachers.php 11 116638 0 0
+/martinrealtors/single-property-1.html 4 50685 0 1
+/schoolerp/getStuPayDetDate.php 1 37 0 0
+/schoolerp/announcement.php 27 148788 1 0
+/schoolerp/parvamAdmin/ 1 129 0 0
+/schoolerp/attendencelist.php 5 519213 0 0
+/schoolerpuat/fetch_teacher_and_staff_details.php 3 205 0 0
+/schoolapi/updatepassword.php 18 1305 0 1
+/schoolerp/delete_student.php 4 552 0 0
+/martinrealtors/fonts/fontawesome-webfont3e6e.woff2 9 694440 0 0
+/schoolerp/add-new-grade.php 26 148128 1 0
+/schoolerp/restore_deleted_teacher.php 2 286 0 0
+/schoolerp/delete_class_teacher_grade.php 1 164 0 0
+/schoolerpuat/add_grade_fee.php 26 4264 0 0
+/schoolerpuat/view-all-student.php 3 26238 0 0
+/schoolerpuat/update_grade_fee.php 1 136 0 0
+/martinrealtors/properties-grid-1.html 4 48801 0 1
+/schoolerp/fetch_grade_academic_year.php 7 644 0 0
+/schoolerp/webfonts/fa-regular-400.woff2 50 666792 0 1
+/schoolerp/report.php 1 2414 1 0
+/schoolerp/create_admin_users.php 7 1011 0 0
+/schoolerp/schoolapi/notifyview.php 42 4920 0 5
+/schoolerp/add_teacher_master.php 12 1492 0 0
+/schoolerp/download_report.php 6 818253 1 0
+/schoolerp/attendance_new.php 54 320894 1 0
+/schoolerp/getStuCasteCategory.php 13 3190 0 0
+/schoolerpuat/Dashboard.php 5 38703 1 0
+/schoolerp/add-class-teacher.php 38 246569 0 0
+/schoolerp/add_teacher_bank_details.php 4 712 0 0
+/schoolerp/add-student-documents.php 19 158354 0 0
+/martinrealtors/ 12 207086 2 0
+/martinrealtors/contact-us.html 2 13342 1 0
+/cpl-2022/ 1 1754 0 0
+/aakruthi-erp/webmaster/snag 1 8329 0 0
+/schoolerp/stu-attendence-calender-view-apk.php 59 602370 6 3
+/schoolerpuat/view-user-admin-details.php 1 5351 0 0
+/schoolapi/login.php 35 1392 7 3
+/schoolerp/grade_fee_delete.php 1 162 0 0
+/schoolerp/updateAttendance.php 31 775 0 0
+/martinrealtors/webfonts/fa-solid-900.woff2 9 722268 0 1
+/martinrealtors/user-profile.html 1 5143 0 0
+/schoolerp/parvamAdmin/add-new-college.php 1 4017 0 0
+/schoolerp/update_student_master.php 3 414 0 0
+/schoolapi/marksdetails.php 12 5075 1 0
+/schoolerp/fonts/Flaticon.woff2 40 345072 0 0
+/schoolerpuat/add-new-user-admin.php 4 28633 0 0
+/schoolerp/parvamAdmin/add-new-college-admin.php 2 4162 0 0
+/schoolerpuat/add-class-teacher.php 2 12360 0 0
+/schoolerp/view_attendance.php 61 317859 1 0
+/schoolerp/add_new_grade.php 7 1134 0 0
+/schoolerp/view-single-tecaher.php 22 80450 0 0
+/schoolerp/student-study-certificate.php 9 1065458 0 0
+/schoolerpuat/fetch_techer_emp_id.php 2 62 0 0
+/schoolerp/monthlyArepForAllStu.php 4 408960 0 0
+/schoolerp/add-new-holiday.php 16 111068 0 0
+/martinrealtors/payment-method.html 1 6721 1 0
+/schoolapi/insertparentrequest.php 18 720 1 0
+/schoolerpuat/fetch_grade_academic_year.php 7 596 0 0
+/martinrealtors/edit.html 1 7252 0 0
+/schoolerpuat/ 4 524 2 1
+/aadhya_foundation/webfonts/fa-solid-900.woff2 1 74320 0 0
+/schoolerpuat/add-new-teacher.php 7 59373 0 0
+/schoolerp/fetch_techer_emp_id.php 30 771 0 0
+/schoolerp/add-new-user-admin.php 30 210078 0 0
+/schoolerp/student-payment.php 38 240078 1 0
+/schoolerpuat/add-new-event-gallery.php 1 5473 0 0
+/schoolapi/parentprofile.php 22 6834 0 0
+/schoolerpuat/add_subject_master.php 6 990 0 0
+/schoolerp/add-new-subject.php 13 98857 0 0
+/aakruthi-erp/webmaster/leads/create 2 24118 0 0
+/schoolerp/add_class_teacher.php 9 1476 0 0
+/schoolerp/update_sadmin_stu_payment.php 4 602 0 0
+/schoolerp/teacher-details.php 17 126191 0 0
+/schoolerp/add_subject_master.php 3 489 0 0
+/aakruthi-erp/login/do 1 36 0 0
+/Qleaps_07_05_22/assets/fonts/gt-font/GTWalsheimPro-Black.woff2 1 41536 0 0
+/schoolerpuat/view-all-teachers.php 12 113764 0 0
+/schoolerp/second_sem_report_apk.php 74 168166 2 0
+/schoolerp/all_sem_report.php 3 19088 0 0
+/schoolerp/parvamAdmin/update_college.php 1 148 0 0
+/schoolerp/grade_master_delete.php 4 648 0 0
+/schoolerp/dailyReportattendance.php 5 511133 0 0
+/schoolerp/update-sadmin-student-payment.php 7 31224 1 0
+/schoolerpuat/add-new-tecaher-subject.php 3 18441 0 0
+/schoolerpuat/teacher-bank-details.php 2 13082 0 0
+/schoolerpuat/webfonts/fa-solid-900.woff2 4 297280 0 0
+/schoolerpuat/add_class_teacher.php 1 165 0 0
+/schoolerp/update_teacher.php 3 452 0 0
+/martinrealtors/about.html 2 19580 0 0
+/schoolerpuat/index.php 3 408 0 0
+/schoolerpuat/add-teacher-documents.php 1 7017 0 0
+/aakruthi-erp/webmaster/leads/opportunity 3 39783 0 0
+/Qleaps_07_05_22/assets/fonts/gt-font/GTWalsheimPro-Bold.woff2 1 41524 0 0
+/martinrealtors/webfonts/fa-regular-400.woff2 8 108704 0 1
+/schoolerp/webfonts/fa-solid-900.woff2 80 5648320 0 6
+/schoolerp/parvamAdmin/index.php 2 268 0 0
+/schoolerp/view-all-parent-requests-current-day.php 7 39840 0 0
+/schoolerp/update_event_gallery_images.php 3 426 0 0
+/schoolerp/delete_tecaher.php 2 328 0 0
+/schoolapi/parentreqestlistview.php 65 21017 0 5
+/schoolerpuat/view-account-details.php 5 28894 0 0
+/martinrealtors/my-listings.html 2 13304 0 0
+/schoolerp/student-marks-entry.php 22 114023 0 0
+/schoolerpuat/fonts/Flaticon.woff2 2 17696 0 0
+/schoolerp/view-event-gallery-images.php 40 252425 0 0
+/schoolerpuat/add-new-subject.php 10 72262 0 0
+/aakruthi-erp/assets/bootstrap/fonts/glyphicons-halflings-regular.woff2 6 108168 0 4
+/schoolerp/schoolapi/parentprofile.php 72 12217 0 0
+/schoolerp/parvamAdmin/login.php 6 4994 0 0
+/schoolerp/update_class_teacher.php 2 278 0 0
+/brick2brick/ 1 17973 0 0
+/aadhya_foundation/fonts/Flaticon.woff2 1 8848 0 0
+/project_group/assets/webfonts/fa-solid-900.woff2 1 79100 0 0
+/schoolerpuat/teacher-details.php 5 30801 0 0
+/schoolerpuat/add_new_grade.php 13 2132 0 0
+/aakruthi-erp/webmaster/leads/prospect 1 12053 0 0
+/schoolerp/view-all-teachers.php 74 789795 4 0
+/aakruthi-erp/webmaster/dashboard 8 89312 0 0
+/schoolerp/restore_deleted_student.php 1 143 0 0
+/aakruthi-erp/login 7 15540 7 2
+/schoolerp/add-new-student.php 69 575878 2 0
+/Qleaps_07_05_22/assets/fonts/fa-solid-900.woff2 1 137992 0 0
+/aakruthi-erp/webmaster/leads/disqualified 2 14910 0 0
+/demo/ 1 17 1 1
+/schoolerp/add-new-grade-section.php 15 87493 0 0
+/schoolerp/fetch_tech_sub.php 8 668 0 1
+/schoolerp/UpdateStatusParentRequestResponse.php 15 330 0 0
+/schoolerp/attendance.php 41 201464 2 0
+/schoolerpuat/webfonts/fa-regular-400.woff2 4 54432 0 0
+/schoolerp/fetch_teacher_and_staff_details.php 31 3711 0 0
+/schoolerp/update_teacher_bank_details.php 1 152 0 0
+/project_group/ 2 11610 2 1
+/schoolerp/parvamAdmin/webfonts/fa-regular-400.woff2 1 13608 0 0
+/schoolerpuat/add_new_grade_section.php 3 504 0 0
+/schoolerp/student-bank-details.php 5 31806 0 0
+/schoolerp/student-parents.php 4 27243 0 0
+/project_group/assets/webfonts/fa-regular-400.woff2 1 14872 0 1
+/aadhya_foundation/view-all-student.php 2 6828 0 0
+/aadhya_foundation/ 1 136 0 0
+/schoolerp/update_grade_fee.php 1 136 0 0
+/aakruthi-erp/webmaster/leads 5 100515 0 1
+/schoolerp/add_event_gallery_images.php 7 1018 0 0
+END_SIDER

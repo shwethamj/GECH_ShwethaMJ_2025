@@ -1,0 +1,971 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202203 will be lost/reset.
+# Last config file used to build this data file was /home4/parvamco/tmp/awstats/awstats.parvamconsultech.parvam.co.in.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2027                
+POS_TIME 2709                
+POS_VISITOR 21547               
+POS_DAY 23085               
+POS_DOMAIN 3474                
+POS_LOGIN 3770                
+POS_ROBOT 3925                
+POS_WORMS 4213                
+POS_EMAILSENDER 4344                
+POS_EMAILRECEIVER 4487                
+POS_SESSION 23784               
+POS_SIDER 23990               
+POS_FILETYPES 4622                
+POS_DOWNLOADS 4995                
+POS_OS 5043                
+POS_BROWSER 5191                
+POS_SCREENSIZE 5710                
+POS_UNKNOWNREFERER 5784                
+POS_UNKNOWNREFERERBROWSER 5943                
+POS_ORIGIN 6097                
+POS_SEREFERRALS 6236                
+POS_PAGEREFS 6399                
+POS_SEARCHWORDS 6547                
+POS_KEYWORDS 6699                
+POS_MISC 2373                
+POS_ERRORS 6758                
+POS_CLUSTER 3626                
+POS_SIDER_404 6928                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20220401001204 136 37217 13211997128537
+FirstTime 20220301045638
+LastTime 20220331235912
+LastUpdate 20220401062048 136 0 135 0 0
+TotalVisits 82                  
+TotalUnique 35                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 37                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavascriptDisabled 0 0 0
+AddToFavourites 0 4 0
+JavaEnabled 0 0 0
+TotalMisc 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+FlashSupport 0 0 0
+QuickTimeSupport 0 0 0
+RealPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+PDFSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 61 155 2060994 67 81 5732
+1 77 264 3529070 92 106 311676
+2 100 157 871477 84 89 2557
+3 40 167 7133774 219 226 14733
+4 112 518 17578107 83 535 212428
+5 74 111 1194653 126 134 6094
+6 16 171 39985175 155 163 8651139
+7 4 4 5892 119 157 488614
+8 1 1 1253 36 41 1914
+9 1 5 255886 30 34 1914
+10 0 0 0 57 63 1402
+11 13 35 1744296 84 90 3745
+12 2 6 21952 67 75 4849
+13 9 269 74493920 219 226 2491
+14 10 10 170 1585 1599 6065
+15 0 0 0 118 123 9146
+16 1 1 0 117 132 2652
+17 0 0 0 50 84 2140
+18 0 0 0 95 126 8980
+19 0 0 0 107 125 6577
+20 3 15 133407 106 121 2140
+21 23 87 1110696 57 62 475
+22 4 20 331217 117 120 3168
+23 21 98 1215825 82 95 206573
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 5
+in 523 1950 149778717
+au 21 108 1493690
+us 15 19 123547
+cn 12 12 15924
+jp 1 5 255886
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 4
+bingbot/ 32 396787 20220331073022 0
+no_user_agent 14 718130 20220331235912 0
+bingpreview 3 86856 20220331074554 0
+facebookexternalhit/ 1 0 20220316113556 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 16
+gif 2 62750 0 0
+php 12 18509 0 0
+webp 5 145500 0 0
+png 227 17497730 0 0
+css 347 2925221 0 0
+map 1 135049 0 0
+js 583 10590186 0 0
+ttf 3 382288 0 0
+jpeg 104 29405112 0 0
+woff 4 199504 0 0
+json 7 1969282 0 0
+jpg 252 83059983 0 0
+html 146 1634140 0 0
+woff2 32 1143132 0 0
+Unknown 362 2486781 0 0
+svg 7 12597 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 6
+win10 1353 505
+winxp 2 0
+linuxandroid 691 58
+Unknown 3 3
+win7 33 2
+ios_iphone 12 4
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 21
+chrome98.0.4758.102 130 47
+chrome96.0.4664.104 94 12
+firefox11.0 2 0
+firefox75.0 10 10
+chrome97.0.4692.99 99 6
+chrome99.0.4844.73 166 7
+chrome99.0.4844.58 155 25
+chrome99.0.4844.74 172 80
+Unknown 3 3
+chrome99.0.4844.88 50 5
+safari 12 4
+chrome97.0.4692.98 111 3
+firefox97.0 2 2
+chrome59.0.3071.125 5 3
+chrome98.0.4758.101 159 7
+chrome99.0.4844.82 39 7
+chrome60.0.3112.107 1 1
+chrome74.0.3729.169 1 1
+firefox98.0 135 26
+chrome96.0.4664.45 1 1
+chrome99.0.4844.51 747 322
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+WhatsApp/2.22.6.72_A 20220325005551
+WhatsApp/2.22.5.72_A 20220312015736
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+WhatsApp/2.22.5.72_A 20220312015736
+WhatsApp/2.22.6.72_A 20220325005551
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 112 115
+From1 1 1
+From2 5 5
+From3 0 0
+From4 454 1973
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 5 5
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 8
+409 99 7304
+500 7 4757
+101 8 0
+406 368 83168
+206 5 8650718
+307 23 0
+301 20 4633
+404 3993 1175
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 472
+/FoxWSOv1.2.php 1 -
+/site/wp-admin/install.php 1 -
+/wp-includes/sistem.php 1 -
+/wp-includes/images/css.php 1 www.bing.com
+/2020 2 -
+/wp-admin/wp-admin.php 1 -
+/wp-admin/install.php 1 -
+/kiss.php 1 -
+/cgi-bin/MT/mt-atom.cgi 1 yahoo.com
+/sys-cache/index.php 1 -
+/backup/xmlrpc.php 141 -
+/send.php 1 -
+/4price.php 1 -
+/assets/js/fileupload/server/php/index.php 1 -
+/wp-2019.php 1 -
+/site/wp-includes/wlwmanifest.xml 39 -
+/2017/wp-includes/wlwmanifest.xml 2 -
+/_profiler/phpinfo 6 -
+/wp-configer.php 1 -
+/bac 1 -
+/dup-installer/main.installer.php 1 -
+/site/wp-admin/includes/ 2 www.google.com
+/wp/ 11 -
+/y.php 1 -
+/qleaps/images/32x32x9@2x.png 13 http://parvamconsultech.com/qleaps/
+/2012 1 www.google.com
+/demo/xmlrpc.php 141 -
+/LXSTa/jpmOb/XlmSg/ 1 -
+/www.php 1 -
+/wp/rahma.php 1 -
+/2021 1 -
+/sh3ll.php 1 -
+/legion.php 1 www.bing.com
+/100.php 1 -
+/wp-includes/wp-atom.php 1 www.bing.com
+/Fox1x.php 1 -
+/blog/ 11 -
+/DEMO 1 www.google.com
+/blog/xmlrpc.php 141 -
+/2015/wp-includes/wlwmanifest.xml 2 -
+/Demo 1 www.google.com
+/Www 1 -
+/.wp-cache.php 1 -
+/wp/wp-includes/wlwmanifest.xml 39 -
+/wordpress/wp-json/wp/v2/users 1 -
+/shells.php 1 www.bing.com
+/WP 3 -
+/qleaps/images/32x32x8@2x.png 13 http://parvamconsultech.com/qleaps/
+/wp/wp-admin/install.php 1 -
+/assets/js/jquery-file-upload/server/php/index.php 1 -
+/rcc/assets/cssq.php 1 -
+/sitio 1 -
+/website/wp-includes/wlwmanifest.xml 32 -
+/NEW 2 -
+/SG_Construction/ 1 -
+/templates/beez3/index.php 1 www.bing.com
+/sito 1 -
+/bk 5 -
+/.aws/.credentials 1 -
+/.aws/credentials 5 -
+/Anon.php 1 -
+/test 2 -
+/wp-theme.php 1 -
+/web/wp-includes/wlwmanifest.xml 38 -
+/feed/ 8 -
+/martinrealtors/blog.html 1 http://parvamconsultech.com/martinrealtors/blog-details.html
+/sites/default/files/alfacgiapi 1 www.bing.com
+/WSO.php 1 -
+/stindex.php 1 -
+/wp-content/sistem.php 1 -
+/cgi-bin/mt-atom.cgi 1 yahoo.com
+/administrator/index.php 3 -
+/11index.php 1 -
+/xindex.php 1 www.bing.com
+/autoload_classmap.php 3 -
+/aakruthi/public_html/public_html.php 2 -
+/qleaps/images/32x32x6@2x.png 13 http://parvamconsultech.com/qleaps/
+/priv8.php 1 -
+/i.php 1 -
+/config.php 1 www.bing.com
+/wp-old 1 -
+/2013 1 www.google.com
+/sym.php 1 -
+/wp 7 -
+/css.php 1 www.bing.com
+/SITE 1 -
+/wp-content/wp-logins.php 1 -
+/wp-booking.php 1 www.bing.com
+/oldsite 1 -
+/WWW 1 -
+/test.php 1 www.bing.com
+/martinrealtors/&c=jQuery35107755609851811425_1647598402455 2 http://parvamconsultech.com/martinrealtors/blog-details.html
+/wp-22.php 1 -
+/olux.php 1 www.bing.com
+/wp-blog.php 1 -
+/u.php 1 -
+/assets/global/plugins/plupload/examples/upload.php 1 -
+/admin/fileupload/server/php/index.php 1 -
+/wordpress/wp-admin/includes/ 2 www.google.com
+/4index.php 1 -
+/777.php 1 -
+/wp/xmlrpc.php 141 -
+/shop/wp-includes/wlwmanifest.xml 39 -
+/images/vuln.php 1 -
+/wp-content/uploads/ALFA_DATA 1 www.bing.com
+/wp2/wp-includes/wlwmanifest.xml 32 -
+/forum 3 -
+/upasthit/upasthit.php 1 -
+/wp-admin/alfacgiapi 1 www.bing.com
+/root.php 1 -
+/www 1 -
+/wp_wrong_datlib.php 2 www.bing.com
+/qleaps/images/32x32x4@2x.png 13 http://parvamconsultech.com/qleaps/
+/it.php 1 -
+/qleaps/images/360x400x1@2x.png 13 http://parvamconsultech.com/qleaps/
+/store 2 www.google.com
+/local.php 1 -
+/backup_demo/backup_demo.php 2 -
+/alexus.php 1 -
+/lock360.php 1 www.bing.com
+/wp-plugins.php 1 www.bing.com
+/wp-content/uploads/alfacgiapi 1 www.bing.com
+/2017 1 www.google.com
+/xleet.php 1 www.bing.com
+/martinrealtors/agents-listing-grid.html 1 http://parvamconsultech.com/martinrealtors/blog-details.html
+/2016/wp-includes/wlwmanifest.xml 2 -
+/wp2.php 1 -
+/new/ 10 -
+/old/wp-json/wp/v2/users 1 -
+/ALFA_DATA 1 www.bing.com
+/alfacgiapi 1 www.bing.com
+/0byte.php 1 -
+/moduless.php 1 www.bing.com
+/web/ 10 -
+/site/wp-json/wp/v2/users 1 -
+/aws.yml 4 -
+/data.php 1 -
+/info.php 4 -
+/wp-content/cgialfa 1 www.bing.com
+/alwso.php 1 -
+/qleaps/images/48x48x6@2x.png 13 http://parvamconsultech.com/qleaps/
+/qleaps/images/business48x48@2x.png 14 http://parvamconsultech.com/qleaps/
+/sites/default/files/ALFA_DATA 1 www.bing.com
+/shop 4 -
+/STORE 2 www.google.com
+/anone.php 1 -
+/qleaps/images/bv@2x.jpg 13 http://parvamconsultech.com/qleaps/
+/2020/wp-includes/wlwmanifest.xml 18 -
+/qleaps/images/360x400x3@2x.png 13 http://parvamconsultech.com/qleaps/
+/assets/colors/accesson.php 1 -
+/main 5 -
+/mar.php 1 -
+/qleaps/images/training48x48@2x.png 14 http://parvamconsultech.com/qleaps/
+/x.php 2 www.bing.com
+/wp-content/ 16 -
+/about.php 1 www.bing.com
+/assets/plugins/plupload/examples/upload.php 1 -
+/blog/robots.txt 1 -
+/MT/mt-atom.cgi 1 yahoo.com
+/qleaps/images/24x24x2@2x.png 13 http://parvamconsultech.com/qleaps/
+/FoxWSO.php 1 -
+/index.php 2 www.bing.com
+/fw.php 2 -
+/m.php 1 -
+/dr.php 1 -
+/demo/wp-json/wp/v2/users 1 -
+/wp-content/plugins/backup_index.php 1 www.bing.com
+/sendmail.php 1 -
+/8index.php 1 -
+/2021/wp-includes/wlwmanifest.xml 9 -
+/wp-admin/images/index.php 1 -
+/g.php 1 -
+/.well-known/cgialfa 1 www.bing.com
+/qleaps/images/32x32x5@2x.png 13 http://parvamconsultech.com/qleaps/
+/wp-uploads.php 1 -
+/wp-includes/SimplePie/index.php 1 parvamconsultech.com
+/test_404_page/ 2 -
+/old-index.php 8 parvamconsultech.com
+/xmlrpcs.php 1 www.bing.com
+/martinrealtors/properties-full-grid-1.html 1 http://parvamconsultech.com/martinrealtors/index.html
+/style.php 1 www.bing.com
+/2019/wp-includes/wlwmanifest.xml 35 -
+/KlMTf/YoOMg/ 1 -
+/martinrealtors/agent-details.html 1 http://parvamconsultech.com/martinrealtors/blog-details.html
+/wp-includes/cgialfa 1 www.bing.com
+/defau1t.php 2 www.bing.com
+/Wp 1 -
+/mt-atom.cgi 1 yahoo.com
+/alfav4.1-tesla.php 1 -
+/wp-includes/css/wp-config.php 1 www.bing.com
+/v.php 1 -
+/payload3.php 1 -
+/wp-admin/sistem.php 1 -
+/wp-content/plugins/erro.zip 1 parvamconsultech.com
+/ups.php 2 www.bing.com
+/site 2 -
+/backup/ 10 -
+/wp-includes/wp-class.php 2 -
+/r.php 1 -
+/admin/.env 1 -
+/radio.php 2 -
+/nee.php 1 -
+/wp/wp-admin/includes/ 2 www.google.com
+/bc 5 -
+/system_log.php 1 www.bing.com
+/up.php 1 www.bing.com
+/e.php 1 -
+/old/xmlrpc.php 141 -
+/wp-login.php 1 -
+/oldsite/wp-admin/install.php 1 -
+/blog/wp-admin/install.php 1 -
+/sindex.php 1 -
+/sistem.php 1 -
+/admin/controller/extension/extension/ALFA_DATA 1 www.bing.com
+/mailer.php 1 -
+/cms/wp-includes/wlwmanifest.xml 39 -
+/wp-content/outcms.php 1 www.bing.com
+/wp-content/alfacgiapi/perl.alfa 3 www.google.com
+/old 7 -
+/1index.php 4 -
+/qleaps/images/360x400x2@2x.png 13 http://parvamconsultech.com/qleaps/
+/admin/controller/extension/extension/cgialfa 1 www.bing.com
+/qleaps/images/48x48x5@2x.png 13 http://parvamconsultech.com/qleaps/
+/ 503 -
+/upload.php 2 www.bing.com
+/wp-content/themes/logs.txt 1 parvamconsultech.com
+/auto-seo.php 1 -
+/2018/wp-includes/wlwmanifest.xml 21 -
+/wp-content/db-cache.php 1 www.bing.com
+/blog.php 1 -
+/installer.php 2 -
+/config.js 4 -
+/2020/ 10 -
+/2020/xmlrpc.php 141 -
+/backup/wp-admin/install.php 1 -
+/wso.php 3 www.bing.com
+/qleaps/images/corevalues@2x.jpg 14 http://parvamconsultech.com/qleaps/
+/nasgor.php 1 -
+/cgialfa 1 www.bing.com
+/qleaps/images/760x600x1@2x.jpg 13 http://parvamconsultech.com/qleaps/
+/old/wp-admin/install.php 1 -
+/ckfinder/core/connector/php/connector.php 1 -
+/2018 2 -
+/fKZWZ/dPeSo/ 1 -
+/error.php 1 www.bing.com
+/2015 1 www.google.com
+/backup 6 -
+/wordpress/wp-admin/setup-config.php 1 -
+/symlink.php 1 -
+/z.php 2 www.bing.com
+/wp-includes/css/css.php 1 www.bing.com
+/wp-content/logo.jpg 1 parvamconsultech.com
+/templates/beez3/cgialfa 1 www.bing.com
+/2019 2 -
+/gank.php.PhP 1 www.bing.com
+/contents.php 2 parvamconsultech.com
+/test/wp-admin/install.php 1 -
+/wp-includes/SimplePie/font-editor.php 1 parvamconsultech.com
+/martinrealtors/properties-full-list.html 1 http://parvamconsultech.com/martinrealtors/blog-details.html
+/blog 4 -
+/aakruthi/aakruthi.php 1 -
+/moduleigtt/nav.scss 6 http://parvamconsultech.com/moduleigtt/
+/wp-content/mu-plugins/db-safe-mode.php 1 www.bing.com
+/2020/wp-json/wp/v2/users 1 -
+/MOOYT/ 1 -
+/Site 1 -
+/cms/mt-atom.cgi 1 yahoo.com
+/c99.php 1 -
+/wp-includes/ALFA_DATA 1 www.bing.com
+/wp-load.php 9 parvamconsultech.com
+/xox.php 1 -
+/TEST 1 -
+/qleaps/images/32x32x16@2x.png 13 http://parvamconsultech.com/qleaps/
+/wp-system.php 1 -
+/class-wp-widget-archives.php 1 -
+/qleaps/images/760x600x2@2x.jpg 13 http://parvamconsultech.com/qleaps/
+/wp-admin/cgialfa 1 www.bing.com
+/.well-known/ALFA_DATA 1 www.bing.com
+/blog/wp-json/wp/v2/users 1 -
+/export.php 1 www.bing.com
+/t.php 1 -
+/2010 1 www.google.com
+/alfa.php 2 www.bing.com
+/parvamconsultech 2 www.google.com
+/wordpress 7 -
+/home 5 -
+/.fk.php 1 -
+/Old 1 -
+/assets/plugins/fileupload/server/php/index.php 1 -
+/shell.php 2 www.bing.com
+/photography 9 -
+/mini.php 1 -
+/xx.php 2 -
+/css/load.php 5 parvamconsultech.com
+http://parvamconsultech.com/ 1 http://parvamconsultech.com/
+/qleaps/images/32x32x3@2x.png 13 http://parvamconsultech.com/qleaps/
+/s_e.php 1 www.bing.com
+/wp-admin.php 2 www.bing.com
+/404.php 1 -
+/bypass.php 1 -
+/SHOP 3 -
+/BACKUP 2 -
+/schoolerp/css/img/preloader.gif 3 http://parvamconsultech.com/schoolerp/css/style.css
+/Blog 2 -
+/a.php 2 www.bing.com
+/XxX.php 1 -
+/assets/fileupload/server/php/index.php 1 -
+/c.php 1 -
+/o.php 1 -
+/wp-admin/ALFA_DATA 1 www.bing.com
+/test/wp-includes/wlwmanifest.xml 39 -
+/xmrlpc.php 1 www.bing.com
+/f.php 1 -
+/Backup 2 -
+/sym403.php 1 -
+/qleaps/images/iifl@2x.png 13 http://parvamconsultech.com/qleaps/
+/wp-fox.php 1 -
+/3index.php 7 parvamconsultech.com
+/cpl/ 1 https://www.google.com/
+/search.php 1 -
+/phpinfo.php 5 -
+/TldOl/MOOYT/ 1 -
+/new.php 1 -
+/Test 1 -
+/MARIJUANA.php 1 -
+/admin/controller/extension/extension/alfacgiapi 1 www.bing.com
+/Shop 1 -
+/wordpress/xmlrpc.php 141 -
+/wso1337.php 1 -
+/qleaps/images/24x24x1@2x.png 13 http://parvamconsultech.com/qleaps/
+/wp-admin/css/ 9 binance.com
+/qp2/ 4 -
+/mtos/mt-atom.cgi 1 yahoo.com
+/rahma.php 1 -
+/news/wp-includes/wlwmanifest.xml 32 -
+/martinrealtors/form/process-contact.php 1 http://parvamconsultech.com/martinrealtors/contact-us.html
+/wp-one.php 1 -
+/2014 1 www.google.com
+/wp-backup-sql-302.php 1 www.bing.com
+/s_ne.php 1 www.bing.com
+/media-admin.php 2 www.bing.com
+/owl.php 1 -
+/wordpress/ 11 -
+/wp-info.php 2 -
+/backup/wp-json/wp/v2/users 1 -
+/qleaps/images/32x32x14@2x.png 13 http://parvamconsultech.com/qleaps/
+/.git/config 2 -
+/logs.php 1 -
+/3.php 1 -
+/robots.txt 118 -
+/wi.php 1 -
+/new/wp-admin/install.php 1 -
+/aws/.credentials 2 -
+/ohayo.php 1 -
+/uploads/contexmini.php 1 -
+/wp-content/alfacgiapi 1 www.bing.com
+/templates/beez3/ALFA_DATA 1 www.bing.com
+/admin/jquery-file-upload/server/php/index.php 1 -
+/edit-form.php 1 -
+/assets/plugins/jQuery-File-Upload/server/php/index.php 1 -
+/blog/mt-atom.cgi 1 yahoo.com
+/old/ 10 -
+/new/wp-json/wp/v2/users 1 -
+/qleaps/images/32x32x1@2x.png 13 http://parvamconsultech.com/qleaps/
+/wp-content/mu-plugins-old/index.php 2 parvamconsultech.com
+/phpinfo 4 -
+/cgi-bin/mt/mt-atom.cgi 1 yahoo.com
+/alfa123.php 1 -
+/admin/jQuery-File-Upload/server/php/index.php 1 -
+/marijuana.php 1 -
+/qleaps/images/32x32x17@2x.png 13 http://parvamconsultech.com/qleaps/
+/theme/assets/jquery-file-upload/server/php/index.php 1 -
+/.well-known/alfacgiapi 1 www.bing.com
+/ALFA_DATA/alfacgiapi/perl.alfa 3 www.google.com
+/OLD 1 -
+/web/wp-json/wp/v2/users 1 -
+/bak 1 -
+/sites/default/files/cgialfa 1 www.bing.com
+/wp-includes/alfacgiapi 1 www.bing.com
+/blog/wp-includes/wlwmanifest.xml 35 -
+/wp.php 2 www.bing.com
+/wp-admin/includes/ 2 www.google.com
+/baindex.php 1 -
+/qleaps/images/760x600x3@2x.jpg 13 http://parvamconsultech.com/qleaps/
+/0.php 1 -
+/templates/beez3/alfacgiapi 1 www.bing.com
+/cgi/mt-atom.cgi 1 yahoo.com
+/wp-includes/shell20211028.php 1 -
+/wp-json/wp/v2/users 1 -
+/martinrealtors/properties-details.html 1 http://parvamconsultech.com/martinrealtors/blog-details.html
+/wp-admin/style.php 1 www.bing.com
+/martinrealtors/properties-right-sidebar.html 1 http://parvamconsultech.com/martinrealtors/blog-details.html
+/sito/wp-includes/wlwmanifest.xml 32 -
+/.aws/config 1 -
+/wp-content/uploads/cgialfa 1 www.bing.com
+/41.php 1 -
+/2016 1 www.google.com
+/wp/wp-json/wp/v2/users 1 -
+/FORUM 2 www.google.com
+/forums 1 -
+/wordpress/wp-admin/install.php 1 -
+/cms/wp-admin/install.php 1 -
+/ads.txt 35 -
+/qleaps/images/48x48x7@2x.png 13 http://parvamconsultech.com/qleaps/
+/beence.php 1 www.bing.com
+/wp-content/wp-admin.php 1 -
+/shx.php 1 -
+/assets/jQuery-File-Upload/server/php/index.php 1 -
+/wp-confirm.php 1 -
+/admin/assets/plugins/jQuery-File-Upload/server/php/index.php 1 -
+/wordpress/license.txt 2 -
+/media/wp-includes/wlwmanifest.xml 21 -
+/web/wp-admin/install.php 1 -
+/2009 1 www.google.com
+/web/xmlrpc.php 141 -
+/BLOG 2 -
+/humans.txt 4 -
+/alfacgiapi/perl.alfa 3 www.google.com
+/old-site 1 -
+/Parvamconsultech 2 www.google.com
+/license.php 1 -
+/qleaps/images/wealth48x48@2x.png 14 http://parvamconsultech.com/qleaps/
+/xmlrpc.php 142 -
+/wp-content/export.php 1 www.bing.com
+/qleaps/images/angel@2x.png 13 http://parvamconsultech.com/qleaps/
+/qleaps/images/32x32x7@2x.png 13 http://parvamconsultech.com/qleaps/
+/jquery-file-upload/server/php/index.php 1 -
+//vendor/phpunit/phpunit/phpunit.xsd 1 -
+/js/ckfinder/core/connector/php/connector.php 1 -
+/qleaps/images/startup48x48@2x.png 14 http://parvamconsultech.com/qleaps/
+/new-index.php 1 -
+/New 2 -
+/mt/mt-atom.cgi 1 yahoo.com
+/blog/wp-admin/includes/ 2 www.google.com
+/qleaps/images/32x32x15@2x.png 13 http://parvamconsultech.com/qleaps/
+/qindex.php 1 www.bing.com
+/public/.aws/credentials 1 -
+/admin.php 3 parvamconsultech.com
+/qleaps/images/32x32x2@2x.png 13 http://parvamconsultech.com/qleaps/
+/config/aws.yml 4 -
+/cms.php 1 -
+/qleaps/images/download@2x.png 13 http://parvamconsultech.com/qleaps/
+/archives.php 1 www.bing.com
+/1.php 2 www.bing.com
+/2index.php 3 -
+/wp-signin.php 2 www.bing.com
+/plugins/jQuery-File-Upload/server/php/index.php 1 -
+/wikindex.php 4 parvamconsultech.com
+/WOgWk/SiLOh/ 1 -
+/defau11.php 1 www.bing.com
+/wp1/wp-includes/wlwmanifest.xml 39 -
+/dpl/ 17 http://parvamconsultech.com/dpl/
+/wp-content/ALFA_DATA/alfacgiapi/perl.alfa 3 www.google.com
+/rcc/assets/assets.php 1 -
+/.well-known/ 9 binance.com
+/WORDPRESS 3 -
+/new/xmlrpc.php 141 -
+/wp-content/plugins/ubh/up.php 1 www.bing.com
+/7index.php 2 -
+/wp-rss.php 1 -
+/Gel.php 1 -
+/ffAA531.php 1 -
+/doc.php 2 www.bing.com
+/Wordpress 1 -
+/wp-admin/admin-ajax.php 1 -
+/site/ 10 -
+/WordPress 3 -
+/site/xmlrpc.php 141 -
+/wordpress/wp-includes/wlwmanifest.xml 39 -
+/wp-content/ALFA_DATA 1 www.bing.com
+/qleaps/images/400x450@2x.png 14 http://parvamconsultech.com/qleaps/
+/new 7 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 37
+49.205.145.142 382 930 24669752 20220330025614
+49.205.151.92 63 193 2148215 20220309004536
+42.109.129.163 13 94 829585 20220318022815
+49.206.8.48 12 52 632039 20220301050122
+27.111.75.67 12 16 269809 20220312204120
+54.250.73.31 10 10 170 20220320141536
+36.255.86.219 10 10 13410 20220319043131
+1.39.148.144 8 37 2624276 20220317035018
+49.205.142.129 6 18 1119147 20220305111054
+223.237.219.242 6 159 39856741 20220326065925
+106.206.54.21 6 158 39292526 20220305135515
+27.111.75.190 5 50 647835 20220331235912
+1.39.160.160 4 57 1091596 20220312043036
+27.111.75.54 3 41 576046 20220318011155
+223.196.81.11 3 111 35201394 20220305135656
+202.83.24.230 2 33 414815 20220316041051
+223.186.30.193 2 6 307641 20220314112446
+103.243.113.69 2 33 414815 20220316040346
+36.255.86.216 2 2 2514 20220304024613
+49.44.122.7 2 33 414815 20220316040337
+117.200.128.78 2 12 19940 20220314201004
+106.217.43.32 2 6 307615 20220316114753
+49.205.136.227 2 6 21952 20220314121717
+223.227.16.15 2 8 405957 20220325005551
+27.59.81.41 1 1 1257 20220304065256
+49.44.78.70 1 1 1693 20220312232140
+64.233.173.207 1 1 1915 20220314112135
+220.158.159.53 1 5 255886 20220324091102
+208.109.188.131 1 1 17 20220321054550
+106.217.111.154 1 1 1693 20220312232119
+42.109.129.211 1 1 1253 20220313231143
+64.233.173.203 1 1 1915 20220314112136
+66.249.84.81 0 1 74989 
+202.61.206.81 1 1 0 20220310165101
+66.249.84.79 0 1 36785 
+64.233.173.205 1 3 6063 20220314112136
+157.45.244.162 1 1 1693 20220312220230
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 27
+20220301 12 52 632039 1
+20220302 23 49 331316 3
+20220303 3 4 37050 1
+20220304 3 3 3771 2
+20220305 32 348 76301889 4
+20220306 2 16 305531 1
+20220307 7 45 653998 3
+20220309 11 18 131498 1
+20220310 22 75 1033047 4
+20220311 33 49 628836 6
+20220312 14 67 1106766 6
+20220313 1 1 1253 1
+20220314 43 228 11006989 10
+20220315 6 6 8398 3
+20220316 18 143 2119315 7
+20220317 35 201 10619638 6
+20220318 17 139 1428751 6
+20220319 4 4 5012 3
+20220320 11 11 207 2
+20220321 177 222 1596027 3
+20220322 43 103 1200931 2
+20220324 1 5 255886 1
+20220325 2 8 405957 1
+20220326 30 184 40054111 2
+20220328 12 40 621656 1
+20220330 5 23 530057 1
+20220331 5 50 647835 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 4
+30mn-1h 6
+15mn-30mn 2
+0s-30s 51
+30s-2mn 7
+2mn-5mn 6
+5mn-15mn 6
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 146
+/aakruthi-erp/webmaster/purchaserequest 53 466762 1 2
+/qp2/ 33 41061 15 16
+/aakruthi-erp/webmaster/purchaseorder/selectpurchaseordernumber 28 3282 0 1
+/aakruthi-erp/webmaster/dashboard 27 301737 5 3
+/aakruthi-erp/login 21 46620 17 3
+/aakruthi-erp/login/do 20 725 5 2
+/aakruthi-erp/assets/bootstrap/fonts/glyphicons-halflings-regular.woff2 17 306476 0 7
+/aakruthi-erp/webmaster/purchaserequest/selectcategory 15 24777 0 1
+/aakruthi-erp/webmaster/purchaseorder 14 168467 1 0
+/demo/ 12 187 3 3
+/qleaps/ 12 65394 1 0
+/aakruthi-erp/webmaster/purchaserequest/view/ 12 96341 0 0
+/qp3/app/ 11 18623 7 8
+/aakruthi-erp/webmaster/recieptnote 10 82547 0 1
+/aakruthi-erp/webmaster/purchaserequest/getiteminfo 8 2897 0 0
+/aakruthi-erp/webmaster/purchaseorder/purchaseorderdata/ 8 1944 0 0
+/dpl/ 7 13431 5 5
+/aakruthi-erp/webmaster/quotation/getallbrand 6 3780 0 1
+/martinrealtors/ 6 113508 1 1
+/aakruthi-erp/webmaster/purchaserequest/getpurchaserequestlistt/7 6 3768 0 0
+/aakruthi-erp/webmaster/recieptnote/inindex 6 55207 0 2
+/aakruthi-erp/webmaster/purchaserequest/create 6 90798 0 0
+/aakruthi-erp/webmaster/purchaserequest/generatepo/7 6 54494 0 0
+/aakruthi-erp/webmaster/purchaseorder/updatepurchaseorder 5 6819 0 0
+/schoolerp/login.php 5 4659 0 2
+/protectgroup/images/brands/metro.webp 1 33326 0 0
+/martinrealtors/contact-us.html 1 6657 0 0
+/aakruthi-erp/webmaster/leads/opportunity 1 13261 0 0
+/moduleigtt/wp-content/themes/dor/framework/lib/icons-pack/ion-icons/fonts/ionicons.ttf 2 377448 0 2
+/aakruthi-erp/webmaster/purchaserequest/saveissuenotedetails 1 0 0 0
+/aakruthi-erp/webmaster/purchaserequest/getitem 1 399 0 0
+/aakruthi-erp/webmaster/purchaseorder/getpurchaseorderlist/4 1 214 0 0
+/martinrealtors/register.html 1 5974 0 0
+/aakruthi-erp/webmaster/purchaseorder/edit/10 1 8703 0 0
+/aakruthi-erp/webmaster/purchaseorder/viewpolist/3 3 27081 0 0
+/qleaps/css/vendor/font-awesome/fonts/fontawesome-webfont3e6e.woff2 2 154320 0 0
+/martinrealtors/webfonts/fa-regular-400.woff2 2 27176 0 1
+/aakruthi-erp/webmaster/purchaserequest/getitemdata 1 324 0 0
+/erp/ 3 6648 3 1
+/aakruthi-erp/webmaster/purchaserequest/getpurchaserequestlistt/4 4 2848 0 0
+/aakruthi-erp/webmaster/quotation/getquotationlist/68 1 703 0 0
+/aakruthi-erp/webmaster/design/alldesign 1 11267 0 0
+/martinrealtors/invoice.html 2 10914 0 2
+/schoolerp/get_student_payment_dashboard.php 1 59 0 0
+/aakruthi-erp/webmaster/recieptnote/recieptnoteinvoice/2 3 227249 0 1
+/aakruthi-erp/webmaster/purchaserequest/selectcustomer 2 41992 0 1
+/martinrealtors/my-listings.html 2 13534 0 0
+/martinrealtors/add-property.html 2 14524 1 0
+/aakruthi-erp/webmaster/recieptnote/issuenoteinvoice/10 1 74634 0 0
+/aakruthi-erp/webmaster/recieptnote/deletedlist 1 7049 0 1
+/schoolerp/index.php 1 136 0 0
+/moduleigtt/appliances.json 2 2882 0 0
+/protectgroup/images/logo/logo.webp 1 16214 0 0
+/aakruthi-erp/webmaster/quotation/view/72 1 9966 0 0
+/aakruthi-erp/ 1 2220 0 0
+/aakruthi-erp/webmaster/purchaserequest/selectitem/20 1 551 0 0
+/aakruthi-erp/webmaster/recieptnote/generateissuenote/1 1 12220 0 0
+/aakruthi-erp/webmaster/quotation/quotationdata/ 3 1470 0 0
+/aakruthi-erp/webmaster/recieptnote/saverecieptnote 4 1568 0 0
+/aakruthi-erp/webmaster/checkpoint 2 15546 1 0
+/aakruthi-erp/webmaster/purchaseorder/deletedlist 3 25677 0 0
+/schoolerp/attendance_new.php 1 131 0 0
+/aakruthi-erp/webmaster/purchaserequest/generatepo/4 4 36319 0 0
+/aakruthi-erp/webmaster/quotation/sendmail/72 1 581 0 1
+/protectgroup/ 1 11886 1 0
+/aakruthi-erp/webmaster/purchaserequest/selectitem/37 1 345 0 0
+/aakruthi-erp/webmaster/vendor 1 13842 0 0
+/protectgroup/fonts/fontawesome-webfont3e6e.woff2 1 77160 0 0
+/moduleigtt/finishcolordata.json 3 188874 0 0
+/aakruthi-erp/webmaster/purchaserequest/deletedlist 3 21170 0 0
+/aakruthi-erp/webmaster/recieptnote/viewgrn/1 1 7371 0 0
+/qleaps/css/vendor/bootstrap-theme.min.html 3 0 1 0
+/aakruthi-erp/webmaster/project 2 18926 0 0
+/martinrealtors/payment-method.html 2 13442 1 1
+/martinrealtors/edit.html 1 7252 1 0
+/aakruthi-erp/webmaster/quotation/selectquotationnumber 3 441 0 0
+/aakruthi-erp/assets/bootstrap/css/bootstrap.min.css.map 1 135049 0 0
+/schoolerp/Dashboard.php 1 7582 0 0
+/aakruthi-erp/webmaster/purchaseorder/view/8 2 21580 0 1
+/martinrealtors/webfonts/fa-brands-400.woff2 1 78472 0 0
+/cpl-2022/ 2 3508 2 1
+/aakruthi-erp/webmaster/purchaseorder/getpurchaseorderlist/8 1 214 0 0
+/martinrealtors/dashboard.html 3 15522 1 0
+/aakruthi-erp/webmaster/purchaserequest/savepurchaseorder 4 92 0 0
+/aakruthi-erp/webmaster/purchaserequest/selectitem/7 3 1260 0 0
+/aakruthi-erp/webmaster/purchaseorder/view/11 1 7585 0 0
+/martinrealtors/user-profile.html 3 15429 0 1
+/aakruthi-erp/webmaster/purchaseorder/selectpurchaseorder/approved 5 445 0 0
+/aakruthi-erp/webmaster/recieptnote/create 1 10044 0 0
+/aakruthi-erp/webmaster/purchaserequest/generatepo/8 2 18158 0 0
+/schoolerp/get_agent_payment_dashboard.php 1 56 0 0
+/aakruthi-erp/webmaster/purchaseorder/selectvendor 4 38848 0 0
+/aakruthi-erp/webmaster/quotation/selectunit 2 380 0 1
+/protectgroup/images/products/perfectcoat.webp 1 55322 0 1
+/moduleigtt/ 3 1084989 3 0
+/aakruthi-erp/webmaster/purchaseorder/viewpolist/9 1 8570 0 0
+/aakruthi-erp/webmaster/purchaseorder/edit/8 1 11966 0 1
+/martinrealtors/webfonts/fa-solid-900.woff2 2 160504 0 0
+/aakruthi-erp/webmaster/quotation/approved 1 17527 0 0
+/aakruthi-erp/webmaster/recieptnote/viewissuenotes/9 1 7628 0 0
+/qp3/app/index.php/dashboard 1 0 0 1
+/martinrealtors/single-property-1.html 1 17513 0 0
+/martinrealtors/blog-details.html 1 8035 1 1
+/schoolerp/fonts/Flaticon.woff2 1 8848 0 0
+/aakruthi-erp/webmaster/quotation 2 71671 0 0
+/moduleigtt/wp-content/blog/ElegantIcons.woff 3 190992 0 1
+/aakruthi-erp/webmaster/quotation/getquotationlist/7 1 609 0 0
+/aakruthi-erp/webmaster/purchaseorder/view/1 1 10766 0 1
+/schoolerp/webfonts/fa-regular-400.woff2 2 27216 0 0
+/protectgroup/images/brands/lic.webp 1 22486 0 0
+/aakruthi-erp/webmaster/purchaserequest/getpurchaserequestlistt/8 2 1494 0 0
+/martinrealtors/fonts/fontawesome-webfont3e6e.woff2 2 154320 0 0
+/qleaps/css/vendor/font-awesome/dist/font-awesome-animation.min.html 3 0 0 1
+/martinrealtors/font/flaticon08b7.ttf 1 4840 0 0
+/aakruthi-erp/webmaster/purchaseorder/viewpolist/8 5 44612 0 0
+/aakruthi-erp/webmaster/purchaserequest/getbrand/10 1 34 0 0
+/aakruthi-erp/webmaster/purchaserequest/getleaddata 1 79 0 0
+/moduleigtt/handletypedata.json 2 1777526 0 0
+/aakruthi-erp/webmaster/recieptnote/viewissuenotes/10 1 7644 0 0
+/aakruthi-erp/webmaster/recieptnote/viewgrn/2 3 22071 0 0
+/aakruthi-erp/webmaster/quotation/mailinvoice/72 1 79530 0 0
+/aakruthi-erp/webmaster/purchaserequest/generatepo/9 4 36323 0 0
+/aakruthi-erp/webmaster/purchaseorder/getpurchaseorderlist/11 2 426 0 0
+/dpl/dashboard.php 2 5886 1 1
+/martinrealtors/about.html 1 10121 0 0
+/martinrealtors/faq.html 1 7538 0 0
+/aakruthi-erp/webmaster/purchaseorder/viewpolist/4 1 8948 0 0
+/aakruthi-erp/webmaster/purchaserequest/purchaserequestinvoice/5 1 77786 0 0
+/aakruthi-erp/webmaster/quotation/getquotationlist/63 1 473 0 0
+/aakruthi-erp/webmaster/purchaserequest/savepurchaserequest 3 72 0 0
+/aakruthi-erp/webmaster/purchaseorder/getpurchaseorderlist/10 1 451 0 0
+/aakruthi-erp/webmaster/purchaseorder/viewpolist/5 2 18683 0 0
+/protectgroup/fonts/Flaticon.woff 1 8512 0 0
+/aakruthi-erp/webmaster/purchaseorder/edit/11 2 17404 0 0
+/martinrealtors/properties-grid-1.html 1 16417 0 0
+/aakruthi-erp/webmaster/purchaserequest/getpurchaserequestlistt/9 4 1708 0 0
+/schoolerp/webfonts/fa-solid-900.woff2 2 148640 0 0
+/aakruthi-erp/webmaster/purchaserequest/generatepo/5 3 27243 0 0
+/aakruthi-erp/webmaster/quotation/selectquotation/null/approved 3 14945 0 0
+/aakruthi-erp/webmaster/purchaserequest/getbrand/7 1 143 0 0
+/schoolerp/ 2 262 2 0
+/martinrealtors/change-password.html 2 9796 2 1
+/aakruthi-erp/webmaster/purchaserequest/selectitem/10 1 34 0 0
+/aakruthi-erp/webmaster/purchaserequest/getpurchaserequestlistt/5 3 6408 0 0
+/aakruthi-erp/webmaster/purchaserequest/updateissuenotenumber 1 0 0 0
+/protectgroup/images/brands/manipal.webp 1 18152 0 0
+END_SIDER

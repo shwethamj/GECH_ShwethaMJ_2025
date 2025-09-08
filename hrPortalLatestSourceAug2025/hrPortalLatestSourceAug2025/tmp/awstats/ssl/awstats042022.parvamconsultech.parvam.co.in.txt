@@ -1,0 +1,1710 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202204 will be lost/reset.
+# Last config file used to build this data file was /home4/parvamco/tmp/awstats/ssl/awstats.parvamconsultech.parvam.co.in.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2031                
+POS_TIME 2710                
+POS_VISITOR 36491               
+POS_DAY 44438               
+POS_DOMAIN 3576                
+POS_LOGIN 3918                
+POS_ROBOT 4073                
+POS_WORMS 4248                
+POS_EMAILSENDER 4379                
+POS_EMAILRECEIVER 4522                
+POS_SESSION 45305               
+POS_SIDER 45517               
+POS_FILETYPES 4657                
+POS_DOWNLOADS 5047                
+POS_OS 5145                
+POS_BROWSER 5346                
+POS_SCREENSIZE 6359                
+POS_UNKNOWNREFERER 6433                
+POS_UNKNOWNREFERERBROWSER 6808                
+POS_ORIGIN 7028                
+POS_SEREFERRALS 7173                
+POS_PAGEREFS 7354                
+POS_SEARCHWORDS 7502                
+POS_KEYWORDS 7654                
+POS_MISC 2374                
+POS_ERRORS 7713                
+POS_CLUSTER 3774                
+POS_SIDER_404 7908                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20220501015745 62 16087 14353746833262
+FirstTime 20220401000137
+LastTime 20220430215814
+LastUpdate 20220501061829 62 0 61 0 0
+TotalVisits 253                 
+TotalUnique 161                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 213                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavaEnabled 0 0 0
+AddToFavourites 0 1 0
+TotalMisc 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+JavascriptDisabled 0 0 0
+DirectorSupport 0 0 0
+RealPlayerSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1961 3483 80204235 414 1231 2320675
+1 1558 2029 21291192 174 838 719083
+2 889 1732 40984728 170 720 127948
+3 2177 3357 70084759 113 1232 2656832
+4 1657 2045 18507657 171 1042 324313
+5 1579 2294 47825169 188 781 1131785
+6 1124 1808 41174846 277 947 3173596
+7 150 279 8697685 49 164 452
+8 24 132 3468728 130 146 1089
+9 58 253 5507833 49 67 219469
+10 63 155 4752642 17 47 0
+11 6 73 4654328 21 41 1439
+12 10 74 2125601 13 31 415
+13 3 31 2184428 98 116 1617
+14 3 14 1473432 205 212 417
+15 1 13 1458438 40 56 261
+16 0 7 1152230 78 90 0
+17 0 8 1243158 344 347 36743
+18 2 5 6886 262 266 0
+19 2 9 537850 263 269 35
+20 4 200 256308517 318 319 0
+21 24 38 819273 206 225 2138
+22 677 1352 56136476 59 545 1753307
+23 1329 2638 38366377 84 777 1541754
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 7
+in 12576 19752 363788966
+lk 407 1045 39410326
+us 172 973 301035468
+au 60 80 661431
+jp 59 95 1918674
+cn 25 78 563103
+ru 2 6 1588500
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 1
+no_user_agent 167 8551487 20220427174340 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 16
+woff2 384 17158084 0 0
+jpg 1765 401035593 0 0
+Unknown 3492 28556215 0 0
+png 1935 144346726 0 0
+pdf 1 85846 0 0
+jpeg 34 36157027 0 0
+css 1994 15211539 0 0
+map 34 4591666 0 0
+json 2 461639 0 0
+ttf 8 1909960 0 0
+woff 5 65720 0 0
+gif 4 157639 0 0
+svg 12 226199 0 0
+html 578 2677754 0 0
+js 2983 36000777 0 0
+php 8798 20324084 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/testerp/uploads/snag/2801650456669.pdf 1 0 85846
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 9
+macosx10 1 1
+linux 54 46
+winxp 199 0
+ios_iphone 220 23
+win7 285 20
+macosx 383 25
+win10 19335 12949
+Unknown 160 15
+linuxandroid 1392 222
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 41
+opera62.0.2254.60430 62 12
+chrome83.0.4103.106 3 0
+chrome99.0.4844.51 22 4
+safari15.2 162 16
+chrome100.0.4896.79 329 89
+chrome76.0.3809.100 89 4
+chrome100.0.4896.88 1866 1055
+chrome92.0.4515.131 4 0
+chrome55.0.2883.91 1 1
+chrome98.0.4758.101 86 8
+chrome71.0.3578.99 69 6
+safari15.4 58 7
+safari13.1.2 38 8
+chrome99.0.4844.58 3 0
+chrome98.0.4758.102 512 36
+firefox98.0 266 148
+chrome85.0.4183.127 3 1
+chrome91.0.4472.120 7 0
+chrome100.0.4896.127 8760 5946
+chrome100.0.4896.75 2510 1790
+Unknown 13 13
+chrome101.0.4951.41 654 295
+chrome99.0.4844.88 87 65
+chrome100.0.4896.60 27 3
+mozilla 236 2
+firefox11.0 199 0
+chrome89.0.4389.105 8 0
+chrome99.0.4844.73 7 0
+chrome97.0.4692.87 15 1
+chrome39.0.2171.95 1 1
+chrome74.0.3729.136 3 0
+chrome99.0.4844.82 263 16
+chrome99.0.4844.84 4782 3607
+chrome96.0.4664.110 1 1
+chrome97.0.4692.98 220 18
+chrome94.0.4606.85 5 1
+chrome92.0.4515.166 19 4
+chrome87.0.4280.141 4 0
+firefox99.0 243 92
+msie7.0 42 0
+chrome100.0.4896.58 350 51
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 6
+WhatsApp/2.21.24.22_A 20220426084614
+WhatsApp/2.22.2.73_A 20220412033458
+Mozilla/4.0_(compatible;_ms-office;_MSOffice_16) 20220407064842
+WhatsApp/2.22.7.74_A 20220421074929
+okhttp/3.12.0 20220411234324
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20220408091420
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+okhttp/3.12.0 20220411234324
+WhatsApp/2.22.7.74_A 20220421074929
+WhatsApp/2.22.2.73_A 20220412033458
+WhatsApp/2.21.24.22_A 20220426084614
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 690 1214
+From1 4 4
+From2 39 88
+From3 0 0
+From4 12568 20723
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google_com 4 53
+www_google_com 35 35
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 10
+400 5 260
+206 24 5416423
+301 36 8963
+500 25 4198
+404 9840 12452
+307 18 0
+409 16 1328
+401 9 383
+406 74 16724
+302 229 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 523
+/Qleaps_19_04_22/assets/js/popper.min.js.map 7 -
+/dvcard/ParvaM/templates/common/js/script.js 3 https://parvamconsultech.com/dvcard/ParvaM/
+/c2e1440MVjZuMdd8231b868d691yrkFZfd6810.bike 1 -
+/qleapstest/images/400x450@2x.png 14 https://parvamconsultech.com/qleapstest/
+/eb234a4cA-d82317d85ceb1aEMmEf0f65c.solutions 1 -
+/g.php 1 -
+/6a1ae3drQZd823166138691TbdNg7ddde3.az 1 -
+/37c4083a_LId82318e7c5cc1XJnnBZa082b8.ki 1 -
+/sh3ll.php 1 -
+/schoolerp/student-marks-entry.php 1 https://parvamconsultech.com/schoolerp/view-all-teachers.php
+/c950715_Dzcd8231adc39311MbxkTQ1aa88c.ca 1 -
+/schoolerp/parvamAdmin/css/img/preloader.gif 6 https://parvamconsultech.com/schoolerp/parvamAdmin/css/style.css
+/c653c8beEGd82319bfb1521KytPQ7abd06.me 1 -
+/80820absUPK-od8231ae151ab1yXRYjQmR83a17e.do 1 -
+/schoolerp/calendar.php 1 https://parvamconsultech.com/schoolerp/attendance.php
+/bd9ee5ePYZDPd823167a7d891YcWGQQceb479.om 1 -
+/cms.php 1 -
+/b7cee41qJhujcd8231403666c1_xPLXuHRb74f2d.taipei 1 -
+/qleaps1/images/360x400x3@2x.png 5 https://parvamconsultech.com/qleaps1/
+/shell.php 125 -
+/feed/ 4 -
+/d6c2741-FmHRd823136161501lPrnsK_090733.gd 1 -
+/dev/license.txt 1 -
+/send.php 1 -
+/8a6db7aqVIVd82318dfbfbe1nHmtMl709893.black 1 -
+/a4be622QbQJd82311d4b4661SSUdkM911a05.bn 1 -
+/e266e82zvxbIT-d82314cbcfe11RxOOHzf9cc5b.shop 1 -
+/63fbc61CeoITnd8231d273a0c1espQvmd28969.ws 1 -
+/6d6db4eNCEd823174fc2501_mlSW3c6bd0.mz 1 -
+/5189031wXO_Bqd8231fc3ae5e1Xp_lGfb061e.name 1 -
+/100.php 1 -
+/wp.php 1 -
+/5daaab8rLCCwmd823111221041kqDhsCnF2a82ab.win 1 -
+/if.php 127 -
+/qleapstest/images/360x400x1@2x.png 13 https://parvamconsultech.com/qleapstest/
+/612d8b5czldd82310cb91bc1ODPWou5c188a.camera 1 -
+/wp/license.txt 2 -
+/sindex.php 1 -
+/erp/webmaster 1 -
+/schoolerp/Profile_images/STUIMG_1534381671624d235f3336d.jpg 111 https://www.parvamconsultech.com/schoolerp/view-all-student.php
+/qleaps_test/css/vendor/bootstrap.min.css.map 4 -
+/qleaps_test/images/760x600x2@2x.jpg 3 https://parvamconsultech.com/qleaps_test/
+/polyfills-es2015.cd922be208e6be712d4f.js 2 https://parvamconsultech.com/switchdirection/
+/dfc087fubWPftd8231eebab6d1CobqmAqG463a40.cu 1 -
+/doc.php 1 -
+/dfa6d4desPidDd82316a5cf921piKjh64ad9c.works 1 -
+/ec7e862EFlTod8231072b1431YCQIdDUa658ce.pw 1 -
+/qleaps1/images/32x32x1@2x.png 5 https://parvamconsultech.com/qleaps1/
+/inje3ctor.php 124 -
+/80d0f19fgvsYKnd82318e41ffc1CdpSS8261b5.flowers 1 -
+/schooleerp 1 -
+/48a3a1ejsiEd82317c0b0cd1ftW-qFa8b2ba.me 1 -
+/qleaps1/images/startup@2x.png 5 https://parvamconsultech.com/qleaps1/
+/qleaps_test/images/32x32x7@2x.png 3 https://parvamconsultech.com/qleaps_test/
+/hacked.php 124 -
+/.aws 1 -
+/ee10c6bypnd8231fde984f1osGGX7432f5.name 1 -
+/1963a78oLZd8231b10729e1dJXGkd1ad26.ki 1 -
+/03f5167OgQNqad823181e58df1DIuAXPwG26ec17.gd 1 -
+/5a19c87LHmMd8231e8cecb41YrqcUL65e10b.pw 1 -
+/e1a5539nERZCmod8231b3f2bcc1Ir-zdz5aa3b8.bar 1 -
+/1247d5bBwQHmyd8231587b1261YRtgsASB58d7a3.me 1 -
+/41.php 1 -
+/defaul1.php 4 www.google.com
+/6b4151bg_Med8231f1106321CJJrao4c5e4a.diet 1 -
+/test_moduleigtt/admin/wp-content/moduleigttexclusive/shoe16.jpeg 1 https://parvamconsultech.com/test_moduleigtt/admin/edit.php
+/qleaps_test/images/24x24x1@2x.png 3 https://parvamconsultech.com/qleaps_test/
+/schoolerp/js/popper.min.js.map 10 -
+/tshop.php 125 -
+/d973928HkBd82316dd57311TF_ZZ2a92d1.solutions 1 -
+/schoolerp/Profile_images/STUIMG_458748465625fb8c778683.jpg 80 https://parvamconsultech.com/schoolerp/view-all-student.php
+/testerp/login 1 https://parvamconsultech.com/testerp/webmaster/quotation
+/alexus.php 1 -
+/testerp/webmaster/vendor/webmaster/vendor/mapvendorbrand 1 https://parvamconsultech.com/testerp/webmaster/vendor/create
+/777.php 1 -
+/6af44b2-dwd8231fa7f6101CFH_r285ad9.cc 1 -
+/54cbeccUtGwPd82313d64f1c1HNCinPJ7f5af9.ca 1 -
+/11index.php 1 -
+/28c139fAyPmd823178e54751fZvLswec722f.me 1 -
+/qleaps1/images/corevalues@2x.jpg 5 https://parvamconsultech.com/qleaps1/
+/02a74f6qAwd82313d925fd1GUAFwb81562.in 1 -
+/de0c15bn-Xpixd82310ba9fde1dcGOIzgsb6c124.tf 1 -
+/schoolerp/Teacher_Profile/Teacher_Profile/TCHIMG_36905192961efeca5a6973.jpg 1 https://parvamconsultech.com/schoolerp/view-all-teachers.php
+/schoolerp/images/ananya%20logo.png 37 https://parvamconsultech.com/schoolerp/add-new-teacher.php
+/b9ea57awLBd82319229b961hnnaO4ba17d.in 1 -
+/34e8419aGvMBNWd82310a9baec1qBefOCuEc50bc4.gn 1 -
+/schoolerp/cal.php 1 https://www.parvamconsultech.com/schoolerp/attendance.php
+/b9d0b53vVLyAoXd8231c3602aa1E-FmEt41ed99.gd 1 -
+/wp-configer.php 2 -
+/m.php 1 -
+/qleaps1/images/360x400x1@2x.png 5 https://parvamconsultech.com/qleaps1/
+/1a89273c-GRvd8231db6c4e91DHvwMox55295a.tc 1 -
+/FoxWSO.php 1 -
+/testerp/webmaster/quotation 1 -
+/schoolerp/Profile_images/STUIMG_177867694624bf3bcf0c93.jpg 112 https://www.parvamconsultech.com/schoolerp/view-all-student.php
+/22e8a87cySxd82318aba71d1gSDace094.sh 1 -
+/schoolerp/Profile_images/STUIMG_139542284062669219589ca.jpg 4 https://parvamconsultech.com/schoolerp/view-all-student.php
+/Gel.php 1 -
+/de1b70bWFxRkoud82319a04df41Ryonss0f0cd2.tc 1 -
+/wp-content/wp-admin.php 1 -
+/060a59dCosOd8231112838f1qkvkGvd9d8ad.camera 1 -
+/schoolerp/Teacher_Profile/Teacher_Profile/TCHIMG_9037934316242e3cbb57b9.jpg 1 https://parvamconsultech.com/schoolerp/view-all-teachers.php
+/.well-known/security.txt 1 -
+/019109dKzQd8231643ed681WWHtTdfa4a3.ki 1 -
+/2019/10/05/9-26-%E3%83%89%E3%83%AA%E3%83%9C%E3%81%AA%E6%97%A5%E3%80%82%E5%89%8D%E6%A5%BD%E3%80%82%E5%BC%95%E3%81%8D%E7%B6%99%E3%81%90%E3%82%B8%E3%83%A3%E3%83%8B%E3%83%BC%E3%82%BA%E3%82%A4%E3%82%BA%E3%83%A0/ 1 -
+/test_moduleigtt/admin/wp-content/moduleigttexclusive/shoe10.jpeg 1 https://parvamconsultech.com/test_moduleigtt/admin/edit.php
+/defau1t.php 1 -
+/2571ff7Uz_ed8231f8942171YOpULna68f77.domains 1 -
+/qleaps_test/images/bv@2x.jpg 3 https://parvamconsultech.com/qleaps_test/
+/qleaps1/images/24x24x2@2x.png 5 https://parvamconsultech.com/qleaps1/
+/7f12c46qybEad8231d78660e1pBVdmWA140ed5.works 1 -
+/qleaps1/images/32x32x14@2x.png 5 https://parvamconsultech.com/qleaps1/
+/dvcard/ 2 -
+/schoolerp/Teacher_Profile/Teacher_Profile/TCHIMG_21359038286242de274dd46.jpg 1 https://parvamconsultech.com/schoolerp/view-all-teachers.php
+/data.php 1 -
+/js/vendor/NoSleep.min.js 2 https://www.parvamconsultech.com/kpl/
+/30a37e9NwiQFd8231ec833301SCupcVB7c2022.fish 1 -
+/2018/08/31/%E6%B2%88%E9%BB%99%E3%81%AF%E9%87%91%E3%81%A7%E3%81%82%E3%82%8B%E3%81%93%E3%81%A8%E3%80%82/comment-18 1 -
+/f.php 1 -
+/testerp/webmaster/quotation/edit/102 2 -
+/736f5a5LuCd82311ab650b1NbXNq234198.solutions 1 -
+/qleaps1/images/48x48x6@2x.png 5 https://parvamconsultech.com/qleaps1/
+/php.php 1 -
+/wp-content/wp-logins.php 1 -
+/a667747RWxdkiUd8231ceb06841LTeLMmbN265b84.bar 1 -
+/images/vuln.php 1 -
+/stindex.php 1 -
+/styles.d2d481ae36dfe35dd1cc.css 2 https://parvamconsultech.com/switchdirection/
+/temp/license.txt 1 -
+/schoolerp/Profile_images/STUIMG_1276570896624583e204306.jpg 158 https://parvamconsultech.com/schoolerp/student-details.php
+/ads.txt 26 -
+/17320b8cwWYsad8231504ce6e1IgEtrED4ee12f.ga 1 -
+/24056faiKfkd82312088d7d1CMkgVT36922b.me 1 -
+/alfa.php 125 -
+/shx.php 1 -
+/1732dd1EOBl-xd8231504ce6e1euDawHqecc6a92.me 1 -
+/aadhya_foundation/dashboard 1 -
+/qleapstest/images/760x600x1@2x.jpg 13 https://parvamconsultech.com/qleapstest/
+/qleaps_test/images/32x32x8@2x.png 3 https://parvamconsultech.com/qleaps_test/
+/qleapstest/images/32x32x8@2x.png 13 https://parvamconsultech.com/qleapstest/
+/628c398mPTed82313637ab31vrBxZf5a1fdf.th 1 -
+/qleaps1/images/48x48x5@2x.png 5 https://parvamconsultech.com/qleaps1/
+/2131f2dxQjLywd8231a84804b1CC-eZxxd654894.gn 2 -
+/1646894vPLHFd8231d1a5aaf1KrUb383f2d.ki 1 -
+/qleaps1/images/32x32x15@2x.png 5 https://parvamconsultech.com/qleaps1/
+/qleaps1/images/32x32x5@2x.png 5 https://parvamconsultech.com/qleaps1/
+/3a3ad1eGOmAd823170a239b1RpgTMT20bf85.me 1 -
+/d1a6266oCqNnd8231d7ad2641MsZbaBx238f22.link 1 -
+/testerp/assets/logo/acceptance-bg.jpg 7 https://parvamconsultech.com/testerp/quoteapproval/acceptance/21
+/mailer.php 2 -
+/schoolerp/Teacher_Profile/TCHIMG_1318241004624d6be533bba.jpg 103 https://parvamconsultech.com/schoolerp/view-all-teachers.php
+/wp-content/uploads/typehub/custom/dn46/.demo.php 1 parvamconsultech.com
+/new.php 1 -
+/123/license.txt 1 -
+/7d0c5fcDiPzd8231b0e9f651OihGBjca0119.group 1 -
+/qleaps_test/images/32x32x17@2x.png 3 https://parvamconsultech.com/qleaps_test/
+/cdeca81GqGX-d8231336afdc1uxffnuZcd369c.tc 1 -
+/9feb16dxndHZd8231ba7b90e1cOGvrAf6e2617.ht 1 -
+/anone.php 1 -
+/qleaps1/images/training@2x.png 5 https://parvamconsultech.com/qleaps1/
+/qleapstest/images/bv@2x.jpg 13 https://parvamconsultech.com/qleapstest/
+/49f317df-rd82316a888581QjGowbc88ff.gn 1 -
+/cbde58etlp-yd823182608921qrvvSwU48c5a0.gd 1 -
+/1fe6701hdREBpSd8231a08c8f01ceejjXk475069.top 1 -
+/schoolerp/Teacher_Profile/Teacher_Profile/TCHIMG_1794916483623efb8fea6bd.jpg 1 https://parvamconsultech.com/schoolerp/view-all-teachers.php
+/qleaps_test/images/wealth48x48@2x.png 3 https://parvamconsultech.com/qleaps_test/
+/qleaps_test/images/760x600x1@2x.jpg 3 https://parvamconsultech.com/qleaps_test/
+/8c84d39UJaKeGUd82314373f691QECUvK2cb9b2.aw 1 -
+/qleaps_test/images/training48x48@2x.png 3 https://parvamconsultech.com/qleaps_test/
+/_aws/credentials 1 -
+/1ef7330TDdd8231dc7c4ac1hEQcba1a0da.photos 1 -
+/.fk.php 1 -
+/qleaps_test/images/32x32x9@2x.png 3 https://parvamconsultech.com/qleaps_test/
+/alfashell.php 124 -
+/qleapstest/images/360x400x2@2x.png 13 https://parvamconsultech.com/qleapstest/
+/04edef0N-bJJd8231072a58a1dFcQsvCa4c438.market 1 -
+/qleapstest/images/32x32x7@2x.png 13 https://parvamconsultech.com/qleapstest/
+/root.php 1 -
+/30a5c5cLfs-ad8231ec833301DuhQlDmc4dc9c.me 1 -
+/2019/09/29/9-26%E3%83%89%E3%83%AA%E3%83%9C%E3%81%AA%E6%97%A5%E3%80%82%E5%89%8D%E6%A5%BD%E3%80%82%E7%A5%9E%E5%AE%AE%E5%AF%BA%E5%8B%87%E5%A4%AA%E3%81%A8%E3%81%84%E3%81%86%E6%89%8D%E8%83%BD%E3%80%82/ 1 -
+/90785b7qKPd8231f90cadf1xZjFCd39998.tw 1 -
+/schoolerp/css/img/preloader.gif 2019 https://parvamconsultech.com/schoolerp/css/style.css
+/qleaps1/images/32x32x16@2x.png 5 https://parvamconsultech.com/qleaps1/
+/302d247LmOLgTd823114f9e551utzfotJZ4ee087.pw 1 -
+/ohayo.php 1 -
+/aadhya_foundation/images/ananya%20logo.png 9 https://parvamconsultech.com/aadhya_foundation/student-details.php
+/dvard/ 1 -
+/8e0527aMvqxhFd8231ae955b21GOYujATV27bc20.pw 1 -
+/d6cec64hZrd823136161501slUEy7b3bce.ca 1 -
+/c99.php 125 -
+/erp/webmaster/ccmgmt/style.css 2 https://parvamconsultech.com/erp/webmaster/ccmgmt/ss_page
+/testerp/assets/logo/tqlogo.png 7 https://parvamconsultech.com/testerp/quoteapproval/acceptance/21
+/uploader.php 124 -
+/61c976fPmIfd823134e57e51EPeavB502fbe.sj 1 -
+/1/license.txt 1 -
+/aadhya_foundation/css/bootstrap.min.css.map 27 -
+/qleapstest/images/32x32x9@2x.png 13 https://parvamconsultech.com/qleapstest/
+/a21ff59wXcDJCfd823146da1241nrUnGd-5dd6ba.va 1 -
+/qleaps1/images/32x32x8@2x.png 5 https://parvamconsultech.com/qleaps1/
+/aadhya_foundation/view_details.php 1 -
+/schoolerp/Profile_images/STUIMG_94077752624d6dcedecdb.jpg 103 https://www.parvamconsultech.com/schoolerp/view-all-student.php
+/qleaps1/images/760x600x3@2x.jpg 5 https://parvamconsultech.com/qleaps1/
+/qleaps_test/images/360x400x1@2x.png 3 https://parvamconsultech.com/qleaps_test/
+/226221eWPzytd8231e8fc0471AoQFDUE79a354.works 1 -
+/qleaps_test/images/32x32x16@2x.png 3 https://parvamconsultech.com/qleaps_test/
+/qleaps1/images/32x32x2@2x.png 5 https://parvamconsultech.com/qleaps1/
+/788b609opIYskyd82312b5e5ed1CMiuPRbb75c2.ca 1 -
+/143f66akmPxW-d823125fca3e1IRPUeMiAa2e5ad.life 1 -
+/90398b0_fQd82319b583a21DNvTD5d5fb7.ba 1 -
+/aadhya_foundation/view-all-student 2 -
+/5a5bce0Gerd8231d7059051TNzdq40d5d5.ki 1 -
+/qleaps_test/images/32x32x14@2x.png 3 https://parvamconsultech.com/qleaps_test/
+/d47582acMZVDd8231a2c7e3e1A-Zgajoaaa1a6.me 1 -
+/schoolerp/Profile_images/STUIMG_19504111146263c692de087.jpg 68 https://parvamconsultech.com/schoolerp/view-all-student.php
+/qleaps_test/images/corevalues@2x.jpg 3 https://parvamconsultech.com/qleaps_test/
+/z.php 1 -
+/c661f95rEqfsNd82317b433811ZYlCkbtn346ab7.luxe 1 -
+/testerp/webmaster/ 15 -
+/xox.php 1 -
+/qleaps1/images/iifl@2x.png 5 https://parvamconsultech.com/qleaps1/
+/9dec9ffeKAd823123e24121_HXMNe251c2.ki 1 -
+/qleaps1/images/24x24x1@2x.png 5 https://parvamconsultech.com/qleaps1/
+/fbf547cNYBCd8231a7872ef1_NTulmbece47.net.co 1 -
+/%C3%A0%C2%B8%C2%AA%C3%A0%C2%B8%C2%A7%C3%A0%C2%B8%C2%B1%C3%A0%C2%B8%C2%AA%C3%A0%C2%B8%E2%80%9D%C3%A0%C2%B8%C2%B5%C3%A0%C2%B8%E2%80%94%C3%A0%C2%B8%C2%B8%C3%A0%C2%B8%C3%A0%C2%B8%E2%80%9E%C3%A0%C2%B8%E2%84%A2wp-blog.php 1 -
+/qleapstest/images/32x32x16@2x.png 12 https://parvamconsultech.com/qleapstest/
+/05b992bJeqYgd8231d4a81dd1CB-Enzi8f5915.auto 1 -
+/autoload_classmap.php 1 -
+/fw.php 126 -
+/7417580SZYId82312fdaf6c1iQHc400de.shop 1 -
+/qleapstest/images/32x32x5@2x.png 13 https://parvamconsultech.com/qleapstest/
+/625b8ceQfpinMd823173ed3431X-EKwAqy0785f5.tc 1 -
+/qleapstest/images/training@2x.png 14 https://parvamconsultech.com/qleapstest/
+/mini.php 1 -
+/qleaps_test/images/48x48x6@2x.png 3 https://parvamconsultech.com/qleaps_test/
+/38d1631LNmSd8231a6a9e2b1x-Gdvsc9bfd19.coffee 1 -
+/qleapstest/images/32x32x14@2x.png 13 https://parvamconsultech.com/qleapstest/
+/qleapstest/images/48x48x5@2x.png 13 https://parvamconsultech.com/qleapstest/
+/x.php 1 -
+/schoolerp/Teacher_Profile/Teacher_Profile/TCHIMG_3551321396242e2f2ced99.jpg 1 https://parvamconsultech.com/schoolerp/view-all-teachers.php
+/aadf70fZRAwvd82316df3db81nYKXxe0b92a1.gov.cn 1 -
+/e6bd727DAwbBbd823108ab9081QujRejZoab4735.gf 1 -
+/qleapstest/images/business@2x.png 14 https://parvamconsultech.com/qleapstest/
+/qleapstest/images/startup@2x.png 13 https://parvamconsultech.com/qleapstest/
+/schoolerp/Teacher_Profile/ 1 https://parvamconsultech.com/schoolerp/view-all-teachers.php
+/qleapstest/images/32x32x3@2x.png 13 https://parvamconsultech.com/qleapstest/
+/3d6d5fb_wOAEad8231940eb091MWdKHzSl2a342a.ga 1 -
+/ssl.php 1 parvamconsultech.com
+/schoolerp/AgentProfile/AGNIMG_2129665225624d36bed469a.jpg 3 https://parvamconsultech.com/schoolerp/view-agents.php
+/wp-blog.php 1 -
+/qleapstest/images/48x48x7@2x.png 13 https://parvamconsultech.com/qleapstest/
+/dr.php 1 -
+/cfc86e4rjWgd8231807ae5b1quUSYdc72603.ki 1 -
+/qleaps1/images/32x32x9@2x.png 5 https://parvamconsultech.com/qleaps1/
+/0175293wxod82314fda1721rat_q73fcf4.taipei 1 -
+/qleapstest/images/32x32x2@2x.png 13 https://parvamconsultech.com/qleapstest/
+/wp-login.php 1 -
+/schoolerp/images/logo.jpg 1875 https://parvamconsultech.com/schoolerp/student-payment.php
+/1ab2e36zKZSnd823127f3e161TrjsZMOcb1782.construction 1 -
+/863ef19TeCmrrd823160b25371VJoeYYClf3dde2.ca 1 -
+/166f24aefAQxznd82311e12abc1BqugZakee948b.fyi 1 -
+/75eacc7foFaFned8231579c40a1nzONrVQp0b2858.pub 1 -
+/e4ba830OwLd82318fa85b91tfvyqf0f147.pw 1 -
+/qleaps_test/images/760x600x3@2x.jpg 3 https://parvamconsultech.com/qleaps_test/
+/b805985euFd823149572ad1NHLoSe094cc.shop 1 -
+/34436aaphLhd8231e938dc21eNc736b1f.gn 1 -
+/c799883cWAKd8231f2b6bf81Pomxig00310c.tc 1 -
+/qleaps_test/images/48x48x7@2x.png 3 https://parvamconsultech.com/qleaps_test/
+/testerp/webmaster/quotation/confirm/100 1 https://parvamconsultech.com/testerp/webmaster/quotation/edit/100/other
+/alex.php 2 -
+/test_moduleigtt/uploads/ 1 https://parvamconsultech.com/test_moduleigtt/admin/viewdetails.php
+/a.php 1 -
+/qleapstest/images/iifl@2x.png 13 https://parvamconsultech.com/qleapstest/
+/e11a00eOqdxd823192a81671lolwpAaa3664.tools 1 -
+/schoolerp/AgentProfile/AGNIMG_902362579624c1449771b9.jpg 3 https://parvamconsultech.com/schoolerp/view-agents.php
+/1b7cf07vxoVbd8231b6d1c6f1LPzBFk-922cf1.ca 1 -
+/c41dd6fnKQwcXd8231f90589f1WuVC_de2684.services 1 -
+/ec89c8adjAYxd82317b0d03d1NJHwf9f8ad.gn 1 -
+/schoolerp/js/bootstrap.min.js.map 10 -
+/7e744ceduyuZd823119f90351-hyj1a0850.ca 1 -
+/qleaps_test/images/business48x48@2x.png 3 https://parvamconsultech.com/qleaps_test/
+/78c5f98lTGpgd8231b2238331EUXGXBK315ecf.re 1 -
+/qleapstest/images/24x24x2@2x.png 13 https://parvamconsultech.com/qleapstest/
+/5e789bcGSIkEGd8231de035b11WMNgStLB55678d.lt 1 -
+/sym.php 1 -
+/digitalvacrd/ 1 -
+/6eae259kvwed823115a729a1iTyNpH68ad0b.tc 1 -
+/testerp/webmaster/dashboard 2 -
+/ccadd78mqlxd8231ad353f01ihwCBp55188d.blue 1 -
+/seft/css/img/preloader.gif 2 https://parvamconsultech.com/seft/css/style.css
+/Qleaps_19_04_22/assets/js/bootstrap.min.js.map 7 -
+/.git/HEAD 2 -
+/e413227C-g-ud8231d8c6c541CEjgLQ30351a.gov.cn 1 -
+/29fa030rtYRd82316ca35251Bnafd2589.ki 1 -
+/aadhya_foundation/js/bootstrap.min.js.map 26 -
+/215a05d_VQMwkd8231226a9531YJahfTWg3ccad5.me 1 -
+/old/license.txt 2 -
+/67926fbWmuAd8231dad03051qqDfNb34a34f.af 1 -
+/0f76892__vd82310112c071zTvIxc45fa1.money 1 -
+/4price.php 1 -
+/.git/config 2 -
+/test_moduleigtt/admin/wp-content/moduleigttexclusive/shoe18.jpeg 1 https://parvamconsultech.com/test_moduleigtt/admin/edit.php
+/5ffe1caTcdd8231062fd381XmLHYd3132b.yt 1 -
+/aadhya_foundation/css/img/preloader.gif 307 https://parvamconsultech.com/aadhya_foundation/css/style.css
+/wp-admin.php 1 -
+/3f5d322SIFACd823138f1d441SRpSdDr1507c2.ca 1 -
+/51fa66bWGiDPd823133796151euBlpVda05788.ck 1 -
+/8165a15MvpwIhd82318b7eac71qlqYBbTeb3bc76.pw 1 -
+/dvcard/ParvaM/css/vjimages/realestate2-min.jpg 3 https://parvamconsultech.com/dvcard/ParvaM/css/vJCSS.css
+/qleapstest/images/24x24x1@2x.png 13 https://parvamconsultech.com/qleapstest/
+/MARIJUANA.php 1 -
+/f6361b6RNUd82317f5a4901DtbWU332228.ca 1 -
+/aaa.php 1 -
+/ab58831rgAd82313dc14bd1MOwCH251a5f.ki 1 -
+/eebdcb0-Zmi_td82317d982751_eMtwUBLafa628.ki 1 -
+/8256532hqnkkXd8231b7be44a1AYBMGSgY288dbd.re 1 -
+/qleaps_test/images/32x32x2@2x.png 3 https://parvamconsultech.com/qleaps_test/
+/c0772caMuVHJld8231703b2991hrJIqb32ff6.sexy 1 -
+/wp-option.php 2 parvamconsultech.com
+/qleaps_test/js/vendor/bootstrap.min.js.map 4 -
+/robots.txt 81 -
+/testerp/ 2 -
+/upload.php 1 -
+/9e8fa01tRHd82314b127891LOGfd0980e0.top 1 -
+/wikindex.php 1 -
+/xx.php 1 -
+/qleaps_test/images/download@2x.png 3 https://parvamconsultech.com/qleaps_test/
+/5564f9bhROXFdd8231f080f771rFBbDFbqc058a5.ls 1 -
+/schoolerp/Dashboard.php 1 https://parvamconsultech.com/schoolerp/student-payment.php
+/my_alfa.php 124 -
+/719aa3fNVLbKr_d82317e1bf641lZxBYb66a67c.shop 1 -
+/media-admin.php 1 -
+/solar/images/8e619706-6b98-4235-a293-ac5a98e54fa5.jpg 6 https://mail.google.com/
+/Qleaps_19_04_22/assets/js/metisMenu.min.js.map 7 -
+/2index.php 1 -
+/qleapstest/images/32x32x4@2x.png 13 https://parvamconsultech.com/qleapstest/
+/a9ee651nTyXd823175356ae1fcKUbX_379dbe.app 1 -
+/qleaps1/images/32x32x7@2x.png 5 https://parvamconsultech.com/qleaps1/
+/294b624koJ_bd8231fd8f9181upmoNgee5b703.ht 1 -
+/0byte.php 1 -
+/schoolerp/Teacher_Profile/TCHIMG_1499013325624d275f2f1d5.jpg 98 https://parvamconsultech.com/schoolerp/view-all-teachers.php
+/3f6071aQRqnstd8231f1f59cb1oZBrIVNC7b7256.tc 1 -
+/shell4.php 127 -
+/a6f3162_KQsd82313405ba31sFayncd020b8.me 1 -
+/qleaps1/images/400x450@2x.png 5 https://parvamconsultech.com/qleaps1/
+/ebf3111UqBvd82314e7e2ad1nMqMSxd79d2c.fr 1 -
+/qleaps1/images/32x32x4@2x.png 5 https://parvamconsultech.com/qleaps1/
+/d7a02aaLqPAsrd8231ace534d1zeIxWXDr4aa2ee.ws 1 -
+/404.php 1 -
+/qleapstest/images/32x32x1@2x.png 13 https://parvamconsultech.com/qleapstest/
+/schoolerp/add_subject_master.php 1 https://parvamconsultech.com/schoolerp/add-new-subject.php
+/main-es2015.b85c7aa42302f153c1f2.js 2 https://parvamconsultech.com/switchdirection/
+/qleaps_test/images/startup48x48@2x.png 3 https://parvamconsultech.com/qleaps_test/
+/1d561b2NDpOjLed82310df9bf51NWTDeCjb316bd.ca 1 -
+/up.php 124 -
+/aadhya_foundation/student_details.php 4 -
+/schoolerp/student-payment.php 1 https://parvamconsultech.com/schoolerp/view-all-student.php
+/XxX.php 1 -
+/wp-wso.php 1 -
+/2b289dcQgGBd8231a1303161UyrOZCA2092df.tc 1 -
+/aws/config 1 -
+/schoolerp/Teacher_Profile/Teacher_Profile/TCHIMG_11368655066242d05666038.jpg 1 https://parvamconsultech.com/schoolerp/view-all-teachers.php
+/testerp/webmaster/quotation/edit/101/product 1 https://parvamconsultech.com/testerp/webmaster/quotation/edit/101
+/qleaps_test/images/48x48x5@2x.png 3 https://parvamconsultech.com/qleaps_test/
+/schoolerp/AgentProfile/ 2 https://parvamconsultech.com/schoolerp/agent-details.php
+/1.php 1 -
+/027ee9fqgnYd8231bfb2b891BLTcPR0ad624.mz 1 -
+/a246fa4RfKGxd8231d9d0f4a1dMaxBAF9f4336.works 1 -
+/3index.php 1 -
+/qleaps_test/images/32x32x4@2x.png 3 https://parvamconsultech.com/qleaps_test/
+/schoolerp/Teacher_Profile/Teacher_Profile/TCHIMG_8033396296242e27127607.jpg 1 https://parvamconsultech.com/schoolerp/view-all-teachers.php
+/qleapstest/images/760x600x3@2x.jpg 13 https://parvamconsultech.com/qleapstest/
+/qleaps_test/images/32x32x3@2x.png 3 https://parvamconsultech.com/qleaps_test/
+/qleaps_test/images/32x32x6@2x.png 3 https://parvamconsultech.com/qleaps_test/
+/info.php 1 -
+/qleaps1/images/48x48x7@2x.png 5 https://parvamconsultech.com/qleaps1/
+/aakruthierp/ 1 -
+/243082ekhBTd823175662571rAVIsL036103.tc 1 -
+/moduleigtt/admindashboard.php 1 -
+/qleaps1/images/760x600x1@2x.jpg 5 https://parvamconsultech.com/qleaps1/
+/c987581Csxmtd823154877381lMQYABBd6752f.gd 1 -
+/new-index.php 1 -
+/o.php 1 -
+/89de70aRgnd8231582463c1lHwb-8921a9.nl 1 -
+/phpinfo.php 1 -
+/wso.php 125 -
+/qleaps1/images/32x32x6@2x.png 5 https://parvamconsultech.com/qleaps1/
+/63928faHOaWd823123506291AEZsuI710953.md 1 -
+/db3973dsaId823157d17b51-cxfGcc8d92.tc 1 -
+/4d84180qjXzd823149da9c71jGVexQ470ace.pet 1 -
+/909c062FGQtsd823102bcfb71SkuApeDf3987c.tc 1 -
+/b57ce6c-SEQyd823105d68df1M_Albkkee98a7.show 1 -
+/eb5ca5cXKOqQjd8231c8ce91f1nNgu-aCC25cb9f.me 1 -
+/swcs/admin/css/img/preloader.gif 3 https://parvamconsultech.com/swcs/admin/view-cust-feedback.php
+/21a5d7aluxd8231d68f89f1tCbwk799eb5.me 1 -
+/backup/license.txt 1 -
+/d4297aflFzURVPd82319ac72db1dAiuDHdab950.gn 1 -
+/leaf.php 2 -
+/schoolerp/parvamadmin 1 -
+/symlink.php 1 -
+/751881dzROmd8231c7b28261RQRRWaR0c41ff.works 1 -
+/ru.php 127 -
+/wp-content/plugins/wp-striplple/striplple.php 1 parvamconsultech.com
+/qleaps_test/images/360x400x3@2x.png 3 https://parvamconsultech.com/qleaps_test/
+/bb79278xzAyPWd82316604a5f1PMKKADAJ78458d.works 1 -
+/0de02ealUZjQrd823138b58201iYuQvysca49b3d.coffee 1 -
+/vuln.php 128 -
+/Qleaps_19_04_22/assets/css/spacing.css.map 7 -
+/50eab6aFqMSPd8231df71a1c1Nd_Mqwt4d394f.me 1 -
+/cec4978yUsygd823192013f81lglfEP-fead56.ca 1 -
+/qleaps1/images/32x32x17@2x.png 5 https://parvamconsultech.com/qleaps1/
+/qleaps_test/images/32x32x5@2x.png 3 https://parvamconsultech.com/qleaps_test/
+/schoolerp/Profile_images/STUIMG_635816766625fc0b8e6dd6.jpg 79 https://parvamconsultech.com/schoolerp/view-all-student.php
+/qleapstest/images/corevalues@2x.jpg 13 https://parvamconsultech.com/qleapstest/
+/cecfe5ffpIgqd823192013f81SPjTEMw702609.rip 1 -
+/qleaps1/images/wealth@2x.png 5 https://parvamconsultech.com/qleaps1/
+/schoolerp/Teacher_Profile/Teacher_Profile/TCHIMG_41982141761efd38c6c13a.jpg 1 https://parvamconsultech.com/schoolerp/view-all-teachers.php
+/qleaps1/images/bv@2x.jpg 5 https://parvamconsultech.com/qleaps1/
+/43d5ccePLGmxd8231423e2fb1sJQgdkKc776d8.works 1 -
+/837639aHrD_Jed8231207f46f1tHBxp8f4cf5.al 1 -
+/qleapstest/images/wealth@2x.png 14 https://parvamconsultech.com/qleapstest/
+/wp-uploads.php 1 -
+/f4f132fNtxDpsd8231be13cd31TSWPZnVi6825d9.family 1 -
+/c1c7290zkFzd8231b973ab41oZTaIF85c404.tc 1 -
+/5bef35cWHqd8231a9d65691vdzmY1b4644.lc 1 -
+/qleaps1/images/760x600x2@2x.jpg 5 https://parvamconsultech.com/qleaps1/
+/b5a9d7ceYECHd8231bfd60fc1gbkVlAi2ea096.shop 1 -
+/57f42d3Zm_jXJKd82316350eab1KJTipsua67eed.auto 1 -
+/7e76f7diDlU_Nd823119f90351aHTLJBVk59dd67.gn 1 -
+/5dbe9cdgtkgAd82313711fea1YW_yyH11788d.ca 1 -
+/8cbb391NlAd8231366863f1dtuIadf65d2.fr 1 -
+/d25a31fsSAd82310af10351yRo_a613f9a.pw 1 -
+/qleaps_test/images/400x450@2x.png 3 https://parvamconsultech.com/qleaps_test/
+/schoolerp/AgentProfile/AGNIMG_139739801162442959809c5.jpg 2 https://parvamconsultech.com/schoolerp/view-agents.php
+/testerp/webmaster/quotation/edit/101 1 https://parvamconsultech.com/testerp/webmaster/quotation
+/qleaps_test/images/32x32x1@2x.png 3 https://parvamconsultech.com/qleaps_test/
+/Qleaps_19_04_22/assets/css/bootstrap.min.css.map 7 -
+/80420b0UKrscd823192e08eb1pmJzc97138.me 1 -
+/new/license.txt 2 -
+/qleapstest/images/48x48x6@2x.png 13 https://parvamconsultech.com/qleapstest/
+/moduleigtt/admin.php 1 -
+/moduleigtt/admin/ 2 -
+/qleaps1/images/angel@2x.png 5 https://parvamconsultech.com/qleaps1/
+/b4251edKYlCd8231e3a64521TWB_Gt7f8dc5.solutions 1 -
+/qleapstest/images/32x32x17@2x.png 12 https://parvamconsultech.com/qleapstest/
+/owl.php 2 -
+/91d152diHBd8231280c9501pcGZ_58e669.net.co 1 -
+/schoolerp/Profile_images/STUIMG_903524138624bf089a29e7.jpg 94 https://parvamconsultech.com/schoolerp/view-all-student.php
+/dvcard/ParvaM/templates/common/js/star-rating.js 3 https://parvamconsultech.com/dvcard/ParvaM/
+/saudi.php 124 -
+/2b41447VEOUd82314106f961MCA542bb2.ki 1 -
+/d4c16a3mg_Jd82315ee10461RhyMsz8dccc6.is 1 -
+/mar.php 1 -
+/ups.php 128 -
+/24c8ea0emdMIpd82310ddd4961MLUE_c117d7.ca 1 -
+/qleaps1/images/business@2x.png 5 https://parvamconsultech.com/qleaps1/
+/qleaps_test/images/angel@2x.png 3 https://parvamconsultech.com/qleaps_test/
+/bypass.php 1 -
+/v.php 1 -
+/cd40474EzrTpUd8231f90a1d51uHY_mOZ180f6c.gd 1 -
+/qleapstest/images/32x32x15@2x.png 13 https://parvamconsultech.com/qleapstest/
+/skippershell.php 126 -
+/qleaps_test/images/iifl@2x.png 3 https://parvamconsultech.com/qleaps_test/
+/tttt.php 125 -
+/aff88a7MGJd82311ca710d1GAyfycf4291.pw 1 -
+/old-index.php 1 -
+/Qleaps_19_04_22/assets/css/main.css.map 8 -
+/aadhya_foundation/js/popper.min.js.map 26 -
+/qleapstest/images/760x600x2@2x.jpg 13 https://parvamconsultech.com/qleapstest/
+/9f74041TjKzcd8231f018ec41NEDGQQH4295ce.pw 1 -
+/qleapstest/images/angel@2x.png 13 https://parvamconsultech.com/qleapstest/
+/e41cc33XUvGmd8231d8c6c541HAcwpgY86cc8f.ls 1 -
+/4e29328fGdCQd8231c21ccf31Za-OCtYadf5f9.om 1 -
+/aadhya_foundation/add_student_insert_master.php 16 https://parvamconsultech.com/aadhya_foundation/student-insert-form.php
+/moduleigtt/dashboard.php 1 -
+/wp-stream.php 1 parvamconsultech.com
+/baindex.php 1 -
+/eafa066IVtPWDd8231ef14b451-_xafCDo9cc51d.cy 1 -
+/3.php 1 -
+/leafmailer2.8.php 1 -
+/index.php 1 parvamconsultech.com
+/wp-confirm.php 1 -
+/1e340abAPid8231e05f0241fXyly12b5c7.pw 1 -
+/qleaps1/images/360x400x2@2x.png 5 https://parvamconsultech.com/qleaps1/
+/qleaps_test/images/360x400x2@2x.png 3 https://parvamconsultech.com/qleaps_test/
+/403894fofrTlWYd82314eb32261F-Lvd6938e1.sa 1 -
+/e44c7a5Fedpqd8231e4125cb1LrtVQzu4828ff.me 1 -
+/schoolerp/css/bootstrap.min.css.map 15 -
+/2b94c26zyakdud82311b2f7241dDZzESPuede383.cf 1 -
+/nee.php 1 -
+/dfc0841bEOTzoad8231eebab6d1hhhXNXf9cf71.kim 1 -
+/6db529eJc-PhCd82318bc0f101tijSefbfa75.gd 1 -
+/b714f5dh_srd82315c7d37e1mDZlXb16f236.om 1 -
+/b36fd50Sgm-rtd82311ee8ac61lBxaOCec9db96.gn 1 -
+/schoolerp/Profile_images/STUIMG_17128181576244469de2cf8.jpg 146 https://parvamconsultech.com/schoolerp/view-all-student.php
+/wi.php 1 -
+/skipper.php 126 -
+/2c2a7d2OGRDCd8231668c2aa1EbLmExx90908f.works 1 -
+/test_moduleigtt/admin/appliances.json 1 https://parvamconsultech.com/test_moduleigtt/admin/edit.php
+/0912aecEEeynEud82315bd05081hERgU5e0dd4.tz 1 -
+/schoolerp/add_teacher_master.php 1 https://parvamconsultech.com/schoolerp/add-new-teacher.php
+/qleaps1/images/32x32x3@2x.png 5 https://parvamconsultech.com/qleaps1/
+/qleaps_test/images/24x24x2@2x.png 3 https://parvamconsultech.com/qleaps_test/
+/3d60372VSHtDd8231940eb091EAxcSkie0e885.works 1 -
+/ 218 -
+/4dc453degaNcsdd823156f52be1EIBK_a90bbc.kr 1 -
+/qleapstest/images/download@2x.png 13 https://parvamconsultech.com/qleapstest/
+/c85d19emFBeWBdd8231ee0decf1SxuABo69ac1d.ao 1 -
+/runtime-es2015.fab47152c71bc5d35f4d.js 2 https://parvamconsultech.com/switchdirection/
+/schoolerp/Teacher_Profile/Teacher_Profile/TCHIMG_8402334756241520c35f09.jpg 1 https://parvamconsultech.com/schoolerp/view-all-teachers.php
+/ab83639_slaMUd8231a7f4e2a1fAdPJfzzc30006.pw 1 -
+/c.php 1 -
+/qleaps1/images/download@2x.png 5 https://parvamconsultech.com/qleaps1/
+/db3d7bdjRQiQUd823157d17b51o-jpFSROfc547a.pw 1 -
+/95b957aIfsFzEld82314c209a41Qlsirmeeb3ff.luxe 1 -
+/f6e5fd9MqbUGTsd8231701ee961YyvOv505eae.pw 1 -
+/1index.php 1 -
+/schoolerp/Profile_images/STUIMG_1534354892623ee0828bd83.jpg 134 https://parvamconsultech.com/schoolerp/view-all-student.php
+/qleaps_test/images/32x32x15@2x.png 3 https://parvamconsultech.com/qleaps_test/
+/b3da179mMmDSd82312665db51AZzfmvR32007f.gw 1 -
+/qleapstest/images/32x32x6@2x.png 13 https://parvamconsultech.com/qleapstest/
+/ac4f0f7irJMd8231b3ba45c1lnibRD96151e.my 1 -
+/qleapstest/images/360x400x3@2x.png 13 https://parvamconsultech.com/qleapstest/
+/d10bf29UOZtid823102a78941yKOFeRk979e9e.sexy 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 213
+49.205.145.142 5201 6578 63182325 20220415053934
+49.205.145.212 3375 4481 75336136 20220429062336
+49.205.147.145 1923 2894 48018444 20220423062251
+202.21.42.88 333 528 9108806 20220429041201
+42.109.128.199 241 433 10966386 20220412032737
+42.109.128.213 235 297 8624235 20220420041612
+106.196.23.228 213 323 4458178 20220418004624
+49.205.148.91 180 228 357901 20220418053029
+42.105.124.221 117 188 4783156 20220423055840
+42.109.129.115 104 148 1271607 20220401044056
+106.196.18.193 91 182 2086880 20220406035202
+42.105.116.30 88 170 4718916 20220425055835
+42.109.129.113 75 135 2620614 20220415052548
+42.105.116.11 73 131 3442601 20220425064016
+27.59.24.173 66 119 2151018 20220426045655
+27.111.75.190 60 80 661431 20220401001907
+220.158.158.44 59 95 1918674 20220412231652
+106.196.17.31 56 102 575861 20220406061127
+106.193.33.4 56 136 5360053 20220415054930
+157.50.51.38 50 61 337342 20220427232742
+42.105.120.245 49 127 2719733 20220426031814
+42.105.116.211 46 107 2438370 20220427054453
+223.186.2.190 40 41 189723 20220425101956
+202.21.43.120 39 88 4121626 20220422044931
+157.50.30.225 35 95 1328004 20220426091356
+106.217.32.223 0 3 0 
+115.69.254.4 4 68 3917943 20220406004623
+157.45.168.91 0 4 0 
+49.205.137.26 0 3 1647 
+157.50.26.251 0 1 0 
+49.44.86.72 2 30 391231 20220421234830
+157.45.50.62 1 5 305700 20220404025825
+203.192.251.190 0 2 198052 
+103.250.152.228 4 68 3917918 20220406004633
+66.102.8.83 2 14 2642782 20220425005651
+157.45.208.70 0 3 0 
+49.44.80.106 4 19 346149 20220425001326
+157.45.168.124 0 3 0 
+223.231.169.121 0 4 0 
+203.192.253.101 1 3 199967 20220417063948
+157.50.57.141 4 5 524 20220430105216
+49.37.183.22 12 42 715634 20220427052516
+49.44.85.74 2 32 419539 20220421014209
+203.192.251.169 1 5 305700 20220418124249
+157.45.202.34 12 60 1006177 20220426031252
+157.45.201.168 0 4 0 
+203.192.253.62 2 10 611400 20220426122316
+49.37.243.154 1 5 305700 20220426004812
+66.249.84.75 0 7 1552100 
+183.87.151.68 2 33 414823 20220407025100
+103.98.78.53 1 3 1915 20220406114053
+157.45.36.2 1 4 396645 20220424212834
+66.249.84.65 0 2 153724 
+203.192.204.61 2 6 307615 20220430145755
+223.186.82.31 3 6 9575 20220429101200
+49.205.150.42 3 5 15985 20220426102031
+157.50.24.52 0 3 0 
+49.44.86.164 2 33 414823 20220405001409
+223.186.145.20 0 3 252065 
+157.45.88.143 0 4 254132 
+103.59.199.68 0 1 99626 
+167.248.133.45 1 1 11768 20220408091420
+172.56.13.254 4 19 346193 20220427052449
+49.205.147.55 0 4 301711 
+49.44.84.199 2 33 414823 20220401043103
+49.37.188.39 1 4 396645 20220424214542
+203.192.241.80 1 3 199967 20220427065625
+157.50.56.219 3 5 9997 20220428093810
+106.76.230.125 1 1 131 20220422024701
+49.44.76.166 2 31 405923 20220420235904
+49.44.80.100 2 33 414823 20220407024821
+212.192.241.31 1 1 13587 20220407142310
+157.50.40.16 3 6 9434 20220427122557
+103.224.157.4 2 33 414823 20220401060351
+157.45.57.17 0 4 0 
+49.44.81.133 4 63 4840573 20220412032139
+202.71.1.68 4 89 3712740 20220407233703
+106.196.18.121 1 1 2220 20220406013853
+171.61.126.157 0 29 0 
+223.186.26.88 2 10 257801 20220418041241
+223.186.132.105 3 45 1414345 20220404004205
+157.50.24.63 2 5 6886 20220426104511
+106.197.199.14 1 5 255886 20220428111125
+42.105.121.244 3 26 406715 20220426090004
+42.105.121.115 4 5 83681 20220426092121
+1.39.151.62 1 1 1915 20220423074237
+106.196.28.122 21 21 39947 20220418032336
+49.44.83.230 0 1 19735 
+49.205.143.160 13 89 2157905 20220426184805
+49.44.85.10 1 5 255886 20220424193437
+157.45.204.21 1 5 1915 20220419043505
+124.108.16.134 0 1 15472 
+157.45.227.13 0 4 155649 
+103.29.116.102 0 1 119238 
+203.192.253.148 1 3 199967 20220414124815
+150.129.246.4 1 3 199075 20220411054128
+223.231.137.106 0 4 0 
+49.44.80.201 2 33 414823 20220401035531
+103.50.76.68 1 1 1541 20220404035317
+49.44.86.231 1 3 159638 20220423074225
+59.93.97.35 1 5 255886 20220407013619
+106.51.241.22 2 40 4807997 20220420070258
+49.44.83.102 1 1 80452 20220404033546
+66.102.8.84 1 16 1434603 20220425005651
+157.45.231.84 4 27 481035 20220426084846
+106.51.243.58 13 117 7978219 20220404023958
+167.248.133.63 1 1 11766 20220406092511
+117.55.240.70 1 1 1541 20220404033606
+157.50.63.149 5 36 570560 20220426030245
+223.237.231.209 0 4 229981 
+66.249.84.73 0 5 881380 
+49.44.78.167 0 1 320518 
+49.205.143.247 8 127 9689059 20220404005239
+183.87.110.71 2 33 414823 20220427232346
+122.171.248.1 8 138 7875553 20220406004607
+223.237.252.94 1 5 305700 20220406151822
+157.45.106.22 1 1 8445 20220419224042
+203.192.253.238 2 6 399934 20220421055138
+150.129.146.4 0 1 443652 
+49.44.76.133 4 19 346149 20220425001327
+157.45.176.153 1 4 2703 20220417025602
+49.205.141.195 4 27 480995 20220426093243
+157.45.212.70 4 8 13772 20220426082659
+1.39.188.92 4 27 481209 20220429223740
+122.167.20.163 0 137 5667746 
+36.255.86.217 25 77 547631 20220427052650
+122.171.233.64 0 7 0 
+49.44.82.101 1 5 255886 20220420071521
+1.186.190.200 1 1 82183 20220405061023
+66.249.84.77 0 12 1600034 
+157.50.21.194 3 26 406675 20220426114830
+106.196.21.120 2 16 163017 20220406233648
+66.102.6.213 2 33 1114972 20220425005654
+157.45.113.55 0 1 0 
+49.205.142.16 6 18 975922 20220430000119
+157.45.215.34 1 1 1915 20220422005223
+171.76.46.63 7 58 1672826 20220421075957
+74.125.209.66 0 41 7653086 
+49.44.82.169 4 19 346193 20220427052425
+27.59.107.150 1 5 305700 20220420090604
+49.44.78.229 1 1 2220 20220419000503
+185.165.242.105 1 5 1574913 20220413091434
+122.167.180.109 0 88 3417556 
+157.50.36.57 6 10 18722 20220426094017
+66.249.84.93 0 25 3426733 
+223.231.153.114 0 3 0 
+122.172.2.17 0 35 2349480 
+106.217.52.202 2 5 262 20220430023641
+74.125.209.93 0 24 3861838 
+27.63.240.25 1 3 199967 20220407043717
+203.192.253.211 1 5 305700 20220401052510
+122.172.136.104 0 7 1152230 
+49.44.85.43 1 1 1541 20220404034629
+203.192.253.180 1 5 305700 20220428130115
+203.192.204.119 1 3 199967 20220419123321
+66.102.8.85 2 21 1647143 20220425005651
+157.45.95.47 1 1 29899 20220426101853
+49.44.67.133 1 1 29899 20220423195204
+1.39.171.220 2 12 124092 20220419235839
+203.192.253.239 1 3 199967 20220407063026
+74.125.209.95 0 27 3310268 
+122.167.224.70 1 1 1915 20220421014413
+202.88.175.68 2 33 414823 20220401033152
+157.45.223.0 0 3 0 
+49.44.67.138 2 33 414823 20220421061741
+42.105.116.246 27 57 1775836 20220429020718
+122.167.5.224 2 7 309689 20220419045136
+157.50.30.175 0 3 229981 
+49.44.80.73 4 66 829646 20220401042654
+103.56.230.68 4 63 3911201 20220419063121
+223.186.146.243 1 1 2044 20220418005921
+157.45.202.191 0 3 0 
+157.45.93.104 0 4 0 
+223.184.18.248 8 138 7875553 20220414052351
+122.167.140.105 0 7 1152230 
+42.109.128.112 21 51 1771569 20220421232207
+106.201.44.145 15 196 11266681 20220421091807
+203.192.253.71 1 3 199967 20220424121907
+49.44.87.136 1 1 80451 20220404033557
+171.48.56.63 0 7 0 
+49.44.85.197 1 1 82183 20220405061024
+66.249.84.95 0 32 5734106 
+123.176.33.199 0 1 114590 
+157.50.12.117 4 172 254004057 20220428200437
+157.50.53.55 2 4 262 20220430215814
+202.21.43.180 35 429 26179894 20220412034649
+203.192.204.171 1 3 199967 20220422125738
+1.39.135.186 1 1 2600 20220421080020
+49.44.83.37 4 18 311096 20220425001344
+163.53.87.196 1 1 1541 20220405061034
+66.102.6.211 3 24 691512 20220425011448
+125.99.88.200 3 19 416028 20220403093424
+49.205.150.34 1 1 1036 20220403093411
+157.50.38.122 3 7 227080 20220430062015
+42.109.128.141 3 3 1118 20220415052624
+66.102.6.215 4 25 764391 20220425011448
+27.106.94.9 2 33 414823 20220420061751
+42.105.124.57 1 5 1574913 20220421011825
+106.206.63.65 4 11 63542 20220421091552
+203.192.204.93 1 5 305700 20220423133845
+49.205.132.208 2 8 465338 20220414105652
+27.59.18.227 11 75 2456425 20220420000308
+157.45.156.158 0 3 0 
+106.197.194.215 0 4 0 
+49.44.82.228 4 17 343291 20220425001341
+106.206.119.183 0 4 157723 
+66.249.84.66 0 24 3942908 
+157.45.47.198 1 1 1915 20220404030741
+49.37.248.143 8 38 929335 20220428034554
+157.45.103.33 4 21 444735 20220404011004
+123.176.33.71 2 33 414823 20220407021116
+157.45.100.82 0 3 0 
+182.79.194.5 2 33 414823 20220407003442
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 29
+20220401 1130 1484 13580174 11
+20220402 0 5 264702 0
+20220403 26 53 1052396 3
+20220404 389 871 28273099 14
+20220405 970 1283 14171423 6
+20220406 798 1581 44103822 13
+20220407 622 1226 24638276 12
+20220408 412 466 4117901 4
+20220409 324 331 3769566 3
+20220410 22 71 1180236 1
+20220411 758 1066 17569292 6
+20220412 154 873 45574290 6
+20220413 313 494 11657541 5
+20220414 63 225 8311760 5
+20220415 113 212 5888450 5
+20220417 38 224 10198948 4
+20220418 542 737 9862651 11
+20220419 126 470 15260061 13
+20220420 506 921 26160468 11
+20220421 619 1040 16105889 16
+20220422 410 555 8487923 8
+20220423 600 914 19034622 9
+20220424 92 190 4513323 6
+20220425 1335 2153 47553033 21
+20220426 1119 1699 14755628 24
+20220427 751 1251 12601346 14
+20220428 988 1468 296470139 9
+20220429 62 121 2297844 7
+20220430 19 45 1511665 6
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+30s-2mn 20
+2mn-5mn 7
+0s-30s 136
+5mn-15mn 14
+1h+ 39
+15mn-30mn 20
+30mn-1h 17
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 624
+/schoolerp/get_agent_payment_dashboard.php 1988 108147 0 35
+/schoolerp/get_student_payment_dashboard.php 1988 118704 0 16
+/schoolerp/login.php 344 283086 4 6
+/aadhya_foundation/get_student_payment_dashboard.php 303 25731 4 5
+/aadhya_foundation/get_agent_payment_dashboard.php 303 25731 3 23
+/schoolerp/getAttendancedata.php 292 578902 1 3
+/schoolerp/get_parent_request_dashboard.php 204 15504 0 0
+/schoolerp/view-all-teachers.php 199 1791855 1 0
+/schoolerp/view-all-student.php 198 2480371 2 0
+/schoolerp/Dashboard.php 185 1430652 4 0
+/schoolerp/view-single-tecaher.php 164 197357 0 0
+/schoolerp/index.php 138 18763 1 1
+/schoolerp/view_attendance.php 132 678171 3 0
+/schoolerp/attendance.php 123 619698 0 0
+/testerp/webmaster/quotation/selectquotationnumber 119 17547 0 2
+/schoolerp/ 116 15256 48 1
+/schoolerp/updateAttendance.php 107 3606 0 1
+/schoolerp/attendance_new.php 105 651957 5 0
+/testerp/webmaster/quotation/getallbrand 102 71955 0 0
+/schoolerp/add-new-grade.php 99 535131 0 0
+/aadhya_foundation/view-all-student.php 94 466772 3 1
+/aadhya_foundation/Dashboard.php 94 298421 6 0
+/schoolerp/add-grade-fee.php 87 494091 0 0
+/testerp/webmaster/purchaserequest 86 2628428 0 1
+/testerp/webmaster/quotation/quotationdata 86 40838 0 0
+/testerp/webmaster/purchaseorder/view/23 5 58510 0 0
+/testerp/webmaster/purchaserequest/view/ 28 238061 0 0
+/seft/webfonts/fa-regular-400.woff2 2 27216 0 1
+/test_moduleigtt/admin/dashboard.php 2 33936 0 0
+/schoolerp/add_grade_fee.php 15 2445 0 0
+/testerp/webmaster/quotation/edit/101 4 126107 0 0
+/testerp/assets/bootstrap/fonts/glyphicons-halflings-regular.woff 1 23424 0 1
+/schoolerp/parvamAdmin/view-Colleges.php 1 3737 0 0
+/testerp/webmaster/design/disapprove/ 1 365 0 0
+/testerp/webmaster/checkpoint/sub/ 9 126896 0 0
+/testerp/webmaster/checkpoint/update 6 144 0 0
+/schoolerp/grade_master_delete.php 1 163 0 0
+/test_moduleigtt/admin/ 1 2201 1 0
+/testerp/webmaster/purchaseorder/selectpurchaseorder/approved 11 845 0 0
+/testerp/quoteapproval/acceptance/21 5 7705 3 3
+/schoolerp/parvamAdmin/ 1 129 0 0
+/aadhya_foundation/student-details.php 37 94073 0 0
+/schoolerp/student-admission-detail-report.php 7 541112 0 0
+/schoolerp/delete_tecaher.php 21 3444 0 0
+/schoolapi/studentprofile.php 3 335 0 0
+/testerp/webmaster/items/create 7 90960 0 0
+/qleaps1/css/vendor/font-awesome/dist/font-awesome-animation.min.html 8 0 0 1
+/testerp/webmaster/woodwork/edit_woodwork/2792 2 21187 0 0
+/schoolerp/add_new_grade.php 12 1956 0 0
+/testerp/webmaster/purchaserequest/generatepo/218 2 19458 0 0
+/testerp/webmaster/items/view_item/ 12 90917 0 0
+/dpl/dashboard.php 2 5348 1 0
+/Qleaps_19_04_22/assets/fonts/fa-light-300.woff2 8 1485696 0 2
+/Qleaps_19_04_22/assets/fonts/gt-font/GTWalsheimPro-Light.woff2 1 40988 0 1
+/testerp/webmaster/designtask/edit_task/43 2 16330 0 0
+/testerp/webmaster/snag/insertsnag 3 2001 0 0
+/schoolerp/add_student_parent.php 8 1387 0 0
+/testerp/webmaster/snag 12 109008 0 0
+/testerp/webmaster/purchaserequest/purchaserequestinvoice/219 1 74128 0 0
+/schoolerp/studentmarksentry.php 19 105187 0 0
+/testerp/webmaster/quotpdf/setpdf/101 1 15574 0 0
+/testerp/webmaster/quotation/edit/97/other 1 31528 0 0
+/testerp/webmaster/project/selectstaff/inspection 1 34 0 0
+/testerp/webmaster/ccmgmt/view_page 8 71351 0 1
+/testerp/webmaster/purchaserequest/getpurchaserequestlistt/228 1 808 0 0
+/testerp/webmaster/quotation/selectaccbrand/78 1 163 0 0
+/testerp/webmaster/quotation/saveadvancepaid 6 732 0 0
+/cpl-2022/ 4 7016 3 4
+/testerp/webmaster/woodwork/view_woodwork/2792 3 22668 0 0
+/testerp/webmaster/vendor/create 1 12822 0 0
+/testerp/webmaster/project/selectstaff/stores 1 34 0 0
+/schoolerp/add_agent_payment.php 1 181 0 0
+/martinrealtors/webfonts/fa-brands-400.woff2 3 235416 0 0
+/testerp/webmaster/purchaserequest/selectitem/56 2 1982 0 0
+/testerp/webmaster/project/selectdepartment/ 19 4199 0 0
+/testerp/webmaster/project/selectdesign/89 1 34 0 0
+/testerp/webmaster/inventory 18 138024 0 0
+/swcs/admin/ 1 127 1 0
+/testerp/webmaster/quotation/edit/104/other 1 31529 0 0
+/testerp/quoteapproval/acceptance/101 2 3082 1 1
+/dpl/playerimages/Profile%20photo 1 909727 0 1
+/testerp/webmaster/quotation/edit/90 2 63042 0 0
+/testerp/webmaster/purchaseorder/view/24 5 41112 0 0
+/testerp/webmaster/accessorynumber 11 86044 0 0
+/water/assets/images/favicons/site.webmanifest 1 263 0 0
+/schoolerp/delete_subject.php 9 1476 0 0
+/schoolerp/update_student_master.php 23 3174 0 0
+/qleaps_test/css/vendor/font-awesome/fonts/fontawesome-webfont3e6e.woff2 6 462960 0 1
+/testerp/webmaster/project/view/14 2 22752 0 0
+/testerp/webmaster/quotation/selectunit 19 3610 0 0
+/schoolerp/fonts/Flaticon.woff 1 10412 0 0
+/testerp/webmaster/purchaserequest/getleaddata 3 195 0 0
+/testerp/webmaster/quotation/mailinvoice/85 1 81419 0 0
+/martinrealtors/ 3 56478 1 0
+/schoolerp/add_new_grade_section.php 5 795 1 0
+/testerp/webmaster/accessorynumber/create 2 15924 0 0
+/erp/webmaster/ccmgmt/ss_page 3 8282 0 0
+/testerp/webmaster/purchaserequest/general 25 799353 0 0
+/testerp/webmaster/accessory/selectaccessorynumber 14 1814 0 0
+/qleaps/css/vendor/font-awesome/fonts/fontawesome-webfont3e6e.woff2 1 77160 0 0
+/swcs/admin/webfonts/fa-regular-400.woff2 1 13608 0 0
+/swcs/admin/index.php 1 132 0 0
+/ 2 23534 2 2
+/testerp/webmaster/quotation/edit/89/product 1 31525 0 0
+/testerp/webmaster/project/selectstaff/projectmanager 4 1612 0 0
+/schoolerp/add-new-tecaher-subject.php 47 270057 0 0
+/testerp/webmaster/purchaserequest/generatepo/217 2 19454 0 0
+/testerp/webmaster/project/selectstaff/project 3 1146 0 0
+/testerp/webmaster/purchaserequest/purchaserequestinvoice/132 1 73741 0 0
+/testerp/webmaster/purchaserequest/selectitem/7 13 5642 0 0
+/schoolerp/getStuCasteCategory.php 2 488 0 0
+/schoolerp/announcement.php 40 192674 0 0
+/testerp/webmaster/recieptnote/issuenoteinvoice/3 19 1071710 0 1
+/testerp/webmaster/quotation/selectaccbrand/85 1 163 0 0
+/testerp/webmaster/design 16 278313 0 0
+/testerp/webmaster/quotation/selectbrand/49 1 160 0 0
+/testerp/webmaster/quotation/selectlead/ 32 67227 0 0
+/testerp/webmaster/purchaserequest/edit/226 1 15938 0 0
+/testerp/webmaster/quotation/edit/102/accessory 2 63054 0 0
+/schoolerp/add-new-teacher.php 71 526558 0 0
+/testerp/webmaster/quotation/selectaccbrand/13 8 272 0 0
+/testerp/webmaster/checkpoint/view/3 2 49526 0 1
+/testerp/webmaster/quotation/ 1 40805 0 0
+/testerp/webmaster/purchaseorder/getproductinfo 32 9740 0 0
+/testerp/webmaster/quotation/edit/106/product 1 31531 0 0
+/testerp/webmaster/setup/companydetails 1 8451 0 0
+/schoolerp/add_teacher_master.php 22 1988 0 1
+/testerp/webmaster/quotation/getTotalAmount 11 1348 0 0
+/testerp/webmaster/quotation/selectbrand/33 3 480 0 0
+/testerp/webmaster/checkpoint/savesubcheckpoint 9 288 0 0
+/testerp/webmaster/quotation/getquotationlist/98 2 793 0 0
+/testerp/webmaster/purchaserequest/edit/223 2 31882 0 0
+/Qleaps_19_04_22/assets/fonts/gt-font/GTWalsheimPro-Black.woff2 4 166144 0 0
+/aakruthi-erp/ 9 19980 2 2
+/dpl/success.html 1 1023 1 1
+/schoolapi/login.php 2 141 1 1
+/test_moduleigtt/admin/viewdetails.php 2 5090 0 0
+/schoolerp/agent-payment.php 3 15460 0 0
+/qleaps/ 1 10951 0 0
+/qleapstest/css/vendor/bootstrap-theme.min.html 11 0 0 0
+/testerp/webmaster/quotation/confirm/101 1 11851 0 0
+/testerp/webmaster/purchaseorder/purchaseorderdata/ 8 3416 0 0
+/testerp/webmaster/inventory/create 28 296477 0 1
+/testerp/webmaster/quotation/selectservicecategory 68 46716 0 0
+/testerp/webmaster/purchaserequest/getpurchaserequestlist/226 1 801 0 0
+/testerp/webmaster/inventory/selectspace 42 21416 0 0
+/schoolerp/fetch_student_payment.php 15 376 0 0
+/testerp/webmaster/purchaserequestnumber 8 62110 0 0
+/testerp/webmaster/purchaserequest/generatepo/224 1 9730 0 0
+/testerp/webmaster/project/assign/505 1 8695 0 0
+/testerp/webmaster/purchaserequest/getbrand/null 1 34 0 0
+/schoolerp/update_subject_master.php 9 1313 0 0
+/schoolerp/add_student_master.php 22 3186 0 0
+/testerp/webmaster/purchaseorder/selectpurchaseordernumber 72 8586 0 0
+/testerp/webmaster/quotation/getquotationlist/101 16 9170 0 0
+/testerp/webmaster/purchaseorder/getnewwooddata 30 1432 0 0
+/testerp/webmaster/quotation/mailinvoice/21 4 321807 2 2
+/aadhya_foundation/add_student_insert_master.php 29 4272 2 0
+/testerp/webmaster/quotation/view/106 2 23564 0 0
+/reliflex/ 2 24922 1 0
+/testerp/webmaster/design/upload 54 841063 0 0
+/testerp/webmaster/quotation/mailinvoice/106 1 81544 0 0
+/testerp/webmaster/project/selectstaff/superadmin 2 1662 0 0
+/testerp/webmaster/quotation/getspaceinfo 35 5013 0 0
+/testerp/webmaster/project/assign/497 1 8681 0 0
+/aadhya_foundation/fonts/Flaticon.woff2 11 97328 0 0
+/testerp/webmaster/snag/viewsnag/25 2 15205 0 0
+/testerp/webmaster/quotation/selectaccbrand/14 8 1840 0 0
+/schoolerp/student-payment-print.php 6 17475 0 0
+/testerp/webmaster/staff/view_staff/32 4 30122 0 0
+/water/ 2 32284 1 0
+/testerp/webmaster/quotation/confirm/99 1 11313 0 0
+/testerp/webmaster/purchaserequest/updateitemstock 2 0 0 0
+/aadhya_foundation/webfonts/fa-solid-900.woff2 24 1783680 1 7
+/testerp/webmaster/quotation/insertVersion 10 221 0 0
+/testerp/webmaster/leads/deletedlist 2 15406 0 0
+/Qleaps_19_04_22/ 21 135150 11 5
+/schoolerp/update_parent.php 3 552 0 0
+/testerp/webmaster/leads 30 272042 0 0
+/testerp/webmaster/space/view/25 1 7261 0 0
+/testerp/webmaster/vendor/edit/40/others 3 51092 0 0
+/testerp/webmaster/quotation/selectbrand/7 5 805 0 0
+/testerp/webmaster/leads/edit_lead/ 2 24765 0 0
+/testerp/webmaster/purchaseorder 51 567897 0 0
+/testerp/webmaster/purchaserequest/updatepurchaserequest 3 72 0 0
+/testerp/webmaster/space 13 105812 0 0
+/schoolerp/add-new-grade-section.php 26 134970 0 0
+/testerp/webmaster/quotation/edit/99/accessory 3 94578 0 0
+/testerp/webmaster/accessory/create 13 154303 0 0
+/testerp/webmaster/purchaserequest/purchaserequestinvoice/226 2 75296 0 0
+/testerp/webmaster/woodwork/selectwoodworknumber 22 2872 0 0
+/testerp/webmaster/quotation/getquotationlist/102 7 1621 0 0
+/testerp/webmaster/design/insert1 13 8014 0 0
+/schoolerp/webfonts/fa-regular-400.woff 1 16812 0 1
+/testerp/webmaster/quotation/edit/97/accessory 1 31528 0 0
+/testerp/webmaster/purchaserequest/getiteminfo 44 16325 0 0
+/testerp/webmaster/purchaserequest/selectitem/50 1 34 0 0
+/testerp/webmaster/quotation/getquotationlist/92 4 1977 0 0
+/schoolerp/add-new-agent.php 8 37642 0 0
+/testerp/webmaster/purchaserequest/getbrand/7 1 155 0 0
+/schoolapi/parentrequestlist.php 2 210 0 1
+/schoolerp/fetch_student_year.php 16 408 0 0
+/schoolerp/parvamAdmin/view-college-details.php 2 4585 0 0
+/testerp/webmaster/brand/edit/68 1 7997 0 0
+/schoolerp/view-all-holiday.php 24 124935 0 0
+/testerp/webmaster/checkpoint/savemaincheckpoint 3 96 0 0
+/schoolerp/update_holiday_master.php 10 1591 0 0
+/testerp/webmaster/design/download/27 2 158008 0 0
+/testerp/webmaster/vendor/getinventorylist/40 5 310 0 0
+/testerp/webmaster/ccmgmt/edit_cc/ 7 61400 0 0
+/testerp/webmaster/purchaserequest/getpurchaserequestlistt/223 1 676 0 0
+/Qleaps_19_04_22/assets/fonts/fa-regular-400.woff2 6 1020120 0 0
+/testerp/webmaster/quotation/selectwoodwork/6 7 4963 0 0
+/schoolerp/student-payment-reciept.php 7 643591 0 0
+/testerp/webmaster/quotation/selectquotation/undefined 1 25003 0 0
+/testerp/webmaster/quotation/getquotationlist/105 1 63 0 0
+/test_moduleigtt/admin/handletypedata.json 1 446574 0 0
+/testerp/webmaster/quotation/selectwoodwork/11 12 8544 0 0
+/reliflex/assets/fonts/fa-solid-900.ttf 2 774880 0 1
+/testerp/webmaster/purchaserequest/selectcategory 46 79166 0 0
+/Qleaps_19_04_22/assets/fonts/gt-font/GTWalsheimPro-Regular.woff2 7 287952 0 0
+/testerp/webmaster/items 28 320406 0 1
+/testerp/webmaster/design/download/40 1 249576 0 0
+/schoolerp/view-all-subject.php 40 202564 0 0
+/testerp/webmaster/space/edit/25 1 7932 0 0
+/testerp/webmaster/quotation/edit/90/product 1 31526 0 0
+/schoolerp/add_student_bank_details.php 12 2129 0 0
+/testerp/webmaster/quotation/edit/99/other 1 31528 0 0
+/schoolerp/student-parents.php 49 319556 0 0
+/testerp/webmaster/woodworknumber 15 117041 0 0
+/testerp/webmaster/quotation/woodquotation 14 343 0 0
+/testerp/webmaster/quotation/confirm/100 1 11517 0 0
+/testerp/webmaster/quotation/confirm/91 1 11266 0 0
+/aadhya_foundation/login.php 63 51283 0 0
+/schoolerp/delete_student.php 19 2622 0 0
+/testerp/webmaster/quotation/getquotationlist/106 7 3387 0 0
+/Qleaps_19_04_22/assets/fonts/gt-font/GTWalsheimPro-Medium.woff2 2 79280 0 0
+/testerp/webmaster/quotation/selectbrand/35 1 160 0 0
+/qleapstest/css/vendor/font-awesome/fonts/fontawesome-webfont3e6e.woff2 10 771600 0 6
+/testerp/webmaster/checkpoint/main/ 3 28041 0 0
+/testerp/webmaster/purchaserequest/edit/227 9 143355 0 0
+/testerp/webmaster/vendor/mapvendorbrand 1 0 0 0
+/testerp/assets/bootstrap/fonts/glyphicons-halflings-regular.woff2 28 378588 0 16
+/testerp/webmaster/quotation/accquotation 8 197 0 0
+/testerp/webmaster/project 36 396856 0 0
+/schoolerp/parvamAdmin/login.php 3 2497 0 0
+/testerp/webmaster/purchaseorder/deletedlist 2 18517 0 0
+/testerp/webmaster/woodwork 25 196709 0 0
+/schoolerp/update_grade_master.php 17 2524 0 0
+/testerp/webmaster/vendor/edit/40 4 68122 0 0
+/testerp/webmaster/quotation/selectaccbrand/40 1 156 0 0
+/testerp/webmaster/dashboard 41 506270 0 1
+/testerp/webmaster/quotation/selectquotation/26 8 3250 0 0
+/reliflex/assets/fonts/revicons/revicons90c6.woff 2 15072 1 1
+/testerp/webmaster/purchaserequest/generalpr 7 83848 0 0
+/schoolerp/editAttandance.php 23 142736 0 0
+/test_moduleigtt/admin/revisequotation.php 1 61 0 0
+/schoolerp/parvamAdmin/index.php 1 134 0 0
+/testerp/webmaster/quotation/selectwoodwork/5 1 542 0 0
+/testerp/webmaster/quotation/selectproduct/ 18 6448 0 0
+/testerp/webmaster/quotation/selectlead/customer 19 29264 0 0
+/swcs/admin/view-cust-feedback.php 1 4618 0 1
+/testerp/webmaster/items/insert 1 553 0 0
+/testerp/webmaster/quotation/edit/92 2 63041 0 0
+/testerp/webmaster/snag/viewsnag/26 1 7599 0 0
+/testerp/webmaster/quotation/confirm/106 1 11550 0 1
+/Qleaps_19_04_22/site.html 16 186319 5 6
+/kpl/ 2 59798 2 2
+/testerp/webmaster/vendor/view/40 2 15949 0 0
+/testerp/webmaster/woodworknumber/create 3 23892 0 0
+/testerp/webmaster/purchaserequest/generatepo/223 1 9729 0 0
+/testerp/webmaster/quotation/edit/101/accessory 2 63054 0 0
+/testerp/webmaster/project/view/16 2 22823 0 0
+/testerp/webmaster/quotation/edit/105 1 31527 0 0
+/testerp/webmaster/quotation/confirm/97 1 10906 0 0
+/testerp/webmaster/quotation/getquotationlist/104 4 1444 0 0
+/testerp/webmaster/quotation/getquotationlist/93 5 2304 0 0
+/testerp/webmaster/purchaseorder/view/1 2 31162 0 0
+/testerp/webmaster/project/create 14 194320 0 0
+/testerp/webmaster/purchaserequest/selectitem/10 5 170 0 0
+/testerp/webmaster/quotation/edit/95 3 63050 0 0
+/testerp/webmaster/quotation/edit/91/accessory 1 31524 0 0
+/testerp/webmaster/leads/customerReport 5 311511 0 0
+/testerp/webmaster/quotation/edit/91/other 2 63048 0 0
+/testerp/webmaster/space/create 3 23796 0 0
+/schoolerp/agent-details.php 5 24106 0 0
+/schoolerp/getStuPayDetDate.php 14 506 0 0
+/testerp/webmaster/quotation/edit/89/other 1 31524 0 0
+/schoolerp/add-new-student.php 80 581141 1 0
+/testerp/webmaster/purchaserequest/purchaserequestinvoice/113 1 74104 0 0
+/testerp/webmaster/quotation/selectaccbrand/63 10 1770 0 0
+/testerp/webmaster/recieptnote/generateissuenote/1 8 102688 0 0
+/testerp/webmaster/quotation/edit/92/product 1 31525 0 0
+/testerp/webmaster/project/selectstaff/purchasemanager 2 798 0 0
+/testerp/webmaster/purchaseorder/getwoodinfo 62 23491 0 0
+/testerp/webmaster/quotation/getquotationlist/94 2 126 0 0
+/erp/login/do 2 72 0 0
+/testerp/webmaster/quotation/edit/93 2 63046 0 0
+/testerp/webmaster/purchaserequest/generatepo/221 1 9724 0 0
+/testerp/webmaster/quotation/insert 22 494 0 0
+/testerp/webmaster/project/assign/496 1 8679 0 0
+/testerp/webmaster/quotation/edit/90/accessory 1 31524 0 0
+/testerp/webmaster/quotnumber 2 15692 0 0
+/schoolerp/update_teacher.php 10 1390 0 0
+/testerp/webmaster/project/selectstaff/planning 3 102 0 0
+/testerp/webmaster/quotation/selectwoodwork/3 3 888 0 0
+/testerp/webmaster/project/selectstaff/design 1 721 0 0
+/testerp/webmaster/quotation/advancepaid/ 11 122181 0 0
+/testerp/webmaster/quotation/edit/91 3 94565 0 0
+/testerp/webmaster/project/selectstaff/null 2 4048 0 0
+/testerp/webmaster/issuenotenumber 14 108864 0 0
+/schoolerp/bulk.php 30 116770 1 0
+/testerp/webmaster/checkpoint/main 8 73951 0 0
+/testerp/webmaster/recieptnotenumber 7 54605 0 0
+/testerp/webmaster/vendor/edit/40/association 4 68127 0 0
+/schoolerp/student-payment.php 75 395724 0 0
+/schoolapi/parentreqestlistview.php 4 185 1 1
+/testerp/webmaster/quotation/edit/93/accessory 1 31526 0 0
+/testerp/webmaster/purchaserequest/selectitem/33 1 576 0 0
+/qleaps_test/ 14 120648 4 1
+/testerp/webmaster/designtask 4 33841 0 0
+/testerp/webmaster/quotation/edit/101/product 3 94590 0 0
+/testerp/webmaster/quotation/selectbrand/11 5 805 0 0
+/schoolerp/add_subject_master.php 17 2788 0 0
+/testerp/assets/bootstrap/css/bootstrap.min.css.map 34 4591666 0 2
+/testerp/webmaster/quotation/selectquotation/ 24 609201 0 0
+/testerp/webmaster/quotation/edit/101/other 2 63054 0 0
+/testerp/webmaster/recieptnote/getnames 2 261 0 0
+/testerp/webmaster/purchaserequest/getbrand/32 1 155 0 0
+/testerp/webmaster/project/selectdesign/101 9 1620 0 0
+/cpanel 1 13587 1 1
+/testerp/webmaster/quotation/deletedlist 2 19780 0 0
+/testerp/webmaster/designtask/assign/101 1 8168 0 0
+/testerp/webmaster/purchaserequest/getpurchaserequestlistt/224 1 674 0 0
+/testerp/webmaster/vendor 21 200847 0 0
+/testerp/webmaster/purchaseorder/view/2 2 16496 0 0
+/testerp/webmaster/items/edit_item/ 1 13195 0 0
+/testerp/webmaster/setup 51 406062 1 0
+/testerp/webmaster/leads/delete/ 1 0 0 0
+/testerp/webmaster/quotation/edit/106/accessory 1 31529 0 0
+/testerp/webmaster/recieptnote/viewissuenotes/16 4 33760 0 0
+/testerp/webmaster/recieptnote/saverecieptnote 2 48 0 0
+/testerp/webmaster/quotation/edit/98 2 63048 0 0
+/testerp/webmaster/project/selectstaff/storesmanager 1 34 0 0
+/testerp/webmaster/brand 8 66715 0 0
+/testerp/webmaster/purchaserequest/getbrand/10 2 68 0 0
+/testerp/webmaster/quotation/getquotationlist/90 4 918 0 0
+/testerp/webmaster/purchaseorder/purchaseorderinvoice/24 1 639 0 0
+/schoolerp/add_student_payment.php 13 2251 0 0
+/testerp/webmaster/project/nameValidations 69 45126 0 0
+/testerp/webmaster/purchaserequest/getpurchaserequestlistt/217 2 1214 0 0
+/testerp/webmaster/recieptnote/getissuenoteitems 2 44 0 0
+/aadhya_foundation/index.php 28 3808 0 0
+/testerp/webmaster/quotation/selectquotation/26/approved 1 406 0 0
+/testerp/webmaster/quotation/edit/104 1 31527 0 0
+/testerp/webmaster/recieptnotenumber/create 1 7984 0 0
+/martinrealtors/webfonts/fa-solid-900.woff2 3 240756 0 2
+/testerp/webmaster/purchaserequest/selectitem/11 1 399 0 0
+/testerp/webmaster/quotation/edit/91/product 1 31522 0 0
+/testerp/webmaster/quotation/edit/97/product 1 31530 0 0
+/testerp/webmaster/purchaserequest/purchaserequestinvoice/222 5 76785 0 0
+/testerp/webmaster/quotation/getquotationlist/95 2 126 0 0
+/erp/assets/bootstrap/fonts/glyphicons-halflings-regular.woff2 2 36056 0 0
+/testerp/webmaster/purchaseorder/mailpo/25 4 4620 0 0
+/testerp/webmaster/quotation/edit/89/accessory 1 31524 0 0
+/testerp/webmaster/snag/edit/25 9 104615 0 0
+/testerp/webmaster/quotation/edit/104/accessory 1 31529 0 0
+/seft/login.php 5 5180 3 1
+/testerp/webmaster/quotation/getquotationlist/107 1 63 0 0
+/testerp/webmaster/purchaserequest/getpurchaserequestlist/222 3 2408 0 0
+/testerp/webmaster/purchaseorder/view/4 6 70494 0 0
+/testerp/webmaster/ccmgmt_insert/delete/ 1 0 0 0
+/testerp/webmaster/snag/update 2 1336 0 0
+/swcs/ 2 9968 2 2
+/testerp/webmaster/purchaseorder/getvariantdata 32 1946 0 0
+/testerp/webmaster/purchaserequest/getitem 5 715 0 0
+/testerp/webmaster/recieptnote 12 92918 0 0
+/test_moduleigtt/admin/assets/fonts/webfonts/fa-solid-900.woff2 1 79444 0 0
+/testerp/webmaster/quotation/edit/92/accessory 1 31524 0 0
+/testerp/webmaster/purchaserequest/getpurchaserequestlistt/222 2 1740 0 0
+/schoolerp/add_announcement.php 3 408 0 0
+/testerp/webmaster/quotation/edit/102/product 1 31528 0 0
+/testerp/webmaster/project/projectleaddata 3 171 0 0
+/testerp/webmaster/quotation/edit/103 1 31527 0 0
+/switchdirection/ 2 5238 2 1
+/testerp/webmaster/quotation/edit/102 2 63054 0 0
+/schoolerp/update_section_master.php 2 282 0 0
+/testerp/webmaster/quotation/getquotationlist/80 1 619 0 0
+/qleaps_test/css/vendor/bootstrap-theme.min.html 8 0 1 0
+/schoolapi/parentprofile.php 2 202 0 0
+/testerp/webmaster/quotation/selectquotation/undefined/approved 1 6057 0 0
+/testerp/webmaster/quotation/selectbrand/13 3 483 0 0
+/testerp/webmaster/purchaserequest/getpurchaserequestlistt/221 1 336 0 0
+/swcs/admin/login.php 2 1483 0 0
+/schoolerp/delete_student_bank_details.php 1 176 0 0
+/testerp/webmaster/purchaserequest/edit/222 3 47823 0 0
+/testerp/webmaster/quotation/confirmquotation 8 196 1 0
+/testerp/webmaster/purchaserequest/purchaserequestinvoice/227 4 224013 0 0
+/testerp/webmaster/purchaserequest/getbrand/37 1 155 0 0
+/testerp/webmaster/recieptnote/issuenoteinvoice/4 5 302744 0 0
+/qleaps/css/vendor/font-awesome/dist/font-awesome-animation.min.html 1 0 0 0
+/testerp/webmaster/purchaserequest/saveissuenoteitem 2 0 0 0
+/erp/webmaster/dashboard 5 50252 1 0
+/testerp/webmaster/staff 19 208016 1 1
+/testerp/webmaster/quotation/edit/89 1 31522 0 0
+/testerp/webmaster/quotation/edit/96 5 157618 0 0
+/schoolerp/Section_master_delete.php 3 498 0 0
+/testerp/webmaster/quotation/getquotationlist/103 1 710 0 0
+/testerp/webmaster/purchaserequestnumber/create 3 23952 0 0
+/aadhya_foundation/webfonts/fa-regular-400.woff2 10 136080 0 0
+/testerp/webmaster/purchaseordernumber/create 4 31916 0 0
+/testerp/webmaster/quotation/edit/99/product 2 63055 0 0
+/testerp/webmaster/quotation/selectquotation/null/approved 12 73444 0 0
+/testerp/webmaster/quotation/view/100 2 22642 0 0
+/schoolerp/parvamAdmin/fonts/Flaticon.woff2 1 8848 0 0
+/testerp/webmaster/quotation/mailinvoice/101 4 328729 2 2
+/testerp/webmaster/ccmgmt_insert/update 4 1664 1 1
+/schoolerp/logout.php 7 889 0 0
+/schoolerp/add_agent_master.php 2 272 0 0
+/testerp/webmaster/purchaserequest/selectitem/37 5 1780 0 0
+/schoolerp/parvamAdmin/view-college-admin-details.php 1 3308 0 1
+/testerp/webmaster/salesreport 6 65310 0 0
+/testerp/webmaster/inventory/selectproductnumber 22 2398 1 0
+/testerp/webmaster/purchaserequest/generatepo/226 3 29190 0 0
+/testerp/webmaster/quotation/selectspace 38 22382 0 0
+/testerp/webmaster/quotation/getcategoryinfo 77 8282 0 0
+/testerp/webmaster/recieptnote/viewissuenotes/3 13 111644 0 0
+/test_moduleigtt/admin/assets/fonts/ico-font/icofont.woff2 1 537868 0 0
+/testerp/webmaster/purchaserequest/selectcustomer 8 80272 0 0
+/testerp/webmaster/purchaserequest/updateissuenotenumber 1 0 0 0
+/testerp/webmaster/quotation/view/101 10 122719 0 0
+/testerp/webmaster/purchaserequest/selectitem/35 1 34 0 0
+/testerp/webmaster/quotation/quotPayment 11 371 0 0
+/Qleaps_19_04_22/about.html 1 7505 1 0
+/testerp/webmaster/project/assign/498 2 17364 0 0
+/swcs/admin/Dashboard.php 1 3298 0 0
+/testerp/webmaster/purchaserequest/selectitem/41 2 68 0 0
+/testerp/webmaster/brand/create 1 8017 0 0
+/testerp/webmaster/recieptnote/create 6 64042 0 0
+/testerp/webmaster/vendor/addproducts/40 5 79740 0 0
+/testerp/webmaster/recieptnote/issuenoteinvoice/7 3 149786 0 0
+/schoolapi/feedetails.php 1 367 0 1
+/testerp/webmaster/purchaseordernumber 10 77424 0 0
+/testerp/webmaster/quotation/edit/104/product 1 31530 0 0
+/testerp/webmaster/recieptnotenumber/edit/2 1 8009 0 0
+/testerp/webmaster/purchaseorder/mailpo/24 2 157167 0 1
+/Qleaps_19_04_22/assets/fonts/fa-solid-900.woff2 8 1103936 0 0
+/testerp/webmaster/purchaseorder/getwooddatademo 33 2037 0 0
+/testerp/webmaster/purchaseorder/viewpolist/218 15 143451 0 0
+/testerp/webmaster/quotation/getquotationlist/91 7 2904 0 0
+/testerp/webmaster/quotation/getquotationlist/99 8 2667 0 0
+/testerp/webmaster/quotation/edit/94 3 63050 0 0
+/testerp/webmaster/brand/view/68 2 14523 0 0
+/schoolerp/delete_holiday.php 2 338 0 0
+/schoolerp/webfonts/fa-solid-900.woff2 78 4682160 0 6
+/testerp/webmaster/quotation/getquotationlist/97 6 1762 0 0
+/schoolerp/agent_master_delete.php 2 322 0 0
+/testerp/webmaster/purchaseorder/getaccinfo 60 17650 0 0
+/testerp/webmaster/quotation/selectcategory 18 16272 0 0
+/dpl/unsold.php 2 102156 0 0
+/testerp/webmaster/quotation/edit/100/other 1 31531 0 0
+/testerp/webmaster/checkpoint/view/16 19 471091 0 0
+/testerp/webmaster/purchaserequest/selectitem/28 2 68 0 0
+/testerp/webmaster/quotation/selectaccbrand/15 4 1136 0 0
+/testerp/webmaster/quotation/edit/106 2 63056 0 0
+/testerp/webmaster/purchaseorder/edit/22 3 38796 0 0
+/qleapstest/ 17 175216 6 2
+/seft/webfonts/fa-solid-900.woff2 2 148640 0 1
+/schoolerp/teacherPdf.php 18 1452358 0 0
+/testerp/webmaster/checkpoint/view/8 1 24630 0 0
+/testerp/webmaster/access 1 53532 0 0
+/testerp/webmaster/quotation/getquotationlist/100 7 2321 0 0
+/testerp/webmaster/quotation/confirm/89 1 11775 0 0
+/testerp/webmaster/purchaserequest/purchaserequestinvoice/223 1 74162 0 0
+/testerp/webmaster/quotation/getquotationlist/96 5 2991 0 0
+/testerp/webmaster/purchaserequest/selectitem/19 1 485 0 0
+/dpl/player_details.php 1 3096 1 0
+/testerp/webmaster/purchaseorder/mailpo/22 1 1155 0 0
+/test_moduleigtt/admin/finishcolordata.json 1 15065 0 0
+/qleaps1/css/vendor/font-awesome/fonts/fontawesome-webfont3e6e.woff2 8 617280 0 3
+/testerp/webmaster/quotation/edit/102/other 2 63054 0 0
+/testerp/webmaster/purchaseorder/getunitinfo 19 1189 0 0
+/testerp/webmaster/purchaseorder/ 1 10735 0 0
+/qleaps1/css/vendor/bootstrap-theme.min.html 8 0 0 0
+/testerp/webmaster/purchaserequest/selectitem/88 1 335 0 0
+/testerp/webmaster/quotation/quotationinvoice/101 1 82121 0 0
+/testerp/webmaster/purchaserequest/deletedlist 1 7778 0 0
+/schoolerp/student-bank-details.php 20 121673 0 0
+/testerp/webmaster/checkpoint/sub 11 154457 0 0
+/testerp/webmaster/leads/view_lead/26 3 23430 0 0
+/testerp/webmaster/quotation/selectaccbrand/60 2 312 0 0
+/schoolerp/view-all-grade-master.php 2 9590 0 0
+/testerp/webmaster/vendor/savevendorproduct 1 24 0 0
+/testerp/webmaster/quotation/confirm/103 1 11851 0 0
+/testerp/webmaster/quotation/selectaccbrand/83 1 163 0 0
+/schoolerp/add_new_holiday.php 6 951 1 0
+/reliflex/assets/fonts/flaticon813b.ttf 2 40208 0 1
+/testerp/webmaster/brand/selectbrand 39 23598 0 1
+/testerp/webmaster/purchaserequest/selectitem/9 1 34 0 0
+/testerp/webmaster/purchaserequest/getbrand/17 1 155 0 0
+/testerp/webmaster/purchaserequest/savepurchaserequest 9 216 0 0
+/schoolerp/student-details.php 77 506335 0 0
+/testerp/webmaster/purchaserequest/getitemdata 2 683 0 0
+/testerp/webmaster/staff/create 13 120146 0 1
+/schoolerp/parvamAdmin/Dashboard.php 1 3124 0 0
+/testerp/webmaster/purchaserequest/create 16 252300 1 0
+/testerp/webmaster/checkpoint/view/14 2 49226 0 0
+/testerp/webmaster/quotation/selectaccbrand/59 1 156 0 0
+/aadhya_foundation/student-parents.php 2 5727 0 0
+/testerp/webmaster/quotation/selectaccbrand/56 1 156 0 0
+/schoolerp/fonts/Flaticon.woff2 68 468944 0 0
+/testerp/webmaster/leads/SalesReportCSV 3 1599 0 1
+/Qleaps_19_04_22/assets/fonts/fa-brands-400.woff2 1 76500 0 0
+/testerp/webmaster/quotation/getquotationlist/81 3 1887 0 0
+/rrpl/ 3 7800 3 3
+/testerp/webmaster/quotation/edit/100/accessory 2 63058 0 0
+/testerp/webmaster/staff/edit_staff/32 3 36234 0 0
+/schoolerp/student-marks-entry.php 56 434228 0 0
+/schoolerp/report.php 9 21750 0 0
+/testerp/webmaster/vendor/edit/40/registration 4 68070 0 0
+/schoolapi/marksdetails.php 4 1168 1 1
+/testerp/webmaster/project/edit_project/ 1 10598 0 0
+/testerp/webmaster/quotation/selectaccbrand/9 11 1770 0 0
+/testerp/webmaster/design/alldesign 32 376421 0 0
+/testerp/webmaster/snag/view/16 29 325460 0 0
+/testerp/webmaster/purchaserequest/selectitem/89 1 34 0 0
+/water/assets/fonts/wastey-icon1efa.ttf 2 107496 0 1
+/schoolerp/parvamAdmin/webfonts/fa-regular-400.woff2 1 13608 0 0
+/schoolerp/calendar.php 6 305651 0 0
+/testerp/webmaster/project/selectstaff/sales 1 34 0 0
+/testerp/webmaster/purchaserequest/ 4 121194 0 0
+/martinrealtors/fonts/fontawesome-webfont3e6e.woff2 3 231480 0 0
+/testerp/webmaster/project/nameValidation 52 34060 0 1
+/testerp/webmaster/quotation/edit/100/product 1 31532 0 0
+/schoolerp/fetch_agent_payment.php 1 26 0 0
+/testerp/webmaster/quotation/selectProjectmanager/manager 4 1192 0 0
+/testerp/webmaster/purchaserequest/selectitem/20 1 561 0 0
+/testerp/webmaster/purchaserequest/getpurchaserequestlistt/218 2 1590 0 0
+/cpl-2022/index.php 1 1754 1 1
+/testerp/webmaster/purchaserequest/selectitem/16 2 842 0 0
+/testerp/webmaster/recieptnote/viewissuenotes/4 3 25419 0 0
+/testerp/webmaster/purchaseorder/view/25 9 105435 0 0
+/schoolerp/webfonts/fa-regular-400.woff2 68 734832 0 2
+/dpl/ 36 68940 33 32
+/testerp/webmaster/quotation/approved 25 428713 1 0
+/testerp/webmaster/quotation/selectmanager 31 18724 0 0
+/schoolerp/update_grade_fee.php 15 2187 0 0
+/testerp/webmaster/quotation/otherquotation 5 122 0 0
+/testerp/webmaster/quotation/selectquotation/6 1 8764 0 0
+/testerp/webmaster/purchaserequest/getbrand/16 1 155 0 0
+/testerp/webmaster/quotation/selectwoodwork/12 13 5538 0 0
+/testerp/webmaster/purchaserequest/getpurchaserequestlistt/226 3 1869 0 0
+/swcs/admin/webfonts/fa-solid-900.woff2 1 74320 0 0
+/testerp/webmaster/snag/viewsnag/28 1 7606 0 0
+/schoolerp/update_agent_master.php 2 272 0 0
+/schoolerp/update_announcement.php 3 408 0 0
+/testerp/webmaster/recieptnote/inindex 43 358116 0 0
+/erp/ 2 4432 2 0
+/qleapstest/css/vendor/font-awesome/dist/font-awesome-animation.min.html 11 0 0 1
+/aadhya_foundation/student-insert-form.php 76 175337 14 0
+/testerp/webmaster/issuenotenumber/create 5 39830 0 0
+/testerp/webmaster/purchaseorder/getwooddata 31 3852 0 0
+/water/assets/fonts/fa-regular-400.woff2 2 290304 1 0
+/testerp/webmaster/leads/create 6 76188 0 0
+/testerp/webmaster/purchaserequest/generatepo/222 2 19454 0 0
+/testerp/webmaster/ccmgmt 5 44757 0 0
+/testerp/webmaster/purchaserequest/selectitem/79 1 34 0 0
+/testerp/webmaster/purchaserequest/savegeneralpurchaserequest 3 1731 0 0
+/testerp/webmaster/quotation/edit/93/product 2 63056 0 0
+/testerp/webmaster/quotation/edit/106/other 1 31529 0 0
+/testerp/webmaster/purchaserequest/saveissuenotedetails 1 0 0 0
+/testerp/webmaster/design/getquotationiteration 19 1083 0 0
+/testerp/webmaster/purchaserequest/getpurchaserequestlist/223 2 1718 0 0
+/testerp/webmaster/purchaserequest/getpurchaserequestlist/227 9 3888 0 0
+/testerp/webmaster/checkpoint 14 123634 0 0
+/aadhya_foundation/ 4 524 2 0
+/testerp/webmaster/items/list1 7 79502 0 1
+/testerp/webmaster/woodwork/create 14 151624 0 0
+/qleaps/css/vendor/bootstrap-theme.min.html 1 0 0 0
+/schoolerp/delete_parent.php 2 349 0 0
+/schoolerp/add-new-subject.php 51 300033 0 0
+/testerp/webmaster/quotation/productquotation 12 294 0 0
+/schoolerp/update_teacher_subject.php 5 950 1 0
+/schoolerp/parvamAdmin/webfonts/fa-solid-900.woff2 1 74320 0 0
+/testerp/webmaster/purchaserequest/selectitem/23 1 403 0 0
+/testerp/webmaster/quotation/edit/107 1 31529 0 0
+/schoolerp/fetch_tech_sub.php 60 4488 0 2
+/testerp/webmaster/purchaseorder/edit/25 2 25864 0 0
+/testerp/webmaster/quotation/selectaccproduct/ 54 18520 0 0
+/testerp/webmaster/purchaseorder/view/22 4 46860 0 0
+/reliflex/assets/fonts/fa-light-300.ttf 2 987376 1 0
+/testerp/webmaster/quotation/getquotationlist/89 4 1628 0 0
+/testerp/webmaster/woodworknumber/edit/2 1 7988 0 0
+/testerp/webmaster/quotation/quotationdata/ 11 5412 0 0
+/testerp/login 61 135908 21 0
+/schoolerp/view-agents.php 16 93851 0 0
+/schoolerp/add_new_teacher_subject.php 7 1221 0 0
+/testerp/webmaster/purchaserequest/purchaserequestinvoice/207 1 74185 0 0
+/aadhya_foundation/logout.php 10 1270 0 0
+/testerp/webmaster/purchaseorder/viewpolist/222 1 9562 0 0
+/schoolerp/add-announcement.php 19 93984 0 0
+/testerp/webmaster/purchaserequest/generatepo/228 1 9729 0 0
+/schoolerp/add-new-holiday.php 50 294475 0 0
+/testerp/login/do 25 900 0 0
+/testerp/webmaster/purchaseorder/rejectedlist 2 18264 0 0
+/testerp/webmaster/recieptnote/issuenoteinvoice/16 9 603134 0 0
+/water/assets/fonts/fa-brands-400.woff2 2 149400 0 0
+/testerp/webmaster/project/selectstaff/purchase 1 398 0 0
+/schoolerp/cal.php 51 536995 1 0
+/testerp/webmaster/quotation/confirm/102 1 10898 0 0
+/qleaps_test/css/vendor/font-awesome/dist/font-awesome-animation.min.html 8 0 0 0
+/testerp/webmaster/quotation 86 3497385 1 0
+/testerp/webmaster/vendor/edit/40/facility 3 51091 0 0
+/testerp/webmaster/quotation/edit/99 2 63049 0 0
+/testerp/webmaster/purchaserequest/savepurchaseorder 4 572 0 0
+/testerp/webmaster/quotation/edit/100 3 94581 0 0
+/Qleaps_19_04_22/assets/fonts/gt-font/GTWalsheimPro-Bold.woff2 7 290668 0 0
+/test_moduleigtt/admin/edit.php 2 362892 0 0
+/testerp/webmaster/quotation/selectaccbrand/16 17 2924 0 0
+/water/assets/fonts/fa-solid-900.woff2 2 234904 1 0
+/aadhya_foundation/delete_student.php 2 276 0 0
+/testerp/webmaster/quotation/edit/97 3 94577 0 0
+/qleaps1/ 10 98739 6 0
+/testerp/webmaster/accessory 12 92088 0 0
+END_SIDER

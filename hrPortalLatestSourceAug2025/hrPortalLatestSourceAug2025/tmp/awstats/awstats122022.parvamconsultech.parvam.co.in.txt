@@ -1,0 +1,2107 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202212 will be lost/reset.
+# Last config file used to build this data file was /home4/parvamco/tmp/awstats/awstats.parvamconsultech.parvam.co.in.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2027                
+POS_TIME 2710                
+POS_VISITOR 101018              
+POS_DAY 104911              
+POS_DOMAIN 3570                
+POS_LOGIN 3867                
+POS_ROBOT 4022                
+POS_WORMS 4308                
+POS_EMAILSENDER 4439                
+POS_EMAILRECEIVER 4582                
+POS_SESSION 105557              
+POS_SIDER 105766              
+POS_FILETYPES 4717                
+POS_DOWNLOADS 5095                
+POS_OS 5143                
+POS_BROWSER 5297                
+POS_SCREENSIZE 5564                
+POS_UNKNOWNREFERER 5638                
+POS_UNKNOWNREFERERBROWSER 5998                
+POS_ORIGIN 6250                
+POS_SEREFERRALS 6391                
+POS_PAGEREFS 6554                
+POS_SEARCHWORDS 6702                
+POS_KEYWORDS 6854                
+POS_MISC 2373                
+POS_ERRORS 6913                
+POS_CLUSTER 3723                
+POS_SIDER_404 7140                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20230101000208 272 46950 21562605261752
+FirstTime 20221201025321
+LastTime 20221228171305
+LastUpdate 20230101053029 272 0 271 0 0
+TotalVisits 133                 
+TotalUnique 62                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 112                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+DirectorSupport 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 31 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+RealPlayerSupport 0 0 0
+FlashSupport 0 0 0
+QuickTimeSupport 0 0 0
+TotalMisc 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 666 1048 34579501 679 743 876350
+1 352 634 29809387 543 973 429850
+2 1196 2232 100909524 551 724 305410
+3 594 1073 26387961 472 965 150812
+4 1012 2193 52981831 800 927 826887
+5 908 1918 46702019 283 349 405268
+6 339 844 27061143 544 574 899919
+7 11 151 8258221 385 394 5481
+8 16 38 1872972 339 361 58124
+9 13 14 85712 531 559 65528
+10 14 58 3295395 921 975 1346018
+11 8 138 4608055 249 282 16481
+12 9 44 700934 887 1091 104068
+13 0 0 0 561 567 17770
+14 0 0 0 559 567 56773
+15 0 0 0 580 591 22745
+16 0 0 0 511 521 55804
+17 8 8 650 965 975 156569
+18 0 0 0 692 698 49570
+19 6 15 14329 629 649 81831
+20 4 32 392240 363 368 16055
+21 23 212 16193743 264 287 12074
+22 312 1357 51383808 621 696 682417
+23 600 2028 100355507 679 773 259236
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 5
+in 5026 12512 469552351
+us 1058 1332 10380251
+gb 5 5 306
+zz 2 2 174
+de 0 186 25659850
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 4
+no_user_agent 15 2258349 20221228040148 0
+Apache\-HttpClient/ 12 1140 20221212022519 0
+Googlebot/ 8 6920 20221228015823 0
+Dalvik/ 1 3203 20221221062427 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 15
+js 2843 72944565 0 0
+jpeg 33 1414813 0 0
+jpg 925 109552699 0 0
+woff 58 1945536 0 0
+webp 465 2943576 0 0
+Unknown 392 1465098 0 0
+woff2 161 19882616 0 0
+png 1654 150656399 0 0
+ttf 19 85752 0 0
+svg 123 1179287 0 0
+ico 8 292144 0 0
+css 1872 23430352 0 0
+html 404 15791201 0 0
+gif 23 843640 0 0
+php 5057 103165254 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 6
+win7 196 13
+win10 11518 4615
+androidpie 14 2
+winxp 6 0
+android 696 122
+Unknown 1607 1339
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 10
+firefox11.0 6 0
+Unknown 1601 1333
+chrome83.0.4103.106 121 16
+chrome108.0.0.0 9614 4255
+chrome106.0.0.0 110 17
+mozilla 6 6
+firefox108.0 192 29
+chrome107.0.0.0 2372 432
+chrome72.0.3626.121 14 2
+chrome74.0.3729.169 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+WordPress/6.1.1;_http://parvamconsultech.com/enablingventures 20221228062624
+Photon/1.0 20221228051517
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20221228171305
+Cpanel-HTTP-Client/1.0 20221228170352
+okhttp/3.12.0 20221223083012
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+okhttp/3.12.0 20221223083012
+Cpanel-HTTP-Client/1.0 20221228170352
+WordPress/6.1.1;_http://parvamconsultech.com/enablingventures 20221228062624
+Photon/1.0 20221228051517
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 565 784
+From1 3 3
+From2 4 4
+From3 0 0
+From4 5519 13246
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 4 4
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 12
+409 263 20833
+401 4 360
+101 1 0
+301 1978 503442
+302 40 78272
+406 2657 600482
+400 1 21
+201 6 1830
+500 2 261
+404 10546 848759
+403 10 1937
+206 5 2338288
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 1440
+/schoolerp/Profile_images/STUIMG_43995890962cd16584d317.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/Profile_images/STUIMG_98936329162ce88a7299e8.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/Profile_images/STUIMG_211320286362cd11bdd9633.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/Profile_images/STUIMG_123920189062cd1637c02f6.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/Profile_images/STUIMG_103377360562ce46afc5aa4.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/Profile_images/STUIMG_79227539662ce82cd027a2.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+//hacked.php 1 -
+/itf_2023_version_2/sweetalert2.min.css 15 http://parvamconsultech.com/itf_2023_version_2/public.php
+/img/close.png 1 http://parvamconsultech.com/img/close.png
+/sender.php 1 -
+//0byte.php 1 -
+/melody/api/v1/pageconfig/list 1 http://parvamconsultech.com/melody/api/v1/pageconfig/list
+/static/diff_worker.js 1 http://parvamconsultech.com/static/diff_worker.js
+/sites/default/files/alfacgiapi 52 www.bing.com
+/wp-includes/images/css.php 52 www.bing.com
+/js/xz.js 1 http://parvamconsultech.com/js/xz.js
+/schoolerp/Profile_images/STUIMG_11275560362ce48ecb2539.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/wp-content/alfacgiapi 52 www.bing.com
+/schoolerp/Profile_images/STUIMG_144424762ce472ed7dbe.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/dvcard/adnanshabbir.php 1 -
+/api/user/dataDictionaryService/list 1 http://parvamconsultech.com/api/user/dataDictionaryService/list
+/schoolerp/Profile_images/STUIMG_204110848262ce474ab00bc.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/dropzone/dropzone-amd-module.min.js 1 -
+/schoolerp/Profile_images/STUIMG_14543073462cd0ccaa30b3.jpg 3 http://parvamconsultech.com/schoolerp/view-all-student.php
+/static/image/logo.png 1 http://parvamconsultech.com/static/image/logo.png
+/class-wp-widget-archives.php 1 -
+/schoolerp/Profile_images/STUIMG_152553292662ce452ccbf3b.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/LEAF.php 4 https://www.google.com
+/schoolerp/Profile_images/STUIMG_97109635962ccfc3c4ba5f.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/phpMailer202.php 1 -
+/config/aws.yml 1 -
+/Public/Wchat/css/index.css 1 http://parvamconsultech.com/Public/Wchat/css/index.css
+/test_moduleigtt/admin/wp-content/handletype/Edgeprofile.jpeg 2 -
+/wp-includes/leaf-mailer.php 4 -
+/schoolerp/Profile_images/STUIMG_33469131462cd027623698.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/bc 4 -
+/parvamm/assets/img/aerp_383x191.png 1 http://parvamconsultech.com/parvamm/index.php
+/wp-content/wp-admin.php 15 -
+/wp-content/themes/seotheme/defau11.php 1 parvamconsultech.com
+//wp.php 1 -
+/room/script/face.js 1 http://parvamconsultech.com/room/script/face.js
+/wp-content/plugins/woo-refund-and-exchange-lite/assets/src/back-end/js/custom.js 1 parvamconsultech.com
+/g.php 17 -
+/index/user/get_server_info 1 http://parvamconsultech.com/index/user/get_server_info
+/assets/plugins/dropzone/dropzone-amd-module.min.js 1 -
+/mobile 1 http://parvamconsultech.com/mobile
+/wp-blog.php 17 -
+/schoolerp/Profile_images/STUIMG_48274491562cd06a3305e4.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/WSO.php 12 -
+/schoolerp/Profile_images/STUIMG_67283056762cd1df4a2f33.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/5vkfuel7.php 3 http://www.parvamconsultech.com/5vkfuel7.php
+/wso2.php 12 -
+/c.php 29 -
+/uqo5rns1.php 3 http://www.parvamconsultech.com/uqo5rns1.php
+/Pay_Index.html 1 http://parvamconsultech.com/Pay_Index.html
+/schoolerp/Profile_images/STUIMG_41696005762ccf984d5247.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/parvamm/assets/css/assets/img/logo/pre-loader.gif 189 http://parvamconsultech.com/parvamm/assets/css/style.css
+/schoolerp/Profile_images/STUIMG_31660465062cd0c43a32df.jpg 3 http://parvamconsultech.com/schoolerp/view-all-student.php
+/static/content.html 1 http://parvamconsultech.com/static/content.html
+/parvamm/assets/js/wodry.min.map 8 -
+/1xuf28f7.php 3 http://www.parvamconsultech.com/1xuf28f7.php
+/js/index.js 1 http://parvamconsultech.com/js/index.js
+/schoolerp/Profile_images/STUIMG_37534691362ce500b3cae5.jpg 3 http://parvamconsultech.com/schoolerp/view-all-student.php
+/parvamm/assets/img/sri.jpg 1 http://parvamconsultech.com/parvamm/index.php
+/cgialfa 52 www.bing.com
+/v2/_catalog 2 -
+/Public/Wchat/js/cvphp.js 1 http://parvamconsultech.com/Public/Wchat/js/cvphp.js
+/km.asmx/getPlatParam 1 http://parvamconsultech.com/km.asmx/getPlatParam
+/schoolerp/Profile_images/STUIMG_26206951162ccf73592368.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/static/index/3.png 1 http://parvamconsultech.com/static/index/3.png
+/app/js/base.js 1 http://parvamconsultech.com/app/js/base.js
+//seotheme/db.php 1 -
+/qf63dxsp.php 3 http://www.parvamconsultech.com/qf63dxsp.php
+/index/images/tradeicon.png 1 http://parvamconsultech.com/index/images/tradeicon.png
+/schoolerp/Profile_images/STUIMG_17187070762cd0337e8c52.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/parvamAdmin/css/bootstrap.min.css.map 1 -
+/admin/controller/extension/extension/cgialfa 52 www.bing.com
+/schoolerp/Profile_images/STUIMG_49593793762ccf9694a2b9.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/ajax/allcoin_a/id/0 1 http://parvamconsultech.com/ajax/allcoin_a/id/0
+/api/config/info 1 http://parvamconsultech.com/api/config/info
+/fePublicInfo/ 1 http://parvamconsultech.com/fePublicInfo/
+/schoolerp/Profile_images/STUIMG_149916545562ce46fe5a358.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/moduless.php 51 www.bing.com
+/schoolerp/Profile_images/STUIMG_111413897162cd141c3076e.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/alfacgiapi//JANCOK.php 1 -
+//administrator/help/en-GB/toc.json 1 -
+/schoolerp/Profile_images/STUIMG_129709098162ccfd95d11b4.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/wp.php 74 -
+/wp-confirm.php 17 -
+/fTRKQ/kYlOQ/ 1 -
+/o.php 29 -
+/index/login/login 1 http://parvamconsultech.com/index/login/login
+/dvcard/sahriday/css/vjimages/realestate2-min.jpg 1 http://parvamconsultech.com/dvcard/sahriday/css/vJCSS.css
+/loan/css/index.css 1 http://parvamconsultech.com/loan/css/index.css
+/mobile/css/base.css 1 http://parvamconsultech.com/mobile/css/base.css
+/a.php 82 -
+/uploads/20210928/01737e4f85f971bdf4d892dfaee6579c.png 1 http://parvamconsultech.com/uploads/20210928/01737e4f85f971bdf4d892dfaee6579c.png
+/leaf.php 27 -
+/kkrp/site/info 1 http://parvamconsultech.com/kkrp/site/info
+/edit-form.php 18 https://www.google.com
+/legion.php 52 www.bing.com
+/feed/ 14 -
+/schoolerp/Profile_images/STUIMG_85500103162ce4d74b1da8.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/brick2brick/admin/assets/css/main.css 3 http://parvamconsultech.com/brick2brick/admin/packagedetailsupdate.php
+/wap/static//images/index_tzjr.png 1 http://parvamconsultech.com/wap/static//images/index_tzjr.png
+/wp/rahma.php 12 -
+/schoolerp/Profile_images/STUIMG_147692243062cd08711ede3.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/files/pub_rem.js 1 http://parvamconsultech.com/files/pub_rem.js
+/ua9vmjjc.php 3 http://www.parvamconsultech.com/ua9vmjjc.php
+/dvcard/roshanlobo/templates/common/js/star-rating.js 3 http://parvamconsultech.com/dvcard/roshanlobo/roshanlobo.php
+/cmd13.php 5 https://www.google.com
+/schoolerp/Profile_images/STUIMG_98935960962ce4d566f61a.jpg 3 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/Profile_images/STUIMG_54109369962ce8438926e8.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/api/search 2 -
+/nee.php 5 -
+/schoolerp/Profile_images/STUIMG_167010563262cd16f1113b4.jpg 4 http://parvamconsultech.com/schoolerp/view-all-student.php
+/Wordpress 1 -
+/schoolerp/parvamAdmin/js/popper.min.js.map 1 -
+/alexus.php 18 -
+/schoolerp/Profile_images/STUIMG_203041302862ccf51f33f43.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/wp-content/uploads/2022/01/z.php 1 parvamconsultech.com
+/bypass.php 17 -
+/b374kmini.php 2 -
+/WORDPRESS 1 -
+/dvcard/suhasvaidya/templates/common/js/star-rating.js 1 http://parvamconsultech.com/dvcard/suhasvaidya/suhasvaidya.php
+/v1/getConfig 1 http://parvamconsultech.com/v1/getConfig
+/uploads/contexmini.php 11 -
+/u.php 25 -
+/media-admin.php 58 -
+/schoolerp/Profile_images/STUIMG_98827059362ce5c2817c28.jpg 4 http://parvamconsultech.com/schoolerp/view-all-student.php
+/api/st/index/ 1 http://parvamconsultech.com/api/st/index/
+/wso1337.php 12 -
+/mg/other/codepay/js/codepay_util.js 1 http://parvamconsultech.com/mg/other/codepay/js/codepay_util.js
+/wp-admin/includes/block-line.php 12 -
+/schoolerp/Profile_images/STUIMG_109092980262cd04181bc04.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/index.php 59 www.bing.com
+/schoolerp/Profile_images/STUIMG_61586558662cd0bf01c043.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/homes/ 2 http://parvamconsultech.com/homes/
+/static/wap/css/trade-history.css 1 http://parvamconsultech.com/static/wap/css/trade-history.css
+/Public/Home/ecshe_css/main.css 1 http://parvamconsultech.com/Public/Home/ecshe_css/main.css
+/sts.php 2 -
+/4price.php 16 -
+/wp-content/plugins/ubh/index.php 1 -
+/schoolerp/Profile_images/STUIMG_73968243462cd0a8379fd2.jpg 3 http://parvamconsultech.com/schoolerp/view-all-student.php
+/home/help 1 http://parvamconsultech.com/home/help
+/Public/home/js/fukuang.js 1 http://parvamconsultech.com/Public/home/js/fukuang.js
+/js/bk.min.js 1 http://parvamconsultech.com/js/bk.min.js
+/wp-admin/css/modern/colors.css.php 12 -
+/s/0343e20383e2431323e2236313/_/ 2 -
+/wsa.php 1 -
+/itf_test_depl1/Stall%20and%20B2B%20Registration%20Form%20-%20Organics%20Millets%202017_files/webfont.js.download 1 http://parvamconsultech.com/itf_test_depl1/conference.php
+/portal/index/protocol.html 1 http://parvamconsultech.com/portal/index/protocol.html
+/schoolerp/Profile_images/STUIMG_155349051862cd08d6c4385.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/wp-load.php 53 www.bing.com
+//alfa.php 1 -
+/2021 1 -
+/wordpress/wp-content/themes/seotheme/mar.php 1 -
+/schoolerp/Profile_images/STUIMG_96676426162cd0fba22b6a.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/Profile_images/STUIMG_14938698862ccff0144e8c.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/Profile_images/STUIMG_18336295062ccf8096fa47.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/Profile_images/STUIMG_65599961162ccff93b4010.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/2.php 25 -
+/wp-includes/general-template.php 1 parvamconsultech.com
+/wp-one.php 13 -
+/static/data/gamedatas.js 1 http://parvamconsultech.com/static/data/gamedatas.js
+/T9sA/static/image/t-06.jpg 1 http://parvamconsultech.com/T9sA/static/image/t-06.jpg
+/schoolerp/Profile_images/STUIMG_22799162162ce4be8ebc79.jpg 3 http://parvamconsultech.com/schoolerp/view-all-student.php
+/kpetdsjh.php 1 www.google.com
+/h5/static/tabbar/txl.png 1 http://parvamconsultech.com/h5/static/tabbar/txl.png
+/stock/search.html 1 http://parvamconsultech.com/stock/search.html
+/wp_wrong_datlib.php 52 www.bing.com
+/telescope/requests 2 -
+/NEW 1 -
+/siddeswaraswamytemple 1 -
+/schoolerp/Profile_images/STUIMG_109310660362ce4da3ed2c5.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/uploads/admin/202103/60584c5b88017.png 1 http://parvamconsultech.com/uploads/admin/202103/60584c5b88017.png
+//sym.php 1 -
+/index/user/login.html 1 http://parvamconsultech.com/index/user/login.html
+/login 2 http://parvamconsultech.com/login
+/schoolerp/Profile_images/STUIMG_126397470262cd134e199e3.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/Profile_images/STUIMG_204026628262ce832c86fe9.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/js/config.js 1 http://parvamconsultech.com/js/config.js
+/blog.php 12 -
+/wp-admin/includes/media-site.php 12 -
+/m/allticker/1 1 http://parvamconsultech.com/m/allticker/1
+/enablingventures/undefined 20 http://parvamconsultech.com/enablingventures/wp-admin/post.php
+/admin/controller/extension/extension/alfacgiapi 52 www.bing.com
+/server/business/api/customer/list 1 http://parvamconsultech.com/server/business/api/customer/list
+/schoolerp/Profile_images/STUIMG_2549560462cd01cfbd70b.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/parvamm/assets/img/qp02_1_380x192.PNG 4 http://parvamconsultech.com/parvamm/portfolio.php
+/alfacgiapi 52 www.bing.com
+/wap/trading/lastKlineParameter 1 http://parvamconsultech.com/wap/trading/lastKlineParameter
+/schoolerp/Profile_images/STUIMG_8955922162ccfbd6b4acf.jpg 5 http://parvamconsultech.com/schoolerp/view-all-student.php
+/wp-content/uploads/2022/02/user-edit.php 1 parvamconsultech.com
+//ru.php 1 -
+/js/header-rollup-554.js 3 -
+/wp-plain.php 5 www.google.com
+/Css/Hm.css 1 http://parvamconsultech.com/Css/Hm.css
+/schoolerp/Profile_images/STUIMG_113408292862cd0c7bad44d.jpg 3 http://parvamconsultech.com/schoolerp/view-all-student.php
+/parvamm/assets/img/qp03_383x191.png 1 http://parvamconsultech.com/parvamm/index.php
+/schoolerp/Profile_images/STUIMG_202471331362cd11efc29a4.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/Profile_images/STUIMG_123429525862ccf5dee1c4a.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/api/im/v2/app/config 1 http://parvamconsultech.com/api/im/v2/app/config
+/mi.php 12 -
+/schoolerp/Profile_images/STUIMG_195102077262ce83c7da9ee.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/js/post.js/ 1 http://parvamconsultech.com/js/post.js/
+/anquan/qgga.asp 1 http://parvamconsultech.com/anquan/qgga.asp
+/schoolerp/Profile_images/STUIMG_29594297862ce840f27ae2.jpg 6 http://parvamconsultech.com/schoolerp/view-all-student.php
+/test_moduleigtt/admin/wp-content/colour/Metallic%20color/4411%20Galaxy%20Mist.JPG 2 -
+/Deadcode1975xxxxxxxxxxxxxxxxxxxxxxxxxxxx.php%20=%20%3E%3E%20shell%20no%20work 2 -
+/api/shares/hqStrList 1 http://parvamconsultech.com/api/shares/hqStrList
+/3.php 41 -
+/admin/plugins/blueimp/server/php/index.php 1 -
+/schoolerp/Profile_images/STUIMG_83473515662cd0c08ddedd.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/h524n.php 1 -
+/wp-content/uploads/ALFA_DATA 51 www.bing.com
+/wp-content/mu-plugins-old/index.php 3 -
+/v6/getAppContent 1 http://parvamconsultech.com/v6/getAppContent
+/schoolerp/Profile_images/STUIMG_65299790362ccfcaf7857b.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/wp-includes/wp-atom.php 52 www.bing.com
+/wp-content/ALFA_DATA 52 www.bing.com
+/index.php/User/sendsmscode 1 http://parvamconsultech.com/index.php/User/sendsmscode
+/schoolerp/Profile_images/STUIMG_94792783762cd077e01357.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/img/subsidy/kh.png 1 http://parvamconsultech.com/img/subsidy/kh.png
+/wp-includes/ID3/license.txt 11 -
+/test_moduleigtt/admin/wp-content/colour/Tinted%20Glass%20Bronze.jpeg 2 -
+/schoolerp/Profile_images/STUIMG_56960976462ce45a88b510.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/Profile_images/STUIMG_199526742862ce4e10c4c98.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/defau11.php 52 www.bing.com
+/api/user/index 1 http://parvamconsultech.com/api/user/index
+/cpanel.php 12 -
+/schoolerp/Profile_images/STUIMG_186720121562ccf6a41cc23.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/masterControl/getSystemSetting 1 http://parvamconsultech.com/masterControl/getSystemSetting
+/assets/shebao/banner.png 1 http://parvamconsultech.com/assets/shebao/banner.png
+/schoolerp/Profile_images/STUIMG_193878162062cd1140e46f3.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/assets/images/redian.jpg 1 http://parvamconsultech.com/assets/images/redian.jpg
+/registration2022 1 -
+/schoolerp/Profile_images/STUIMG_32141859962cd04780f4a2.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/wp-content/plugins/wpputty/wpputty.php 1 -
+/index.php/sign 1 http://parvamconsultech.com/index.php/sign
+/shell4.php 9 https://www.google.com
+/dist/images/mask/guide/cn/step1.jpg 1 http://parvamconsultech.com/dist/images/mask/guide/cn/step1.jpg
+/bapi/st/news/ 1 http://parvamconsultech.com/bapi/st/news/
+/schoolerp/Profile_images/STUIMG_132145863562ce81a89723a.jpg 6 http://parvamconsultech.com/schoolerp/view-all-student.php
+/sitio 1 -
+/wp-imag.php 3 parvamconsultech.com
+/2018 1 -
+/ads.txt 29 -
+/assets/app-manifest.json 1 http://parvamconsultech.com/assets/app-manifest.json
+/js/basic.js 1 http://parvamconsultech.com/js/basic.js
+/common/member/js/user.util.js 1 http://parvamconsultech.com/common/member/js/user.util.js
+/fileupload/server/php/index.php 1 -
+/schoolerp/Profile_images/STUIMG_50472460062ccf60c28d88.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/static/home/js/rooms.js 1 http://parvamconsultech.com/static/home/js/rooms.js
+/schoolerp/Profile_images/STUIMG_182768551962cd0bce729c3.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/l.php 12 -
+/home 3 -
+/upload.php 59 -
+/index 1 http://parvamconsultech.com/index
+/api/contactWay 1 http://parvamconsultech.com/api/contactWay
+/wp-includes/ALFA_DATA 52 www.bing.com
+/schoolerp/Profile_images/STUIMG_183151410962ce4d332e955.jpg 4 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/Profile_images/STUIMG_171059902562cd0227a6079.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/index/login/reg.html 1 http://parvamconsultech.com/index/login/reg.html
+/3tn8rkuk.php 3 http://www.parvamconsultech.com/3tn8rkuk.php
+/static/data/thirdgames.json 1 http://parvamconsultech.com/static/data/thirdgames.json
+/schoolerp/Profile_images/STUIMG_107744675562ce4efc45414.jpg 3 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/Profile_images/STUIMG_143241519062ccf9a2bf0bc.jpg 5 http://parvamconsultech.com/schoolerp/view-all-student.php
+/main 5 -
+/wp-content/themes/realistics/wp-connectic.php 1 parvamconsultech.com
+/schoolerp/Profile_images/STUIMG_139805799362cd03816acdb.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/js/toastr.js.map 2 -
+/schoolerp/Profile_images/STUIMG_206053470762ce4e82993c6.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/wp-includes/owlmailer.php 2 -
+/schoolerp/Profile_images/STUIMG_96748825062ccf6ca38f68.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/d.php 12 -
+/api/stock/getSingleStock.do 1 http://parvamconsultech.com/api/stock/getSingleStock.do
+//if.php 1 -
+/resources/main/common.js 1 http://parvamconsultech.com/resources/main/common.js
+/owlmailer.php 3 -
+/q.php 12 -
+/stock/mzhishu 1 http://parvamconsultech.com/stock/mzhishu
+/wp-admin/includes/mar.php 12 -
+/alexus-mailer.php 12 -
+/schoolerp/Profile_images/STUIMG_123992496962ccfce7c01a1.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/wp/wp-content/themes/seotheme/mar.php 1 -
+/mobile/login.html 1 http://parvamconsultech.com/mobile/login.html
+/my_alfa.php 8 https://www.google.com
+/wp-content/plugins/ioptimization/IOptimize.php 15 www.google.com
+/schoolerpuat_2_0/css/img/preloader.gif 5 http://parvamconsultech.com/schoolerpuat_2_0/css/style.css
+/sh3ll.php 5 -
+/schoolerp/Profile_images/STUIMG_204896033762cd1b24cfadf.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+//saudi.php 1 -
+/CHANGELOG.txt 1 -
+/dvcard/amar/css/vjimages/realestate2-min.jpg 1 http://parvamconsultech.com/dvcard/amar/css/vJCSS.css
+/v.php 17 -
+/schoolerp/Profile_images/STUIMG_26006207662cd06723c2c9.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/wordpress/xmlrpc.php 2 -
+/schoolerp/Profile_images/STUIMG_24752592862ce81c1aa3e0.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/skipper.php 8 https://www.google.com
+/schoolerp/Profile_images/STUIMG_93611144662cd1370af22e.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerpuat_2_2/css/img/preloader.gif 2 http://parvamconsultech.com/schoolerpuat_2_2/css/style.css
+/parvamm/assets/js/bootstrap.min.js.map 8 -
+/schoolerp/Profile_images/STUIMG_37442907562cd191395b9b.jpg 5 http://parvamconsultech.com/schoolerp/view-all-student.php
+/api/index/index 1 http://parvamconsultech.com/api/index/index
+/y.php 25 -
+/schoolerp/Profile_images/STUIMG_90165398162ce84ac96884.jpg 5 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/js/popper.min.js.map 3 -
+/static/mobile/user.html 1 http://parvamconsultech.com/static/mobile/user.html
+/elfinder/php/connector.php 1 -
+/static/css/public.css 1 http://parvamconsultech.com/static/css/public.css
+/index/newapi/api 1 http://parvamconsultech.com/index/newapi/api
+/schoolerp/Profile_images/STUIMG_85028415562ccff7ba275e.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/index/aurl 1 http://parvamconsultech.com/index/aurl
+/api/config/getwebsitename 1 http://parvamconsultech.com/api/config/getwebsitename
+/schoolerp/Profile_images/STUIMG_10724871762ce4c50915da.jpg 5 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/Profile_images/STUIMG_178930154862cd1bc4a0c0c.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/xianyu/ 1 http://parvamconsultech.com/xianyu/
+/schoolerp/Profile_images/STUIMG_32320729562ce5aeb30577.jpg 4 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/Profile_images/STUIMG_95135606262ccff276c845.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/wp-content/alfacgiapi/perl.alfa 1 -
+/schoolerp/Profile_images/STUIMG_196768319062cd19487353b.jpg 3 http://parvamconsultech.com/schoolerp/view-all-student.php
+/assets/plugins/fileupload/server/php/index.php 1 -
+/api/exclude/siteConfig/webSiteConfig 1 http://parvamconsultech.com/api/exclude/siteConfig/webSiteConfig
+/wp-content/plugins/yith-woocommerce-gift-cards/assets/css/ywgc-backend.css 1 parvamconsultech.com
+/me.php 1 -
+/wp-content/themes/sketch/404.php 1 parvamconsultech.com
+/ws.php 18 https://www.google.com
+/OLD 1 -
+/schoolerp/Profile_images/STUIMG_153355014862cd07077259a.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/blog 1 -
+/test_moduleigtt/admin/wp-content/handletype/G-profile.jpeg 2 -
+/member/js/lang_zh_CN.js 1 http://parvamconsultech.com/member/js/lang_zh_CN.js
+/schoolerp/Profile_images/STUIMG_121598064362cd1e97ecd9d.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/Profile_images/STUIMG_64047741662cd1c36bb763.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/Profile_images/STUIMG_168688784062cd1ad9b6647.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/Profile_images/STUIMG_165265637862cd11d7416f5.jpg 5 http://parvamconsultech.com/schoolerp/view-all-student.php
+/static/home/css/common.css 1 http://parvamconsultech.com/static/home/css/common.css
+/BACKUP 1 -
+/wap/forward 1 http://parvamconsultech.com/wap/forward
+/schoolerp/Profile_images/STUIMG_54729023362ce5e2440584.jpg 4 http://parvamconsultech.com/schoolerp/view-all-student.php
+/code/js/config.js 1 http://parvamconsultech.com/code/js/config.js
+/stock2c1/api/site/getInfo.do 1 http://parvamconsultech.com/stock2c1/api/site/getInfo.do
+/wp-includes/cgialfa 52 www.bing.com
+/schoolerp/Profile_images/STUIMG_98196705262cd1db4a8440.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/e.php 25 -
+/readme.md 1 -
+/inc20k1.php 5 https://www.google.com
+/api 2 http://parvamconsultech.com/api
+/dvcard/roshanlobo/templates/common/js/script.js 3 http://parvamconsultech.com/dvcard/roshanlobo/roshanlobo.php
+/schoolerp/Profile_images/STUIMG_49517834262ccfdb6a15a0.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/done.php 1 -
+/schoolerp/Profile_images/STUIMG_122503226662cd046391f2c.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/1-200611214053U8.jpg 1 http://parvamconsultech.com/1-200611214053U8.jpg
+/schoolerp/Profile_images/STUIMG_75015649662ce483b4cc9a.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/2019 1 -
+/Backup 1 -
+/reg.php 1 http://parvamconsultech.com/reg.php
+/schoolerp/Profile_images/STUIMG_151403736462cd0b1447f4d.jpg 3 http://parvamconsultech.com/schoolerp/view-all-student.php
+/kiss.php 12 -
+/.DS_Store 2 -
+/schoolerp/Profile_images/STUIMG_148045515162cd0a0ea38a2.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/wp-commentin.php 3 -
+/d1/OK.php 1 http://parvamconsultech.com/d1/OK.php
+/wp-admin/setup-config.php 6 -
+/index/login 1 http://parvamconsultech.com/index/login
+/appxz/index.html 1 http://parvamconsultech.com/appxz/index.html
+/autoload_classmap.php 16 -
+/FoxWSO.php 16 -
+/dr.php 17 -
+/Site 1 -
+/WP 1 -
+/public/wap/js/basis.js 1 http://parvamconsultech.com/public/wap/js/basis.js
+/langConfig.js 1 http://parvamconsultech.com/langConfig.js
+/js/home.js 1 http://parvamconsultech.com/js/home.js
+/itf_2023_version_2/exhibitionform.php 1 -
+/.well-known/cgialfa 52 www.bing.com
+/dvcard/roshanlobo/css/vjimages/realestate2-min.jpg 3 http://parvamconsultech.com/dvcard/roshanlobo/css/vJCSS.css
+/schoolerp/Profile_images/STUIMG_48701733962ccf3d939047.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/api/GetConfigByKeys 1 http://parvamconsultech.com/api/GetConfigByKeys
+/user/Login 1 http://parvamconsultech.com/user/Login
+//xleet.php 1 -
+/XxX.php 23 -
+/static/index/css/trade-history.css 1 http://parvamconsultech.com/static/index/css/trade-history.css
+/schoolerp/Profile_images/STUIMG_146677343262ce471613d26.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/alpha.php 1 -
+/template/css/login.css 1 http://parvamconsultech.com/template/css/login.css
+/schoolerp/Profile_images/STUIMG_184028643562ce830145535.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/user/getAllNicknames 1 http://parvamconsultech.com/user/getAllNicknames
+/schoolerp/Profile_images/STUIMG_161053329062cd0f9eea401.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/Profile_images/STUIMG_153023199662ce83dfd8368.jpg 5 http://parvamconsultech.com/schoolerp/view-all-student.php
+/biz/server/config 1 http://parvamconsultech.com/biz/server/config
+/schoolerp/Profile_images/STUIMG_26282850362ccfd7eb5fc8.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/_ignition/health-check/ 6 -
+/wp2.php 12 -
+/wap.html 1 http://parvamconsultech.com/wap.html
+/schoolerp/Profile_images/STUIMG_50090010562ce8866bbdc5.jpg 6 http://parvamconsultech.com/schoolerp/view-all-student.php
+/detail1/js/add.js 1 http://parvamconsultech.com/detail1/js/add.js
+/google04cf659045f93542.html 1 -
+/axx.php 1 -
+/wap/api/exchangerateuserconfig!get.action 1 http://parvamconsultech.com/wap/api/exchangerateuserconfig!get.action
+/schoolerp/Profile_images/STUIMG_21973637962ce4ece9bd45.jpg 3 http://parvamconsultech.com/schoolerp/view-all-student.php
+/chat.html 1 http://parvamconsultech.com/chat.html
+/403.php 1 -
+/owl.php 16 -
+/0byte.php 17 -
+/api/config/proxy_servers 1 http://parvamconsultech.com/api/config/proxy_servers
+/pdrzypju.php 1 www.google.com
+/derby.php 1 -
+/api/user/ismustmobile 2 http://parvamconsultech.com/api/user/ismustmobile
+/eLpLM/ 2 -
+/schoolerp/Profile_images/STUIMG_129295777662ce46173dbe2.jpg 6 http://parvamconsultech.com/schoolerp/view-all-student.php
+/friendGroup/list 1 http://parvamconsultech.com/friendGroup/list
+/old/wp-json/wp/v2/users 2 -
+/parvamm/assets/js/popper.min.js.map 8 -
+/mailer-7y1b4.php 2 -
+/schoolerp/Profile_images/STUIMG_54922180362ce4ddadb047.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/res/common/addfriend.png 1 http://parvamconsultech.com/res/common/addfriend.png
+/schoolerp/Profile_images/STUIMG_146053878762cd18ed9baae.jpg 5 http://parvamconsultech.com/schoolerp/view-all-student.php
+/alfa123.php 13 -
+/api/index/webconfig 1 http://parvamconsultech.com/api/index/webconfig
+/schoolerp/Profile_images/STUIMG_168770974962ce507b677bf.jpg 6 http://parvamconsultech.com/schoolerp/view-all-student.php
+/11index.php 17 -
+/cdn-cgi/rum 12 http://parvamconsultech.com/brick2brick/Residential-Construction.php
+/banner.do 1 http://parvamconsultech.com/banner.do
+/api/lottery/color 1 http://parvamconsultech.com/api/lottery/color
+/wp-backup-sql-302.php 52 www.bing.com
+/6/ 1 http://parvamconsultech.com/6/
+/admin/includes/general.js 3 -
+/mindex.html 1 http://parvamconsultech.com/mindex.html
+/static/common/js/common.js 1 http://parvamconsultech.com/static/common/js/common.js
+/lufix.php 1 -
+/wp-includes/images/xit-3x.gif 1 parvamconsultech.com
+/wp-content/themes/realisticsy/wp-settings.php 1 parvamconsultech.com
+/xox.php 28 -
+/schoolerp/Profile_images/STUIMG_129764199962ce4e2811b4b.jpg 3 http://parvamconsultech.com/schoolerp/view-all-student.php
+/about 2 -
+/brick2brick/assets/img/leaflet/marker-shadow.png 3 http://parvamconsultech.com/brick2brick/contact.html
+/api/system/system/config/get 1 http://parvamconsultech.com/api/system/system/config/get
+/api/im/conf 1 http://parvamconsultech.com/api/im/conf
+/as.php 2 -
+/doc.php 88 -
+/api/hevent 1 http://parvamconsultech.com/api/hevent
+/schoolerp/Profile_images/STUIMG_126627922062cd108703c45.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/admin/fileupload/server/php/index.php 1 -
+/wp-admin/leaf.php 4 -
+/schoolerp/Profile_images/STUIMG_108072516362cd020249736.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/dvcard/gopal/templates/common/js/star-rating.js 1 http://parvamconsultech.com/dvcard/gopal/gopalvcard.php
+/.well-known/ALFA_DATA 52 www.bing.com
+/css/m.css 1 http://parvamconsultech.com/css/m.css
+/schoolerp/Profile_images/STUIMG_143159886562cd06114d8c6.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+//wso.php 1 -
+/sitemap.xml 1 -
+/schoolerp/Profile_images/STUIMG_39037492862ccfb2aa6d47.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/Profile_images/STUIMG_22816790162ccf7b52a72c.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/site 1 -
+/sito 1 -
+/public/static/css/public.css 1 http://parvamconsultech.com/public/static/css/public.css
+/fckeditor/editor/filemanager/connectors/php/upload.php 3 -
+/api/user/mobilelogin 1 http://parvamconsultech.com/api/user/mobilelogin
+/wp-content/plugins/upspy/index.php 1 -
+/dist/images/mask/bg1.jpg 1 http://parvamconsultech.com/dist/images/mask/bg1.jpg
+/xx.php 14 -
+/dvcard/gopal/templates/common/js/script.js 1 http://parvamconsultech.com/dvcard/gopal/gopalvcard.php
+/leaf-mailer.php 4 -
+//shell4.php 1 -
+/schoolerp/Profile_images/STUIMG_171533776862cd052e6f248.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/getConfig/getArticle.do 2 http://parvamconsultech.com/getConfig/getArticle.do
+/FoxWSOv1.php 14 -
+/ws/index/getTheLotteryInitList 1 http://parvamconsultech.com/ws/index/getTheLotteryInitList
+/zz2/address.php 1 http://parvamconsultech.com/zz2/address.php
+/schoolerp/Profile_images/STUIMG_117914167862ccf6ed2124b.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/sym.php 18 -
+/home/main/login 1 http://parvamconsultech.com/home/main/login
+/alex.php 23 -
+/schoolerp/Profile_images/STUIMG_74451614262ccf9d33488e.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/parvamAdmin/js/bootstrap.min.js.map 1 -
+/admin/app/config/app 1 http://parvamconsultech.com/admin/app/config/app
+/schoolerp/Profile_images/STUIMG_114940701562ce4630caf5f.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/projectConfig 1 http://parvamconsultech.com/projectConfig
+/public/img/cz1.png 1 http://parvamconsultech.com/public/img/cz1.png
+//wp-content/fw.php 1 -
+/wp-includes/css/css.php 52 www.bing.com
+/static/js/app.js 1 http://parvamconsultech.com/static/js/app.js
+/resources/css/headernav.css 1 http://parvamconsultech.com/resources/css/headernav.css
+/test_moduleigtt/admin/wp-content/colour/PLAIN%20GLASS.jpeg 2 -
+/wp-content/uploads/typehub/custom/ee57cE0e/.RxR.php 1 -
+/z.php 81 -
+/schoolerpuat_2_2/js/bootstrap.min.js.map 1 -
+/images/src_images_but_dianz_s.png 1 http://parvamconsultech.com/images/src_images_but_dianz_s.png
+/license.txt 2 -
+/j.php 12 -
+/assets/global/plugins/dropzone/dropzone-amd-module.min.js 1 -
+/jOVMR/ 2 -
+/r.php 25 -
+/rahma.php 12 -
+/Home/Index/ajaxTJ 1 http://parvamconsultech.com/Home/Index/ajaxTJ
+/skin/main/onload.js 1 http://parvamconsultech.com/skin/main/onload.js
+/defau1t.php 68 -
+/k.php 24 -
+/wp/alfacgiapi/perl.alfa 1 -
+/schoolerp/Profile_images/STUIMG_191204188962ce815805db1.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/alfashell.php 9 https://www.google.com
+/wp-content/uploads\\b.php 1 parvamconsultech.com
+/schoolerp/Profile_images/STUIMG_79146901362cd1970bef81.jpg 3 http://parvamconsultech.com/schoolerp/view-all-student.php
+/KlMTf/YoOMg/ 2 -
+/data.php 17 -
+/api/v1/config 1 http://parvamconsultech.com/api/v1/config
+/schoolerp/Profile_images/STUIMG_141031398262ce845b01dec.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/Public/css/hall.css 1 http://parvamconsultech.com/Public/css/hall.css
+/robots.txt 82 -
+/schoolerp/Profile_images/STUIMG_104620434862ccf2991196c.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/Profile_images/STUIMG_63013147662cd1003ee5c3.jpg 5 http://parvamconsultech.com/schoolerp/view-all-student.php
+/test_2023_version_2/Admin 2 -
+/itf_test_depl1/Stall%20and%20B2B%20Registration%20Form%20-%20Organics%20Millets%202017_files/wp-emoji-release.min.js.download 1 http://parvamconsultech.com/itf_test_depl1/conference.php
+/byp.php 1 -
+/mobile/lottery/list 1 http://parvamconsultech.com/mobile/lottery/list
+/h.php 12 -
+/thriveGame.css 1 http://parvamconsultech.com/thriveGame.css
+/static/css/reset.css 1 http://parvamconsultech.com/static/css/reset.css
+/schoolerp/Profile_images/STUIMG_47566356962ce84fa8fbb1.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/wordpress/wp-admin/setup-config.php 7 -
+/pages/console/js/common.js 1 http://parvamconsultech.com/pages/console/js/common.js
+/public/css/style.css 1 http://parvamconsultech.com/public/css/style.css
+/schoolerp/Profile_images/STUIMG_96398728462cd192de0408.jpg 3 http://parvamconsultech.com/schoolerp/view-all-student.php
+/csjs/bankCheck.js 1 http://parvamconsultech.com/csjs/bankCheck.js
+//administrator/language/en-GB/en-GB.xml 1 -
+/up.php 62 https://www.google.com
+/mar.php 28 -
+/schoolerp/Profile_images/STUIMG_30018162562cd13b020eb5.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/wp-content/plugins/armember/assets/css/front/arm_front.css 1 parvamconsultech.com
+/img/zllqdk.png 1 http://parvamconsultech.com/img/zllqdk.png
+/dvcard/suhasvaidya/templates/common/js/script.js 1 http://parvamconsultech.com/dvcard/suhasvaidya/suhasvaidya.php
+/WWW 1 -
+/schoolerp/Profile_images/STUIMG_142872331962cd11769387e.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/c99.php 14 -
+/schoolerp/Profile_images/STUIMG_106149821562ce8389a33f6.jpg 5 http://parvamconsultech.com/schoolerp/view-all-student.php
+/static/wap/css/common.css 1 http://parvamconsultech.com/static/wap/css/common.css
+/shell.php 92 -
+/wp-includes/SimplePie/Content/index.php 1 -
+/test_moduleigtt/uploads/download.png 2 -
+/api/ht/xy1 1 http://parvamconsultech.com/api/ht/xy1
+/index/gzid.js 1 http://parvamconsultech.com/index/gzid.js
+/www.php 12 -
+/Public/uploads/web/step1.png 1 http://parvamconsultech.com/Public/uploads/web/step1.png
+/archives.php 52 www.bing.com
+/schoolerp/Profile_images/STUIMG_175320139362ccf36440d4b.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/Profile_images/STUIMG_5758175862ccfe95ccf51.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/v3n_sjuagsue.php 1 -
+/api/getconfig.aspx 1 http://parvamconsultech.com/api/getconfig.aspx
+/schoolerp/Profile_images/STUIMG_96711774262cd03b7b1d29.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/administrator/help/en-GB/toc.json 1 -
+/parvamm/assets/img/HRapture.png 1 http://parvamconsultech.com/parvamm/portfolio.php
+/wp-content/cgialfa 52 www.bing.com
+/wp-content/languages/index.php 1 -
+/home/login.jpg 1 http://parvamconsultech.com/home/login.jpg
+/statics/js/API.js 1 http://parvamconsultech.com/statics/js/API.js
+/schoolerp/Profile_images/STUIMG_173308407162cd0ce56215a.jpg 3 http://parvamconsultech.com/schoolerp/view-all-student.php
+/anone.php 17 -
+/db.php 1 -
+/wp-content/uploads/2017/11/Doc1.pdf 1 -
+/schoolerp/Profile_images/STUIMG_119739989162cd04b4cd6fb.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/kkrps/im_group/show_members 1 http://parvamconsultech.com/kkrps/im_group/show_members
+/test_moduleigtt/admin/wp-content/colour/Solid%20color/4314%20Taupe.JPG 2 -
+/inje3ctor.php 8 https://www.google.com
+/w.php 12 -
+/itf_test_depl1/Organic%20Millets%20International%20Trade%20Fair%202019%20%E2%80%93%2018-20%20January%202019%20Bengaluru%20Palace_files/css 1 http://parvamconsultech.com/itf_test_depl1/conference.php
+/schoolerp/Profile_images/STUIMG_18251961162cd044c363d7.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/Profile_images/STUIMG_185738819762ce4e449d2a8.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/wp-22.php 3 -
+/source/20220119/static/wap/js/order.js 1 http://parvamconsultech.com/source/20220119/static/wap/js/order.js
+/schoolerp/Profile_images/STUIMG_184768004062ccfe4267255.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/p-images.php 2 parvamconsultech.com
+/wp-includes/block-patterns/index.php 1 -
+/schoolerp/Profile_images/STUIMG_191644045562cd05e66e479.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/bac 1 -
+/wp-login.php 5 -
+/wp-content/themes/seotheme/rdp.php 1 -
+/sites/default/files/ALFA_DATA 52 www.bing.com
+/lock360.php 1 www.bing.com
+/TEST 1 -
+/wp-content/ 1 -
+/lSgWb/jOVMR/ 2 -
+/Cpanel.php 12 -
+/mmj/index.html 1 http://parvamconsultech.com/mmj/index.html
+/wp-admin/includes/tablepress_controllers.php 12 -
+/api/linkPF 2 http://parvamconsultech.com/api/linkPF
+/index.php/Wap/Api/getSystemNotice 1 http://parvamconsultech.com/index.php/Wap/Api/getSystemNotice
+/xleet-shell.php 2 -
+/schoolerp/Profile_images/STUIMG_189778898062cd179570ee4.jpg 6 http://parvamconsultech.com/schoolerp/view-all-student.php
+/elfinder/php/connector.minimal.php 1 -
+/parvamm/assets/img/rcc_383x191.png 1 http://parvamconsultech.com/parvamm/index.php
+/schoolerp/Profile_images/STUIMG_571169062cd06d282176.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/new/wp-json/wp/v2/users 2 -
+/marijuana.php 7 https://www.google.com
+/shellgo.php 1 -
+/home/login/login_index.html 1 http://parvamconsultech.com/home/login/login_index.html
+/debug/default/view 2 -
+/olux.php 52 www.bing.com
+/dvcard/sahriday/templates/common/js/script.js 1 http://parvamconsultech.com/dvcard/sahriday/sahriday.php
+/schoolerp/Profile_images/STUIMG_199234156762ce8470af792.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/404.php 24 -
+/config.json 2 -
+/test 1 -
+/t.php 25 -
+/js/pups.js 1 http://parvamconsultech.com/js/pups.js
+/static/css/mobile.css 1 http://parvamconsultech.com/static/css/mobile.css
+/BLOG 1 -
+/getLocale 1 http://parvamconsultech.com/getLocale
+/wp-content/themes/seotheme/Israeil_Poste/app/result/ISREALPOST_Rzlt.txt 1 -
+/schoolerp/Profile_images/STUIMG_70369842562ccf45ca6d9e.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/Profile_images/STUIMG_48140535062cd0c9a75f57.jpg 3 http://parvamconsultech.com/schoolerp/view-all-student.php
+/Public/home/wap/css/qdgame.css 1 http://parvamconsultech.com/Public/home/wap/css/qdgame.css
+/api/uploads/apimap 1 http://parvamconsultech.com/api/uploads/apimap
+/schoolerp/Profile_images/STUIMG_36526503262ce812bed9b1.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/wp-content/plugins/jobboardwp/assets/common/js/helptip.js 1 parvamconsultech.com
+/template/920ka/js/woodyapp.js 1 http://parvamconsultech.com/template/920ka/js/woodyapp.js
+/room/getRoomBangFans 1 http://parvamconsultech.com/room/getRoomBangFans
+/resource/home/css/person.css 1 http://parvamconsultech.com/resource/home/css/person.css
+/schoolerp/Profile_images/STUIMG_55282543962ce4b9af318c.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/static/customer/js/xiaotian.cli.v2.js 1 http://parvamconsultech.com/static/customer/js/xiaotian.cli.v2.js
+/test.php 53 www.bing.com
+/schoolerp/Profile_images/STUIMG_198120687962cd16bd12abb.jpg 6 http://parvamconsultech.com/schoolerp/view-all-student.php
+//themes/seotheme/db.php 1 -
+/schoolerp/Profile_images/STUIMG_150492419962ce5a453ed74.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/style.php 52 www.bing.com
+//tshop.php 1 -
+/m/env.js 1 http://parvamconsultech.com/m/env.js
+/wp-content/themes/pridmag/db.php 1 www.google.com
+/s.php 24 -
+/wp-content/themes/seotheme/db.php 47 www.google.com
+/vendor/phpunit/phpunit/build.xml 3 -
+/xleet.php 57 www.bing.com
+/SHOP 1 -
+/schoolerp/Profile_images/STUIMG_61297379462cd04356df0f.jpg 5 http://parvamconsultech.com/schoolerp/view-all-student.php
+/alfav4.1-tesla.php 1 -
+/api/index/config 1 http://parvamconsultech.com/api/index/config
+/wp/xmlrpc.php 2 -
+/wp-customize.php 1 -
+/css/main.css 1 http://parvamconsultech.com/css/main.css
+/wp-admin/includes/maint/wp-readindex.php 12 -
+/test_moduleigtt/admin/wp-content/handletype/SGP1.jpg 2 -
+/wordpress 4 -
+/assets/etc/query.css 1 http://parvamconsultech.com/assets/etc/query.css
+/bet/lotteryinfo/allLotteryInfoList 1 http://parvamconsultech.com/bet/lotteryinfo/allLotteryInfoList
+/wp/wp-admin/setup-config.php 3 -
+/schoolerp/Profile_images/STUIMG_162655903762ccfc5431b26.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/Profile_images/STUIMG_5365893862cd103eb0edb.jpg 5 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/Profile_images/STUIMG_148073682662cd198a02b5e.jpg 4 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/Profile_images/STUIMG_142828466862ce837432e98.jpg 6 http://parvamconsultech.com/schoolerp/view-all-student.php
+/backup/wp-admin/setup-config.php 4 -
+/sdk.html 1 http://parvamconsultech.com/sdk.html
+/test_moduleigtt/admin/wp-content/handletype/SGP2.jpg 2 -
+/login.html 2 http://parvamconsultech.com/login.html
+/schoolerp/Profile_images/STUIMG_77308192362cd09b0a7ed6.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/wp-admin/admin-ajax.php 5 -
+/zz/address.php 1 http://parvamconsultech.com/zz/address.php
+/wap/assets/images/icon1/12306.png 1 http://parvamconsultech.com/wap/assets/images/icon1/12306.png
+/xindex.php 1 www.bing.com
+/schoolerp/Profile_images/STUIMG_75290398462ce56e518b65.jpg 4 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/Profile_images/STUIMG_35345687362ccf9b8cca67.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/views/home/home.js 1 http://parvamconsultech.com/views/home/home.js
+/wp-content/plugins/wpyii2/wpyii2.php 2 -
+/schoolerp/Profile_images/STUIMG_152296804462ccf916110e0.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/home/GetQrCodeInfo 1 http://parvamconsultech.com/home/GetQrCodeInfo
+/i.php 25 -
+/schoolerp/Profile_images/STUIMG_40769026762ce501fc9db0.jpg 6 http://parvamconsultech.com/schoolerp/view-all-student.php
+/assets/js/dmshub.js 1 http://parvamconsultech.com/assets/js/dmshub.js
+/wp-json/wp/v2/users 2 -
+/apiApp/app/site/info 1 http://parvamconsultech.com/apiApp/app/site/info
+/schoolerp/Profile_images/STUIMG_131614264562cd0197c1739.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/jiaoyimao/ 1 http://parvamconsultech.com/jiaoyimao/
+/schoolerp/Profile_images/STUIMG_95266636062cd18a1b1a83.jpg 3 http://parvamconsultech.com/schoolerp/view-all-student.php
+/client/api/findConfigByKey 1 http://parvamconsultech.com/client/api/findConfigByKey
+/about.php 53 www.bing.com
+/static/home/2022/index1.js 1 http://parvamconsultech.com/static/home/2022/index1.js
+/lottery/lottery_list 1 http://parvamconsultech.com/lottery/lottery_list
+/api/grame/getHomePtLottery 1 http://parvamconsultech.com/api/grame/getHomePtLottery
+/b374k.php 2 -
+/2020 1 -
+//wp-includes/ID3/license.txt 1 -
+/sites/default/files/cgialfa 52 www.bing.com
+/api/customerServiceLink 1 http://parvamconsultech.com/api/customerServiceLink
+/c4hqgsmk.php 3 http://www.parvamconsultech.com/c4hqgsmk.php
+/0.php 12 -
+/schoolerp/Profile_images/STUIMG_130369628062ce4eb5d4984.jpg 3 http://parvamconsultech.com/schoolerp/view-all-student.php
+/nyyh/chkjs.js 1 http://parvamconsultech.com/nyyh/chkjs.js
+/schoolerp/Profile_images/STUIMG_37544497462ccf715d44de.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/Profile_images/STUIMG_76245322762cd1821e38c8.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/otc/ 1 http://parvamconsultech.com/otc/
+/elfinder/connectors/php/connector.php 1 -
+/nasgor.php 13 -
+/schoolerp/Profile_images/STUIMG_162758559962ccff42f0f40.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+//wp-content/themes/seotheme/search2 1 -
+/symlink.php 17 -
+/wordpress/wp-json/wp/v2/users 2 -
+/new.php 25 -
+/cp.php 12 -
+/Public/initJs.php 1 http://parvamconsultech.com/Public/initJs.php
+/schoolerp/Profile_images/STUIMG_132981875262ccfd618ec0e.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/index/index/info/ 1 http://parvamconsultech.com/index/index/info/
+/m/ 1 http://parvamconsultech.com/m/
+/1index.php 90 -
+/resource/home/js/common.js 1 http://parvamconsultech.com/resource/home/js/common.js
+/images/no.jpg 1 http://parvamconsultech.com/images/no.jpg
+/api/index/grailindex 1 http://parvamconsultech.com/api/index/grailindex
+/s_api/basic/download/info 1 http://parvamconsultech.com/s_api/basic/download/info
+/assets/js/dropzone/dropzone-amd-module.min.js 1 -
+/old-site 1 -
+/dvcard/csvprasad/templates/common/js/star-rating.js 1 http://parvamconsultech.com/dvcard/csvprasad/csvprasadvcard.php
+/sindex.php 16 -
+/schoolerp/Profile_images/STUIMG_142326434062cd1ca2d8523.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/api/Index/getconfig 1 http://parvamconsultech.com/api/Index/getconfig
+/detaila/images/logo.png 1 http://parvamconsultech.com/detaila/images/logo.png
+/phpunit.xml 1 -
+/schoolerp/Profile_images/STUIMG_167334050862ce5a272df06.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/test_moduleigtt/admin/wp-content/handletype/Openable%20and%20Sliding%20Wardrobe%201.png 2 -
+/parvamm/assets/img/webmaster%20small.png 1 http://parvamconsultech.com/parvamm/index.php
+/schoolerp/Profile_images/STUIMG_193681853662cd1e7273eff.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/mobile/v3/appSuperDownload.do 1 http://parvamconsultech.com/mobile/v3/appSuperDownload.do
+/old/xmlrpc.php 4 -
+/irxc9.php 1 -
+/itf_2023_version_2/p 1 -
+//symlink.php 1 -
+/schoolerp/Profile_images/STUIMG_82666231362ce4ee22ff5e.jpg 3 http://parvamconsultech.com/schoolerp/view-all-student.php
+/sym403.php 28 -
+/schoolerp/Profile_images/STUIMG_137090761162cd0f5c6da37.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/indoxploit.php 2 -
+/index/login/index.html 1 http://parvamconsultech.com/index/login/index.html
+/admin/dropzone/dropzone-amd-module.min.js 1 -
+/common/template/lottery/lecai/css/style.css 1 http://parvamconsultech.com/common/template/lottery/lecai/css/style.css
+/Leaf.php 5 https://www.google.com
+/gaza.php 7 https://www.google.com
+/proxy/games 1 http://parvamconsultech.com/proxy/games
+/server-status 2 -
+/xml.php 2 -
+/wp-pref.php 1 -
+/wp-admin/includes/readindex.php 12 -
+/ok.php 12 -
+//vuln.php 1 -
+/schoolerp/Profile_images/STUIMG_77160143362ce4dc0316ff.jpg 5 http://parvamconsultech.com/schoolerp/view-all-student.php
+/gank.php.PhP 54 www.bing.com
+/schoolerp/Profile_images/STUIMG_12786162762cd01b383af2.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/ALFA_DATA 52 www.bing.com
+/css/style.css 1 http://parvamconsultech.com/css/style.css
+/srx.php 8 https://www.google.com
+/schoolerp/Profile_images/STUIMG_106019692662ccf43020cd1.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/Profile_images/STUIMG_69520039562cd0aa6a4309.jpg 3 http://parvamconsultech.com/schoolerp/view-all-student.php
+/p6xmykn9.php 3 http://www.parvamconsultech.com/p6xmykn9.php
+/administrator/language/en-GB/install.xml 1 -
+/Shop 1 -
+/schoolerp/Profile_images/STUIMG_4604417262ce56ca574f1.jpg 4 http://parvamconsultech.com/schoolerp/view-all-student.php
+/wp-content/themes/seotheme/utchiha-HLQ.php 1 -
+/dropzone/dropzone.js 1 -
+/test_moduleigtt/admin/wp-content/handletype/Teano%209113438.jpg 2 -
+/itf_2023_version_2/exhibition.php 1 -
+/ext/modules/ 1 -
+/x.php 89 -
+/schoolerp/Profile_images/STUIMG_208395512362ccfeb2b79d4.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/.wp-cache.php 13 -
+/templates/beez3/ALFA_DATA 52 www.bing.com
+/brick2brick/assets/images/landing/demo/1.jpg 3 http://parvamconsultech.com/brick2brick/admin/packagedetailsupdate.php
+/2022 1 -
+//tttt.php 1 -
+/ckteam.php 2 -
+/schoolerp/Profile_images/STUIMG_199673950262ccf8494596f.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/index/open/login.html 1 http://parvamconsultech.com/index/open/login.html
+/wp-rss.php 13 -
+/shx.php 22 -
+/net/net/net/panel/ccc.html 1 -
+//xl.php 1 -
+/vuln.php 12 -
+/assets/dropzone/dropzone-amd-module.min.js 1 -
+/itf_2023_version_2/sweetalert2.min.js 17 http://parvamconsultech.com/itf_2023_version_2/public.php
+/schoolerp/Profile_images/STUIMG_54320445662ce83f6ed71c.jpg 6 http://parvamconsultech.com/schoolerp/view-all-student.php
+/new 4 -
+/data/json/config.json 1 http://parvamconsultech.com/data/json/config.json
+/MeNVp/WSXRS/ 1 -
+/alexusmailer%202.0.php 12 -
+/TldOl/MOOYT/ 1 -
+/api/config 1 http://parvamconsultech.com/api/config
+/blog/ 1 -
+/schoolerp/Profile_images/STUIMG_121274138762ce8517c1943.jpg 5 http://parvamconsultech.com/schoolerp/view-all-student.php
+/Public/css/_pk10.css 1 http://parvamconsultech.com/Public/css/_pk10.css
+/schoolerp/Profile_images/STUIMG_119758367762ccfe5a46ed8.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/Content/css/wzwstylel.css 1 http://parvamconsultech.com/Content/css/wzwstylel.css
+/schoolerp/Profile_images/STUIMG_68129291262ccfe2959f64.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/wp-content/plugins/wpzip/wpzip.php 1 -
+/zxv1o.php 2 -
+/dvcard/amar/templates/common/js/script.js 2 http://parvamconsultech.com/dvcard/amar/amarvcard.php
+/h5/static/cert/icon_yanzhengma.png 1 http://parvamconsultech.com/h5/static/cert/icon_yanzhengma.png
+/it.php 12 -
+/wp-admin/Deadcode1975xxxxxxxxxxxxxxxxxxxxxxxxxxxx.php%20=%20%3E%3E%20shell%20no%20work 2 -
+/schoolerp/Profile_images/STUIMG_57383771762cd0eac2429d.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/wp-uploads.php 16 -
+/ial74.php 1 -
+/100daysparvam 1 android-app://com.google.android.googlequicksearchbox/
+/schoolerp/Profile_images/STUIMG_129857413762ce82b29ccf3.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/stage-api/common/configKey/all 1 http://parvamconsultech.com/stage-api/common/configKey/all
+/schoolerp/Profile_images/STUIMG_206058666962ce8423dc31d.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/template/tmp1/js/common.js 1 http://parvamconsultech.com/template/tmp1/js/common.js
+/h5 2 http://parvamconsultech.com/h5
+/wp-admin/style.php 52 www.bing.com
+/xlwpjbae.php 3 http://www.parvamconsultech.com/xlwpjbae.php
+/wp-content/uploads/alfacgiapi 52 www.bing.com
+/.well-known/ 11 binance.com
+/schoolerp/Profile_images/STUIMG_4127481562ce83b4a9cda.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/1.php 94 -
+/js/options.js 1 http://parvamconsultech.com/js/options.js
+/wp/ 1 -
+/wp-includes/wp-class.php 52 www.bing.com
+/itf_2023_version_2/Exhibition.php 1 -
+//plugins/system/debug/debug.xml 1 -
+/Hello.php 1 -
+/api/index 1 http://parvamconsultech.com/api/index
+/template/920ka/css/lsy.css 1 http://parvamconsultech.com/template/920ka/css/lsy.css
+/public/static/home/js/moblie/login.js 1 http://parvamconsultech.com/public/static/home/js/moblie/login.js
+/dvcard/amar/ 1 -
+/phalapi/public/ 2 http://parvamconsultech.com/phalapi/public/
+/jym-wn/ 1 http://parvamconsultech.com/jym-wn/
+/api/site/getInfo.do 1 http://parvamconsultech.com/api/site/getInfo.do
+/wp-content/themes/seotheme/utchiha-RDJH.php 1 -
+/static/wap/js/order.js 1 http://parvamconsultech.com/static/wap/js/order.js
+/b.php 12 -
+/schoolerp/Profile_images/STUIMG_124155255362ccfc8d1f79a.jpg 6 http://parvamconsultech.com/schoolerp/view-all-student.php
+/user/login 1 -
+/schoolerp/Profile_images/STUIMG_168429877162cd16713df8b.jpg 4 http://parvamconsultech.com/schoolerp/view-all-student.php
+/ph_acquireSession 1 http://parvamconsultech.com/ph_acquireSession
+/index/index/getchatLog 1 http://parvamconsultech.com/index/index/getchatLog
+/wordpress/alfacgiapi/perl.alfa 1 -
+/blog/robots.txt 1 -
+/wp-content/fw.php 1 -
+/lf.php 21 https://www.google.com
+/static/Mobile/js/common.js 1 http://parvamconsultech.com/static/Mobile/js/common.js
+/wp-admin/wp-error.php 1 parvamconsultech.com
+/schoolerp/Profile_images/STUIMG_160589756162ccfb106dffe.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/ru.php 8 https://www.google.com
+/schoolerp/Profile_images/STUIMG_195219481962ce4cf4355fb.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/xianyu/image/jiantou.png 1 http://parvamconsultech.com/xianyu/image/jiantou.png
+/shop 1 -
+/im/ 1 http://parvamconsultech.com/im/
+/v2/block/home/app/hot 1 http://parvamconsultech.com/v2/block/home/app/hot
+/schoolerp/Profile_images/STUIMG_48524996462cd14801bb4f.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/alwso.php 15 -
+/schoolerp/Profile_images/STUIMG_57651114162cd02973dce1.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/Profile_images/STUIMG_80791867462ccfe794ddc1.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/bes.php 1 -
+/api/system/systemConfigs/getCustomerServiceLink 1 http://parvamconsultech.com/api/system/systemConfigs/getCustomerServiceLink
+/dclmmjqd.php 1 www.google.com
+/www 1 -
+/wp-includes/css/wp-config.php 52 www.bing.com
+/parvamm/assets/css/img/testimonial.bg-top.png 7 http://parvamconsultech.com/parvamm/assets/css/style.css
+/dvcard/csvprasad/css/vjimages/realestate2-min.jpg 1 http://parvamconsultech.com/dvcard/csvprasad/css/vJCSS.css
+/parvamm/assets/img/grocessery_383x191.jpg 1 http://parvamconsultech.com/parvamm/index.php
+/waplogin.php 1 http://parvamconsultech.com/waplogin.php
+/schoolerp/Profile_images/STUIMG_201042123762ce45488a0ba.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/README.txt 1 -
+/stindex.php 16 -
+/f.php 28 -
+/rss.php 12 -
+/schoolerp/Profile_images/STUIMG_156560864062ce81f53b980.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/dvcard/csvprasad/templates/common/js/script.js 1 http://parvamconsultech.com/dvcard/csvprasad/csvprasadvcard.php
+/schoolerp/Profile_images/STUIMG_91461446362cd1ef961417.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+//inje3ctor.php 1 -
+/lanren/css/global.css 1 http://parvamconsultech.com/lanren/css/global.css
+/wso1.php 19 https://www.google.com
+/humans.txt 3 -
+/home/ 1 http://parvamconsultech.com/home/
+/wikindex.php 39 -
+/schoolerp/Profile_images/STUIMG_157498523162ce47668a464.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/Profile_images/STUIMG_197204576162cd07aab8e08.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/export.php 52 www.bing.com
+/schoolerp/Profile_images/STUIMG_21767889362cd04900d1ad.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/Profile_images/STUIMG_79930477262cd0f070f92c.jpg 5 http://parvamconsultech.com/schoolerp/view-all-student.php
+/wp-content/plugins/inpost-gallery/css/front.css 1 parvamconsultech.com
+/RxR_dcroegem.php 1 -
+/schoolerp/Profile_images/STUIMG_169006524562ccf884049bb.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/wp-configer.php 21 -
+/static/data/configjs.js 1 http://parvamconsultech.com/static/data/configjs.js
+/schoolerp/Profile_images/STUIMG_85026922762ccfba584e7e.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/mailer-rp1no.php 1 -
+/data/ticker_24hr 1 http://parvamconsultech.com/data/ticker_24hr
+/old/wp-admin/setup-config.php 3 -
+/wso.php 91 -
+/api/v1/about 1 http://parvamconsultech.com/api/v1/about
+/administrator/ 1 -
+/dvcard/amar/templates/common/js/star-rating.js 1 http://parvamconsultech.com/dvcard/amar/amarvcard.php
+/parvamm/ 1 -
+/schoolerp/Profile_images/STUIMG_20300024162cd08c1d72a8.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/Profile_images/STUIMG_151935685762ccfb8707113.jpg 5 http://parvamconsultech.com/schoolerp/view-all-student.php
+/parvamm/custom.php 1 http://parvamconsultech.com/parvamm/mobileapp.php
+/xmlrpc.php 13 -
+/.fk.php 16 -
+/wp-admin/cgialfa 52 www.bing.com
+/Home/Bind/binding 1 http://parvamconsultech.com/Home/Bind/binding
+/new/xmlrpc.php 4 -
+/schoolerp/Profile_images/STUIMG_4563103762ce82e386b9e.jpg 5 http://parvamconsultech.com/schoolerp/view-all-student.php
+/app/config/getConfig 1 http://parvamconsultech.com/app/config/getConfig
+/schoolerp/Profile_images/STUIMG_199308185562ccf931a5dde.jpg 5 http://parvamconsultech.com/schoolerp/view-all-student.php
+/wp-includes/js/jquery/jquery.js 3 -
+/schoolerp/Profile_images/STUIMG_126143199762cd01eb1a2a9.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/static/js/config.js 1 http://parvamconsultech.com/static/js/config.js
+/test_moduleigtt/admin/wp-content/handletype/Openable%20and%20Sliding%20Wardrobe.jpeg 2 -
+/im/h5/ 1 http://parvamconsultech.com/im/h5/
+/citizensbank%5Ccitizensbank%5Cextra%5CCITI_RESULT 1 -
+/wp-conetnt/leaf.php 4 -
+/feedbackform 1 -
+/schoolerp/Profile_images/STUIMG_146181297562ce8481ccbf8.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/detaila/images/header_v1b.css 1 http://parvamconsultech.com/detaila/images/header_v1b.css
+/schoolerp/Profile_images/STUIMG_38139593562cd02c79bf3b.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/Profile_images/STUIMG_172240001762cd0a6a91a70.jpg 3 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/Profile_images/STUIMG_161065326262ce83413facf.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/rtr.pHp 2 -
+/wp-content/plugins/vwcleanerplugin/bump.php 1 -
+/m.php 25 -
+/dvcard/NaveenB/index.php 1 android-app://com.google.android.googlequicksearchbox/
+/bak 1 -
+/schoolerp/Profile_images/STUIMG_133679405662cd089a45196.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/WordPress 1 -
+/schoolerp/js/bootstrap.min.js.map 3 -
+/uis/app/get/config 1 http://parvamconsultech.com/uis/app/get/config
+/static/home/imgs/jkjl.png 1 http://parvamconsultech.com/static/home/imgs/jkjl.png
+/wp-content/uploads/readindex.php 12 -
+/skin/js/common.js 1 http://parvamconsultech.com/skin/js/common.js
+/schoolerp/Profile_images/STUIMG_88708643962ce4f190c278.jpg 3 http://parvamconsultech.com/schoolerp/view-all-student.php
+/Home/Get/getJnd28 1 http://parvamconsultech.com/Home/Get/getJnd28
+/cloudxv3.php 2 -
+/parvamm/work-single.html 5 http://parvamconsultech.com/parvamm/portfolio.php
+/wp-content/export.php 52 www.bing.com
+/haxor.php 7 https://www.google.com
+/static/js/user.js 1 http://parvamconsultech.com/static/js/user.js
+/assets/images/dy.jpg 1 http://parvamconsultech.com/assets/images/dy.jpg
+/schoolerp/Profile_images/STUIMG_53841995462cd161c08638.jpg 6 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/Profile_images/STUIMG_113498777362cd172ee2582.jpg 6 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/Profile_images/STUIMG_163124162ccf8e6c2cac.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/static/common/js/vant/vant.min.js 1 http://parvamconsultech.com/static/common/js/vant/vant.min.js
+/schoolerp/Profile_images/STUIMG_153317503162cd07638677c.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/SITE 1 -
+/res/kuai/21.css 1 http://parvamconsultech.com/res/kuai/21.css
+/api/message/webInfo 1 http://parvamconsultech.com/api/message/webInfo
+/fa.php 12 -
+/schoolerp/Profile_images/STUIMG_116051562562ce8187f03c8.jpg 5 http://parvamconsultech.com/schoolerp/view-all-student.php
+/platform 1 http://parvamconsultech.com/platform
+/.well-known/security.txt 1 -
+/site/api/v1/site/vipExclusiveDomain/getGuestDomain 1 http://parvamconsultech.com/site/api/v1/site/vipExclusiveDomain/getGuestDomain
+/v2/game/rooms 2 http://parvamconsultech.com/v2/game/rooms
+/old 4 -
+/schoolerp/Profile_images/STUIMG_135745329362ccfec69ef24.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/assets/mstock/newimg/guid-info.png 1 http://parvamconsultech.com/assets/mstock/newimg/guid-info.png
+/bk 4 -
+/root.php 6 -
+/step1.asp 1 http://parvamconsultech.com/step1.asp
+/static/css/index.css 1 http://parvamconsultech.com/static/css/index.css
+/apiapp/Ygn_Girl.CityList 1 http://parvamconsultech.com/apiapp/Ygn_Girl.CityList
+/wap 1 http://parvamconsultech.com/wap
+/.aws/credentials 1 -
+/schoolerp/Profile_images/STUIMG_44345569062cd0b6247283.jpg 3 http://parvamconsultech.com/schoolerp/view-all-student.php
+/kindex.php 12 -
+/schoolerp/Profile_images/STUIMG_213693314562cd09db5501f.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/js/app.js 1 http://parvamconsultech.com/js/app.js
+/.git/config 4 -
+/schoolerp/Profile_images/STUIMG_179674350862cd081602811.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/xy/image/jiantou.png 1 http://parvamconsultech.com/xy/image/jiantou.png
+/schoolerp/Profile_images/STUIMG_200184616362cd03cda1808.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/wp-content/uploads/typehub/custom/cC5408f5/.RxR.php 1 -
+/dvcard/sahriday/templates/common/js/star-rating.js 1 http://parvamconsultech.com/dvcard/sahriday/sahriday.php
+/itf_test_deptl1 1 -
+/index3.php 2 -
+/enablingventures/wp-admin/async-upload.php 3 http://parvamconsultech.com/enablingventures/wp-admin/post.php
+/baseConfig 1 http://parvamconsultech.com/baseConfig
+/assets/AssetManifest.json 1 http://parvamconsultech.com/assets/AssetManifest.json
+/aissathak.php 2 -
+/Content/Wap/base.css 1 http://parvamconsultech.com/Content/Wap/base.css
+/test/wp-content/themes/seotheme/mar.php 1 -
+/schoolerp/Profile_images/STUIMG_106802401162cd0836d6917.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/static/voice/default.wav 1 http://parvamconsultech.com/static/voice/default.wav
+/forums/archive/index.php 1 -
+/k2n12eja.php 3 http://www.parvamconsultech.com/k2n12eja.php
+/Public/css/errorCss.css 1 http://parvamconsultech.com/Public/css/errorCss.css
+/static/wap/css/tipmask.css 1 http://parvamconsultech.com/static/wap/css/tipmask.css
+/schoolerp/Profile_images/STUIMG_89198296662ce4e9a16cd4.jpg 5 http://parvamconsultech.com/schoolerp/view-all-student.php
+/enablingventures/home-page/ 2 -
+/schoolerp/Profile_images/STUIMG_128741474262ce84cc63e9c.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/assets/source/list.css 1 http://parvamconsultech.com/assets/source/list.css
+/Scripts/common.js 1 http://parvamconsultech.com/Scripts/common.js
+/9cygp9wn.php 3 http://www.parvamconsultech.com/9cygp9wn.php
+/baindex.php 16 -
+/schoolerp/Profile_images/STUIMG_63188547062ccf784d3464.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/Profile_images/STUIMG_70390579462cd017c174cd.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/Home/GetInitSource 1 http://parvamconsultech.com/Home/GetInitSource
+/wp-includes/sys.php 12 -
+/index/home/login.html 1 http://parvamconsultech.com/index/home/login.html
+/.well-known/alfacgiapi 52 www.bing.com
+/schoolerp/Profile_images/STUIMG_171778360362ccf8fa67572.jpg 5 http://parvamconsultech.com/schoolerp/view-all-student.php
+/fw.php 14 https://www.google.com
+/wp-plugins.php 52 www.bing.com
+/schoolerp/Profile_images/STUIMG_183470820962ccfc0098191.jpg 5 http://parvamconsultech.com/schoolerp/view-all-student.php
+/css/other.css 1 http://parvamconsultech.com/css/other.css
+/aws.yml 1 -
+/Public/home/common/js/index.js 1 http://parvamconsultech.com/Public/home/common/js/index.js
+/enablingventures/ 1 http://parvamconsultech.com/enablingventures/wp-admin/edit.php
+/newApp/winMessTopQuery.php 1 http://parvamconsultech.com/newApp/winMessTopQuery.php
+/static/images/login_bg.jpg 1 http://parvamconsultech.com/static/images/login_bg.jpg
+/parvamm/assets/img/qp003.PNG 4 http://parvamconsultech.com/parvamm/portfolio.php
+/beence.php 54 www.bing.com
+/static/wap/css/index.css 1 http://parvamconsultech.com/static/wap/css/index.css
+/wp-content/plugins/fancy-product-designer/inc/custom-image-handler.php 3 www.google.com
+/wp-content/uploads/small.php 12 -
+/schoolerp/Profile_images/STUIMG_99813268862cd1b8a32762.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/Profile_images/STUIMG_146219887362ce4df4ba74b.jpg 6 http://parvamconsultech.com/schoolerp/view-all-student.php
+/elfinder/src/connectors/php/connector.php 1 -
+/s10xtpoe.php 3 http://www.parvamconsultech.com/s10xtpoe.php
+/wp-content/db-cache.php 52 www.bing.com
+/frujmp4l.php 3 http://www.parvamconsultech.com/frujmp4l.php
+/schoolerp/Profile_images/STUIMG_205754123262cd13f34dfcb.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/phpinfo 1 -
+/openApi/systemConfig/findSystemConfigById 1 http://parvamconsultech.com/openApi/systemConfig/findSystemConfigById
+/css/scanner.css 1 http://parvamconsultech.com/css/scanner.css
+/api/lastestBetLog 1 http://parvamconsultech.com/api/lastestBetLog
+/wp-content/themes/seotheme/mar.php 7 -
+/swm.php 6 https://www.google.com
+/schoolerp/Profile_images/STUIMG_35722385162cd123b06675.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/Profile_images/STUIMG_115434720662ce5c5772d2d.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/js/lang.js 1 http://parvamconsultech.com/js/lang.js
+/roos.php 1 parvamconsultech.com
+/login.action 2 -
+/assets/fileupload/server/php/index.php 1 -
+/wp-content/themes/twentyfive/include.php 1 parvamconsultech.com
+/public/h5static/js/main.js 1 http://parvamconsultech.com/public/h5static/js/main.js
+/mobile21/js/index/gameManagement.js 1 http://parvamconsultech.com/mobile21/js/index/gameManagement.js
+/api/currency/quotation_new 1 http://parvamconsultech.com/api/currency/quotation_new
+/rdp.php 1 -
+/api/link/platform 2 http://parvamconsultech.com/api/link/platform
+/schoolerp/Profile_images/STUIMG_113872253462ccfbc031130.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/js/base1.js 1 http://parvamconsultech.com/js/base1.js
+/Content/m_1/js/m_1_Jquery.js 1 http://parvamconsultech.com/Content/m_1/js/m_1_Jquery.js
+/index/login/index 1 http://parvamconsultech.com/index/login/index
+/system_log.php 52 www.bing.com
+/mobile/config.js 1 http://parvamconsultech.com/mobile/config.js
+/schoolerp/Profile_images/STUIMG_191635498162ccf949ea770.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/wp-admin/alfacgiapi 52 www.bing.com
+/p.php 12 -
+/dvcard/ 1 -
+/Purchase%20PREMIUM%20VERSION%20OR%20GET%20LOST%20%3C3%20https://cracki.cc 2 -
+/client/static/icon/hangqingicon.png 1 http://parvamconsultech.com/client/static/icon/hangqingicon.png
+/registration2022/ 2 -
+/proxy/settings 1 http://parvamconsultech.com/proxy/settings
+/parvamm/assets/img/qp02_2_383x191.png 1 http://parvamconsultech.com/parvamm/index.php
+/schoolerpuat_2_2/css/bootstrap.min.css.map 1 -
+/phpinfo.php 1 -
+/schoolerp/Profile_images/STUIMG_98683082362cd18422eede.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/static/v2/css/index.css 1 http://parvamconsultech.com/static/v2/css/index.css
+/Blog 1 -
+/market/market-ws/iframe.html 1 http://parvamconsultech.com/market/market-ws/iframe.html
+/site/wp-content/themes/seotheme/mar.php 1 -
+/css/all.css 1 http://parvamconsultech.com/css/all.css
+/New 1 -
+//shell.php 1 -
+/wp-admin/ALFA_DATA 52 www.bing.com
+/wp 4 -
+/saudi.php 8 https://www.google.com
+/api/apps 1 http://parvamconsultech.com/api/apps
+/enablingventures/wp-admin/admin-ajax.php 2 http://parvamconsultech.com/enablingventures/wp-admin/customize.php
+/wordpress/alfacgiapi/JANCOK.php 1 -
+/wp-content/uploads/typehub/custom/1F848Cb9/.RxR.php 1 -
+/h5/ 1 http://parvamconsultech.com/h5/
+//fw.php 1 -
+/wp-admin/includes/edit-tag-menu.php 12 -
+/static/home/css/feiqi-ee5401a8e6.css 1 http://parvamconsultech.com/static/home/css/feiqi-ee5401a8e6.css
+/schoolerp/Profile_images/STUIMG_96174369362cd13901ebb0.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/Profile_images/STUIMG_135796404462ce4c30bad38.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/Profile_images/STUIMG_125974462ce4fc8da872.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/Profile_images/STUIMG_94297598362ce4672a140c.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+//faq.php 1 -
+/admin/view/javascript/common.js 3 -
+/backup 4 -
+/schoolerp/Profile_images/STUIMG_45088333062cd15fc86b19.jpg 6 http://parvamconsultech.com/schoolerp/view-all-student.php
+/qindex.php 1 www.bing.com
+/schoolerp/Profile_images/STUIMG_148044278562ccfccf12701.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/Profile_images/STUIMG_30456349562cd15abe16b2.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/api/home_index 1 http://parvamconsultech.com/api/home_index
+/wp/wp-json/wp/v2/users 2 -
+/Public/home/js/check.js 1 http://parvamconsultech.com/Public/home/js/check.js
+/if.php 20 https://www.google.com
+/schoolerp/Profile_images/STUIMG_98190867762ccfc1e882ae.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/api/v1/app-info 1 http://parvamconsultech.com/api/v1/app-info
+/wp-booking.php 52 www.bing.com
+/ding/ 1 http://parvamconsultech.com/ding/
+/radio.txt 1 -
+/index_files/bankCheck.js 1 http://parvamconsultech.com/index_files/bankCheck.js
+/alfacgiapi//perl.alfa 1 -
+/Template/Mobile/js/main.js 1 http://parvamconsultech.com/Template/Mobile/js/main.js
+/wordpress/ 1 -
+/oldsite 1 -
+/41.php 16 -
+/schoolerp/Profile_images/STUIMG_187359317462cd0ad4742cc.jpg 3 http://parvamconsultech.com/schoolerp/view-all-student.php
+/config.php 52 www.bing.com
+/leftDao.php 1 http://parvamconsultech.com/leftDao.php
+/xl.php 1 -
+/schoolerp/css/bootstrap.min.css.map 3 -
+/admin/controller/extension/extension/ALFA_DATA 52 www.bing.com
+/5olopyk9.php 3 http://www.parvamconsultech.com/5olopyk9.php
+/admin/.env 2 -
+/bb.php 19 https://www.google.com
+/Israeil_Poste/app/result/ISREALPOST_Rzlt.txt 1 -
+/schoolerp/Profile_images/STUIMG_45209415262ce827889f1c.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/t000/login-img-3.svg 1 http://parvamconsultech.com/t000/login-img-3.svg
+/front/index/getSiteSetting 1 http://parvamconsultech.com/front/index/getSiteSetting
+/schoolerp/Profile_images/STUIMG_33524755962ce87f799774.jpg 6 http://parvamconsultech.com/schoolerp/view-all-student.php
+/zmfhzstb.php 1 www.google.com
+/777.php 16 -
+/schoolerp/Profile_images/STUIMG_35866201462ce4c0e7a111.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/wp-content/includes/uploads/Va.php 12 -
+/alfacgiapi/perl.alfa 10 www.google.com
+/schoolerp/Profile_images/STUIMG_103656367062cd06257127d.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/api/Index/getLottery 1 http://parvamconsultech.com/api/Index/getLottery
+/schoolerp/Profile_images/STUIMG_18881638362cd146257f1c.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/api/app-info 1 http://parvamconsultech.com/api/app-info
+/schoolerp/Profile_images/STUIMG_61893206362ccf4fda7284.jpg 5 http://parvamconsultech.com/schoolerp/view-all-student.php
+/alf.php 24 -
+/xo.php 12 -
+/schoolerp/Profile_images/STUIMG_201094884762cd08f85bdd5.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/pm.php 1 -
+/schoolerp/Profile_images/STUIMG_136960907662ce47d827ec7.jpg 6 http://parvamconsultech.com/schoolerp/view-all-student.php
+/wp-file.php 12 -
+/css.php 1 www.bing.com
+/app/ 3 http://parvamconsultech.com/app/
+/Res/font/font.css 1 http://parvamconsultech.com/Res/font/font.css
+/info.php 3 -
+/wp-content/plugins/dzs-zoomsounds/savepng.php 2 -
+/n.php 12 -
+/wp-0.php 1 -
+/schoolerp/Profile_images/STUIMG_63126829462cd18d26035c.jpg 5 http://parvamconsultech.com/schoolerp/view-all-student.php
+/app/common/getRegisterSet 1 http://parvamconsultech.com/app/common/getRegisterSet
+/schoolerp/Profile_images/STUIMG_32207493762ccfddc02688.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/site.js 1 http://parvamconsultech.com/site.js
+/images/editor/separator.gif 3 -
+/themes.php 1 -
+/hx9wp.php 1 -
+/schoolerp/Profile_images/STUIMG_110133875862ccf7da50f2d.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/site/info 1 http://parvamconsultech.com/site/info
+/index/common.css 1 http://parvamconsultech.com/index/common.css
+/schoolerp/Profile_images/STUIMG_206007722462cd111e66d64.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/themes/pay/assets/core.css 1 http://parvamconsultech.com/themes/pay/assets/core.css
+/im/App/config 1 http://parvamconsultech.com/im/App/config
+/css/nsc/reset.css 1 http://parvamconsultech.com/css/nsc/reset.css
+/index/police/index.html 1 http://parvamconsultech.com/index/police/index.html
+/MARIJUANA.php 16 -
+/static/js/view.js 1 http://parvamconsultech.com/static/js/view.js
+/assets/extension/market/css/mt4.css 1 http://parvamconsultech.com/assets/extension/market/css/mt4.css
+/schoolerp/Profile_images/STUIMG_165410405162ccffd910706.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/source/20220119/static/wap/css/trade-history.css 1 http://parvamconsultech.com/source/20220119/static/wap/css/trade-history.css
+/administrator/index.php 1 -
+/static/home/imgs/pico.png 1 http://parvamconsultech.com/static/home/imgs/pico.png
+/kk.php 12 -
+/.tmb/leaf.php 4 -
+/blog/alfacgiapi/JANCOK.php 1 -
+/wp-includes/alfacgiapi 52 www.bing.com
+/static/wap/js/common.js 1 http://parvamconsultech.com/static/wap/js/common.js
+/saconfig/secure/yunwei.js 1 http://parvamconsultech.com/saconfig/secure/yunwei.js
+/schoolerp/Profile_images/STUIMG_124886640062cd04ef795d4.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/nyyh/game.css 1 http://parvamconsultech.com/nyyh/game.css
+/static/admincp/js/common.js 1 http://parvamconsultech.com/static/admincp/js/common.js
+//my_alfa.php 1 -
+/wp-signin.php 52 www.bing.com
+/schoolerp/Profile_images/STUIMG_86965969862ce56accfefa.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/Profile_images/STUIMG_41832718162cd13ce9aa17.jpg 5 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/Profile_images/STUIMG_185544744062ccf67e756fb.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/dvcard/dikshan/css/vjimages/realestate2-min.jpg 1 http://parvamconsultech.com/dvcard/dikshan/css/vJCSS.css
+/schoolerp/Profile_images/STUIMG_197036930962cd17471fd49.jpg 6 http://parvamconsultech.com/schoolerp/view-all-student.php
+/Navir.php 5 https://www.google.com
+/Sendemail.php 12 -
+/xmrlpc.php 1 www.bing.com
+/xy/ 1 http://parvamconsultech.com/xy/
+/misc/ajax.js 3 -
+/schoolerp/Profile_images/STUIMG_58134791862ce84975deeb.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/ghostt.php 1 -
+/schoolerp/Profile_images/STUIMG_16286782462ccfc6ce55ad.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/api/apps/config 1 http://parvamconsultech.com/api/apps/config
+/xxx.php 14 -
+/verification.asp 1 http://parvamconsultech.com/verification.asp
+/index/api/getconfig 1 http://parvamconsultech.com/index/api/getconfig
+/blog/alfacgiapi/perl.alfa 1 -
+/wp-includes/leaf.php 4 -
+/inbox.php 1 -
+/schoolerp/Profile_images/STUIMG_138626623262cd0da1f0465.jpg 5 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/Profile_images/STUIMG_195128028362cd10d0369bb.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/admin.php 5 parvamconsultech.com
+/schoolerp/Profile_images/STUIMG_151412691462ce4507b2ead.jpg 6 http://parvamconsultech.com/schoolerp/view-all-student.php
+/parvamm/service-single.html 5 http://parvamconsultech.com/parvamm/index.php
+/wp-content/wp-logins.php 15 -
+/3index.php 39 -
+/sucai/zxkf.png 1 http://parvamconsultech.com/sucai/zxkf.png
+/schoolerp/Profile_images/STUIMG_32798301462ce468cd013a.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/Test 1 -
+/schoolerp/Profile_images/STUIMG_113428083362cd1877d9a8a.jpg 5 http://parvamconsultech.com/schoolerp/view-all-student.php
+/parvamm/assets/img/hrpor_383x191.png 1 http://parvamconsultech.com/parvamm/index.php
+/hetong/yq 1 http://parvamconsultech.com/hetong/yq
+/admin/webadmin.php 1 http://parvamconsultech.com/admin/webadmin.php
+/api/other/appSetting 1 http://parvamconsultech.com/api/other/appSetting
+/!.php 12 -
+/schoolerp/css/img/preloader.gif 42 http://parvamconsultech.com/schoolerp/css/style.css
+/Public/js/common.js 1 http://parvamconsultech.com/Public/js/common.js
+/schoolerp/parvamAdmin/css/img/preloader.gif 1 http://parvamconsultech.com/schoolerp/parvamAdmin/css/style.css
+/hello.php 12 -
+/wp-content/uploads/2022/03/recovery.php 1 parvamconsultech.com
+/utchiha-RDJH.php 1 -
+/schoolerp/Profile_images/STUIMG_28196454762cd0e0d2800a.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/index/ 1 http://parvamconsultech.com/index/
+/static/_zxzx/bottom/index_bottom.shtml 1 http://parvamconsultech.com/static/_zxzx/bottom/index_bottom.shtml
+/n9lpmopy.php 3 http://www.parvamconsultech.com/n9lpmopy.php
+/public/static/index/picture/img_33.png 1 http://parvamconsultech.com/public/static/index/picture/img_33.png
+/static/tabBar/trade.png 1 http://parvamconsultech.com/static/tabBar/trade.png
+/old-index.php 29 -
+/schoolerp/Profile_images/STUIMG_49844227462cd122052c3e.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/content.php 12 -
+/wp-content/uploads\\kon.php 1 parvamconsultech.com
+/ipl/app/flash/publicbmw/ball/FigLeaf.js 1 http://parvamconsultech.com/ipl/app/flash/publicbmw/ball/FigLeaf.js
+/schoolerp/Profile_images/STUIMG_115689550162ce46538231b.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/static/guide/ab.css 1 http://parvamconsultech.com/static/guide/ab.css
+/template/mb/lang/text-zh.json 1 http://parvamconsultech.com/template/mb/lang/text-zh.json
+/wp-admin/includes/maint/wp-cron.php 12 -
+/v3n_iiymhriz.php 1 -
+/s_api/basic/config_js 1 http://parvamconsultech.com/s_api/basic/config_js
+/schoolerp/Profile_images/STUIMG_184661780262ccf653362ea.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/home/banner/getLogo 1 http://parvamconsultech.com/home/banner/getLogo
+/wp-content/plugins/backup_index.php 52 www.bing.com
+/index/login/register 1 http://parvamconsultech.com/index/login/register
+/schoolerp/Profile_images/STUIMG_22678338462cd1776c8b2c.jpg 5 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/Profile_images/STUIMG_126528667662cd039c25c2f.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/static/f_title.png 1 http://parvamconsultech.com/static/f_title.png
+/blog/xmlrpc.php 4 -
+/views/commData/commonSite.js 1 http://parvamconsultech.com/views/commData/commonSite.js
+/schoolerp/Profile_images/STUIMG_98988688762cd0b2e3a72a.jpg 3 http://parvamconsultech.com/schoolerp/view-all-student.php
+/static/index/js/lk/order.js 1 http://parvamconsultech.com/static/index/js/lk/order.js
+/schoolerp/Profile_images/STUIMG_71497535762cd06ed3dc6d.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/Profile_images/STUIMG_166255330462cd0b8f5ff4c.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/public/_ignition/health-check/ 6 -
+/ka8q38sp.php 3 http://www.parvamconsultech.com/ka8q38sp.php
+/templates/beez3/index.php 52 www.bing.com
+/images/vuln.php 5 -
+/schoolerp/Profile_images/STUIMG_23644500062cd0af22e0a4.jpg 3 http://parvamconsultech.com/schoolerp/view-all-student.php
+/Public/Mobile/ecshe_css/wapmain.css 1 http://parvamconsultech.com/Public/Mobile/ecshe_css/wapmain.css
+/mini.php 28 -
+/schoolerp/Profile_images/STUIMG_149391358562ce4e605ab11.jpg 3 http://parvamconsultech.com/schoolerp/view-all-student.php
+/phone/images/icon_01.png 1 http://parvamconsultech.com/phone/images/icon_01.png
+/wp-content/plugins/yith-woocommerce-gift-cards-premium/assets/css/ywgc-gift-cards-admin-panel.css 2 parvamconsultech.com
+/Gel.php 16 -
+/myConfig.js 1 http://parvamconsultech.com/myConfig.js
+/wp-content/themes/seotheme/CITI_RESULT 1 -
+/Wp 1 -
+/elfinder/elfinder.html 1 -
+/wp-content/plugins/seoplugins/mar.php 6 www.google.com
+/blog/wp-json/wp/v2/users 2 -
+/dvcard/suhasvaidya/css/vjimages/realestate2-min.jpg 1 http://parvamconsultech.com/dvcard/suhasvaidya/css/vJCSS.css
+/schoolerp/Profile_images/STUIMG_16974846062ce442e29d2c.jpg 6 http://parvamconsultech.com/schoolerp/view-all-student.php
+/wp-content/mu-plugins/db-safe-mode.php 52 www.bing.com
+/schoolerp/Profile_images/STUIMG_20844584762ce5a5c6c33b.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/Profile_images/STUIMG_118026221062cd0ed1df155.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/api/public/ 1 http://parvamconsultech.com/api/public/
+/dvcard/gopal/css/vjimages/realestate2-min.jpg 1 http://parvamconsultech.com/dvcard/gopal/css/vJCSS.css
+/api/getUserCertificationStatus 1 http://parvamconsultech.com/api/getUserCertificationStatus
+/getConfig/listPopFrame.do 2 http://parvamconsultech.com/getConfig/listPopFrame.do
+/schoolerp/Profile_images/STUIMG_70192867362ce839db5621.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/wp-admin/includes/class-wp-media-list-data.php 12 -
+/schoolerp/Profile_images/STUIMG_87187820762cd1b472fdea.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/Profile_images/STUIMG_44041204662cd19a547946.jpg 4 http://parvamconsultech.com/schoolerp/view-all-student.php
+/test_moduleigtt/admin/wp-content/colour/HGA%20108%20Absolute%20White.PNG 2 -
+/Pc/Lang/index.html 1 http://parvamconsultech.com/Pc/Lang/index.html
+/js/a.script 1 http://parvamconsultech.com/js/a.script
+//up.php 1 -
+/schoolerp/Profile_images/STUIMG_165272541762ce5a94ba250.jpg 4 http://parvamconsultech.com/schoolerp/view-all-student.php
+/wp-ad.php 12 -
+/schoolerp/Profile_images/STUIMG_113627038862ce5a7c954c6.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+//ups.php 1 -
+/cms.php 16 -
+/schoolerp/Profile_images/STUIMG_110574130562ce86ec2962b.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/wp-content/plugins/ubh/up.php 52 www.bing.com
+//wp-includes/js/jquery/jquery-migrate.min.js 1 -
+/api/sys/var 1 http://parvamconsultech.com/api/sys/var
+/202110/images/public.css 1 http://parvamconsultech.com/202110/images/public.css
+/static/v/v2/image/star.png 1 http://parvamconsultech.com/static/v/v2/image/star.png
+/schoolerp/Profile_images/STUIMG_159287836662ce47bd407bc.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/test_moduleigtt/admin/wp-content/colour/PVB%205601%20Woven%20Ash%20Grey.PNG 2 -
+/schoolerp/Profile_images/STUIMG_126832472162cd169673d74.jpg 3 http://parvamconsultech.com/schoolerp/view-all-student.php
+/assets/res/mods/room.js 1 http://parvamconsultech.com/assets/res/mods/room.js
+/wi.php 16 -
+/api/help_documents/nitice_list 1 http://parvamconsultech.com/api/help_documents/nitice_list
+/api/config-init 1 http://parvamconsultech.com/api/config-init
+/admin 1 http://parvamconsultech.com/admin
+/schoolerp/Profile_images/STUIMG_60496365162ce4857b86bd.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/utchiha-HLQ.php 1 -
+/static/m_text.png 1 http://parvamconsultech.com/static/m_text.png
+/templates/beez3/alfacgiapi 52 www.bing.com
+/ALFA_DATA/alfacgiapi/perl.alfa 10 www.google.com
+/schoolerp/Profile_images/STUIMG_94154122262cd18ba1b741.jpg 5 http://parvamconsultech.com/schoolerp/view-all-student.php
+/blog/wp-content/themes/seotheme/mar.php 1 -
+/xmlrpcs.php 1 www.bing.com
+/wp/alfacgiapi/JANCOK.php 1 -
+/schoolerp/Profile_images/STUIMG_137613001562ce835a59bd5.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/wp-content/uploads/cgialfa 52 www.bing.com
+/priv8.php 32 https://www.google.com
+/install.inc/vipsignInstall.css 1 http://parvamconsultech.com/install.inc/vipsignInstall.css
+/Public/Home/js/cls.js 1 http://parvamconsultech.com/Public/Home/js/cls.js
+/wp-content/index.php 1 www.google.com
+/yinjian/ 1 http://parvamconsultech.com/yinjian/
+/s_ne.php 54 www.bing.com
+/alfa.php 104 -
+/dvcard/dikshan/templates/common/js/star-rating.js 2 http://parvamconsultech.com/dvcard/dikshan/dikshant.php
+/schoolerp/Profile_images/STUIMG_214112728562ce4c889997e.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/api/v/index/queryOfficePage 1 http://parvamconsultech.com/api/v/index/queryOfficePage
+/schoolerp/Profile_images/STUIMG_19450297462cd08513e457.jpg 5 http://parvamconsultech.com/schoolerp/view-all-student.php
+//uploader.php 1 -
+/Templates/user/finance/css/userPay.css 1 http://parvamconsultech.com/Templates/user/finance/css/userPay.css
+/api/v1/member/kefu 1 http://parvamconsultech.com/api/v1/member/kefu
+/wp-content/themes/seotheme/v3n_sjuagsue.php 1 -
+/schoolerpuat_2_2/js/popper.min.js.map 1 -
+/files/pub_reset.css 1 http://parvamconsultech.com/files/pub_reset.css
+/api/vue/transaction/config 1 http://parvamconsultech.com/api/vue/transaction/config
+/Home/GetAllGameCategory 1 http://parvamconsultech.com/Home/GetAllGameCategory
+/fKZWZ/dPeSo/ 1 -
+/s_e.php 54 www.bing.com
+/dup-installer/main.installer.php 1 -
+/parvamm/assets/css/bootstrap.min.css.map 8 -
+/site/get-hq 1 http://parvamconsultech.com/site/get-hq
+/contract.php 1 -
+/100.php 16 -
+/service 1 http://parvamconsultech.com/service
+/gt4zknyu.php 3 http://www.parvamconsultech.com/gt4zknyu.php
+//wp-content/themes/seotheme/db.php 1 -
+/schoolerp/Profile_images/STUIMG_133271301762ccf58bba16a.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/shells.php 52 www.bing.com
+/fLSMM/NTNWo/ebNOf/ 1 -
+/2index.php 30 -
+/1337.php 8 https://www.google.com
+/js/subsidy/bk.min.js 1 http://parvamconsultech.com/js/subsidy/bk.min.js
+/wp-content/outcms.php 52 www.bing.com
+/static/img/bitbeb-logo.png 1 http://parvamconsultech.com/static/img/bitbeb-logo.png
+/static/home/css/css.css 1 http://parvamconsultech.com/static/home/css/css.css
+/common.js 1 http://parvamconsultech.com/common.js
+/templates/beez3/cgialfa 52 www.bing.com
+/wp-SEo.php 1 -
+/schoolerp/Profile_images/STUIMG_144458933062cd06878a557.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/infe/rest/fig/advertise/common.json 1 http://parvamconsultech.com/infe/rest/fig/advertise/common.json
+/static/local/img/userCenter/hourlyPrivilege.svg 1 http://parvamconsultech.com/static/local/img/userCenter/hourlyPrivilege.svg
+/JS/loginstatus.js 1 http://parvamconsultech.com/JS/loginstatus.js
+/wp-admin.php 24 -
+/schoolerp/Profile_images/STUIMG_142148357562ccfee63c66b.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/Profile_images/STUIMG_30289072562ce4fe47b742.jpg 3 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/Profile_images/STUIMG_53250761062ccfd05930f6.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/wp-admin/owlmailer.php 2 -
+/wp-content/Deadcode1975xxxxxxxxxxxxxxxxxxxxxxxxxxxx.php%20=%20%3E%3E%20shell%20no%20work 2 -
+//vendor/phpunit/phpunit/phpunit.xsd 5 -
+/schoolerp/Profile_images/STUIMG_69606470962ce5d425a729.jpg 4 http://parvamconsultech.com/schoolerp/view-all-student.php
+/parvamm/assets/img/school_erp_383x191.png 1 http://parvamconsultech.com/parvamm/index.php
+/css/skin/ymPrompt.css 1 http://parvamconsultech.com/css/skin/ymPrompt.css
+/assets/yibao/Nweshebao/img/icon2.png 1 http://parvamconsultech.com/assets/yibao/Nweshebao/img/icon2.png
+/_profiler/phpinfo 1 -
+/D470a.php 1 www.google.com
+/v1/management/tenant/getSpeedDomain 1 http://parvamconsultech.com/v1/management/tenant/getSpeedDomain
+/error.php 53 www.bing.com
+/tttt.php 8 https://www.google.com
+/api/appVersion 1 http://parvamconsultech.com/api/appVersion
+/wp-admin/includes/maint/repair-bak.php 12 -
+/config.js 2 -
+//skippershell.php 1 -
+/schoolerp/Profile_images/STUIMG_83173601562ccf9f61e8e2.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/wp-2019.php 1 -
+/api/notice 1 http://parvamconsultech.com/api/notice
+/Old 1 -
+/Lux.php 7 https://www.google.com
+/schoolerp/Profile_images/STUIMG_17914394562cd07eba4cdf.jpg 4 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/Profile_images/STUIMG_199510791962cd1c833895e.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/Profile_images/STUIMG_107644963762ce4c6976907.jpg 3 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/Profile_images/STUIMG_116338100862cd04cf52d15.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js 67 http://parvamconsultech.com/itf_2023_version_2/seller.php
+/schoolerp/Profile_images/STUIMG_66280299962cd0a4c8ca74.jpg 3 http://parvamconsultech.com/schoolerp/view-all-student.php
+/plugins/system/debug/debug.xml 3 -
+/schoolerp/Profile_images/STUIMG_80940219162cd132c6b94e.jpg 5 http://parvamconsultech.com/schoolerp/view-all-student.php
+/img/xxing.png 1 http://parvamconsultech.com/img/xxing.png
+/wp-content/themes/twentyfive/404.php 1 parvamconsultech.com
+//alfashell.php 1 -
+/new-index.php 30 -
+/wap/ 1 http://parvamconsultech.com/wap/
+/d86kj5b3.php 3 http://www.parvamconsultech.com/d86kj5b3.php
+/manager/js/left.js 1 http://parvamconsultech.com/manager/js/left.js
+/net/net/panel/ccc.html 1 -
+/img/phonetrackeronline.png 1 http://parvamconsultech.com/img/phonetrackeronline.png
+/schoolerp/Profile_images/STUIMG_60261332562ccf82dab685.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/mytio/config/base 1 http://parvamconsultech.com/mytio/config/base
+/skippershell.php 8 https://www.google.com
+/schoolerp/Profile_images/STUIMG_93464178162cd0251b6b28.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/schoolerp/Profile_images/STUIMG_35455372362cd050b58a7f.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/radio.php 53 www.bing.com
+/alexusMailer_v2.0.php 1 -
+//sym403.php 1 -
+/schoolerp/Profile_images/STUIMG_23222918062cd149719480.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/config 1 http://parvamconsultech.com/config
+/schoolerp/Profile_images/STUIMG_139660236262cd14397c3c4.jpg 5 http://parvamconsultech.com/schoolerp/view-all-student.php
+/Www 1 -
+/parvamm/assets/img/logo/ajax-loader.gif 3 http://parvamconsultech.com/parvamm/contact.php
+/schoolerp/Profile_images/STUIMG_51889672862ce5d17ec8f8.jpg 4 http://parvamconsultech.com/schoolerp/view-all-student.php
+/Application/Buy/Static/js/if.js 1 http://parvamconsultech.com/Application/Buy/Static/js/if.js
+/hacked.php 8 https://www.google.com
+/uploader.php 8 https://www.google.com
+/schoolerp/Profile_images/STUIMG_152715259062cd058617a9f.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/a/other/codepay/js/codepay_util.js 1 http://parvamconsultech.com/a/other/codepay/js/codepay_util.js
+//c99.php 1 -
+/dvcard/dikshan/templates/common/js/script.js 2 http://parvamconsultech.com/dvcard/dikshan/dikshant.php
+/parvamm/graphic.php 2 http://parvamconsultech.com/parvamm/mobileapp.php
+/wp-content/alfacgiapi/JANCOK.php 1 -
+/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application 2 -
+/tshop.php 8 https://www.google.com
+/mobile/lists.html 2 http://parvamconsultech.com/mobile/lists.html
+/index.php/Wap/Api/getBanner 1 http://parvamconsultech.com/index.php/Wap/Api/getBanner
+/ 450 -
+/parvamm/assets/img/fitcare_383x191.png 1 http://parvamconsultech.com/parvamm/index.php
+/wp-wso.php 4 -
+/docs/5.2/dist/js/bootstrap.bundle.min.js 189 http://parvamconsultech.com/parvamm/portfolio.php
+//skipper.php 1 -
+/static/config.js 1 http://parvamconsultech.com/static/config.js
+/schoolerp/Profile_images/STUIMG_191564549062ce829782c3f.jpg 6 http://parvamconsultech.com/schoolerp/view-all-student.php
+/wp-adnin/admin-user.php 1 parvamconsultech.com
+/res/kuai/1.css 1 http://parvamconsultech.com/res/kuai/1.css
+/schoolerp/Profile_images/STUIMG_179158172562ccfd268de76.jpg 5 http://parvamconsultech.com/schoolerp/view-all-student.php
+/test_moduleigtt/admin/wp-content/woodgrains/SPSF%208646.jpg 2 -
+/wp-old 1 -
+/Templates/user/js/global.js 1 http://parvamconsultech.com/Templates/user/js/global.js
+/ups.php 67 -
+/schoolerp/Profile_images/STUIMG_127403333762cd10a948096.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/ohayo.php 16 -
+/jiaoyimao/default.css 1 http://parvamconsultech.com/jiaoyimao/default.css
+/schoolerp/Profile_images/STUIMG_38858957562ce5064dd06a.jpg 6 http://parvamconsultech.com/schoolerp/view-all-student.php
+/wp-includes/versions.php 1 parvamconsultech.com
+/schoolerp/Profile_images/STUIMG_201950086362cd03e833ea3.jpg 2 http://parvamconsultech.com/schoolerp/view-all-student.php
+/test_moduleigtt/admin/wp-content/colour/Solid%20color/4311%20Beige.JPG 2 -
+/schoolerp/Profile_images/STUIMG_186709123762cd0cb57e044.jpg 3 http://parvamconsultech.com/schoolerp/view-all-student.php
+/im/in/GetUuid 1 http://parvamconsultech.com/im/in/GetUuid
+/wp-admin/css/ 11 binance.com
+/wp-includes/lf.php 4 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 112
+49.205.146.231 4844 11085 395271360 20221228062702
+162.214.80.40 897 979 1013037 20221228170352
+117.215.131.12 52 119 4108232 20221227064148
+164.100.214.82 28 112 3666949 20221228000702
+157.45.37.21 17 32 1578063 20221226092734
+106.197.212.209 15 166 14486740 20221216012505
+157.45.61.70 15 71 3011532 20221225003557
+157.45.36.73 13 52 3284432 20221222101838
+157.45.32.50 13 13 1573 20221221062548
+223.186.153.46 11 85 1576087 20221225061029
+70.32.128.247 9 9 460 20221205121346
+223.186.193.235 7 23 1381020 20221216064905
+157.45.111.63 7 23 3790 20221214055956
+104.133.49.108 7 7 584 20221208005215
+49.44.81.133 6 80 6664112 20221219025925
+49.44.78.198 6 79 7128221 20221215073448
+64.233.172.175 6 17 60996 20221208053012
+150.242.84.4 6 80 6664112 20221219033804
+157.45.44.216 6 15 14329 20221226194309
+49.44.80.164 6 80 6664112 20221219025139
+49.44.85.74 6 79 7128221 20221214223724
+223.196.116.70 6 83 4087710 20221219053617
+104.132.81.98 6 6 528 20221208010816
+70.32.128.244 5 5 255 20221205094252
+64.233.172.171 5 20 225892 20221208053012
+157.50.27.105 4 12 380086 20221216085151
+195.234.109.174 0 4 109789 
+23.178.112.208 1 1 87 20221228171305
+195.234.109.70 0 6 75218 
+70.32.128.246 2 2 100 20221205054433
+74.125.209.91 0 2 96510 
+195.234.109.136 0 2 433343 
+195.234.109.60 0 2 45549 
+195.234.109.16 0 2 5325 
+49.44.82.74 3 18 346572 20221216025613
+195.234.109.192 0 4 21321 
+195.234.109.120 0 4 2338845 
+195.234.109.10 0 3 161512 
+195.234.109.124 0 5 77043 
+195.234.109.66 0 4 78355 
+27.59.33.120 3 18 346572 20221222033038
+199.192.115.20 2 2 105 20221205054717
+195.234.109.22 0 7 120179 
+106.79.206.46 1 13 144803 20221213060730
+70.32.128.241 2 2 105 20221205121314
+195.234.109.76 0 4 511480 
+195.234.109.8 0 4 2753651 
+70.32.128.252 2 2 100 20221205121356
+157.45.219.100 2 2 230 20221223083012
+3.145.5.186 2 2 174 20221228171305
+199.192.115.21 3 3 150 20221205054711
+157.45.109.120 4 4 2669 20221214062035
+195.234.109.18 0 2 17591 
+195.234.109.24 0 2 36880 
+195.234.109.126 0 3 40467 
+195.234.109.82 0 6 408133 
+108.177.7.92 5 5 255 20221205054419
+34.73.178.74 5 5 255 20221205054621
+195.234.109.68 0 4 105308 
+195.234.109.182 0 4 43149 
+49.44.83.41 4 19 346703 20221216025632
+195.234.109.134 0 2 463404 
+195.234.109.78 0 5 446837 
+195.234.109.118 0 4 3495166 
+70.32.128.243 1 1 50 20221205054418
+195.234.109.188 0 2 19173 
+195.234.109.130 0 4 491686 
+146.70.51.154 5 5 306 20221208004844
+195.234.109.176 0 3 70266 
+106.79.196.161 1 1 4033 20221216070909
+49.205.137.180 4 49 885771 20221207111756
+195.234.109.132 0 7 1508097 
+70.32.128.248 2 2 100 20221205094305
+195.234.109.14 0 4 45406 
+49.44.78.106 1 36 700582 20221226070958
+195.234.109.180 0 5 62531 
+195.234.109.138 0 3 80153 
+195.234.109.80 0 5 181043 
+195.234.109.184 0 3 1388658 
+157.45.35.85 1 6 10963 20221226101910
+195.234.109.4 0 2 6137 
+70.32.128.253 2 2 100 20221205121338
+49.44.85.229 1 36 700579 20221226125132
+195.234.109.74 0 4 24328 
+195.234.109.6 0 5 240905 
+195.234.109.64 0 6 1374448 
+64.233.172.173 4 16 487619 20221208052814
+195.234.109.26 0 6 1332438 
+195.234.109.72 0 2 77200 
+195.234.109.128 0 8 1374956 
+70.32.128.245 1 1 50 20221205054244
+206.81.23.58 1 1 0 20221219030632
+223.186.157.250 3 31 392240 20221224202234
+195.234.109.62 0 5 511422 
+195.234.109.122 0 4 476261 
+70.32.128.250 3 3 155 20221205094222
+54.187.64.166 2 2 174 20221228171305
+49.44.86.166 1 36 700584 20221226062645
+195.234.109.178 0 2 35842 
+195.234.109.12 0 4 2601222 
+195.234.109.194 0 5 37533 
+70.32.128.251 2 2 100 20221205054441
+195.234.109.186 0 1 347628 
+49.205.140.111 4 89 3722284 20221215110927
+23.178.112.203 1 1 87 20221228171305
+74.125.209.87 0 1 93095 
+195.234.109.190 0 3 244530 
+164.100.133.254 5 61 2009367 20221226025141
+74.125.209.89 0 3 111635 
+195.234.109.20 0 5 428405 
+195.234.109.172 0 5 911037 
+106.51.85.9 2 34 425385 20221220073841
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 23
+20221201 62 62 5041 1
+20221205 83 83 5227 22
+20221207 49 225 6595254 5
+20221208 64 80 838874 8
+20221209 1 5 305700 1
+20221210 17 109 11425125 1
+20221211 1 1 55 1
+20221212 99 99 8950 1
+20221213 2 35 385369 2
+20221214 157 1256 62384572 9
+20221215 155 683 55506481 5
+20221216 57 324 22960187 8
+20221218 12 98 6050743 2
+20221219 125 1205 77162919 9
+20221220 194 443 15661185 4
+20221221 32 32 444155 4
+20221222 16 111 3658893 2
+20221223 9 37 645077 3
+20221224 30 245 17228077 9
+20221225 22 158 8295380 6
+20221226 107 593 12814019 11
+20221227 851 2206 65680752 11
+20221228 3946 5947 137530897 8
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+5mn-15mn 9
+2mn-5mn 6
+30s-2mn 18
+0s-30s 68
+1h+ 12
+15mn-30mn 9
+30mn-1h 11
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 246
+/enablingventures/wp-admin/admin-ajax.php 2777 51995449 1 3
+/enablingventures/wp-cron.php 883 0 14 13
+/enablingventures/ 297 12813004 9 6
+/enablingventures/wp-admin/admin.php 196 1725685 0 0
+/vehiclepassmobileapp/mobile-api/checkLoggedInStatus.php 179 9845 0 6
+/enablingventures/wp-json/jetpack/v4/jitm 143 22407 0 0
+/enablingventures/wp-admin/async-upload.php 86 56332 0 0
+/vehiclepassmobileapp/mobile-api/login.php 79 5369 15 20
+/enablingventures/wp-admin/post.php 62 26523083 0 0
+/enablingventures/wp-admin/edit.php 59 5465879 0 0
+/vehiclepassmobileapp/mobile-api/initialSetup.php 54 2970 17 1
+/parvamm/index.php 44 698870 3 0
+/enablingventures/wp-json/elementor/v1/globals 43 20081 0 0
+/enablingventures/wp-json/elementor/v1/kit-elements-defaults 43 946 0 0
+/itf_2023_version_2/getcities.php 41 1483 0 0
+/enablingventures/wp-json/newfold-notifications/v1/notifications 31 682 0 0
+/enablingventures/wp-json/elementor/v1/template-library/templates 30 754505 0 0
+/schoolerp/login.php 27 25570 1 0
+/parvamm/ 26 419680 11 0
+/vehiclepassmobileapp/mobile-api/checkOut.php 24 2496 0 0
+/schoolerp/get_parent_request_dashboard.php 22 1672 0 1
+/vehiclepassmobileapp/mobile-api/checkOutTransaction.php 22 2236 0 0
+/schoolerp/get_agent_payment_dashboard.php 22 1166 0 1
+/parvamm/assets/fonts/themify9f24.woff 22 1234376 0 7
+/schoolerp/get_student_payment_dashboard.php 22 1364 0 1
+/enablingventures/wp-content/plugins/smart-slider-3/Public/SmartSlider3/Application/Admin/Assets/fonts/Inter-SemiBold.woff2 1 95788 0 0
+/dvcard/NaveenBcard/index.php/ 1 4734 1 1
+/itf_2023_version_2/successpay.php 3 22850 0 1
+/enablingventures/wp-json/wp/v2/widget-types 2 2553 0 0
+/enablingventures/wp-content/plugins/smart-slider-3/Public/SmartSlider3/Application/Admin/Assets/fonts/SmartSliderIcons.woff2 2 49184 0 0
+/enablingventures/wp-content/plugins/jetpack/_inc/fonts/jetpack/jetpack.woff 3 3168 0 0
+/enablingventures/wp-content/plugins/unlimited-elements-for-elementor/assets_libraries/font-awesome5/css/fa-solid-900.woff2 1 75440 0 0
+/enablingventures/wp-content/plugins/ninja-forms/assets/fonts/fontawesome-webfont.woff2 3 66624 0 0
+/enablingventures/wp-content/plugins/header-footer-elementor/assets/fonts/hfe.ttf 7 3924 0 0
+/schoolerpuat_2_0/login.php 8 7628 3 1
+/brick2brick/index.php 6 118873 0 0
+/itf_2023_version_2/getstates.php 1 420 0 0
+/schoolerpuat_2_2/get_student_payment_dashboard.php 2 122 0 0
+/itf_2023_version_2/Exhibitionform.php 5 97101 0 0
+/brick2brick/admin/index.php 1 134 0 0
+/enablingventures/wp-json/wp/v2/widget-types/nav_menu/render 2 50578 0 0
+/enablingventures/coaching/ 1 44591 0 0
+/schoolerp/index.php 8 1083 1 0
+/dvcard/csvprasad/csvprasadvcard.php 1 4091 1 0
+/brick2brick/Residential-Construction.php 6 58563 0 1
+/vehiclepassmobileapp/mobile-api/alternateIdCheckOut.php 1 312 0 0
+/itf_2023_version_2/Admin/Exhibition-details-page.php 2 10630 0 1
+/parvamm/artificial.php 6 69787 0 0
+/itf_2023_version_2/Admin/Exhibition-Regestration.php 9 111149 3 1
+/aakruthi-erp/assets/bootstrap/fonts/glyphicons-halflings-regular.woff2 1 18028 0 1
+/brick2brick/admin/login.php 3 10099 0 0
+/schoolerpuat_2_2/schoolapi/secsem_mont_wrt.php 2 246 0 0
+/enablingventures/corporate/ 2 82376 0 0
+/schoolerpuat_2_2/schoolapi/studentgrade.php 2 94 2 0
+/enablingventures/wp-json/jetpack/v4/scan 16 2368 0 0
+/dvcard/suhasvaidya/suhasvaidya.php 1 4222 0 1
+/enablingventures/wp-json/wp/v2/widget-types/archives/encode 1 538 0 0
+/dvcard/dikshan/dikshant.php 2 8688 0 0
+/enablingventures/wp-json/wp/v2/widget-types/text/render 7 175224 0 0
+/schoolerpuat_2_0/maintenence.php 3 2823 0 2
+/dvcard/amar/amarvcard.php 2 7741 2 2
+/schoolerpuat_2_0/view_attendance.php 1 131 1 0
+/enablingventures/home-page/ 1 52053 0 0
+/enablingventures/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff2 5 373488 0 0
+/schoolerp/view-all-teachers.php 1 19359 0 0
+/itf_2023_version_2/buyer.php 3 36160 0 1
+/schoolerp/view-all-student.php 8 1088953 5 0
+/schoolerp/view-account-details.php 1 12773 0 0
+/schoolerpuat_2_2/fonts/Flaticon.woff2 1 8848 0 0
+/brick2brick/Commercial-Construction.php 4 37053 0 0
+/vehiclepassmobileapp/mobile-api/searchresult.php 21 373144 0 5
+/schoolerpuat_2_2/get_agent_payment_dashboard.php 2 106 0 1
+/schoolerpuat_2_0/schoolapi/newloginid.php 4 204 1 1
+/enablingventures/wp-admin/post-new.php 3 323522 0 0
+/brick2brick/contact.html 1 4786 0 1
+/enablingventures/wp-admin/upload.php 1 78672 0 0
+/brick2brick/ 4 78588 2 0
+/enablingventures/wp-json/wp/v2/widget-types/astra-widget-social-profiles/encode 1 6477 0 0
+/schoolerpuat_2_2/schoolapi/secsem_mont_lang.php 2 246 0 1
+/enablingventures/wp-json/wp/v2/types 2 3950 0 0
+/enablingventures/counselling/ 1 51749 0 0
+/enablingventures/wp-admin/ 9 974673 0 0
+/parvamm/iot.php 1 10152 0 0
+/enablingventures/wp-json/wp/v2/plugins/header-footer-elementor/header-footer-elementor 1 490 0 0
+/parvamm/it.php 4 26691 0 0
+/enablingventures/wp-json/wp/v2/plugins/essential-addons-for-elementor-lite/essential_adons_elementor 1 473 0 0
+/enablingventures/wp-json/wp/v2/plugins/ht-mega-for-elementor/htmega_addons_elementor 1 398 0 0
+/enablingventures/wp-admin/widgets.php 1 2762043 0 0
+/dpl/ 1 1915 1 1
+/schoolerpuat_2_2/get_parent_request_dashboard.php 2 146 0 0
+/schoolerpuat_2_2/schoolapi/firstsem_mont_wrt.php 1 125 0 0
+/brick2brick/assets/fonts/revicons90c6.woff 3 22608 0 0
+/schoolerp/parvamAdmin/webfonts/fa-regular-400.woff2 1 13608 0 1
+/.well-known/acme-challenge/D3WBSF-CU-R7NLID2ZGNEM992I4OLERA 1 64 0 1
+/parvamm/web.php 4 59592 0 0
+/schoolerp/announcement.php 1 8110 0 0
+/schoolerpuat_2_2/announcement.php 2 16978 0 0
+/schoolerp/ 9 1179 1 0
+/enablingventures/wp-content/plugins/elementor/assets/lib/font-awesome/fonts/fontawesome-webfont.woff2 1 77160 0 0
+/schoolerp/parvamAdmin/ 1 129 1 0
+/enablingventures/wp-json/wp/v2/widget-types/meta/render 1 25157 0 0
+/enablingventures/wp-json/wp/v2/widget-types/text/encode 10 5803 0 0
+/parvamm/blog.php 5 39523 0 0
+/brick2brick/admin/assets/css/images/sort_asc.html 1 238 0 0
+/enablingventures/wp-admin/load-styles.php 11 2094135 0 0
+/parvamm/mobileapp.php 7 79464 0 0
+/parvamm/digital.php 5 36710 0 0
+/schoolerpuat_2_2/schoolapi/fetching_stu_grade.php 1 51 0 0
+/itf_2023_version_2/Admin/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 2 26448 0 1
+/event_ticketing/Dashboard.php 1 1839 0 1
+/brick2brick/admin/packagetypelist.php 1 15619 0 0
+/vehiclepassmobileapp/mobile-api/checkIn.php 4 495 0 0
+/enablingventures/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.woff2 3 156392 0 0
+/itf_2023_version_2/farmerWorkshop.php 8 111212 1 0
+/schoolerp/excelDownload.php 1 9688 0 0
+/aakruthi-erp/ 1 2220 1 0
+/schoolerpuat_2_0/webfonts/fa-solid-900.woff2 3 148640 0 1
+/parvamm/data.php 15 181915 0 0
+/enablingventures/wp-content/plugins/wpforms-lite/assets/images/integrations/elementor/font/icon-wpforms.woff2 1 2632 0 0
+/itf_2023_version_2/smartrun.php 10 110374 1 2
+/parvamm/contact.php 19 106518 0 1
+/enablingventures/wp-content/plugins/smart-slider-3/Public/SmartSlider3/Application/Admin/Assets/fonts/Inter-Medium.woff2 2 190512 0 0
+/schoolerp/student-payment.php 2 15501 0 0
+/brick2brick/services.php 9 51318 0 0
+/schoolerp/webfonts/fa-solid-900.woff2 15 1114800 0 2
+/schoolerpuat_2_0/webfonts/fa-regular-400.woff2 3 27216 0 0
+/itf_2023_version_2/public.php 5 68484 0 0
+/enablingventures/yoga-pilates/ 1 48681 1 1
+/enablingventures/wp-content/plugins/testimonial-slider-and-showcase/assets/vendor/fontello/font/tss-font.woff2 4 10800 0 1
+/dvcard/roshanlobo/roshanlobo.php 2 7628 1 1
+/schoolerp/parvamAdmin/login.php 1 1003 0 0
+/enablingventures/wp-admin/customize.php 2 6146454 0 0
+/enablingventures/wp-admin/nav-menus.php 5 521455 0 0
+/itf_2023_version_2/ 5 84107 1 2
+/itf_2023_version_2/Conferenceform.php 8 104376 0 0
+/enablingventures/wp-json/yoast/v1/statistics 9 2493 0 0
+/schoolerpuat_2_0/schoolapi/studentprofile.php 3 153 0 1
+/itf_2023_version_2/Admin/index.php 4 524 0 0
+/itf_2023_version_2/Admin/assets/pe-icon-7-stroke/fonts/Pe-icon-7-strokebb1d.woff 2 117112 0 0
+/dvcard/gopal/gopalvcard.php 1 4172 1 0
+/enablingventures/wp-login.php 17 48965 0 0
+/itf_2023_version_2/Admin/ 3 381 3 0
+/enablingventures/wp-content/plugins/all-in-one-wp-migration/lib/view/assets/font/servmask.woff 4 22548 0 0
+/brick2brick/admin/dashboard.php 1 20441 0 0
+/enablingventures/wp-admin/import.php 1 62069 0 0
+/brick2brick/about.html 1 5046 0 0
+/enablingventures/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.woff2 2 76764 0 0
+/enablingventures/wp-content/plugins/essential-addons-for-elementor-lite/assets/admin/fonts/admin-icon.ttf 1 15240 0 0
+/brick2brick/Renovation.php 2 15645 0 0
+/.well-known/acme-challenge/-ENWF6Q8M11RAS4Z__UNE7R40_YC-SWW 1 64 1 0
+/brick2brick/projects.html 1 7313 0 0
+/enablingventures/about/ 5 209520 1 0
+/enablingventures/wp-json/wp/v2/widget-types/media_image/encode 1 458 0 0
+/enablingventures/wp-json/wp/v2/widget-types/archives/render 1 25057 0 0
+/schoolerp/parvamAdmin/webfonts/fa-solid-900.woff2 1 74320 0 0
+/itf_2023_version_2/seller.php 9 111839 7 2
+/enablingventures/wp-content/plugins/wpforms-lite/assets/lib/font-awesome/fonts/fontawesome-webfont.woff2 1 77160 0 0
+/schoolerpuat_2_2/schoolapi/secsem_mont_crt.php 2 244 0 0
+/itf_2023_version_2/Admin/dashboard.php 9 48171 0 1
+/parvamm/assets/fonts/fa-brands-400.woff2 22 1639176 0 0
+/itf_test_depl1/conference.php 1 24743 0 1
+/schoolerpuat_2_2/schoolapi/studentprofile.php 3 549 0 1
+/parvamm/service.php 10 75114 0 1
+/vehiclepassmobileapp/mobile-api/showDataDetails.php 17 4684 0 0
+/enablingventures/wp-admin/plugins.php 3 306492 0 0
+/enablingventures/wp-content/plugins/essential-addons-for-elementor-lite/assets/admin/fonts/eaicon.ttf 7 47320 0 0
+/enablingventures/wp-json/wp/v2/widget-types/categories/render 1 25054 0 0
+/demo/ 1 0 1 1
+/schoolerp/studentmarksentry.php 1 7238 0 0
+/schoolerpuat_2_2/schoolapi/firstsem_mont_crt.php 1 123 0 0
+/enablingventures/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-regular-400.woff2 1 13276 0 0
+/enablingventures/elementor-hf/elementor-5030/ 3 101130 0 0
+/martinrealtors/ 3 63195 2 0
+/itf_2023_version_2/Admin/login.php 8 7892 0 0
+/enablingventures/wp-admin/plugin-install.php 1 74550 0 0
+/itf_2023_version_2/Admin/smartRun.php 1 4523 0 0
+/schoolerp/teacher-details.php 1 6274 0 0
+/martinrealtors/webfonts/fa-solid-900.woff2 3 240756 0 0
+/enablingventures/wp-json/jetpack/v4/site/benefits 3 648 0 0
+/enablingventures/wp-json/wp/v2/widget-types/astra-widget-list-icons/encode 1 1785 0 0
+/enablingventures/wp-json/jetpack/v4/sync/spawn-sync 1 37 0 0
+/event_ticketing/ 3 3757 1 0
+/schoolerp/Dashboard.php 9 79534 1 0
+/enablingventures/wp-json/wp/v2/widget-types/meta/encode 1 495 0 0
+/schoolerp/add-new-student.php 1 10004 0 0
+/schoolerp/view-user-admin-details.php 1 5502 0 0
+/enablingventures/wp-admin/load-scripts.php 1 56875 0 0
+/enablingventures/wp-content/plugins/wp-import-export-lite/assets/webfonts/vj-wp-import-export.ttf 3 3252 0 0
+/itf_test_depl1/smartRun.php 1 27930 1 0
+/itf_2023_version_2/assets/fonts/remixicondf6d.woff2 5 626340 0 1
+/enablingventures/wp-json/wp/v2/widget-types/recent-comments/render 1 25136 0 0
+/enablingventures/wp-json/wp/v2/widget-types/custom_html/render 3 75111 0 0
+/enablingventures/wp-json/wp/v2/widget-types/search/encode 1 827 0 0
+/brick2brick/assets/fonts/fontawesome-webfont3e6e.woff2 3 231480 0 0
+/enablingventures/wp-json/bluehost/v1/blog 9 176149 0 0
+/schoolerp/webfonts/fa-regular-400.woff2 15 204120 0 2
+/brick2brick/admin/ 2 262 0 0
+/.well-known/acme-challenge/gquP82Ju5Pkzq_E5FmX67SgZrXmvCoBSSrWZFOjUaPs 3 261 2 2
+/itf_2023_version_2/Admin/excelexport.php 1 215 0 0
+/enablingventures/wp-json/envato-elements/v2/fetchInstalledTemplateKits 2 44 0 0
+/itf_2023_version_2/stallLayout.php 5 20986 0 1
+/brick2brick/Paint-my-Home.php 1 11393 0 0
+/itf_2023_version_2/Admin/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 2 156536 0 0
+/enablingventures/wp-includes/js/tinymce/skins/lightgray/fonts/tinymce.woff 1 18824 0 0
+/parvamm/about.php 14 98628 2 3
+/enablingventures/contact/ 5 169015 1 1
+/dvcard/sahriday/sahriday.php 1 3991 0 1
+/brick2brick/admin/assets/css/images/sort_both.html 1 238 0 0
+/schoolerp/student-marks-entry.php 1 70874 0 0
+/enablingventures/wp-json/wp/v2/widget-types/recent-comments/encode 1 573 0 0
+/schoolerpuat_2_0/index.php 2 270 0 0
+/enablingventures/wp-json/wp/v2/widget-types/custom_html/encode 3 2033 0 0
+/vehiclepassmobileapp/mobile-api/getTicketNum.php 1 60 0 0
+/parvamm/assets/fonts/fa-solid-900.woff2 22 1659680 0 0
+/enablingventures/wp-json/jetpack/v4/connection/data 3 915 0 0
+/enablingventures/wp-content/plugins/testimonial-slider-and-showcase/assets/vendor/fontello/font/tss-font.woff 1 3388 0 1
+/brick2brick/projectdetails.php 1 5006 0 1
+/.well-known/acme-challenge/Jr_yiWs5-oSvVaGlkHkgTsGBmO6kkmQMDiQP97fcyLg 3 261 2 2
+/parvamm/testi.php 8 51744 1 0
+/schoolerp/schoolapi/newlogin.php 6 240 2 1
+/itf_2023_version_2/assets/fonts/flaticond976.ttf 1 16016 0 0
+/itf_2023_version_2/Admin/BookedStall.php 1 5458 0 0
+/enablingventures/wp-json/wp/v2/widget-types/recent-posts/encode 1 675 0 0
+/enablingventures/wp-json/wp/v2/plugins/ 3 23640 0 0
+/enablingventures/wp-json/wp/v2/plugins/ninja-forms/ninja-forms 1 401 0 0
+/brick2brick/admin/packagedetailsupdate.php 1 14887 0 0
+/vehiclepassmobileapp/mobile-api/getPassDetails.php 6 306 0 0
+/enablingventures/wp-json/wp/v2/widget-types/search/render 1 25501 0 0
+/enablingventures/wp-json/wp/v2/widget-types/categories/encode 1 596 0 0
+/schoolerpuat_2_2/webfonts/fa-solid-900.woff2 1 74320 0 0
+/enablingventures/wp-json/wp/v2/widget-types/nav_menu/encode 3 2629 0 0
+/martinrealtors/fonts/fontawesome-webfont3e6e.woff2 3 231480 0 0
+/parvamm/webdesign.php 6 38947 1 0
+/enablingventures/individual/ 3 128072 1 2
+/parvamm/app.php 5 34930 0 0
+/martinrealtors/webfonts/fa-brands-400.woff2 3 235416 0 1
+/itf_2023_version_2/success.php 3 23011 0 3
+/parvamm/assets/fonts/icofont.woff2 22 11833096 0 1
+/parvamm/portfolio.php 21 165751 0 4
+/enablingventures/wp-json/wp/v2/widget-types/recent-posts/render 1 25201 0 0
+/enablingventures/wp-json/wp/v2/ 7 409227 0 0
+/schoolerp/fonts/Flaticon.woff2 6 53088 0 0
+/schoolerpuat_2_0/view-all-student.php 1 135 0 0
+/schoolerpuat_2_2/schoolapi/firstsem_mont_lang.php 1 125 0 0
+/brick2brick/services.html 1 5702 0 0
+/parvamm/assets/fonts/Flaticon.woff 22 523512 0 1
+END_SIDER

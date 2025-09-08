@@ -1,0 +1,1046 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202110 will be lost/reset.
+# Last config file used to build this data file was /home4/parvamco/tmp/awstats/ssl/awstats.parvamconsultech.parvam.co.in.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2031                
+POS_TIME 2709                
+POS_VISITOR 23509               
+POS_DAY 31002               
+POS_DOMAIN 3564                
+POS_LOGIN 3922                
+POS_ROBOT 4077                
+POS_WORMS 4350                
+POS_EMAILSENDER 4481                
+POS_EMAILRECEIVER 4624                
+POS_SESSION 31863               
+POS_SIDER 32076               
+POS_FILETYPES 4759                
+POS_DOWNLOADS 5115                
+POS_OS 5329                
+POS_BROWSER 5534                
+POS_SCREENSIZE 7480                
+POS_UNKNOWNREFERER 7554                
+POS_UNKNOWNREFERERBROWSER 8233                
+POS_ORIGIN 8757                
+POS_SEREFERRALS 8899                
+POS_PAGEREFS 9071                
+POS_SEARCHWORDS 9219                
+POS_KEYWORDS 9371                
+POS_MISC 2373                
+POS_ERRORS 9430                
+POS_CLUSTER 3778                
+POS_SIDER_404 9612                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20211101022336 12 2210 11581060542865
+FirstTime 20211001000056
+LastTime 20211030155827
+LastUpdate 20211101060548 12 0 11 0 0
+TotalVisits 271                 
+TotalUnique 175                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 196                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavaEnabled 0 0 0
+FlashSupport 0 0 0
+AddToFavourites 0 4 0
+DirectorSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+TotalMisc 0 0 0
+QuickTimeSupport 0 0 0
+RealPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 294 1545 347893351 67 280 18433213
+1 219 1555 625163004 204 358 20619999
+2 118 1073 424968987 121 206 42006045
+3 218 1187 619265283 63 198 2983
+4 152 1532 392736193 140 270 4632083
+5 243 1127 161375494 40 268 1754
+6 183 813 273363479 88 134 7589525
+7 114 412 88426448 28 167 2264
+8 35 130 5586343 172 804 37732
+9 109 421 40424480 132 364 400
+10 14 16 483887 135 172 939
+11 5 7 214738 52 70 2231
+12 1 5 605093 14 24 563
+13 3 10 1207554 58 66 490
+14 0 1 32607 159 163 4784
+15 80 80 933442 46 53 2489
+16 2 2 76 43 49 4558
+17 3 3 29975 48 60 2871
+18 10 10 269245 188 208 114
+19 14 14 131702 230 242 37890
+20 14 15 451193 113 138 803
+21 78 357 65783621 115 166 1890
+22 202 497 40739350 110 263 3236
+23 208 976 98318800 80 440 7057
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 9
+jp 781 4329 1945543640
+cn 779 3845 487332769
+in 471 2946 539759550
+us 268 647 207162205
+de 10 10 380
+gr 5 5 73160
+se 2 2 76
+gb 2 3 32683
+bd 1 1 38
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 4
+bingbot/ 35 1330 20211008145115 0
+Googlebot/ 5 38 20211008194954 0
+no_user_agent 4 142170 20211027020510 0
+YandexBot/ 4 152 20211008090251 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 14
+json 117 20736297 0 0
+ttf 28 5284272 0 0
+png 2324 180980790 0 0
+Unknown 5 4004 0 0
+js 1011 36745567 0 0
+css 699 18039978 0 0
+jpg 5311 2803033443 0 0
+woff 60 2405960 0 0
+jpeg 78 8727035 0 0
+php 1131 29405978 0 0
+doc 5 420864 0 0
+gif 41 1621130 0 0
+woff2 70 16919152 0 0
+html 908 47080187 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 3
+/spectrafin/downloads/ExecutiveSummary.doc 3 0 325632
+/spectrafin/downloads/Documents%20List.doc 2 0 95232
+/moduleigtt/wp-content/photos/videopreview.mp4 0 2 8499844
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 10
+win10 9825 1774
+linuxandroid 1067 252
+win7 64 13
+linux 28 28
+win8.1 261 83
+macosx 508 141
+winxp 2 2
+Unknown 23 21
+ios_iphone 11 5
+win8 1 0
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 90
+chrome87.0.4280.141 10 10
+firefox84.0 8 8
+firefox93.0 8 8
+opera10.54 6 6
+Unknown 19 19
+chrome62.0.3202.84 27 27
+firefox86.0 2 2
+chrome89.0.4389.128 8 8
+firefox85.0 4 4
+firefox73.0 1 1
+safari11.0 2 2
+safari14.0.1 3 3
+firefox79.0 5 5
+opera10.00 3 3
+firefox77.0 1 1
+chrome70.0.3538.80 1 1
+chrome80.0.3987.119 1 1
+chrome81.0.4044.113 2 2
+chrome79.0.3945.136 5 5
+chrome88.0.4324.146 2 2
+opera10.10 4 4
+chrome81.0.4044.92 1 1
+chrome94.0.4606.71 338 137
+firefox72.0 1 1
+chrome80.0.3987.132 1 1
+opera11.00 5 5
+opera11.11 4 4
+chrome89.0.4389.90 2 2
+chrome84.0.4147.105 4 4
+chrome79.0.3945.130 9 2
+chrome85.0.4183.83 1 1
+chrome84.0.4147.125 1 1
+chrome79.0.3945.79 8 8
+chrome76.0.3809.100 55 3
+chrome87.0.4280.88 1 1
+chrome90.0.4430.72 3 3
+firefox92.0 2 2
+firefox91.0 1 1
+chrome94.0.4606.85 1 1
+chrome79.0.3945.74 4 4
+chrome71.0.3578.141 15 15
+chrome77.0.3865.116 8 8
+chrome95.0.4638.32 10 10
+chrome92.0.4515.159 191 17
+chrome90.0.4430.91 9 9
+firefox78.0 3 3
+chrome95.0.4638.40 1 1
+chrome92.0.4515.131 372 32
+chrome95.0.4638.54 1336 151
+chrome94.0.4606.81 7427 1330
+chrome94.0.4606.61 1233 252
+chrome91.0.4472.120 5 5
+chrome83.0.4103.106 15 15
+chrome80.0.3987.87 8 8
+safari14.1.2 1 1
+chrome70.0.3538.110 8 8
+iphone 6 0
+mozilla 9 2
+chrome86.0.4240.111 1 1
+firefox81.0 3 3
+firefox82.0 2 2
+chrome84.0.4147.135 1 1
+android 36 10
+chrome80.0.3987.149 3 3
+opera11.50 4 4
+chrome91.0.4472.101 1 1
+firefox76.0 2 2
+chrome52.0.2743.98 1 1
+chrome81.0.4044.138 7 7
+chrome93.0.4577.82 15 11
+firefox83.0 1 1
+chrome93.0.4577.62 273 29
+firefox75.0 1 1
+chrome87.0.4280.66 2 2
+chrome78.0.3904.96 3 3
+chrome81.0.4044.122 1 1
+msie7.0 1 0
+firefox80.0 2 2
+chrome94.0.4606.80 157 11
+chrome83.0.4103.101 3 3
+firefox87.0 1 1
+chrome80.0.3987.99 5 5
+firefox74.0 3 3
+chrome80.0.3987.116 3 3
+chrome89.0.4389.105 9 9
+chrome72.0.3626.121 2 2
+chrome83.0.4103.116 1 1
+chrome90.0.4430.210 7 7
+chrome80.0.3987.163 2 2
+chrome83.0.4103.97 16 16
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 8
+Mozilla/4.0_(compatible;_ms-office;_MSOffice_16) 20211018084051
+WhatsApp/2.21.19.21_A 20211019011842
+WhatsApp/2.21.13.28_A 20211003061215
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20211021193916
+WhatsApp/2.21.18.17_A 20211013091932
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20211018023606
+WhatsApp/2.21.17.24_A 20211003092514
+Expanse_indexes_the_network_perimeters_of_our_customers._If_you_have_any_questions_or_concerns,_please_reach_out_to:_scaninfo@expanseinc.com 20211015053758
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 6
+WhatsApp/2.21.19.21_A 20211019011842
+WhatsApp/2.21.13.28_A 20211003061215
+WhatsApp/2.21.17.24_A 20211003092514
+Expanse_indexes_the_network_perimeters_of_our_customers._If_you_have_any_questions_or_concerns,_please_reach_out_to:_scaninfo@expanseinc.com 20211015053758
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20211018023606
+WhatsApp/2.21.18.17_A 20211013091932
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 606 644
+From1 0 0
+From2 7 10
+From3 0 0
+From4 1706 11136
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+live 0 3
+www_google_com 7 7
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 9
+404 4537 1154
+301 72 17980
+206 50 93184364
+302 6 0
+400 10 520
+409 10 830
+401 17 593
+406 207 46782
+500 9 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 315
+/Foxwso.php 1 -
+/wp-login.php 3 -
+/9ea2536SDId8231e208f221UtPxd78b074.top 1 -
+/Decanvas/ 1 -
+/fonts/fontawesome-webfont.woff 2 https://parvamconsultech.com/bwflyers/bwflyerfeel1.html
+/contact-us/ 4 -
+/feed/ 4 -
+/z.php 5 -
+/alexus.php 1 -
+/wp-content/wp-admin.php 4 -
+/wp-rss.php 1 -
+/admin 1 -
+/test_moduleigtt/portfolio/portfolio/portfolio-console.html 2 -
+/mobile-app-android-ios/ 2 -
+/blog/wp-includes/wlwmanifest.xml 1 -
+/test_moduleigtt/admin/%22.$value4[ 1 https://parvamconsultech.com/test_moduleigtt/admin/customerpdf.php
+/wp-configer.php 7 -
+/bwflyers/css/templatemo-style.css 2 https://parvamconsultech.com/bwflyers/bwflyerfeel1.html
+/upload.php 4 -
+/83f1626kjLd82316f33aca1MTjlH697043.pw 1 -
+/test_moduleigtt/portfolio/portfolio-Bedroomwardrobe%20.html 5 https://parvamconsultech.com/test_moduleigtt/portfolio/index.html
+/c.php 6 -
+/moduleigtt/admin/appliances.json 27 https://parvamconsultech.com/moduleigtt/admin/editdetails.php
+/data.php 4 -
+/images/vuln.php 4 -
+/x.php 20 -
+/wp/rahma.php 1 -
+/2015/11/ 2 -
+/promailer.php 3 -
+/XxX.php 11 -
+/wordpress/wp-includes/wlwmanifest.xml 1 -
+/iindex.php 1 -
+/4price.php 4 -
+/main-es2015.423683307384d36d3621.js 13 https://parvamconsultech.com/switchdirection/
+/akruthi-erp 1 -
+/aa.php 1 -
+/skipper.php 20 -
+/xox.php 4 -
+/test/wp-includes/wlwmanifest.xml 1 -
+/moduleigtt/portfolio/portfolio-BookSleves.html 1 https://parvamconsultech.com/moduleigtt/
+/xmlrpc.php 1 -
+/test_moduleigtt/admin/%22.$value[ 1 https://parvamconsultech.com/test_moduleigtt/admin/customerpdf.php
+/lf.php 8 -
+/test_moduleigtt/admin/%22.$value2[ 1 https://parvamconsultech.com/test_moduleigtt/admin/customerpdf.php
+/mar.php 4 -
+/test_moduleigtt/wp-content/photos/gallery/straight/6.jpg 1 https://parvamconsultech.com/test_moduleigtt/portfolio/portfolio-Straightkitchen.html
+/mini.php 39 -
+/wp-includes/wlwmanifest.xml 1 -
+/wp-admin.php 4 -
+/wp/wp-includes/wlwmanifest.xml 1 -
+/wp-confirm.php 4 -
+/it.php 1 -
+/7554b08MgNd8231662211f1yRrGA90bbdc.action 1 -
+/cdc9c28DQTuhtUd8231f2641b61GjjEGPP9f24d4.me 1 -
+/.git/config 2 -
+/switchdirection/login 1 -
+/dr.php 4 -
+/moduleigtt/admin/wp-content/internals/WAO765.png 12 https://parvamconsultech.com/moduleigtt/admin/editdetails.php
+/tshop.php 20 -
+/f.php 4 -
+/41.php 4 -
+/inje3ctor.php 20 -
+/moduleigtt/admin/wp-content/internals/WAO87.png 13 https://parvamconsultech.com/moduleigtt/admin/editdetails.php
+/u.php 1 -
+/root.php 10 -
+/fpdf/invoice 2 -
+/shx.php 4 -
+/elementor/ 4 https://parvamconsultech.com/moduleigtt/portfolio/portfolio-Straightkitchen.html
+/87f506btEMd8231a201e5b1eP_DC28af63.shop 1 -
+/spectrafin/images/main/slider-2.jpg 1405 https://parvamconsultech.com/spectrafin/index.html
+/test_moduleigtt/portfolio/portfolio/portfolio-dining.html 1 https://parvamconsultech.com/test_moduleigtt/portfolio/portfolio-barunit.html
+/styles.d2d481ae36dfe35dd1cc.css 9 https://parvamconsultech.com/switchdirection/
+/moduleigtt/admin/wp-content/internals/WAO752.png 12 https://parvamconsultech.com/moduleigtt/admin/editdetails.php
+/0e652b8hwKQJIGd8231a427b6f1K_uBqf8d93d.pw 1 -
+/skippershell.php 20 -
+/w.php 3 -
+/spectrafin/images/resource/man-with-tab.png 164 https://parvamconsultech.com/spectrafin/index.html
+/hexor.php 3 -
+/mailersmtp.php 1 -
+/moduleigtt/wp-content/photos/mlogo.png 16 https://parvamconsultech.com/moduleigtt/portfolio/portfolio-dining.html
+/6508285MhYOWYd8231c6f65a91mBNgYqay45e07b.es 1 -
+/modulegitt/admin 1 -
+/canvas/ 1 -
+/blog.php 1 -
+/qindex.php 8 -
+/ru.php 20 -
+/test_moduleigtt/admin/%22.$value1[ 1 https://parvamconsultech.com/test_moduleigtt/admin/customerpdf.php
+/CaZaNoVa163.php 3 -
+/marijuana.php 34 -
+/moduleigtt/wp-content/mlogo.png 11 https://parvamconsultech.com/moduleigtt/portfolio/portfolio-dining.html
+/y.php 1 -
+/sindex.php 4 -
+/test_moduleigtt/wp-content/photos/newsection/cockery%20Unit%203.jpeg 6 https://parvamconsultech.com/test_moduleigtt/portfolio/portfolio-barunit.html
+/shellx.php 2 -
+/uploads/contexmini.php 1 -
+/technology-workshops/ 3 -
+/switchdirection/login.php 1 -
+/test_moduleigtt/wp-content/photos/gallery/straight/2.jpg 1 https://parvamconsultech.com/test_moduleigtt/portfolio/portfolio-Straightkitchen.html
+/moduleigtt/admin/wp-content/internals/WAO813.png 12 https://parvamconsultech.com/moduleigtt/admin/editdetails.php
+/wi.php 4 -
+/wikindex.php 4 -
+/sito/wp-includes/wlwmanifest.xml 1 -
+/v.php 4 -
+/a.php 7 -
+/test_moduleigtt/wp-content/photos/bedroomtv/pexels-felipe-hueb-2747901.jpg 1 https://parvamconsultech.com/test_moduleigtt/portfolio/portfolio-BedroomTvspace.html
+/fonts/fontawesome-webfont.woff2 2 https://parvamconsultech.com/bwflyers/bwflyerfeel1.html
+/priv8.php 1 -
+/home/index.html 2 https://parvamconsultech.com/moduleigtt/
+/shadow.php 34 -
+/wp-content/wp-logins.php 4 -
+/c2b0a08yGSkmqad82314f8d23c1mnqFBb8cfc7.ki 1 -
+/bc7dfcdK_RybCd82312a8a3081WezmjKQl7f556f.fr 1 -
+/i.php 1 -
+/doc.php 12 -
+/FoxWSO.php 4 -
+/.wp-cache.php 1 -
+/moduleigtt/index.html 2 https://parvamconsultech.com/moduleigtt/portfolio/index.html
+/moduleigtt/admin/wp-content/internals/WAO723.png 12 https://parvamconsultech.com/moduleigtt/admin/editdetails.php
+/gallery/ 3 -
+/t.php 1 -
+/cms/wp-includes/wlwmanifest.xml 1 -
+/alex.php 50 -
+/xz.php 3 -
+/alfashell.php 20 -
+/utchiha.php 1 -
+/owl.php 4 -
+/wp2.php 9 -
+/placement/ 1 -
+/sh3ll.php 4 -
+/shell4.php 20 -
+/test_moduleigtt/admin/%22.$value3[ 1 https://parvamconsultech.com/test_moduleigtt/admin/customerpdf.php
+/new.php 4 -
+/moduleigtt/admin/wp-content/handletype/Spira.jpg 1 https://parvamconsultech.com/moduleigtt/admin/editdetails.php
+/moduleigtt/admin/wp-content/handletype/Ticinum.jpg 1 https://parvamconsultech.com/moduleigtt/admin/editdetails.php
+/1337.php 7 -
+/7608438D_lwLTd82318e35d9a1wHF_jeec223 1 -
+/moduleigtt/admin/wp-content/internals/WAO755.png 12 https://parvamconsultech.com/moduleigtt/admin/editdetails.php
+/moduleigtt/admin/wp-content/internals/WAO71.png 22 https://parvamconsultech.com/moduleigtt/admin/editdetails.php
+/sz.php 34 -
+/aakruthi 2 -
+/images/stories/w.php 3 -
+/adminer.php 1 -
+/m.php 46 -
+/tttt.php 20 -
+/new-index.php 4 -
+/old-index.php 4 -
+/moduleigtt/wp-content/photos/trending/Displayunit.jpg 2 https://parvamconsultech.com/moduleigtt/
+/baindex.php 4 -
+/moduleigtt/admin/editdetails.php 2 -
+/xx.php 12 -
+/nee.php 3 -
+/test_moduleigtt/wp-content/photos/gallery/straight/1.jpg 1 https://parvamconsultech.com/test_moduleigtt/portfolio/portfolio-Straightkitchen.html
+/anone.php 5 -
+/shell.php 33 -
+/defau1t.php 4 -
+/send.php 6 -
+/alfa.php 33 -
+/moduleitt/admin 1 -
+/moduleigtt/admin/wp-content/internals/WAO762.png 12 https://parvamconsultech.com/moduleigtt/admin/editdetails.php
+/moduleigtt/admin/index.html 1 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/srx.php 7 -
+/wso.php 69 -
+/haxor.php 7 -
+/smtp.php 1 -
+/wp-2019.php 1 -
+/runtime-es2015.36f2505f2fefe68d6758.js 13 https://parvamconsultech.com/switchdirection/
+/r.php 1 -
+/website/wp-includes/wlwmanifest.xml 1 -
+/fpdf/ 1 -
+/wp-blog.php 4 -
+/2018/09/27/%E3%80%8E%E8%8A%B1%E6%99%B4%E3%82%8C%E3%80%8F%E3%81%AE%E5%89%8D%E3%81%A8%E5%BE%8C%E3%81%AE%E4%B8%96%E7%95%8C%E3%80%82/comment-1671 1 -
+/777.php 4 -
+/1index.php 5 -
+/mailer.php 48 -
+/wp2/wp-includes/wlwmanifest.xml 1 -
+/wp.php 11 -
+/moduleigtt/admin/wp-content/internals/WAO76.png 13 https://parvamconsultech.com/moduleigtt/admin/editdetails.php
+/shell1.php 1 -
+/uploader.php 20 -
+/Lufix.php 1 -
+/media/wp-includes/wlwmanifest.xml 1 -
+/sitemap.xml 1 -
+/ohayo.php 4 -
+/0.php 1 -
+/.fk.php 4 -
+/c40e4adLlfRd8231214dd861BbsNlt3b4d08.gn 1 -
+/test_moduleigtt/portfolio/.../wp-content/photos/trending/px3.jpg 2 https://parvamconsultech.com/test_moduleigtt/portfolio/portfolio-barunit.html
+/0byte.php 4 -
+/sendmail.php 1 -
+/test_moduleigtt/admin/appliances.json 4 https://parvamconsultech.com/test_moduleigtt/admin/edit.php
+/decanvas/quotation 2 -
+/saudi.php 20 -
+/11index.php 3 -
+/moduleigtt/wp-content/handletype/Ticinum.jpg 11 https://parvamconsultech.com/moduleigtt/
+/shellxx.php 1 -
+/Lux.php 7 -
+/my_alfa.php 20 -
+/moduleigtt/admin/wp-content/internals/WAO718.png 12 https://parvamconsultech.com/moduleigtt/admin/editdetails.php
+/moduleigtt/portfolio/portfolio/portfolio-console.html 1 https://parvamconsultech.com/moduleigtt/portfolio/portfolio-barunit.html
+/xxx.php 2 -
+/cms.php 4 -
+/bb.php 7 -
+/test_moduleigtt/nav.scss 47 https://parvamconsultech.com/test_moduleigtt/
+/js/vendor/NoSleep.min.js 218 https://www.parvamconsultech.com/kpl/
+/test_moduleigtt/portfolio/portfolio/portfolio-kitchen%20U-shape.html 1 https://parvamconsultech.com/test_moduleigtt/portfolio/portfolio-barunit.html
+/moduleigtt/wp-content/photos/newsection/cockery%20Unit%203.jpeg 2 https://parvamconsultech.com/moduleigtt/portfolio/portfolio-barunit.html
+/5d646b2nOVlxd8231d2480091oC_GZkP306896.pw 1 https://www.parvamconsultech.com/5d646b2nOVlxd8231d2480091oC_GZkP306896.pw
+/leafmailer2.8.php 46 -
+/wp1/wp-includes/wlwmanifest.xml 1 -
+/edit-form.php 1 -
+/ 250 -
+/moduleigtt/admin/wp-content/internals/WAO711.png 12 https://parvamconsultech.com/moduleigtt/admin/editdetails.php
+/fonts/fontawesome-webfont.ttf 2 https://parvamconsultech.com/bwflyers/bwflyerfeel1.html
+/wp-content/plugins/akismet/akismet.php 3 -
+/sym.php 5 -
+/g.php 4 -
+/2019/10/05/9-26-%E3%83%89%E3%83%AA%E3%83%9C%E3%81%AA%E6%97%A5%E3%80%82%E5%89%8D%E6%A5%BD%E3%80%82%E5%BC%95%E3%81%8D%E7%B6%99%E3%81%90%E3%82%B8%E3%83%A3%E3%83%8B%E3%83%BC%E3%82%BA%E3%82%A4%E3%82%BA%E3%83%A0/ 1 -
+/wso1337.php 1 -
+/wsoshell.php 1 -
+/autoload_classmap.php 4 -
+/test_moduleigtt/wp-content/photos/gallery/straight/4.jpg 1 https://parvamconsultech.com/test_moduleigtt/portfolio/portfolio-Straightkitchen.html
+/shell2.php 1 -
+/wp-wso.php 3 -
+/stindex.php 13 -
+/www.php 1 -
+/moduleigtt/wp-content/photos/bedroomtv/pexels-felipe-hueb-2747901.jpg 1 https://parvamconsultech.com/moduleigtt/portfolio/portfolio-dresserunit.html
+/3.php 4 -
+/bypass.php 4 -
+/if.php 20 -
+/switchdirection 1 -
+/404.php 5 -
+/moduleigtt/wp-content/internals/WAO859.png 51 https://parvamconsultech.com/moduleigtt/portfolio/portfolio-dining.html
+/e.php 1 -
+/media-admin.php 3 -
+/switchdirection/ 1 -
+/shop/wp-includes/wlwmanifest.xml 1 -
+/3ae3644YRbxQGrd82319e94a091rasHJUbd6b628e.md 1 -
+/wso1.php 7 -
+/1033.php 1 -
+/2018/wp-includes/wlwmanifest.xml 1 -
+/site/wp-includes/wlwmanifest.xml 1 -
+/ups.php 24 -
+/c99.php 30 -
+/hacked.php 20 -
+/Gel.php 4 -
+/leaf.php 52 -
+/bwflyers/css/font-awesome.min.css 2 https://parvamconsultech.com/bwflyers/bwflyerfeel1.html
+/web/wp-includes/wlwmanifest.xml 1 -
+/fw.php 20 -
+/wp-one.php 1 -
+/100.php 4 -
+/robots.txt 141 -
+/rahma.php 1 -
+/cp.php 1 -
+/cpanel.php 4 -
+/sym403.php 1 -
+/WSO.php 3 -
+/test_moduleigtt/admin/assets/css/bootstrap.min.css.map 1 -
+/symlink.php 4 -
+/2019/wp-includes/wlwmanifest.xml 1 -
+/FoxWso.php 1 -
+/test_moduleigtt/wp-content/internals/WAO859.png 95 https://parvamconsultech.com/test_moduleigtt/portfolio/portfolio-console.html
+/1.php 13 -
+/test_moduleigtt/wp-content/photos/gallery/straight/7.jpg 1 https://parvamconsultech.com/test_moduleigtt/portfolio/portfolio-Straightkitchen.html
+/moduleigtt/admin/dashbard.php 2 -
+/moduleigtt/admin/wp-content/internals/WAO748.png 12 https://parvamconsultech.com/moduleigtt/admin/editdetails.php
+/test_moduleigtt/wp-content/photos/gallery/straight/5.jpg 1 https://parvamconsultech.com/test_moduleigtt/portfolio/portfolio-Straightkitchen.html
+/moduleigtt/admin/assets/css/bootstrap.min.css.map 10 -
+/moduleigtt/admin/wp-content/internals/WAO713.png 12 https://parvamconsultech.com/moduleigtt/admin/editdetails.php
+/hb.php 3 -
+/Indox.php 1 -
+/2index.php 5 -
+/kpl/ 4 https://www.parvamconsultech.com/kpl/
+/kiss.php 1 -
+/moduleigtt/admin/wp-content/internals/WAO719.png 12 https://parvamconsultech.com/moduleigtt/admin/editdetails.php
+/vip.php 34 -
+/test_moduleigtt/admin/assets/js/swiper.min.js.map 1 -
+/up.php 21 -
+/spectrafin/index-2.html 1 https://parvamconsultech.com/spectrafin/services.html
+/MARIJUANA.php 5 -
+/dz.php 3 -
+/o.php 4 -
+/ads.txt 31 -
+/alfa123.php 1 -
+/wp-uploads.php 4 -
+/shellalfa.php 1 -
+/apple-touch-icon.png 2 -
+/Ninja.php 7 -
+/decanavs 1 -
+/owa/auth/x.js 1 -
+/switch_direction/ 1 -
+/2019/10/21/rot-%E2%91%A0%E6%9C%9F%E5%BE%85%E3%81%AB%E5%BF%9C%E3%81%88%E3%82%8B%E3%81%A8%E3%81%84%E3%81%86%E3%81%93%E3%81%A8%E3%80%82/ 1 -
+/adminer.sql.gz 1 -
+/about-us/ 3 -
+/moduleigtt/admin/null 3 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/news/wp-includes/wlwmanifest.xml 1 -
+/vuln.php 23 -
+/moduleigtt/admin/assets/js/swiper.min.js.map 7 -
+/website-design-development/ 3 -
+/test_moduleigtt/wp-content/photos/gallery/island/Island3.jpg 1 https://parvamconsultech.com/test_moduleigtt/portfolio/portfolio-kitchen%20Island.html
+/leafmailer.php 39 -
+/moduleigtt/wp-content/handletype/Spira.jpg 11 https://parvamconsultech.com/moduleigtt/
+/test_moduleigtt/wp-content/photos/gallery/straight/8.jpg 1 https://parvamconsultech.com/test_moduleigtt/portfolio/portfolio-Straightkitchen.html
+/871f31daacOwd8231b436aa51IkasvFBf01db8.tc 1 -
+/moduleigtt/admin/wp-content/internals/WAO720.png 12 https://parvamconsultech.com/moduleigtt/admin/editdetails.php
+/test_moduleigtt/wp-content/photos/gallery/straight/3.jpg 1 https://parvamconsultech.com/test_moduleigtt/portfolio/portfolio-Straightkitchen.html
+/spectrafin/css/bootstrap.min.css.map 14 -
+/moduleigtt/nav.scss 129 https://parvamconsultech.com/moduleigtt/
+/exploit.php 1 -
+/moduleigtt/admin/wp-content/internals/WAO73.png 17 https://parvamconsultech.com/moduleigtt/admin/editdetails.php
+/nasgor.php 1 -
+/3index.php 4 -
+/polyfills-es2015.cd922be208e6be712d4f.js 13 https://parvamconsultech.com/switchdirection/
+/test_moduleigtt/uploads/ 4 https://parvamconsultech.com/test_moduleigtt/admin/viewdetails.php
+/fuck.php 3 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 196
+220.158.157.195 640 3986 1934457046 20211028071533
+36.255.87.7 455 2086 300409811 20211029043541
+36.255.87.1 195 833 70873905 20211007003632
+49.206.12.244 170 957 113613795 20211027232524
+36.255.87.6 129 927 116049053 20211026025411
+220.158.157.214 102 297 10041862 20211009000614
+18.232.89.176 79 79 933442 20211030155827
+18.232.77.51 40 40 467341 20211012222149
+220.158.157.61 39 46 1044732 20211012032519
+49.206.12.193 31 127 5454596 20211009092438
+106.51.242.204 30 382 154480159 20211020032713
+223.186.145.152 20 27 379828 20211006062337
+223.186.98.122 17 167 31869370 20211022042139
+157.50.50.0 13 41 550912 20211019035236
+157.45.161.248 10 10 299048 20211003180737
+27.59.123.211 10 10 299048 20211003180528
+223.186.150.114 10 110 6101590 20211003235036
+223.231.135.221 9 136 30627204 20211021051234
+1.39.188.69 9 176 38307082 20211018045051
+157.50.35.137 9 172 68869393 20211019013138
+49.206.9.29 9 13 307654 20211007003436
+131.220.6.152 8 8 304 20211008195214
+49.37.181.22 7 7 6990 20211030065501
+157.50.37.212 6 129 96200870 20211019022915
+49.206.11.164 6 6 179452 20211012002013
+157.45.27.145 3 3 89726 20211001184211
+1.39.191.182 3 54 18717794 20211019011842
+49.37.189.49 1 1 29899 20211021024221
+157.45.25.120 1 1 29899 20211010035106
+122.171.77.31 0 1 32607 
+223.186.98.64 1 1 29899 20211011235049
+52.12.5.218 1 1 38 20211004221300
+49.44.76.196 1 8 199665 20211005004939
+92.118.160.37 1 1 38 20211004010616
+49.206.4.62 1 1 29899 20211002083558
+106.206.38.7 1 1 29899 20211002215337
+157.45.25.14 3 3 89726 20211008210505
+106.206.63.246 3 3 89726 20211008211925
+157.50.35.254 2 2 59798 20211013093401
+157.45.180.16 1 1 29899 20211003100136
+117.192.182.199 2 2 2330 20211017040257
+106.197.210.25 2 2 59827 20211024115127
+27.59.51.91 2 2 59798 20211010004132
+157.45.106.142 1 1 29899 20211014022944
+166.205.190.75 0 2 0 
+139.137.128.40 0 3 572486 
+49.37.182.192 1 1 29899 20211003001352
+223.231.172.60 2 2 59827 20211003211008
+92.118.160.17 2 2 36567 20211018023606
+157.50.48.116 1 1 287974 20211019024900
+93.158.90.85 1 1 38 20211006171900
+223.231.148.118 5 5 149553 20211001222100
+223.231.147.195 2 2 59827 20211009183745
+157.45.60.225 1 1 29899 20211003102945
+49.44.87.167 6 129 30796833 20211005005640
+157.45.151.56 1 1 29899 20211014092814
+61.3.19.58 3 4 79895 20211016015349
+49.206.4.242 4 4 119625 20211016001848
+34.86.35.3 1 1 36517 20211015053758
+106.206.44.23 3 3 89755 20211004093115
+223.186.75.98 4 4 119625 20211004041504
+157.45.154.105 2 2 59798 20211008204951
+34.222.71.33 1 1 38 20211006221731
+34.96.130.30 1 1 38 20211001131112
+1.39.187.59 2 2 59798 20211003012200
+157.50.50.142 1 4 0 20211020213908
+106.51.240.243 2 11 204025 20211005001629
+42.105.127.242 1 1 29899 20211008212147
+157.45.24.209 2 2 59798 20211007061434
+54.218.201.241 1 1 38 20211006221549
+1.39.147.94 2 2 145039 20211003072530
+5.133.192.193 1 1 38 20211002095157
+34.212.205.150 1 1 38 20211008222207
+34.209.85.78 1 1 38 20211004221236
+106.197.208.97 1 1 29899 20211024105109
+34.77.162.0 1 1 38 20211004132138
+157.45.147.75 2 2 59827 20211003094158
+68.94.33.32 0 3 572486 
+106.206.73.159 2 2 59798 20211009111201
+157.45.25.199 1 1 29899 20211001212208
+162.142.125.43 1 1 11774 20211021080424
+1.39.143.163 3 3 89726 20211003051519
+223.231.165.34 3 3 89697 20211003205214
+223.237.238.187 1 1 29899 20211009020547
+54.189.136.22 1 1 38 20211008222238
+54.218.115.177 1 1 38 20211003231111
+49.44.78.133 6 128 30684066 20211019022057
+157.45.202.107 2 2 59798 20211003194755
+157.45.132.244 1 1 29899 20211008205554
+223.237.226.14 1 1 29899 20211007081741
+157.45.251.168 1 1 29899 20211008203914
+45.26.236.245 0 1 32607 
+157.45.117.14 5 5 149495 20211008204433
+106.197.200.10 1 1 29899 20211003095639
+157.45.105.228 1 1 29899 20211010024942
+157.50.47.127 1 1 29899 20211020011442
+73.0.21.30 0 2 65214 
+98.219.73.61 0 1 32607 
+157.45.2.247 3 3 89755 20211004034929
+52.33.101.5 1 1 38 20211003231235
+157.47.119.20 1 1 29899 20211010095230
+52.39.102.31 1 1 38 20211003231219
+157.50.56.49 2 2 59798 20211008215134
+76.108.14.182 0 1 32607 
+106.197.210.77 2 2 59856 20211003104000
+157.45.215.143 4 4 119654 20211004094743
+73.245.237.51 0 3 572486 
+103.50.169.139 1 1 38 20211006045055
+49.44.85.105 3 55 3224942 20211026025410
+92.118.160.9 1 1 36517 20211016013245
+27.59.107.9 4 4 119625 20211012003556
+27.59.67.156 2 2 59798 20211005085625
+54.244.203.45 1 1 38 20211002223843
+71.228.121.107 0 6 716867 
+49.37.180.255 1 1 29899 20211013105321
+137.52.180.5 0 1 32607 
+54.187.65.143 1 1 38 20211005223641
+157.45.51.204 1 1 29899 20211001075122
+223.186.104.123 1 1 29899 20211008204813
+49.44.67.133 1 1 29899 20211012014306
+115.110.224.178 3 4 78916 20211005045827
+50.240.36.57 0 3 572486 
+208.191.77.229 0 3 572486 
+223.231.164.105 4 6 153392 20211003045948
+167.248.133.60 1 1 11764 20211021193916
+157.45.135.153 1 1 29899 20211012213143
+34.96.130.25 1 1 36529 20211012063109
+157.45.115.7 2 2 59827 20211003105239
+157.45.152.226 4 4 119596 20211008211610
+139.137.128.46 0 3 572486 
+202.38.182.132 6 129 30685819 20211017233724
+157.45.189.34 2 2 59798 20211005212026
+157.38.100.78 3 3 89726 20211011213627
+106.197.215.102 2 2 59798 20211002083151
+1.39.176.14 1 1 29899 20211009210224
+82.145.215.206 2 2 76 20211006211532
+49.206.11.56 4 4 119596 20211003101327
+79.76.16.71 0 1 32607 
+223.186.157.114 1 2 503952 20211022212046
+23.31.33.180 0 1 32607 
+18.223.131.48 1 1 0 20211006151921
+157.50.60.157 1 18 503952 20211023005618
+54.202.172.203 1 1 38 20211007222757
+157.45.153.246 3 3 89697 20211003095642
+42.105.127.164 1 1 29899 20211009111013
+157.50.46.168 1 6 24388220 20211020023255
+92.118.160.1 1 1 38 20211008195517
+96.75.72.105 0 1 32607 
+157.45.31.69 1 1 29899 20211003023813
+157.45.34.215 1 1 29899 20211008211332
+34.222.5.115 1 1 38 20211002223834
+147.182.252.238 1 1 38 20211002031531
+157.45.3.149 1 1 29899 20211002195229
+157.45.161.230 3 3 89726 20211003093321
+34.216.126.209 1 1 38 20211007222727
+106.206.64.83 1 1 29899 20211002113714
+223.186.8.250 1 3 0 20211013005209
+157.45.105.30 1 1 29899 20211017231932
+34.86.35.22 1 1 38 20211001164648
+157.45.102.206 2 2 59827 20211011010759
+174.204.69.122 0 1 32607 
+106.206.7.210 5 5 149495 20211016042154
+157.50.36.211 3 3 89697 20211010001451
+43.254.162.62 1 1 29899 20211011075833
+157.45.177.34 2 2 59827 20211003092721
+34.214.83.192 1 1 38 20211005223702
+106.197.212.6 1 1 29899 20211017032055
+157.45.125.32 1 1 29899 20211009015622
+34.86.35.9 1 1 38 20211005003346
+34.77.162.23 1 1 38 20211008161701
+157.50.45.158 0 1 7121006 
+223.231.167.200 1 19 6328468 20211019014742
+157.50.47.140 2 2 59827 20211012014651
+137.226.113.44 1 1 38 20211007184337
+157.45.158.79 1 1 29899 20211010194734
+223.186.10.44 1 1 29899 20211022100232
+223.237.204.40 1 1 29899 20211003061215
+223.186.89.179 1 1 29899 20211026051718
+1.39.163.220 1 1 29899 20211004132453
+223.186.141.237 2 2 59798 20211002083846
+42.105.122.162 2 2 59827 20211004070051
+42.105.122.188 1 1 29928 20211004065750
+223.186.178.45 1 1 29899 20211003033132
+85.215.222.21 1 1 38 20211001173301
+182.79.221.199 4 55 2949135 20211018041757
+182.79.251.75 6 128 30684400 20211019031431
+157.45.205.71 1 1 29899 20211004041230
+157.50.61.52 3 3 89726 20211013093801
+13.37.235.44 1 1 0 20211007121949
+49.206.7.194 1 1 29899 20211008211103
+223.228.33.175 1 1 29899 20211003093203
+27.59.113.95 1 1 29899 20211008232218
+139.137.128.60 0 3 572486 
+73.0.213.89 0 1 32607 
+223.186.134.252 2 2 59827 20211008215547
+157.45.124.57 1 1 29899 20211013105046
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20211001 48 179 8632444 10
+20211002 15 15 299180 12
+20211003 78 182 8140155 33
+20211004 52 105 3089809 19
+20211005 154 890 100360335 14
+20211006 92 139 2191953 10
+20211007 42 52 663318 11
+20211008 59 177 8468459 21
+20211009 113 417 16640644 9
+20211010 10 12 298990 7
+20211011 22 133 6366461 9
+20211012 204 595 120620249 14
+20211013 47 353 106183558 10
+20211014 79 260 9360913 6
+20211015 2 2 66416 2
+20211016 9 10 265936 4
+20211017 141 647 97213579 7
+20211018 354 1482 217782281 13
+20211019 147 1396 437552660 15
+20211020 60 311 67668021 6
+20211021 55 280 44899699 6
+20211022 31 347 75125390 5
+20211023 101 737 81072161 4
+20211024 3 3 89726 2
+20211025 111 753 110789466 4
+20211026 30 239 12716933 7
+20211027 26 248 34455291 6
+20211028 145 1684 1613225054 2
+20211029 3 54 3224832 1
+20211030 86 86 940432 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+30s-2mn 20
+15mn-30mn 21
+30mn-1h 16
+1h+ 13
+2mn-5mn 24
+5mn-15mn 37
+0s-30s 140
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 126
+/moduleigtt/admin/dashboard.php 436 7497379 8 10
+/moduleigtt/admin/viewdetails.php 361 1802101 1 9
+/kpl/ 195 5831378 105 105
+/ 164 1569593 48 49
+/moduleigtt/ 76 12072257 19 10
+/spectrafin/ 74 657462 27 14
+/moduleigtt/admin/ 50 109912 27 3
+/moduleigtt/admin/customerpdf.php 49 5431483 0 8
+/moduleigtt/admin/revisequotation.php 46 1771 0 0
+/moduleigtt/admin/edit.php 42 7574590 0 0
+/decanvas/ 42 49297 9 6
+/moduleigtt/wp-content/handler.php 41 6397 0 6
+/test_moduleigtt/admin/dashboard.php 32 1816892 0 2
+/moduleigtt/handletypedata.json 26 11137310 3 3
+/spectrafin/about-us.html 23 76738 8 5
+/moduleigtt/finishcolordata.json 22 316365 0 0
+/moduleigtt/admin/assets/fonts/webfonts/fa-solid-900.woff2 22 1747768 0 0
+/moduleigtt/appliances.json 22 30261 0 0
+/moduleigtt/wp-content/blog/ElegantIcons.woff 22 1400608 0 1
+/moduleigtt/admin/assets/fonts/ico-font/icofont.woff2 21 11295228 0 0
+/test_moduleigtt/admin/viewdetails.php 21 84721 0 1
+/moduleigtt/wp-content/themes/dor/framework/lib/icons-pack/ion-icons/fonts/ionicons.ttf 20 3774480 0 6
+/moduleigtt/admin/deletequotation.php 20 720 0 0
+/test_moduleigtt/ 20 3590497 1 0
+/spectrafin/contact.php 19 1151 0 0
+/test_moduleigtt/portfolio/portfolio-chestofdrawers.html 3 653973 0 0
+/test_moduleigtt/portfolio/portfolio-Wardrobeopenable.html 3 646776 0 0
+/test_moduleigtt/portfolio/portfolio-murphybed.html 1 218009 0 0
+/test_moduleigtt/portfolio/portfolio-Straightkitchen.html 3 438061 0 0
+/spectrafin/services%20-%20Copy.html 4 28484 0 0
+/test_moduleigtt/admin/editDetailsInsert.php 1 501 0 0
+/test_moduleigtt/admin/edit.php 8 1571890 0 0
+/spectrafin/fonts/glyphicons-halflings-regular.woff2 1 18028 0 1
+/test_moduleigtt/portfolio/portfolio-Wardrobesliding.html 2 432305 0 0
+/test_moduleigtt/admin/revisequotation.php 6 254 0 0
+/moduleigtt/Decorurhome.html 2 65470 0 0
+/decanvas/quotation/admin_invoice 1 537 0 1
+/switchdirection/ 7 5234 1 2
+/moduleigtt/admin/index.php 2 2201 0 1
+/spectrafin/fonts/flaticon.woff 14 431592 0 1
+/spectrafin/calculator.html 12 50448 0 0
+/moduleigtt/wp-content/blog/ionicons.ttf 2 377448 0 1
+/moduleigtt/portfolio/portfolio-Straightkitchen.html 1 218022 0 0
+/fpdf/invoice-form.php 1 367 1 1
+/test_moduleigtt/portfolio/portfolio-kitchen%20Island.html 4 860144 0 0
+/test_moduleigtt/admin/finishcolordata.json 2 30130 0 1
+/test_moduleigtt/portfolio/portfolio-kitchen%20U-shape.html 1 217231 0 0
+/test_moduleigtt/admin/assets/fonts/ico-font/icofont.woff2 4 2151472 0 1
+/moduleigtt/portfolio/portfolio-murphybed.html 2 436014 0 0
+/test_moduleigtt/portfolio/portfolio-Wardrobewalkin.html 2 433611 0 0
+/test_moduleigtt/portfolio/portfolio-kitchen%20L-shape%20.html 4 864505 0 0
+/test_moduleigtt/wp-content/themes/dor/framework/lib/icons-pack/ion-icons/fonts/ionicons.ttf 6 1132344 0 0
+/test_moduleigtt/portfolio/portfolio-console.html 2 439371 0 0
+/moduleigtt/portfolio/portfolio-framedcot.html 1 217954 0 0
+/test_moduleigtt/portfolio/ 13 1202798 0 0
+/test_moduleigtt/portfolio/portfolio-dresserunit.html 1 220683 0 0
+/test_moduleigtt/wp-content/handler.php 9 2131 0 0
+/test_moduleigtt/portfolio/portfolio-framedcot.html 1 218443 0 0
+/moduleigtt/profile-ganesh.html 1 13645 0 0
+/test_moduleigtt/appliances.json 8 11528 0 1
+/test_moduleigtt/portfolio/portfolio-dining.html 5 1084042 0 0
+/moduleigtt/aboutus.html 1 221728 0 0
+/test_moduleigtt/handletypedata.json 9 4042284 0 0
+/moduleigtt/portfolio/portfolio-living.html 3 643188 0 0
+/spectrafin/services.html 9 71302 0 1
+/moduleigtt/admin/editrequirements.php 1 0 0 0
+/test_moduleigtt/portfolio/portfolio-living.html 3 650718 0 0
+/spectrafin/howwedo%20-%20Copy.html 5 29072 0 0
+/test_moduleigtt/portfolio/portfolio-wallpanelling.html 1 217997 0 0
+/moduleigtt/profile-ramya.html 3 27196 1 1
+/moduleigtt/howweworks.html 2 419843 0 0
+/spectrafin/documentc%20-%20Copy.html 3 14685 0 0
+/test_moduleigtt/portfolio/portfolio-barunit.html 6 1092747 0 0
+/moduleigtt/portfolio/portfolio-crockerycomebarunit.html 1 217247 0 0
+/test_moduleigtt/portfolio/portfolio-foyer.html 2 439361 0 0
+/test_moduleigtt/portfolio/portfolio-BookShelves.html 3 650046 0 0
+/test_moduleigtt/portfolio/portfolio-BedroomStudyroom.html 3 651211 0 0
+/test_moduleigtt/wp-content/Uploaddesigtoserver.php 1 30 0 0
+/moduleigtt/portfolio/portfolio-barunit.html 3 650911 0 1
+/test_moduleigtt/portfolio/portfolio-Vanitycounter.html 2 432712 0 0
+/resetpass 2 2302 1 0
+/test_moduleigtt/portfolio/portfolio-BedroomTvspace.html 2 437137 0 0
+/spectrafin/howitworks.html 6 27750 0 1
+/moduleigtt/portfolio/portfolio-Wardrobeopenable.html 1 216758 0 0
+/moduleigtt/profile-prakash.html 1 13645 0 0
+/moduleigtt/portfolio/portfolio-dresserunit.html 1 217217 1 0
+/moduleigtt/admin/editDetailsInsert.php 17 10154 0 0
+/decanvas/login/logout 1 0 0 0
+/moduleigtt/admin/editdetails.php 12 2365962 1 0
+/decanvas/login 1 1165 0 0
+/moduleigtt/profile-munirao.html 2 27554 0 0
+/spectrafin/contact.html 19 100345 1 2
+/moduleigtt/portfolio/portfolio-BedroomTvspace.html 1 217968 0 0
+/moduleigtt/admin/handletypedata.json 9 4019166 0 0
+/moduleigtt/portfolio/ 8 1444644 2 0
+/test_moduleigtt/finishcolordata.json 8 120520 0 0
+/moduleigtt/admin/finishcolordata.json 9 135585 0 0
+/test_moduleigtt/admin/handletypedata.json 2 893148 0 0
+/test_moduleigtt/admin/customerpdf.php 6 1235283 0 0
+/moduleigtt/portfolio/portfolio-dining.html 2 426042 0 0
+/spectrafin/project-single.html 10 58389 0 1
+/spectrafin/ourstoriesretail.html 4 18423 0 0
+/spectrafin/retail.html 5 33747 0 0
+/moduleigtt/portfolio/portfolio-pooja.html 1 216772 0 0
+/moduleigtt/portfolio/portfolio-BookShelves.html 2 426048 0 1
+/test_moduleigtt/portfolio/portfolio-crockerycomebarunit.html 3 662267 0 0
+/bwflyers/bwflyerfeel1.html 2 145039 1 1
+/test_moduleigtt/portfolio/portfolio-Displayunit.html 1 219589 0 0
+/spectrafin/fonts/fontawesome-webfont3e6e.woff2 18 1388880 0 1
+/moduleigtt/portfolio/portfolio-kitchen%20L-shape%20.html 2 427352 0 0
+/test_moduleigtt/admin/assets/fonts/webfonts/fa-solid-900.woff2 4 317776 0 0
+/spectrafin/howitworks%20-%20Copy.html 5 22899 0 1
+/test_moduleigtt/wp-content/blog/ElegantIcons.woff 7 445648 0 0
+/spectrafin/register.html 9 38068 0 0
+/test_moduleigtt/portfolio/portfolio-kitchen%20Parallel.html 2 434205 0 0
+/spectrafin/documentc.html 8 24540 1 1
+/spectrafin/our%20stories.html 4 21512 0 0
+/test_moduleigtt/portfolio/portfolio-crockery.html 3 441433 0 0
+/spectrafin/howwedo.html 9 67710 0 0
+/moduleigtt/profile-manjunath.html 1 13736 0 0
+/moduleigtt/portfolio/portfolio-foyer.html 2 435110 0 1
+/moduleigtt/portfolio/portfolio-kitchen%20U-shape.html 3 639149 0 0
+/spectrafin/fonts/revicons90c690c6.woff 17 128112 0 5
+/test_moduleigtt/admin/ 6 13206 0 0
+/moduleigtt/portfolio/portfolio-kitchen%20Parallel.html 1 212972 0 0
+/aakruthi-erp/ 13 26640 4 4
+END_SIDER

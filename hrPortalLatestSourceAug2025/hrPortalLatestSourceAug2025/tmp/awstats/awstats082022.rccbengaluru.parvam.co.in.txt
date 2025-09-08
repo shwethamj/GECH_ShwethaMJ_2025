@@ -1,0 +1,1101 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202208 will be lost/reset.
+# Last config file used to build this data file was /home4/parvamco/tmp/awstats/awstats.rccbengaluru.parvam.co.in.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2023                
+POS_TIME 2701                
+POS_VISITOR 22070               
+POS_DAY 31887               
+POS_DOMAIN 3566                
+POS_LOGIN 4229                
+POS_ROBOT 4384                
+POS_WORMS 5235                
+POS_EMAILSENDER 5366                
+POS_EMAILRECEIVER 5509                
+POS_SESSION 32677               
+POS_SIDER 32884               
+POS_FILETYPES 5644                
+POS_DOWNLOADS 5908                
+POS_OS 5956                
+POS_BROWSER 6345                
+POS_SCREENSIZE 8295                
+POS_UNKNOWNREFERER 8369                
+POS_UNKNOWNREFERERBROWSER 9044                
+POS_ORIGIN 9570                
+POS_SEREFERRALS 9709                
+POS_PAGEREFS 9889                
+POS_SEARCHWORDS 10037               
+POS_KEYWORDS 10189               
+POS_MISC 2365                
+POS_ERRORS 10248               
+POS_CLUSTER 4085                
+POS_SIDER_404 10375               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20220901013252 38 9410 14380997489841
+FirstTime 20220801043447
+LastTime 20220831181231
+LastUpdate 20220901062857 38 0 37 0 0
+TotalVisits 318                 
+TotalUnique 249                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 255                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+RealPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+FlashSupport 0 0 0
+TotalMisc 0 0 0
+PDFSupport 0 0 0
+AddToFavourites 0 0 0
+QuickTimeSupport 0 0 0
+DirectorSupport 0 0 0
+JavascriptDisabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 20 20 569037 74 97 3048577
+1 18 83 5198550 90 126 2020640
+2 7 7 78456 68 126 1256951
+3 91 211 7760969 82 104 1509358
+4 6 6 271790 59 103 1196712
+5 14 14 787056 61 83 1585770
+6 8 12 312345 49 87 737449
+7 17 18 576168 129 189 2377673
+8 24 109 8800917 70 116 1422709
+9 8 8 509832 135 153 1222625
+10 20 157 12562763 71 142 2590129
+11 11 11 312788 97 150 2290329
+12 10 10 337902 105 244 5627142
+13 14 14 315712 74 194 3960527
+14 14 14 509164 109 156 1523225
+15 42 42 407521 87 126 1878892
+16 38 38 942435 733 806 2154671
+17 18 19 660942 1123 1174 1024727
+18 14 14 462545 175 192 1703195
+19 36 220 16414995 117 193 1255476
+20 11 79 6525675 117 141 595860
+21 8 8 260305 39 59 2144478
+22 6 6 243204 67 97 1869255
+23 30 102 7000602 75 90 650118
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 33
+us 303 662 38918383
+in 35 361 27967825
+cn 21 21 419580
+ru 19 19 795967
+au 13 13 60099
+gb 11 11 276331
+de 11 11 108554
+ro 10 61 822489
+ca 9 9 611454
+ua 6 6 244926
+nl 5 5 73974
+nz 5 5 15798
+se 4 4 79920
+ir 4 4 72212
+ch 4 4 7718
+kr 3 3 19980
+it 3 3 135642
+hk 2 2 163284
+cl 2 2 53999
+fr 2 2 19980
+lt 2 2 39960
+at 1 1 19980
+sa 1 1 19980
+pl 1 1 81642
+id 1 1 81642
+pk 0 1 568772
+bg 1 1 0
+hn 1 1 19980
+ar 1 1 0
+mu 1 1 19980
+gr 1 1 0
+dk 1 1 81642
+mg 1 1 19980
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 18
+Googlebot/ 380 4156928 20220831083744 0
+robot 376 3155269 20220816015630 0
+bingpreview 294 7815244 20220830133529 0
+bingbot/ 143 23742952 20220831233711 0
+Applebot/ 43 401520 20220829072019 0
+bot[\s_+:,\.\;\/\\-] 29 362714 20220830020425 0
+Googlebot\-Image/ 16 2098072 20220830135935 0
+Go\-http\-client/ 15 848492 20220830050059 0
+facebookexternalhit/ 10 262342 20220827015144 0
+YandexBot/ 6 45245 20220830231520 0
+no_user_agent 5 408210 20220814135048 0
+DuckDuckGo\-Favicons\-Bot/ 4 1177504 20220822225506 0
+Apache\-HttpClient/ 3 0 20220811221948 0
+Dalvik/ 2 165608 20220823110923 0
+^foo$ 2 163284 20220829050543 0
+baidu 1 19980 20220814073553 0
+yandex 1 568772 20220820001432 0
+LinkedInBot/ 1 19980 20220804111614 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+jpeg 68 11896342 0 0
+css 154 1396560 0 0
+woff 7 386540 0 0
+ttf 21 2164228 0 0
+php 211 1835147 0 0
+html 235 9473586 0 0
+js 318 3090500 0 0
+woff2 11 848760 0 0
+jpg 145 29858589 0 0
+png 52 10871421 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 24
+macosx 1 1
+androidnougat 72 72
+androidkitkat 13 13
+androidlollipop 3 3
+macosx8 2 2
+macosx9 6 6
+macosx13 74 8
+win7 42 22
+macosx14 1 1
+macosx10 2 2
+ios_iphone 82 17
+android 225 16
+unix 4 4
+macosx11 2 2
+win10 269 184
+linux 145 28
+win8.1 8 8
+winlong 2 2
+winxp 8 8
+Unknown 129 73
+android10 56 4
+win8 1 1
+winnt 2 2
+macosx15 73 6
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 91
+chrome88.0.4240.193 2 2
+firefox45.0 1 1
+chrome69.0.3486.111 1 1
+msie9.0 20 0
+chrome74.0.3694.0 71 5
+chrome66.0.3359.181 1 1
+safari 1 1
+msie6.0 1 1
+chrome91.0.4472.114 23 23
+firefox40.1 1 1
+chrome89.0.4387.0 2 2
+firefox66.0 10 10
+chrome26.0.1410.65 1 1
+chrome60.0.3112.107 3 3
+chrome83.0.4103.24 1 1
+chrome90.0.4430.93 2 2
+netscape5.0 1 1
+chrome79.0.3945.130 1 1
+chrome95.0.4638.69 10 10
+chrome79.0.3945.88 2 2
+chrome84.0.4147.89 1 1
+firefox 2 2
+safari10.0 55 4
+msie11.0 1 1
+chrome11.0.696.71 1 1
+chrome74.0.3729.169 10 10
+edge18 2 2
+chrome78.0.3904.108 6 6
+chrome66.0.3355.4 2 2
+chrome88.0.4324.104 1 1
+chrome80.0.3987.116 1 1
+chrome35.0.3319.102 1 1
+chrome96.0.4664.45 2 2
+chrome101.0.0.0 73 5
+chrome89.0.4389.114 13 13
+chrome103.0.0.0 183 24
+chrome41.0.2225.0 1 1
+chrome84.0.4147.105 3 3
+firefox88.0 4 4
+chrome64.0.3496.43 1 1
+safari14.1.2 69 4
+chrome41.0.2227.0 1 1
+chrome28.0.1468.0 1 1
+chrome36.0.1985.125 2 2
+chrome90.0.4400.8 1 1
+chrome5.0.375.99 1 1
+chrome47.0.2526.106 1 1
+safari13.0.3 12 12
+chrome83.0.4103.97 16 16
+firefox83.0 1 1
+chrome61.0.3163.98 69 69
+chrome101.0.4951.67 1 1
+chrome102.0.5005.115 72 5
+chrome32.0.1664.3 1 1
+chrome104.0.0.0 70 4
+Unknown 49 49
+chrome83.0.4103.61 3 3
+chrome90.0.4430.72 3 3
+chrome90.0.4430.85 7 7
+chrome39.0.2171.95 1 1
+chrome63.0.3239.26 2 2
+chrome92.0.4515.32 2 2
+chrome71.0.3542.0 71 5
+firefox59.0 1 1
+chrome51.0.2704.84 1 1
+msie7.0 1 1
+chrome34.0.1866.237 1 1
+chrome45.0.2454.94 1 1
+iphone 1 1
+chrome35.0.1916.47 3 3
+chrome103.0.5060.129 1 0
+chrome37.0.2049.0 2 2
+chrome86.0.4240.75 54 54
+chrome44.0.2403.157 1 1
+chrome63.0.3239.132 2 2
+chrome73.0.3683.90 2 2
+firefox89.0 1 1
+chrome24.0.1309.0 2 2
+mozilla 81 25
+chrome76.0.3809.132 9 9
+firefox103.0 2 2
+chrome102.0.0.0 2 2
+firefox48.0 1 1
+android 13 13
+chrome80.0.3987.149 5 5
+chrome83.0.4093.3 1 1
+chrome83.0.4086.0 1 1
+firefox40.0 1 1
+chrome87.0.4280.101 56 4
+chrome76.0.3809.100 1 1
+msie10.0 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 8
+Mozilla/5.0_(compatible;_Dataprovider.com) 20220820195952
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20220827090513
+\\\ 20220807165806
+WhatsApp/2.22.15.74_A 20220804195458
+Python/3.7_aiohttp/3.7.4.post0 20220816062958
+panscient.com 20220812152949
+wp_is_mobile 20220815203746
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20220816035025
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 6
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20220816035025
+Python/3.7_aiohttp/3.7.4.post0 20220816062958
+wp_is_mobile 20220815203746
+panscient.com 20220812152949
+\\\ 20220807165806
+WhatsApp/2.22.15.74_A 20220804195458
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 326 346
+From1 4 4
+From2 9 10
+From3 0 0
+From4 146 862
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+www_bing_com 7 7
+www_google_com 2 3
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+404 2449 0
+206 1 8727
+406 922 207468
+409 233 18177
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 377
+/xmlrpc.php 142 -
+/cgi-bin//RxR.php 1 -
+/news/ 2 -
+/WP 2 -
+/v2/ 1 -
+//wp-content/plugins/ioptimizations/IOptimizes.php 1 www.google.com
+//wp-admin/admin-post.php 1 www.google.com
+/cms//RxR.php 1 -
+/wp-beckup.php 1 -
+/legion.php 2 www.bing.com
+/wp-includes/css/wp-config.php 2 www.bing.com
+//wp-content/king.php 1 www.google.com
+/sql/ 1 -
+/sites/default/files/ALFA_DATA 2 www.bing.com
+/info.php 1 -
+//admin 2 -
+/templates/beez3/ALFA_DATA 2 www.bing.com
+/index.asp 1 http://misc.yahoo.com.cn/
+/templates/beez3/index.php 2 www.bing.com
+/blog/wp-admin/install.php 1 -
+/humans.txt 3 -
+/2018 2 -
+/new 9 -
+/language/en-GB/en-GB.xml 2 -
+/wp-content/uploads/ALFA_DATA 2 www.bing.com
+/wp_wrong_datlib.php 2 www.bing.com
+/db/ 1 -
+/z.php 2 www.bing.com
+/.well-known/ALFA_DATA 2 www.bing.com
+/admin/assets/plugins/file-uploader/server/php/index.php 1 -
+/2020/xmlrpc.php 140 -
+/web/wp-json/wp/v2/users 1 -
+/blog/wp-login.php 1 http://rccbengaluru.parvam.co.in
+/blog/ 13 -
+/WWW 2 -
+/oldsite 2 -
+/9o64mw8z.php 1 http://rccbengaluru.com/9o64mw8z.php
+/public/_ignition/health-check/ 1 -
+/wp2/ 1 -
+/feed/ 9 -
+/wp-content/mu-plugins/db-safe-mode.php 2 www.bing.com
+/wp-content/mu-plugins-old/index.php 1 -
+/echyfzoz.php 1 www.google.com
+/wp-includes/ID3/license.txt 9 -
+//wp-content/plugins/formcraft/file-upload/server/php/ 1 www.google.com
+/www 2 -
+/old-site/ 1 -
+/2020/wp-json/wp/v2/users 1 -
+/bak/ 1 -
+/2019 2 -
+/OLD 2 -
+/test_404_page/ 2 -
+/prod 1 -
+/admin/controller/extension/extension/alfacgiapi 2 www.bing.com
+/TEST 2 -
+/sitio 2 -
+/web/xmlrpc.php 140 -
+/MT/mt-xmlrpc.cgi 1 -
+/bk/ 1 -
+/admin/.env 3 -
+/archives.php 2 www.bing.com
+/plugins/system/debug/debug.xml 4 -
+/main 9 -
+/.aws/.credentials.php 1 -
+/backup/xmlrpc.php 140 -
+/wp-plugins.php 2 www.bing.com
+/upload.php 2 www.bing.com
+/wp-stream.php 1 -
+/new/wp-admin/install.php 1 -
+/2020 2 -
+/administrator/language/en-GB/en-GB.xml 4 -
+/phpMyAdmin/ 1 -
+/old/ 13 -
+/WORDPRESS 2 -
+/wp-includes/customize/class-wp-customize-nav-menu.php 3 -
+/wordpress/wp-login.php 1 http://rccbengaluru.parvam.co.in
+/backup/ 13 -
+//wp-includes/css/buttons.css 2 -
+/wp-admin/style.php 2 www.bing.com
+/wp-content/plugins/fluid_forms/file-upload/server/php/index.php 1 -
+/wp-booking.php 2 www.bing.com
+/alfa.php 2 www.bing.com
+/blog/wp-content/plugins/instabuilder2/assets/css/instabuilder2.css 4 www.google.com
+/core 1 -
+/adminer.php 2 -
+/Old 2 -
+/old-site 2 -
+/doc.php 2 www.bing.com
+/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js 102 http://rccbengaluru.com/
+//wp-content/plugins/apikey/a57bze8931.php 1 www.google.com
+/installer-backup.php 2 -
+/WordPress 2 -
+/admin/templates/date/plugins/file-uploader/server/php/index.php 1 -
+/wordpress/wp-admin/install.php 1 -
+/wp-admin/install.php 2 -
+/wp-content/plugins/simple-ads-manager/css/jslider.round.plastic.css 1 -
+/up.php 2 www.bing.com
+/blog/wp-includes/customize/class-wp-customize-nav-menu.php 1 -
+/admin/controller/extension/extension/ALFA_DATA 2 www.bing.com
+/wp-content/plugins/backup_index.php 2 www.bing.com
+/wp-content/alfacgiapi/perl.alfa 3 www.google.com
+/admin/ 1 -
+/phpinfo.php 1 -
+/blog/xmlrpc.php 140 -
+/MT//RxR.php 1 -
+/upload/server/php-directory/index.php 2 -
+/NEW 2 -
+/wp-content 1 -
+/v1/ 1 -
+/2020/ 13 -
+/wp-includes/images/css.php 2 www.bing.com
+/credentials.php 1 -
+/web/ 13 -
+/wp-content/uploads/wp-stream.php 1 -
+/old/xmlrpc.php 140 -
+/wp-includes/wp-class.php 2 www.bing.com
+/main/ 1 -
+/__media__/js/netsoltrademark.php 1 -
+/sql.php 1 -
+/view.php 1 -
+/system_log.php 2 www.bing.com
+/style.php 2 www.bing.com
+//abruzi.php4 1 www.google.com
+/wp-content/plugins/dzs-zoomsounds/savepng.php 1 -
+/assets/icon/apple-touch-icon-158-precomposed.png 8 http://rccbengaluru.com/details.php
+//wp-content/plugins/ioptimization/IOptimize.php 1 www.google.com
+//wp-content/plugins/cherry-plugin/admin/import-export/a57bze8931.php 1 www.google.com
+/SITE 2 -
+/_ignition/health-check/ 1 -
+/wp/wp-admin/install.php 1 -
+/blog/mt-xmlrpc.cgi 1 -
+/wp-old 2 -
+/info.rccbengaluru@gmail.com 4 -
+/wordpress/wp-includes/customize/class-wp-customize-nav-menu.php 1 -
+/asset-manifest.json 1 http://rccbengaluru.com/
+/cgi-bin/MT//RxR.php 1 -
+/shell.php 2 www.bing.com
+/wp-content/plugins/instabuilder2/assets/css/instabuilder2.css 4 www.google.com
+/shop 2 -
+/temp/ 1 -
+//wp-content/plugins/formcraft/file-upload/server/php/files/a57bze8931.php 1 www.google.com
+/phpmyadmin/ 1 -
+/wp-includes/ALFA_DATA 2 www.bing.com
+/cms 4 -
+/wp-content/ALFA_DATA/alfacgiapi/perl.alfa 3 www.google.com
+/wp-json/wp/v2/users 1 -
+/dev/ 1 -
+/Wp 2 -
+/wp1/ 1 -
+/2018/ 3 -
+/public/plugins/file-uploader/server/php/index.php 1 -
+//wp-content/plugins/instabuilder2/cache/up.php 1 www.google.com
+/wp-admin 1 -
+/wp-content/plugins/wp-file-manager/lib/php/connector.minimal.php 1 -
+/Backup 2 -
+/BACKUP 2 -
+/wp-content/cgialfa 2 www.bing.com
+/phpinf.php 1 -
+/alfacgiapi 2 www.bing.com
+/cgi/mt-xmlrpc.cgi 1 -
+/wp-content/uploads/wp-blockdown.php 1 -
+/wp/ 13 -
+/wso.php 2 www.bing.com
+/wp-content/plugins/formcraft/file-upload/server/php/upload.php 1 -
+/wp-content/uploads/alfacgiapi 2 www.bing.com
+/Site 2 -
+/installer%20%281%29.php 2 -
+/tel:919611252554 24 http://rccbengaluru.com/tel:919611252554
+/olux.php 2 www.bing.com
+/sitemap.xml 1 -
+/test/wp-admin/install.php 1 -
+/2019/ 3 -
+/blog//RxR.php 1 -
+/yvbrtnet.php 1 www.google.com
+/templates/beez3/alfacgiapi 2 www.bing.com
+/myadmin/ 1 -
+/wp-backup-sql-302.php 2 www.bing.com
+/protal 1 -
+/wp-content/plugins/login-wall-lurbn/login_wall.php 1 http://misc.yahoo.com.cn/
+/wp-content/db-cache.php 2 www.bing.com
+//RxR.php 1 -
+/theme/assets/global/plugins/file-uploader/server/php/index.php 1 -
+/login 1 -
+/site/wp-admin/install.php 1 -
+/ALFA_DATA 2 www.bing.com
+/xleet.php 2 www.bing.com
+/info.rccbengaluru 1 -
+/wp-links-opml.php 2 -
+/blog 7 -
+/wordpress 9 -
+/wp-includes/css/css.php 2 www.bing.com
+/wp-content/export.php 2 www.bing.com
+/moduless.php 2 www.bing.com
+/cgi-bin/mt/mt-xmlrpc.cgi 1 -
+/old/wp-json/wp/v2/users 1 -
+/mt-xmlrpc.cgi 1 -
+/mysqladmin/ 1 -
+/bac 2 -
+/cgi-bin/mt//RxR.php 1 -
+/wordpress/xmlrpc.php 140 -
+/web/wp-admin/install.php 1 -
+/2021 2 -
+//wp-content/plugins/gatewayapi/inc/a57bze8931.php 1 www.google.com
+/Blog 2 -
+/testing 1 -
+/wp-admin/setup-config.php 1 -
+/class-wp-widget-archives.php 1 -
+/Test 2 -
+/wp-content/plugins/ubh/up.php 2 www.bing.com
+/old 9 -
+/sito 2 -
+/2022/ 2 -
+/wp-includes/cgialfa 2 www.bing.com
+/.credentials.php 1 -
+/wp/wp-json/wp/v2/users 1 -
+/wikindex.php 1 -
+/site/xmlrpc.php 140 -
+/New 2 -
+/ads.txt 5 -
+/file-uploader/server/php/index.php 1 -
+/wp-content/alfacgiapi 2 www.bing.com
+/ALFA_DATA/alfacgiapi/perl.alfa 6 www.google.com
+/BLOG/ 1 -
+/newsite 1 -
+/debug/default/view 1 -
+/bk 4 -
+/cms/mt-xmlrpc.cgi 1 -
+/admin.php 1 -
+/wp-plain.php 3 www.google.com
+/wp-content/ 5 -
+/test/ 3 -
+/pma/ 1 -
+/templates/beez3/cgialfa 2 www.bing.com
+/wp-commentin.php 3 -
+/sites/default/files/alfacgiapi 2 www.bing.com
+//wp-content/plugins/wp-engine-module/wp-engine.php 1 www.google.com
+/wp/wp-login.php 1 http://rccbengaluru.parvam.co.in
+/Www 2 -
+/new-site/ 1 -
+/Shop 2 -
+/backup 5 -
+/.well-known/alfacgiapi 2 www.bing.com
+//wp-content/plugins/dzs-zoomsounds/a57bze8931.php 1 www.google.com
+/wp-includes 1 -
+/upload/server/php-files/index.php 1 -
+/export.php 2 www.bing.com
+/mambots/content/moscode.xml 2 -
+/wp-admin/ALFA_DATA 2 www.bing.com
+/cgialfa 2 www.bing.com
+/old-index.php 1 rccbengaluru.com
+/info.rccbengaluru%40gmail.com 2 http://rccbengaluru.com/
+/old-wp/ 1 -
+/ups.php 2 www.bing.com
+/.aws.yml 1 -
+/cms/wp-admin/install.php 1 -
+/wp-signin.php 2 www.bing.com
+/demo/ 13 -
+/admin/controller/extension/extension/cgialfa 2 www.bing.com
+/defau1t.php 2 www.bing.com
+/wp-blog-post.php 1 -
+/database/ 1 -
+/about.php 2 www.bing.com
+/site 2 -
+/.index.env 1 -
+/s_e.php 2 www.bing.com
+/wp-22.php 1 -
+/new/ 13 -
+/theme/assets/file-uploader/server/php/index.php 1 -
+/radio.php 2 www.bing.com
+/wp-content/plugins/formcraft/file-upload/server/content/upload.php 1 -
+/mt//RxR.php 1 -
+/wp-content/plugins/formcraft/file-upload/server/php/index.php 1 -
+/wp-includes/wp-atom.php 2 www.bing.com
+/shells.php 2 www.bing.com
+/vendor/phpunit/phpunit/LICENSE 1 -
+//wp-content/plugins/apikey/apikey.php 1 www.google.com
+/1index.php 2 www.bing.com
+/wp-admin/alfacgiapi 2 www.bing.com
+//wp-admin/admin-ajax.php 2 www.google.com
+/home 2 -
+/old/wp-admin/install.php 1 -
+//wp-content/uploads/typehub/custom/a57bze8931/.__a57bze8931.php 1 www.google.com
+/phpinfo 1 -
+/cgi-bin/MT/mt-xmlrpc.cgi 1 -
+/bak 2 -
+/backup/wp-admin/install.php 1 -
+/wp.php 2 www.bing.com
+/install/ 1 -
+/2017/ 2 -
+/assets/file-uploader/server/php/index.php 1 -
+/site/ 13 -
+/dhpjl9/ 1 -
+/demo/wp-json/wp/v2/users 1 -
+/wordpress/ 14 -
+/oqebzuku.php 1 www.google.com
+/demo 2 -
+/wordpress/wp-json/wp/v2/users 1 -
+/a.php 2 www.bing.com
+/public/assets/file-uploader/server/php/index.php 1 -
+//wp-content/plugins/ioptimization/a57bze8931.php 1 www.google.com
+/new/xmlrpc.php 140 -
+/s_ne.php 2 www.bing.com
+/site/wp-json/wp/v2/users 1 -
+/admin 1 -
+/gank.php.PhP 2 www.bing.com
+/oldsite/wp-admin/install.php 1 -
+/wp-content/ALFA_DATA 2 www.bing.com
+/opencart/ 2 -
+/mysql/ 1 -
+//wp-content/uploads/kaswara/fonts_icon/a57bze8931/.__a57bze8931.php 1 www.google.com
+/robots.txt 115 -
+/_profiler/phpinfo 3 -
+/mtos/mt-xmlrpc.cgi 1 -
+/mt/mt-xmlrpc.cgi 1 -
+/home/ 1 -
+//wp-content/plugins/wp-file-manager/lib/php/connector.minimal.php 1 www.google.com
+/wp-admin/cgialfa 2 www.bing.com
+/error.php 2 www.bing.com
+/wp/wp-includes/customize/class-wp-customize-nav-menu.php 1 -
+/SHOP 2 -
+/site/wp-includes/customize/class-wp-customize-nav-menu.php 1 -
+//wp-content/plugins/wp-engine-module/a57bze8931.php 1 www.google.com
+/wp-content/uploads/wp-blockup.php 1 -
+/wp-content/outcms.php 2 www.bing.com
+/wp 9 -
+/wp-includes/js/jquery/jquery-migrate.min.js 4 -
+/.well-known/cgialfa 2 www.bing.com
+/beence.php 2 www.bing.com
+/assets/js/file-uploader/server/php/index.php 2 -
+/3index.php 1 -
+/tmp/ 1 -
+/wordpress/wp-content/plugins/instabuilder2/assets/css/instabuilder2.css 4 www.google.com
+/media-admin.php 2 www.bing.com
+/admin/assets/file-uploader/server/php/index.php 1 -
+/2021/ 2 -
+/theme/assets/plugins/file-uploader/server/php/index.php 1 -
+//wp-content/x.php 1 www.google.com
+/joomla/ 2 -
+/1.php 2 www.bing.com
+/wp-admin/css/ 10 binance.com
+/blog/wp-json/wp/v2/users 1 -
+/bc 4 -
+/wp-includes/alfacgiapi 2 www.bing.com
+/alfacgiapi/perl.alfa 6 www.google.com
+/wp/wp-content/plugins/instabuilder2/assets/css/instabuilder2.css 4 www.google.com
+/plugins/filemanager/php/connector.php 1 -
+/demo/xmlrpc.php 140 -
+/mtos//RxR.php 1 -
+/wp-login.php 3 http://rccbengaluru.parvam.co.in
+/admin/upload.php 1 -
+/x.php 2 www.bing.com
+/wp-blockup.php 1 -
+/sites/default/files/cgialfa 2 www.bing.com
+/.well-known/ 10 binance.com
+/test 7 -
+/test.php 2 www.bing.com
+//wp-content/plugins/gatewayapi/inc/css_js.php 1 www.google.com
+/plugins/filemanager/php/connector.minimal.php 1 -
+/cgi-bin/mt-xmlrpc.cgi 1 -
+/defau11.php 2 www.bing.com
+/wp-blockdown.php 1 -
+/phpinfo.html 1 -
+/installer.php 3 -
+/BLOG 2 -
+/cgi//RxR.php 1 -
+/Wordpress 2 -
+/wp-content/uploads/cgialfa 2 www.bing.com
+/cms/ 3 -
+/staging 1 -
+//wp-content/plugins/wp-file-manager-pro/lib/php/connector.minimal.php 1 www.google.com
+/dup-installer/main.installer.php 2 -
+//wp-content/plugins/ioptimizations/a57bze8931.php 1 www.google.com
+/new/wp-json/wp/v2/users 1 -
+/wp-load.php 3 rccbengaluru.com
+/backup/wp-json/wp/v2/users 1 -
+/dev 5 -
+/administrator/help/en-GB/toc.json 4 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 255
+154.6.94.26 35 35 292454 20220812152949
+157.45.196.118 14 99 8523783 20220803084744
+149.56.150.175 12 12 551312 20220820195903
+65.21.206.43 11 11 80801 20220824085943
+20.78.37.35 10 10 199800 20220801162913
+106.208.103.177 8 82 8035743 20220804195558
+20.124.237.69 7 7 49997 20220820013527
+167.71.203.58 6 6 489852 20220831032049
+20.84.102.54 6 6 43670 20220821132530
+42.83.147.34 6 6 119880 20220830192625
+106.197.234.6 5 73 6448524 20220826205038
+120.41.45.194 5 5 99900 20220827134212
+40.88.6.118 5 5 42815 20220819165703
+46.161.11.199 5 5 408210 20220815214857
+54.219.210.95 5 71 5869843 20220814100634
+35.87.215.123 5 71 5869843 20220801230338
+40.117.142.122 5 5 36973 20220820121816
+52.186.138.229 5 5 38697 20220820061617
+40.87.25.126 5 5 51900 20220820005108
+182.237.154.73 5 72 6438615 20220804102413
+52.186.142.27 4 4 30081 20220817233352
+31.14.26.178 4 55 809448 20220815035729
+119.29.156.58 4 4 79920 20220812132544
+144.217.135.226 4 60 5688809 20220820195950
+20.120.24.38 4 4 33572 20220821183033
+185.223.249.197 1 1 0 20220815035746
+20.193.131.12 2 2 163284 20220813005220
+46.232.208.26 1 1 0 20220815023803
+121.91.86.127 2 2 7708 20220815035754
+5.161.140.142 1 1 12272 20220812074337
+188.211.25.132 1 1 0 20220815035755
+168.151.100.95 1 1 0 20220815035755
+20.118.188.137 2 2 163284 20220827221039
+185.223.56.77 1 1 6065 20220815035752
+54.203.169.11 1 1 19980 20220824164600
+193.56.29.171 1 1 19980 20220816062958
+178.158.14.76 2 2 81642 20220803172839
+198.235.24.24 1 1 81642 20220802063713
+3.142.95.109 1 1 19980 20220828020812
+211.176.125.70 1 1 19980 20220817144819
+20.25.189.5 2 2 163284 20220815141951
+110.239.211.223 1 1 0 20220815035745
+110.239.209.2 2 2 14962 20220815035756
+20.109.4.20 1 1 19980 20220808150212
+216.24.213.49 2 2 19980 20220824181645
+205.210.31.11 1 1 81642 20220808172835
+35.89.225.40 1 1 19980 20220820161054
+39.48.163.203 0 1 568772 
+121.91.86.191 1 1 19980 20220815035752
+35.91.69.153 1 1 19980 20220820162002
+162.253.68.187 2 2 19980 20220813173403
+20.225.182.228 1 1 81642 20220811092853
+209.99.179.163 1 1 6884 20220815035751
+167.94.138.47 1 1 19980 20220824123716
+40.87.95.165 1 1 81642 20220802100809
+20.225.220.92 1 1 19980 20220802121420
+23.231.12.212 1 1 19980 20220826053722
+85.202.194.118 1 1 6617 20220829113922
+198.235.24.139 1 1 81642 20220816035025
+159.242.234.205 1 1 19980 20220809152124
+20.168.6.30 1 1 81642 20220831133017
+52.39.80.138 1 1 19980 20220802161940
+20.120.109.247 1 1 19980 20220817172511
+20.193.151.167 2 2 163284 20220815091410
+157.55.39.152 0 4 35653 
+20.25.163.18 1 1 81642 20220813164300
+185.246.172.174 1 1 0 20220815035755
+148.251.123.46 1 1 81642 20220821184249
+20.89.90.180 1 1 19980 20220801235559
+34.217.135.32 1 1 19980 20220820161734
+36.150.60.24 2 2 39960 20220802223514
+216.19.200.134 1 1 8812 20220815035751
+185.107.80.192 2 2 53994 20220830140118
+213.202.228.99 2 2 0 20220823193927
+20.163.127.94 1 1 19980 20220825081009
+199.244.60.201 1 1 6433 20220815035751
+142.54.160.66 2 2 19980 20220809182057
+66.115.149.88 1 1 19980 20220804121615
+198.240.121.212 1 1 8702 20220815035756
+211.205.155.42 2 2 0 20220815115558
+194.124.240.145 1 1 0 20220815035746
+20.108.5.166 1 1 81642 20220824061852
+23.90.29.156 1 1 19980 20220807193700
+40.77.167.80 0 9 84228 
+188.241.204.255 1 1 6617 20220815035753
+178.158.12.123 2 2 81642 20220804082213
+148.153.97.211 1 1 19980 20220816194250
+45.66.179.249 1 1 0 20220815035737
+91.92.216.104 1 1 0 20220815035737
+193.202.110.30 1 1 81642 20220831053623
+185.223.250.47 1 1 7395 20220815035751
+45.66.179.38 1 1 7382 20220815035754
+202.66.173.3 2 2 163284 20220812052110
+199.244.60.168 1 1 6427 20220815035752
+103.252.225.163 3 3 244926 20220812232534
+165.227.203.36 1 1 0 20220817104432
+64.246.165.180 1 1 19980 20220816065943
+76.72.172.166 1 1 81642 20220828005754
+148.153.98.52 1 1 19980 20220815014723
+109.70.100.24 1 1 19980 20220803144330
+128.199.242.104 1 1 0 20220806043037
+54.212.87.117 1 1 19980 20220802163058
+45.154.193.240 1 1 6655 20220815035753
+119.13.204.153 1 1 0 20220815035744
+63.34.179.201 3 3 38389 20220803072639
+65.19.141.115 1 1 81642 20220825122131
+213.152.161.149 2 2 19980 20220815203746
+45.154.195.17 1 1 0 20220815035738
+205.210.31.21 1 1 81642 20220813172100
+119.12.188.2 1 1 8722 20220815035755
+171.22.76.58 1 1 19980 20220818013127
+185.27.99.125 1 1 19980 20220830222853
+49.44.78.171 4 56 1846757 20220804195612
+178.128.253.113 1 1 0 20220825124833
+54.191.193.184 1 1 19980 20220827161458
+94.177.15.186 1 1 0 20220815035737
+54.186.244.107 1 1 19980 20220824164322
+157.55.39.98 0 2 5649 
+191.101.31.39 2 2 53999 20220826230628
+40.117.140.157 3 3 26499 20220819082556
+162.142.125.210 2 2 39960 20220827090513
+165.232.130.240 1 1 0 20220804031732
+223.231.155.205 4 69 4743361 20220819013742
+20.163.40.132 2 2 163284 20220816122355
+198.235.24.17 1 1 81642 20220812173152
+130.255.166.80 1 1 19980 20220807134127
+94.176.132.69 1 1 0 20220815035737
+110.239.221.136 1 1 0 20220815035740
+52.38.11.3 1 1 19980 20220827162253
+35.185.241.102 1 1 81642 20220810014515
+35.88.149.228 1 1 19980 20220827161732
+94.176.132.73 1 1 6424 20220815035753
+119.13.197.101 1 1 0 20220815035738
+122.160.135.48 1 1 19980 20220803005942
+20.243.120.172 2 2 163284 20220817004621
+216.19.221.138 2 2 7459 20220815035753
+167.235.139.215 1 1 19980 20220826013145
+173.212.236.106 1 1 0 20220806171814
+193.56.25.2 1 1 0 20220815035737
+174.138.29.163 3 3 244926 20220822073910
+162.142.125.8 1 1 19980 20220804170443
+157.45.180.34 4 70 5814623 20220822032945
+76.236.30.200 1 1 19980 20220807165806
+139.28.137.84 1 1 0 20220815035745
+119.13.212.243 1 1 0 20220815035643
+46.3.197.7 2 2 163284 20220828192239
+46.161.11.232 1 1 81642 20220801043447
+45.85.242.133 1 1 0 20220815035738
+20.213.73.176 2 2 163284 20220803114659
+20.244.28.61 2 2 163284 20220828034923
+198.235.24.153 1 1 81642 20220809052933
+157.55.39.217 0 2 22835 
+20.120.30.199 4 4 34497 20220819113637
+35.91.84.133 1 1 19980 20220820162011
+40.77.167.47 0 3 54026 
+191.102.148.216 1 1 19980 20220819013645
+185.223.250.68 1 1 8817 20220815035756
+107.150.70.67 1 1 19980 20220826070743
+154.126.63.7 1 1 19980 20220812005213
+95.215.37.158 1 1 0 20220815035739
+185.37.2.66 1 1 0 20220815035739
+110.239.210.132 1 1 0 20220815035738
+54.39.219.121 1 1 19980 20220809071133
+20.227.160.146 2 2 163284 20220815073959
+40.88.36.167 3 3 19843 20220818002854
+198.240.121.236 2 2 0 20220815035745
+171.22.76.20 1 1 19980 20220823181201
+194.124.240.138 1 1 0 20220815035745
+139.28.121.44 1 1 12451 20220815035752
+65.21.206.45 2 2 14339 20220816165644
+20.77.49.95 2 2 19980 20220826141046
+20.168.75.32 1 1 81642 20220823113347
+185.27.99.130 1 1 19980 20220815172936
+45.66.177.27 1 1 0 20220815035737
+195.3.222.14 1 1 81642 20220823173727
+35.210.151.25 1 1 19980 20220802213803
+23.231.15.221 1 1 19980 20220807181311
+34.215.121.94 1 1 19980 20220827162359
+1.202.249.94 1 1 19980 20220807050927
+199.244.88.230 1 1 19980 20220818060821
+5.161.50.76 1 1 19980 20220804072432
+147.78.47.233 1 1 19980 20220820034735
+137.184.183.52 2 2 163284 20220806184103
+46.3.197.22 2 2 53997 20220805103806
+51.75.95.101 1 1 19980 20220820105329
+38.18.60.201 1 1 19980 20220809053618
+120.41.45.199 3 3 59940 20220830211742
+54.187.245.232 1 1 19980 20220820161038
+137.184.6.5 2 2 163284 20220814014805
+102.37.156.129 1 1 81642 20220808165218
+154.16.192.24 1 1 19980 20220828181722
+54.218.18.76 1 1 19980 20220820161921
+34.210.77.105 1 1 19980 20220826215910
+181.192.1.15 1 1 0 20220828014139
+20.77.92.126 1 1 19980 20220808005059
+139.28.122.33 1 1 8773 20220815035751
+103.39.242.74 2 2 163284 20220829050540
+185.181.60.12 3 3 59940 20220825104414
+40.83.34.44 1 1 81642 20220814175344
+65.21.206.46 4 4 44198 20220829115220
+45.66.178.144 1 1 0 20220815035755
+141.98.131.170 1 1 0 20220815035739
+216.19.220.21 1 1 6582 20220815035754
+185.39.144.147 1 1 19980 20220827200326
+139.28.123.214 1 1 0 20220815035744
+139.28.137.94 2 2 5688 20220815035755
+208.67.106.91 1 1 19980 20220804074229
+18.236.89.117 1 1 19980 20220813162955
+13.66.17.165 2 2 163284 20220808090421
+159.89.44.17 1 1 19980 20220831181231
+162.43.230.86 1 1 8442 20220815035755
+199.244.60.47 1 1 7449 20220815035751
+45.66.179.33 1 1 8416 20220815035751
+121.91.84.108 1 1 8727 20220815035752
+20.120.12.158 1 1 19980 20220816141441
+167.248.133.61 1 1 19980 20220815132223
+35.164.44.213 1 1 19980 20220813163115
+95.216.21.217 1 1 81642 20220817080345
+139.28.122.138 1 1 0 20220815035745
+51.159.37.145 1 1 19980 20220814113547
+65.108.48.150 1 1 81642 20220830033631
+74.85.210.138 1 1 8399 20220815035752
+185.36.81.23 2 2 39960 20220821192211
+47.252.22.165 1 1 19980 20220810152700
+66.56.78.12 1 1 7722 20220815035752
+141.98.131.53 1 1 6652 20220815035754
+94.177.14.47 1 1 0 20220815035737
+62.3.20.8 1 1 19980 20220816003205
+167.248.133.45 2 2 39960 20220814111456
+206.204.41.252 1 1 0 20220815035737
+5.62.20.58 2 2 163284 20220823032718
+20.163.80.110 1 1 81642 20220827142207
+173.249.58.188 1 1 0 20220820112758
+52.41.74.250 1 1 0 20220825072041
+5.161.72.180 2 2 39960 20220813190748
+20.14.79.4 1 1 19980 20220806100826
+45.152.198.99 1 1 19980 20220819025459
+216.19.202.106 1 1 6404 20220815035754
+162.142.125.222 1 1 19980 20220807130308
+152.39.238.243 1 1 6408 20220815035753
+139.28.137.135 1 1 0 20220815035745
+20.219.199.5 2 2 163284 20220809033621
+141.98.131.68 1 1 6495 20220815035752
+35.213.234.99 1 1 19980 20220805083854
+13.125.38.115 2 2 39960 20220804171534
+20.9.6.206 1 1 19980 20220807163644
+194.124.247.89 1 1 7718 20220815035753
+167.248.133.63 1 1 19980 20220819172534
+84.17.48.227 3 3 135642 20220821051443
+206.204.33.85 1 1 10701 20220815035751
+20.124.241.89 3 3 34874 20220819234434
+205.210.31.18 1 1 81642 20220805213113
+52.182.128.58 2 2 39960 20220819012029
+65.21.129.153 1 1 81642 20220827011644
+20.89.16.194 2 2 39960 20220820075857
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20220801 18 84 6191245 5
+20220802 8 9 851936 7
+20220803 25 110 8874497 8
+20220804 25 218 16502657 10
+20220805 7 7 215559 5
+20220806 9 9 249612 8
+20220807 8 8 146477 8
+20220808 6 6 366528 5
+20220809 9 9 344826 7
+20220810 5 5 121602 5
+20220811 3 3 183264 3
+20220812 49 49 984893 9
+20220813 12 12 528090 10
+20220814 11 77 6236371 6
+20220815 88 139 1753313 76
+20220816 15 15 427498 14
+20220817 25 33 574444 17
+20220818 17 29 256242 13
+20220819 23 88 5093930 17
+20220820 37 93 6505149 22
+20220821 8 8 273668 6
+20220822 9 75 6161171 4
+20220823 6 6 346548 5
+20220824 7 7 168130 6
+20220825 7 7 284886 6
+20220826 13 81 6602423 7
+20220827 11 11 466428 10
+20220828 7 7 366528 6
+20220829 5 5 181654 4
+20220830 7 7 215556 5
+20220831 5 5 346548 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 1
+2mn-5mn 2
+5mn-15mn 3
+30s-2mn 6
+30mn-1h 1
+15mn-30mn 2
+0s-30s 303
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 18
+/ 235 9473586 187 178
+/projectdetails.php 93 581509 62 69
+/page-services-detail.php 51 444938 33 30
+/assets/font/fontawesome-webfont3e6e3e6e.woff2 11 848760 0 0
+/details.php 11 150052 5 4
+/assets/font/ionicons28b528b5.ttf 11 2073588 0 4
+/contact.php 10 228226 3 5
+/assets/font/autoraicond44cd44c.ttf 10 90640 0 1
+/service.php 9 92052 3 3
+/project.php 9 99642 4 3
+/index.php 8 139860 7 4
+/assets/font/et-line.woff 7 386540 0 4
+/ongoingproject.php 5 25980 4 3
+/featuredproject.php 5 25708 3 4
+/completedproject.php 5 34908 4 3
+/config.php 2 0 0 2
+/assets/aksc84oy/index.php 2 0 2 0
+/assets/aksc84oy/viewtopic.php 1 12272 1 1
+END_SIDER

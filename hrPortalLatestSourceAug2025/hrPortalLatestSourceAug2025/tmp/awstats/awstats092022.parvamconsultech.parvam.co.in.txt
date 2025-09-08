@@ -1,0 +1,2036 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202209 will be lost/reset.
+# Last config file used to build this data file was /home4/parvamco/tmp/awstats/awstats.parvamconsultech.parvam.co.in.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2027                
+POS_TIME 2710                
+POS_VISITOR 79514               
+POS_DAY 82961               
+POS_DOMAIN 3554                
+POS_LOGIN 3855                
+POS_ROBOT 4010                
+POS_WORMS 4268                
+POS_EMAILSENDER 4399                
+POS_EMAILRECEIVER 4542                
+POS_SESSION 83754               
+POS_SIDER 83965               
+POS_FILETYPES 4677                
+POS_DOWNLOADS 4978                
+POS_OS 5026                
+POS_BROWSER 5243                
+POS_SCREENSIZE 5750                
+POS_UNKNOWNREFERER 5824                
+POS_UNKNOWNREFERERBROWSER 6081                
+POS_ORIGIN 6230                
+POS_SEREFERRALS 6372                
+POS_PAGEREFS 6535                
+POS_SEARCHWORDS 6683                
+POS_KEYWORDS 6835                
+POS_MISC 2373                
+POS_ERRORS 6894                
+POS_CLUSTER 3711                
+POS_SIDER_404 7039                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20221001011344 384 77637 14540756220192
+FirstTime 20220901024303
+LastTime 20220930171515
+LastUpdate 20221001061936 384 0 383 0 0
+TotalVisits 152                 
+TotalUnique 83                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 86                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+DirectorSupport 0 0 0
+AddToFavourites 0 50 0
+PDFSupport 0 0 0
+JavaEnabled 0 0 0
+FlashSupport 0 0 0
+RealPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+QuickTimeSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+TotalMisc 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 301 445 17125668 94 203 4096225
+1 186 404 77310223 140 174 398576
+2 96 332 17091306 138 224 5409134
+3 471 643 20559895 122 1316 2267167
+4 985 1148 85864812 160 611 1317002
+5 1729 1829 5765089 188 285 207637
+6 2724 2847 9365827 113 975 630242
+7 204 231 3616607 236 262 218071
+8 111 160 2499688 102 138 12227
+9 29 50 18447078 115 120 17139
+10 2 2 202 131 141 2841
+11 16 44 631255 190 206 24205
+12 1 1 2216 270 274 29735
+13 0 0 0 304 310 9252
+14 0 0 0 79 82 10548
+15 0 0 0 101 102 15414
+16 0 0 0 353 362 34827
+17 311 362 3246320 130 164 10668
+18 4 20 416159 250 326 27535
+19 3 18 318657 158 171 20091
+20 0 0 0 60 62 4377
+21 11 26 350224 92 104 8062
+22 262 284 1628609 127 656 8594
+23 946 1115 11861047 108 818 2072589
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 5
+in 7548 8798 238316588
+us 745 1002 17429378
+cn 84 125 19428901
+jp 12 33 925754
+zz 3 3 261
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 3
+no_user_agent 144 13405680 20220924025616 0
+Dalvik/ 65 3055183 20220919003837 0
+Apache\-HttpClient/ 30 22683 20220919004725 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 12
+Unknown 343 36303 0 0
+json 4 8808 0 0
+gif 1 8906 0 0
+html 80 217605 0 0
+css 538 5710140 0 0
+woff2 87 3436944 0 0
+png 130 40754104 0 0
+ico 13 1232654 0 0
+jpg 163 19762641 0 0
+js 724 17304872 0 0
+woff 22 685012 0 0
+php 7856 186942893 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 10
+android 2061 1865
+macosx13 5 2
+win10 4189 3104
+win7 21 5
+androidpie 174 70
+android10 25 9
+Unknown 3302 3302
+winxp 17 0
+macosx10 1 1
+androidoreo 166 34
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 20
+chrome87.0.4280.141 8 8
+chrome69.0.3497.100 21 4
+chrome94.0.4606.85 4 4
+msie11.0 1 1
+chrome103.0.0.0 41 6
+chrome105.0.0.0 3716 3020
+chrome103.0.5060.129 158 54
+chrome104.0.5112.81 471 118
+firefox11.0 17 0
+chrome87.0.4280.101 8 8
+chrome91.0.4472.114 2 2
+chrome105.0.5195.79 1522 1470
+safari13.1.2 5 2
+mozilla 36 36
+chrome104.0.0.0 234 60
+Unknown 3266 3266
+chrome104.0.5112.97 373 321
+chrome39.0.2171.95 1 1
+chrome104.0.5112.102 72 6
+chrome83.0.4103.101 5 5
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Cpanel-HTTP-Client/1.0 20220930171515
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20220925172307
+okhttp/3.12.0 20220923052615
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+Cpanel-HTTP-Client/1.0 20220930171515
+okhttp/3.12.0 20220923052615
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 3866 3923
+From1 0 0
+From2 6 6
+From3 0 0
+From4 4520 6032
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 6 6
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+404 6109 0
+500 1 0
+406 1525 344650
+101 4 0
+301 10 2453
+409 123 10209
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 1092
+/op1cx6t0.php 3 http://www.parvamconsultech.com/op1cx6t0.php
+/backup/wp-admin/install.php 2 -
+/wi.php 2 -
+/schoolerp/events/EVNTIMG_11349335162c3eccd527a6.jpg 1 -
+/administrator/ 1 -
+/wp-content/plugins/wp-file-manager-pro/lib/php/connector.minimal.php 1 -
+/V5.php 1 -
+/new/ 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_149391358562ce4e605ab11.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_146219887362ce4df4ba74b.jpg 16 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/wp-admin/style.php 8 www.bing.com
+/schoolerpuat_2_1/Profile_images/STUIMG_179158172562ccfd268de76.jpg 12 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/bmcncfjj.php 3 http://www.parvamconsultech.com/bmcncfjj.php
+/z.php 11 www.bing.com
+/schoolerpuat_2_1/events/EVNTIMG_88395268262b1708f39aec.jpg 2 -
+/xltavrat.php 4 -
+/schoolerpuat_2_1/Profile_images/STUIMG_98936329162ce88a7299e8.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerp/events/EVNTIMG_28304233462b16f35ab3eb.jpg 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_17187070762cd0337e8c52.jpg 10 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/new-index.php 3 -
+//fw.php 2 -
+/cjh.php 1 -
+/schoolerpuat_2_2/events/EVNTIMG_115602837662b16f35aba59.jpg 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_38858957562ce5064dd06a.jpg 16 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_2/events/EVNTIMG_7108380162b16f91dda0d.jpg 1 -
+//symlink.php 2 -
+/schoolerpuat_2_1/events/EVNTIMG_82443635762fe06352034a.jpg 5 -
+/mUmYh/QRcKO/MeNVp/WSXRS/ 1 -
+/wp-confirm.php 2 -
+/sites/default/files/ALFA_DATA 7 www.bing.com
+/wp-content/Deadcode1975xxxxxxxxxxxxxxxxxxxxxxxxxxxx.php%20=%20%3E%3E%20shell%20no%20work 2 -
+/server-status 3 -
+/lSgWb/jOVMR/ 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_117914167862ccf6ed2124b.jpg 7 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_60261332562ccf82dab685.jpg 7 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/brick2brick/admin/assets/css/vendors/rating.css.map 2 -
+/hacked.phpr57.php 1 -
+/skippershell.php 3 -
+/plugins/system/debug/debug.xml 2 -
+/schoolerpuat_2_1/Profile_images/STUIMG_44041204662cd19a547946.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/wp-content/auto_seo.php 1 parvamconsultech.com
+/main 2 -
+/schoolerpuat_2_2/events/EVNTIMG_175792884362c3ed40c182a.jpg 1 -
+/qleaps/images/32x32x9@2x.png 1 http://parvamconsultech.com/qleaps/
+/schoolerpuat_2_1/Profile_images/STUIMG_37534691362ce500b3cae5.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/wpecho.php 1 parvamconsultech.com
+/schoolerpuat_2_2/events/EVNTIMG_21634907262b16f35abc45.jpg 1 -
+/wp/wp-commentin.php 1 www.google.com
+/wikindex.php 4 -
+/schoolerpuat_2_1/Profile_images/STUIMG_19450297462cd08513e457.jpg 12 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/brick2brick/admin/assets/css/vendors/themify.css.map 2 -
+/schoolerpuat_2_1/Profile_images/STUIMG_48524996462cd14801bb4f.jpg 7 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_96174369362cd13901ebb0.jpg 7 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_152296804462ccf916110e0.jpg 7 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_144424762ce472ed7dbe.jpg 10 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_58134791862ce84975deeb.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/brick2brick/admin/assets/css/vendors/sweetalert2.css.map 2 -
+/schoolerpuat_2_1/Profile_images/STUIMG_94154122262cd18ba1b741.jpg 12 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/qleaps/images/angel@2x.png 1 http://parvamconsultech.com/qleaps/
+/wp-content/403.php 1 -
+/admin/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_2549560462cd01cfbd70b.jpg 9 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_54922180362ce4ddadb047.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/about 3 -
+/schoolerpuat_2_1/Profile_images/STUIMG_75015649662ce483b4cc9a.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/sym.php 2 -
+/100.php 2 -
+/wp-content/plugins/superstorefinder-wp/css/ssf-wp-pop.css 1 -
+/ws.php 1 -
+/WORDPRESS 1 -
+/wp-static.php 2 parvamconsultech.com
+/schoolerpuat_2_1/Profile_images/STUIMG_110133875862ccf7da50f2d.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_73968243462cd0a8379fd2.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/events/EVNTIMG_115666113462fdedabe247e.jpg 4 -
+/schoolerpuat_2_1/Profile_images/STUIMG_143159886562cd06114d8c6.jpg 8 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_199673950262ccf8494596f.jpg 7 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_172240001762cd0a6a91a70.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/wp-admin/includes/edit-tag-menu.php 1 -
+/apple-touch-icon-precomposed.png 1 -
+/.well-known/security.txt 1 -
+/uploader.php 3 -
+/schoolerpuat_2_1/Profile_images/STUIMG_206053470762ce4e82993c6.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/info.php 5 -
+/schoolerpuat_2_1/Profile_images/STUIMG_191564549062ce829782c3f.jpg 16 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerp/schoolapi/firstsem_mont_lang.php 2 -
+/telescope/requests 3 -
+/schoolerpuat_2_1/Profile_images/STUIMG_116338100862cd04cf52d15.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/s/3136322e3231342e38302e3430/_/ 3 -
+/schoolerp/events/EVNTIMG_84701087162b16f35ac09e.jpg 1 -
+/fckeditor/editor/filemanager/connectors/php/upload.php 1 -
+/old 2 -
+/wp-admin/ALFA_DATA 7 www.bing.com
+/schoolerpuat_2_1/Profile_images/STUIMG_153355014862cd07077259a.jpg 8 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/wp-includes/wp-espol.php 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_153317503162cd07638677c.jpg 7 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/cpanel.php 1 -
+/schoolerpuat_2_2/events/EVNTIMG_26323735962c3ed40c10ee.jpg 1 -
+/stindex.php 2 -
+/schoolerpuat_2_2/schoolapi/galleryview.php 4 -
+/d3qlw6wc.php 3 http://www.parvamconsultech.com/d3qlw6wc.php
+/wp-includes/class-index-wordpress.php 2 www.google.com
+/schoolerpuat_2_1/Profile_images/STUIMG_182768551962cd0bce729c3.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_95266636062cd18a1b1a83.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/tes/wp-admin/setup-config.php 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_53250761062ccfd05930f6.jpg 9 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/saudi.php 3 -
+/hello.php 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_20300024162cd08c1d72a8.jpg 10 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_199526742862ce4e10c4c98.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/wp-content/ 2 -
+/schoolerpuat_2_1/Profile_images/STUIMG_128741474262ce84cc63e9c.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_168429877162cd16713df8b.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/events/EVNTIMG_79869977162fe03852129d.jpg 2 -
+/schoolerp/events/EVNTIMG_15464117062b16f35ac791.jpg 1 -
+/site/wp-admin/install.php 2 -
+/years.php 1 parvamconsultech.com
+/editor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/im9petrg.php 3 http://www.parvamconsultech.com/im9petrg.php
+/schoolerpuat_2_1/Profile_images/STUIMG_126627922062cd108703c45.jpg 7 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/events/EVNTIMG_146906903262b1708f383a0.jpg 8 -
+/wp-content/plugins/ubh/up.php 7 www.bing.com
+/backup 2 -
+//ru.php 2 -
+/schoolerpuat_2_1/Profile_images/STUIMG_57651114162cd02973dce1.jpg 9 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_205754123262cd13f34dfcb.jpg 7 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/archives.php 8 www.bing.com
+/cms/wp-admin/install.php 3 -
+/radio.php 9 www.bing.com
+/kindex.php 1 -
+/misc/ajax.js 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_80791867462ccfe794ddc1.jpg 9 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/readme.md 1 -
+/s_ne.php 8 www.bing.com
+/schoolerpuat_2_1/Profile_images/STUIMG_8955922162ccfbd6b4acf.jpg 12 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/private.php 1 -
+/olux.php 7 www.bing.com
+/sindex.php 2 -
+/wp-content/mu-plugins-old/index.php 1 -
+/qleaps/images/48x48x6@2x.png 1 http://parvamconsultech.com/qleaps/
+/schoolerpuat_2_1/Profile_images/STUIMG_56960976462ce45a88b510.jpg 10 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/site/wp-commentin.php 1 www.google.com
+/1tmztl8v.php 3 http://www.parvamconsultech.com/1tmztl8v.php
+/wp-admin/includes/media-site.php 1 -
+/schoolerpuat_2_0/css/img/preloader.gif 1 http://parvamconsultech.com/schoolerpuat_2_0/css/style.css
+/schoolerpuat_2_1/Profile_images/STUIMG_196768319062cd19487353b.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/brick2brick/admin/assets/css/vendors/flag-icon.css.map 2 -
+/schoolerpuat_2_1/Profile_images/STUIMG_148045515162cd0a0ea38a2.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_111413897162cd141c3076e.jpg 7 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_28196454762cd0e0d2800a.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/wp-content/plugins/wpzip/wpzip.php 1 parvamconsultech.com
+/shell 1 -
+/new.php 2 -
+/Wordpress 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_51889672862ce5d17ec8f8.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/wso2.php 1 -
+/phpunit.xml 1 -
+/qleaps/images/download@2x.png 1 http://parvamconsultech.com/qleaps/
+/schoolerpuat_2_1/Profile_images/STUIMG_195102077262ce83c7da9ee.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/vendor/phpunit/phpunit/build.xml 1 -
+/XxX.php 2 -
+/v2/_catalog 3 -
+/schoolerpuat_2_2/events/EVNTIMG_33690453362b16f35ae9f0.jpg 1 -
+/.env.save 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_159287836662ce47bd407bc.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/wp-content/uploads/readindex.php 1 -
+/hehe.php 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_171778360362ccf8fa67572.jpg 12 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_146053878762cd18ed9baae.jpg 12 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/new/wp-admin/setup-config.php 1 -
+/qleaps/images/360x400x1@2x.png 1 http://parvamconsultech.com/qleaps/
+/schoolerpuat_2_1/Profile_images/STUIMG_183470820962ccfc0098191.jpg 12 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/backup/ 1 -
+/debug/default/view 3 -
+/includes/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_201094884762cd08f85bdd5.jpg 10 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/wp-admin/cgialfa 7 www.bing.com
+//wp-content/fw.php 2 -
+/.env.production 1 -
+/brick2brick/admin/assets/css/vendors/slick-theme.css.map 2 -
+/schoolerpuat_2_1/Profile_images/STUIMG_96748825062ccf6ca38f68.jpg 7 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+//3index.php 1 -
+/humans.txt 3 -
+/schoolerpuat_2_1/Profile_images/STUIMG_142148357562ccfee63c66b.jpg 9 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_18336295062ccf8096fa47.jpg 7 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/Sendemail.php 1 -
+/ok.php 1 -
+/schoolerpuat_2_2/events/EVNTIMG_203208091762b16f35b0207.jpg 1 -
+/lf.php 1 -
+/qleaps/images/760x600x3@2x.jpg 1 http://parvamconsultech.com/qleaps/
+/ioiOd/ 1 -
+/seft/css/img/preloader.gif 4 http://parvamconsultech.com/seft/css/style.css
+/autoload_classmap.php 2 -
+/schoolerpuat_2_1/Profile_images/STUIMG_33469131462cd027623698.jpg 9 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+//vuln.php 2 -
+/schoolerp//Student_Docs/STUDOC_70_10043974262beb48987898.jpg 10 http://parvamconsultech.com/schoolerp//attachDownload.php
+/schoolerpuat_2_1/Profile_images/STUIMG_88708643962ce4f190c278.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/fw.php 5 -
+/5.php 1 -
+/kuda.php 1 -
+/wp-content/plugins/task-controller/index.php:petemartin.com 1 parvamconsultech.com
+/admin/controller/extension/extension/cgialfa 7 www.bing.com
+/blogs/wp-admin/setup-config.php 1 -
+/schoolerpuat_2_1/events/EVNTIMG_53344446762fdedac1b802.jpg 4 -
+/schoolerpuat_2_1/Profile_images/STUIMG_54320445662ce83f6ed71c.jpg 16 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_53841995462cd161c08638.jpg 16 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_126832472162cd169673d74.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/bre.php 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_214112728562ce4c889997e.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_45088333062cd15fc86b19.jpg 16 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/tttt.php 3 -
+/wp-content/includes/uploads/Va.php 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_171533776862cd052e6f248.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_195219481962ce4cf4355fb.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/public/_ignition/health-check/ 5 -
+/alf.php 2 -
+/WordPress 1 -
+/schoolerp/events/EVNTIMG_171924037962c3eccd52a95.jpg 1 -
+/schoolerpuat_2_2/events/EVNTIMG_202514890762b16f91dd3df.jpg 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_113408292862cd0c7bad44d.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/shell4.php 3 -
+/schoolerp/events/EVNTIMG_38331823062b16f35ab7b3.jpg 1 -
+/wso.php 13 www.bing.com
+/js/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_191204188962ce815805db1.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_184028643562ce830145535.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/alfacgiapi 8 www.bing.com
+/schoolerpuat_2_1/events/EVNTIMG_194956108662fe06e009d3f.jpg 3 -
+/schoolerpuat_2_1/Profile_images/STUIMG_41696005762ccf984d5247.jpg 7 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/wp-plugins.php 8 www.bing.com
+/4awqshny.php 3 http://www.parvamconsultech.com/4awqshny.php
+/style.php 9 www.bing.com
+/schoolerpuat_2_1/Profile_images/STUIMG_107644963762ce4c6976907.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/events/EVNTIMG_210605191862fdedac22279.jpg 4 -
+/schoolerpuat_2_1/events/EVNTIMG_157161411762fe06352488a.jpg 5 -
+/wp-includes/ID3/Auth.php 1 -
+/sites/default/files/alfacgiapi 7 www.bing.com
+/11index.php 3 -
+/wp-includes/ID3/module.adsudio.ogg.php 1 -
+//up.php 2 -
+/wp-includes/images/css.php 8 www.bing.com
+/1.php 12 www.bing.com
+/wp-add.php 1 parvamconsultech.com
+/s_e.php 8 www.bing.com
+/web/wp-admin/install.php 3 -
+/admin/controller/extension/extension/ALFA_DATA 7 www.bing.com
+/schoolerpuat_2_1/Profile_images/STUIMG_98988688762cd0b2e3a72a.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_54729023362ce5e2440584.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/:2083/ 1 -
+/schoolerp/events/EVNTIMG_5088177462b16f91dde0f.jpg 1 -
+/wp-admin/auto_seo.php 1 parvamconsultech.com
+/ohayo.php 2 -
+/aa.php 1 -
+/3index.php 4 -
+/2.php 3 -
+/shx.php 2 -
+/bk 2 -
+/schoolerpuat_2_1/Profile_images/STUIMG_21973637962ce4ece9bd45.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+//alfashell.php 2 -
+/wp-admin/includes/maint/wp-cron.php 1 -
+/schoolerpuat_2_2/events/EVNTIMG_19656821362c3ed40c14a1.jpg 1 -
+/wp-content/plugins/wp-classic/wp-classic/wp-classic.php 1 parvamconsultech.com
+/schoolerpuat_2_2/events/EVNTIMG_151007401362c3ed40c249f.jpg 1 -
+/schoolerpuat_2_1/events/EVNTIMG_87119490862fe06e01c6d8.jpg 4 -
+/brick2brick/assets/images/landing/demo/1.jpg 12 http://parvamconsultech.com/brick2brick/admin/packagetypelist.php
+/schoolerpuat_2_2/events/EVNTIMG_51811224462c3ed40c22ef.jpg 1 -
+/Wp 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_50090010562ce8866bbdc5.jpg 16 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_69520039562cd0aa6a4309.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_47566356962ce84fa8fbb1.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_199308185562ccf931a5dde.jpg 12 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/root.php 2 -
+/blog/ 1 -
+/config/aws.yml 1 -
+/qleaps/images/360x400x3@2x.png 1 http://parvamconsultech.com/qleaps/
+/iLNYP/ 1 -
+/mini.php 6 -
+/schoolerpuat_2_1/Profile_images/STUIMG_35455372362cd050b58a7f.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_49593793762ccf9694a2b9.jpg 7 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_36526503262ce812bed9b1.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_10724871762ce4c50915da.jpg 15 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_118026221062cd0ed1df155.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_26206951162ccf73592368.jpg 7 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_152553292662ce452ccbf3b.jpg 10 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/templates/beez5/index.php 1 -
+/wp-content/ALFA_DATA 7 www.bing.com
+/export.php 8 www.bing.com
+/schoolerpuat_2_1/Profile_images/STUIMG_22799162162ce4be8ebc79.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/media/system/js/core.js 5 -
+/as.php 1 -
+//inje3ctor.php 2 -
+/schoolerpuat_2_1/Profile_images/STUIMG_38139593562cd02c79bf3b.jpg 9 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_2/events/EVNTIMG_32787539862b16f35aedd2.jpg 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_61893206362ccf4fda7284.jpg 12 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/brick2brick/admin/assets/js/bootstrap/popper.min.js.map 2 -
+/alfacgiapi/perl.alfa 3 www.google.com
+/WSO.php 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_201950086362cd03e833ea3.jpg 10 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerp/events/EVNTIMG_153557845762b16f91de44c.jpg 1 -
+/wp-includes/ID3/module.tag.lyrics4.php 1 -
+/y.php 3 -
+/phpinfo 1 -
+/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application 3 -
+/wp-plain.php 1 www.google.com
+/sites/default/files/cgialfa 7 www.bing.com
+/data.php 2 -
+/test_404_page/ 49 -
+/KZTML/ 1 -
+/schoolerpuat_2_1/events/EVNTIMG_97524895362fe06e021110.jpg 2 -
+/wp-includes/wp-atom.php 8 www.bing.com
+/blogs/wp-admin/install.php 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_136960907662ce47d827ec7.jpg 16 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/temp/ 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_204896033762cd1b24cfadf.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_178930154862cd1bc4a0c0c.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_71497535762cd06ed3dc6d.jpg 10 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/wp-includes/ID3/getid3.lib.php 1 -
+/admin/controller/extension/extension/alfacgiapi 7 www.bing.com
+/schoolerpuat_2_1/Profile_images/STUIMG_96676426162cd0fba22b6a.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/events/EVNTIMG_101025295762fdedac149d2.jpg 4 -
+/schoolerp/events/EVNTIMG_33690453362b16f35ae9f0.jpg 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_74451614262ccf9d33488e.jpg 7 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_104620434862ccf2991196c.jpg 7 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_75290398462ce56e518b65.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_93464178162cd0251b6b28.jpg 9 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/events/EVNTIMG_44189790662fe038519b93.jpg 2 -
+/wp-log.php 1 -
+/xo.php 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_22678338462cd1776c8b2c.jpg 12 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/js/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_213693314562cd09db5501f.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/fa.php 1 -
+/c.php 3 -
+/schoolerpuat_2_1/events/EVNTIMG_29913941162fdedac0acf3.jpg 4 -
+/4price.php 2 -
+/schoolerpuat_2_1/Profile_images/STUIMG_30289072562ce4fe47b742.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/wp-content/plugins/wp-roilbask/includes/roilbask.php 1 parvamconsultech.com
+/schoolerpuat_2_1/Profile_images/STUIMG_103656367062cd06257127d.jpg 8 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_163124162ccf8e6c2cac.jpg 7 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/brick2brick/admin/assets/js/icons/feather-icon/feather.min.js.map 2 -
+/schoolerpuat_2_1/Profile_images/STUIMG_45209415262ce827889f1c.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/wp-content/plugins/lite-cache/index.php 1 parvamconsultech.com
+/wp-includes/wp-class.php 8 www.bing.com
+/schoolerpuat_2_1/Profile_images/STUIMG_130369628062ce4eb5d4984.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/SG_Construction/about.php 1 -
+/qleaps/images/24x24x2@2x.png 1 http://parvamconsultech.com/qleaps/
+//skipper.php 2 -
+/schoolerpuat_2_1/Profile_images/STUIMG_37442907562cd191395b9b.jpg 12 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_132981875262ccfd618ec0e.jpg 9 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/configs.php 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_43995890962cd16584d317.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/inje3ctor.php 3 -
+/ae.php 1 -
+/wp/wp-admin/setup-config.php 1 -
+/admin/includes/general.js 1 -
+/wp-content/themes/seotheme/db.php 2 parvamconsultech.com
+/templates/beez3/alfacgiapi 7 www.bing.com
+/UQmTi/gQeSQ/jSXRl/KZTML/ 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_208395512362ccfeb2b79d4.jpg 9 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_113872253462ccfbc031130.jpg 8 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/.aws/config.php 1 -
+/aws.yml 1 -
+/sitemap.php 1 -
+/home 2 -
+/schoolerpuat_2_1/Profile_images/STUIMG_142828466862ce837432e98.jpg 16 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/qleaps/images/24x24x1@2x.png 1 http://parvamconsultech.com/qleaps/
+/defau1t.php 10 www.bing.com
+//wp-includes/customize/class-wp-customize-nav-menu.php 1 -
+/schoolerp//css/img/preloader.gif 5 http://parvamconsultech.com/schoolerp//css/style.css
+/wp-blog.php 3 -
+/schoolerpuat_2_1/Profile_images/STUIMG_70192867362ce839db5621.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/index.php 11 www.bing.com
+/schoolerpuat_2_1/Profile_images/STUIMG_83473515662cd0c08ddedd.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/wso1.php 1 -
+/.well-known/cgialfa 8 www.bing.com
+/.well-known/ALFA_DATA 8 www.bing.com
+/schoolerpuat_2_1/Profile_images/STUIMG_35866201462ce4c0e7a111.jpg 5 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+//faq.php 2 -
+/wp-content/themes/Famous/megaframe/megapanel/inc/functions.php 1 -
+/beence.php 8 www.bing.com
+/schoolerpuat_2_1/events/EVNTIMG_155337470662fdedabf1f30.jpg 4 -
+/i.php 2 -
+//hacked.php 2 -
+/wp-content/plugins/secure-file-manager/vendor/elfinder/php/connector.minimal.php 1 -
+/2018/ 1 -
+/cgialfa 8 www.bing.com
+/idmWn/dVcWR/ioiOd/ 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_184661780262ccf653362ea.jpg 7 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/gQeSQ/jSXRl/KZTML/ 1 -
+/shells.php 7 www.bing.com
+/w3llstore.php 1 -
+/gank.php.PhP 9 www.bing.com
+/wp-admin/includes/tablepress_controllers.php 1 -
+/conf.php 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_82666231362ce4ee22ff5e.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/wordpress/wp-commentin.php 1 www.google.com
+/schoolerpuat_2_2/events/EVNTIMG_41927498862c3eccd51835.jpg 1 -
+/mi.php 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_115689550162ce46538231b.jpg 10 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/legion.php 9 www.bing.com
+/owl.php 2 -
+/test/wp-admin/setup-config.php 1 -
+/wp-includes/ID3/module.ausdsddio.dts.php 1 -
+/y2n7e10u.php 3 http://www.parvamconsultech.com/y2n7e10u.php
+/schoolerpuat_2_1/Profile_images/STUIMG_79227539662ce82cd027a2.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_94792783762cd077e01357.jpg 7 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/events/EVNTIMG_166904406262fe03852870c.jpg 5 -
+/schoolerpuat_2_2/events/EVNTIMG_153557845762b16f91de44c.jpg 1 -
+/wp-wso.php 2 -
+/schoolerpuat_2_1/events/EVNTIMG_110384405162fe06353c986.jpg 3 -
+/schoolerpuat_2_1/Profile_images/STUIMG_14938698862ccff0144e8c.jpg 9 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_63013147662cd1003ee5c3.jpg 12 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/v2.php 1 -
+/wp-content/themes/pridmag/db.php 1 parvamconsultech.com
+/wp-includes/Requests/Auths.php 1 -
+/qleaps/images/32x32x3@2x.png 1 http://parvamconsultech.com/qleaps/
+/schoolerpuat/css/img/preloader.gif 3 http://parvamconsultech.com/schoolerpuat/css/style.css
+/schoolerpuat_2_2/events/EVNTIMG_130362216462b16f91dd75f.jpg 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_48140535062cd0c9a75f57.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerp/events/EVNTIMG_41927498862c3eccd51835.jpg 1 -
+/cp.php 2 -
+/schoolerpuat_2_1/Profile_images/STUIMG_32207493762ccfddc02688.jpg 9 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerp/events/EVNTIMG_146906903262b1708f383a0.jpg 20 -
+/schoolerpuat_2_1/Profile_images/STUIMG_23644500062cd0af22e0a4.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerp/events/EVNTIMG_111503917962b16f35ab0a3.jpg 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_113428083362cd1877d9a8a.jpg 12 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_77160143362ce4dc0316ff.jpg 12 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/wp-content/themes/konzept/includes/uploadify/upload.php 1 -
+/qleaps/images/32x32x7@2x.png 1 http://parvamconsultech.com/qleaps/
+/oldsite/wp-admin/install.php 2 -
+/schoolerpuat_2_1/Profile_images/STUIMG_135796404462ce4c30bad38.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/wp-admin/maint/update.php 1 parvamconsultech.com
+/brick2brick/admin/assets/css/vendors/datatables.css.map 2 -
+/schoolerpuat_2_1/events/EVNTIMG_196207337762fe06dff4089.jpg 3 -
+/schoolerpuat_2_1/Profile_images/STUIMG_122503226662cd046391f2c.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/blog/wp-admin/setup-config.php 1 -
+/schoolerpuat_2_1/events/EVNTIMG_70705068262fe063518a92.jpg 5 -
+/schoolerpuat_2_1/Profile_images/STUIMG_143241519062ccf9a2bf0bc.jpg 12 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/FoxWSO.php 2 -
+/schoolerpuat_2_2/events/EVNTIMG_38331823062b16f35ab7b3.jpg 1 -
+/tshop.php 3 -
+/s.php 2 -
+/schoolerpuat_2_1/Profile_images/STUIMG_114940701562ce4630caf5f.jpg 10 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/k.php 2 -
+/templates/beez3/cgialfa 7 www.bing.com
+/schoolerpuat_2_2/events/EVNTIMG_28304233462b16f35ab3eb.jpg 1 -
+/help.php 3 www.google.com
+/wp-info.php 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_106802401162cd0836d6917.jpg 8 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_179674350862cd081602811.jpg 8 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/wp_wrong_datlib.php 8 www.bing.com
+/xxx.php 1 -
+/schoolerpuat_2_2/events/EVNTIMG_5088177462b16f91dde0f.jpg 1 -
+/brick2brick/admin/assets/css/style.css.map 8 -
+/schoolerpuat_2_1/Profile_images/STUIMG_165410405162ccffd910706.jpg 9 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_151935685762ccfb8707113.jpg 12 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/wp-content/wp-admin.php 2 -
+//wikindex.php 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_149916545562ce46fe5a358.jpg 10 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_85026922762ccfba584e7e.jpg 8 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/content.php 1 -
+/schoolerpuat_2_2/events/EVNTIMG_15464117062b16f35ac791.jpg 1 -
+/wp-content/export.php 8 www.bing.com
+/schoolerpuat_2_1/Profile_images/STUIMG_129857413762ce82b29ccf3.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/u.php 2 -
+/41.php 2 -
+//alfa.php 2 -
+/schoolerpuat_2_1/Profile_images/STUIMG_165265637862cd11d7416f5.jpg 14 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/brick2brick/admin/assets/css/main.css 13 http://parvamconsultech.com/brick2brick/admin/packagetypelist.php
+/wp-content/uploads/wp-temp-ali.php 1 parvamconsultech.com
+/wp-admin/css/modern/colors.css.php 1 -
+//ups.php 2 -
+/schoolerpuat_2_1/Profile_images/STUIMG_60496365162ce4857b86bd.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/.fk.php 2 -
+/.well-known/alfacgiapi 8 www.bing.com
+/schoolerpuat_2_1/Profile_images/STUIMG_39037492862ccfb2aa6d47.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_49517834262ccfdb6a15a0.jpg 9 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/cms.php 2 -
+/schoolerpuat_2_1/Profile_images/STUIMG_127403333762cd10a948096.jpg 7 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/phpinf0.php 1 -
+/v.php 3 -
+//sym403.php 2 -
+/j.php 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_90165398162ce84ac96884.jpg 13 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/brick2brick/admin/assets/css/vendors/font-awesome.css.map 2 -
+/doc.php 11 www.bing.com
+/schoolerpuat_2_1/Profile_images/STUIMG_193878162062cd1140e46f3.jpg 7 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/vendor/phpunit/phpunit/LICENSE 1 -
+/schoolerp/events/EVNTIMG_69120695862b16f91ddf97.jpg 1 -
+/schoolerpuat_2_2/events/EVNTIMG_88395268262b1708f39aec.jpg 3 -
+/qleaps/images/business48x48@2x.png 1 http://parvamconsultech.com/qleaps/
+/schoolerpuat_2_1/Profile_images/STUIMG_98827059362ce5c2817c28.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/wp-admin/includes/readindex.php 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_144458933062cd06878a557.jpg 8 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/alex.php 3 -
+/wp-atom.php 1 -
+/qleaps/images/32x32x17@2x.png 1 http://parvamconsultech.com/qleaps/
+/schoolerpuat_2_1/Profile_images/STUIMG_113627038862ce5a7c954c6.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/wp-content/themes/seotheme/mar.php 4 www.google.com
+/schoolerpuat_2_1/events/EVNTIMG_68472935262fdedabc4b72.jpg 11 -
+//saudi.php 2 -
+//wp.php 2 -
+/schoolerpuat_2_1/Profile_images/STUIMG_37544497462ccf715d44de.jpg 7 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/hhh.php 1 -
+/forums/archive/index.php 1 -
+/defau11.php 8 www.bing.com
+/blog/wp-content/themes/seotheme/mar.php 1 -
+/ALFA_DATA 8 www.bing.com
+/anone.php 2 -
+/3.php 4 -
+/2index.php 4 -
+/schoolerpuat_2_1/Profile_images/STUIMG_68129291262ccfe2959f64.jpg 8 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+//shell.php 2 -
+/qleaps/images/training48x48@2x.png 1 http://parvamconsultech.com/qleaps/
+/schoolerpuat_2_1/Profile_images/STUIMG_151412691462ce4507b2ead.jpg 16 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_26006207662cd06723c2c9.jpg 8 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/events/EVNTIMG_589976062fdedac29489.jpg 4 -
+/wp-content/uploads/small.php 1 -
+/schoolerp/events/EVNTIMG_102292007962b1708f38853.jpg 5 -
+/schoolerpuat_2_2/events/EVNTIMG_11349335162c3eccd527a6.jpg 1 -
+/.DS_Store 3 -
+/schoolerpuat_2_1/Profile_images/STUIMG_195128028362cd10d0369bb.jpg 7 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/events/EVNTIMG_177967094062b1708f39f86.jpg 2 -
+/schoolerpuat_2_1/Profile_images/STUIMG_116051562562ce8187f03c8.jpg 12 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/leaf.php 3 -
+/schoolerpuat_2_1/Profile_images/STUIMG_23222918062cd149719480.jpg 7 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/hehehe.php 1 -
+/schoolerp/events/EVNTIMG_88395268262b1708f39aec.jpg 5 -
+/schoolerpuat_2_1/events/EVNTIMG_86713276662fe06dfebeb4.jpg 3 -
+/wp-includes/js/jquery/jquery-migrate.min.js 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_189778898062cd179570ee4.jpg 16 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_119758367762ccfe5a46ed8.jpg 9 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/KlMTf/YoOMg/ 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_21767889362cd04900d1ad.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/h.php 1 -
+/wp-content/themes/qualifire/style.css 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_85028415562ccff7ba275e.jpg 9 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+//xleet.php 2 -
+/schoolerp/events/EVNTIMG_29615896362b16f35abe4b.jpg 1 -
+/1index.php 12 www.bing.com
+/schoolerpuat_2_1/events/EVNTIMG_194198811662fdedabccf84.jpg 5 -
+/r.php 2 -
+/templates/beez3/ALFA_DATA 7 www.bing.com
+/schoolerpuat_2_1/Profile_images/STUIMG_206058666962ce8423dc31d.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_2/events/EVNTIMG_41523481862b16f91dd1b8.jpg 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_161065326262ce83413facf.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/ups.php 14 parvamconsultech.com
+/up.php 11 www.bing.com
+/upload.php 10 www.bing.com
+/schoolerpuat_2_1/Profile_images/STUIMG_131614264562cd0197c1739.jpg 9 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/wp-includes/js/jquery/jquery.js 1 -
+/wp-content/plugins/wp-classic_editor/werdt/werd.php 1 parvamconsultech.com
+/robots.txt 131 -
+/wp/ 1 -
+/brick2brick/admin/assets/css/vendors/feather-icon.css.map 2 -
+/7wcmzxq8.php 3 http://www.parvamconsultech.com/7wcmzxq8.php
+/system_log.php 8 www.bing.com
+/wp-includes/css/buttons.css 5 -
+/schoolerpuat_2_1/Profile_images/STUIMG_183151410962ce4d332e955.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/events/EVNTIMG_79600897562fdedabd3fb7.jpg 5 -
+/demo/wp-admin/install.php 1 -
+/votersearch/images/logonew.png 2 http://parvamconsultech.com/votersearch/submitSearch.php
+/schoolerpuat_2_1/Profile_images/STUIMG_151403736462cd0b1447f4d.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/wp-admin/admin-ajax.php 4 www.google.com
+/wp-includes/customize/class-wp-customize-nav-menu.php 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_67283056762cd1df4a2f33.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/SiLOh/ 1 -
+/wordpress/wp-admin/setup-config.php 1 -
+/qleaps/images/32x32x8@2x.png 1 http://parvamconsultech.com/qleaps/
+/ff.php 1 -
+/schoolerp/events/EVNTIMG_202514890762b16f91dd3df.jpg 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_66280299962cd0a4c8ca74.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_89198296662ce4e9a16cd4.jpg 13 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_69606470962ce5d425a729.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/cms/wp-admin/setup-config.php 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_63126829462cd18d26035c.jpg 12 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerp/events/EVNTIMG_165863212062b16f91de0ed.jpg 1 -
+//my_alfa.php 2 -
+/0byte.php 2 -
+/brick2brick/admin/assets/css/vendors/slick.css.map 2 -
+/2017/ 1 -
+/priv8.php 2 -
+/schoolerpuat_2_1/Profile_images/STUIMG_133679405662cd089a45196.jpg 10 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_165272541762ce5a94ba250.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_87187820762cd1b472fdea.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_85500103162ce4d74b1da8.jpg 7 -
+/rdp.php 1 -
+/div/ 1 -
+/test.php 7 www.bing.com
+/images/vuln.php 2 -
+/wp-content/wordpress-index-keyword.php 1 parvamconsultech.com
+/symlink.php 2 -
+/admin.php 1 -
+/config.js 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_99813268862cd1b8a32762.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/config.json 3 -
+/ext/modules/ 1 -
+/n6a0huql.php 3 http://www.parvamconsultech.com/n6a0huql.php
+/schoolerpuat_2_1/Profile_images/STUIMG_18881638362cd146257f1c.jpg 7 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/wp-content/plugins/wp-dester/dester/wp-dester.php 2 parvamconsultech.com
+/schoolerpuat_2_1/Profile_images/STUIMG_204026628262ce832c86fe9.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/MOOYT/ 1 -
+/wp-wordfrence.php 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_5758175862ccfe95ccf51.jpg 9 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/wp-includes/class-wordpress-license.php 2 www.google.com
+/qleaps/images/32x32x2@2x.png 1 http://parvamconsultech.com/qleaps/
+/1975.php 1 -
+/wp-admin/Deadcode1975xxxxxxxxxxxxxxxxxxxxxxxxxxxx.php%20=%20%3E%3E%20shell%20no%20work 2 -
+/schoolerpuat_2_1/Profile_images/STUIMG_571169062cd06d282176.jpg 10 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_2/events/EVNTIMG_136129689262c3eccd522d9.jpg 1 -
+/wp-content/themes/konzept/style.css 1 -
+/schoolerpuat_2_2/events/EVNTIMG_198937262062c3ed40c0b70.jpg 1 -
+/schoolerp/events/EVNTIMG_190038585462c3eccd50a93.jpg 1 -
+/blog/wp-commentin.php 1 www.google.com
+/baindex.php 2 -
+/aws.credentials 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_22816790162ccf7b52a72c.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/xymi0c5w.php 3 http://www.parvamconsultech.com/xymi0c5w.php
+/schoolerp/events/EVNTIMG_132967443662b16f91de30b.jpg 1 -
+/tes/wp-admin/install.php 1 -
+/WSXRS/ 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_129764199962ce4e2811b4b.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/wp-content/plugins/superlogoshowcase-wp/sls-wp-admin/pages/exportAjax.php 1 -
+/wp-simy.php 1 -
+/site/wp-content/themes/seotheme/mar.php 1 -
+/back/ 1 -
+/wp-content/plugins/backup_index.php 8 www.bing.com
+/bc 2 -
+/qiqi.php 1 -
+/k7m3bwag.php 3 http://www.parvamconsultech.com/k7m3bwag.php
+/schoolerpuat_2_1/Profile_images/STUIMG_113498777362cd172ee2582.jpg 16 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/dedi.php 1 -
+//shell4.php 2 -
+/brick2brick/admin/assets/css/vendors/icofont.css.map 2 -
+/schoolerpuat_2_1/Profile_images/STUIMG_14543073462cd0ccaa30b3.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/events/EVNTIMG_102292007962b1708f38853.jpg 2 -
+/by.php 1 -
+//tttt.php 2 -
+/VLlNn/fKZWZ/dPeSo/ 1 -
+/brick2brick/admin/assets/css/vendors/dropzone.css.map 2 -
+/wp-content/themes/deep-blue/megaframe/megapanel/inc/functions.php 1 -
+/brick2brick/admin/assets/js/bootstrap/bootstrap.min.js.map 2 -
+/moduless.php 8 www.bing.com
+/wp-activate.php 1 -
+/qleaps/images/400x450@2x.png 1 http://parvamconsultech.com/qleaps/
+/config.php 7 www.bing.com
+/schoolerpuat_2_1/Profile_images/STUIMG_146677343262ce471613d26.jpg 10 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/qleaps/images/32x32x14@2x.png 1 http://parvamconsultech.com/qleaps/
+/local.php 1 -
+/p.php 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_48274491562cd06a3305e4.jpg 10 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/alexus-mailer.php 1 -
+/.aws/credentials.php 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_86965969862ce56accfefa.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_30456349562cd15abe16b2.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_41832718162cd13ce9aa17.jpg 12 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_167010563262cd16f1113b4.jpg 12 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/!.php 1 -
+/sym403.php 1 -
+/.git/config 4 -
+/schoolerpuat_2_1/Profile_images/STUIMG_129295777662ce46173dbe2.jpg 16 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_2/events/EVNTIMG_182636960962b16f35ab570.jpg 1 -
+/.aws/.credentials.php 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_138626623262cd0da1f0465.jpg 12 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/a.php 11 www.bing.com
+/minibre.php 1 -
+//upl.php 1 -
+/schoolerpuat_2_1/events/EVNTIMG_67183517562fe0385008ba.jpg 4 -
+/lufix 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_106019692662ccf43020cd1.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/68.php 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_197204576162cd07aab8e08.jpg 7 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_202471331362cd11efc29a4.jpg 7 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_65599961162ccff93b4010.jpg 9 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/wp-content/plugins/super-interactive-maps/sim-wp-admin/pages/manage-maps.php 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_93611144662cd1370af22e.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/wp-content/plugins/core-builder/index.php 1 parvamconsultech.com
+/schoolerpuat_2_1/Profile_images/STUIMG_91461446362cd1ef961417.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/brick2brick/admin/assets/css/color-1.css.map 2 -
+/schoolerpuat_2_1/Profile_images/STUIMG_169006524562ccf884049bb.jpg 7 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerp/schoolapi/firstsem_mont_crt.php 2 -
+/schoolerpuat_2_1/events/EVNTIMG_157515750262fe063537627.jpg 3 -
+/qleaps/images/32x32x4@2x.png 1 http://parvamconsultech.com/qleaps/
+/qleaps/images/760x600x1@2x.jpg 1 http://parvamconsultech.com/qleaps/
+/templates/beez3/index.php 7 www.bing.com
+/wp-admin/alfacgiapi 7 www.bing.com
+/wp-content/db-cache.php 8 www.bing.com
+/user/login 1 -
+/schoolerpuat_2_1/events/EVNTIMG_41698453262fe06352b3a8.jpg 3 -
+/schoolerpuat_2_1/Profile_images/STUIMG_98683082362cd18422eede.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/wp-includes/Requests/Auth.php 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_125974462ce4fc8da872.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_206007722462cd111e66d64.jpg 7 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/wp-includes/css/css.php 8 www.bing.com
+/schoolerpuat_2_1/Profile_images/STUIMG_124886640062cd04ef795d4.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/wp-file.php 1 -
+/wp-ad.php 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_103377360562ce46afc5aa4.jpg 10 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/brick2brick/admin/assets/css/responsive.css.map 2 -
+/w.php 1 -
+/hhhh.php 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_191635498162ccf949ea770.jpg 7 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/ 461 -
+/feed/ 15 -
+/x.php 11 www.bing.com
+/schoolerpuat_2_2/events/EVNTIMG_56992609862b16f35aac86.jpg 1 -
+/README.txt 1 -
+/FoxWSOv1.php 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_35345687362ccf9b8cca67.jpg 7 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_2/events/EVNTIMG_3889966862b16f35a9f79.jpg 2 -
+/c99.php 6 -
+/license.txt 1 -
+/wp-content/mu-plugins/db-safe-mode.php 8 www.bing.com
+/schoolerp/events/EVNTIMG_182636960962b16f35ab570.jpg 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_156560864062ce81f53b980.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/alwso.php 1 -
+/mambots/editors/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/hh.php 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_135745329362ccfec69ef24.jpg 9 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/events/EVNTIMG_168052441462fe03851272a.jpg 2 -
+/schoolerpuat_2_1/Profile_images/STUIMG_166255330462cd0b8f5ff4c.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/wp-conflg.php 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_110574130562ce86ec2962b.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/events/EVNTIMG_100969239262fe0635317d8.jpg 3 -
+/evi.php 2 -
+/schoolerpuat_2_1/Profile_images/STUIMG_186709123762cd0cb57e044.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/wp-admin/install.php 3 -
+/small.php 1 -
+/.aws/credentials 1 -
+/schoolerpuat_2_1/css/img/preloader.gif 378 http://parvamconsultech.com/schoolerpuat_2_1/css/style.css
+/anon.php 1 -
+/schoolerpuat_2_2/events/EVNTIMG_84701087162b16f35ac09e.jpg 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_29594297862ce840f27ae2.jpg 16 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/events/EVNTIMG_180850470762fdedabdbf7f.jpg 4 -
+/schoolerp/events/EVNTIMG_7108380162b16f91dda0d.jpg 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_79146901362cd1970bef81.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/wp-content/alfacgiapi 7 www.bing.com
+/schoolerpuat_2_1/Profile_images/STUIMG_157498523162ce47668a464.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/d.php 1 -
+/bala.php 1 -
+/collections/all.atom 1 http://www.gumbo.com/
+/wp-content/wp-file-conficg.php 2 parvamconsultech.com
+//ALFA_DATA/alfacgiapi/perl.alfa 1 -
+/js/header-rollup-554.js 1 -
+/z990gkvq.php 3 http://www.parvamconsultech.com/z990gkvq.php
+/old/wp-admin/install.php 2 -
+/wp-configer.php 4 -
+/schoolerp/events/EVNTIMG_41523481862b16f91dd1b8.jpg 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_107744675562ce4efc45414.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+//uploader.php 2 -
+/wp-content/uploads/alfacgiapi 8 www.bing.com
+/Bc1fA.php 1 www.google.com
+/brick2brick/admin/assets/css/vendors/jsgrid.css.map 1 -
+/css/index.php 3 parvamconsultech.com
+/schoolerpuat_2_1/Profile_images/STUIMG_171059902562cd0227a6079.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_161053329062cd0f9eea401.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/o.php 3 -
+/dz.php 1 -
+/schoolerpuat_2_1/events/EVNTIMG_155959311562fdedabe9ce7.jpg 5 -
+/schoolerpuat_2_1/Profile_images/STUIMG_132145863562ce81a89723a.jpg 16 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/wp-commentin.php 8 www.google.com
+/schoolerpuat_2_1/Profile_images/STUIMG_40769026762ce501fc9db0.jpg 16 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_2/events/EVNTIMG_177967094062b1708f39f86.jpg 3 -
+/qleaps/images/48x48x7@2x.png 1 http://parvamconsultech.com/qleaps/
+/fox.php 1 -
+/wp-includes/Requests/IPv4.php 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_95135606262ccff276c845.jpg 9 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_98196705262cd1db4a8440.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+//c99.php 2 -
+//tshop.php 2 -
+/qleaps/images/32x32x5@2x.png 1 http://parvamconsultech.com/qleaps/
+/my_alfa.php 3 -
+/unzip.php 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_109310660362ce4da3ed2c5.jpg 5 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/wp-content/plugins/advanced_file_manager_5/php/connector.minimal.php 1 -
+/schoolerp/events/EVNTIMG_56992609862b16f35aac86.jpg 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_64047741662cd1c36bb763.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerp/events/EVNTIMG_130362216462b16f91dd75f.jpg 1 -
+/wp-admin/css/colors/blue/red.php 1 parvamconsultech.com
+/schoolerpuat_2_1/events/EVNTIMG_79733674662fe0385083e0.jpg 4 -
+//wp-content/mu-plugins-old/index.php 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_5365893862cd103eb0edb.jpg 12 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/wordpress/wp-content/themes/seotheme/mar.php 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_54109369962ce8438926e8.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/xp.php 1 -
+/test/wp-admin/install.php 3 -
+/wp-config-sample.php 1 parvamconsultech.com
+/bypass403.php 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_123992496962ccfce7c01a1.jpg 9 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_198120687962cd16bd12abb.jpg 16 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/wp-signin.php 8 www.bing.com
+/schoolerpuat_2_1/Profile_images/STUIMG_203041302862ccf51f33f43.jpg 7 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerp/events/EVNTIMG_96400759662b16f35ac56e.jpg 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_76245322762cd1821e38c8.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/dr.php 2 -
+/.well-known/ 7 binance.com
+/schoolerpuat_2_1/Profile_images/STUIMG_148044278562ccfccf12701.jpg 9 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/wp-content/plugins/wp-roilback/includes/roilback.php 1 parvamconsultech.com
+/schoolerpuat_2_1/Profile_images/STUIMG_142326434062cd1ca2d8523.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_83173601562ccf9f61e8e2.jpg 7 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/l.php 1 -
+/wp.php 10 www.bing.com
+/schoolerpuat_2_1/Profile_images/STUIMG_65299790362ccfcaf7857b.jpg 9 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_201042123762ce45488a0ba.jpg 10 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/bypass.php 2 -
+/schoolerpuat_2_1/Profile_images/STUIMG_129709098162ccfd95d11b4.jpg 9 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_55282543962ce4b9af318c.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/c100.php 1 -
+/bezek.php 1 -
+/Deadcode1975xxxxxxxxxxxxxxxxxxxxxxxxxxxx.php%20=%20%3E%3E%20shell%20no%20work 2 -
+/hacked.php 3 -
+/schoolerpuat_2_1/Profile_images/STUIMG_142872331962cd11769387e.jpg 7 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/xleet.php 7 www.bing.com
+/schoolerpuat_2_1/Profile_images/STUIMG_70390579462cd017c174cd.jpg 9 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/wp-content/uploads/typehub/custom/wbwcwgzz/.v4.php 1 www.google.com
+/schoolerpuat_2_1/Profile_images/STUIMG_123920189062cd1637c02f6.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/old-index.php 6 parvamconsultech.com
+/rip.php 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_77308192362cd09b0a7ed6.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/qleaps/images/32x32x1@2x.png 1 http://parvamconsultech.com/qleaps/
+/tfe8sxau.php 3 http://www.parvamconsultech.com/tfe8sxau.php
+/evi3.php 1 -
+//0byte.php 2 -
+/ALFA_DATA/alfacgiapi/perl.alfa 3 www.google.com
+/omhtkppc.php 3 http://www.parvamconsultech.com/omhtkppc.php
+/brick2brick/admin/assets/css/vendors/bootstrap.css.map 2 -
+/schoolerpuat_2_1/Profile_images/STUIMG_185544744062ccf67e756fb.jpg 7 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/MARIJUANA.php 2 -
+/schoolerpuat_2_1/Profile_images/STUIMG_48701733962ccf3d939047.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/events/EVNTIMG_90675767562fe063511511.jpg 1 -
+/qleaps/images/startup48x48@2x.png 1 http://parvamconsultech.com/qleaps/
+/.htaccess.php 1 -
+/mar.php 3 -
+/themes/404/404.php 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_17914394562cd07eba4cdf.jpg 12 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_2/events/EVNTIMG_171924037962c3eccd52a95.jpg 1 -
+/schoolerp/events/EVNTIMG_17024748062b16f91ddbd3.jpg 1 -
+/wp-admin/includes/block-line.php 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_184768004062ccfe4267255.jpg 9 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/api/search 3 -
+/schoolerpuat_2_2/events/EVNTIMG_69120695862b16f91ddf97.jpg 1 -
+/includes/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_123429525862ccf5dee1c4a.jpg 7 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/old/ 1 -
+/wp-content/plugins/wpgateway/images/lead-menu-icon.png 1 parvamconsultech.com
+/schoolerpuat_2_1/Profile_images/STUIMG_153023199662ce83dfd8368.jpg 13 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/auto_seo.php 1 parvamconsultech.com
+/wp-includes/ID3/mSDEFEAodule.tag.lyrics3.php 1 -
+/wp-admin/includes/class-wp-media-list-data.php 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_211320286362cd11bdd9633.jpg 7 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/wp-content/themes/SqueezeTheme/style.css 1 -
+/images/editor/separator.gif 1 -
+/wp-content/cgialfa 7 www.bing.com
+/wp-admin/css/ 7 binance.com
+/schoolerpuat_2_1/Profile_images/STUIMG_204110848262ce474ab00bc.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/wp 3 -
+/assets/plugins/file-uploader/server/php/index.php 1 -
+/kk.php 1 -
+/schoolerpuat_2_1/events/EVNTIMG_187267375662fdedac044a7.jpg 4 -
+/schoolerpuat_2_1/Profile_images/STUIMG_185738819762ce4e449d2a8.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/ads.txt 31 -
+/schoolerpuat_2_1/Profile_images/STUIMG_98190867762ccfc1e882ae.jpg 9 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_16974846062ce442e29d2c.jpg 15 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_126143199762cd01eb1a2a9.jpg 9 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/fm.php 1 -
+/wp-login.php 10 -
+/schoolerpuat_2_1/Profile_images/STUIMG_30018162562cd13b020eb5.jpg 7 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/web/wp-admin/setup-config.php 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_32798301462ce468cd013a.jpg 10 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/if.php 4 -
+/schoolerpuat_2_1/events/EVNTIMG_71334326162fe06e028299.jpg 2 -
+/j5x80ptd.php 3 http://www.parvamconsultech.com/j5x80ptd.php
+/schoolerpuat_2_1/Profile_images/STUIMG_18251961162cd044c363d7.jpg 10 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/_ignition/health-check/ 5 -
+/wp-mails.php 1 -
+/schoolerp/events/EVNTIMG_21634907262b16f35abc45.jpg 1 -
+/MeNVp/WSXRS/ 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_33524755962ce87f799774.jpg 16 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_2/events/EVNTIMG_111503917962b16f35ab0a3.jpg 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_96398728462cd192de0408.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_199510791962cd1c833895e.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/about.php 9 parvamconsultech.com
+/schoolerpuat_2_1/Profile_images/STUIMG_186720121562ccf6a41cc23.jpg 7 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/sitemap.xml 1 -
+/apple-touch-icon.png 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_61586558662cd0bf01c043.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/TldOl/MOOYT/ 1 -
+/schoolerpuat_2_2/events/EVNTIMG_96400759662b16f35ac56e.jpg 1 -
+/xmrpc 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_162758559962ccff42f0f40.jpg 9 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/qleaps/images/iifl@2x.png 1 http://parvamconsultech.com/qleaps/
+/schoolerpuat_2_2/events/EVNTIMG_165863212062b16f91de0ed.jpg 1 -
+/wp-includes/css/wp-config.php 8 www.bing.com
+/plugins/file-uploader/server/php/index.php 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_50472460062ccf60c28d88.jpg 7 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/license.php 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_63188547062ccf784d3464.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_96711774262cd03b7b1d29.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/wp-content/outcms.php 8 www.bing.com
+/schoolerpuat_2_2/events/EVNTIMG_132967443662b16f91de30b.jpg 1 -
+//admin.php 1 -
+/schoolerpuat_2_2/events/EVNTIMG_209486176562c3ed40c0f1a.jpg 1 -
+/wp-includes/ID3/Author.php 1 -
+/wp-includes/ID3/module.tag.php 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_137613001562ce835a59bd5.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/rss.php 1 -
+/form.php 1 -
+/phpinfo.php 1 -
+/wp-admin/includes/mar.php 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_139805799362cd03816acdb.jpg 9 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/alfa.php 15 www.bing.com
+/schoolerpuat_2_1/Profile_images/STUIMG_32320729562ce5aeb30577.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/wp/wp-admin/install.php 3 -
+/xx.php 3 -
+/schoolerpuat_2_1/Profile_images/STUIMG_146181297562ce8481ccbf8.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/b.php 1 -
+/new 2 -
+/wp-content.php 1 -
+/error.php 9 www.bing.com
+/wp-content/plugins/super-forms/uploads/php/index.php 1 -
+/iw2nedop.php 3 http://www.parvamconsultech.com/iw2nedop.php
+/schoolerpuat_2_1/Profile_images/STUIMG_167334050862ce5a272df06.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/cpbrute.php 1 -
+/demo/wp-admin/setup-config.php 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_173308407162cd0ce56215a.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/t.php 2 -
+//if.php 2 -
+/nee.php 2 -
+/wp-content/wp-files-conficg.php 1 parvamconsultech.com
+/schoolerpuat_2_1/Profile_images/STUIMG_168770974962ce507b677bf.jpg 16 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/wp-includes/ID3/ses.php 1 -
+/vuln.php 5 -
+/schoolerpuat_2_1/Profile_images/STUIMG_152715259062cd058617a9f.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/events/EVNTIMG_47584936862fe06350d0a2.jpg 2 -
+/schoolerpuat_2_1/Profile_images/STUIMG_197036930962cd17471fd49.jpg 16 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerp/events/EVNTIMG_203208091762b16f35b0207.jpg 1 -
+/wp-includes/ID3/getid3.php 1 -
+/wp-content/uploads/cgialfa 8 www.bing.com
+/schoolerpuat_2_1/Profile_images/STUIMG_200184616362cd03cda1808.jpg 10 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/qleaps/images/corevalues@2x.jpg 1 http://parvamconsultech.com/qleaps/
+/schoolerp/events/EVNTIMG_32787539862b16f35aedd2.jpg 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_139660236262cd14397c3c4.jpg 12 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/shell.php 14 www.bing.com
+/sh3ll.php 3 -
+/wp-includes/alfacgiapi 7 www.bing.com
+/Cpanel.php 1 -
+/oldsite/ 1 -
+/admin/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_109092980262cd04181bc04.jpg 10 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_2/events/EVNTIMG_146906903262b1708f383a0.jpg 7 -
+/schoolerpuat_2_2/events/EVNTIMG_29615896362b16f35abe4b.jpg 1 -
+/a51wwt2c.php 3 http://www.parvamconsultech.com/a51wwt2c.php
+//xl.php 2 -
+/login.action 3 -
+/wp-uploads.php 2 -
+/schoolerpuat_2_1/Profile_images/STUIMG_137090761162cd0f5c6da37.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/wordpress 3 -
+/wordpress/wp-admin/install.php 3 -
+/123.php 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_31660465062cd0c43a32df.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/Gel.php 2 -
+/wordpress/ 1 -
+/wp-backup-sql-302.php 8 www.bing.com
+/schoolerpuat_2_1/Profile_images/STUIMG_199234156762ce8470af792.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/wp-includes/sys.php 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_12786162762cd01b383af2.jpg 9 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/fx 1 -
+/qleaps/images/48x48x5@2x.png 1 http://parvamconsultech.com/qleaps/
+/CHANGELOG.txt 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_124155255362ccfc8d1f79a.jpg 15 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/media-admin.php 11 www.bing.com
+/schoolerp/events/EVNTIMG_3889966862b16f35a9f79.jpg 4 -
+/schoolerpuat_2_2/events/EVNTIMG_102292007962b1708f38853.jpg 3 -
+/schoolerpuat_2_1/Profile_images/STUIMG_133271301762ccf58bba16a.jpg 7 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/schoolapi/galleryview.php 6 -
+//skippershell.php 2 -
+/schoolerpuat_2_1/Profile_images/STUIMG_121598064362cd1e97ecd9d.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_155349051862cd08d6c4385.jpg 10 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_2/events/EVNTIMG_17024748062b16f91ddbd3.jpg 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_168688784062cd1ad9b6647.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_2/events/EVNTIMG_190038585462c3eccd50a93.jpg 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_57383771762cd0eac2429d.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/ru.php 3 -
+/wp-includes/cgialfa 7 www.bing.com
+/f.php 4 -
+/nn81jufm.php 3 http://www.parvamconsultech.com/nn81jufm.php
+/wp-includes/ALFA_DATA 8 www.bing.com
+/schoolerpuat_2_1/Profile_images/STUIMG_70369842562ccf45ca6d9e.jpg 7 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_24752592862ce81c1aa3e0.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/wp-load.php 10 parvamconsultech.com
+/schoolerpuat_2_1/Profile_images/STUIMG_108072516362cd020249736.jpg 9 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_141031398262ce845b01dec.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/wp-admin/includes/maint/wp-readindex.php 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_61297379462cd04356df0f.jpg 12 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_32141859962cd04780f4a2.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/admin/view/javascript/common.js 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_80940219162cd132c6b94e.jpg 12 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_11275560362ce48ecb2539.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_126397470262cd134e199e3.jpg 7 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/.awscredentials 1 -
+/qleaps/images/360x400x2@2x.png 1 http://parvamconsultech.com/qleaps/
+/schoolerpuat_2_1/Profile_images/STUIMG_35722385162cd123b06675.jpg 7 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/n.php 1 -
+/swcs/admin/css/img/preloader.gif 1 http://parvamconsultech.com/swcs/admin/css/style.css
+/d4z503zw.php 3 http://www.parvamconsultech.com/d4z503zw.php
+/schoolerpuat_2_1/Profile_images/STUIMG_160589756162ccfb106dffe.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/wp/wp-content/themes/seotheme/mar.php 1 -
+/install.php 1 -
+/wp-header.php 1 -
+/eLpLM/ 2 -
+/wp-temp-ali.php 1 parvamconsultech.com
+/schoolerpuat_2_1/Profile_images/STUIMG_4127481562ce83b4a9cda.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_126528667662cd039c25c2f.jpg 10 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/tmp.php 1 -
+/q.php 1 -
+/_profiler/phpinfo 2 -
+/user.php 1 -
+/wp-admin.php 2 -
+//wso.php 2 -
+/schoolerpuat_2_1/Profile_images/STUIMG_147692243062cd08711ede3.jpg 8 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_2/events/EVNTIMG_125150892662c3ed40c1653.jpg 1 -
+/wp-2019.php 1 -
+/XlmSg/ 1 -
+/8jda2cr4.php 3 http://www.parvamconsultech.com/8jda2cr4.php
+/schoolerpuat_2_1/Profile_images/STUIMG_97109635962ccfc3c4ba5f.jpg 9 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+//sym.php 2 -
+/new/wp-admin/install.php 3 -
+/schoolerpuat_2_1/Profile_images/STUIMG_4563103762ce82e386b9e.jpg 12 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerp//attachDownload.html 1 -
+/wp-content/uploads/typehub/custom/dhqcqqin/.v4.php 1 www.google.com
+/schoolerpuat_2_1/Profile_images/STUIMG_119739989162cd04b4cd6fb.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/lae.php 1 -
+/wp-booking.php 9 www.bing.com
+/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/wp-includes/ID3/license.txt 9 -
+/alexusmailer%202.0.php 1 -
+/qleaps/images/32x32x15@2x.png 1 http://parvamconsultech.com/qleaps/
+//vendor/phpunit/phpunit/phpunit.xsd 1 -
+/schoolerp/events/EVNTIMG_177967094062b1708f39f86.jpg 7 -
+/schoolerpuat_2_1/Profile_images/STUIMG_44345569062cd0b6247283.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/skipper.php 3 -
+/777.php 2 -
+/bb.php 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_187359317462cd0ad4742cc.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/e.php 2 -
+/blog/wp-admin/install.php 3 -
+/schoolerpuat_2_1/Profile_images/STUIMG_193681853662cd1e7273eff.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_94297598362ce4672a140c.jpg 10 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/404.php 2 -
+/fr.php 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_20844584762ce5a5c6c33b.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/wp-content/uploads/ALFA_DATA 8 www.bing.com
+/m.php 3 -
+/schoolerpuat_2_1/Profile_images/STUIMG_98935960962ce4d566f61a.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_106149821562ce8389a33f6.jpg 12 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/xox.php 3 -
+/schoolerpuat_2_1/Profile_images/STUIMG_175320139362ccf36440d4b.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/qleaps/images/wealth48x48@2x.png 1 http://parvamconsultech.com/qleaps/
+/qleaps/images/760x600x2@2x.jpg 1 http://parvamconsultech.com/qleaps/
+/templates/atomic/index.php 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_121274138762ce8517c1943.jpg 12 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_115434720662ce5c5772d2d.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/813j4sg1.php 3 http://www.parvamconsultech.com/813j4sg1.php
+/g.php 3 -
+/wp-admin/ 1 -
+/wp-content/wp-logins.php 2 -
+/schoolerp/css/img/preloader.gif 68 http://parvamconsultech.com/schoolerp/css/style.css
+/schoolerpuat_2_1/Profile_images/STUIMG_162655903762ccfc5431b26.jpg 9 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerpuat_2_1/Profile_images/STUIMG_16286782462ccfc6ce55ad.jpg 9 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/simy.php 1 -
+/xmlrpc.php 8 -
+/wp-admin/setup-config.php 7 -
+/yep.php 1 -
+/qleaps/images/bv@2x.jpg 1 http://parvamconsultech.com/qleaps/
+/wp-content/themes/famous/megaframe/megapanel/inc/functions.php 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_26282850362ccfd7eb5fc8.jpg 9 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/.credentials.php 1 -
+/schoolerpuat_2_1/events/EVNTIMG_31804336062fe06e0146c1.jpg 3 -
+/schoolerp/events/EVNTIMG_136129689262c3eccd522d9.jpg 1 -
+/schoolerp/events/EVNTIMG_115602837662b16f35aba59.jpg 1 -
+/wp-admin/includes/maint/repair-bak.php 1 -
+/schoolerpuat_2_1/Profile_images/STUIMG_150492419962ce5a453ed74.jpg 6 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/qleaps/images/32x32x6@2x.png 1 http://parvamconsultech.com/qleaps/
+/schoolerpuat_2_1/Profile_images/STUIMG_79930477262cd0f070f92c.jpg 12 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/qleaps/images/32x32x16@2x.png 1 http://parvamconsultech.com/qleaps/
+/schoolerpuat_2_1/Profile_images/STUIMG_191644045562cd05e66e479.jpg 8 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/schoolerp/schoolapi/firstsem_mont_wrt.php 2 -
+/schoolerpuat_2_1/Profile_images/STUIMG_49844227462cd122052c3e.jpg 7 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/wp-content/plugins/wpsml-sys.php 1 parvamconsultech.com
+/schoolerpuat_2_1/Profile_images/STUIMG_4604417262ce56ca574f1.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+/alfashell.php 3 -
+/schoolerpuat_2_1/Profile_images/STUIMG_148073682662cd198a02b5e.jpg 11 http://parvamconsultech.com/schoolerpuat_2_1/view-all-student.php
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 86
+49.205.145.223 2452 2474 18791787 20220914002439
+49.205.144.132 1997 2109 6568377 20220914071518
+49.205.146.63 1353 1715 98411552 20220930000401
+49.205.145.92 578 1021 35351592 20220905081429
+49.205.148.91 359 359 34308 20220909060531
+162.214.80.40 330 330 21672 20220930171515
+49.205.149.227 272 365 4222339 20220913034431
+49.205.150.38 194 216 65299751 20220912071709
+49.205.149.139 137 170 1410569 20220906064450
+49.205.151.30 70 70 6892 20220907060459
+157.50.51.249 56 56 5265 20220905025643
+36.255.87.0 50 52 16672871 20220917075622
+157.45.11.120 46 46 4368 20220908051627
+157.45.129.37 44 113 6589423 20220907014604
+49.205.149.97 36 71 2405242 20220911235945
+157.45.12.30 28 40 629982 20220901040501
+157.45.42.168 27 53 1387915 20220914234730
+157.45.32.109 26 26 5499 20220913043402
+36.255.87.6 23 39 1095609 20220928114616
+157.45.26.91 23 23 2212 20220908042440
+157.45.58.140 22 22 9680 20220915040640
+49.205.143.98 15 43 630289 20220901110517
+220.158.158.25 12 33 925754 20220915044316
+27.59.89.149 12 17 1510684 20220917015027
+36.255.87.7 11 34 1660421 20220924061259
+157.45.2.182 1 1 121 20220908052309
+106.76.32.251 2 2 1076 20220902022704
+157.45.51.63 7 7 1295 20220914065722
+49.37.176.250 2 5 401629 20220914063528
+23.178.112.103 1 1 87 20220925172304
+223.186.25.249 2 2 1076 20220921044206
+64.233.172.109 5 28 950669 20220910175105
+64.233.172.107 3 40 1614981 20220910195419
+182.79.251.138 4 19 346703 20220922210644
+49.37.188.254 2 2 202 20220904103543
+49.44.84.37 3 18 346572 20220913010455
+66.249.80.57 6 6 284 20220914235644
+223.186.138.98 8 8 4304 20220918234204
+157.45.125.63 1 2 1033241 20220913092410
+103.86.104.227 2 2 1078 20220911232035
+106.66.131.220 2 2 1076 20220902174804
+3.74.156.52 3 3 261 20220925172304
+223.196.65.5 1 20 827452 20220901030728
+3.15.155.9 3 3 261 20220925172304
+106.76.30.170 4 4 2152 20220912025136
+49.205.150.205 4 4 397 20220907061213
+74.125.215.27 4 4 193 20220915011433
+66.249.80.59 4 4 182 20220914235718
+35.185.241.102 1 1 20987 20220914022137
+49.205.145.103 6 6 617 20220907061843
+23.178.112.107 1 1 87 20220925172304
+66.249.80.203 7 7 335 20220904235649
+66.249.80.55 4 4 182 20220914235728
+157.45.51.159 7 7 5002 20220913011843
+74.125.215.25 7 7 324 20220915011515
+106.197.200.10 1 1 131 20220922210633
+74.125.209.89 0 6 480600 
+49.205.146.105 6 6 617 20220907061713
+157.45.33.41 10 10 1041 20220915034808
+223.231.160.6 2 2 1076 20220923211439
+103.226.191.4 2 2 1076 20220923211442
+34.217.75.81 3 3 261 20220925172304
+223.227.17.109 7 7 627 20220914234340
+66.249.80.207 3 3 153 20220904235520
+66.249.80.205 4 4 182 20220904235740
+27.59.58.141 4 20 1379813 20220904032943
+49.44.82.133 4 19 346703 20220913010509
+223.237.245.134 2 2 1076 20220928005418
+74.125.209.91 0 6 211560 
+157.45.16.194 3 4 55373 20220901043059
+157.45.178.201 2 2 1076 20220919043030
+157.45.36.145 4 4 312 20220915042119
+157.45.43.210 8 8 917 20220915010037
+74.125.209.87 0 5 247130 
+223.227.17.103 2 2 1076 20220919013227
+157.45.50.4 10 10 1006 20220913003114
+157.45.38.202 4 4 424 20220915050320
+172.58.61.84 3 18 346572 20220913010524
+157.45.46.83 4 4 2165 20220915043333
+64.233.172.111 8 48 2402166 20220910192048
+23.178.112.106 1 1 87 20220925172303
+157.45.55.7 6 6 1631 20220915044558
+20.168.59.74 1 1 13587 20220902041344
+157.45.47.128 3 19 1378706 20220924015946
+74.125.215.29 4 4 182 20220915011442
+27.59.57.136 1 13 6677 20220929064417
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20220901 155 567 33571456 9
+20220902 34 41 1021618 6
+20220903 9 9 576 1
+20220904 39 59 1626231 7
+20220905 594 733 5047120 6
+20220906 71 71 6731 2
+20220907 233 302 6607862 7
+20220908 291 291 27856 6
+20220909 89 89 7921 3
+20220910 23 128 5474997 8
+20220911 47 82 2406896 3
+20220912 233 287 65362608 7
+20220913 2730 2842 15354371 12
+20220914 2457 2640 21781512 14
+20220915 885 951 3924500 16
+20220916 45 116 21592742 4
+20220917 12 13 532427 3
+20220918 17 17 4880 2
+20220919 96 126 1740234 4
+20220920 9 9 576 1
+20220921 11 11 1652 2
+20220922 14 29 347410 3
+20220923 15 15 2945 4
+20220924 23 62 3039703 3
+20220925 45 45 3708 7
+20220926 9 9 576 1
+20220927 9 9 576 1
+20220928 34 50 1097261 4
+20220929 152 347 85472202 4
+20220930 11 11 41735 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+2mn-5mn 11
+15mn-30mn 10
+30s-2mn 14
+0s-30s 89
+5mn-15mn 8
+30mn-1h 10
+1h+ 10
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 542
+/schoolerpuat_2_1/getAttendancedata.php 528 2209965 1 0
+/schoolerp/get_parent_request_dashboard.php 482 61272 0 0
+/schoolerp/get_student_payment_dashboard.php 482 60796 0 0
+/schoolerp/get_agent_payment_dashboard.php 482 60490 0 1
+/schoolerpuat_2_1/updateAttendance.php 476 12500 0 0
+/schoolerpuat_2_1/get_parent_request_dashboard.php 373 26266 0 0
+/schoolerpuat_2_1/get_student_payment_dashboard.php 373 20486 0 1
+/schoolerpuat_2_1/get_agent_payment_dashboard.php 373 19769 0 6
+/schoolerpuat_2_1/schoolapi/studentgrade.php 300 11542 11 7
+/votersearch/ajaxCall.php 160 17790688 2 11
+/schoolerp/schoolapi/studentprofile.php 154 26924 4 3
+/schoolerpuat_2_1/schoolapi/studentprofile.php 147 27227 2 7
+/schoolerp/schoolapi/studentgrade.php 145 5937 9 5
+/schoolerpuat_2_1/schoolapi/firstreportcard.php 118 13518 0 2
+/schoolerpuat_2_1/schoolapi/firstsem_co_scholastic_acheive.php 118 14062 1 1
+/schoolerpuat_2_1/schoolapi/firstsem_co_scholastic_area.php 118 14073 1 3
+/schoolerpuat_2_2/schoolapi/studentgrade.php 91 4206 0 2
+/schoolerpuat_2_1/studentmarksentry.php 80 534858 0 0
+/schoolerp/lumSecondCreativeSkills_apk.php 64 127831 0 0
+/schoolerp/schoolapi/firstsem_mont_crt.php 62 7080 0 1
+/schoolerp/schoolapi/firstsem_mont_lang.php 62 7050 0 0
+/schoolerp/lumFirstLanguageSkills_apk.php 62 126914 0 0
+/schoolerp/schoolapi/firstsem_mont_wrt.php 62 7095 0 1
+/schoolerp/lumSecondWritingSkills_apk.php 60 119693 0 0
+/schoolerp/schoolapi/fetching_stu_grade.php 60 3060 1 0
+/.well-known/acme-challenge/1O1K4WCSX_RCVMRNXUBL_Y6A8QA9963F 1 64 0 0
+/.well-known/acme-challenge/_EMA-YUKK1EQ4FMR4HP1OTBJQUAU2BQ_ 1 64 0 0
+/.well-known/acme-challenge/F1RGC2D0X8RO2UP2UF2N-FGBXVW780D0 1 64 0 0
+/schoolerpuat_2_1/secondSemLkgUkgMont.php 11 80906 0 0
+/.well-known/acme-challenge/E1HD-RM0IKJN_2--6GYYOARZSBO1J7LU 1 64 0 0
+/.well-known/acme-challenge/JA---AKXG68ZRRO9V383QNNZZHBKVZZW 1 64 0 0
+/.well-known/acme-challenge/04OJKV9KZZ0AYT4J0R0C6PJTER_JNL_D 1 64 0 1
+/schoolerpuat_2_1/allSemLkgUkgMont.php 15 121150 0 0
+/.well-known/acme-challenge/J0T5-YEXIQ1_1BRF1CSTKEX42M1L_X3H 1 64 0 0
+/.well-known/acme-challenge/5COWX6RD208OFFYN4QX430BHJJYHZUNJ 1 64 0 0
+/.well-known/acme-challenge/KQUK00XHZOJ4SCGNZGYX8LFKNHW671PV 1 64 0 0
+/schoolerpuat_2_1/student-payment-reciept.php 1 107189 0 0
+/.well-known/acme-challenge/8WN4_TGGKFTSLV1AR-JQAKUU6ETK01QV 1 64 0 0
+/schoolerp/fonts/Flaticon.woff2 7 61936 0 0
+/.well-known/acme-challenge/MXD71YHH7QQ3EPN3FQG97B85CCITCQCR 1 64 1 0
+/.well-known/acme-challenge/MQAD2QSR3-_78PFJEX01_C2UE0NB0BEL 1 64 0 0
+/.well-known/acme-challenge/EBOZY9P8U2JTT8Z-Q6BXKQSXDC-WH98Z 1 64 0 1
+/schoolerpuat_2_1/Dashboard.php 12 90321 2 0
+/.well-known/acme-challenge/PLRTMFBWM12UDSCK4WFGKCYPGVBZM44Y 1 64 0 1
+/.well-known/acme-challenge/-ZOUC_IQS8EOHIJET64G94IAJ6BXI8ZA 1 64 0 0
+/schoolerp/schoolapi/secondsem_co_scholastic_area.php 3 337 0 0
+/schoolerp/add-class-teacher.php 1 7459 0 0
+/schoolerpuat_2_1/dailyReportattendance.php 1 102703 0 0
+/.well-known/acme-challenge/E62WB9M36YDL8O-TERX4YPZSUY0ZU3BE 1 64 0 0
+/.well-known/acme-challenge/M0XVO2HNPC6ZTNQICDU3II04WT953J-W 1 64 0 0
+/.well-known/acme-challenge/I3MLW3YJDN2T4FY78K1LNWVRZUDU0QP4 1 64 0 1
+/.well-known/acme-challenge/344ZQKGRVTOND04WMU6S-GRIYRCFEV4X 1 64 0 0
+/schoolerp/schoolapi/firstsem_co_scholastic_area.php 14 1598 0 0
+/brick2brick/admin/login.php 3 10096 1 1
+/schoolerp/update_grade_master.php 1 136 0 0
+/schoolerpuat_2_0/ 14 1890 10 0
+/schoolerpuat_2_2/schoolapi/secondreportcard.php 13 1533 0 0
+/.well-known/acme-challenge/F8GWUVV_WHG4WGZCLC72YM12ZOOWC53C 1 64 0 0
+/.well-known/acme-challenge/565DXFMD47NFUJ0XC4AB3DIGX6VJC0J8 1 64 1 0
+/.well-known/acme-challenge/1_3M86HE9Q-J2LXA8Y5ENCGYNR8WLNDP 1 64 1 0
+/.well-known/acme-challenge/_H_FB8O4DI2ABO-RRZIV2GDFG_CU2EXD 1 64 0 0
+/.well-known/acme-challenge/AMC4FC7QLFRAV5S-FTIVJXZMXHRCCSIR 1 64 0 0
+/schoolerpuat_2_1/firstSemLKGMont.php 16 115923 0 0
+/.well-known/acme-challenge/F8N0N_NY2527S3539NR_SXJLE9_962-0 1 64 0 0
+/schoolerpuat_2_2/schoolapi/fetching_stu_grade.php 47 2397 0 0
+/.well-known/acme-challenge/3VWU7N0WH1BLWVWA2YAJNDTRS18Z05QJ 1 64 0 1
+/.well-known/acme-challenge/OMJ3-L918SMOVFJJ91IHM0CCXX7G2FU5 1 64 0 0
+/schoolerpuat_2_2/schoolapi/newlogin.php 21 829 1 1
+/.well-known/acme-challenge/3RCVV98DHJTAJYIGNDUFSZD5470Y14ZZ 1 64 0 0
+/.well-known/acme-challenge/C8X2K96UH8F8SQBP2T0A9S2J8Z1HXAS7 1 64 0 0
+/schoolerp/webfonts/fa-solid-900.woff2 28 2080960 0 1
+/.well-known/acme-challenge/M31291BBW94XEB9P3GFTOI8YLKJPNYXJ 1 64 0 0
+/.well-known/acme-challenge/WRO6ULYXNAZJOB9FJ8VBSQYI9FQAUNDC 1 64 0 0
+/.well-known/acme-challenge/V8EHQ89W5MRDLX4COZPE3J0HJRIWR4A3 1 64 0 0
+/schoolerp/view-all-student-credential.php 3 459500 0 0
+/schoolerpuat_2_2/schoolapi/parentreqestlistview.php 16 728 0 0
+/.well-known/acme-challenge/1JW8MV-3HHVZBTOR7_IP_03-BLT84CMP 1 64 0 0
+/schoolerpuat_2_1/academicMarksReportJSON/scholasticAchievement.json 4 8808 0 0
+/.well-known/acme-challenge/_PHSVK17G5Z1QON6FK2M05J_NDT26AZ6 1 64 0 0
+/.well-known/acme-challenge/L-4YAKH8MJOWH-U8NX1Y01RNHHNYGLEJ 1 64 0 0
+/schoolerpuat_2_0/webfonts/fa-solid-900.woff2 1 74320 0 1
+/.well-known/acme-challenge/TU54FWDHXRSGNQLABTXQABLVTDXCG5E_ 1 64 0 0
+/.well-known/acme-challenge/77PH33STE129_AKVIMEGUTEXQGQSE1EK 1 64 0 0
+/schoolerpuat_2_2/schoolapi/newloginid.php 20 884 3 1
+/.well-known/acme-challenge/G8M3M37M89FWTL6JVF_B1H-7Q_N-3-9V 1 64 0 0
+/.well-known/acme-challenge/P0BU2I5454V3--1O-5--MZFUBVLKAN0J 1 64 0 0
+/.well-known/acme-challenge/NQSS8N3LVY5HSA8OH4X7WXZ74Y2CB82X 1 64 0 1
+/.well-known/acme-challenge/SMUIJ19IPQZ4JNBZJ8ERLH4MAYZ-28ZM 1 64 0 0
+/.well-known/acme-challenge/BCX6ERC7LR66XFE0678T7AF1TSJIDRV1 1 64 0 0
+/schoolerp/add_new_grade.php 1 162 0 0
+/.well-known/acme-challenge/A13_UXFMSXMM4O_NQ3PP8VLJ_CEYJNSH 1 64 0 0
+/schoolerpuat_2_1/login.php 23 19886 0 0
+/.well-known/acme-challenge/875_6EB6VL2_-INRH93TJ8M-9RGAY4PO 1 64 0 1
+/.well-known/acme-challenge/IUMIXQP6W6VPQNNL2X5FEP6D7A-_OEMK 1 64 0 0
+/schoolerpuat_2_1/schoolapi/feedetails.php 8 408 0 0
+/schoolerpuat/maintenence.php 1 941 0 1
+/schoolerp/co_scholastic_area_second.php 3 6627 0 0
+/schoolerpuat_2_1/schoolapi/newlogin.php 53 2099 5 2
+/schoolerpuat_2_1/webfonts/fa-regular-400.woff2 2 13608 0 0
+/votersearch/fonts/sourcesanspro-regular-webfont.woff 12 328900 0 0
+/.well-known/acme-challenge/VCD9JS580SU19VD6BKN3N40MY70OEVK- 1 64 0 1
+/brick2brick/admin/ 1 131 0 0
+/.well-known/acme-challenge/6_OERW-BO-U35SE9VWI_5O3447HDE6KC 1 64 0 0
+/.well-known/acme-challenge/dq_XyFuttpjKfAj1jrr7MpFXujqoMp242X7B0YdneDI 4 348 1 1
+/.well-known/acme-challenge/0164CB76-L6FFI7YW1RRL66YIT6_0V69 1 64 1 0
+/.well-known/acme-challenge/5X70_20OWA52DGS-0HLZF91BDWFRIKPN 1 64 0 0
+/.well-known/acme-challenge/7EDIC8ZKZRUGZFCSEJZ-4ZGN9WFU5OLD 1 64 0 0
+/.well-known/acme-challenge/T7M6T7NR1MGH113FY2D-0NIVT-AOZDRK 1 64 0 0
+/.well-known/acme-challenge/Y_FO13WH0Z9UCVSH9EBY9AKJQXOQZGGS 1 64 1 0
+/schoolerp/schoolapi/secsem_mont_wrt.php 56 6563 0 0
+/schoolerpuat_2_1/view-all-parent-requests-current-day.php 3 11127 2 0
+/schoolerp/fsr_apk.php 5 11922 0 0
+/schoolerpuat_2_2/schoolapi/secsem_mont_crt.php 29 3537 0 0
+/.well-known/acme-challenge/6Q21SCBQMQYTLIFXB73UM_DQUMO6C4I4 1 64 0 0
+/schoolerpuat_2_1/fetch_student_adm_no_section.php 4 176 0 0
+/.well-known/acme-challenge/-1TV7B-4MV096LQFXUVE8DF62OLDGK-S 1 64 0 0
+/schoolerpuat_2_0/maintenence.php 14 13174 0 10
+/seft/get_student_payment_dashboard.php 2 116 0 0
+/schoolerpuat_2_1/schoolapi/secondsem_co_scholastic_acheive.php 52 6200 0 0
+/.well-known/acme-challenge/CH52NISEV_XV0LSEWTINR6AK62-UO1L9 1 64 0 1
+/.well-known/acme-challenge/ZON5DZ50PSL_-_8072IQWX8W7D9AXC8B 1 64 0 0
+/.well-known/acme-challenge/G7FSJVL0DVCPVD3VA-0ONPXB82ZPF8HR 1 64 0 0
+/schoolerp/schoolapi/parentrequestlist.php 22 2280 0 0
+/.well-known/acme-challenge/H1OHMAV_38-O-LRLWI7U9DRUA9FG1U2H 1 64 0 0
+/brick2brick/admin/assets/css/images/sort_asc.html 1 238 0 0
+/.well-known/acme-challenge/DTK2KZX7MQA4BMRFLQYCO7H87NP-T6C6 1 64 0 0
+/schoolerpuat_2_2/schoolapi/insertparentrequest.php 2 80 0 0
+/.well-known/acme-challenge/XFOOD_OVMFIGX1IDTAHWXFS_3VBPD7OA 1 64 0 0
+/schoolerpuat_2_2/schoolapi/studentprofile.php 45 8335 0 0
+/.well-known/acme-challenge/U3MK936_TD8LWOGXCAU6HIR6F7FZ4R70 1 64 0 0
+/.well-known/acme-challenge/CLE3B8QB4VOLIQBQ43L5R2G2G-KWJ28D 1 64 0 0
+/.well-known/acme-challenge/G0JQHBCSHTKR7URGU6RLOESKMTIA9YWR 1 64 0 1
+/.well-known/acme-challenge/POWH9YGT1Z5LVOH2SHJGB9STZYAWLX8Q 1 64 1 0
+/.well-known/acme-challenge/GW7SNHHJKPJVWJIW96EYVLZ1UC140QML 1 64 0 0
+/schoolerpuat_2_1/student-details.php 1 8150 0 0
+/.well-known/acme-challenge/2PO39ZBQ-Y98RZ1QD7JDO1P7TISR9M8Z 1 64 0 0
+/brick2brick/admin/dashboard.php 3 61323 0 0
+/.well-known/acme-challenge/CF31-Z89DHGGLJW1PB452V-32XAA9GSH 1 64 0 0
+/schoolerpuat_2_2/schoolapi/firstreportcard.php 25 2974 0 0
+/schoolerpuat_2_1/schoolapi/parentprofile.php 9 459 0 0
+/.well-known/acme-challenge/FQ18H92KGNYMVWGXND85AFIS_SRWDLZI 1 64 0 0
+/.well-known/acme-challenge/DB1-CKFSKTVVZALYP5QTF4AEQAVJ0QRA 1 64 0 1
+/schoolerpuat_2_1/schoolapi/fileattachment.php 12 1342 0 1
+/.well-known/acme-challenge/4J2CGOX7E01UW5EBCKRPPMOVSJ77TABH 1 64 0 0
+/brick2brick/admin/index.php 1 134 0 0
+/.well-known/acme-challenge/_EX6XUBWVQZAMZB8C0XAUTBQOKCZI-AM 1 64 0 0
+/.well-known/acme-challenge/Z2M0Z7FSRRN0_Y544Q7QBDQUP9G7B0LV 1 64 0 1
+/.well-known/acme-challenge/8PHDTO_BO-OFE9SY2MF6H3C8W68HU8CA 1 64 0 0
+/.well-known/acme-challenge/TX0C7HGLTAOD6DFPOSKJ7F-L9RF9F228 1 64 0 0
+/.well-known/acme-challenge/RA_4E_8NGV0SBK7S9S_U5YULA8W1CYSX 1 64 0 1
+/schoolerpuat_2_1/attendance.php 38 348908 0 0
+/schoolerpuat_2_1/fetch_student_academic_year_by_grade.php 4 364 0 0
+/.well-known/acme-challenge/S5akO4qVHhosdkzfij4AtLoknUVErHW53C1JUFZMIvg 4 348 0 0
+/spectrafin/ 1 14575 1 1
+/.well-known/acme-challenge/VDFNV6XT53BEEVZQIDF5DBQMXXXR_I5J 1 64 1 0
+/qleaps/css/vendor/font-awesome/fonts/fontawesome-webfont3e6e.woff2 1 77160 0 1
+/.well-known/acme-challenge/crsHkDZUZMJIq6BPZ868KyKu6_5yhrK66QBPMdRezLg 4 348 1 4
+/qleaps/css/vendor/font-awesome/dist/font-awesome-animation.min.html 1 0 0 0
+/.well-known/acme-challenge/TTRC_9_BSD921AFAJ1-IPXEDPAC2QXUO 1 64 0 0
+/schoolerp/schoolapi/notifyview.php 20 2503 0 0
+/brick2brick/admin/userrequestlistview.php 1 16670 0 0
+/.well-known/acme-challenge/JCEH3NJB0JAMXELW3QIFG0TLELGYFMKX 1 64 0 0
+/schoolerpuat_2_2/schoolapi/parentrequestlist.php 7 701 0 0
+/schoolerpuat/view-all-student.php 1 137 1 0
+/.well-known/acme-challenge/8TFGGFSFAHHUCWFE_LOS8OA6BLGS5JLH 1 64 0 1
+/votersearch/indexAdvance.php 3 25238 0 0
+/.well-known/acme-challenge/8CIL04E0-GTNWY3FOUGRET4G9ETPP6Z5 1 64 0 0
+/.well-known/acme-challenge/J4JP355H7I36KU7CN7C4OI0BY_1MSMNY 1 64 0 0
+/schoolerp/schoolapi/feedetails.php 24 4267 0 0
+/.well-known/acme-challenge/WPOPEZ8SR_20MD3K-FB0AF_GPQ-JIG8P 1 64 0 1
+/.well-known/acme-challenge/H4O-GD5M6-TSZAVRRPBD3T2ACVMIQNUM 1 64 0 0
+/.well-known/acme-challenge/2WB2MZKCXYAOATVJRO8TXFIV8L3Z4MKQ 1 64 0 0
+/schoolerpuat_2_2/schoolapi/allsem_mont_wrt.php 35 3980 0 0
+/schoolerpuat_2_2/schoolapi/firstsem_mont_wrt.php 27 3348 0 0
+/.well-known/acme-challenge/10SRQ6AMPWAH0HMBS1O4ROM9DCW0T5AA 1 64 0 0
+/.well-known/acme-challenge/OUZ5JVNHVZFRMZOMEEKXME2RJ17Y4GOP 1 64 0 0
+/swcs/admin/webfonts/fa-solid-900.woff2 1 74320 0 1
+/.well-known/acme-challenge/Z8ZDSMX012O8D6XB2I9CPAZ796QG82QP 1 64 0 0
+/schoolerp/co_scholastic_acheive_all.php 2 4702 0 0
+/schoolerp/student-details.php 2 8304 1 0
+/.well-known/acme-challenge/39Z--HKE6T5YSHM5OL4U4Q4QB37ERSS0 1 64 0 0
+/.well-known/acme-challenge/CXGH9ZQWXNUX3RZ1ZOL5AGKHZPTKK2W1 1 64 0 0
+/.well-known/acme-challenge/UTS-OL2DZE7LWE_UKR4HUA4U9NBIYX5I 1 64 0 0
+/.well-known/acme-challenge/vv7XbWLsVIdWSgi1249nuQ6PgESKDttLK9iy0K8iXyM 4 348 4 1
+/.well-known/acme-challenge/VQ93LO-L1LBIDNLBUAQA63P195-QA3O0 1 64 0 0
+/schoolerpuat_2_2/schoolapi/firstsem_co_scholastic_area.php 25 3010 0 0
+/.well-known/acme-challenge/4-ONS1TZ4MBSWJ-LB-YKTEX1LPNBQDGR 1 64 0 0
+/.well-known/acme-challenge/2-5B9TUEB6T60USR-3I4XEAGCUP0N08G 1 64 0 0
+/schoolerpuat_2_1/add-new-student.php 5 50190 0 0
+/.well-known/acme-challenge/1X7VCJQI4N2WQT2ZTLW-07KB3WOOK3W5 1 64 0 0
+/schoolerp/co_scholastic_acheive_first.php 1 2371 0 0
+/schoolerp/schoolapi/fileattachment.php 20 2123 0 1
+/brick2brick/admin/packagetypeview.php 1 13923 0 0
+/schoolerp/stu-attendence-calender-view-apk.php 6 56645 0 0
+/.well-known/acme-challenge/1WDU5PV7LLZ7QTI6JEBT_IX-14NHO0DS 1 64 0 0
+/.well-known/acme-challenge/DG2TU7SJL068DHRQUFVV4T8L_4K5ARSX 1 64 0 0
+/schoolerpuat_2_2/schoolapi/firstsem_co_scholastic_acheive.php 25 3010 0 0
+/.well-known/acme-challenge/ENPPX48KSWOUGTII7NJ_O1X5_QP38Z9V 1 64 0 0
+/schoolerpuat/webfonts/fa-solid-900.woff2 2 148640 0 0
+/.well-known/acme-challenge/TP0TRWZ6-NNX861TTVNVAZD979DZJ3HS 1 64 0 0
+/.well-known/acme-challenge/WCQUA7A4OSWXNF9LB-31BSPLHJ5_JNOF 1 64 1 0
+/schoolerpuat_2_1/student-payment.php 8 65346 0 0
+/.well-known/acme-challenge/JIWGHOKE03Z4LMWE7606FKE67NXBTU9T 1 64 0 0
+/.well-known/acme-challenge/XQBZWB1RTIFNLQ8JJVG7-Z5W_46EFN0B 1 64 0 0
+/.well-known/acme-challenge/ATAO0Z242V36HG7DQE1ZDPKOBOES_T3J 1 64 0 1
+/schoolerp/view-all-student.php 4 270345 1 0
+/schoolerpuat_2_1/schoolapi/notifylist.php 16 26950 0 1
+/.well-known/acme-challenge/2NQPZIFNC_OBIPAF-Q55GKQC5P2_WBAD 1 64 0 0
+/.well-known/acme-challenge/W-90NSCMZ-9H5-C425TCQ_BCX87I5Z0I 1 64 1 0
+/schoolerpuat_2_1/fetch_grade_academic_year.php 4 500 0 0
+/schoolerpuat_2_2/schoolapi/allsem_mont_lang.php 35 3670 0 0
+/.well-known/acme-challenge/AZPRH598TUNVYQ2UZEALMQU3Y5AQMAN1 1 64 0 0
+/.well-known/acme-challenge/NX3FLL723FIC_9KOL7CV84ME19B70RMQ 1 64 0 0
+/.well-known/acme-challenge/AWLOPGGY4B2DVA1G23TI1_VQDTS1A6KH 1 64 0 0
+/.well-known/acme-challenge/GO42IGGL82S6UAVZ0YR0CIU8DMRFTMNL 1 64 1 0
+/swcs/admin/ 1 127 1 0
+/.well-known/acme-challenge/21VGSHBE-9M-GOK5-8T2MJLY_UQZ_3PB 1 64 0 1
+/schoolerpuat/login.php 3 3321 1 1
+/.well-known/acme-challenge/Z2W25JBBJP7SPRWD7T39GB8RQKQ-_XE9 1 64 0 0
+/.well-known/acme-challenge/4ZD3O_393GYSQNKU65UV4XF8JX4SXN9E 1 64 1 0
+/.well-known/acme-challenge/RBF63P4K5EF21OI7SA_TNLSMH3VCWSTG 1 64 0 0
+/.well-known/acme-challenge/54R_CWHWGLI-0YO8Z4IB2RR8WCA_NQ1F 1 64 0 0
+/erp/ 4 8864 2 3
+/.well-known/acme-challenge/U6DMMTW3A6ERO4VYU0X0_IIAKH-9KZ9C 1 64 0 0
+/schoolerpuat_2_2/schoolapi/notifylist.php 4 9666 0 0
+/.well-known/acme-challenge/DgY_RwkvFZTS2OxSyZgN5amQ6HF3TFZE78vPx1QJQFE 4 348 0 0
+/.well-known/acme-challenge/F__06WNNYIGRFUHPPY821DVPP3YLR_XR 1 64 1 0
+/.well-known/acme-challenge/V2_I8KT9993VOITLW6O66MAC6O7S12RU 1 64 0 0
+/.well-known/acme-challenge/8PSGX6LCMENLO9QBPI5-UURQDB_XIZAA 1 64 0 0
+/.well-known/acme-challenge/ATTI6-72-D9TLJDRQJPSCOL_QOAIFT7R 1 64 0 0
+/.well-known/acme-challenge/C3ENBQQFMHYBEHI8N97S1HNWCMYPVPQ7 1 64 0 0
+/.well-known/acme-challenge/YHSHSW1_4UNT0VBPPUIKB_U0MI38C19M 1 64 0 0
+/.well-known/acme-challenge/E1KQP4GY95FV80UX-ZQC-Z1-U1GZIFO9 1 64 0 0
+/schoolerpuat_2_1/schoolapi/parentrequestlist.php 1 114 0 0
+/.well-known/acme-challenge/J4-BIW2WN3IN94FS42CP59JFDX1XZ_E8 1 64 0 1
+/.well-known/acme-challenge/-4ENMW-17L0FALYOJDFNGTTEVEXCL821 1 64 0 0
+/.well-known/acme-challenge/67H7JF9R5OEVL37-YH-KOW_E_HBNU2IN 1 64 0 0
+/schoolerp/lumFirstWritingSkills_apk.php 35 71768 0 0
+/.well-known/acme-challenge/F5ECD7MPKARDLB8TAOQYRY2-L_N2WODY 1 64 0 0
+/schoolerpuat_2_2/schoolapi/firstsem_mont_crt.php 27 3321 0 0
+/schoolerp/schoolapi/newlogin.php 35 1379 1 0
+/.well-known/acme-challenge/_PLQI_2_HZHR03HOXNYH5MJUCWE8H_YK 1 64 0 1
+/.well-known/acme-challenge/0SXI53-4JOK_HSYVQT7E_WNAAQ-D4ZM_ 1 64 0 1
+/.well-known/acme-challenge/I9WSGX2UJHN7UP9XTHZYZ480-68FTVI2 1 64 0 0
+/schoolerpuat_2_1/add_student_payment.php 4 716 0 0
+/.well-known/acme-challenge/HEFVF388R8GYP5FIPBS_6FYB4SLWYH9D 1 64 0 0
+/schoolerpuat_2_1/monthlyArepForAllStu.php 1 206010 0 0
+/.well-known/acme-challenge/ZEDE99IR7FUC297KYTSXD8C7O9YW8D9B 1 64 0 0
+/.well-known/acme-challenge/MU4FX32ZQKE6BNBBS_1W07-ZWRXFQ1_2 1 64 0 0
+/schoolerpuat_2_0/login.php 2 2214 2 1
+/schoolerpuat_2_1/schoolapi/insertparentrequest.php 1 40 0 0
+/.well-known/acme-challenge/5ELKQ16FO2KQR_PATGAWE3O7VVQJ3AC3 1 64 0 0
+/.well-known/acme-challenge/Z8QX7NST02TRUHHAWNBVF7QG9KW4NCUV 1 64 0 0
+/.well-known/acme-challenge/JvjEJjgvM88F5NebHLQmBn2ZR-RsfmYj7wnAmldV7CY 4 348 0 0
+/.well-known/acme-challenge/YRKWWS8PFAGZHKX3U9DR6Q-PZF7O6KXR 1 64 0 0
+/.well-known/acme-challenge/RCZT_Z6SR0N0FO2AG--07MTPNQLJ71XQ 1 64 0 0
+/.well-known/acme-challenge/OZERJNJ-HDFDP7J1JU_DWF86B5F865VP 1 64 0 0
+/.well-known/acme-challenge/T7ZW1QHSY_J1KUQ1UCVPPB3B1QDM5SW9 1 64 0 0
+/.well-known/acme-challenge/W43YRVEYISV1KZTSPEUTBYHK2H9M2LY- 1 64 0 0
+/schoolerpuat_2_1/fonts/Flaticon.woff2 5 26544 0 0
+/.well-known/acme-challenge/HBI5D6C7Z4QY975D_5TPD8W35PNKLT34 1 64 0 0
+/brick2brick/admin/packagetypelist.php 4 56744 0 1
+/schoolerpuat_2_2/schoolapi/feedetails.php 2 102 0 0
+/.well-known/acme-challenge/L50Q9-2BSB4CZ1FP0UDWIY8K7PPN1PJP 1 64 0 0
+/.well-known/acme-challenge/4_K2WYXAKXJK_H8P6HNUSQ58DF-Q09_R 1 64 0 0
+/.well-known/acme-challenge/_6-D102XYU9KRDHQXGNZUMTF84YOZ-J- 1 64 1 0
+/.well-known/acme-challenge/N8-5G1408L3-W8TSTMGO0RJLXJZDZJI0 1 64 0 0
+/schoolerpuat_2_2/schoolapi/allreportcard.php 13 1533 0 0
+/.well-known/acme-challenge/KM4PU5IGT7IF9WCQOR3JD_5ZS79-SSJ2 1 64 0 0
+/.well-known/acme-challenge/808Q8GLL2RGD9V8AV5N4LE9HF86KR-_2 1 64 0 0
+/.well-known/acme-challenge/0A-7_9FR966-AOUHM5ROUO6VIF7WDW0Z 1 64 0 0
+/schoolerpuat_2_1/gradeTest.php 7 68211 5 0
+/schoolerp/co_scholastic_area_first.php 1 2211 0 0
+/.well-known/acme-challenge/9455E735GZ9QBMZXVXQIDPIUUUA6WVK0 1 64 0 0
+/.well-known/acme-challenge/EVGB-BJ9QM80MPD9OQWYU02W0-X_QE4A 1 64 0 0
+/.well-known/acme-challenge/HZPDAN9J5VCB2BD21EMZAHUQBNZE--UV 1 64 1 0
+/schoolerp/add_announcement.php 7 952 0 0
+/.well-known/acme-challenge/Y5T1E301U2HK99YH-9UNV1E8JC9PWDZ0 1 64 0 0
+/.well-known/acme-challenge/-7QT0YIAPW8D5JI91OJS-JLASJWJ-QJ3 1 64 0 1
+/.well-known/acme-challenge/52EUEMM0MNOWT5XJ-Y9NMZBNFOVZJH2B 1 64 1 0
+/seft/index.php 1 136 0 0
+/.well-known/acme-challenge/HZJJ1Z4G6XPH_5FU9F69NBCYD7ZPIB4Z 1 64 0 0
+/schoolerpuat_2_1/schoolapi/newloginid.php 51 2212 7 0
+/votersearch/ 22 161840 10 3
+/.well-known/acme-challenge/MVF1VX5P9X936X18N8C3BBF5ZSMGN7W1 1 64 1 0
+/schoolerpuat_2_1/webfonts/fa-solid-900.woff2 5 222960 0 0
+/.well-known/acme-challenge/23YM-9K_2A5B2V0B496ZBK80KTZJP5EI 1 64 0 0
+/.well-known/acme-challenge/KIG8C5W61AEYC-7R1IA-NWNLH_O0DDG0 1 64 0 0
+/.well-known/acme-challenge/0R1Y_Y43_44T26K4H5FMCWC215MYWRQ- 1 64 1 0
+/.well-known/acme-challenge/_VSC1QZ51ZIX-FXCZO-99NGPGAESA40F 1 64 1 0
+/.well-known/acme-challenge/C0Z1V6R-P214EMWA2WRCA11FA7-D2VJL 1 64 0 1
+/.well-known/acme-challenge/XJ45YAOM9KHP5T6_2H1M0-HU4FH576WA 1 64 0 0
+/.well-known/acme-challenge/U__110TOR1600UB8XPJV6_FLQB52ULQ_ 1 64 0 0
+/schoolerpuat_2_1/announcement.php 2 16598 0 0
+/.well-known/acme-challenge/G0IY_6VDSIPVH0JU1J3MJSHA8C0YVD_6 1 64 0 0
+/.well-known/acme-challenge/RABM7JDQ_X9U-8J5DMQWZBD03PR29E5E 1 64 0 1
+/.well-known/acme-challenge/1TY3NXMVVJKCAF8EXSJ_0391K74CWXT4 1 64 0 0
+/.well-known/acme-challenge/R4JIWN7-GDCJ5HALMJN2LEL9P3OLKJW3 1 64 0 0
+/.well-known/acme-challenge/41FNFL0_1L2NCKLU76G3S6MY-IL60GT9 1 64 0 0
+/.well-known/acme-challenge/MNU_GH6OKNOKP5_QWA0MO5X-5-QMD690 1 64 1 0
+/spectrafin/fonts/fontawesome-webfont3e6e.woff2 1 77160 1 0
+/schoolerpuat_2_1/schoolapi/secondreportcard.php 52 5841 0 2
+/.well-known/acme-challenge/_EAI1DGRN7C72MTLQ1L53-8XNMSKOAZ5 1 64 1 0
+/swcs/admin/webfonts/fa-regular-400.woff2 1 13608 0 1
+/brick2brick/admin/packageinsert.php 1 13825 0 0
+/.well-known/acme-challenge/M1RNVD8U9UNUJQIXX_RYU2CBXK4W691S 1 64 0 0
+/.well-known/acme-challenge/-G1063Y7_136-0ZZ0ZGSTWS08IZ3Y0-Q 1 64 0 0
+/.well-known/acme-challenge/JCMBOOVWJRLYQFUILI2L8_29HZ7OE8_D 1 64 0 0
+/.well-known/acme-challenge/F_V1840XPNK052WQBLSM5VO8MNNU0U26 1 64 0 0
+/.well-known/acme-challenge/_OUO3CFWQJO521V7VNVNHV7IQOLP57RO 1 64 0 0
+/.well-known/acme-challenge/PuZk9_bP69dOwNE2hSfbqK9DZ-Fj3DZntK9NEeK6ysM 4 348 0 1
+/schoolerp/schoolapi/allreportcard.php 2 214 0 0
+/.well-known/acme-challenge/1FJ335T9I4YA7ML_ESVNP01H2KOV6T57 1 64 0 0
+/schoolerp/schoolapi/allsem_mont_wrt.php 41 4433 0 0
+/.well-known/acme-challenge/IL2A4IN6C4XSUYN-F97W5EAO_ZPIPQN2 1 64 1 0
+/.well-known/acme-challenge/Y74YY7TFV_RY9YX5-7R4EBXCYVOQ80XH 1 64 0 0
+/.well-known/acme-challenge/4IFJ29WWLUL79NYN26RT0FA4Y8UAIEU8 1 64 0 0
+/.well-known/acme-challenge/LGBWGK33EJC16VEF8XX65TTQLZM_EZQD 1 64 0 0
+/schoolerpuat_2_2/schoolapi/allsem_co_scholastic_acheive.php 13 1531 0 1
+/schoolerp/schoolapi/insertparentrequest.php 7 280 0 0
+/votersearch/submitSearchAdvance.php 23 19189822 1 0
+/.well-known/acme-challenge/BY4BPYWUTS033PJG7JVZZAJJSL2EOR3W 1 64 0 0
+/.well-known/acme-challenge/DEGDSLSSSCC8BRQXL0PPMLG77512KXJW 1 64 0 0
+/.well-known/acme-challenge/FJF57IR299T4SPFBNRL3UQDVTTXNDGP8 1 64 0 0
+/.well-known/acme-challenge/PTZQ90KOZ0V3DJ3BFBJ_RDX623EO01BA 1 64 0 0
+/schoolerp/add-new-grade.php 4 44685 0 0
+/schoolerp/schoolapi/firstsem_co_scholastic_acheive.php 14 1609 0 0
+/.well-known/acme-challenge/9D_0TC-VUBJ7V01CDLZM328G4DCL9MNJ 1 64 1 0
+/.well-known/acme-challenge/DPM9JOE9LL_O5_-3ZYO8FZAD93Y0MHP9 1 64 0 0
+/spectrafin/fonts/revicons90c690c6.woff 1 7536 0 1
+/.well-known/acme-challenge/3RZAVGJD7JS-ZAH2M8Z5J5WQOPXGC-NC 1 64 0 0
+/.well-known/acme-challenge/J9O5SLT19BH599NY30K7ES_E127NWYQV 1 64 0 0
+/schoolerpuat_2_1/co_scholastic_area.php 27 1404036 0 0
+/votersearch/submitSearch.php 20 131576165 1 1
+/.well-known/acme-challenge/IPPV77BGP_WE51YD9EJ8YVD2YHP93S-E 1 64 0 0
+/schoolerp/schoolapi/parentreqestlistview.php 14 1348 0 1
+/.well-known/acme-challenge/B2UUA1FJ9F7NSPH_0T90GN4GUSMYH5-W 1 64 0 0
+/schoolerp/schoolapi/allsem_co_scholastic_acheive.php 2 227 0 0
+/schoolerp/add-announcement.php 7 41573 0 0
+/schoolerpuat_2_1/attendencelist.php 5 514305 0 1
+/schoolerp/index.php 9 1219 1 0
+/.well-known/acme-challenge/TVKR8J1E1PA0TJ3P9R6WJ9EL7DBEDMWX 1 64 0 0
+/schoolerpuat_2_2/schoolapi/secsem_mont_wrt.php 29 3538 0 0
+/.well-known/acme-challenge/BH033EH4VK34LM93BPRJI9UWBWHV3IZ4 1 64 0 0
+/seft/login.php 4 3599 0 1
+/.well-known/acme-challenge/XGNJCD4SYYX8FBYKW6R2UY4YN97F5WDM 1 64 1 0
+/schoolerpuat_2_1/attendance_new.php 20 160680 0 0
+/schoolerp/Dashboard.php 8 79833 0 0
+/.well-known/acme-challenge/A6250G2LF0QP_KD1F0A_A2GCT2X6F0T- 1 64 1 0
+/schoolerp/getAttendancedata.php 18 8623 0 1
+/schoolerp/attachDownload.php 43 9690 0 1
+/schoolerpuat_2_1/editAttandance.php 19 193821 0 0
+/.well-known/acme-challenge/MODN3-S9T08V6HJLE956RCDD9V252SGH 1 64 0 0
+/schoolerp/announcement.php 9 71316 0 0
+/.well-known/acme-challenge/xRrxwMFyFBZqUgn1ubiy-WXgS517yry4ngcPFhErkU8 4 348 0 0
+/schoolerp/lumSecondLanguageSkills_apk.php 53 106363 0 0
+/brick2brick/admin/get_your_estimate_update.php 1 12145 0 0
+/.well-known/acme-challenge/OCLQESOX6H5KSN2ECE7SZVU02228S3OJ 1 64 0 0
+/.well-known/acme-challenge/Z8Y9570789I6MIQ8PIJAK50L_J9CKLOH 1 64 0 0
+/schoolerpuat_2_1/schoolapi/stu_attendence.php 9 1077 1 3
+/.well-known/acme-challenge/0OKX39NH7TQ0ME_9X234SCIV5DV2WZ3Q 1 64 0 0
+/.well-known/acme-challenge/C4698XNS_MGXKJAUEL4JDGDCDOAWHNPE 1 64 0 0
+/.well-known/acme-challenge/IVNX4BW-Y8MR84Q700064UHC05_7JVGU 1 64 0 0
+/.well-known/acme-challenge/PXQQ2OS6PZUVLMJWSPFO8H7DD3OXBLLS 1 64 0 0
+/votersearch/index.php 2 13354 0 0
+/schoolerp/schoolapi/parentprofile.php 14 714 0 0
+/.well-known/acme-challenge/7AP1G2N_9T1-EOFQW80XA-DOWDBU0SNJ 1 64 0 0
+/.well-known/acme-challenge/W172BO0E6FO1L3E-L5LF56BEINDQ963F 1 64 0 0
+/schoolerpuat_2_1/index.php 9 1224 0 0
+/schoolerp/lumFirstCreativeSkills_apk.php 32 65791 0 0
+/.well-known/acme-challenge/TV2JVQNLOVS6XFO2X56DKEJB6GL_COMB 1 64 1 0
+/.well-known/acme-challenge/ADEGE5SWPZBATDN2KL676CUV7SZ_N9CF 1 64 0 0
+/.well-known/acme-challenge/J4A69DRS0BBVIR7J7ZNGAF4U0GFI2Q1M 1 64 0 0
+/schoolerpuat_2_1/schoolapi/allreportcard.php 9 1012 0 0
+/schoolerpuat_2_2/schoolapi/secondsem_co_scholastic_area.php 13 1559 0 0
+/schoolerpuat_2_1/cal.php 24 325012 0 0
+/.well-known/acme-challenge/B74BWR8S55FGSHHDXEQ6EBOOS6WDXSA2 1 64 0 0
+/.well-known/acme-challenge/Q1ET9MS1D6NJ2O97YGZVPEGTGEK0JAF1 1 64 0 0
+/.well-known/acme-challenge/-AA2STHC8-7F-MEF-2LRGVJ8A7XMJUQ6 1 64 0 0
+/.well-known/acme-challenge/94-P5P3Z0_3W8KTVC2NA_O-QNWM7F484 1 64 0 0
+/brick2brick/admin/assets/css/images/sort_both.html 1 238 0 0
+/.well-known/acme-challenge/QO7-_-DYEUU52ZTZ-AQK3N8EU9SA3B6O 1 64 0 0
+/.well-known/acme-challenge/DVFEVJHJ93UACORTN1F5RPK164PW7SAZ 1 64 0 0
+/.well-known/acme-challenge/9QHBUBID4OBPTC8XJPMVPNOTYW60E70J 1 64 0 0
+/.well-known/acme-challenge/N34EQXL8KNGWCEOJ5DDJFWV7-_9N-MSZ 1 64 0 0
+/.well-known/acme-challenge/A2UMQY3XT039_OIANTC0NXQNKRRVT3Q6 1 64 0 0
+/.well-known/acme-challenge/G87VHWK29Q-46GU4JZ545HN-B7_A5NOY 1 64 0 1
+/.well-known/acme-challenge/G5B2NC_G4V3BUZHQFT4JWV1U5-81T7U0 1 64 0 0
+/seft/fonts/Flaticon.woff2 1 8848 0 0
+/.well-known/acme-challenge/ASYKSTG4-KO-UY4YZJ39_AV6UCMSJKY0 1 64 0 0
+/seft/webfonts/fa-solid-900.woff2 2 148640 0 1
+/.well-known/acme-challenge/C7O1CQWZMTW13ZWT9R-WHJANFA3TFITE 1 64 0 0
+/.well-known/acme-challenge/NPH5-GE5VZQB8M8U2GAEMTZ6S0-A033N 1 64 0 1
+/.well-known/acme-challenge/9AF2Y862B4A55PPUUQGK9EVNGRL-K85H 1 64 0 0
+/schoolerp/webfonts/fa-regular-400.woff2 25 340200 0 2
+/.well-known/acme-challenge/MRY5ZRK4ZOOJ-YAVF7KJDWF8VFDMCZ3G 1 64 0 1
+/schoolerpuat_2_1/add-announcement.php 1 5953 0 0
+/.well-known/acme-challenge/RAQBK4X_YBX8NGTO1KTW_DL4U1OBKV-_ 1 64 0 0
+/schoolerp/schoolapi/secsem_mont_lang.php 56 6580 0 0
+/.well-known/acme-challenge/MITDSJJYXA8UCF7R6O7IYR_NX_HHNZIM 1 64 0 0
+/.well-known/acme-challenge/ISRSC42OXDKSDFVI0MGQXQ_6TD45B76W 1 64 0 0
+/schoolerp/schoolapi/firstreportcard.php 14 1503 0 0
+/seft/ 3 393 3 0
+/.well-known/acme-challenge/O74DLI4KKTUDOLKP30-VLANOPMMAWO-I 1 64 0 0
+/votersearch/fonts/fontawesome-webfontf77b.woff 9 348576 0 0
+/.well-known/acme-challenge/FXJXDDVVPTO5XVGAGG2L6PA-WT_TXK42 1 64 0 0
+/schoolerpuat_2_2/schoolapi/allsem_mont_crt.php 35 4057 0 0
+/schoolerpuat_2_1/yearattendance.php 3 618164 0 0
+/.well-known/acme-challenge/GUPZF_VLOIK5YK_K5TM6WILPNFHKDMW9 1 64 0 0
+/schoolerpuat_2_1/schoolapi/secondsem_co_scholastic_area.php 52 6178 0 0
+/.well-known/acme-challenge/KUM1OUMXK488G3418LGZOI_NR0NXYYAN 1 64 0 0
+/.well-known/acme-challenge/-EHF1OWLB8XVCG6RO_6WREFGNP87Y8X- 1 64 0 0
+/.well-known/acme-challenge/RE6FCBOWH0GL2GWUN3GQ0QH-1QZLWO1R 1 64 0 0
+/schoolerpuat_2_2/schoolapi/secondsem_co_scholastic_acheive.php 13 1569 0 0
+/.well-known/acme-challenge/Y60Z93NB7JQQ8WE0PFM1I96WO9MVZCRF 1 64 1 0
+/.well-known/acme-challenge/WSIONKNZ0RR3RYGZZFA_A88DFSC55UT7 1 64 0 0
+/.well-known/acme-challenge/W919OMMKN9W2_M2TLOUP3Y33TTN1139R 1 64 0 0
+/schoolerpuat_2_0/webfonts/fa-regular-400.woff2 1 13608 0 0
+/schoolerpuat_2_2/schoolapi/fileattachment.php 3 331 0 0
+/.well-known/acme-challenge/T8RYD9202WQKGBDPBNH5WXN3RJ_GGT63 1 64 0 0
+/.well-known/acme-challenge/4R7A1DYPSV39__8Y0MO2CDE-BIYB08J9 1 64 0 1
+/.well-known/acme-challenge/M685NEK64NQVT36PZ9L_197M3YIU-Y73 1 64 0 0
+/.well-known/acme-challenge/DY3H9FAS4WVH84KW0DBJQ1TKR-D2H3S0 1 64 0 0
+/.well-known/acme-challenge/XC319Z_RWMZLU4UTAI65_Y38A4G-3I5O 1 64 0 0
+/.well-known/acme-challenge/TV4WFXOD72BENCX19OMQ-7T4XBOFRTB7 1 64 0 0
+/schoolerpuat_2_1/fetch_student_payment.php 4 108 0 0
+/.well-known/acme-challenge/-BPKM_VMCOLHSGBLBYR2V12MSJM_J14W 1 64 0 0
+/.well-known/acme-challenge/TW4FOU76SKIOYNZSD3I6UGT-MZE53Q-I 1 64 0 0
+/.well-known/acme-challenge/PWWKUC55NI7FGBXNY3JVDYNA4I71K_FJ 1 64 0 0
+/schoolerp/schoolapi/notifylist.php 23 21543 1 3
+/.well-known/acme-challenge/H_F3CGZOTECSGBH88ONMEWMWL5RT14-2 1 64 0 0
+/schoolerp/ssr_apk.php 2 5071 0 0
+/.well-known/acme-challenge/342C5KBXJ9SLZ-4J1-JYY8CETTG3IW5H 1 64 0 0
+/.well-known/acme-challenge/WDZRZPOJEQZPTD4UUGEHNJCOTA1BU49G 1 64 0 0
+/.well-known/acme-challenge/FJ9OTJIURKTCXM44SON1_4S-U_TETVYR 1 64 1 0
+/schoolerpuat_2_1/view-all-student.php 11 3973744 0 0
+/schoolerp/login.php 45 44931 2 1
+/schoolerp/student-study-certificate.php 2 240958 0 1
+/schoolerp/schoolapi/secondsem_co_scholastic_acheive.php 3 345 0 0
+/schoolerpuat_2_1/montessoryMarksEntry.php 29 2147148 0 0
+/schoolerp/schoolapi/secondreportcard.php 3 320 0 0
+/.well-known/acme-challenge/QGNK19KE2MWAE3M_59E5-3WT5D3S5S0E 1 64 0 0
+/.well-known/acme-challenge/O5-B8K34LU59HNJH1YJJHI-551YR-89L 1 64 0 0
+/.well-known/acme-challenge/3ACAIKAR9ZBZANMZ48DUCROGV1QKWHDZ 1 64 0 0
+/.well-known/acme-challenge/5ROYTFZRUBB1YCF_-2YIAH2_9CJ_3C6R 1 64 0 0
+/schoolerp/schoolapi/allsem_mont_crt.php 41 4433 0 0
+/.well-known/acme-challenge/H_88CAOIWE1S0V9ORV_STQSAR_P1ILH_ 1 64 1 0
+/.well-known/acme-challenge/2O--220CQL87A-X7Y1M_03FOL88COBM8 1 64 0 0
+/.well-known/acme-challenge/YR4AMC-KG4Z-LNPG0B-UNYWQWLL_Y60V 1 64 0 0
+/schoolerpuat_2_1/schoolapi/notifyview.php 12 4104 0 1
+/.well-known/acme-challenge/EGF3QAA4YB8Z6IBKPN7JE3E-RQDW5RVQ 1 64 1 0
+/.well-known/acme-challenge/QUZU4TRU5O2PKYIWE2S2OUW6L6I746G2 1 64 0 0
+/.well-known/acme-challenge/LDPS2UXJ_LL-_C0EC9_NHOQQV6IF65KR 1 64 0 0
+/brick2brick/admin/userrequestlist.php 3 53109 0 0
+/votersearch/exportusingMysql.php 1 1826 1 0
+/schoolerp/schoolapi/allsem_mont_lang.php 41 3977 0 0
+/.well-known/acme-challenge/90SBE6KPG4D4SE-G5AZMILHNR9SRLDA5 1 64 0 0
+/.well-known/acme-challenge/U7CO60-DY_8ZRUXP2G6-SWDBDQIN7J-4 1 64 0 0
+/.well-known/acme-challenge/YJPYPE8WZJ9L_KAU3HXSJAQUSCTMMNXN 1 64 0 0
+/.well-known/acme-challenge/V8_5EBIM4152SA9H8R7SAZWRL2SN-B1G 1 64 0 1
+/schoolerp/co_scholastic_area_all.php 2 4619 0 0
+/.well-known/acme-challenge/7EW47XLLTO0R20_DR9P_Y4H09TKTG-NZ 1 64 0 0
+/.well-known/acme-challenge/0EX457EN54VYSNJ9YV0UF3E98S_TTQ_Y 1 64 0 1
+/.well-known/acme-challenge/_7360H8X1MKMDT3XO5NDC1S_HVB-8ZUH 1 64 0 0
+/.well-known/acme-challenge/BCBKLX0M4M6EJW5K_7VK-OZO2PD44GXP 1 64 0 0
+/.well-known/acme-challenge/OBE1UDRO61-LDHWCTGQVLVO6ZYQNGZ-0 1 64 0 0
+/.well-known/acme-challenge/J3WWSI7RQ_CIPJC_BLYNYOE-DHBU-PV3 1 64 0 1
+/.well-known/acme-challenge/AO1Q_LLVWOJ1UUEZCMS77D2A976ZSZ8_ 1 64 0 0
+/.well-known/acme-challenge/3ZXJY7UX4BDIPILM8ASJ0ZC1PGL-67TT 1 64 0 0
+/schoolerpuat_2_1/schoolapi/allsem_co_scholastic_acheive.php 9 1051 0 0
+/.well-known/acme-challenge/W6_PGTHKK0M5XVL81VOQAOY_T00KV3O- 1 64 0 0
+/.well-known/acme-challenge/-MCEQH8DBZWCDUBAUFYKBLPIO6TWYNWA 1 64 0 0
+/.well-known/acme-challenge/PTZ09V30YTI-LSW8IUDTHA1U8E7KC45H 1 64 1 0
+/qleaps/ 1 10951 1 0
+/schoolerpuat_2_2/schoolapi/secsem_mont_lang.php 29 3566 0 0
+/schoolerp/schoolapi/allsem_co_scholastic_area.php 2 221 0 0
+/.well-known/acme-challenge/2-AQ4D832MVO-RGIGMXAISM_1WIJ-WIU 1 64 0 0
+/schoolerpuat_2_1/schoolapi/allsem_co_scholastic_area.php 9 1051 0 0
+/swcs/admin/login.php 1 995 0 0
+//cpanel 1 13587 1 1
+/.well-known/acme-challenge/IVJPQX3CC2J8SXAVUPLPOHFX0H0O-ZLV 1 64 0 0
+/schoolerpuat_2_1/schoolapi/parentreqestlistview.php 1 51 0 0
+/.well-known/acme-challenge/FYSYEZ3Y0VYALKNOBM5_RW89RR4KT-YR 1 64 0 0
+/.well-known/acme-challenge/WLVHCRTUGBA8GWJ6O21GYF_91RJASSQZ 1 64 0 0
+/.well-known/acme-challenge/4VLNCFN8RQVZKR-FJJVOVDVUP-MOBW82 1 64 0 0
+/.well-known/acme-challenge/S2K8J0VG8O7E__9G0NAV59KO88Q7Y9-8 1 64 0 0
+/.well-known/acme-challenge/-ICVR0UNYIFCEQF0YCJWKDLBUBR15S15 1 64 0 0
+/schoolerp/lumWritingSkills.php 39 86270 0 0
+/schoolerpuat_2_2/schoolapi/allsem_co_scholastic_area.php 13 1525 0 0
+/.well-known/acme-challenge/6JLS8UTH6V5G9ZA8_NLTG68NWAT7PGT5 1 64 0 1
+/schoolerpuat_2_1/student-all-payments-reciept-detail.php 1 107026 0 0
+/.well-known/acme-challenge/OXSN3U6QLKQN689DYW75BF6FD5OQ4UP2 1 64 0 0
+/.well-known/acme-challenge/B2YY0WJ2XZO1WQFW18CEL8JKTO3U1MC2 1 64 0 0
+/.well-known/acme-challenge/0U9N67VWLDXJDXXX-X8WARBB-4AD1I_M 1 64 0 0
+/schoolerpuat_2_1/add_student_master.php 4 552 0 0
+/.well-known/acme-challenge/1Z3-0270675RUISXR7GK3_CMC2EH74F7 1 64 1 0
+/.well-known/acme-challenge/01XMSY0BZAEOFSHHIC0U7JP160U_PDSG 1 64 0 0
+/schoolerpuat_2_1/co_scholastic_acheivement.php 23 891018 0 0
+/.well-known/acme-challenge/dmNTk0bFPSuQFwp9Ujhk_aum_waS2qrgW4WVUXo-n_E 4 348 0 0
+/.well-known/acme-challenge/KXO-JT096GEMSJGWHK42TUVIWY9TY5UG 1 64 0 0
+/.well-known/acme-challenge/BX6CWDJP3XTHMYBFK5PWL28MR0OH6LLU 1 64 0 0
+/schoolerpuat/webfonts/fa-regular-400.woff2 2 27216 0 1
+/.well-known/acme-challenge/N2TWFV1HWX6MULH7ZFMZN_XALVBN-IA3 1 64 0 0
+/.well-known/acme-challenge/2_X61EX21O85CJ6S3WYXCM1BECNIIRXJ 1 64 0 0
+/.well-known/acme-challenge/1QWLH57MHKQYQ2XILL8YBCZ-A3S8_PK4 1 64 0 1
+/.well-known/acme-challenge/UI8J39LGL_8GA5C1BS-3PHMSVN-_Z7IE 1 64 1 0
+/.well-known/acme-challenge/VZB7LXMKBH3UMCA9F2ZHXZH66EF0V6CB 1 64 0 0
+/.well-known/acme-challenge/AFJPUSP6ALMJVBM-34EMHD5TRVKKIXAV 1 64 1 0
+/seft/get_agent_payment_dashboard.php 2 108 0 0
+/.well-known/acme-challenge/VNQ5QB7-8_7Y61WJ90UEHCCHOSC_EZ2U 1 64 0 1
+/.well-known/acme-challenge/U1Q7IDUHHAJK9WDJ22ACLUZWWUF7M2IN 1 64 0 0
+/.well-known/acme-challenge/B0QDNZROCA2TM2NJM3IJEOW6-15DFU_K 1 64 0 0
+/schoolerpuat_2_1/fetch_student_year.php 4 108 0 0
+/.well-known/acme-challenge/U-Z356MTTF2O_MPO2IVSP-H8W8BBMVSH 1 64 0 0
+/schoolerpuat/ 2 262 2 1
+/schoolerp/schoolapi/secsem_mont_crt.php 56 6439 0 0
+/.well-known/acme-challenge/PRHW76L3RVC--MKIYMF9DVSWOU-J3G8G 1 64 0 0
+/.well-known/acme-challenge/BOJE5WZA2V5W_-GBCAN8QJM080UY04ZN 1 64 0 0
+/.well-known/acme-challenge/94S4MQTJBF84JPR66T48KMR2D4KOBN0P 1 64 1 0
+/schoolerpuat_2_2/schoolapi/firstsem_mont_lang.php 27 3366 0 0
+/schoolerp/schoolapi/stu_attendence.php 9 1020 0 0
+/schoolerp/lumCreativeSkills.php 36 80848 0 0
+/.well-known/acme-challenge/X-WADKFX--21IWBRJKFLH2YPHKTBE4B4 1 64 0 0
+/.well-known/acme-challenge/WXOOTZXN41WQTQDSGSA_-6PI9_WVZR_G 1 64 0 0
+/swcs/ 3 14952 2 1
+/schoolerpuat_2_1/view_attendance.php 31 198351 0 0
+/.well-known/acme-challenge/PWD-0CHF2MFU691U_I86EF3ILHDDLPS4 1 64 0 0
+/schoolerpuat_2_1/view-all-student-credential.php 2 485412 0 0
+/schoolerp/asr_apk.php 2 7706 0 0
+/seft/webfonts/fa-regular-400.woff2 2 27216 1 1
+/.well-known/acme-challenge/VAU-KF_AXOXWT63VNGFW1JBG9GZ07YMV 1 64 0 0
+/.well-known/acme-challenge/0M5HBKDWAKMGT9AMVLJYE6JBBOZ8QRZD 1 64 0 0
+/.well-known/acme-challenge/UD-IMH0EU--Y0FNT4DUTCLC_UYI09WSE 1 64 0 0
+/schoolerpuat_2_2/schoolapi/notifyview.php 3 360 0 0
+/qleaps/css/vendor/bootstrap-theme.min.html 1 0 0 0
+/schoolerp/co_scholastic_acheive_second.php 3 6474 0 0
+/.well-known/acme-challenge/Y4L8LP_YF66GPGK9W6Y0AQ_KYZ5_1Z6V 1 64 0 0
+/schoolerp/luM.php 38 84371 0 0
+/.well-known/acme-challenge/9L4CJ0JZ-CJ-4N_S274HCLG7BB5WQDS0 1 64 0 0
+/schoolerp/schoolapi/newloginid.php 35 1522 2 0
+/schoolerp/ 24 3144 2 0
+/seft/Dashboard.php 2 12988 0 0
+END_SIDER

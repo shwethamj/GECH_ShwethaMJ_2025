@@ -1,0 +1,354 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202204 will be lost/reset.
+# Last config file used to build this data file was /home4/parvamco/tmp/awstats/ssl/awstats.switchdirection-api.parvamconsultech.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2042                
+POS_TIME 2714                
+POS_VISITOR 7252                
+POS_DAY 8746                
+POS_DOMAIN 3298                
+POS_LOGIN 3636                
+POS_ROBOT 3791                
+POS_WORMS 3958                
+POS_EMAILSENDER 4089                
+POS_EMAILRECEIVER 4232                
+POS_SESSION 9285                
+POS_SIDER 9492                
+POS_FILETYPES 4367                
+POS_DOWNLOADS 4474                
+POS_OS 4522                
+POS_BROWSER 4664                
+POS_SCREENSIZE 5052                
+POS_UNKNOWNREFERER 5126                
+POS_UNKNOWNREFERERBROWSER 5584                
+POS_ORIGIN 5951                
+POS_SEREFERRALS 6091                
+POS_PAGEREFS 6235                
+POS_SEARCHWORDS 6411                
+POS_KEYWORDS 6563                
+POS_MISC 2378                
+POS_ERRORS 6622                
+POS_CLUSTER 3492                
+POS_SIDER_404 6732                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20220504002513 1 0 30556417165509
+FirstTime 20220401000025
+LastTime 20220430143136
+LastUpdate 20220504061855 1 0 0 0 0
+TotalVisits 50                  
+TotalUnique 37                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 37                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+DirectorSupport 0 0 0
+JavascriptDisabled 0 0 0
+FlashSupport 0 0 0
+JavaEnabled 0 0 0
+TotalMisc 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+RealPlayerSupport 0 0 0
+PDFSupport 0 0 0
+AddToFavourites 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1413 1413 165629 0 0 0
+1 1801 1801 73556 9 10 9122
+2 1427 1427 58245 0 0 0
+3 1471 1471 59047 40 41 36354
+4 763 763 145162 0 0 0
+5 751 751 693321 41 43 22191
+6 84 84 3961 7 8 7126
+7 0 0 0 0 0 0
+8 8 8 665 0 0 0
+9 70 70 31834 4 4 3258
+10 0 0 0 0 0 0
+11 2 2 22 0 0 0
+12 0 0 0 0 0 0
+13 2 2 4 0 0 0
+14 2 2 4 0 0 0
+15 0 0 0 0 0 0
+16 1 1 2 0 0 0
+17 3 3 24 0 0 0
+18 2 2 24 0 0 0
+19 5 5 110 0 1 0
+20 0 0 0 0 0 0
+21 3 3 24 0 0 0
+22 2 2 4 0 0 0
+23 59 59 157461 0 1 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 9
+au 3920 3920 160724
+cn 3028 3028 124152
+in 747 747 990172
+lk 149 149 113805
+ca 12 12 24
+us 5 5 88
+jp 4 4 88
+ru 3 3 46
+nl 1 1 0
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 1
+no_user_agent 2 4 20220430055131 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 2
+Unknown 7809 1343823 0 0
+html 60 45276 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 6
+win10 7842 7842
+linuxandroid 6 6
+macosx 5 5
+win8 1 1
+linux 1 1
+Unknown 14 14
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 16
+firefox83.0 1 1
+chrome100.0.4896.75 109 109
+Unknown 12 12
+chrome96.0.4664.55 2 2
+firefox99.0 251 251
+chrome56.0.3075.83 1 1
+android 4 4
+mozilla 2 2
+firefox98.0 174 174
+safari14.1.2 1 1
+chrome99.0.4844.82 7251 7251
+chrome99.0.4844.84 28 28
+chrome72.0.3626.121 2 2
+chrome75.0.3770.100 1 1
+chrome92.0.4515.107 1 1
+chrome100.0.4896.88 29 29
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20220416085543
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20220430143136
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20220430143136
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 33 33
+From1 1 1
+From2 0 0
+From3 45 45
+From4 7790 7790
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://localhost:4200 45 45
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+404 8 1400
+406 1 226
+500 90 76421
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 4
+/index.php//Dashboard/getCriticalCallBack 1 https://switchdirection.parvamconsultech.com/
+/.DS_Store 4 -
+/.git/config 2 -
+/index.php//Dashboard/getCriticalPayment 1 https://switchdirection.parvamconsultech.com/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 37
+27.111.75.190 3920 3920 160724 20220404053316
+36.255.86.219 3028 3028 124152 20220405044723
+42.109.128.199 201 201 33528 20220412215236
+49.205.145.142 154 154 6314 20220411061221
+202.21.43.180 149 149 113805 20220412034212
+106.196.17.31 94 94 169354 20220406063304
+106.196.18.193 81 81 454853 20220406052306
+42.109.128.211 71 71 157953 20220408044632
+42.109.128.64 43 43 8646 20220420054856
+106.76.230.125 29 29 27671 20220422093144
+42.109.128.109 25 25 129838 20220408054330
+223.186.188.229 20 20 780 20220420065342
+42.109.129.115 16 16 1213 20220401064105
+42.109.129.235 11 11 0 20220405055144
+133.242.140.127 2 2 44 20220408191716
+79.104.53.14 2 2 44 20220419181810
+133.242.174.119 2 2 44 20220408191716
+42.109.129.113 2 2 22 20220414032624
+198.235.24.27 1 1 2 20220421165007
+34.255.122.3 1 1 0 20220413023134
+198.235.24.3 1 1 2 20220424223712
+3.121.127.188 1 1 22 20220422025513
+205.210.31.152 1 1 2 20220425141622
+3.250.142.114 1 1 22 20220408193556
+198.235.24.20 1 1 2 20220422133300
+205.210.31.143 1 1 2 20220430143136
+205.210.31.158 1 1 2 20220421185610
+198.235.24.158 1 1 2 20220427024128
+89.175.184.250 1 1 2 20220408171755
+139.162.7.175 1 1 0 20220408171828
+198.235.24.153 1 1 2 20220425025755
+205.210.31.147 1 1 2 20220419220253
+205.210.31.149 1 1 2 20220414133825
+198.235.24.13 1 1 2 20220428210038
+167.248.133.117 1 1 22 20220416085543
+198.235.24.16 1 1 2 20220423050550
+167.94.138.46 1 1 22 20220406092540
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 23
+20220401 2368 2368 97645 2
+20220404 3927 3927 160724 3
+20220405 680 680 27720 2
+20220406 176 176 624229 3
+20220407 33 33 156395 1
+20220408 70 70 131508 8
+20220409 39 39 109295 2
+20220410 6 6 246 1
+20220411 215 215 11672 3
+20220412 244 244 32434 5
+20220413 1 1 0 1
+20220414 3 3 24 2
+20220416 1 1 22 1
+20220419 3 3 46 2
+20220420 63 63 9426 2
+20220421 2 2 4 2
+20220422 31 31 27695 3
+20220423 1 1 2 1
+20220424 1 1 2 1
+20220425 2 2 4 2
+20220427 1 1 2 1
+20220428 1 1 2 1
+20220430 1 1 2 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+0s-30s 25
+30s-2mn 1
+30mn-1h 11
+1h+ 6
+15mn-30mn 1
+5mn-15mn 5
+2mn-5mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 25
+/index.php/Dashboard/getCriticalCallBack 3740 157006 10 8
+/index.php/Dashboard/getCriticalPayment 3731 149923 4 7
+/index.php/Login 182 10538 13 5
+/index.php/customer 62 985221 0 1
+/index.php/customer/create/1 27 8274 0 0
+/ 25 246 22 22
+/index.php/Dashboard 21 3219 0 0
+/index.php/customer/checkCustomer/companyName 20 251 0 0
+/index.php/customer/getCustomerdata/ 14 4705 1 2
+/index.php/customer/getProdata/ 14 811 0 0
+/index.php/customer/checkCustomer/abn 6 123 0 0
+/index.php/attendence/insertAttendence/1 4 100 0 0
+/index.php/customer/create/6 4 84 0 0
+/index.php/employee/getEmployee/ 3 1396 0 0
+/index.php/attendence/getAttendence/1 3 1553 0 0
+/index.php/order/getOrder/ 3 37425 0 0
+/index.php/customer/checkCustomer/mobile 2 46 0 0
+/index.php/employee/getEmployeeForEmployee/ 1 693 0 0
+/index.php/order/createProduct/1660 1 3020 0 0
+/index.php/customer/createPro/1661 1 394 0 0
+/index.php/customer/createPro/1647 1 394 0 0
+/index.php/customer/createPro/1662 1 394 0 0
+/index.php/Payment 1 20216 0 0
+/index.php/customer/createPro/1664 1 48 0 0
+/index.php/order/createProduct/1659 1 3019 0 0
+END_SIDER

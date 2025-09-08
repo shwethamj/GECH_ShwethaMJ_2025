@@ -1,0 +1,601 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202301 will be lost/reset.
+# Last config file used to build this data file was /home4/parvamco/tmp/awstats/ssl/awstats.ananyapublicschool.parvam.co.in.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2033                
+POS_TIME 2716                
+POS_VISITOR 9274                
+POS_DAY 15306               
+POS_DOMAIN 3505                
+POS_LOGIN 3833                
+POS_ROBOT 3988                
+POS_WORMS 4424                
+POS_EMAILSENDER 4555                
+POS_EMAILRECEIVER 4698                
+POS_SESSION 15592               
+POS_SIDER 15802               
+POS_FILETYPES 4833                
+POS_DOWNLOADS 5057                
+POS_OS 5105                
+POS_BROWSER 5393                
+POS_SCREENSIZE 6166                
+POS_UNKNOWNREFERER 6240                
+POS_UNKNOWNREFERERBROWSER 6840                
+POS_ORIGIN 7236                
+POS_SEREFERRALS 7376                
+POS_PAGEREFS 7520                
+POS_SEARCHWORDS 7668                
+POS_KEYWORDS 7820                
+POS_MISC 2380                
+POS_ERRORS 7879                
+POS_CLUSTER 3689                
+POS_SIDER_404 8025                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20230108042521 649 156072 29073113639746
+FirstTime 20230101015518
+LastTime 20230108031058
+LastUpdate 20230108052303 649 0 649 0 0
+TotalVisits 158                 
+TotalUnique 149                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 149                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavaEnabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+RealPlayerSupport 0 0 0
+PDFSupport 0 0 0
+AddToFavourites 0 0 0
+QuickTimeSupport 0 0 0
+FlashSupport 0 0 0
+JavascriptDisabled 0 0 0
+TotalMisc 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 477 547 5220322 5 256 22792641
+1 232 370 6473008 2 67 1087699
+2 496 651 6253434 18 267 783357475
+3 1237 1489 22849521 28 396 3232932
+4 84 99 16502 12 89 401242121
+5 18 18 39727 4 44 3837180
+6 185 214 1242646 81 361 860543583
+7 408 773 8935834 0 156 359750
+8 191 311 4123066 10 149 74095956
+9 24 39 15208 7 119 9878988
+10 3 3 2572 15 118 213863253
+11 0 0 0 0 2 70
+12 1 1 36691 1 4 1359
+13 5 5 675 2 7 68468
+14 0 0 0 1 2 87
+15 0 0 0 3 3 261
+16 1 1 151 0 10 0
+17 2 2 282 3 4 37143
+18 9 9 37673 6 8 28978
+19 19 45 1389489 4 34 2881666
+20 225 537 11178400 15 106 208
+21 388 842 11987390 16 171 139
+22 973 1437 29045682 3 383 452
+23 346 785 17867791 12 172 12391029
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 8
+in 2768 4753 90954276
+us 2532 3401 35538996
+ca 16 16 148564
+cn 3 3 73533
+ru 2 2 262
+gb 1 1 151
+de 1 1 131
+it 1 1 151
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 8
+Dalvik/ 1142 2386785042 20230108022432 0
+Apache\-HttpClient/ 61 251452 20230108021937 0
+Googlebot/ 31 203972 20230108041106 0
+bingpreview 16 712516 20230104234300 0
+Applebot/ 15 164510 20230106093818 0
+no_user_agent 3 73521 20230105173033 0
+unknown 3 78 20230106062311 3
+bingbot/ 2 1238 20230104232707 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+js 486 4936765 0 0
+png 42 27199775 0 0
+php 5172 40517306 0 0
+css 337 1924953 0 0
+jpg 1988 50059692 0 0
+svg 1 114724 0 0
+html 91 231625 0 0
+woff2 61 1731224 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 13
+macosx15 1 1
+android 2424 1287
+ios_iphone 303 265
+Unknown 745 745
+androidoreo 2164 1577
+android10 758 679
+win10 1329 519
+androidkitkat 5 5
+androidpie 341 193
+macosx11 3 3
+androidmarshmallow 99 44
+linux 5 5
+linuxubuntu 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 31
+firefox47.0 3 3
+chrome83.0.4103.101 97 72
+chrome104.0.5112.97 29 29
+chrome87.0.4280.141 11 1
+chrome96.0.4664.92 30 4
+mozilla 2 2
+chrome105.0.0.0 329 124
+chrome83.0.4103.106 208 113
+Unknown 743 743
+chrome103.0.0.0 234 234
+chrome108.0.5359.128 203 100
+chrome90.0.4430.210 88 63
+chrome62.0.3202.84 205 93
+chrome94.0.4606.85 71 71
+firefox58.0 1 1
+chrome91.0.4472.88 1566 1082
+chrome107.0.0.0 173 173
+safari15.5 303 265
+chrome71.0.3578.141 728 585
+chrome108.0.0.0 2122 893
+chrome83.0.4103.97 4 4
+chrome91.0.4472.120 46 46
+chrome91.0.4472.114 123 73
+chrome71.0.3578.98 2 2
+chrome95.0.4638.74 25 10
+chrome78.0.3904.96 27 12
+android 5 5
+chrome97.0.4692.98 499 485
+chrome106.0.0.0 275 25
+chrome103.0.5060.53 25 10
+firefox104.0 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20230102061442
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20230107073608
+Mozilla/5.0_zgrab/0.x_(compatible;_Researchscan/http;__http://researchscan.comsys.rwth-aachen.de) 20230104032718
+okhttp/3.12.0 20230108024212
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20230107073608
+okhttp/3.12.0 20230108024212
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 899 899
+From1 0 0
+From2 0 0
+From3 0 0
+From4 4425 7279
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+206 10 1496674
+406 37 8362
+409 1 83
+404 1490 0
+401 69 3418
+400 11 572
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 20
+/apple-touch-icon-120x120.png 1 -
+/robots.txt 12 -
+/admin/.env 1 -
+/schoolapi/galleryview.php 14 -
+/js/placeholders.js 668 https://ananyapublicschool.com/attendance_new.php
+//css/img/preloader.gif 3 https://ananyapublicschool.com//css/style.css
+/get_agent_payment_dashboard.php 1 https://ananyapublicschool.com/view-all-student.php
+/apple-touch-icon.png 1 -
+/get_parent_request_dashboard.php 2 https://ananyapublicschool.com/view-all-student.php
+/ 25 -
+/attendance_new.php 1 https://ananyapublicschool.com/view-all-student.php
+/apple-touch-icon-120x120-precomposed.png 1 -
+/get_student_payment_dashboard.php 1 https://ananyapublicschool.com/view-all-student.php
+/css/img/preloader.gif 741 https://ananyapublicschool.com/css/style.css
+/Dashboard.p 1 -
+/apple-touch-icon-precomposed.png 1 -
+/wp-content/themes/seotheme/db.php 4 www.google.com
+/login.php 1 https://ananyapublicschool.com/view-all-student.php
+/ads.txt 10 -
+/Dashboard.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 149
+49.205.149.228 644 1490 41313570 20230106004120
+157.45.93.65 419 773 7098621 20230104222648
+157.45.75.115 296 341 2144196 20230105032404
+27.59.35.64 293 358 5710171 20230105204644
+106.197.204.93 254 255 1644610 20230105010355
+157.45.246.74 220 224 1255873 20230106075143
+27.59.120.44 190 190 791701 20230104035800
+106.216.237.223 173 198 60685 20230108022714
+157.50.45.148 137 162 33243 20230105083630
+157.45.76.138 116 116 636279 20230106233501
+157.45.60.69 115 115 691072 20230103002937
+103.86.104.219 107 118 2278908 20230103074046
+157.45.90.237 105 105 658427 20230106224848
+223.231.180.65 99 115 1923359 20230102215519
+157.50.1.172 96 96 1927445 20230107021844
+157.45.153.252 95 120 43970 20230107061813
+157.45.81.254 81 83 912076 20230105035035
+1.39.173.30 75 102 583268 20230106205417
+203.192.253.190 70 95 16233 20230101021708
+223.237.203.236 66 66 1056134 20230106034422
+106.216.234.176 64 64 539260 20230106221634
+106.216.234.136 63 63 13103 20230103073029
+157.50.17.177 57 98 967505 20230106035654
+27.59.35.139 51 66 13072 20230106040813
+223.227.14.126 49 84 2800075 20230107022859
+1.39.145.22 2 2 252 20230102000420
+198.235.24.35 1 1 151 20230103103313
+157.45.23.65 4 4 3187 20230102072542
+173.44.40.39 1 1 131 20230107235315
+132.148.76.176 1 1 131 20230102064316
+27.63.248.80 41 76 1822440 20230103202533
+18.188.122.73 1 1 131 20230102020216
+157.45.23.123 5 5 118299 20230103032847
+157.45.63.95 35 35 246979 20230105000240
+157.45.174.28 8 8 958 20230105045850
+205.210.31.33 1 1 36691 20230107064430
+157.45.142.25 21 46 12404 20230103022604
+157.45.15.235 2 2 50 20230103033022
+157.45.25.243 16 16 132761 20230103033403
+157.45.70.195 40 45 249615 20230106221007
+205.210.31.180 2 2 73370 20230107050451
+223.231.166.118 3 3 469 20230104053416
+49.205.135.202 5 5 3583 20230108031058
+157.45.249.232 38 38 6333 20230107061105
+198.235.24.34 1 1 151 20230105233811
+42.105.121.30 25 66 1474462 20230105035814
+1.39.181.154 18 33 16155 20230102100156
+205.210.31.137 1 1 151 20230106182212
+223.237.203.212 5 5 26019 20230106035621
+157.50.6.114 25 93 1743475 20230103213601
+93.159.230.89 1 1 131 20230104034505
+157.45.201.103 21 21 463246 20230101225217
+42.105.121.121 24 40 1722524 20230105035747
+106.66.132.79 41 122 2377268 20230107020000
+223.231.144.18 1 1 1107 20230106201335
+51.158.37.209 1 1 151 20230106050306
+34.209.133.81 1 1 131 20230102132140
+223.237.251.135 2 2 233 20230103000643
+137.226.113.44 1 1 131 20230104032718
+27.59.114.185 8 8 1855 20230106221929
+157.50.50.69 34 59 11061 20230101034307
+106.197.249.168 4 4 466 20230106202305
+157.50.4.26 5 5 33830 20230103213812
+157.50.26.216 2 2 50 20230103213715
+183.136.225.45 1 1 36691 20230104124802
+106.206.87.105 6 6 273 20230104010825
+49.15.227.0 5 5 903 20230107090306
+198.235.24.179 1 1 151 20230106234237
+223.186.128.252 2 2 1238 20230101075549
+35.196.169.242 10 10 488 20230108005602
+157.50.22.243 44 99 5385371 20230104032200
+157.50.51.29 18 18 230411 20230104005441
+164.100.214.82 47 73 1479407 20230106010133
+157.50.63.134 2 2 228 20230102060102
+106.197.203.175 2 2 1238 20230107005927
+93.159.230.87 1 1 131 20230104014336
+157.50.23.11 4 4 215381 20230103213638
+223.186.42.72 1 1 182 20230108024212
+106.206.68.149 23 23 673990 20230106065803
+223.186.105.120 12 366 5855572 20230102070621
+157.50.69.69 35 35 124279 20230104220835
+27.63.255.68 5 5 352 20230107034728
+198.235.24.24 1 1 151 20230105171326
+49.14.115.26 1 1 213 20230102001928
+223.186.132.207 44 44 185264 20230105033229
+34.212.178.167 1 1 131 20230102132128
+205.210.31.129 1 1 151 20230106190639
+49.14.131.89 1 1 213 20230102090517
+1.39.173.80 19 19 225079 20230107010534
+157.45.76.51 48 48 266360 20230106221931
+104.168.22.195 1 1 131 20230107235026
+157.45.59.199 18 28 99459 20230106081339
+157.45.241.155 21 36 4824 20230104011354
+157.50.30.238 7 7 831 20230107183903
+106.216.238.110 2 2 372 20230108020527
+157.50.65.218 1 1 207 20230101090942
+106.197.202.141 23 23 370793 20230105012400
+157.45.0.13 18 19 1171844 20230104033518
+198.235.24.169 1 1 151 20230101162902
+198.235.24.8 1 1 36691 20230107015730
+157.45.213.243 25 25 224783 20230103031922
+171.76.212.95 12 12 33441 20230106200634
+157.45.202.149 1 1 201 20230101015645
+157.45.248.163 3 3 410 20230106055700
+49.205.143.41 1 1 202 20230101223313
+223.186.19.205 23 108 3989994 20230104082726
+157.45.1.91 2 2 112004 20230103032906
+106.216.234.127 2 2 1238 20230107025733
+157.45.8.179 43 49 335293 20230103032734
+157.50.6.120 38 106 1964897 20230105005247
+205.210.31.42 1 1 151 20230107073608
+198.235.24.159 1 1 151 20230102201127
+34.213.167.93 1 1 131 20230107132714
+223.186.82.52 11 11 874 20230102045021
+203.192.253.208 1 1 184 20230107005339
+167.71.77.102 1 1 131 20230102172429
+157.45.27.41 2 2 50 20230103033049
+157.45.179.160 13 13 1285 20230107050058
+1.39.172.170 24 24 440503 20230105032946
+157.45.96.206 1 1 188 20230102041435
+79.137.65.46 1 1 151 20230105022143
+157.45.47.208 22 22 344350 20230106031905
+157.45.143.64 1 1 185 20230107023518
+27.63.244.86 4 4 454 20230101083315
+101.68.211.2 2 2 36842 20230107012130
+205.210.31.136 1 1 151 20230106220929
+223.231.128.26 43 43 1487734 20230105035646
+157.50.19.187 2 2 50 20230103213739
+157.50.7.138 13 39 1388443 20230101194330
+1.39.151.0 20 20 224995 20230106033258
+198.235.24.43 1 1 151 20230102130427
+157.50.65.63 18 18 230394 20230102230305
+45.128.234.191 1 1 131 20230106232630
+106.208.70.174 8 8 1916 20230104051414
+205.210.31.155 1 1 151 20230106103354
+157.45.147.53 30 30 6641 20230103083253
+35.91.242.254 1 1 131 20230107132742
+27.63.255.72 1 1 180 20230107004309
+1.39.161.129 20 20 224971 20230104033524
+157.50.49.213 1 1 194 20230103205659
+157.50.64.237 11 11 201916 20230104005659
+157.50.21.172 20 20 373090 20230102005900
+157.50.0.51 48 117 3461679 20230101225810
+162.142.125.222 1 1 131 20230102061442
+157.50.66.143 5 5 895 20230103191947
+106.197.249.137 23 273 8182551 20230106205215
+157.45.13.206 2 2 50 20230103032948
+157.45.10.167 2 2 50 20230103032803
+49.205.149.2 4 20 1378837 20230103015609
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 8
+20230101 196 341 5343115 12
+20230102 198 583 8441504 21
+20230103 527 688 9121004 25
+20230104 1033 1998 37558149 20
+20230105 1762 2416 41395887 21
+20230106 1037 1415 17296118 30
+20230107 384 525 7497453 24
+20230108 187 212 62834 5
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+15mn-30mn 12
+2mn-5mn 18
+1h+ 1
+5mn-15mn 18
+0s-30s 83
+30mn-1h 6
+30s-2mn 20
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 120
+/updateAttendance.php 734 18350 9 25
+/get_student_payment_dashboard.php 716 38026 0 6
+/get_parent_request_dashboard.php 716 50896 0 2
+/get_agent_payment_dashboard.php 716 38026 0 6
+/all_sem_report.php 217 1566807 0 0
+/login.php 186 163786 7 30
+/getAttendancedata.php 178 21720205 2 1
+/schoolapi/newloginid.php 138 6496 1 3
+/schoolapi/newlogin.php 137 5447 6 1
+/schoolapi/studentprofile.php 137 25837 36 23
+/view-all-student.php 118 7825406 1 3
+/ 91 231625 80 35
+//get_parent_request_dashboard.php 83 10873 0 4
+//get_student_payment_dashboard.php 83 10873 0 2
+//get_agent_payment_dashboard.php 83 10873 0 1
+/attendance_new.php 81 475506 4 0
+/schoolapi/studentgrade.php 75 3215 5 6
+/index.php 64 8816 0 0
+/view_attendance.php 52 238866 0 0
+/studentmarksentry.php 46 255111 0 0
+/second_sem_report.php 46 272633 1 0
+/attendance_for_previous_year.php 40 506775 0 0
+/student-marks-entry.php 40 2728656 1 0
+//getAttendancedata.php 32 14691 0 1
+/first_sem_report.php 26 159225 2 0
+/add-new-teacher-subject.php 1 6348 0 0
+/student-all-payments-reciept-detail.php 1 102762 0 0
+/webfonts/fa-regular-400.woff2 18 204120 0 1
+/schoolapi/firstreportcard.php 14 1454 0 0
+/view-all-parent-request-responses.php 1 6818 0 0
+//co_scholastic_acheive_all.php 5 11961 0 0
+/schoolapi/fetching_stu_grade.php 13 663 0 0
+/teacher-details.php 3 18885 0 0
+/add-new-grade-section.php 1 6033 0 0
+//co_scholastic_area_second.php 4 8836 0 0
+/view-all-deleted-student.php 1 58309 0 0
+/student-payment.php 1 7814 0 0
+/attendencelist_for_previous_years.php 1 103492 0 0
+//lumWritingSkills.php 1 2266 0 0
+/add-announcement.php 2 12128 0 0
+/view-all-student-credential.php 4 973556 0 0
+//lumFirstCreativeSkills_apk.php 1 2087 0 0
+/schoolapi/secsem_mont_lang.php 3 332 0 0
+//lumFirstLanguageSkills_apk.php 6 12780 0 0
+/schoolapi/firstsem_mont_wrt.php 5 547 0 0
+/view-account-details.php 12 148187 0 0
+/getStuCasteCategory.php 1 313 0 0
+/yearattendance_ol.php 4 834349 0 1
+/schoolapi/secondsem_co_scholastic_area.php 10 1070 0 0
+/lumSecondWritingSkills_apk.php 1 1949 0 0
+/announcement.php 2 22630 0 0
+/schoolapi/allsem_mont_crt.php 2 203 0 0
+/view-user-admin-details.php 7 38820 0 0
+/add-new-subject.php 1 17715 0 0
+/schoolapi/notifylist.php 11 25443 0 1
+/teacher-bank-details.php 1 6579 0 0
+/schoolapi/firstsem_co_scholastic_area.php 14 1504 0 0
+/view-all-holiday.php 1 5503 0 0
+/schoolapi/allsem_mont_wrt.php 2 201 0 0
+//luM.php 1 2152 0 0
+/fetch_student_adm_no_section.php 1 58 0 0
+//stu-attendence-calender-view-apk.php 6 56673 0 0
+/fetch_student_payment.php 1 27 0 0
+/montessoryMarksEntry.php 2 138075 0 0
+//lumSecondLanguageSkills_apk.php 1 1951 0 0
+/schoolapi/firstsem_mont_lang.php 5 552 0 0
+/schoolapi/firstsem_mont_crt.php 5 552 0 0
+/schoolapi/firstsem_co_scholastic_acheive.php 14 1509 0 0
+/schoolapi/allsem_co_scholastic_area.php 10 1057 0 0
+/view-all-parent-requests-current-day.php 1 5510 0 0
+/gradeTest.php 1 22267 0 0
+/add-new-teacher.php 2 17496 0 0
+/view-all-event-gallery.php 1 6808 0 0
+/schoolapi/parentprofile.php 14 714 0 1
+/add-new-user-admin.php 3 22496 0 0
+/view-event-gallery-images.php 1 18737 0 0
+/add-new-student.php 1 10101 0 0
+/student-details.php 2 14192 0 0
+/schoolapi/secsem_mont_crt.php 3 332 0 0
+//co_scholastic_area_first.php 6 14112 0 0
+/add-teacher-documents.php 1 7219 0 0
+/logout.php 19 2413 1 0
+/fonts/Flaticon.woff2 19 115024 0 0
+/schoolapi/secondsem_co_scholastic_acheive.php 10 1076 0 0
+/Dashboard.php 11 89920 2 0
+/fetch_student_year.php 1 27 0 0
+/view-all-parent-requests.php 2 12878 0 0
+//ssr_apk.php 8 17909 0 0
+/dailyReportattendance.php 8 841901 0 0
+/view-all-subject.php 1 7106 0 0
+/fetch_tech_sub.php 1 146 0 0
+/schoolapi/notifyview.php 14 7653 0 1
+/schoolapi/allreportcard.php 10 1012 0 0
+/add-class-teacher.php 2 15285 0 0
+/monthlyArepForAllStu_ol.php 2 382520 0 0
+//asr_apk.php 7 19657 0 1
+/schoolapi/secsem_mont_wrt.php 3 326 0 0
+/add-new-holiday.php 1 5998 0 0
+/webfonts/fa-solid-900.woff2 18 1263440 0 1
+//co_scholastic_acheive_first.php 4 9516 0 0
+/schoolapi/secondreportcard.php 10 1030 0 0
+/add-grade-fee.php 1 8564 0 0
+/schoolapi/allsem_mont_lang.php 2 177 0 0
+//fsr_apk.php 9 24567 0 0
+//lumFirstWritingSkills_apk.php 2 4135 0 0
+/fetch_student_academic_year_by_grade.php 1 91 0 0
+//lumCreativeSkills.php 1 2358 0 0
+/add-new-event-gallery.php 1 5856 0 0
+//co_scholastic_acheive_second.php 2 4316 0 0
+/schoolapi/allsem_co_scholastic_acheive.php 10 1060 0 0
+/calendar.php 1 13554 0 0
+/getStuPayDetDate.php 1 37 0 0
+/schoolapi/feedetails.php 22 1122 0 0
+/schoolapi/stu_attendence.php 16 1740 0 0
+//co_scholastic_area_all.php 3 6918 0 0
+//webfonts/fa-solid-900.woff2 6 148640 0 0
+/firstSemLKGMont.php 1 7401 0 0
+/schoolapi/parentrequestlist.php 3 153 0 1
+/schoolapi/fileattachment.php 15 1456 0 1
+/view-all-teachers.php 4 77906 0 0
+END_SIDER

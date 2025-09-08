@@ -1,0 +1,379 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202203 will be lost/reset.
+# Last config file used to build this data file was /home4/parvamco/tmp/awstats/ssl/awstats.switchdirection-api.parvamconsultech.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2042                
+POS_TIME 2729                
+POS_VISITOR 6471                
+POS_DAY 7283                
+POS_DOMAIN 3356                
+POS_LOGIN 3638                
+POS_ROBOT 3793                
+POS_WORMS 4002                
+POS_EMAILSENDER 4133                
+POS_EMAILRECEIVER 4276                
+POS_SESSION 7602                
+POS_SIDER 7788                
+POS_FILETYPES 4411                
+POS_DOWNLOADS 4522                
+POS_OS 4570                
+POS_BROWSER 4693                
+POS_SCREENSIZE 4940                
+POS_UNKNOWNREFERER 5014                
+POS_UNKNOWNREFERERBROWSER 5187                
+POS_ORIGIN 5269                
+POS_SEREFERRALS 5409                
+POS_PAGEREFS 5553                
+POS_SEARCHWORDS 5756                
+POS_KEYWORDS 5908                
+POS_MISC 2393                
+POS_ERRORS 5967                
+POS_CLUSTER 3494                
+POS_SIDER_404 6073                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20220401000025 5388 1869175 23237521622622
+FirstTime 20220303230048
+LastTime 20220331235927
+LastUpdate 20220401062055 5388 0 5387 0 0
+TotalVisits 32                  
+TotalUnique 18                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 18                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+FlashSupport 0 0 0
+QuickTimeSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+DirectorSupport 0 0 0
+TotalMisc 0 0 0
+PDFSupport 0 0 0
+RealPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+AddToFavourites 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 306 306 26684 0 1 0
+1 487 487 600502 0 0 0
+2 701 701 1445747 0 0 0
+3 2894 2894 1545315 0 0 0
+4 1316 1316 270498 0 0 0
+5 2023 2023 1985578 0 0 0
+6 2249 2249 588810 0 0 0
+7 766 766 34607 1 1 2
+8 85 85 10985 0 0 0
+9 90 90 20751 1 1 700
+10 39 39 1517 0 0 0
+11 0 0 0 0 0 0
+12 0 0 0 1 1 2
+13 0 0 0 0 0 0
+14 0 0 0 0 0 0
+15 0 0 0 2 2 44
+16 1 1 2 0 0 0
+17 1 1 0 1 1 226
+18 1 1 22 0 0 0
+19 0 0 0 0 0 0
+20 1135 1135 502069 0 0 0
+21 1398 1398 337678 2 2 44
+22 1489 1489 62166 0 1 0
+23 1894 1894 154590 2 2 892
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 4
+in 8756 8756 5439907
+cn 7228 7228 1106506
+au 886 886 1041020
+us 5 5 88
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 2
+Apache\-HttpClient/ 4 88 20220327153934 0
+no_user_agent 2 4 20220318124150 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 2
+Unknown 16688 5050491 0 0
+html 187 2537030 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 4
+win10 16870 16870
+Unknown 3 3
+macosx 1 1
+linuxandroid 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 9
+firefox97.0 84 84
+safari14.1.2 1 1
+firefox91.0 1 1
+firefox98.0 3791 3791
+chrome99.0.4844.51 5650 5650
+chrome98.0.4758.102 1206 1206
+chrome91.0.4472.114 1 1
+mozilla 3 3
+chrome99.0.4844.82 6138 6138
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20220316074833
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 9 9
+From1 0 0
+From2 0 0
+From3 28 28
+From4 16838 16838
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+http://localhost:4200 26 26
+http://localhost:64450 2 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+406 1 226
+500 2 892
+404 1 700
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 1
+/index.php//customer/createPro/undefined 1 https://switchdirection.parvamconsultech.com/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 18
+36.255.86.219 6104 6104 1045588 20220331235927
+49.205.145.142 4724 4724 3446128 20220316061353
+42.109.129.163 3483 3483 1171578 20220317022154
+36.255.86.216 1123 1123 60916 20220304224906
+27.111.75.190 886 886 1041020 20220331060342
+42.109.129.115 258 258 396380 20220331105517
+42.109.128.163 138 138 23192 20220306234332
+49.205.151.92 74 74 17752 20220307005251
+223.186.245.75 46 46 372434 20220315015929
+106.206.108.195 23 23 12221 20220304082045
+42.109.129.187 6 6 66 20220303234818
+106.196.21.6 4 4 156 20220331094015
+167.248.133.47 1 1 22 20220316074833
+162.142.125.8 1 1 22 20220306083626
+13.38.100.115 1 1 22 20220319091644
+221.130.37.137 1 1 2 20220316163514
+162.142.125.221 1 1 22 20220306185010
+16.170.7.119 1 1 0 20220308173133
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 11
+20220303 322 322 28949 2
+20220304 908 908 64606 5
+20220306 62 62 2884 3
+20220307 74 74 17752 1
+20220308 1 1 0 1
+20220315 557 557 826743 5
+20220316 7749 7749 3954270 5
+20220317 759 759 240361 4
+20220318 42 42 1617 1
+20220319 1 1 22 1
+20220331 6400 6400 2450317 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+30mn-1h 4
+5mn-15mn 3
+15mn-30mn 4
+0s-30s 9
+1h+ 12
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 100
+/index.php/Dashboard/getCriticalCallBack 5315 216140 2 5
+/index.php/Dashboard/getCriticalPayment 5034 196750 6 9
+/index.php/Dashboard/getCriticalCallBack 2687 112754 1 1
+/index.php/Dashboard/getCriticalPayment 2525 100900 1 3
+/index.php/customer/getCompanyName 262 55937 0 0
+/index.php/Login 155 24262 15 4
+/index.php/Order/orderid 128 18737 0 0
+/index.php/customer 102 1437414 0 1
+/index.php/order/getOrder/ 64 2212232 0 0
+/index.php/attendence/insertAttendence/1 50 1759 0 0
+/index.php/Dashboard 41 7072 0 0
+/index.php/call 36 1677815 0 0
+/index.php/attendence/insertAttendence/1 29 1208 0 0
+/index.php/customer/getCompanyName 27 4547 0 0
+/index.php/customer/getCustomerNameList 25 292297 0 0
+/index.php/employee/getOneEmployee/1 25 4675 0 0
+/index.php/employee/getEmployee/ 24 12296 1 0
+/index.php/attendence/getAttendence/1 23 10278 0 0
+/index.php/customer/getCustomerdata/ 22 7455 0 0
+/index.php/Payment 18 363769 0 0
+/index.php/call/create/1 16 296 0 0
+/index.php/Payment 16 322755 0 0
+/index.php/customer/getProdata/ 12 300 0 0
+/index.php/Order/ 12 228 0 0
+/index.php/Order/orderid 11 1288 0 0
+/index.php/Payment/view/1035 2 396 0 0
+/index.php/order/orderdelete/977 1 27 0 0
+/index.php/order/getOneOrder/978 7 4194 0 0
+/index.php/call 1 55392 0 0
+/index.php/employee/checkEmployee/email 2 32 0 0
+/index.php/customer/create/6 8 4884 0 0
+/index.php/Payment/view/1310 2 336 0 0
+/index.php/order/createProduct/1 1 264 0 0
+/index.php/order/getOrder/ 8 291456 0 0
+/index.php/Call/disposeCall 1 39 0 0
+/index.php/order/createProduct/983 1 24 0 0
+/index.php/employee/checkEmployee/pesudo_name1 4 80 0 0
+/index.php/Login 4 684 0 0
+/index.php/order/createProduct/981 1 24 0 0
+/index.php/order/getOneOrder/987 1 548 0 0
+/index.php/Customer/markNotDone 1 27 0 0
+/index.php/employee/getOneEmployee/15 1 207 0 0
+/index.php/Payment/create/1 4 74 0 0
+/index.php/order/createProduct/984 1 24 0 0
+/index.php/customer/checkCustomer/companyName 6 90 0 0
+/index.php/Payment/view/1306 3 504 0 0
+/index.php/Reports/getSalesReportDaily 2 146 0 0
+/index.php/Reports/getPaymentReportDaily 2 44 0 0
+/index.php/order/getproducts/972 1 25 0 0
+/index.php/employee/getEmployeeForEmployee/ 10 6790 0 0
+/index.php/order/createProduct/979 1 308 0 0
+/index.php/Call/getcompanyname 2 100 0 0
+/index.php/order/checkPoNumber/ 2 40 0 0
+/index.php/order/getproducts/976 2 314 0 0
+/index.php/order/getOneOrder/972 1 523 0 0
+/index.php/Payment/view/1305 5 960 0 0
+/index.php/Order/ 10 190 0 0
+/index.php/Payment/view/1305 1 192 0 0
+/index.php/order/createProduct/980 1 24 0 0
+/index.php/attendence/getAttendence/1 8 3962 0 0
+/index.php/order/getOneproducts/2169 1 169 0 0
+/index.php/customer/updatecustomer/ 4 82 0 0
+/index.php/order/getOneOrder/976 2 1152 0 0
+/index.php/employee/checkEmployee/mobile 5 99 0 0
+/index.php/order/createProduct/986 1 24 0 0
+/index.php/order/updateOrder/978/1 2 40 0 0
+/index.php/order/createProduct/987 1 24 0 0
+/index.php/customer/deletecustomer/ 2 54 0 0
+/index.php/Reports/getSalesReport 2 6118 0 0
+/index.php/Payment/view/1311 1 199 0 0
+/index.php/Reports/getPaymentReportMonthly 1 287 0 0
+/index.php/Dashboard 2 308 0 0
+/index.php/Customer/markDone 4 108 0 0
+/index.php/order/createProduct/985 1 24 0 0
+/index.php/employee/getEmployeeForEmployee/ 3 2079 0 0
+/index.php/order/getproducts/986 2 50 0 0
+/index.php/order/createProduct/978 1 271 0 0
+/index.php/employee/getOneEmployee/1 3 561 0 0
+/index.php/employee/insertEmployee/1 2 37 0 0
+/index.php/employee/getEmployee/ 8 3738 0 0
+/index.php/customer 4 71490 0 0
+/index.php/order/updateProduct/2169 1 392 0 0
+/index.php/Order/getordervalues 9 860 0 0
+/index.php/order/getproducts/987 1 161 0 0
+/index.php/Order/getordervalues 4 337 0 0
+/index.php/Payment/create/1 6 111 0 0
+/index.php/order/getOneOrder/986 2 1072 0 0
+/index.php/Call/markCallDone 3 117 0 0
+/index.php/Call/viewComment 1 85 0 0
+/index.php/Payment/view/1280 1 215 0 0
+/ 6 90 6 6
+/index.php/call/create/6 4 74 0 0
+/index.php/order/getOneOrder/979 1 532 0 0
+/index.php/order/createProduct/977 1 271 0 0
+/index.php/order/getproducts/978 7 1256 0 0
+/index.php/order/createProduct/982 1 24 0 0
+/index.php/employee/getOneEmployee/21 2 406 0 0
+/index.php/customer/getCustomerNameList 3 35116 0 0
+/index.php/customer/checkEditCustomers/email 2 3208 0 0
+/index.php/order/getproducts/979 1 192 0 0
+END_SIDER

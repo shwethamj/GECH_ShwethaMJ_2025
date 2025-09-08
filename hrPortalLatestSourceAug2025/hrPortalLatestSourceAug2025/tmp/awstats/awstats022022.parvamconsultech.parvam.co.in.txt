@@ -1,0 +1,1366 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202202 will be lost/reset.
+# Last config file used to build this data file was /home4/parvamco/tmp/awstats/awstats.parvamconsultech.parvam.co.in.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2027                
+POS_TIME 2709                
+POS_VISITOR 30710               
+POS_DAY 38337               
+POS_DOMAIN 3547                
+POS_LOGIN 3853                
+POS_ROBOT 4008                
+POS_WORMS 4247                
+POS_EMAILSENDER 4378                
+POS_EMAILRECEIVER 4521                
+POS_SESSION 39036               
+POS_SIDER 39248               
+POS_FILETYPES 4656                
+POS_DOWNLOADS 5072                
+POS_OS 5120                
+POS_BROWSER 5326                
+POS_SCREENSIZE 6310                
+POS_UNKNOWNREFERER 6384                
+POS_UNKNOWNREFERERBROWSER 6795                
+POS_ORIGIN 7140                
+POS_SEREFERRALS 7282                
+POS_PAGEREFS 7447                
+POS_SEARCHWORDS 7595                
+POS_KEYWORDS 7747                
+POS_MISC 2373                
+POS_ERRORS 7806                
+POS_CLUSTER 3709                
+POS_SIDER_404 7985                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20220301002541 143 40307 11095534721996
+FirstTime 20220201000004
+LastTime 20220228074038
+LastUpdate 20220301051833 143 0 141 1 0
+TotalVisits 234                 
+TotalUnique 171                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 201                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+WindowsMediaPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+RealPlayerSupport 0 0 0
+AddToFavourites 0 2 0
+PDFSupport 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+TotalMisc 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 436 572 4841261 112 154 521062
+1 35 213 13617680 64 124 14349949
+2 54 234 27340033 104 148 21580052
+3 123 955 378739886 81 120 15571756
+4 119 771 59048591 97 132 21906158
+5 267 709 21357312 229 249 284182
+6 59 118 2093913 39 80 3462
+7 11 37 2052139 63 71 1948
+8 34 119 4687769 148 167 15978
+9 143 588 319832377 172 222 14371821
+10 24 119 22534908 45 51 1319
+11 32 128 8763368 160 175 316723
+12 5 11 409854 173 188 2804
+13 1 1 17 127 136 9405
+14 0 0 0 27 33 3104
+15 0 0 0 64 69 2509
+16 0 0 0 77 78 3556
+17 55 55 4532 82 83 2366
+18 2 14 260173 181 182 2426
+19 26 46 644290 103 126 516815
+20 10 34 524446 85 90 1462
+21 27 54 862465 85 106 96904
+22 35 112 9322024 174 202 412500
+23 94 395 92509612 175 563 209866
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 5
+in 1293 4093 874328117
+us 190 642 13051773
+jp 72 406 65318335
+cn 36 139 16492539
+au 1 5 255886
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 3
+no_user_agent 94 4757254 20220214225851 0
+Dalvik/ 1 6367 20220214095718 0
+bingbot/ 1 2220 20220225135643 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 18
+ttf 5 370340 0 0
+woff 8 231964 0 0
+html 224 4449923 0 0
+jpeg 236 64496918 0 0
+js 924 18276587 0 0
+svg 61 292081 0 0
+json 10 3682409 0 0
+css 877 5834060 0 0
+gif 3 65295 0 0
+php 279 1106546 0 0
+jfif 2 59100 0 0
+jpg 1009 801794818 0 0
+ico 1 36518 0 0
+webp 22 3760538 0 0
+woff2 62 2094648 0 0
+png 582 55213111 0 0
+Unknown 977 7276647 0 0
+map 3 405147 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 10
+winunknown 1 1
+win7 254 28
+linux 3 2
+Unknown 75 69
+win8 1 1
+linuxandroid 1347 276
+win8.1 1026 645
+win10 2542 558
+winxp 1 0
+ios_iphone 35 12
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 42
+chrome92.0.4515.131 21 7
+chrome91.0.4472.101 11 2
+msie10.0 10 10
+chrome92.0.4515.159 543 68
+chrome71.0.3578.141 12 4
+chrome98.0.4758.81 11 9
+mozilla 44 44
+chrome77.0.3865.116 12 4
+chrome83.0.4103.116 38 2
+firefox97.0 108 43
+chrome90.0.4430.210 81 15
+chrome55.0.2883.91 8 1
+chrome97.0.4692.98 94 24
+iphone 2 0
+chrome87.0.4280.101 21 5
+chrome97.0.4692.71 96 94
+chrome98.0.4758.82 588 228
+chrome98.0.4758.87 176 58
+chrome96.0.4664.61 5 1
+chrome72.0.3626.121 16 3
+firefox11.0 1 0
+chrome95.0.4638.74 22 6
+chrome97.0.4692.99 2082 752
+msie11.0 1 1
+chrome92.0.4515.166 38 3
+chrome94.0.4606.85 16 4
+chrome62.0.3202.84 143 50
+chrome96.0.4664.110 640 43
+chrome98.0.4758.102 75 10
+chrome73.0.3683.90 1 1
+safari15.2 20 7
+safari15.3 8 4
+chrome76.0.3809.100 33 2
+chrome96.0.4664.104 97 19
+chrome98.0.4758.101 16 3
+safari14.0.3 5 1
+chrome97.0.4692.87 27 5
+chrome89.0.4389.105 8 4
+chrome87.0.4280.141 53 20
+Unknown 32 26
+firefox96.0 69 8
+msie7.0 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 7
+WhatsApp/2.22.2.73_A 20220224100230
+WhatsApp/2.21.22.26_A 20220216205729
+WhatsApp/2.21.19.21_A 20220214090401
+WhatsApp/2.22.3.77_A 20220215074857
+WhatsApp/2.21.21.17_A 20220215060544
+Cpanel-HTTP-Client/1.0 20220227170828
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20220227171735
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 7
+Cpanel-HTTP-Client/1.0 20220227170828
+WhatsApp/2.21.21.17_A 20220215060544
+WhatsApp/2.22.2.73_A 20220224100230
+Microsoft_Office_Word_2013 20220201042206
+WhatsApp/2.21.22.26_A 20220216205729
+WhatsApp/2.21.19.21_A 20220214090401
+WhatsApp/2.22.3.77_A 20220215074857
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 357 373
+From1 1 1
+From2 23 23
+From3 0 0
+From4 1211 4888
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 23 23
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 9
+404 2780 0
+406 361 81586
+301 23 5675
+101 5 0
+500 6 4330
+303 10 0
+409 112 8383
+206 56 85320012
+307 40 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 504
+/Admin/ 1 -
+/wp-content/plugins/backup_index.php 1 www.bing.com
+//wp-admin/setup-config.php 1 -
+/sym403.php 4 -
+/moduleigtt/portfolio/wp-content/internals/WAO752.png 8 http://parvamconsultech.com/moduleigtt/portfolio/modfolio-others.html
+/wp-content/plugins/ubh/up.php 1 www.bing.com
+/root.php 4 -
+/dvcard/sreekumar/css/vjimages/realestate2-min.jpg 1 http://parvamconsultech.com/dvcard/sreekumar/css/vJCSS.css
+/web/wp-admin/install.php 1 -
+/app/parameters.yml 1 -
+/wp-22.php 3 -
+/index.php 8 parvamconsultech.com
+/cv/ 1 -
+/wp-content/plugins/cache-wordpress/fastCache.php 1 parvamconsultech.com
+/images/vuln.php 6 -
+/wordpress//wp-admin/setup-config.php 1 -
+/jOVMR/ 1 -
+/0.php 3 -
+/moduleigtt/portfolio/wp-content/moduleigttexclusive/crockeryunit9.jpeg 8 http://parvamconsultech.com/moduleigtt/portfolio/modfolio-others.html
+/resume/ 1 -
+/alfa.php 5 -
+/new/ 12 -
+/eLpLM/ 1 -
+/wordpress/wp-admin/install.php 1 -
+/robots.txt 131 -
+/wp-stream.php 1 parvamconsultech.com
+/moduleigtt/portfolio/wp-content/moduleigttexclusive/onsite2.jpeg 8 http://parvamconsultech.com/moduleigtt/portfolio/modfolio-others.html
+/theme/assets/global/plugins/jquery-file-upload/server/php/index.php 1 -
+/iLNYP/ 1 -
+/wp-admin/install.php 1 -
+/v1/ 1 -
+/backup/xmlrpc.php 3 -
+/0byte.php 4 -
+/application/config/sms_settings.php 4 -
+/moduleigtt/admin/viewdetails.php 1 http://parvamconsultech.com/moduleigtt/admin/viewdetails.php
+/.fk.php 3 -
+/z.php 5 -
+/dcanvas/ 1 -
+/maintenances 1 -
+/www.php 4 -
+/index2.html 1 -
+/dvcard/roshanlobo/templates/common/js/script.js 2 http://parvamconsultech.com/dvcard/roshanlobo/roshanlobo.php
+/error.php 1 www.bing.com
+/dcanvas 1 -
+/test/wp-admin/install.php 1 -
+/wp-configer.php 3 -
+/cgialfa 1 www.bing.com
+/aws.yml 4 -
+/wp-includes/upload_index.php 1 -
+/moduleigtt/uploads/Screenshot_20220203-120018.jpg 1 http://parvamconsultech.com/moduleigtt/admin/viewdetails.php
+//wp-admin/install.php 1 -
+/photography 2 -
+/elfinder/connectors/php/connector.php 1 -
+/old/ 12 -
+/dvcard/dikshan/templates/common/js/star-rating.js 1 http://parvamconsultech.com/dvcard/dikshan/dikshant.php
+/accesson0.php 1 -
+/blog/xmlrpc.php 3 -
+/runtime-es2015.fab47152c71bc5d35f4d.js 6 http://parvamconsultech.com/switchdirection/
+/wso1337.php 3 -
+/moduleigtt/portfolio/wp-content/internals/WAO718.png 8 http://parvamconsultech.com/moduleigtt/portfolio/modfolio-others.html
+/xmlrpcs.php 1 www.bing.com
+/admin/assets/jquery-file-upload/server/php/index.php 1 -
+/admin/controller/extension/extension/ALFA_DATA 1 www.bing.com
+/backup/wp-admin/install.php 1 -
+/humans.txt 4 -
+/moduleigtt/portfolio/wp-content/moduleigttexclusive/tvexl.jpeg 9 http://parvamconsultech.com/moduleigtt/portfolio/modfolio-others.html
+/sites/default/files/ALFA_DATA 1 www.bing.com
+/wp1/ 1 -
+/defau11.php 1 www.bing.com
+/wp-json/wp/v2/users 1 -
+/wp-booking.php 1 www.bing.com
+/decanvas/ 8 -
+/2index.php 5 -
+/kiss.php 3 -
+/4price.php 3 -
+/old/wp-json/wp/v2/users 1 -
+/doc.php 5 -
+/moduleigtt/portfolio/wp-content/internals/pole5.jpeg 8 http://parvamconsultech.com/moduleigtt/portfolio/modfolio-others.html
+/blog/wp-json/wp/v2/users 1 -
+/moduleigtt/portfolio/wp-content/internals/pole2.jpeg 8 http://parvamconsultech.com/moduleigtt/portfolio/modfolio-others.html
+/wp-blockdown.php 1 parvamconsultech.com
+/symlink.php 4 -
+/gank.php.PhP 1 www.bing.com
+/cache/accesson.php 1 -
+/moduleigtt/portfolio/wp-content/moduleigttexclusive/onsite1.jpeg 8 http://parvamconsultech.com/moduleigtt/portfolio/modfolio-others.html
+/wp-uploads.php 3 -
+/moduleigtt/portfolio/wp-content/internals/WAO762.png 8 http://parvamconsultech.com/moduleigtt/portfolio/modfolio-others.html
+/icons/apache_pb.gif 1 -
+/dvcard/sreekumar/templates/common/js/script.js 2 http://parvamconsultech.com/dvcard/sreekumar/sreekumarvcard.php
+/config.js 4 -
+/dvcard/sudarshan/templates/common/js/script.js 2 http://parvamconsultech.com/dvcard/sudarshan/sudarshan.php
+/wp-content/plugins/background-image-cropper/accesson.php 1 -
+/bypass.php 3 -
+/wp-admin/css/ 4 binance.com
+/templates/beez3/alfacgiapi 1 www.bing.com
+/dvcard/sahriday/templates/common/js/script.js 2 http://parvamconsultech.com/dvcard/sahriday/sahriday.php
+/wp/ 13 -
+/dvcard/sreekumar/templates/common/js/star-rating.js 1 http://parvamconsultech.com/dvcard/sreekumar/sreekumarvcard.php
+/wp.php 5 -
+/lock360.php 1 www.bing.com
+/3index.php 8 -
+/c.php 4 -
+/blog/robots.txt 1 -
+/new/wp-json/wp/v2/users 1 -
+/demo/xmlrpc.php 3 -
+/.production 1 https://www.google.com/
+/wp-backup-sql-302.php 1 www.bing.com
+/legion.php 1 www.bing.com
+/assets/server/php/index.php 1 -
+/cpl-2022/playerimages/Screenshot_2022-02-22-22-21-01-89_a23b203fd3aafc6dcb84e 3 http://parvamconsultech.com/cpl-2022/admindashboard.php
+/dvcard/gopal/templates/common/js/star-rating.js 1 http://parvamconsultech.com/dvcard/gopal/gopalvcard.php
+/mar.php 4 -
+/ 432 -
+/main/ 2 -
+/shop/wp-includes/wlwmanifest.xml 41 -
+/dvcard/sahriday/templates/common/js/star-rating.js 1 http://parvamconsultech.com/dvcard/sahriday/sahriday.php
+/wp-content/mu-plugins-old/index.php 2 www.bing.com
+/nee.php 4 -
+/2018/ 1 -
+/.well-known/ 4 binance.com
+/payload3.php 3 -
+/config/app.php 2 -
+/mini.php 4 -
+/moduless.php 1 www.bing.com
+/alexus.php 3 -
+/dvcard/rohitlakshmana/templates/common/js/script.js 2 http://parvamconsultech.com/dvcard/rohitlakshmana/rohitlakshmana.php
+/2017/wp-includes/wlwmanifest.xml 1 -
+/moduleigtt/portfolio/wp-content/internals/WAO748.png 8 http://parvamconsultech.com/moduleigtt/portfolio/modfolio-others.html
+/backup/wp-json/wp/v2/users 1 -
+/11index.php 4 -
+/2016/wp-includes/wlwmanifest.xml 1 -
+/wp-rss.php 3 -
+/-%20Copy.env 1 -
+/copy.env 1 -
+/bk/ 1 -
+/o.php 4 -
+/alwso.php 1 -
+/dvcard/rohitlakshmana/css/vjimages/realestate2-min.jpg 1 http://parvamconsultech.com/dvcard/rohitlakshmana/css/vJCSS.css
+/phpinfo.php 4 -
+/site/wp-json/wp/v2/users 1 -
+/2015/wp-includes/wlwmanifest.xml 1 -
+/wp/xmlrpc.php 3 -
+/config/parameters.yml 1 -
+/wp-content/uploads/ALFA_DATA 1 www.bing.com
+/wp-admin/setup-config.php 3 -
+/fLSMM/NTNWo/ebNOf/ 1 -
+/dvcard/csvprasad/css/vjimages/realestate2-min.jpg 1 http://parvamconsultech.com/dvcard/csvprasad/css/vJCSS.css
+/bak/ 1 -
+/blog2 1 -
+/new-index.php 4 -
+/assets/images/home-banner/Banner.png 1 -
+/2019/wp-includes/wlwmanifest.xml 40 -
+/web 1 -
+/.well-known/alfacgiapi 1 www.bing.com
+/wp2 1 -
+/wp1/wp-includes/wlwmanifest.xml 41 -
+/xmrlpc.php 1 www.bing.com
+/elfinder/src/connectors/php/connector.php 1 -
+/wp-admin.php 4 -
+/moduleigtt/portfolio/wp-content/internals/WAO711.png 8 http://parvamconsultech.com/moduleigtt/portfolio/modfolio-others.html
+/moduleigtt/portfolio/wp-content/moduleigttexclusive/barunit2.jpeg 8 http://parvamconsultech.com/moduleigtt/portfolio/modfolio-others.html
+/assets/images/history/Banner.png 1 -
+/moduleigtt/portfolio/wp-content/internals/WAO71.png 8 http://parvamconsultech.com/moduleigtt/portfolio/modfolio-others.html
+/seft/css/img/preloader.gif 2 http://parvamconsultech.com/seft/css/style.css
+/moduleigtt/portfolio/wp-content/internals/WAO87.png 8 http://parvamconsultech.com/moduleigtt/portfolio/modfolio-others.html
+/.well-known/cgialfa 1 www.bing.com
+/feed/ 6 http://parvamconsultech.com/feed/
+/moduleigtt/wp-content/photos/360degree/living.jpg 3 http://parvamconsultech.com/moduleigtt/
+/icons/apache_pb2.gif 2 -
+/wp 1 -
+/a.php 5 -
+/marijuana.php 3 -
+/test/ 2 -
+/wp-content/upload.php 2 -
+/100.php 4 -
+/aakruthi-erp/webmaster/quotation/selectlead/ 3 http://parvamconsultech.com/aakruthi-erp/webmaster/quotation
+/resumes/ 1 -
+/xleet.php 2 -
+/tmp/ 1 -
+/data.php 4 -
+/old-index.php 11 parvamconsultech.com
+/dvcard/suhasvaidya/templates/common/js/script.js 2 http://parvamconsultech.com/dvcard/suhasvaidya/suhasvaidya.php
+/blog/ 13 -
+/dvcard/suhasvaidya/templates/common/js/star-rating.js 1 http://parvamconsultech.com/dvcard/suhasvaidya/suhasvaidya.php
+/xindex.php 1 www.bing.com
+/dvcard/rohitlakshmana/templates/common/js/star-rating.js 1 http://parvamconsultech.com/dvcard/rohitlakshmana/rohitlakshmana.php
+/brick2brick/assets/img/leaflet/marker-shadow.png 1 http://parvamconsultech.com/brick2brick/contact.html
+/wp-login.php 3 -
+/sindex.php 4 -
+/alfacgiapi 1 www.bing.com
+/info.php 4 -
+/FoxWSO.php 4 -
+/wp-content/db-cache.php 1 www.bing.com
+/dvcard/raghunath/templates/common/js/star-rating.js 1 http://parvamconsultech.com/dvcard/raghunath/raghunathvcard.php
+/cms/wp-admin/install.php 1 -
+/2018/wp-includes/wlwmanifest.xml 22 -
+/css/index.php 2 parvamconsultech.com
+/wp-admin/upload_index.php 1 -
+/new/wp-admin/install.php 1 -
+/wp_wrong_datlib.php 3 -
+/autoload_classmap.php 5 -
+/news 1 -
+/MeNVp/WSXRS/ 1 -
+/install/ 1 -
+/wp-blog.php 4 -
+/Gel.php 3 -
+/old/xmlrpc.php 3 -
+/accesson.php 2 parvamconsultech.com
+/%20-%20Copy.env 1 -
+/administrator/ 1 -
+/aakruthi-erp/webmaster/quotation/quotationdata 1 http://parvamconsultech.com/aakruthi-erp/webmaster/quotation/edit/70
+/fw.php 2 -
+/wp-includes/ALFA_DATA 1 www.bing.com
+/s_ne.php 1 www.bing.com
+/moduleigtt/portfolio/wp-content/internals/WAO723.png 8 http://parvamconsultech.com/moduleigtt/portfolio/modfolio-others.html
+/wp/wp-includes/wlwmanifest.xml 41 -
+/admin.php 2 parvamconsultech.com
+/wi.php 4 -
+/admin/server/php/index.php 1 -
+/1index.php 6 -
+/dvcard/csvprasad/templates/common/js/script.js 2 http://parvamconsultech.com/dvcard/csvprasad/csvprasadvcard.php
+/admin/controller/extension/extension/alfacgiapi 1 www.bing.com
+/admin 1 -
+/wp-content/wp-logins.php 3 -
+/cdn-cgi/rum 19 http://parvamconsultech.com/brick2brick/Paint-my-Home.html
+/new.php 4 -
+/wp-content/ALFA_DATA/alfacgiapi/perl.alfa 1 www.google.com
+/cpl-2022/index.php 136 http://parvamconsultech.com/cpl-2022/index.php
+/wp-plugins.php 1 www.bing.com
+/ckeditor/connectors/php/connector.php 1 -
+/V5.php 1 -
+/.aws/credentials 4 -
+/assets/admin/plugins/jquery-file-upload/server/php/index.php 1 -
+/wp-admin/cgialfa 1 www.bing.com
+/wp-content/plugins/wpcargo/assets/css/wpcargo-style.css 1 parvamconsultech.com
+/moduleigtt/portfolio/wp-content/moduleigttexclusive/barunit5.jpeg 8 http://parvamconsultech.com/moduleigtt/portfolio/modfolio-others.html
+/elfinder/elfinder.html 1 -
+/assets/images/logo.png 1 -
+/alfav4.1-tesla.php 3 -
+/about.php 1 www.bing.com
+/cpl-2022/playerimages/Screenshot_2022-02-15-13-04-05-63_512d59465dcd1d9c8e9be 2 http://parvamconsultech.com/cpl-2022/admindashboard.php
+/KZTML/ 1 -
+/new/xmlrpc.php 3 -
+/blog//wp-admin/setup-config.php 1 -
+/wp-includes/wp-atom.php 1 www.bing.com
+/backup/ 11 -
+/ads.txt 32 -
+/uploads/contexmini.php 3 -
+/wp-includes/images/css.php 1 www.bing.com
+/u.php 3 -
+/ups.php 7 -
+/assets/images/accesson0.php 1 -
+/nasgor.php 3 -
+/moduleigtt/portfolio/wp-content/internals/WAO719.png 8 http://parvamconsultech.com/moduleigtt/portfolio/modfolio-others.html
+/c99.php 4 -
+/wp/rahma.php 3 -
+/dvcard/raghunath/templates/common/js/script.js 2 http://parvamconsultech.com/dvcard/raghunath/raghunathvcard.php
+/wp-admin/ALFA_DATA 1 www.bing.com
+/qp2/ 2 -
+/ALFA_DATA/alfacgiapi/perl.alfa 1 www.google.com
+/test/wp-includes/wlwmanifest.xml 41 -
+/home/ 1 -
+/wp-includes/cgialfa 1 www.bing.com
+/moduleigtt/handletypedata.json 2 http://parvamconsultech.com/moduleigtt/
+/sendmail.php 3 -
+/old-wp/ 1 -
+/minimo.php 1 -
+/moduleigtt/portfolio/wp-content/moduleigttexclusive/studyunit6.jpeg 8 http://parvamconsultech.com/moduleigtt/portfolio/modfolio-others.html
+/dvcard/patel/templates/common/js/star-rating.js 2 http://parvamconsultech.com/dvcard/patel/patelvcard.php
+/3.php 3 -
+/dev/ 1 -
+/moduleigtt/portfolio/wp-content/moduleigttexclusive/studyunit3.jpeg 8 http://parvamconsultech.com/moduleigtt/portfolio/modfolio-others.html
+/%20-%20.env 1 -
+/e.php 3 -
+/blog 1 -
+/wp-content/uploads/alfacgiapi 1 www.bing.com
+/moduleigtt/portfolio/wp-content/internals/WAO713.png 8 http://parvamconsultech.com/moduleigtt/portfolio/modfolio-others.html
+/wp-info.php 4 -
+/wp2/ 1 -
+/MARIJUANA.php 3 -
+/moduleigtt/portfolio/wp-content/internals/WAO73.png 8 http://parvamconsultech.com/moduleigtt/portfolio/modfolio-others.html
+/xx.php 4 -
+/moduleigtt/nav.scss 32 http://parvamconsultech.com/moduleigtt/
+/dvcard/rajithkiran/templates/common/js/star-rating.js 1 http://parvamconsultech.com/dvcard/rajithkiran/rajithkiran.php
+/wp/wp-json/wp/v2/users 1 -
+/css.php 1 www.bing.com
+/main-es2015.b85c7aa42302f153c1f2.js 5 http://parvamconsultech.com/switchdirection/
+/web/ 11 -
+/anone.php 3 -
+/wp-content/cgialfa 1 www.bing.com
+/wikindex.php 5 -
+/old/wp-admin/install.php 1 -
+/moduleigtt/portfolio/wp-content/moduleigttexclusive/displayunit1.jpeg 8 http://parvamconsultech.com/moduleigtt/portfolio/modfolio-others.html
+/alfa123.php 3 -
+/moduleigtt/portfolio/wp-content/moduleigttexclusive/tvunit4.jpeg 9 http://parvamconsultech.com/moduleigtt/portfolio/modfolio-others.html
+/777.php 4 -
+/olux.php 1 www.bing.com
+/baindex.php 4 -
+/2020/wp-json/wp/v2/users 1 -
+/config.php 1 www.bing.com
+/website/wp-includes/wlwmanifest.xml 36 -
+/moduleigtt/portfolio/wp-content/moduleigttexclusive/barunit4.jpeg 8 http://parvamconsultech.com/moduleigtt/portfolio/modfolio-others.html
+/umbraco 1 -
+/v2/ 1 -
+/cms.php 3 -
+/wordpress1 1 -
+/dvcard/sudarshan/templates/common/js/star-rating.js 2 http://parvamconsultech.com/dvcard/sudarshan/sudarshan.php
+/dvcard/roshanlobo/templates/common/js/star-rating.js 2 http://parvamconsultech.com/dvcard/roshanlobo/roshanlobo.php
+/dvcard/gopal/css/vjimages/realestate2-min.jpg 1 http://parvamconsultech.com/dvcard/gopal/css/vJCSS.css
+/moduleigtt/portfolio/wp-content/photos/trending/tvunit.jpg 8 http://parvamconsultech.com/moduleigtt/portfolio/modfolio-others.html
+/sites/default/files/alfacgiapi 1 www.bing.com
+/wp-confirm.php 3 -
+/wordpres 1 -
+/wp-includes/alfacgiapi 1 www.bing.com
+/wordpress//wp-admin/install.php 1 -
+/wp-one.php 3 -
+/shx.php 4 -
+/wp-includes/css/css.php 1 www.bing.com
+/phpinfo 4 -
+/wp-content/ 16 -
+/qp3/app/index.php/login 1 -
+/media-admin.php 7 -
+/r.php 3 -
+/wp-content/alfacgiapi 1 www.bing.com
+/V3.php 1 -
+/dvcard/rajithkiran/templates/common/js/script.js 2 http://parvamconsultech.com/dvcard/rajithkiran/rajithkiran.php
+/plugins/jquery-file-upload/server/php/index.php 1 -
+/admin/assets/global/plugins/jquery-file-upload/server/php/index.php 1 -
+/dvcard/gopal/templates/common/js/script.js 2 http://parvamconsultech.com/dvcard/gopal/gopalvcard.php
+/.wp-cache.php 3 -
+/YNSXn/ 1 -
+/rahma.php 3 -
+/moduleigtt/portfolio/wp-content/moduleigttexclusive/onsite4.jpeg 8 http://parvamconsultech.com/moduleigtt/portfolio/modfolio-others.html
+/send.php 3 -
+/demo/wp-json/wp/v2/users 1 -
+/it.php 3 -
+/polyfills-es2015.cd922be208e6be712d4f.js 6 http://parvamconsultech.com/switchdirection/
+/system_log.php 1 www.bing.com
+/templates/beez3/cgialfa 1 www.bing.com
+/dvcard/suhasvaidya/css/vjimages/realestate2-min.jpg 1 http://parvamconsultech.com/dvcard/suhasvaidya/css/vJCSS.css
+/web/wp-includes/wlwmanifest.xml 41 -
+/v.php 4 -
+/m.php 4 -
+/app/config/parameters.yml 1 -
+/theme/assets/plugins/jquery-file-upload/server/php/index.php 1 -
+/moduleigtt/portfolio/wp-content/internals/WAO755.png 8 http://parvamconsultech.com/moduleigtt/portfolio/modfolio-others.html
+/cpl/ 2 -
+/style.php 2 bing.com
+/dvcard/csvprasad/templates/common/js/star-rating.js 1 http://parvamconsultech.com/dvcard/csvprasad/csvprasadvcard.php
+/site/wp-admin/install.php 1 -
+/upload.php 6 -
+/templates/beez3/index.php 1 www.bing.com
+/dvcard/rajithkiran/css/vjimages/realestate2-min.jpg 1 http://parvamconsultech.com/dvcard/rajithkiran/css/vJCSS.css
+/moduleigtt/portfolio/wp-content/moduleigttexclusive/display2.jpeg 8 http://parvamconsultech.com/moduleigtt/portfolio/modfolio-others.html
+/wordpress/ 13 -
+/moduleigtt/portfolio/wp-content/internals/pole4.jpeg 8 http://parvamconsultech.com/moduleigtt/portfolio/modfolio-others.html
+/siddeswaraswamytemple/timings.html 1 -
+/web/wp-json/wp/v2/users 1 -
+/dr.php 3 -
+/news/wp-includes/wlwmanifest.xml 36 -
+/y.php 3 -
+/XxX.php 3 -
+/portal 1 -
+/41.php 3 -
+/2020/ 11 -
+/index.php/component/users/ 1 -
+/alfacgiapi/perl.alfa 1 www.google.com
+/wp-content/uploads/upload_index.php 1 -
+/moduleigtt/portfolio/wp-content/moduleigttexclusive/display3.jpeg 8 http://parvamconsultech.com/moduleigtt/portfolio/modfolio-others.html
+/dvcard/sahriday/css/vjimages/realestate2-min.jpg 1 http://parvamconsultech.com/dvcard/sahriday/css/vJCSS.css
+/f.php 4 -
+/2020/wp-includes/wlwmanifest.xml 19 -
+/aakruthi-erp/webmaster/quotation/edit/65 1 http://parvamconsultech.com/aakruthi-erp/webmaster/quotation
+/oldsite/wp-admin/install.php 1 -
+/aakruthi-erp/webmaster/quotation 1 http://parvamconsultech.com/aakruthi-erp/webmaster/dashboard
+/blog/wp-admin/install.php 1 -
+/.well-known/ALFA_DATA 1 www.bing.com
+/xmlrpc.php 4 -
+/bio 1 -
+/dvcard/roshanlobo/css/vjimages/realestate2-min.jpg 1 http://parvamconsultech.com/dvcard/roshanlobo/css/vJCSS.css
+/wp2/wp-includes/wlwmanifest.xml 36 -
+/wso.php 5 -
+/radio.php 1 www.bing.com
+/blog.php 3 -
+/admin/.env 1 -
+/priv8.php 4 -
+/wp-content/alfacgiapi/perl.alfa 1 www.google.com
+/403.php 1 -
+/up.php 4 -
+/%21.env 1 -
+/_profiler/phpinfo 5 -
+/wp-content/mu-plugins/db-safe-mode.php 1 www.bing.com
+/wp-content/outcms.php 1 www.bing.com
+/parameters.yml 1 -
+/wordpress/wp-json/wp/v2/users 1 -
+/b.php 1 -
+/media/wp-includes/wlwmanifest.xml 22 -
+/sites/default/files/cgialfa 1 www.bing.com
+/ohayo.php 3 -
+/qindex.php 2 -
+/sym.php 4 -
+/xox.php 4 -
+/wp-content/wp-admin.php 3 -
+/dvcard/dikshan/templates/common/js/script.js 2 http://parvamconsultech.com/dvcard/dikshan/dikshant.php
+/tan.php 1 parvamconsultech.com
+/test.php 1 www.bing.com
+/moduleigtt/portfolio/wp-content/moduleigttexclusive/onsite6.jpeg 8 http://parvamconsultech.com/moduleigtt/portfolio/modfolio-others.html
+/wp-admin/style.php 1 www.bing.com
+/shells.php 1 www.bing.com
+/dvcard/patel/templates/common/js/script.js 2 http://parvamconsultech.com/dvcard/patel/patelvcard.php
+/dvcard/dikshan/css/vjimages/realestate2-min.jpg 1 http://parvamconsultech.com/dvcard/dikshan/css/vJCSS.css
+/new 1 -
+/owl.php 3 -
+/wp-load.php 9 parvamconsultech.com
+/wp-admin/includes/class-wp-media-list-data.php 1 -
+/admin/assets/plugins/jquery-file-upload/server/php/index.php 1 -
+/wp-includes/css/wp-config.php 1 www.bing.com
+/wp/wp-admin/install.php 1 -
+/aakruthi-erp/webmaster/quotation/selectquotationnumber 1 http://parvamconsultech.com/aakruthi-erp/webmaster/quotation
+/defau1t.php 5 -
+/cms/wp-includes/wlwmanifest.xml 41 -
+/beence.php 1 www.bing.com
+/archives.php 1 www.bing.com
+/wp-content/plugins/wp-members-master/wp-tag.php 1 parvamconsultech.com
+/ALFA_DATA 1 www.bing.com
+/1.php 5 -
+/cpl-2022/ 3 -
+/wp1 1 -
+/moduleigtt/portfolio/wp-content/internals/pole.jpeg 8 http://parvamconsultech.com/moduleigtt/portfolio/modfolio-others.html
+/moduleigtt/portfolio/wp-content/moduleigttexclusive/display4.jpeg 8 http://parvamconsultech.com/moduleigtt/portfolio/modfolio-others.html
+/dvcard/patel/css/vjimages/realestate2-min.jpg 1 http://parvamconsultech.com/dvcard/patel/css/vJCSS.css
+/config/aws.yml 4 -
+/g.php 4 -
+/wp-includes/wp-class.php 1 www.bing.com
+/aakruthi-erp/ 2 -
+/wordpress 1 -
+/wp-signin.php 1 www.bing.com
+/.local 1 https://www.google.com/
+/wordpress/wp-includes/wlwmanifest.xml 41 -
+/new-site/ 1 -
+/cms/ 2 -
+/404.php 4 -
+/moduleigtt/portfolio/wp-content/moduleigttexclusive/tvunit5.jpeg 9 http://parvamconsultech.com/moduleigtt/portfolio/modfolio-others.html
+/mailer.php 3 -
+/stindex.php 4 -
+/wp-admin/alfacgiapi 1 www.bing.com
+/cpl-2022/admindaahboard.php 1 -
+/shell.php 5 -
+/t.php 3 -
+/temp/ 1 -
+/moduleigtt/portfolio/wp-content/moduleigttexclusive/studyunitexl.jpeg 8 http://parvamconsultech.com/moduleigtt/portfolio/modfolio-others.html
+/.remote 1 https://www.google.com/
+/wp-content/plugins/background-image-cropper/image/ico/accesson.php 1 -
+/uploads/up.php 2 -
+/moduleigtt/wp-content/formv.js 3 http://parvamconsultech.com/moduleigtt/
+/aakruthi-erp/webmaster/dashboard 1 http://parvamconsultech.com/aakruthi-erp/
+/sito/wp-includes/wlwmanifest.xml 36 -
+/admin/controller/extension/extension/cgialfa 1 www.bing.com
+/moduleigtt/portfolio/wp-content/internals/WAO720.png 8 http://parvamconsultech.com/moduleigtt/portfolio/modfolio-others.html
+/2021/wp-includes/wlwmanifest.xml 5 -
+/QRcKO/MeNVp/WSXRS/ 1 -
+/moduleigtt/portfolio/appliances.json 8 http://parvamconsultech.com/moduleigtt/portfolio/modfolio-others.html
+/2019/ 1 -
+/application/config/s3.php 4 -
+/wp-content/uploads/cgialfa 1 www.bing.com
+/wp-wso.php 1 -
+/blog//wp-admin/install.php 1 -
+/export.php 1 www.bing.com
+/dvcard/sudarshan/css/vjimages/realestate2-min.jpg 1 http://parvamconsultech.com/dvcard/sudarshan/css/vJCSS.css
+/wp-content/export.php 1 www.bing.com
+/blog/wp-includes/wlwmanifest.xml 36 -
+/x.php 5 -
+/wordpress2 1 -
+/wp2.php 3 -
+/dvcard/raghunath/css/vjimages/realestate2-min.jpg 1 http://parvamconsultech.com/dvcard/raghunath/css/vJCSS.css
+/adminpanel/Administrator/ 1 -
+/old-site/ 1 -
+/admin/ 1 -
+/styles.d2d481ae36dfe35dd1cc.css 3 http://parvamconsultech.com/switchdirection/
+/moduleigtt/portfolio/wp-content/internals/WAO765.png 8 http://parvamconsultech.com/moduleigtt/portfolio/modfolio-others.html
+/moduleigtt/portfolio/wp-content/moduleigttexclusive/barunit13.jpeg 8 http://parvamconsultech.com/moduleigtt/portfolio/modfolio-others.html
+/moduleigtt/portfolio/wp-content/internals/WAO76.png 8 http://parvamconsultech.com/moduleigtt/portfolio/modfolio-others.html
+/sh3ll.php 3 -
+/wp-content/ALFA_DATA 1 www.bing.com
+/moduleigtt/portfolio/wp-content/moduleigttexclusive/onsite5.jpeg 8 http://parvamconsultech.com/moduleigtt/portfolio/modfolio-others.html
+/2020/xmlrpc.php 3 -
+/site/wp-includes/wlwmanifest.xml 41 -
+/edit-form.php 4 -
+/fastrans 2 -
+/cpl-2022/playerimages/Screenshot_2022-02-02-22-11-37-91_94905fa82a76a9b5f3b66 4 http://parvamconsultech.com/cpl-2022/admindashboard.php
+/templates/beez3/ALFA_DATA 1 www.bing.com
+/s_e.php 1 www.bing.com
+/i.php 3 -
+/wordpress/xmlrpc.php 3 -
+/moduleigtt/portfolio/wp-content/moduleigttexclusive/onsite3.jpeg 8 http://parvamconsultech.com/moduleigtt/portfolio/modfolio-others.html
+/moduleigtt/portfolio/wp-content/moduleigttexclusive/tvunitexl1.jpeg 9 http://parvamconsultech.com/moduleigtt/portfolio/modfolio-others.html
+/portfolio 1 -
+/cache/accesson0.php 1 -
+/web/xmlrpc.php 3 -
+/moduleigtt/portfolio/wp-content/moduleigttexclusive/tvunit2.jpeg 9 http://parvamconsultech.com/moduleigtt/portfolio/modfolio-others.html
+/moduleigtt/portfolio/wp-content/internals/WAO813.png 8 http://parvamconsultech.com/moduleigtt/portfolio/modfolio-others.html
+/moduleigtt/portfolio/wp-content/internals/pole3.jpeg 8 http://parvamconsultech.com/moduleigtt/portfolio/modfolio-others.html
+/site/ 11 -
+/assets/backend/plugins/jquery-file-upload/server/php/index.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 201
+49.205.149.55 765 1608 113739502 20220213212513
+49.205.151.92 125 669 382994032 20220228043331
+49.206.12.32 112 181 2503103 20220202231129
+220.158.159.227 47 371 64712276 20220203045020
+42.109.129.186 39 104 1339220 20220215060432
+162.214.80.40 35 35 2792 20220227171735
+49.205.150.208 32 34 1403479 20220214091734
+36.255.86.217 29 82 7610360 20220218042221
+220.158.159.147 16 20 365584 20220215074857
+157.45.239.188 12 16 54345 20220214192034
+27.59.88.35 12 21 317281 20220218062655
+52.194.243.192 10 10 170 20220221090553
+49.205.137.34 9 47 915442 20220209050901
+49.206.8.48 9 74 2222409 20220228074038
+27.63.251.106 8 258 311878197 20220224091541
+49.205.146.224 8 46 664540 20220207110403
+27.59.41.25 7 61 8207667 20220203043743
+157.45.189.9 7 8 70117 20220214192029
+157.45.153.87 7 11 10716 20220215062349
+1.39.168.217 6 10 9880 20220215092847
+220.158.158.77 6 12 234478 20220210053417
+1.39.168.235 5 9 263042 20220214212814
+157.45.232.87 5 13 260434 20220214090144
+223.231.167.217 5 9 51599 20220214091702
+64.78.149.164 5 5 435 20220227171735
+75.104.90.186 0 2 111774 
+27.59.98.118 3 12 258680 20220214085420
+103.31.145.70 1 3 149420 20220214090410
+157.45.65.27 2 6 257640 20220214085126
+203.187.215.132 2 33 414815 20220210031638
+27.111.75.67 1 5 255886 20220214085450
+157.45.138.104 1 5 255886 20220214200844
+223.237.214.250 1 5 255886 20220214094556
+223.237.193.7 1 3 1754 20220215063420
+157.45.234.48 1 4 152227 20220214112114
+223.231.138.132 4 16 260434 20220214092504
+27.59.90.230 1 3 1754 20220214212706
+1.39.156.195 1 5 1754 20220215021638
+49.44.81.200 2 33 414815 20220210031251
+27.59.97.100 2 10 257640 20220214090811
+49.205.134.24 4 10 154708 20220215090411
+202.177.229.198 2 33 414815 20220210051614
+157.45.178.34 3 3 13436 20220214112314
+157.45.239.183 1 5 255886 20220214090247
+42.106.161.73 2 33 414815 20220210032835
+42.106.161.71 2 33 414815 20220210031318
+223.237.242.26 4 8 260434 20220214125400
+223.237.213.53 1 1 1754 20220216205729
+64.233.172.111 1 45 760253 20220209012633
+36.255.86.81 3 7 259464 20220214095019
+74.125.210.107 2 25 171312 20220209032602
+52.39.4.59 3 3 261 20220227171735
+18.159.196.172 1 1 87 20220227171734
+74.125.210.111 1 31 488552 20220209012927
+103.59.199.68 2 8 217843 20220204043214
+157.50.47.104 0 4 0 
+157.45.208.38 3 7 4548 20220215012349
+49.205.144.102 4 12 260434 20220214200245
+64.233.172.107 2 33 1297531 20220209021728
+157.50.3.75 1 5 255886 20220214202341
+182.79.251.75 1 3 149420 20220216122030
+106.66.137.29 1 1 1754 20220214103715
+157.45.234.213 2 5 2794 20220214210901
+223.186.155.182 4 8 7086 20220215065914
+223.231.184.157 1 9 68006 20220214092522
+49.205.148.123 1 5 255886 20220214104056
+157.45.111.98 1 5 255886 20220214214306
+223.186.153.235 1 5 255886 20220214085154
+223.186.152.59 0 3 737721 
+157.45.61.148 1 4 1754 20220214210203
+220.158.158.228 3 3 5997 20220212050727
+34.221.255.206 2 2 174 20220227171735
+1.39.173.228 1 5 255886 20220214185739
+103.55.88.196 1 3 150160 20220216071044
+157.45.40.44 3 7 258680 20220217013515
+157.50.17.90 1 1 2220 20220210082410
+3.19.56.43 3 3 261 20220227171734
+157.50.58.107 1 5 255886 20220214103424
+123.176.32.71 2 33 414815 20220210034710
+1.39.129.40 1 2 23838 20220214094103
+157.45.170.49 1 1 2220 20220214180418
+223.186.82.146 1 1 1754 20220215060544
+172.56.17.193 2 33 414815 20220210031701
+157.45.159.172 0 3 44168 
+106.76.24.127 0 1 0 
+49.44.82.169 2 33 414815 20220209231152
+157.50.62.88 0 1 0 
+157.50.46.212 0 1 0 
+36.255.86.85 3 11 513526 20220218083036
+36.255.86.216 1 39 8109189 20220201224714
+223.231.128.214 1 5 255886 20220214221012
+157.50.58.97 0 4 0 
+49.205.139.92 3 3 6660 20220203004948
+27.59.74.147 0 3 0 
+49.44.84.203 3 34 416814 20220211022449
+157.45.233.142 1 2 1754 20220214114714
+157.45.202.44 2 6 257710 20220214103519
+223.227.16.191 1 5 255886 20220214090221
+111.125.204.215 4 12 259420 20220214235521
+3.120.130.29 2 2 174 20220227171735
+18.192.36.99 2 2 174 20220227171734
+157.45.10.70 3 7 259464 20220214095038
+157.45.223.140 0 4 0 
+157.45.198.34 2 10 257640 20220214091224
+157.45.246.58 3 5 4548 20220214094211
+1.39.151.160 1 5 255886 20220214101110
+35.225.82.182 1 1 6367 20220217021314
+157.50.16.194 0 4 0 
+106.76.37.213 0 4 0 
+157.45.127.38 1 4 129564 20220214092016
+49.205.132.86 2 6 257640 20220214220507
+27.97.202.152 0 3 0 
+157.50.15.10 1 5 255886 20220214092614
+157.50.51.70 1 5 255886 20220214090105
+223.237.227.169 2 6 257640 20220215065347
+45.112.0.134 1 3 150160 20220214090659
+27.97.27.41 4 8 260434 20220214104416
+182.79.221.205 2 33 414815 20220205032345
+27.63.253.224 1 5 255886 20220214101730
+157.45.239.213 0 1 22084 
+157.50.19.111 4 8 260504 20220215005051
+182.79.221.136 2 33 414815 20220210051600
+49.205.133.224 1 5 255886 20220214085711
+157.50.27.11 0 4 0 
+106.197.222.136 1 5 255886 20220215010112
+157.45.156.162 0 1 103659 
+106.197.198.158 4 8 260434 20220215002249
+106.197.203.76 0 4 0 
+27.59.96.166 1 5 255886 20220214085922
+219.90.103.196 2 33 414815 20220214091059
+3.142.122.14 2 2 174 20220227171735
+157.45.1.158 4 8 260434 20220214194509
+157.45.65.92 1 5 255886 20220214100945
+49.205.145.254 2 4 151914 20220217051651
+122.167.116.66 1 5 255886 20220215015142
+157.45.128.25 1 5 255886 20220214101153
+157.45.195.7 1 4 233802 20220214090549
+49.44.86.38 2 33 414815 20220210024644
+103.146.217.147 1 5 255886 20220214085522
+157.45.154.174 0 3 0 
+157.45.232.50 0 2 0 
+157.50.43.135 4 13 364093 20220214090427
+157.45.246.21 2 6 257640 20220216194956
+106.197.235.102 0 4 0 
+27.59.112.80 1 5 255886 20220215042347
+157.45.152.250 2 10 257640 20220214091734
+223.186.157.205 4 8 260434 20220215042310
+157.45.120.248 1 4 1754 20220215012515
+75.119.138.152 1 1 17 20220203133007
+27.59.16.196 1 5 255881 20220213215431
+157.50.13.6 1 5 255886 20220214102534
+157.45.81.58 0 4 2067 
+157.45.218.197 1 3 1754 20220215020514
+157.45.252.60 1 5 255886 20220215070155
+223.196.67.166 2 33 414815 20220205031636
+223.186.97.166 2 5 19256452 20220224100230
+157.45.58.10 1 5 255886 20220214104832
+49.44.83.136 2 33 414815 20220214044158
+223.186.64.122 1 5 255886 20220215010728
+106.197.228.251 5 39 87924 20220206105438
+106.197.217.184 1 5 255886 20220214095003
+42.105.124.105 1 7 127497 20220214091651
+27.59.19.181 3 7 259464 20220215012126
+223.231.136.30 0 4 0 
+223.227.13.248 1 5 255886 20220217050012
+42.106.161.74 1 8 199671 20220203045957
+157.45.157.104 1 2 1754 20220214210418
+223.186.0.244 1 5 255886 20220214085336
+157.50.46.45 1 5 255886 20220214085141
+157.45.179.18 1 4 129564 20220214094702
+43.254.162.62 3 11 281478 20220214090603
+223.186.149.148 4 13 364093 20220214090401
+157.45.232.197 3 3 160952 20220214112648
+223.237.244.176 2 6 257640 20220215072239
+117.213.253.154 1 1 37 20220219002320
+42.105.120.238 1 4 152227 20220214090814
+157.45.237.25 1 5 255886 20220214100821
+223.186.149.189 2 6 151914 20220215004435
+42.109.129.90 3 16 9983655 20220201010145
+157.45.44.114 1 5 1754 20220217083933
+1.39.149.179 1 5 1754 20220214093350
+157.45.233.113 0 1 126322 
+223.237.204.111 3 7 258680 20220215061724
+157.45.148.15 5 9 8126 20220214203548
+64.233.172.109 4 37 751107 20220209020556
+49.44.80.233 2 33 414815 20220210051722
+1.39.178.15 0 4 0 
+157.50.1.209 3 13 510745 20220214091025
+157.45.75.47 0 4 0 
+74.125.210.109 2 30 317780 20220209023828
+223.186.130.245 0 4 0 
+223.231.183.73 2 6 257640 20220214095330
+66.249.84.229 0 1 10570 
+27.97.31.145 1 5 255886 20220214085132
+157.45.205.76 1 5 1754 20220215061137
+157.45.229.210 0 4 0 
+27.59.66.209 0 4 0 
+223.231.178.199 1 5 1754 20220218024430
+157.50.37.242 1 5 255886 20220214085604
+157.45.211.78 0 1 126322 
+106.197.199.110 1 6 3821 20220215021954
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 26
+20220201 288 526 22917155 8
+20220202 42 421 61368294 7
+20220203 355 562 15463947 8
+20220204 23 162 2699083 3
+20220205 46 114 1645641 5
+20220206 5 39 87924 1
+20220207 11 49 668135 2
+20220208 25 135 10911740 2
+20220209 55 354 6111088 14
+20220210 118 685 96251954 15
+20220211 22 84 1261180 4
+20220212 15 16 195911 2
+20220213 29 60 816877 4
+20220214 279 836 21220473 89
+20220215 101 264 4342398 34
+20220216 24 63 3969289 7
+20220217 10 28 908090 6
+20220218 22 44 616600 4
+20220219 1 4 37 1
+20220221 10 10 170 1
+20220222 0 4 0 0
+20220223 22 49 24571688 2
+20220224 20 572 688312608 3
+20220225 0 4 0 0
+20220227 55 59 4532 9
+20220228 14 141 5101836 3
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+2mn-5mn 22
+5mn-15mn 33
+15mn-30mn 13
+30mn-1h 12
+0s-30s 134
+30s-2mn 14
+1h+ 6
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 309
+/cpl-2022/index.php 203 357726 110 99
+/aakruthi-erp/login/do 62 1980 5 5
+/aakruthi-erp/login 39 86580 30 7
+/aakruthi-erp/assets/bootstrap/fonts/glyphicons-halflings-regular.woff2 35 630980 3 17
+/aakruthi-erp/webmaster/purchaseorder/getwoodinfo 34 10249 0 0
+/aakruthi-erp/webmaster/dashboard 32 357600 0 3
+/aakruthi-erp/webmaster/quotation 31 980832 1 0
+/aakruthi-erp/webmaster/purchaseorder/getproductinfo 30 9240 0 0
+/cpl-2022/success.html 29 24336 2 15
+/aakruthi-erp/webmaster/quotation/selectquotationnumber 29 5300 0 2
+/moduleigtt/wp-content/handler.php 27 6334 3 0
+/aakruthi-erp/webmaster/quotation/selectproduct/ 27 10137 0 0
+/aakruthi-erp/webmaster/quotation/getcategoryinfo 26 2252 0 0
+/aakruthi-erp/webmaster/purchaseorder/selectpurchaseordernumber 26 3016 1 2
+/aakruthi-erp/webmaster/purchaseorder 25 291875 0 1
+/aakruthi-erp/ 22 46620 11 0
+/aakruthi-erp/webmaster/purchaseorder/getwooddata 21 2624 0 0
+/aakruthi-erp/webmaster/purchaseorder/getaccinfo 21 5958 0 1
+/aakruthi-erp/webmaster/quotation/selectspace 20 7480 0 0
+/aakruthi-erp/webmaster/quotation/getspaceinfo 19 5599 0 0
+/aakruthi-erp/webmaster/quotation/getallbrand 19 11970 0 1
+/aakruthi-erp/webmaster/purchaseorder/getwooddatademo 18 1112 0 0
+/aakruthi-erp/webmaster/quotation/selectcategory 17 14773 0 0
+/aakruthi-erp/webmaster/purchaseorder/getvariantdata 17 920 0 0
+/aakruthi-erp/webmaster/purchaseorder/getnewwooddata 16 458 0 0
+/aakruthi-erp/webmaster/project/view/6 4 43186 0 0
+/aakruthi-erp/webmaster/project/selectstaff/project 1 468 0 0
+/project_group/image1.webp 4 35640 0 1
+/qp3/app/ 13 25395 5 5
+/aakruthi-erp/webmaster/purchaserequest/getitemdata 1 344 0 0
+/moduleigtt/wp-content/themes/dor/framework/lib/icons-pack/ion-icons/fonts/ionicons.ttf 1 188724 0 0
+/aakruthi-erp/webmaster/quotation/selectlead/ 7 106598 0 0
+/aakruthi-erp/webmaster/purchaseorder/getunitinfo 8 455 0 0
+/.well-known/acme-challenge/GkvKBn-eeMeSPESDkOIl1rJjsstDg3UeDfcbUPu5Dcs 4 348 1 3
+/aakruthi-erp/webmaster/quotation/approved 2 34194 0 0
+/aakruthi-erp/webmaster/quotation/quotationdata/ 2 990 0 0
+/martinrealtors/change-password.html 1 4898 0 1
+/martinrealtors/add-property.html 1 7262 0 0
+/aakruthi-erp/webmaster/purchaserequest 12 103332 1 0
+/aakruthi-erp/webmaster/project/projectleaddata 2 78 0 0
+/aakruthi-erp/webmaster/project/selectstaff/projectmanager 1 498 0 0
+/martinrealtors/webfonts/fa-solid-900.woff2 2 160504 0 0
+/aakruthi-erp/webmaster/quotation/selectbrand/7 3 444 0 0
+/aakruthi-erp/webmaster/quotation/selectaccbrand/58 1 143 0 0
+/.well-known/acme-challenge/P6OGLMP-5_1_DBJPTL6XSUC4HWBZ2O__ 1 64 1 0
+/aakruthi-erp/webmaster/purchaserequest/selectcustomer 2 41992 0 0
+/aakruthi-erp/webmaster/quotation/selectbrand/6 2 1309 0 0
+/project_group/contact.html 1 3283 0 0
+/aakruthi-erp/webmaster/quotation/selectquotation/null/approved 2 9124 0 0
+/protectgroup/images/brands/manipal.webp 1 18152 0 0
+/aakruthi-erp/webmaster/quotation/selectbrand/37 3 444 0 0
+/aakruthi-erp/webmaster/purchaseorder/selectpurchaseorder/approved 4 356 0 0
+/.well-known/acme-challenge/lAJpxt5NBYcaiDAZbERVrzLUxvudGl1ObBSy5WHIHtI 4 348 0 0
+/aakruthi-erp/webmaster/purchaserequest/purchaserequestinvoice/3 1 74558 0 1
+/aakruthi-erp/webmaster/quotation/productquotation 2 8 0 0
+/moduleigtt/portfolio/modfolio-living.html 3 598119 0 0
+/cpl-2022/playerimages/IMG_20210805_224943_174.webp 2 231796 0 0
+/cpl-2022/ 14 29042 6 6
+/aakruthi-erp/assets/bootstrap/fonts/glyphicons-halflings-regular.ttf 4 181616 0 0
+/aakruthi-erp/webmaster/quotation/quotationinvoice/49 1 86500 0 0
+/aakruthi-erp/webmaster/quotation/getquotationlist/71 4 5723 0 0
+/aakruthi-erp/webmaster/purchaserequest/generalpr 1 11221 0 0
+/brick2brick/projects.html 1 7308 0 0
+/brick2brick/project-details.html 1 5187 0 0
+/aakruthi-erp/webmaster/purchaserequest/getiteminfo 9 3271 0 0
+/aakruthi-erp/webmaster/quotation/edit/71/other 1 30980 0 0
+/martinrealtors/dashboard.html 2 15522 2 0
+/dvcard/sahriday/sahriday.php 1 3991 1 1
+/moduleigtt/appliances.json 2 1441 0 0
+/aakruthi-erp/webmaster/items/view_item/ 1 6995 0 0
+/moduleigtt/admin/dashboard.php 2 34314 0 0
+/aakruthi-erp/webmaster/quotation/selectmanager 3 1794 0 0
+/.well-known/acme-challenge/r0kZeb0nXjZV514LvBXFvEvukaakZDGR_sIRye48ASM 4 348 0 0
+/decanvas2/app/quotation/viewfullquotation 1 9454 0 1
+/martinrealtors/my-listings.html 2 13534 1 1
+/aakruthi-erp/webmaster/quotation/view/49 3 38971 0 0
+/moduleigtt/portfolio/modfolio-kitchen.html 3 598690 0 0
+/aakruthi-erp/webmaster/project/assign/167 1 8054 0 0
+/aakruthi-erp/webmaster/quotation/edit/71 1 30979 0 0
+/project_group/assets/webfonts/fa-regular-400.woff2 1 14872 0 0
+/protectgroup/ 4 47544 2 1
+/brick2brick/services.html 1 5702 1 0
+/.well-known/acme-challenge/D986EOFJNL091-GAEWZWW629XH9MG1LF 1 64 0 0
+/cpl-foreignplayers-2022/ 4 7204 2 1
+/aakruthi-erp/webmaster/checkpoint/update 2 8 0 0
+/aakruthi-erp/webmaster/items/create 1 12259 0 1
+/.well-known/acme-challenge/FtHFlA3OJFfF6dISkzlyCkWF5xsEl6FL7AXgWFmSJ0E 4 348 0 0
+/cpl-foreignplayers-2022/index.php 6 11178 0 0
+/aakruthi-erp/webmaster/quotation/selectwoodwork/12 1 415 0 0
+/aakruthi-erp/webmaster/purchaserequest/getbrand/10 2 68 0 0
+/brick2brick/Residential-Construction.html 1 17051 0 0
+/aakruthi-erp/webmaster/purchaserequest/getleaddata 2 149 0 0
+/aakruthi-erp/webmaster/quotation/selectbrand/13 1 148 0 0
+/.well-known/acme-challenge/A6K5F9Y9_YLBM-C0-GN24I_D0R_KJ1WU 1 64 0 0
+/dvcard/sreekumar/sreekumarvcard.php 1 4600 1 0
+/moduleigtt/admin/ 2 4402 1 1
+/aakruthi-erp/webmaster/purchaseorder/mailpo/1 1 439 0 0
+/.well-known/acme-challenge/raQ8zzUzZ6ga3nGRJbXqyJOiJ3tx2XwC1-S83Mb_b-0 4 348 0 1
+/aakruthi-erp/webmaster/purchaseorder/mailpo/2 2 878 0 0
+/decanvas/assets/vendors/font-awesome/fonts/fontawesome-webfont.woff2 4 287584 0 2
+/aakruthi-erp/webmaster/quotation/confirm/71 2 29627 0 0
+/aakruthi-erp/webmaster/purchaserequest/general 5 36905 1 0
+/aakruthi-erp/webmaster/quotation/selectwoodwork/14 2 836 0 0
+/qp3/app/Quotations_new 3 75577 2 2
+/aakruthi-erp/webmaster/purchaserequest/updateissuenotenumber 1 0 0 0
+/dvcard/dikshan/dikshant.php 1 4344 0 1
+/demo/ 11 187 2 2
+/moduleigtt/wp-content/blog/ElegantIcons.woff 1 63664 0 0
+/aakruthi-erp/webmaster/quotation/selectbrand/11 2 296 0 0
+/.well-known/acme-challenge/htPkNy9HqfZSW_wGdwCIwY0BrrLaBdiwfJKGULZfap4 4 348 0 1
+/.well-known/acme-challenge/2S2i9J39SLwb3GqpI_E7L8OhJdQoRix9u8jpiaS_OnI 4 348 2 2
+/aakruthi-erp/webmaster/purchaserequest/getitem 1 329 0 0
+/aakruthi-erp/webmaster/purchaseorder/getpurchaseorderlist/8 1 214 0 0
+/aakruthi-erp/webmaster/quotation/selectbrand/49 5 740 0 0
+/aakruthi-erp/webmaster/checkpoint/sub 1 13349 0 0
+/.well-known/acme-challenge/WTOH9F95_BYOJMYNT306AT-QUDKJ5567 1 64 0 0
+/aakruthi-erp/webmaster/quotation/otherquotation 2 8 0 0
+/protectgroup/fonts/fontawesome-webfont3e6e.woff2 1 77160 0 0
+/decanvas/index.php/login 4 4860 1 1
+/aakruthi-erp/webmaster/quotation/selectwoodwork/2 3 1596 0 0
+/aakruthi-erp/webmaster/purchaseorder/getpurchaseorderlist/3 1 214 0 0
+/brick2brick/assets/fonts/pe-icon-7-strokebb1d.woff 1 58556 0 0
+/aakruthi-erp/webmaster/quotation/getquotationlist/63 1 473 0 0
+/seft/fonts/Flaticon.woff2 1 8848 0 0
+/aakruthi-erp/webmaster/purchaseorder/mailpo/3 1 439 0 0
+/brick2brick/assets/fonts/revicons90c6.woff 1 7536 0 0
+/dvcard/rohitlakshmana/rohitlakshmana.php 1 4635 0 0
+/aakruthi-erp/webmaster/recieptnote/generateissuenote/1 2 24444 0 0
+/aakruthi-erp/webmaster/checkpoint/view/6 9 218397 0 0
+/aakruthi-erp/webmaster/quotation/edit/72 1 30978 0 0
+/dvcard/roshanlobo/roshanlobo.php 1 3814 0 1
+/aakruthi-erp/webmaster/quotation/selectaccbrand/84 1 151 0 0
+/aakruthi-erp/webmaster/recieptnote/issuenoteinvoice/4 1 75439 0 0
+/aakruthi-erp/webmaster/project/create 2 26510 0 0
+/brick2brick/ 1 17973 0 0
+/aakruthi-erp/webmaster/recieptnote 6 46446 0 0
+/brick2brick/contact.html 1 4784 0 1
+/aakruthi-erp/webmaster/design/upload 1 11264 0 0
+/moduleigtt/admin/customerpdf.php 1 171071 0 1
+/cpl-2022/playerimages/IMG_20211125_210616_522.webp 2 86512 0 0
+/aakruthi-erp/webmaster/quotation/selectwoodwork/13 3 1104 0 0
+/brick2brick/assets/fonts/fontawesome-webfont3e6e.woff2 1 77160 0 0
+/qp3/app/login/ 1 1999 0 0
+/seft/webfonts/fa-solid-900.woff2 1 74320 0 0
+/aakruthi-erp/webmaster/space 4 40404 0 0
+/aakruthi-erp/webmaster/checkpoint 4 31092 0 0
+/qp3/app/index.php/quotations_new/q_approved 3 20844 1 2
+/aakruthi-erp/webmaster/quotation/getquotationlist/72 1 63 0 0
+/aakruthi-erp/webmaster/quotation/getquotationlist/32 1 1538 0 1
+/aakruthi-erp/assets/bootstrap/css/bootstrap.min.css.map 3 405147 0 2
+/.well-known/acme-challenge/vpSr1-wfEkOvMXWzH254UTbRJ-ov6eETUOdKkaJBVl8 4 348 1 2
+/decanvas/login 3 3495 1 0
+/aakruthi-erp/webmaster/recieptnote/issuenoteinvoice/10 1 74632 0 0
+/aakruthi-erp/webmaster/purchaserequest/view/ 1 7376 0 1
+/aakruthi-erp/webmaster/quotation/selectwoodwork/15 2 2322 0 0
+/project_group/assets/webfonts/fa-brands-400.woff2 4 222864 0 0
+/aakruthi-erp/webmaster/recieptnote/recieptnoteinvoice/2 2 151498 0 1
+/dvcard/patel/patelvcard.php 1 4200 1 1
+/cpl-2022/playerimages/my%20pic.jfif 2 59100 0 0
+/aakruthi-erp/webmaster/quotnumber 1 7215 0 1
+/switchdirection/ 3 2619 1 1
+/aakruthi-erp/webmaster/quotation/quotationdata 12 5588 0 0
+/aakruthi-erp/webmaster/quotation/selectquotation/47 1 688 0 0
+/.well-known/acme-challenge/QDBBRSRDOB0SK76BW7O0XV13ILD0T6IW 1 64 0 0
+/decanvas/quotation/admin_invoice/Q0FOLzE2 1 76272 0 0
+/aakruthi-erp/webmaster/quotation/getquotationlist/70 4 4362 0 0
+/decanvas/assets/vendors/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2 2 36056 0 1
+/aakruthi-erp/webmaster/quotation/selectunit 16 3040 0 0
+/decanvas2/app/ 2 3998 1 0
+/aakruthi-erp/webmaster/quotation/selectquotation/ 2 30622 0 0
+/aakruthi-erp/webmaster/purchaseorder/purchaseorderdata/ 6 1064 0 0
+/aakruthi-erp/webmaster/design/download/17 1 36883 0 0
+/aakruthi-erp/webmaster/quotation/edit/71/accessory 1 30980 0 0
+/aakruthi-erp/webmaster/quotation/selectaccbrand/56 1 143 0 0
+/aakruthi-erp/webmaster/quotation/view/63 1 10747 0 0
+/seft/webfonts/fa-regular-400.woff2 1 13608 0 0
+/decanvas/app 2 411 0 0
+/brick2brick/Paint-my-Home.html 1 10216 0 0
+/decanvas/quotation/viewfullquotation/Q0FOLzE2 1 10053 0 0
+/seft/Dashboard.php 1 6493 0 0
+/.well-known/acme-challenge/XQGACVWHYRTDHBI7K-BL24-GPPMQQBDI 1 64 0 0
+/aakruthi-erp/webmaster/project/assign/166 3 24209 0 0
+/.well-known/acme-challenge/QF4j8JoJ1HT3uh7JwZJ63J47FtIGhqbchZOcvRTpQTk 4 348 0 0
+/aakruthi-erp/webmaster/quotation/selectbrand/30 1 148 0 0
+/aakruthi-erp/webmaster/purchaserequest/purchaserequestinvoice/6 4 296475 0 1
+/aakruthi-erp/webmaster/quotation/selectbrand/33 1 148 0 0
+/seft/get_student_payment_dashboard.php 1 58 0 0
+/cpl-foreignplayers-2022/success.html 2 2028 0 1
+/aakruthi-erp/webmaster/purchaseorder/deletedlist 1 8559 0 0
+/martinrealtors/payment-method.html 1 6721 0 0
+/aakruthi-erp/webmaster/leads/view_lead/51 1 7163 0 0
+/aakruthi-erp/webmaster/purchaserequest/getbrand/37 1 143 0 0
+/seft/index.php 1 136 0 0
+/project_group/assets/webfonts/fa-solid-900.woff2 4 237300 0 1
+/decanvas/dashboard 1 9825 0 0
+/cpl-2022/playerimages/IMG_20210829_213417_830.webp 3 474234 0 0
+/decanvas/ 3 3495 1 0
+/aakruthi-erp/webmaster/quotation/edit/71/product 1 30981 0 0
+/dvcard/suhasvaidya/suhasvaidya.php 1 4222 1 1
+/aakruthi-erp/webmaster/quotation/selectwoodwork/3 8 3212 0 0
+/moduleigtt/portfolio/modfolio-bedroom.html 2 609275 0 0
+/aakruthi-erp/webmaster/quotation/mailinvoice/71 4 377815 0 1
+/aakruthi-erp/webmaster/quotation/edit/70 2 61956 1 0
+/aakruthi-erp/webmaster/quotation/insert 3 26 0 0
+/aakruthi-erp/webmaster/quotation/selectbrand/29 2 296 0 0
+/aakruthi-erp/webmaster/quotation/selectaccbrand/63 3 495 0 0
+/brick2brick/Renovation.html 1 6262 0 0
+/aakruthi-erp/webmaster/quotation/quotationinvoice/71 2 95616 0 1
+/.well-known/acme-challenge/-QQJ_nXHHzlRWgzw0TeD7xbLFyglni0vaK5Que9TRSI 4 348 0 0
+/dvcard/csvprasad/csvprasadvcard.php 1 4091 1 0
+/aakruthi-erp/webmaster/purchaserequest/purchaserequestinvoice/5 8 622261 0 0
+/dvcard/raghunath/raghunathvcard.php 1 3928 0 0
+/aakruthi-erp/webmaster/quotation/selectProjectmanager/manager 1 330 0 0
+/dvcard/sudarshan/sudarshan.php 1 4051 1 0
+/protectgroup/fonts/Flaticon.woff 1 8512 0 0
+/moduleigtt/portfolio/modfolio-others.html 1 296779 0 1
+/.well-known/acme-challenge/j24ca1uV3v7cPW6-3_4La0pVO_jY26K4kbu0Orb_hfM 4 348 4 0
+/aakruthi-erp/webmaster/recieptnote/create 2 20088 0 0
+/aakruthi-erp/webmaster/quotation/selectwoodwork/6 2 1406 0 0
+/moduleigtt/handletypedata.json 4 3555052 0 2
+/aakruthi-erp/webmaster/recieptnote/inindex 6 53685 1 0
+/qp3/app/quotation/viewviewfullquotation/Q0FOLzQwMQ--/MQ-- 1 23964 1 0
+/aakruthi-erp/webmaster/leads/create 3 36177 0 0
+/seft/ 1 131 1 0
+/moduleigtt/admin/viewdetails.php 2 5932 0 0
+/aakruthi-erp/webmaster/design/alldesign 8 90136 1 0
+/martinrealtors/webfonts/fa-regular-400.woff2 2 27176 0 1
+/aakruthi-erp/webmaster/purchaseorder/mailpo/8 9 3951 0 0
+/project_group/ 3 11610 3 0
+/protectgroup/images/logo/logo.webp 3 48642 0 1
+/decanvas/index.php/dashboard 3 29478 0 0
+/.well-known/acme-challenge/RB48PWZ1KD9ADWU-TIODM2V73_8_N45M 1 64 0 0
+/.well-known/acme-challenge/OXFZFY9U8Z6RV87F6F8QC9AWCJXRF3Z2 1 64 0 0
+/qp3/app/Quotations_new/q_approved 1 7810 0 1
+/aakruthi-erp/webmaster/quotation/selectaccbrand/42 4 668 0 0
+/project_group/about.html 3 10710 1 2
+/brick2brick/about.html 1 5044 0 0
+/aakruthi-erp/webmaster/items 6 848154 0 0
+/brick2brick/project.html 1 7992 0 0
+/.well-known/acme-challenge/QGNFEAMQ5WRXOOZJ03Y7NBZZ0VIF9U9L 1 64 0 0
+/aakruthi-erp/webmaster/quotation/woodquotation 2 8 0 0
+/seft/get_agent_payment_dashboard.php 1 54 0 0
+/aakruthi-erp/webmaster/quotation/selectwoodwork/11 7 4949 0 0
+/.well-known/acme-challenge/IXH7PZCL_NVT1A6V-NB26RTNE3Z02G5Z 1 64 0 0
+/aakruthi-erp/webmaster/quotation/selectaccbrand/40 1 143 0 0
+/aakruthi-erp/webmaster/items/deletedlist 1 6960 0 0
+/aakruthi-erp/webmaster/quotation/edit/49 2 61958 0 0
+/aakruthi-erp/webmaster/quotation/selectbrand/32 1 148 0 0
+/aakruthi-erp/webmaster/quotation/view/68 1 11594 0 0
+/aakruthi-erp/assets/bootstrap/fonts/glyphicons-halflings-regular.woff 4 93696 0 0
+/decanvas2/app/assets/vendors/font-awesome/fonts/fontawesome-webfont.woff2 1 71896 0 0
+/aakruthi-erp/webmaster/project 8 75285 0 1
+/aakruthi-erp/webmaster/purchaseorder/mailpo/5 1 78649 0 0
+/aakruthi-erp/webmaster/quotation/accquotation 1 4 0 0
+/aakruthi-erp/webmaster/quotation/sendmail/71 1 403 0 0
+/aakruthi-erp/webmaster/quotation/quotationinvoice/9 2 176923 0 0
+/aakruthi-erp/webmaster/purchaseorder/view/8 3 32370 0 0
+/moduleigtt/portfolio/portfolio-onsitewoodworks.html 1 310713 0 0
+/aakruthi-erp/webmaster/setup 4 29316 0 0
+/aakruthi-erp/webmaster/purchaserequest/selectitem/37 1 345 0 0
+/aakruthi-erp/webmaster/quotation/selectbrand/35 1 148 0 0
+/aakruthi-erp/webmaster/leads 12 227076 1 1
+/moduleigtt/wp-content/Uploaddesigtoserver.php 12 360 0 3
+/decanvas2/app/login/dologin 2 4398 0 0
+/martinrealtors/invoice.html 1 5457 0 0
+/aakruthi-erp/webmaster/quotation/selectservicecategory 12 5016 0 1
+/cpl-2022/playerimages/IMG_20211025_065026_838.webp 2 53908 0 0
+/cpl-2022/player_details.php 1 2373 0 0
+/cpl-2022/unsold.php 2 93148 1 1
+/dvcard/gopal/gopalvcard.php 1 4172 1 1
+/aakruthi-erp/webmaster/quotation/getquotationlist/65 2 600 0 0
+/aakruthi-erp/webmaster/quotation/edit/65 2 61956 0 0
+/protectgroup/images/products/perfectcoat.webp 1 55322 0 0
+/aakruthi-erp/webmaster/snag 3 23820 0 0
+/protectgroup/images/brands/metro.webp 1 33326 0 0
+/aakruthi-erp/webmaster/quotation/quotationinvoice/63 1 80962 0 0
+/aakruthi-erp/webmaster/quotation/edit/70/product 1 30981 0 0
+/aakruthi-erp/webmaster/quotation/selectaccproduct/ 14 7457 0 0
+/aakruthi-erp/webmaster/purchaserequest/saveissuenotedetails 1 0 0 0
+/.well-known/acme-challenge/V1HP6RVV1J4QJ363C05BEFRHJUQERS2E 1 64 0 0
+/aakruthi-erp/webmaster/design/getquotationiteration 1 47 0 0
+/aakruthi-erp/webmaster/quotation/selectaccbrand/41 1 143 0 0
+/aakruthi-erp/webmaster/quotation/selectlead/customer 1 3616 0 0
+/aakruthi-erp/webmaster/quotation/selectaccbrand/39 1 143 0 0
+/aakruthi-erp/webmaster/purchaserequest/selectitem/7 3 1260 0 0
+/cpl-2022/playerimages/IMG_20210921_144256_137.webp 2 2700520 0 1
+/protectgroup/images/brands/lic.webp 1 22486 0 0
+/aakruthi-erp/webmaster/purchaserequest/selectcategory 9 14895 0 2
+/aakruthi-erp/webmaster/quotation/selectbrand/69 1 148 0 0
+/martinrealtors/fonts/fontawesome-webfont3e6e.woff2 2 154320 0 0
+/seft/login.php 2 1527 0 0
+/aakruthi-erp/webmaster/quotation/view/71 6 68445 0 1
+/qp3/app/index.php/login 4 6931 1 1
+/moduleigtt/ 11 1446655 5 1
+/brick2brick/Interiors.html 1 8381 0 0
+/aakruthi-erp/webmaster/recieptnote/viewissuenotes/4 1 7809 0 0
+/aakruthi-erp/webmaster/quotation/selectbrand/20 1 148 0 0
+/decanvas/login/logout 1 0 0 0
+/aakruthi-erp/webmaster/purchaserequest/create 6 90798 0 0
+/aakruthi-erp/webmaster/quotation/getquotationlist/49 2 2558 0 0
+/aakruthi-erp/webmaster/quotation/edit/70/accessory 1 30980 0 0
+/moduleigtt/finishcolordata.json 4 125916 0 0
+/cpl-2022/admindashboard.php 5 365797 3 0
+/protectgroup/project-detail.html 2 9994 0 0
+/aakruthi-erp/webmaster/project/selectdesign/63 3 756 0 0
+/brick2brick/Commercial-Construction.html 2 34130 0 0
+/aakruthi-erp/webmaster/salesreport 1 9723 0 0
+/dvcard/rajithkiran/rajithkiran.php 1 3997 0 1
+/aakruthi-erp/webmaster/project/selectdepartment/ 2 432 0 0
+END_SIDER

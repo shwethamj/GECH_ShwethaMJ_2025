@@ -1,0 +1,1300 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202208 will be lost/reset.
+# Last config file used to build this data file was /home4/parvamco/tmp/awstats/ssl/awstats.parvamconsultech.parvam.co.in.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2031                
+POS_TIME 2705                
+POS_VISITOR 29423               
+POS_DAY 34156               
+POS_DOMAIN 3524                
+POS_LOGIN 3858                
+POS_ROBOT 4013                
+POS_WORMS 4235                
+POS_EMAILSENDER 4366                
+POS_EMAILRECEIVER 4509                
+POS_SESSION 34863               
+POS_SIDER 35073               
+POS_FILETYPES 4644                
+POS_DOWNLOADS 5072                
+POS_OS 9902                
+POS_BROWSER 10087               
+POS_SCREENSIZE 10582               
+POS_UNKNOWNREFERER 10656               
+POS_UNKNOWNREFERERBROWSER 11192               
+POS_ORIGIN 11637               
+POS_SEREFERRALS 11780               
+POS_PAGEREFS 11945               
+POS_SEARCHWORDS 12093               
+POS_KEYWORDS 12245               
+POS_MISC 2369                
+POS_ERRORS 12304               
+POS_CLUSTER 3714                
+POS_SIDER_404 12493               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20220901002450 6 947 13469695194173
+FirstTime 20220801013235
+LastTime 20220829054516
+LastUpdate 20220901062855 6 0 5 0 0
+TotalVisits 155                 
+TotalUnique 109                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 114                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+RealPlayerSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+AddToFavourites 0 1 0
+DirectorSupport 0 0 0
+TotalMisc 0 0 0
+QuickTimeSupport 0 0 0
+PDFSupport 0 0 0
+JavascriptDisabled 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 820 1790 50466629 2914 3133 434332
+1 932 1763 59970711 5688 5893 849211
+2 1007 1570 59550465 1168 1649 145946
+3 1676 2074 85294844 3068 3454 450502
+4 1122 1785 48414878 1280 1472 186087
+5 1326 1928 52494297 180 481 11119
+6 1419 2073 375742302 1646 2016 235223
+7 42 119 4909493 10 26 487
+8 0 0 0 10 52 834
+9 6 32 1794361 56 78 5876
+10 1 1 18633 9 12 278
+11 3 21 28369 277 281 2041
+12 4 61 1032279 13 14 2764
+13 2 11 280240 34 34 834
+14 0 0 0 24 26 226
+15 3 80 4581372 29 30 2990
+16 3 34 481423 9 11 330
+17 1 7 145997 13 13 713
+18 3 40 560766 25 29 562
+19 2 2 73382 30 33 2747
+20 7 85 4763486 25 25 452
+21 7 94 4822311 34 37 452
+22 94 329 11964835 43 62 452
+23 707 1121 21823635 61 215 37604
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 7
+in 8771 13766 736517671
+cn 184 391 21919818
+us 171 765 29670838
+lk 50 50 252087
+ca 8 8 293528
+pl 2 33 414856
+bd 1 7 145910
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 2
+Apache\-HttpClient/ 15064 2274664 20220808043703 0
+no_user_agent 1 36679 20220801233144 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 18
+Unknown 1041 8870182 0 0
+js 2249 31475172 0 0
+php 7544 64220185 0 0
+map 1 135049 0 0
+json 26 18977 0 0
+ico 12 401698 0 0
+jpeg 81 52358610 0 0
+css 1476 18171570 0 0
+ttf 13 572836 0 0
+pdf 204 19129983 0 0
+woff 24 668464 0 0
+jpg 1241 374499516 0 0
+woff2 155 7387056 0 0
+html 383 3079992 0 0
+png 527 206248875 0 0
+svg 7 16645 0 0
+gif 31 1736948 0 0
+webp 5 222950 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 56
+/martinrealtors/admin/assets/document/PROTYIMG_148353785562eb546f74007.pdf 6 0 1708350
+/martinrealtors/admin/assets/document/PROTYIMG_209236197962ea1d97336df.pdf 3 0 854175
+/martinrealtors/admin/assets/document/PROTYIMG_74581285162ea1d9733399.pdf 3 0 854175
+/martinrealtors/admin/assets/document/PROTYIMG_28666207663076a662260f.pdf 3 0 526386
+/martinrealtors/admin/assets/document/PROTYIMG_60767741362ea357258a8c.pdf 2 0 569450
+/martinrealtors/admin/assets/document/PROTYIMG_171101951163076a6622905.pdf 2 0 542392
+/martinrealtors/admin/assets/document/PROTYIMG_19972769363076e32ccc87.pdf 2 0 449600
+/martinrealtors/admin/assets/document/PROTYIMG_1741818806307427bdf415.pdf 2 0 577742
+/martinrealtors/admin/assets/document/PROTYIMG_146376860463076e32cd0d4.pdf 2 0 570354
+/martinrealtors/admin/assets/document/PROTYIMG_148785246162f09ae845e79.pdf 2 0 569450
+/martinrealtors/admin/assets/document/PROTYIMG_2249733462f4ed3f9084c.pdf 2 0 9116
+/martinrealtors/admin/assets/document/PROTYIMG_21552486862ea3637c851a.pdf 2 0 569450
+/martinrealtors/admin/assets/document/PROTYIMG_150094933963076a6622c3c.pdf 2 0 679368
+/martinrealtors/admin/assets/document/PROTYIMG_546867747630a0f21d63a3.pdf 1 0 104358
+/martinrealtors/admin/assets/document/PROTYIMG_206608472262eb8c6faf2f6.pdf 1 0 284725
+/martinrealtors/admin/assets/document/PROTYIMG_52784319862eb53b3b4e74.pdf 1 0 284725
+/martinrealtors/admin/assets/document/PROTYIMG_167215522662eb8c467d583.pdf 1 0 284725
+/martinrealtors/admin/assets/document/PROTYIMG_38357919663088f26e4417.pdf 1 0 288568
+/martinrealtors/admin/assets/document/PROTYIMG_8885241562f0e38e53372.pdf 1 0 284725
+/martinrealtors/admin/assets/document/PROTYIMG_1397279402630a0f21d60f5.pdf 1 0 208744
+/martinrealtors/admin/assets/document/PROTYIMG_16968228662eb688902b6f.pdf 1 0 284725
+/martinrealtors/admin/assets/document/PROTYIMG_140361428362ea4458e2ee9.pdf 1 0 281076
+/martinrealtors/admin/assets/document/PROTYIMG_114518624463075a283c2e3.pdf 1 0 288871
+/martinrealtors/admin/assets/document/PROTYIMG_133914646062ea241a96987.pdf 1 0 284725
+/martinrealtors/admin/assets/document/PROTYIMG_15725164162eb787e753be.pdf 1 0 57261
+/martinrealtors/admin/assets/document/PROTYIMG_39899729762eb8c467fa9c.pdf 1 0 281076
+/martinrealtors/admin/assets/document/PROTYIMG_169263542862f1028be89b6.pdf 1 0 284725
+/martinrealtors/admin/assets/document/PROTYIMG_73986710362eb635b03d11.pdf 1 0 284725
+/martinrealtors/admin/assets/document/PROTYIMG_104002768162eb787e75c31.pdf 1 0 9731
+/martinrealtors/admin/assets/document/PROTYIMG_163567983762eb58ca86cc9.pdf 1 0 284725
+/martinrealtors/admin/assets/document/PROTYIMG_98404786362eb546f7445e.pdf 1 0 281076
+/martinrealtors/admin/assets/document/PROTYIMG_18123407662eb635b0454c.pdf 1 0 284725
+/martinrealtors/admin/assets/document/PROTYIMG_142925811662eb55a06abbd.pdf 1 0 284725
+/martinrealtors/admin/assets/document/PROTYIMG_28521498562ea241a93d34.pdf 1 0 284725
+/martinrealtors/admin/assets/document/PROTYIMG_58545039563086066c4657.pdf 1 0 281076
+/martinrealtors/admin/assets/document/PROTYIMG_125489307262ea1f4fb7008.pdf 1 0 284725
+/martinrealtors/admin/assets/document/PROTYIMG_1605331056630a0e0f90bf8.pdf 1 0 222776
+/martinrealtors/admin/assets/document/PROTYIMG_607184992630610cebae9c.pdf 1 0 103549
+/martinrealtors/admin/assets/document/PROTYIMG_12142526762eb635b0419c.pdf 1 0 284725
+/martinrealtors/admin/assets/document/PROTYIMG_57408208462eb8c467e9b6.pdf 1 0 284725
+/martinrealtors/admin/assets/document/PROTYIMG_126798963762ea4458e3451.pdf 1 0 284912
+/martinrealtors/admin/assets/document/PROTYIMG_17533988363086066c6dde.pdf 1 0 284912
+/martinrealtors/admin/assets/document/PROTYIMG_96536953662ea1c38c0138.pdf 1 0 284725
+/martinrealtors/admin/assets/document/PROTYIMG_146639954362eb688904546.pdf 1 0 284725
+/martinrealtors/admin/assets/document/PROTYIMG_212897290262eb8c467fde7.pdf 1 0 224800
+/martinrealtors/admin/assets/document/PROTYIMG_2061854919630a0f21d085a.pdf 1 0 107301
+/martinrealtors/admin/assets/document/PROTYIMG_9723876962eb6889042ab.pdf 1 0 284725
+/martinrealtors/admin/assets/document/PROTYIMG_41477771362ea45ae4e23a.pdf 1 0 284725
+/martinrealtors/admin/assets/document/PROTYIMG_182656283462eb55a06a46b.pdf 1 0 284725
+/martinrealtors/admin/assets/document/PROTYIMG_4825665326305e816438e5.pdf 1 0 109412
+/martinrealtors/admin/assets/document/PROTYIMG_211230680062eb8c467f043.pdf 1 0 284725
+/martinrealtors/admin/assets/document/PROTYIMG_180135860962ea283661d0f.pdf 1 0 285177
+/martinrealtors/admin/assets/document/PROTYIMG_1029032665630a0f21d0a9d.pdf 1 0 107301
+/martinrealtors/admin/assets/document/PROTYIMG_28166314662ea25ae8ff85.pdf 1 0 284725
+/martinrealtors/admin/assets/document/PROTYIMG_1153270504630a095781274.pdf 1 0 285177
+/martinrealtors/admin/assets/document/PROTYIMG_198986400062eb62e13e650.pdf 1 0 288871
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 8
+win10 13752 8951
+linux 232 128
+androidpie 97 6
+androidnougat 5 1
+win7 155 10
+android 761 75
+android10 3 1
+Unknown 15 15
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 19
+chrome98.0.4758.87 84 7
+mozilla 4 4
+chrome104.0.0.0 4420 2224
+chrome103.0.5060.66 3 1
+chrome102.0.0.0 292 22
+chrome68.0.3440.91 3 1
+Unknown 11 11
+chrome101.0.4951.41 57 5
+chrome104.0.5112.102 165 132
+chrome103.0.0.0 8603 5763
+chrome96.0.4664.104 19 4
+chrome104.0.5112.81 631 420
+safari10.0 1 0
+chrome103.0.5060.134 644 568
+chrome71.0.3578.141 5 1
+chrome88.0.4324.150 7 1
+chrome103.0.5060.53 1 1
+chrome104.0.5112.82 61 21
+chrome97.0.4692.87 9 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20220823112702
+WhatsApp/2.22.17.76_A 20220825225334
+YoYoWhatsApp/2.22.10.73_A 20220810014445
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20220815223842
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+WhatsApp/2.22.17.76_A 20220825225334
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20220815223842
+YoYoWhatsApp/2.22.10.73_A 20220810014445
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 534 535
+From1 8 8
+From2 29 29
+From3 0 0
+From4 8616 14448
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 29 29
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 10
+302 67 0
+404 3686 6314
+400 11 572
+406 132 29832
+500 12 8083
+307 2 0
+409 7 581
+206 2 7005
+401 12 522
+301 27 6660
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 373
+/martinrealtors/admin/assets/js/prism/prism.min.js.map 10 -
+/attendance 1 -
+/academicproject 1 -
+/wp-admin/includes/tablepress_controllers.php 1 -
+/wp-content/wp-admin.php 1 -
+/schoolerp/gradeTet.php 2 -
+/martinrealtors/assets/images/user-profile/post3.jpg 5 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/stindex.php 1 -
+/wikiindex.php 1 -
+/erp/webmaster 1 -
+/Sendemail.php 2 -
+/100.php 1 -
+/brick2bric/ 2 -
+/s_ne.php 1 -
+/martinrealtors/admin/assets/css/vendors/themify.css.map 22 -
+/martinrealtors/assets/js/counter/counter-custom.js 5 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/wp-plain.php 5 -
+/martinrealtors/assets/images/social-app/post-4.png 5 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/o.php 3 -
+/martinrealtors/admin/assets/css/vendors/rating.css.map 18 -
+/wp-commentin.php 1 -
+/martinrealtors/assets/images/user/8.jpg 5 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/upasith 1 -
+/qp2/bootstrap/css/bootstrap.min.css 5 https://parvamconsultech.com/qp2/index.php/dashboard
+/wp-includes/sys.php 1 -
+/wp-admin.php 1 -
+/c.php 3 -
+/water/index-3.html 1 https://parvamconsultech.com/water/index.html
+/Gel.php 1 -
+/martinrealtors/admin/assets/css/vendors/datatables.css.map 18 -
+/old-index.php 4 -
+/brick2brick/assets/img/leaflet/marker-icon-2x.png 1 https://parvamconsultech.com/brick2brick/contact.html
+/windex.php 1 -
+/martinrealtors/admin/assets/css/vendors/font-awesome.css.map 22 -
+/fa.php 1 -
+/wso2.php 1 -
+/content.php 2 -
+/tshop.php 3 -
+/schoolerp/css/img/preloader.gif 1385 https://parvamconsultech.com/schoolerp/css/style.css
+/tttt.php 3 -
+/martinrealtors/assets/images/social-app/post-5.png 5 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/robots.txt 69 -
+/martinrealtors/assets/images/product/small/headphone.png 5 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/xo.php 2 -
+/upload_index.php 1 -
+/nasgor.php 1 -
+/slicemap.php 1 -
+/dpl/playerimages/IMG_20220311_205208.jpg 1 https://parvamconsultech.com/dpl/admindashboard.php
+/0.php 1 -
+/schoolerp/-grade.php 1 -
+/m.php 2 -
+/martinrealtors/assets/css/style.css 5 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/_profiler/phpinfo 5 -
+/d995bf0D_VSGd823105a8ddb1wsSNOig627ad3.sexy 1 -
+/alfashell.php 3 -
+/martinrealtors/assets/css/responsive.css 5 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/local.php 1 -
+/XxX.php 1 -
+/martinrealtors/assets/js/config.js 5 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/wp-blockdown.php 1 -
+/q.php 2 -
+/martinrealtors/assets/images/user-profile/bg-profile.jpg 5 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/config/aws.yml 5 -
+/schoolerp/gradetest.php 1 -
+/dpl-2022 1 -
+/luxa/ 9 https://parvamconsultech.com/dinoz/productdetails/trail1.html
+/cdn-cgi/rum 18 https://parvamconsultech.com/brick2brick/Residential-Construction.php
+/k.php 4 -
+/wp/rahma.php 1 -
+/phpinfo.html 1 -
+/wp-file.php 1 -
+/training_placements 1 -
+/qp1_uat/webmaster/ccmgmt/style.css 1 https://parvamconsultech.com/qp1_uat/webmaster/ccmgmt/ss_page
+/ab7af5eoqSWdd8231c4a14e91OTWUui_4a5c90.tc 1 -
+/martinrealtors/assets/images/user-profile/post1.jpg 5 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/martinrealtors/assets/css/vendors/icofont.css 5 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/martinrealtors/assets/images/social-app/post-3.png 5 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/martinrealtors/assets/images/product/small/bag.png 5 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/shx.php 1 -
+/c653c8beEGd82319bfb1521KytPQ7abd06.me 1 -
+/martinrealtors/assets/css/vendors/bootstrap.css 5 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/baindex.php 1 -
+/d.php 2 -
+/martinrealtors/assets/js/photoswipe/photoswipe.min.js 5 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/martinrealtors/assets/images/user-profile/post2.jpg 5 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/martinrealtors/assets/js/script.js 5 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/martinrealtors/assets/images/social-app/post-6.png 5 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/w.php 2 -
+/.fk.php 1 -
+/qp2_uat/bootstrap/css/bootstrap.min.css 3 https://parvamconsultech.com/qp2_uat/customer/Addcustomer
+/wp-blog.php 1 -
+/martinrealtors/assets/images/user/3.jpg 5 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/martinrealtors/assets/js/bootstrap/popper.min.js 5 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/skipper.php 3 -
+/WSO.php 2 -
+/ups.php 4 -
+/martinrealtors/assets/js/counter/jquery.counterup.min.js 5 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/skippershell.php 3 -
+/u.php 3 -
+/.index.env 1 -
+/blog.php 1 -
+/phpinfo.php 5 -
+/code.jquery.com/jquery-1.12.4.minb8ff.js 2 https://parvamconsultech.com/dinoz/
+/phpinf.php 1 -
+/wso1.php 1 -
+/.aws.yml 1 -
+/FoxWSO.php 1 -
+/wp-admin/includes/edit-tag-menu.php 1 -
+/bb79278xzAyPWd82316604a5f1PMKKADAJ78458d.works 1 -
+/event_ticketing/ 1 -
+/martinrealtors/admin/assets/css/vendors/flag-icon.css.map 22 -
+/martinrealtors/assets/js/theme-customizer/customizer.js 5 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/wp-supports.php 1 -
+/wp-admin/includes/readindex.php 2 -
+/martinrealtors/images/testimonials/17.jpg 1 https://parvamconsultech.com/martinrealtors/about.html
+/symlink.php 1 -
+/martinrealtors/admin/assets/css/vendors/chartist.css.map 17 -
+/mar.php 3 -
+/wso.php 5 -
+/wp-content/uploads/readindex.php 2 -
+/wp-admin/includes/maint/wp-readindex.php 2 -
+/z.php 3 -
+/uploads/contexmini.php 1 -
+/wp-admin/includes/maint/wp-cron.php 1 -
+/martinrealtors/assets/js/bootstrap/bootstrap.min.js 5 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/martinrealtors/assets/images/favicon.png 2 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/b.php 2 -
+/dpl/playerimages/IMG_20220314_203155.jpg 1 https://parvamconsultech.com/dpl/admindashboard.php
+/sym.php 1 -
+/rahma.php 1 -
+/dpl/playerimages/IMG-20220312-WA0028.jpg 1 https://parvamconsultech.com/dpl/admindashboard.php
+/attendence 1 -
+/lf.php 2 -
+/event_ticketing/resources/bootstrap.min.css.map 1 -
+/wp-admin/includes/mar.php 2 -
+/mrfctfyd.php 1 www.google.com
+/wp-craft-report.php 1 -
+/dr.php 1 -
+/!.php 2 -
+/if.php 4 -
+/martinrealtors/assets/images/logo/logo.png 5 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.4.1/jquery-migrate.min330a.js 2 https://parvamconsultech.com/dinoz/
+/training/ 1 -
+/ba08ec2WMmMcLd8231ef32a641WfqCRXfUbfeb72.shop 1 -
+/martinrealtors/assets/images/user/11.png 5 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/brick2brick/admin/assets/css/main.css 15 https://parvamconsultech.com/brick2brick/admin/interiorupdateform.php
+/martinrealtors/assets/css/vendors/flag-icon.css 5 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/anone.php 1 -
+/shell4.php 3 -
+/schoolerp/js/toastr.js.map 26 -
+/s_e.php 1 -
+/edit-form.php 1 -
+/martinrealtors/assets/images/avtar/emoji/4.png 5 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/d2.php 1 -
+/martinrealtors/admin/assets/css/style.css.map 22 -
+/martinrealtors/assets/images/social-app/post-2.png 5 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/347a600IKHkIjd82313b53f4c1Rcs_dYs913c3e.tc 1 -
+/uploader.php 3 -
+/kindex.php 2 -
+/0byte.php 1 -
+/wp-uploads.php 1 -
+/brick2brick/connection.php 1 -
+/sym403.php 3 -
+/.aws/credentials 5 -
+/my_alfa.php 3 -
+/alexus-mailer.php 1 -
+/wp-admin/includes/maint/repair-bak.php 1 -
+/nbvkngqt.php 1 www.google.com
+/vuln.php 3 -
+/qp3/app/uploads/design/ 2 https://parvamconsultech.com/qp3/app/project/view_full/27
+/.well-known/security.txt 1 -
+/martinrealtors/assets/images/user/2.png 5 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/smtphec.php 1 -
+/dpl/playerimages/IMG_20220213_091353.jpg 1 https://parvamconsultech.com/dpl/admindashboard.php
+/wikindex.php 3 -
+/p.php 2 -
+/alf.php 4 -
+/x.php 3 -
+/wp-blockup.php 1 -
+/martinrealtors/assets/images/user-profile/post4.jpg 5 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/38d1631LNmSd8231a6a9e2b1x-Gdvsc9bfd19.coffee 1 -
+/it.php 1 -
+/accesson.php 1 -
+/404.php 1 -
+/schoolerp/dashoard.php 1 -
+/martinrealtors/assets/css/color-1.css 5 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/martinrealtors/admin/assets/css/vendors/animate.css.map 17 -
+/www.php 1 -
+/wp-admin/css/modern/colors.css.php 1 -
+/wp-one.php 1 -
+/doc.php 3 -
+/defau1t.php 1 -
+/martinrealtors/assets/images/avtar/emoji/9.png 5 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/kk.php 1 -
+/cp.php 2 -
+/wp-content/uploads/small.php 2 -
+/un.php 1 -
+/outcms.php 1 -
+/info.php 5 -
+/martinrealtors/admin/assets/css/vendors/slick-theme.css.map 18 -
+/martinrealtors/assets/js/counter/jquery.waypoints.min.js 5 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/777.php 1 -
+/cpanel.php 2 -
+/hello.php 1 -
+/martinrealtors/assets/images/social-app/post-1.png 5 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/dpl/images/parvam.jpg 1 https://parvamconsultech.com/dpl/admindashboard.php
+/priv8.php 3 -
+/wp-confirm.php 1 -
+/shell.php 6 -
+/water/index-2.html 1 https://parvamconsultech.com/water/
+/41.php 1 -
+/webdata.php 1 -
+/dpl2022 1 -
+/martinrealtors/assets/images/user/6.jpg 5 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/martinrealtors/assets/images/avtar/emoji/8.png 5 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/schoolerp/js/bootstrap.min.js.map 31 -
+/brick2brick/assets/images/landing/demo/1.jpg 15 https://parvamconsultech.com/brick2brick/admin/interiorupdateform.php
+/dpl/playerimages/20211226135746.jpg 1 https://parvamconsultech.com/dpl/admindashboard.php
+/upload.php 1 -
+/blue.php 1 -
+/martinrealtors/assets/images/user/4.jpg 5 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/736f5a5LuCd82311ab650b1NbXNq234198.solutions 1 -
+/martinrealtors/assets/images/social-app/post-8.png 5 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/wp-content/includes/uploads/Va.php 2 -
+/martinrealtors/assets/images/logo/morden-logo.png 5 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/data.php 1 -
+/ws.php 2 -
+/.wp-cache.php 1 -
+/ohayo.php 1 -
+/wp-slicemap.php 1 -
+/9f74041TjKzcd8231f018ec41NEDGQQH4295ce.pw 1 -
+/.env/config 1 -
+/wp-clearline.php 1 -
+/sindex.php 1 -
+/FoxWSOv1.php 2 -
+/martinrealtors/admin/assets/js/bootstrap/popper.min.js.map 20 -
+/wpecho.php 1 -
+/martinrealtors/assets/images/product/small/tshirt.png 5 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/kiss.php 1 -
+/wi.php 1 -
+/martinrealtors/admin/assets/css/color-1.css.map 22 -
+/i.php 3 -
+/wp-mail.php 1 -
+/wp-configer.php 1 -
+/l.php 2 -
+/martinrealtors/admin/assets/css/responsive.css.map 22 -
+/ok.php 1 -
+/wp-rss.php 1 -
+/feed/ 4 -
+/martinrealtors/assets/js/photoswipe/photoswipe.js 5 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/wp-content/wp-logins.php 1 -
+/rss.php 2 -
+/application/config/sms_settings.php 5 -
+/th3_alpha.php 1 -
+/index2.html 1 -
+/11index.php 1 -
+/ 263 https://parvamconsultech.com/
+/phpinfo 5 -
+/martinrealtors/assets/js/sidebar-menu.js 5 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/063f75eRNxIXJd8231f0051271Inlmc_Ae239987.pw 1 -
+/2index.php 4 -
+/alexus.php 1 -
+/3.php 4 -
+/martinrealtors/assets/css/vendors/font-awesome.css 5 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/1index.php 3 -
+/martinrealtors/assets/images/user/3.png 5 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/brick2brick/a 1 -
+/y.php 3 -
+/alexusmailer%202.0.php 2 -
+/martinrealtors/admin/assets/css/vendors/dropzone.css.map 18 -
+/wp-admin/includes/block-line.php 1 -
+/martinrealtors/admin/assets/css/vendors/owlcarousel.css.map 17 -
+/martinrealtors/assets/images/logo/logo-icon.png 5 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/j.php 2 -
+/schoolerp/view-all-student.ph 1 -
+/martinrealtors/assets/css/vendors/themify.css 5 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/martinrealtors/assets/images/avtar/emoji/7.png 5 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/web.php 1 -
+/g.php 2 -
+/martinrealtors/assets/js/photoswipe/photoswipe-ui-default.min.js 5 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/wp-option.php 1 -
+/martinrealtors/assets/css/vendors/feather-icon.css 5 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/cpl2022 1 -
+/alfa123.php 1 -
+/erp/webmaster/ccmgmt/style.css 1 https://parvamconsultech.com/erp/webmaster/ccmgmt/ss_page
+/9ea2536SDId8231e208f221UtPxd78b074.top 1 -
+/votes.php 1 -
+/martinrealtors/admin/assets/js/bootstrap/bootstrap.min.js.map 20 -
+/c99.php 3 -
+/martinrealtors/assets/images/social-app/post-7.png 5 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/martinrealtors/assets/images/user/14.png 5 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/alwso.php 2 -
+/event_ticketing/parkingmaster.php 2 https://parvamconsultech.com/event_ticketing/usermaster.php
+/martinrealtors/assets/images/user/7.jpg 5 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/bb.php 2 -
+/wp-admin/includes/media-site.php 1 -
+/martinrealtors/assets/js/icons/feather-icon/feather-icon.js 5 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/mi.php 2 -
+/zhjxvdph.php 1 www.google.com
+/r.php 3 -
+/martinrealtors/admin/index.html 2 https://parvamconsultech.com/martinrealtors/admin/editaddproperty.php
+/wp2.php 1 -
+/env/config 1 -
+/cms.php 1 -
+/martinrealtors/admin/assets/css/vendors/slick.css.map 18 -
+/new.php 1 -
+/leaf.php 2 -
+/martinrealtors/assets/js/jquery-3.5.1.min.js 5 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/Qleaps_17_05_22/ 1 -
+/schoolerp/css/bootstrap.min.css.map 31 -
+/martinrealtors/assets/images/user/5.jpg 5 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/martinrealtors/admin/assets/css/vendors/icofont.css.map 22 -
+/alex.php 2 -
+/martinrealtors/admin/assets/css/vendors/sweetalert2.css.map 18 -
+/xxx.php 1 -
+/martinrealtors/admin/assets/js/icons/feather-icon/feather.min.js.map 20 -
+/v.php 2 -
+/ads.txt 30 -
+/up.php 3 -
+/martinrealtors/assets/images/product/small/chair.png 5 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/brick2brick/assets/img/leaflet/marker-shadow.png 2 https://parvamconsultech.com/brick2brick/contact.html
+/brick2brick/assets/css/sweetalert2.css.map 1 -
+/aws.yml 5 -
+/wp.php 1 -
+/credentials.php 1 -
+/a.php 3 -
+/xox.php 3 -
+/f.php 3 -
+/martinrealtors/admin/assets/css/vendors/bootstrap.css.map 22 -
+/uhvpyozt.php 1 www.google.com
+/martinrealtors/assets/images/user/10.jpg 5 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/wso1337.php 1 -
+/Cpanel.php 2 -
+/load.php 1 -
+/3index.php 3 -
+/2.php 4 -
+/config.js 5 -
+/new-index.php 3 -
+/1.php 5 -
+/about-us/ 4 -
+/wp-stream.php 1 -
+/wp-ad.php 1 -
+/bypass.php 1 -
+/saudi.php 3 -
+/wp-blog-post.php 1 -
+/h.php 2 -
+/4price.php 1 -
+/schoolerp/js/popper.min.js.map 31 -
+/MARIJUANA.php 1 -
+/application/config/s3.php 5 -
+/martinrealtors/assets/css/vendors/photoswipe.css 5 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/martinrealtors/assets/images/user/1.jpg 5 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/n.php 2 -
+/martinrealtors/admin/assets/css/vendors/feather-icon.css.map 22 -
+/infodat.php 1 -
+/mini.php 2 -
+/martinrealtors/assets/js/icons/feather-icon/feather.min.js 5 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/s.php 4 -
+/martinrealtors/assets/images/avtar/emoji/1.png 5 https://parvamconsultech.com/martinrealtors/admin/user-profile.html
+/fw.php 3 -
+/t.php 3 -
+/inje3ctor.php 3 -
+/ru.php 3 -
+/wp-admin/includes/class-wp-media-list-data.php 1 -
+/martinrealtors/assets/images/landing/demo/1.jpg 519 https://parvamconsultech.com/martinrealtors/admin/viewproperty.php
+/owl.php 1 -
+/martinrealtors/admin/addpropertynew.php 8 https://parvamconsultech.com/martinrealtors/admin/viewproperty.php
+/autoload_classmap.php 1 -
+/registration2022/ 1 -
+/83f1626kjLd82316f33aca1MTjlH697043.pw 1 -
+/hacked.php 3 -
+/e.php 3 -
+/alfa.php 8 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 114
+49.205.148.138 1541 1668 8309912 20220810064544
+1.39.168.246 1003 1044 9200577 20220810044229
+49.205.145.92 964 2485 474474994 20220829054516
+49.205.144.208 845 1044 12598335 20220809011406
+49.205.146.54 670 861 11241929 20220803063703
+49.205.146.138 594 675 14115961 20220802062625
+49.205.149.92 517 716 15188005 20220804064129
+49.205.151.35 370 742 22737253 20220803032302
+49.205.147.100 342 632 13749473 20220811231423
+1.39.176.210 266 314 5546098 20220803063811
+42.105.118.187 231 276 1495428 20220808053722
+49.205.150.133 194 255 5791172 20220804233645
+1.39.165.11 150 150 363811 20220808065239
+49.205.148.167 135 135 1081409 20220805055250
+36.255.87.0 132 165 2427533 20220827003143
+157.45.73.194 117 117 926470 20220805014747
+106.217.111.144 98 217 7254037 20220810062656
+106.217.79.174 90 146 2814102 20220803044358
+1.39.139.163 90 123 5738983 20220802050830
+1.39.171.38 60 60 2442313 20220802060425
+106.193.79.167 59 94 2335591 20220803002025
+42.105.125.40 58 58 211256 20220804060542
+202.21.43.67 50 50 252087 20220827032955
+49.206.8.181 48 258 4773203 20220825005035
+1.39.131.223 43 247 4134423 20220819004255
+162.142.125.210 1 1 11781 20220822022730
+36.255.87.4 12 55 1312320 20220804013421
+172.58.5.155 1 7 145997 20220816043507
+106.196.17.95 19 52 1737352 20220808005011
+20.252.41.37 0 1 32607 
+223.227.18.46 4 81 4643839 20220810014859
+49.44.85.8 1 7 146049 20220816043451
+150.129.146.4 4 19 346703 20220829000233
+106.196.27.249 16 17 41725 20220808014824
+74.125.210.208 4 31 721848 20220814013408
+112.133.228.68 1 2 2042 20220802005429
+74.125.210.205 0 32 2896273 
+157.45.82.235 4 20 1378837 20220808091641
+157.45.101.14 1 5 305700 20220819002256
+167.94.138.117 1 1 11794 20220804122438
+198.235.24.146 1 1 36691 20220805213733
+157.45.29.208 1 6 54264 20220818210148
+42.104.120.10 1 45 63923032 20220822062629
+49.44.81.6 1 3 28659 20220802005430
+182.79.221.209 3 62 1684930 20220824022303
+110.225.39.204 40 72 313528 20220808063816
+49.44.87.135 1 7 145997 20220816043424
+157.45.171.202 0 4 301711 
+49.44.122.4 1 20 827452 20220802231209
+74.125.215.117 3 48 1674533 20220814040258
+74.125.210.181 1 42 1468067 20220801151524
+27.109.0.4 3 79 4548765 20220824041543
+106.217.111.184 39 57 1421533 20220810064005
+49.44.83.103 2 20 792893 20220824022324
+49.44.78.232 2 21 827583 20220824224331
+106.206.97.20 27 35 423746 20220808041405
+223.231.153.114 0 4 0 
+223.231.160.156 1 19 4806 20220814011235
+74.125.210.211 1 30 1438921 20220814041723
+123.176.33.70 1 20 827452 20220824224322
+198.235.24.151 1 1 36691 20220810193530
+74.125.215.115 5 53 1758198 20220814040258
+172.56.16.3 3 18 346572 20220809235019
+106.206.5.111 4 15 46865 20220809042241
+49.44.86.170 1 3 28659 20220804013818
+205.210.31.34 1 1 36691 20220815223842
+202.83.24.229 3 40 617562 20220824012733
+1.39.161.180 30 62 2481020 20220802013639
+106.217.79.166 15 48 1725973 20220803062722
+27.59.88.23 5 82 4662472 20220813102723
+42.106.161.4 2 8 146049 20220816043447
+49.44.84.43 1 16 411951 20220811055247
+198.235.24.5 1 1 36691 20220810192134
+106.196.31.96 2 20 1710309 20220810063018
+167.248.133.44 1 1 11779 20220822113329
+157.50.0.153 7 90 5411900 20220810014516
+172.58.63.219 4 19 346703 20220809235015
+106.217.79.149 20 20 38845 20220803011055
+123.176.32.69 1 38 623989 20220824224332
+1.39.171.137 6 84 4726795 20220810205526
+74.125.210.183 1 41 1414263 20220801151522
+223.231.160.222 2 2 37266 20220814072058
+27.59.75.87 4 62 1621100 20220818020136
+106.206.57.128 36 50 1108896 20220808034251
+36.255.87.1 40 171 18179965 20220827063530
+49.205.148.208 0 9 242513 
+49.44.82.139 3 18 346572 20220809234945
+106.76.231.13 1 1 131 20220813033436
+49.44.84.71 1 36 548170 20220824023512
+31.41.81.197 2 33 414856 20220801183306
+223.196.65.9 3 54 1482106 20220818020207
+205.210.31.24 1 1 36691 20220805211016
+74.125.215.119 2 41 1359029 20220801161827
+106.208.5.10 1 19 4806 20220805114718
+157.45.51.247 4 81 4643839 20220810014838
+157.45.26.118 1 1 1036 20220823133130
+167.94.138.61 1 1 11784 20220823112702
+49.44.78.164 5 57 2135930 20220810054520
+198.235.24.149 1 1 36691 20220810122720
+27.63.57.241 25 25 47669 20220801020315
+49.205.145.87 8 8 12042 20220809224414
+103.4.211.7 4 19 346703 20220802022028
+223.186.132.40 1 5 255886 20220826091508
+49.44.86.139 4 19 346703 20220809234947
+198.235.24.133 1 1 36691 20220810134245
+223.189.99.233 5 5 15396 20220809053818
+49.44.78.75 5 57 2135930 20220810054600
+198.235.24.9 1 1 36691 20220801205607
+172.58.87.175 4 19 346703 20220829000306
+74.125.210.179 3 55 2650229 20220801151524
+163.53.140.68 1 7 145910 20220801183301
+42.105.124.225 36 36 66672 20220810070311
+1.39.137.150 1 3 96702 20220819003126
+223.231.167.51 1 3 159638 20220806095308
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 24
+20220801 39 246 6821280 12
+20220802 837 1185 33717286 10
+20220803 1483 2134 42819537 11
+20220804 734 1005 19345677 7
+20220805 255 273 2086067 5
+20220806 1 3 159638 1
+20220807 13 22 99109 1
+20220808 1354 1661 18825486 11
+20220809 132 235 3040965 10
+20220810 2937 3735 54078104 18
+20220811 60 309 10848308 4
+20220813 10 169 9357268 5
+20220814 10 133 4870500 6
+20220815 1 1 36691 1
+20220816 53 150 2492144 5
+20220818 65 392 16785225 5
+20220819 135 395 8838131 5
+20220822 6 208 308702911 4
+20220823 2 11 255333 2
+20220824 123 769 75475707 12
+20220825 294 706 40040782 4
+20220826 163 376 80581613 4
+20220827 281 535 38863457 6
+20220829 199 367 11073489 6
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+0s-30s 81
+2mn-5mn 2
+15mn-30mn 12
+5mn-15mn 9
+1h+ 21
+30mn-1h 20
+30s-2mn 10
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 437
+/schoolerp/get_agent_payment_dashboard.php 1349 71497 0 17
+/schoolerp/get_student_payment_dashboard.php 1349 83638 1 8
+/schoolerp/get_parent_request_dashboard.php 1349 102524 1 2
+/schoolerp/getAttendancedata.php 344 243042 0 0
+/schoolerp/updateAttendance.php 343 12165 0 2
+/schoolerp/studentmarksentry.php 239 1495133 5 0
+/schoolerp/gradeTest.php 191 4318782 6 1
+/martinrealtors/admin/listproperty.php 183 2685837 4 5
+/martinrealtors/admin/editaddproperty.php 173 2920444 3 5
+/schoolerp/first_sem_report.php 164 1148094 1 0
+/upasthit/emp_controller/employee_controller 161 652899 1 1
+/schoolerp/student-marks-entry.php 146 2483037 2 0
+/schoolerp/login.php 138 117467 4 3
+/upasthit/emp_controller/employee_controller/add 123 2770103 1 3
+/schoolerp/co_scholastic_acheivement.php 98 1814313 0 0
+/martinrealtors/admin/dashboard.php 90 1715128 6 3
+/schoolerp/Dashboard.php 72 677901 4 0
+/upasthit/emp_controller/employee_controller/emp_list 72 597498 0 0
+/martinrealtors/admin/addproperty.php 67 854854 4 5
+/schoolerp/index.php 60 8154 2 0
+/martinrealtors/admin/editpropertydb.php 56 77737 0 0
+/schoolerp/announcement.php 55 355892 1 0
+/schoolerp/view-all-student.php 52 14369283 0 0
+/water/ 52 727447 5 1
+/martinrealtors/admin/viewproperty.php 43 601730 0 0
+/upasthit/emp_controller/employee_controller/emerg_details/157 3 13188 0 0
+/upasthit/emp_controller/employee_controller/personal_details/159 2 7534 0 0
+/qp3_uat/app/assets/vendors/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2 1 18028 0 0
+/event_ticketing/Dashboard.php 8 14802 0 2
+/upasthit/login_controller/login_controller 1 1182 0 0
+/upasthit/emp_controller/employee_controller/personal_details2/160 6 22602 0 0
+/schoolerp/schoolapi/notifylist.php 3 1426 0 1
+/water/ind-d-grocery.html 1 8490 0 1
+/upasthit/emp_controller/employee_controller/personal_details/178 7 26369 0 0
+/qp1_uat/webmaster/items 2 291430 0 0
+/upasthit/emp_controller/employee_controller/emerg_details/158 4 17823 0 0
+/water/case-1.html 1 8099 1 0
+/schoolerp/add_grade_fee.php 2 326 0 0
+/upasthit/emp_controller/employee_controller/personal_details/175 2 7534 0 0
+/qp3/app/dashboard 1 25086 0 0
+/qp2/quotation/viewviewfullquotation/TU9ELzEwMA--/Mg-- 1 13516 0 0
+/testerp/webmaster/quotation/selectquotationnumber 1 147 0 0
+/upasthit/emp_controller/employee_controller/emp_display_details/165 9 38268 0 0
+/schoolerp/monthlyArepForAllStu_ol.php 25 4134795 1 1
+/upasthit/emp_controller/employee_controller/emp_display_details/180 10 42510 0 0
+/martinrealtors/admin/updateaddproperty.php 12 300 0 0
+/schoolerp/fetch_grade_academic_year.php 25 2865 0 0
+/schoolerp/add-new-subject.php 8 118251 0 0
+/schoolerp/second_sem_report.php 42 297785 0 1
+/martinrealtors/dashboard.html 1 7410 0 0
+/upasthit/emp_controller/employee_controller/emerg_details/150 1 4638 0 0
+/upasthit/emp_controller/employee_controller/personal_details2/124 3 18975 0 0
+/upasthit/emp_controller/employee_controller/personal_details2/178 6 22602 0 0
+/upasthit/emp_controller/employee_controller/nominee_details/157 3 14375 0 0
+/schoolerp/view_attendance.php 25 153527 1 0
+/upasthit/emp_controller/employee_controller/emp_display_details/159 6 25506 0 0
+/upasthit/emp_controller/employee_controller/job_details/177 1 0 0 0
+/upasthit/emp_controller/employee_controller/personal_details2/161 1 4591 0 0
+/brick2brick/ 16 298128 12 3
+/qp2/space/getspace 1 229 0 0
+/upasthit/emp_controller/employee_controller/nominee_details/161 2 7672 0 0
+/upasthit/emp_controller/employee_controller/personal_details/165 4 15068 0 0
+/testerp/webmaster/project/create 1 13952 0 0
+/qp1_uat/webmaster/design/alldesign 2 15722 0 0
+/qp1_uat/webmaster/space 2 21512 0 0
+/Qleaps_21_06_22/assets/fonts/fa-solid-900.woff2 1 137992 0 0
+/dinoz/productlist/index3col.html 1 28462 0 0
+/upasthit/emp_controller/add_controller/add_nominee/160 1 8235 0 0
+/dinoz/ 1 16466 1 0
+/martinrealtors/admin/insertaddproperty.php 22 12931 0 0
+/upasthit/emp_controller/employee_controller/emerg_details/180 2 7720 0 0
+/upasthit/emp_controller/employee_controller/emp_display_details/170 2 8502 0 0
+/schoolerp/add_announcement.php 31 4228 0 0
+/brick2brick/Residential-Construction.php 6 113448 2 2
+/upasthit/emp_controller/employee_controller/emp_display_details/174 1 4252 0 0
+/schoolerp/view-all-parent-requests.php 5 30114 1 0
+/upasthit/emp_controller/employee_controller/personal_details2/164 7 26369 0 0
+/schoolerp/view-all-event-gallery.php 1 6746 0 0
+/water/ind-d-hotel.html 2 15170 1 0
+/qp2/index.php/dashboard 3 97452 1 0
+/erp/ 4 8864 2 0
+/water/assets/fonts/fa-solid-900.woff2 6 704712 0 1
+/upasthit/emp_controller/employee_controller/job_details/182 3 0 0 0
+/upasthit/emp_controller/employee_controller/add_emp_information/ 18 184968 0 0
+/testerp/webmaster/dashboard 1 11793 0 0
+/upasthit/emp_controller/employee_controller/personal_details/160 11 41437 0 0
+/upasthit/emp_controller/employee_controller/personal_details/174 2 7534 0 0
+/qp1_uat/assets/bootstrap/fonts/glyphicons-halflings-regular.woff2 1 18028 0 0
+/brick2brick/admin/packagetypelist.php 1 14186 0 0
+/schoolerp/update_student_master.php 1 138 0 0
+/qp2/index.php/login 2 2634 1 2
+/Qleaps_21_06_22/ 1 15389 1 0
+/schoolerp/update_grade_master.php 1 136 0 0
+/schoolerp/add-new-teacher.php 1 8582 0 0
+/martinrealtors/add-property.html 1 7262 0 0
+/qp1_uat/webmaster/ccmgmt/ss_page 1 4184 0 0
+/upasthit/emp_controller/employee_controller/nominee_details/160 10 42940 0 0
+/event_ticketing/index.php 29 35844 0 0
+/testerp/webmaster/project/selectdesign/112 1 34 0 0
+/upasthit/emp_controller/employee_controller/emp_list/ 29 236473 0 0
+/testerp/webmaster/project/view/18 1 11451 0 0
+/upasthit/emp_controller/employee_controller/personal_details/177 2 7534 0 0
+/upasthit/emp_controller/add_controller/add_emerg/180 1 7770 0 0
+/seft/student-insert-form.php 1 2495 1 1
+/brick2brick/admin/interiorsinsertdb.php 2 261 0 0
+/schoolerp/view-all-holiday.php 2 13694 0 0
+/upasthit/emp_controller/employee_controller/personal_details/130 2 9226 0 0
+/martinrealtors/webfonts/fa-brands-400.woff2 2 156944 0 0
+/upasthit/emp_controller/employee_controller/personal_details/127 1 4620 0 0
+/schoolerp/ 26 3011 12 0
+/qp2/modules/getModuleForSpace 1 99 0 0
+/dpl/admindashboard.php 2 107224 1 1
+/qp1_uat/webmaster/quotation 3 35331 0 0
+/upasthit/emp_controller/employee_controller/emerg_details/161 7 39498 0 0
+/upasthit/emp_controller/employee_controller/career_details/150 1 4473 0 0
+/upasthit/emp_controller/employee_controller/bank_details/163 3 11457 0 0
+/testerp/webmaster/project 2 24484 0 0
+/Qleaps_21_06_22/assets/fonts/gt-font/GTWalsheimPro-Black.woff2 1 41536 0 0
+/qp3/app/project 4 49860 0 0
+/upasthit/emp_controller/employee_controller/job_details/150 1 4625 0 0
+/upasthit/emp_controller/employee_controller/emerg_details/165 1 3861 0 0
+/upasthit/emp_controller/employee_controller/edu_details/161 9 40507 0 0
+/schoolerp/add_new_grade.php 4 650 0 0
+/upasthit/emp_controller/employee_controller/job_details/180 6 0 0 0
+/schoolerp/attendencelist.php 13 1133013 0 0
+/testerp/webmaster/leads 2 19426 0 0
+/water/industries.html 4 30176 0 1
+/testerp/webmaster/quotation/selectquotation/29 1 994 0 0
+/upasthit/emp_controller/employee_controller/personal_details/161 22 119585 0 0
+/qp2/customer/getcustomer 1 290 0 0
+/upasthit/emp_controller/abence_controller/abence_view/124 1 4674 0 0
+/upasthit/emp_controller/abence_controller/abence_view/150 1 4551 0 0
+/upasthit/emp_controller/employee_controller/emp_display_details/127 3 12756 0 0
+/upasthit/emp_controller/employee_controller/view_edit_address/161/68/1 2 14286 0 0
+/upasthit/emp_controller/employee_controller/personal_details2/176 1 3767 0 0
+/upasthit/emp_controller/employee_controller/personal_details/171 1 3767 0 0
+/upasthit/emp_controller/employee_controller/emp_display_details/163 9 38259 0 0
+/Qleaps_21_06_22/assets/fonts/fa-brands-400.woff2 1 76500 0 0
+/martinrealtors/admin/fetch_contactinfo.php 31 2481 0 0
+/upasthit/emp_controller/employee_controller/job_details/165 4 0 0 0
+/qp1_uat/webmaster/leads/create 1 12740 0 0
+/upasthit/emp_controller/employee_controller/career_details/124 2 7390 0 0
+/event_ticketing/user.php 20 52639 0 0
+/event_ticketing/settings.php 3 7611 0 0
+/aakruthi_qps/login/do 1 37 0 0
+/upasthit/emp_controller/employee_controller/emp_display_details/154 3 12756 0 0
+/qp2/modules/gethandletype 1 62 0 0
+/qp1_uat/webmaster/checkpoint 2 15242 0 0
+/upasthit/emp_controller/employee_controller/get_details/157 5 32339 0 0
+/qp2/modules/getcoremateriallist 1 55 0 0
+/qp2/modules/getcarcassfinishlist 1 60 0 0
+/brick2brick/assets/fonts/pe-icon-7-strokebb1d.woff 8 468448 0 0
+/upasthit/emp_controller/employee_controller/emp_display_details/153 2 8502 0 0
+/testerp/webmaster/quotation 1 42935 0 0
+/martinrealtors/webfonts/fa-solid-900.woff2 2 160504 0 1
+/martinrealtors/font/flaticon08b7.ttf 1 4840 0 0
+/schoolerp/view-all-teachers.php 3 38823 1 0
+/schoolerp/attendance.php 5 47489 0 0
+/schoolerp/student-study-certificate.php 1 118851 0 0
+/upasthit/emp_controller/add_controller/add_emerg/163 1 7771 0 0
+/schoolerp/schoolapi/studentgrade.php 4 160 1 0
+/upasthit/emp_controller/employee_controller/job_details/162 2 0 0 0
+/aakruthi_qps/ 2 4522 2 0
+/upasthit/emp_controller/add_controller/add_edu/161 1 4307 0 0
+/upasthit/emp_controller/employee_controller/personal_details/124 8 51440 0 0
+/water/blog-details.html 8 80488 0 0
+/schoolerp/webfonts/fa-regular-400.woff2 31 353808 0 4
+/schoolerp/student-admission-detail-report.php 1 107390 0 0
+/qp2_uat/assets/vendors/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2 1 18028 0 0
+/qp2/quotation/getaddedmodules 25 2348 0 0
+/upasthit/emp_controller/employee_controller/job_details/124 2 18909 0 0
+/qp3/app/ 3 5079 2 1
+/dinoz/productlist/indexWide.html 1 31042 0 0
+/martinrealtors/admin/geteditproprty.php 12 2227 0 0
+/testerp/webmaster/design/alldesign 1 14142 0 0
+/qp3/app/Project 2 24930 0 0
+/qp3_uat/app/dashboard 1 6415 0 0
+/dinoz/wp-content/themes/luxa/fonts/essential-set.woff2 1 38072 0 0
+/martinrealtors/contact-us.html 2 13342 0 0
+/qp2_uat/index.php/login 2 2304 0 0
+/upasthit/emp_controller/employee_controller/emp_display_details/158 2 8502 0 0
+/schoolerp/add_subject_master.php 4 656 0 0
+/upasthit/emp_controller/employee_controller/emerg_details/163 4 15444 0 0
+/upasthit/emp_controller/employee_controller/emp_emerg_details/157/14 3 16329 0 0
+/qp1_uat/webmaster/project 1 7907 0 0
+/upasthit/emp_controller/add_controller/add_emerg/158 1 7768 0 0
+/dpl/ 4 7660 4 2
+/dinoz/wp-content/themes/luxa/fonts/interview.woff2 1 14556 0 0
+/water/assets/fonts/fa-regular-400.woff2 6 870912 0 0
+/dinoz/wp-content/themes/luxa/fonts/base-iconsfd85.ttf 1 18488 0 0
+/water/company-values.html 21 190545 0 0
+/upasthit/emp_controller/employee_controller/get_details/156 2 30806 0 0
+/martinrealtors/admin/assets/css/images/sort_both.html 14 3094 0 0
+/upasthit/emp_controller/employee_controller/emp_display_details/156 1 4252 0 0
+/brick2brick/services.html 3 17106 0 0
+/schoolerp/view-user-admin-details.php 2 10954 0 0
+/schoolerp/getStuPayDetDate.php 1 37 0 0
+/upasthit/emp_controller/add_controller/add_emerg/156 3 23304 0 0
+/Qleaps_21_06_22/assets/fonts/fa-light-300.woff2 1 185712 0 0
+/upasthit/emp_controller/employee_controller/emp_edu_details/124/23 1 5673 0 0
+/qp2/modules/getHwAcc 3 338559 0 0
+/brick2brick/contact.html 2 9572 0 1
+/schoolerp/second_sem_grade_10.php 1 104842 0 0
+/schoolerp/add-new-grade.php 30 304230 2 0
+/event_ticketing/ 34 41896 0 1
+/qp2/quotation/viewmoremodules 2 10192 0 0
+/upasthit/emp_controller/employee_controller/job_details/160 4 0 0 0
+/qp1_uat/ 1 2243 0 0
+/water/our-story.html 1 10132 0 0
+/dpl/playerimages/Profile%20photo 1 909727 0 1
+/schoolerp/view-all-parent-requests-current-day.php 3 16347 0 0
+/qp2/quotation/Addquotation 1 9652 0 0
+/upasthit/emp_controller/employee_controller/personal_details/154 3 13740 0 0
+/water/services.html 19 186903 0 0
+/upasthit/emp_controller/employee_controller/personal_details2/180 4 15064 0 0
+/upasthit/emp_controller/employee_controller/add_bank_information 11 158783 1 0
+/brick2brick/project-details.html 1 5187 1 0
+/upasthit/emp_controller/employee_controller/bank_details/160 7 30438 0 0
+/qp2/customer/getcustomerdetails 1 362 0 0
+/schoolerp/all_sem_report.php 38 297635 0 0
+/water/assets/images/favicons/site.webmanifest 4 1052 0 0
+/upasthit/emp_controller/employee_controller/nominee_details/154 4 15348 0 0
+/upasthit/emp_controller/employee_controller/job_details/158 1 4629 0 0
+/brick2brick/admin/index.php 3 399 1 0
+/schoolerp/fetch_tech_sub.php 4 269 0 0
+/upasthit/emp_controller/add_controller/add_nominee/164 1 8235 0 0
+/upasthit/emp_controller/employee_controller/nominee_details/164 8 30688 0 0
+/martinrealtors/my-listings.html 1 6652 0 0
+/upasthit/emp_controller/employee_controller/emp_display_details/160 28 119028 0 0
+/dinoz/home/ 1 16101 0 0
+/upasthit/emp_controller/employee_controller/emerg_details/182 1 3860 0 0
+/upasthit/emp_controller/employee_controller/personal_details/131 1 4613 0 0
+/qp2/project 1 12365 0 1
+/schoolerp/add-new-student.php 30 300250 0 0
+/martinrealtors/admin/geteditpropertydoc.php 11 1523 0 0
+/upasthit/emp_controller/employee_controller/career_details/161 5 18470 0 0
+/upasthit/emp_controller/add_controller/adding_emerg/156 1 468 0 0
+/event_ticketing/transaction_datewise.php 2 4824 0 1
+/upasthit/emp_controller/employee_controller/nominee_details/171 1 3837 0 0
+/upasthit/emp_controller/employee_controller/bank_details/161 6 25271 0 0
+/upasthit/emp_controller/employee_controller/emp_display_details/157 1 4252 0 0
+/schoolerp/second_sem_report_download.php 5 529270 0 0
+/erp/webmaster/ccmgmt/ss_page 1 4164 0 0
+/schoolerp/add-new-grade-section.php 5 24063 1 0
+/upasthit/emp_controller/employee_controller/edit_address/161/68 1 313 0 0
+/schoolerp/webfonts/fa-solid-900.woff2 32 1932320 0 6
+/erp/login/do 9 326 0 0
+/ 12 340666 12 12
+/schoolerp/all_sem_report_10.php 7 768123 0 1
+/upasthit/emp_controller/employee_controller/personal_details/162 2 7532 0 0
+/upasthit/emp_controller/employee_controller/personal_details/157 2 9187 0 0
+/upasthit/emp_controller/employee_controller/emerg_details/164 4 15444 0 0
+/schoolerp/academicMarksReportJSON/scholasticAchievement.json 26 18977 0 0
+/upasthit/emp_controller/employee_controller/personal_details2/165 11 41437 0 1
+/testerp/webmaster/leads/create 1 12698 0 0
+/upasthit/ 9 10161 4 3
+/testerp/assets/bootstrap/fonts/glyphicons-halflings-regular.woff2 1 18028 0 0
+/upasthit/emp_controller/employee_controller/nominee_details/162 3 11508 0 0
+/qp2_uat/index.php/dashboard 2 17942 0 0
+/upasthit/emp_controller/employee_controller/personal_details2/177 1 3767 0 0
+/upasthit/emp_controller/employee_controller/edu_details/124 4 17596 0 0
+/upasthit/emp_controller/employee_controller/personal_details/153 1 4598 0 0
+/upasthit/emp_controller/employee_controller/personal_details/164 6 22602 0 0
+/upasthit/emp_controller/employee_controller/emp_display_details/161 17 72274 0 0
+/dpl/dashboard.php 1 2674 1 1
+/upasthit/emp_controller/employee_controller/emp_display_details/177 3 12756 0 0
+/upasthit/emp_controller/employee_controller/job_details/164 3 0 0 0
+/qp2/assets/vendors/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2 2 36056 0 0
+/Qleaps_21_06_22/assets/fonts/gt-font/GTWalsheimPro-Bold.woff2 1 41524 0 0
+/upasthit/emp_controller/add_controller/add_bank/160 1 4134 0 0
+/schoolerp/first_sem_report_download.php 34 3609149 0 0
+/event_ticketing/transaction.php 3 7362 0 0
+/schoolerp/cal.php 33 391659 1 0
+/erp/assets/bootstrap/fonts/glyphicons-halflings-regular.ttf 5 227020 0 1
+/schoolerp/view-all-student-credential.php 18 3194345 0 0
+/brick2brick/admin/dashboard.php 3 61323 1 1
+/brick2brick/assets/fonts/fontawesome-webfont3e6e.woff2 15 1157400 1 3
+/qp2/modules/getshutterfinishlist 1 60 0 0
+/schoolerp/co_scholastic_area.php 15 187534 0 0
+/erp/assets/bootstrap/fonts/glyphicons-halflings-regular.woff 5 117120 1 1
+/qp2/assets/vendors/font-awesome/fonts/fontawesome-webfont.woff2 2 143792 0 0
+/testerp/webmaster/leads/view_lead/29 1 7817 0 0
+/water/contact.html 12 81720 0 0
+/qp2/assets/vendors/bootstrap/dist/css/bootstrap.min.css.map 1 135049 0 1
+/upasthit/emp_controller/employee_controller/add/156 3 67632 0 0
+/upasthit/emp_controller/employee_controller/emp_display_details/183 1 4251 0 0
+/upasthit/emp_controller/employee_controller/job_details/159 1 0 0 0
+/schoolerp/first_sem_report_download_10_class.php 9 956655 0 1
+/qp1_uat/login/do 1 36 0 0
+/dinoz/productdetails/carEx.html 1 20371 0 0
+/martinrealtors/admin/index.php 19 2543 1 0
+/upasthit/emp_controller/employee_controller/bank_details/150 1 4558 0 0
+/martinrealtors/faq.html 1 7578 0 0
+/water/assets/fonts/wastey-icon1efa.ttf 6 322488 0 0
+/upasthit/emp_controller/employee_controller/emp_display_details/124 11 46772 0 0
+/schoolerp/view-event-gallery-images.php 1 5614 0 0
+/water/team.html 1 10503 0 1
+/upasthit/emp_controller/employee_controller/personal_details2/154 2 9160 0 0
+/upasthit/emp_controller/employee_controller/emp_display_details/171 1 4252 0 0
+/upasthit/emp_controller/employee_controller/emp_display_details/175 2 8504 0 0
+/schoolerp/view-all-subject.php 3 19829 0 0
+/upasthit/emp_controller/employee_controller/personal_details/176 3 11301 0 0
+/qp2_uat/customer/Addcustomer 1 8704 0 0
+/brick2brick/assets/fonts/revicons90c6.woff 11 82896 1 7
+/seft/login.php 1 1036 1 1
+/schoolerp/add-grade-fee.php 8 68754 0 0
+/brick2brick/admin/login.php 7 24781 2 3
+/schoolerp/attendance_for_previous_year.php 38 251342 0 1
+/upasthit/emp_controller/employee_controller/get_details/161 7 51932 0 0
+/upasthit/emp_controller/employee_controller/bank_details/182 5 22074 0 0
+/upasthit/emp_controller/employee_controller/personal_details/156 3 20407 0 0
+/martinrealtors/about.html 1 9790 0 0
+/upasthit/emp_controller/add_controller/add_emerg/157 1 7769 0 0
+/qp2_uat/assets/vendors/font-awesome/fonts/fontawesome-webfont.woff2 1 71896 0 0
+/martinrealtors/webfonts/fa-regular-400.woff2 1 13588 0 0
+/schoolerp/view-account-details.php 11 109609 1 0
+/water/assets/fonts/fa-brands-400.woff2 6 448200 0 1
+/qp3/app/index.php/dashboard 1 25086 0 0
+/qp2_uat/dashboard 2 17942 0 0
+/schoolerp/add-announcement.php 37 203362 1 0
+/upasthit/emp_controller/employee_controller/personal_details2/174 1 3767 0 0
+/upasthit/emp_controller/employee_controller/job_details/161 9 64043 0 0
+/upasthit/emp_controller/employee_controller/nominee_details/158 2 8625 0 0
+/brick2brick/admin/interiorviewlist.php 5 65093 1 0
+/water/career.html 1 10546 0 0
+/brick2brick/admin/assets/css/images/sort_both.html 2 476 0 0
+/event_ticketing/usermaster.php 20 93317 3 1
+/qp2/ 6 7590 4 4
+/upasthit/emp_controller/employee_controller/personal_details2/159 1 3767 0 0
+/schoolerp/editAttandance.php 1 9977 0 0
+/upasthit/emp_controller/employee_controller/bank_details/124 7 30519 0 0
+/upasthit/emp_controller/employee_controller/emerg_details/124 2 10902 0 0
+/schoolerp/view-all-deleted-student.php 2 44132 1 0
+/qp1_uat/webmaster/setup 2 16010 0 0
+/schoolerp/add_student_master.php 22 3061 0 0
+/upasthit/emp_controller/employee_controller/nominee_details/178 3 11508 0 0
+/brick2brick/admin/interiorupdateform.php 3 42626 0 0
+/brick2brick/index.php 1 18633 0 1
+/qp3/app/project/view/28 3 18141 0 0
+/upasthit/emp_controller/employee_controller/edu_details/164 1 3851 0 0
+/martinrealtors/admin/viewupdate.php 2 50 0 0
+/qp3_uat/app/assets/vendors/font-awesome/fonts/fontawesome-webfont.woff2 1 71896 0 0
+/martinrealtors/single-property-1.html 1 16895 0 0
+/upasthit/emp_controller/employee_controller/nominee_details/156 1 3837 0 0
+/water/ind-d-munci.html 1 7842 0 0
+/Qleaps_21_06_22/assets/fonts/gt-font/GTWalsheimPro-Regular.woff2 1 41136 0 0
+/testerp/webmaster/quotation/selectlead/customer 1 3286 0 0
+/upasthit/emp_controller/employee_controller/personal_details2/175 1 3767 0 0
+/martinrealtors/admin/user-profile.html 2 31258 0 0
+/schoolerp/fonts/Flaticon.woff2 21 132720 0 0
+/water/case-details.html 9 66560 0 0
+/martinrealtors/properties-grid-1.html 1 16267 0 0
+/water/ind-d-stadium.html 1 7598 0 0
+/qp3/app/assets/vendors/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2 1 18028 0 0
+/dinoz/wp-content/themes/luxa/fonts/fontawesome/fa-solid-900.woff2 1 74256 0 0
+/martinrealtors/admin/login.php 43 132706 3 5
+/upasthit/emp_controller/employee_controller/nominee_details/163 3 11508 0 0
+/upasthit/emp_controller/add_controller/add_bank/182 2 8268 0 0
+/cpl-2022/ 1 1754 1 1
+/upasthit/emp_controller/add_controller/adding_nominee/157 1 463 0 0
+/qp2/quotations_new 1 34824 1 1
+/water/faqs.html 9 59319 0 2
+/qp1_uat/webmaster/leads 3 24255 0 0
+/qp2/modules/getspacetype 1 65 0 0
+/schoolerp/all_semester_report_download.php 6 664705 0 0
+/qp1_uat/webmaster/dashboard 4 47428 0 0
+/dinoz/productdetails/trail1.html 1 18011 0 0
+/upasthit/emp_controller/employee_controller/edu_details/182 1 3851 0 0
+/upasthit/emp_controller/employee_controller/personal_details2/162 2 7532 0 0
+/martinrealtors/admin/listdeleteproperty.php 15 360 0 0
+/upasthit/emp_controller/employee_controller/emp_display_details/131 2 4252 0 0
+/qp3_uat/app/ 1 1703 1 1
+/upasthit/emp_controller/employee_controller/emp_display_details/178 6 25506 0 0
+/upasthit/emp_controller/employee_controller/emerg_details/176 1 3861 0 0
+/upasthit/emp_controller/employee_controller/personal_details/183 1 3767 0 0
+/brick2brick/admin/interiorsinsert.php 2 23316 0 0
+/martinrealtors/register.html 2 11948 1 1
+/schoolerp/attendance_new.php 10 73058 0 0
+/martinrealtors/admin/updateeditdocs.php 11 275 0 0
+/upasthit/emp_controller/add_controller/add_nominee/157 1 8233 0 0
+/dinoz/wp-content/themes/luxa/fonts/free-basic-ui-elements.woff2 1 8796 0 0
+/qp1_uat/webmaster/quotation/selectquotationnumber 3 369 0 0
+/qp3_uat/app/index.php/dashboard 2 12830 0 0
+/upasthit/emp_controller/employee_controller/emerg_details/154 2 7722 0 0
+/upasthit/emp_controller/employee_controller/emerg_details/160 5 19300 0 0
+/upasthit/emp_controller/employee_controller/personal_details/163 5 18835 0 0
+/upasthit/emp_controller/add_controller/add_nominee/158 1 8233 0 0
+/upasthit/emp_controller/employee_controller/personal_details2/163 1 3767 0 0
+/schoolerp/send_email_All_Students.php 1 171 0 0
+/martinrealtors/fonts/fontawesome-webfont3e6e.woff2 2 154320 0 1
+/upasthit/emp_controller/employee_controller/job_details/163 2 0 0 0
+/martinrealtors/admin/assets/css/images/sort_asc.html 14 3094 0 1
+/upasthit/emp_controller/employee_controller/career_details/160 1 3694 0 0
+/qp3/app/project/view_full/27 2 13532 0 0
+/upasthit/emp_controller/employee_controller/add_emery_information 7 3320 0 0
+/upasthit/emp_controller/employee_controller/personal_details/180 5 18830 0 0
+/qp2/quotation/moduleviewsection 1 2057 0 0
+/schoolerp/yearattendance_ol.php 30 6213868 0 0
+/schoolerp/student-details.php 4 32294 0 0
+/qp2/quotation/addmoduletoquotation 1 5141 0 0
+/martinrealtors/ 3 56478 2 0
+/upasthit/emp_controller/employee_controller/personal_details2/156 3 20407 0 0
+/event_ticketing/ticketmaster.php 5 21320 0 0
+/schoolerp/delete_student.php 6 828 0 0
+/upasthit/emp_controller/employee_controller/personal_details/150 1 4619 0 0
+/schoolerp/dailyReportattendance.php 18 1742248 0 1
+/martinrealtors/admin/assets/css/images/sort_desc.html 1 238 0 0
+/upasthit/emp_controller/employee_controller/emerg_details/156 3 14890 0 0
+/aakruthi_qps/assets/bootstrap/fonts/glyphicons-halflings-regular.woff2 2 36056 0 1
+/brick2brick/admin/packageinsert.php 1 13825 0 1
+/upasthit/emp_controller/add_controller/add_bank/124 2 8262 0 0
+/upasthit/emp_controller/employee_controller/emp_display_details/150 8 34008 0 0
+/upasthit/emp_controller/employee_controller/emp_display_details/164 10 42520 0 0
+/brick2brick/admin/ 3 393 1 0
+/upasthit/emp_controller/employee_controller/emp_display_details/130 4 17004 0 0
+/martinrealtors/admin/viewgetproperty.php 2 242 0 0
+/upasthit/emp_controller/employee_controller/edu_details/163 1 3850 0 0
+/brick2brick/admin/assets/css/images/sort_asc.html 2 476 0 0
+/qp3/app/assets/vendors/font-awesome/fonts/fontawesome-webfont.woff2 1 71896 0 0
+/upasthit/emp_controller/add_controller/add_bank/161 1 4131 0 0
+/upasthit/emp_controller/employee_controller/emp_display_details/182 13 55276 0 0
+/qp3_uat/app/index.php/login 2 3461 0 1
+/erp/assets/bootstrap/fonts/glyphicons-halflings-regular.woff2 6 108168 1 0
+/schoolerp/calendar.php 2 26982 0 0
+/upasthit/emp_controller/employee_controller/personal_details/182 1 3766 0 0
+/schoolerp/logout.php 6 762 0 0
+/upasthit/emp_controller/add_controller/add_bank/163 1 4134 0 0
+/martinrealtors/admin/ 2 262 1 0
+/water/ind-d-medical.html 7 53116 0 0
+/schoolerp/getStuCasteCategory.php 1 277 0 0
+/schoolerp/add-new-user-admin.php 5 35037 0 0
+/upasthit/emp_controller/employee_controller/emp_display_details/162 5 21260 0 0
+/dinoz/wp-content/themes/luxa/fonts/web-design.woff2 1 11648 0 0
+/upasthit/emp_controller/employee_controller/personal_details2/171 1 3767 0 0
+/schoolerp/attendencelist_for_previous_years.php 8 722821 0 0
+/upasthit/emp_controller/employee_controller/emp_display_details/176 3 12756 0 0
+/event_ticketing/taxmaster.php 12 35118 0 0
+END_SIDER

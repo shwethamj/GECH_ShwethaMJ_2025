@@ -1,0 +1,1041 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202201 will be lost/reset.
+# Last config file used to build this data file was /home4/parvamco/tmp/awstats/ssl/awstats.parvamconsultech.parvam.co.in.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2031                
+POS_TIME 2701                
+POS_VISITOR 31596               
+POS_DAY 36194               
+POS_DOMAIN 3543                
+POS_LOGIN 3876                
+POS_ROBOT 4031                
+POS_WORMS 4202                
+POS_EMAILSENDER 4333                
+POS_EMAILRECEIVER 4476                
+POS_SESSION 37093               
+POS_SIDER 37305               
+POS_FILETYPES 4611                
+POS_DOWNLOADS 4998                
+POS_OS 5175                
+POS_BROWSER 5352                
+POS_SCREENSIZE 5780                
+POS_UNKNOWNREFERER 5854                
+POS_UNKNOWNREFERERBROWSER 6453                
+POS_ORIGIN 7047                
+POS_SEREFERRALS 7190                
+POS_PAGEREFS 7377                
+POS_SEARCHWORDS 7525                
+POS_KEYWORDS 7677                
+POS_MISC 2365                
+POS_ERRORS 7736                
+POS_CLUSTER 3732                
+POS_SIDER_404 7920                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20220201001750 952 303568 12277331403860
+FirstTime 0
+LastTime 20220131232255
+LastUpdate 20220201052918 952 0 951 0 0
+TotalVisits 206                 
+TotalUnique 104                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 112                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+TotalMisc 0 0 0
+AddToFavourites 0 0 0
+JavaEnabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+FlashSupport 0 0 0
+JavascriptDisabled 0 0 0
+RealPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+PDFSupport 0 0 0
+DirectorSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 348 6320 807344762 374 1093 29025621
+1 634 4339 655539562 405 651 17629578
+2 603 7432 1243617382 131 801 24459567
+3 596 6147 729767206 147 350 314518
+4 309 3499 542377029 94 197 1335204
+5 360 3037 447617059 98 185 11835
+6 66 630 94908561 91 123 37269
+7 6 13 333650 16 27 122
+8 45 351 13616687 34 90 538671
+9 33 419 43498616 19 33 678
+10 7 139 5511937 24 36 1878
+11 4 99 1778719 39 44 5754
+12 1 4 86446 26 39 1460
+13 1 1 11766 25 28 313
+14 2 2 73058 79 86 574
+15 1 1 36517 187 191 14691
+16 1 1 36529 84 91 11718
+17 0 0 0 57 64 748
+18 1 1 36517 278 315 174
+19 0 0 0 192 208 35
+20 33 404 27408101 12 62 35
+21 128 1678 258134477 51 112 7188180
+22 263 4782 845998192 88 230 13916377
+23 343 6343 892220353 129 263 3646
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 6
+in 2503 32452 5235106328
+cn 635 7544 771157472
+au 302 944 73626950
+jp 264 4307 507768189
+us 73 387 17518927
+gr 8 8 292184
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 1
+no_user_agent 2 73034 20220121212223 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 15
+woff2 143 30073236 0 0
+json 468 131938808 0 0
+ttf 111 20516408 0 0
+ico 3 109554 0 0
+svg 84 437129 0 0
+js 3128 100404502 0 0
+gif 51 2881003 0 0
+html 696 75612826 0 0
+jpg 15671 3514017213 0 0
+png 14090 1085540662 0 0
+php 2243 78235451 0 0
+pdf 1 485611 0 0
+woff 124 7599152 0 0
+jpeg 6923 1504827117 0 0
+css 1906 48541456 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 2
+/groceryapp/assets/images/ProductImage/product/can_231.pdf 1 7 485611
+/moduleigtt/wp-content/photos/videopreview.mp4 0 1 4249922
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 7
+linuxandroid 1281 189
+win7 234 13
+win10 24943 2321
+ios_iphone 53 4
+macosx 42 19
+Unknown 51 51
+win8.1 19046 1188
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 16
+chrome96.0.4664.104 536 102
+chrome97.0.4692.70 297 32
+chrome97.0.4692.99 7789 1371
+chrome93.0.4577.82 1 1
+chrome96.0.4664.45 739 46
+chrome97.0.4692.98 225 29
+firefox96.0 542 110
+firefox95.0 92 10
+chrome42.0.2311.90 1 1
+chrome96.0.4664.110 23182 1258
+chrome97.0.4692.87 47 9
+chrome97.0.4692.71 12009 740
+safari13.1.2 42 19
+Unknown 51 51
+chrome92.0.4515.131 44 2
+safari15.2 53 4
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 6
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20220130051336
+WhatsApp/2.21.24.22_A 20220129025800
+WordPress/5.8.1;_https://parvamconsultech.com/qleaps_test 20220129095447
+Expanse_indexes_the_network_perimeters_of_our_customers._If_you_have_any_questions_or_concerns,_please_reach_out_to:_scaninfo@expanseinc.com 20220129215017
+WordPress/5.9;_https://parvamconsultech.com/qleaps_test 20220129100128
+WhatsApp/2.21.19.21_A 20220129093942
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 6
+WordPress/5.8.1;_https://parvamconsultech.com/qleaps_test 20220129095447
+Expanse_indexes_the_network_perimeters_of_our_customers._If_you_have_any_questions_or_concerns,_please_reach_out_to:_scaninfo@expanseinc.com 20220129215017
+WordPress/5.9;_https://parvamconsultech.com/qleaps_test 20220129100128
+WhatsApp/2.21.19.21_A 20220129093942
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20220130051336
+WhatsApp/2.21.24.22_A 20220129025800
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 449 452
+From1 0 0
+From2 23 23
+From3 0 0
+From4 3313 45175
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+www_google_com 22 22
+www_google_com_hk 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 9
+409 1 83
+206 81 94364471
+301 63 15862
+500 11 1681
+404 4875 0
+302 14 15
+400 19 884
+401 29 1032
+406 184 41584
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 372
+/leaf.php 14 -
+/institutionerp/upendra/css/img/preloader.gif 105 https://parvamconsultech.com/institutionerp/upendra/css/style.css
+/xox.php 6 -
+/moduleigtt/admin/wp-content/pu/RAL%207009.png 13 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/ 352 -
+/dvcard/ 2 -
+/moduleigtt/admin/wp-content/pu/RAL%206020.jpg 13 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/11index.php 6 -
+/moduleigtt/admin/wp-content/photos/gallery/newgallery/cots/cot10.jpeg 4 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/new.php 12 -
+/skippershell.php 21 -
+/qleaps_test/wp-login.php 3 http://localhost/
+/moduleigtt/dashboard 5 -
+/minimo.php 6 -
+/images/vuln.php 6 -
+/dvcard/Basavaraju/css/vjimages/realestate2-min.jpg 3 https://parvamconsultech.com/dvcard/Basavaraju/css/vJCSS.css
+/app.js 1 -
+/wp-content/wp-logins.php 6 -
+/wp-admin.php 12 -
+/moduleigtt/admin/wp-content/handletype/Alano%201180166.jpg 2 https://parvamconsultech.com/moduleigtt/admin/viewdetails.php
+/wp-wso.php 6 -
+/hacked.php 21 -
+/test_moduleigtt/nav.scss 18 https://parvamconsultech.com/test_moduleigtt/
+/groceryapp/vendor/countries.js 12 https://parvamconsultech.com/groceryapp/admin/add-items.php
+/test_moduleigtt/admin/wp-content/handletype/Openable%20and%20Sliding%20Wardrobe.jpeg 2 https://parvamconsultech.com/test_moduleigtt/admin/viewdetails.php
+/config/aws.yml 2 -
+/symlink.php 6 -
+/dvcard/sreekumar/templates/common/js/star-rating.js 2 https://parvamconsultech.com/dvcard/sreekumar/sreekumarvcard.php
+/elementor/ 3 https://parvamconsultech.com/moduleigtt/portfolio/portfolio-Straightkitchen.html
+/it.php 6 -
+/defau1t.php 6 -
+/if.php 21 -
+/index2.html 1 -
+/FoxWSO.php 6 -
+/robots.txt 204 -
+/ups.php 33 -
+/test_moduleigtt/dashboard 1 -
+/moduleigtt/nav.scss 389 https://parvamconsultech.com/moduleigtt/
+/wp-content/wp-admin.php 6 -
+/assets/img/project/floor.jpg 7 https://parvamconsultech.com/brick2brick/Residential-Construction.html
+/blog.php 6 -
+/test_moduleigtt/wp-content/photos/trending/paralelll.jpg 18 https://parvamconsultech.com/test_moduleigtt/
+/gallery/ 4 -
+/up.php 27 -
+/Gel.php 6 -
+/moduleigtt/admin/wp-content/pu/RAL%201012.jpeg 14 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/moduleigtt/admin/wp-content/pu/RAL%203001.jpeg 13 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/modulleigtt/ 1 -
+/dvcard/khushboo/templates/common/js/script.js 3 https://parvamconsultech.com/dvcard/khushboo/khushboo.php
+/moduleigtt/wp-content/handletype/Openable%20and%20Sliding%20Wardrobe%201.png 2 https://parvamconsultech.com/moduleigtt/index.html
+/moduleigtt/admin/wp-content/colour/veener/028%20Santos%20Rosewood.JPG 15 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/team/ 5 -
+/v.php 6 -
+/assets/img/project/paint.jpg 7 https://parvamconsultech.com/brick2brick/Residential-Construction.html
+/moduleigtt/admin/wp-content/pu/RAL%206000.png 14 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/.vscode/sftp.json 1 -
+/moduleigtt/wp-content/form.js 123 https://parvamconsultech.com/moduleigtt/portfolio/portfolio-BedroomStudyroom.html
+/dvcard/kanika/templates/common/js/script.js 2 https://parvamconsultech.com/dvcard/kanika/kanikavcard.php
+/upasthitapp 1 -
+/moduleigtt/admin/wp-content/pu/RAL%206028.png 13 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/2019/10/29/rot-%E2%91%A1%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E3%81%AE%E9%81%BA%E4%BC%9D%E5%AD%90/ 1 -
+/recrutiment/admin 1 -
+/diploma/ 2 -
+/moduleigtt/admin/wp-content/pu/RAL%201024.png 14 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/moduleigtt/admin/wp-content/pu/RAL%207008.png 13 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/dvcard/karthik/templates/common/js/script.js 3 https://parvamconsultech.com/dvcard/karthik/karthikvcard.php
+/moduleigtt/admin/wp-content/pu/RAL%207006.png 13 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/alfa123.php 6 -
+/dr.php 6 -
+/srx.php 6 -
+/alexus.php 6 -
+/owl.php 6 -
+/moduleigtt/wp-content/photos/portfolio-headers/onsite/%20works.png 3 https://parvamconsultech.com/moduleigtt/portfolio/portfolio-onsitewoodworks.html
+/wso1.php 6 -
+/alfashell.php 21 -
+/moduleigtt/admin/wp-content/pu/RAL%201018.jpeg 14 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/groceryapp/admin/img/ts-avatar.jpg 156 https://parvamconsultech.com/groceryapp/admin/message.php
+/mailer.php 12 -
+/f.php 6 -
+/moduleigtt/wp-content/handletype/Sliding%20Wardrobe.jpeg 1 https://parvamconsultech.com/moduleigtt/index.html
+/moduleigtt/wp-content/internals/WAO859.png 118 https://parvamconsultech.com/moduleigtt/portfolio/portfolio-BedroomStudyroom.html
+/marijuana.php 6 -
+/moduleigtt/admin/wp-content/pu/RAL%201015.png 14 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/vuln.php 27 -
+/moduleigtt/admin/wp-content/pu/RAL%206015.jpg 13 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/gaza.php 6 -
+/moduleigtt.com 1 -
+/dvcard/ParvaM/templates/common/js/script.js 7 https://parvamconsultech.com/dvcard/ParvaM/index.php
+/moduleigtt/dashbaord 2 -
+/phpinfo.php 2 -
+/moduleigtt/admin/wp-content/handletype/Agacia%209220975_977.jpg 3 https://parvamconsultech.com/moduleigtt/admin/viewdetails.php
+/moduleigtt/uploads/ 83 https://parvamconsultech.com/moduleigtt/admin/viewdetails.php
+/test_moduleigtt/admin/wp-content/handletype/G-profile.jpeg 1 https://parvamconsultech.com/test_moduleigtt/admin/viewdetails.php
+/dvcard/adnanshsbbir/adnanshabbir.php 1 -
+/moduleigtt/portfolio/portfolio-onsitewoodworks.html 6 https://parvamconsultech.com/moduleigtt/index.html
+/config.js 2 -
+/decanvas/quotation/ 1 -
+/assets/js/app.js 1 -
+/shell4.php 21 -
+/moduleigtt/admin/wp-content/photos/gallery/newgallery/cots/cot7.jpeg 4 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/dvcard/Basavaraju/templates/common/js/script.js 5 https://parvamconsultech.com/dvcard/Basavaraju/Basavarajuvcard.php
+/41.php 6 -
+/dvcard/sreekumar/css/vjimages/realestate2-min.jpg 2 https://parvamconsultech.com/dvcard/sreekumar/css/vJCSS.css
+/2015/11/ 2 -
+/moduliegtt 2 -
+/local.php 6 -
+/moduleigtt/admin/edit.php 1 https://parvamconsultech.com/moduleigtt/admin/dashboard.php
+/wp-includes/wp-atom.php 1 www.google.com
+/uploads/contexmini.php 6 -
+/moduleigtt/admin/wp-content/photos/gallery/newgallery/cots/cot13.jpeg 4 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/assets/img/project-details/project-details-2.jpg 7 https://parvamconsultech.com/brick2brick/Residential-Construction.html
+/dvcard/Basavaraju/templates/common/js/star-rating.js 4 https://parvamconsultech.com/dvcard/Basavaraju/Basavarajuvcard.php
+/www.php 6 -
+/nasgor.php 6 -
+/c99.php 27 -
+/dvcard/karthik/css/vjimages/realestate2-min.jpg 2 https://parvamconsultech.com/dvcard/karthik/css/vJCSS.css
+/777.php 6 -
+/3index.php 12 -
+/baindex.php 6 -
+/moduleigtt/admin/wp-content/pu/RAL%201019.jpeg 13 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/moduleigtt/admin/wp-content/pu/RAL%203000.png 13 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/autoload_classmap.php 6 -
+/moduleigtt/admin/ 1 -
+/groceryapp/admin/img/background.jpg 73 https://parvamconsultech.com/groceryapp/admin/
+/moduleigtt/admin/wp-content/handletype/G-profile.jpeg 2 https://parvamconsultech.com/moduleigtt/admin/viewdetails.php
+/moduleigtt/admin/wp-content/pu/RAL%201000.jpeg 14 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/moduleigtt/admin/assets/js/swiper.min.js.map 17 -
+/inje3ctor.php 21 -
+/dvcard/kanika/css/vjimages/realestate2-min.jpg 1 https://parvamconsultech.com/dvcard/kanika/css/vJCSS.css
+/moduleigtt/wp-content/photos/portfolio-headers/tv/%20unit.png 1 https://parvamconsultech.com/moduleigtt/portfolio/portfolio-BedroomTvspace.html
+/moduleigtt/uploads/0 14 https://parvamconsultech.com/moduleigtt/admin/viewdetails.php
+/XxX.php 12 -
+/feed/ 4 -
+/test_moduleigtt/admin/wp-content/moduleigttexclusive/shoe16.jpeg 3 https://parvamconsultech.com/test_moduleigtt/admin/edit.php
+/moduleigtt/wp-content/photos/portfolio-headers/bedroomexcl.png 3 https://parvamconsultech.com/moduleigtt/portfolio/portfolio-bedroomexclusive.html
+/swcs/admin/css/img/preloader.gif 28 https://parvamconsultech.com/swcs/admin/css/style.css
+/info.php 2 -
+/test.php 6 -
+/dvcard/gopal/templates/common/js/star-rating.js 1 https://parvamconsultech.com/dvcard/gopal/gopalvcard.php
+/wp.php 6 -
+/moduleigtt/wp-content/handler.php 15 https://parvamconsultech.com/moduleigtt/
+/c.php 6 -
+/dvcard/nanda/css/vjimages/realestate2-min.jpg 1 https://parvamconsultech.com/dvcard/nanda/css/vJCSS.css
+/dvcard/rohilakshmana/templates/common/js/star-rating.js 2 https://parvamconsultech.com/dvcard/rohilakshmana/rohitlakshmana.php
+/.git/config 2 -
+/.aws/credentials 2 -
+/moduleigtt/admin/wp-content/pu/RAL%202004.jpg 13 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/moduleigtt/admin/wp-content/pu/RAL%202001.png 13 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/dvcard/adnanhabbir/templates/common/js/star-rating.js 21 https://parvamconsultech.com/dvcard/adnanhabbir/adnanshabbir.php
+/about-us/ 4 -
+/dvcard/nanda/templates/common/js/script.js 2 https://parvamconsultech.com/dvcard/nanda/nanda.php
+/moduleigtt/admin/wp-content/pu/RAL%202000.jpeg 13 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/moduleigtt/admin/wp-content/pu/RAL%203002.png 13 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/saudi.php 21 -
+/sindex.php 6 -
+/nee.php 6 -
+/x.php 12 -
+/dist/app.js 1 -
+/moduleigtt/admin/wp-content/pu/RAL%203004.jpeg 13 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/wi.php 6 -
+/wp-ad.php 6 -
+/moduleigtt/admin/wp-content/internals/pole2.jpeg 72 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/moduleigtt/wp-content/colour/Abstract%20color/4536%20Prose%20Pearl.JPG.JPG 73 https://parvamconsultech.com/moduleigtt/
+/test_moduleigtt/admin/appliances.json 3 https://parvamconsultech.com/test_moduleigtt/admin/edit.php
+/dvcard/karthik/templates/common/js/star-rating.js 2 https://parvamconsultech.com/dvcard/karthik/karthikvcard.php
+/g.php 6 -
+/groceryapp/admin/css/bootstrap-select.css.map 1 -
+/assets/img/project/bathroom.jpg 7 https://parvamconsultech.com/brick2brick/Residential-Construction.html
+/a.php 6 -
+/moduleigtt/admin/wp-content/photos/gallery/newgallery/cots/cot6.jpeg 4 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/moduleigtt/admin/wp-content/pu/RAL%206009.jpg 13 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/tttt.php 21 -
+/assets/img/project/kitchen.jpg 7 https://parvamconsultech.com/brick2brick/Residential-Construction.html
+/dvcard/kanika/templates/common/js/star-rating.js 1 https://parvamconsultech.com/dvcard/kanika/kanikavcard.php
+//robots.txt 1 -
+/2index.php 6 -
+/moduleigtt/admin/wp-content/photos/gallery/newgallery/cots/cot5.jpeg 4 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/1index.php 12 -
+/dvcard/sreekumar/templates/common/js/script.js 4 https://parvamconsultech.com/dvcard/sreekumar/sreekumarvcard.php
+/haxor.php 6 -
+/moduleigtt/wp-content/Uploaddesigtoserver.php 8 https://parvamconsultech.com/moduleigtt/
+/moduleigtt/admin/wp-content/woodgrains/SPSF%208646.jpg 6 https://parvamconsultech.com/moduleigtt/admin/viewdetails.php
+/wp-blog.php 6 -
+/1033.php 2 -
+/moduleigt 1 -
+/test_moduleigtt/wp-content/handletype/Aluminium%20Handle%20Profile%20-%20AD03.jpg 3 https://parvamconsultech.com/test_moduleigtt/
+/dvcard/adnanhabbir/css/vjimages/realestate2-min.jpg 14 https://parvamconsultech.com/dvcard/adnanhabbir/css/vJCSS.css
+/moduleigtt/admin/wp-content/pu/RAL%201013.png 13 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/100.php 6 -
+/priv8.php 12 -
+/root.php 6 -
+/moduleigtt/admin/wp-content/handletype/Adonia%201180121_122.jpg 2 https://parvamconsultech.com/moduleigtt/admin/viewdetails.php
+/moduleigtt/admin/wp-content/pu/RAL%201004.jpeg 14 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/dvcard/raghunath/raghunath.php 1 -
+/3.php 6 -
+/moduleigtt/admin/wp-content/pu/RAL%206018.jpg 13 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/skipper.php 21 -
+/qindex.php 6 -
+/mini.php 6 -
+/test_moduleigtt/admin/wp-content/colour/Metallic%20color/4411%20Galaxy%20Mist.JPG 1 https://parvamconsultech.com/test_moduleigtt/admin/viewdetails.php
+/m.php 12 -
+/moduleigtt/wp-content/colour/veener/028%20Santos%20Rosewood.JPG.JPG 95 https://parvamconsultech.com/moduleigtt/
+/sym403.php 6 -
+/dvcard/raghunath/raghunathvcard.php 1 -
+/wp-configer.php 6 -
+/uploader.php 21 -
+/moduleigtt/admin/wp-content/pu/RAL%201020.jpeg 13 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/my_alfa.php 21 -
+/moduleigtt/admin/wp-content/photos/gallery/newgallery/cots/cot11.jpeg 4 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/wikindex.php 12 -
+/technology-workshops/ 2 -
+/moduleigtt/admin/wp-content/pu/RAL%206012.png 13 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/alex.php 14 -
+/.fk.php 6 -
+/tshop.php 21 -
+/placement/ 2 -
+/dvcard/ParvaM/templates/common/js/star-rating.js 4 https://parvamconsultech.com/dvcard/ParvaM/index.php
+/moduleigtt/admin/wp-content/handletype/SGP1.jpg 2 https://parvamconsultech.com/moduleigtt/admin/viewdetails.php
+/contact-us/ 2 -
+/sym.php 6 -
+/moduleigtt/admin/wp-content/pu/RAL%206022.jpg 13 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/z.php 6 -
+/widget-v4.tidiochat.com/1_81_0/static/js/render.70adb76f8f90196e791a.js 111 https://parvamconsultech.com/pibeam/contact-us/index.html
+/wp-one.php 6 -
+/dvcard/raghunath/raghunathcard.php 1 -
+/moduleigtt/admin/wp-content/pu/RAL%206019.jpg 13 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/moduleigtt/admin/wp-content/pu/RAL%203005.jpeg 13 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/test_moduleigtt/admin/assets/js/swiper.min.js.map 1 -
+/wp/rahma.php 6 -
+/moduleigtt/wp-content/handletype/Openable%20and%20Sliding%20Wardrobe.jpeg 3 https://parvamconsultech.com/moduleigtt/index.html
+/moduleigtt/admin/wp-content/pu/RAL%207002.png 13 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/groceryapp/admin/js/bootstrap-select.js.map 1 -
+/moduleigtt/admin/wp-content/photos/gallery/newgallery/cots/cot8.jpeg 4 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/phpinfo 2 -
+/moduleigtt/admin/wp-content/pu/RAL%201007.png 13 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/0.php 6 -
+/wp2.php 6 -
+/wp-uploads.php 6 -
+/moduleigtt/admin/dashboard 1 -
+/moduleigtt/admin/uploads/ 1 https://parvamconsultech.com/moduleigtt/admin/viewdetails.php
+/ohayo.php 6 -
+/test_moduleigtt/wp-content/handletype/Aluminium%20Handle%20Profile%20-%20AD02.jpg 3 https://parvamconsultech.com/test_moduleigtt/
+/mar.php 6 -
+/moduleigtt/admin/wp-content/pu/RAL%203007.jpeg 13 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/test_moduleigtt/wp-content/handletype/Aluminium%20Handle%20Profile%20-%20G.jpg 3 https://parvamconsultech.com/test_moduleigtt/
+/bypass.php 6 -
+/1.php 6 -
+/moduleigtt/wp-content/colour/veener/028%20Santos%20Rosewood.JPG 88 https://parvamconsultech.com/moduleigtt/
+/dvcard/roshanlobo/templates/common/js/star-rating.js 8 https://parvamconsultech.com/dvcard/roshanlobo/roshanlobo.php
+/moduleigtt/admin/wp-content/pu/RAL%201016.png 14 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/wp_wrong_datlib.php 6 -
+/moduleigtt/admin/wp-content/pu/RAL%207001.png 13 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/wp-content/plugins/shortcode-addons/assets/backend/js/admin-notice.js 1 -
+/moduleigtt/admin/wp-content/pu/RAL%206013.jpg 13 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/moduleigtt/admin/wp-content/pu/RAL%203011.jpeg 13 https://parvamconsultech.com/moduleigtt/admin/edit.php
+//.well-known/security.txt 1 -
+/doc.php 12 -
+/moduleigtt/admin/wp-content/photos/gallery/newgallery/cots/cot4.jpeg 7 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/xx.php 12 -
+/ads.txt 28 -
+/test_moduleigtt/uploads/ 6 https://parvamconsultech.com/test_moduleigtt/admin/viewdetails.php
+/404.php 6 -
+/alfa.php 33 -
+/dvcard/gopal/css/vjimages/realestate2-min.jpg 1 https://parvamconsultech.com/dvcard/gopal/css/vJCSS.css
+/moduleigtt/admin/wp-content/pu/RAL%207004.png 13 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/ru.php 21 -
+/shx.php 6 -
+/dvcard/adnanhabbir/templates/common/js/script.js 30 https://parvamconsultech.com/dvcard/adnanhabbir/adnanshabbir.php
+/dvcard/rohilakshmana/css/vjimages/realestate2-min.jpg 2 https://parvamconsultech.com/dvcard/rohilakshmana/css/vJCSS.css
+/moduleigtt/admin/wp-content/pu/RAL%202002.jpeg 14 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/moduleigtt/admin/wp-content/pu/RAL%201006.jpeg 13 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/edit-form.php 6 -
+/dvcard/gopal/templates/common/js/script.js 1 https://parvamconsultech.com/dvcard/gopal/gopalvcard.php
+/upasthitapp/ 1 -
+/.wp-cache.php 6 -
+/test_moduleigtt/admin/wp-content/moduleigttexclusive/shoe18.jpeg 3 https://parvamconsultech.com/test_moduleigtt/admin/edit.php
+/moduleigtt/admin/wp-content/pu/RAL%201003.jpg 14 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/moduleigtt/admin/wp-content/pu/RAL%201023.jpeg 13 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/new-index.php 6 -
+/moduleigtt/admin/wp-content/pu/RAL%202008.jpg 13 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/bb.php 6 -
+/moduleigtt/admin/wp-content/pu/RAL%206025.jpg 13 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/js/vendor/NoSleep.min.js 9 https://www.parvamconsultech.com/kpl/
+/moduleigtt/admin/wp-content/photos/gallery/newgallery/cots/cot12.jpeg 4 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/aws.yml 2 -
+/upasthitapp/index.php 2 https://www.google.com/
+/moduleigtt/admin/wp-content/pu/RAL%202011.jpeg 13 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/test_moduleigtt/admin/wp-content/moduleigttexclusive/shoe10.jpeg 3 https://parvamconsultech.com/test_moduleigtt/admin/edit.php
+/MARIJUANA.php 6 -
+/src/app.js 1 -
+/Foxwso.php 2 -
+/test_moduleigtt/uploads/0 2 https://parvamconsultech.com/test_moduleigtt/admin/viewdetails.php
+/kiss.php 6 -
+/moduleigtt/admin/customerpdf.php 2 https://parvamconsultech.com/moduleigtt/admin/viewdetails.php
+/wp-confirm.php 6 -
+/moduleigtt/wp-content/handletype/SGP2.jpg 3 https://parvamconsultech.com/moduleigtt/index.html
+/cdn-cgi/rum 21 https://parvamconsultech.com/brick2brick/Residential-Construction.html
+/dvcard/ParvaM/css/vjimages/realestate2-min.jpg 3 https://parvamconsultech.com/dvcard/ParvaM/css/vJCSS.css
+/moduleigt/dashboard 1 -
+/lf.php 6 -
+/moduleigtt/admin/wp-content/pu/RAL%206010.jpg 13 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/data.php 6 -
+/elementor/wp-content/themes/dor/framework/lib/icons-pack/ion-icons/fonts/ionicons.woff 1 https://parvamconsultech.com/moduleigtt/wp-content/cache/minify/3bd51.css
+/moduleigtt/admin/wp-content/pu/RAL%207005.jpg 14 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/moduleigtt/admin/wp-content/pu/RAL%206027.png 13 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/old-index.php 6 -
+/admin 1 -
+/moduleigtt/admin/index.html 2 https://www.parvamconsultech.com/moduleigtt/admin/edit.php
+/anone.php 6 -
+/qleaps_test/ 1 -
+/seft/AgentProfile/ 6 https://parvamconsultech.com/seft/view-agents.php
+/test_moduleigtt/admin/wp-content/colour/Solid%20color/4311%20Beige.JPG 2 https://parvamconsultech.com/test_moduleigtt/admin/viewdetails.php
+/shell.php 33 -
+/1337.php 12 -
+/4dc453degaNcsdd823156f52be1EIBK_a90bbc.kr 1 -
+/_profiler/phpinfo 2 -
+/moduleigtt/admin/appliances.json 49 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/moduleigtt/admin/wp-content/pu/RAL%206021.png 13 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/upload.php 6 -
+/moduleigtt/admin/edit..php 1 -
+/dvcard/rohilakshmana/templates/common/js/script.js 4 https://parvamconsultech.com/dvcard/rohilakshmana/rohitlakshmana.php
+/o.php 6 -
+/moduleigtt/admin/wp-content/pu/RAL%206006.png 13 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/4price.php 6 -
+/moduleigtt/admin/wp-content/pu/RAL%207000.jpg 13 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/moduleigtt/admin/wp-content/pu/RAL%203003.png 13 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/utchiha.php 2 -
+/Lux.php 6 -
+/dvcard/nanda/templates/common/js/star-rating.js 1 https://parvamconsultech.com/dvcard/nanda/nanda.php
+/moduleigtt/admin/wp-content/pu/RAL%202007.jpg 13 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/wso.php 33 -
+/elementor/wp-content/themes/dor/framework/lib/icons-pack/elegant-icons/fonts/ElegantIcons.ttf 2 https://parvamconsultech.com/moduleigtt/wp-content/cache/minify/3bd51.css
+/2019/10/05/9-26-%E3%83%89%E3%83%AA%E3%83%9C%E3%81%AA%E6%97%A5%E3%80%82%E5%89%8D%E6%A5%BD%E3%80%82%E5%BC%95%E3%81%8D%E7%B6%99%E3%81%90%E3%82%B8%E3%83%A3%E3%83%8B%E3%83%BC%E3%82%BA%E3%82%A4%E3%82%BA%E3%83%A0/ 1 -
+/af90c50ZewsEdEd8231602b7e41wsXNvJ7434b4.life 3 -
+/moduleigtt/wp-content/photos/gallery/newgallery/ushape/ushape0001.jpg 2 https://parvamconsultech.com/moduleigtt/portfolio/portfolio-kitchen%20U-shape.html
+/dvcard/khushboo/css/vjimages/realestate2-min.jpg 2 https://parvamconsultech.com/dvcard/khushboo/css/vJCSS.css
+/leafmailer2.8.php 6 -
+/send.php 6 -
+/moduleigtt/admin/wp-content/pu/RAL%201011.jpeg 13 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/wso1337.php 6 -
+/test_moduleigtt/wp-content/photos/trending/ushape1.jpeg 18 https://parvamconsultech.com/test_moduleigtt/
+/dvcard/roshanlobo/templates/common/js/script.js 14 https://parvamconsultech.com/dvcard/roshanlobo/roshanlobo.php
+/dvcard/khushboo/templates/common/js/star-rating.js 2 https://parvamconsultech.com/dvcard/khushboo/khushboo.php
+/0byte.php 6 -
+//sitemap.xml 1 -
+/fw.php 21 -
+/moduleigtt/admin/wp-content/moduleigttexclusive/ 1 https://parvamconsultech.com/moduleigtt/admin/viewdetails.php
+/test_moduleigtt/admin/assets/css/bootstrap.min.css.map 1 -
+/rahma.php 6 -
+/moduleigtt/admin/wp-content/pu/RAL%201005.png 14 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/moduleigtt/admin/wp-content/pu/RAL%201014.jpeg 13 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/seft/css/img/preloader.gif 37 https://parvamconsultech.com/seft/css/style.css
+/media-admin.php 6 -
+/assets/img/project/structure.jpg 8 https://parvamconsultech.com/brick2brick/Residential-Construction.html
+/cms.php 6 -
+/moduleigtt/admin/wp-content/pu/RAL%202003.jpg 13 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/moduleigtt/admin/assets/css/bootstrap.min.css.map 17 -
+/moduleigtt/admin/wp-content/pu/RAL%201017.png 14 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/moduleigtt/admin/wp-content/pu/RAL%206039.jpg 13 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/resources/js/app.js 1 -
+/dvcard/Basavaraju/images/ 3 https://parvamconsultech.com/dvcard/Basavaraju/Basavarajuvcard.php
+/institutionerp/upendra/parvamAdmin/css/img/preloader.gif 4 https://parvamconsultech.com/institutionerp/upendra/parvamAdmin/css/style.css
+/sh3ll.php 6 -
+/groceryapp/ 2 -
+/moduleigtt/admin/wp-content/pu/RAL%201001.jpeg 15 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/dvcard/roshanlobo/css/vjimages/realestate2-min.jpg 7 https://parvamconsultech.com/dvcard/roshanlobo/css/vJCSS.css
+/stindex.php 8 -
+/moduleigtt/admin/wp-content/pu/RAL%201002.jpeg 13 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/institutionerp/upendra/parvamadmin 1 -
+/moduleigtt/admin/wp-content/pu/RAL%202005.png 13 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/moduleigtt/admin/wp-content/pu/RAL%207003.png 13 https://parvamconsultech.com/moduleigtt/admin/edit.php
+/sendmail.php 6 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 112
+49.205.149.55 1100 8751 1235649204 20220131232255
+36.255.86.216 616 7043 687563319 20220131060332
+49.206.12.77 500 11615 1824403127 20220111052421
+27.111.75.200 302 944 73626950 20220128230153
+220.158.159.33 196 3121 372453065 20220113060402
+49.206.12.141 145 2326 925572871 20220106030424
+42.109.129.162 96 381 35998239 20220128045550
+223.186.53.207 69 1108 140428235 20220114031714
+103.57.83.159 59 100 3448947 20220125032719
+106.193.22.151 59 976 168062074 20220114060618
+220.158.158.102 52 1098 122715479 20220114020733
+42.109.128.210 40 726 120522608 20220117232359
+223.231.167.197 36 264 10436961 20220108051530
+106.193.57.248 35 718 56330270 20220114004253
+49.205.218.74 31 390 22916808 20220123013742
+106.193.68.2 26 1047 132866629 20220113230102
+157.50.57.221 23 196 8706832 20220125090008
+49.207.223.139 20 97 1078515 20220111015943
+223.231.167.220 20 545 47946168 20220131111720
+36.255.86.219 19 508 83594153 20220104041114
+162.214.80.40 18 18 25028 20220129100128
+220.158.159.28 16 88 12599645 20220117235753
+27.59.121.190 15 52 2530831 20220113061033
+106.51.85.22 15 142 10034436 20220117010401
+223.237.232.56 14 39 587769 20220112223316
+223.231.176.150 1 1 995 20220121101510
+223.186.140.197 10 100 2359556 20220129095525
+34.77.162.19 1 1 36517 20220118214048
+122.162.191.224 4 53 918668 20220129100133
+49.44.85.11 1 1 2 20220111014823
+92.118.160.17 1 1 36529 20220109142914
+103.56.230.72 1 18 205063 20220128012033
+111.91.127.203 4 19 1072053 20220131032429
+202.71.1.5 1 60 19452554 20220105034939
+49.44.78.171 4 23 1662780 20220111231306
+34.96.130.30 1 1 36529 20220106231146
+64.233.172.117 0 4 19110 
+34.96.130.9 1 1 36517 20220111045523
+103.59.199.68 1 1 52582 20220112224623
+34.77.162.14 2 2 73046 20220111211658
+223.196.82.133 1 1 29899 20220119073216
+92.118.160.57 3 3 109563 20220130051336
+223.237.185.215 7 18 14642 20220102204432
+34.86.35.3 1 1 36517 20220121000648
+172.58.223.153 1 8 199671 20220131083756
+157.45.249.59 4 23 457609 20220119021206
+42.106.160.71 7 94 97239084 20220110002003
+1.39.166.195 4 88 1501587 20220117004919
+92.118.160.41 1 1 36517 20220122065834
+27.4.32.106 5 97 5105053 20220108205233
+27.59.107.5 12 43 3086034 20220103211603
+106.196.30.253 0 2 91998 
+223.186.214.15 4 11 238280 20220103075817
+49.206.12.32 2 2 2220 20220131224923
+34.77.162.25 1 1 36529 20220129090541
+106.76.45.155 6 98 5105053 20220108204332
+34.77.162.28 1 1 36529 20220114100049
+49.207.195.25 8 85 12140097 20220125204722
+42.109.128.18 7 268 57796099 20220105042527
+106.66.149.32 2 60 756424 20220123224706
+64.233.172.119 1 10 122944 20220128220849
+106.196.23.255 3 3 0 20220105014316
+106.197.201.138 1 1 29899 20220119073212
+49.37.190.168 4 7 8536 20220103213536
+49.205.148.97 10 492 44627328 20220108002229
+223.196.78.4 3 19 416028 20220119021214
+49.207.197.185 0 1 0 
+49.44.76.230 1 8 199671 20220111231244
+49.37.184.91 6 12 9658 20220105023257
+74.125.210.115 1 6 18301 20220128220350
+123.176.33.69 5 158 38358987 20220106025532
+49.44.80.170 1 8 199671 20220131083730
+27.4.52.75 2 44 8842977 20220102015314
+34.96.130.7 1 1 36529 20220103162702
+34.86.35.8 1 1 36517 20220113151951
+223.186.145.165 2 2 1172 20220128070456
+106.216.160.67 9 331 55582478 20220117034619
+223.186.69.110 6 64 23727591 20220117024317
+223.186.156.246 1 1 29899 20220114044631
+165.225.123.52 2 2 262 20220112223401
+139.137.128.46 0 3 572486 
+34.96.130.28 1 1 36517 20220106200825
+69.30.229.66 1 1 11766 20220120132256
+34.86.35.20 1 1 36529 20220118144609
+223.231.176.159 11 108 3871337 20220125084612
+1.39.177.92 2 10 89656 20220112222000
+74.125.210.117 0 5 72211 
+157.45.241.103 1 1 0 20220102061614
+34.96.130.20 1 1 36517 20220129215017
+1.39.147.135 7 17 325907 20220125095353
+92.118.160.1 3 3 109575 20220124125745
+42.105.116.110 1 16 124315 20220110010808
+106.197.197.150 2 16 158092 20220111201656
+49.37.187.70 2 6 1122 20220102212436
+172.56.3.92 3 19 416028 20220119021328
+223.231.160.134 13 23 343717 20220121050903
+223.237.233.253 1 1 29899 20220106042415
+1.39.141.218 11 20 235717 20220105042203
+49.44.86.72 1 8 199671 20220113051655
+34.86.35.4 1 1 36529 20220121221149
+49.207.198.89 3 24 315646 20220113045832
+157.45.35.74 1 1 131 20220112222406
+106.196.17.17 7 282 39462605 20220118022515
+223.196.116.101 5 128 35909224 20220102233232
+64.233.172.115 0 4 21767 
+113.193.183.229 6 127 29282936 20220113003219
+49.44.85.41 4 89 4848647 20220108205343
+74.125.210.119 0 4 32176 
+157.45.146.74 2 67 6331152 20220117011226
+27.59.64.225 1 1 29899 20220101214428
+223.231.128.133 0 6 199628 
+157.50.50.93 1 1 131 20220127235253
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20220101 1 1 29899 1
+20220102 39 1649 153758654 7
+20220103 101 1180 170934540 9
+20220104 46 1097 245936107 6
+20220105 146 2547 714459150 10
+20220106 106 2020 461522000 7
+20220107 92 2378 527762602 3
+20220108 67 769 34972883 6
+20220109 19 610 88213409 2
+20220110 48 862 209035243 8
+20220111 378 6918 940052688 12
+20220112 363 4382 500752944 9
+20220113 122 2338 357028194 11
+20220114 222 3929 502603885 10
+20220116 1 2 36517 1
+20220117 157 2283 337123588 10
+20220118 16 444 77918621 5
+20220119 21 292 100351100 7
+20220120 74 812 202186855 5
+20220121 84 1334 140384725 9
+20220122 17 39 794849 2
+20220123 104 1807 200348222 5
+20220124 77 1246 151452540 5
+20220125 191 1178 92093946 9
+20220126 1 14 16639 1
+20220127 99 868 104900804 5
+20220128 684 2194 127353772 16
+20220129 425 1105 22627742 13
+20220130 2 2 36529 2
+20220131 82 1342 145264479 10
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+0s-30s 88
+1h+ 27
+2mn-5mn 14
+30s-2mn 26
+5mn-15mn 17
+30mn-1h 19
+15mn-30mn 15
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 233
+/moduleigtt/admin/dashboard.php 318 33914558 10 1
+/moduleigtt/wp-content/handler.php 295 66552 6 26
+/moduleigtt/admin/viewdetails.php 265 1030950 1 7
+/moduleigtt/ 252 44209009 54 6
+/groceryapp/admin/dashboard.php 249 102971 1 2
+/moduleigtt/handletypedata.json 154 96101584 0 1
+/moduleigtt/finishcolordata.json 122 6796710 1 0
+/moduleigtt/appliances.json 108 154187 0 3
+/institutionerp/upendra/get_agent_payment_dashboard.php 107 4173 0 1
+/institutionerp/upendra/get_student_payment_dashboard.php 107 4173 0 1
+/moduleigtt/admin/edit.php 103 27644357 2 6
+/moduleigtt/wp-content/blog/ElegantIcons.woff 101 6430064 0 2
+/moduleigtt/wp-content/themes/dor/framework/lib/icons-pack/ion-icons/fonts/ionicons.ttf 94 17740056 1 11
+/moduleigtt/wp-content/Uploaddesigtoserver.php 90 2711 0 1
+/groceryapp/admin/index.php 64 33587 3 1
+/groceryapp/admin/ 48 31728 4 2
+/moduleigtt/admin/revisequotation.php 45 1980 0 0
+/moduleigtt/admin/assets/fonts/webfonts/fa-solid-900.woff2 41 3257204 0 1
+/moduleigtt/admin/ 39 83638 12 5
+/moduleigtt/admin/assets/fonts/ico-font/icofont.woff2 39 20976852 0 4
+/moduleigtt/admin/customerpdf.php 33 10411405 2 11
+/groceryapp/admin/manage-orders.php 33 53981 0 1
+/moduleigtt/admin/finishcolordata.json 32 1651973 0 2
+/seft/get_student_payment_dashboard.php 32 1504 0 2
+/seft/get_agent_payment_dashboard.php 32 1432 0 1
+/water/assets/fonts/fa-solid-900.woff2 1 117452 0 0
+/test_moduleigtt/handletypedata.json 7 5501790 0 0
+/groceryapp/admin/fonts/fontawesome-webfont.woff 4 325136 0 0
+/pibeam/wp-content/plugins/jet-elements/assets/css/lib/slider-pro/images/closedhand.html 2 242 0 1
+/swcs/admin/view-cust-feedback.php 11 37325 3 4
+/institutionerp/upendra/delete_subject.php 2 344 0 0
+/brick2brick/projects.html 3 14616 1 0
+/moduleigtt/portfolio/portfolio-murphybed.html 1 220734 0 0
+/test_moduleigtt/admin/handletypedata.json 1 446574 0 0
+/qleaps_test/wp-login.php 2 5084 0 0
+/moduleigtt/portfolio/portfolio-BedroomTvspace.html 4 892884 1 0
+/ 23 815272 23 23
+/institutionerp/upendra/parvamAdmin/webfonts/fa-regular-400.woff2 1 13608 0 0
+/moduleigtt/portfolio/portfolio-kitchen%20Island.html 3 658538 0 0
+/test_moduleigtt/ 11 2433884 3 0
+/seft/fetch_agent_payment.php 1 7 0 0
+/dvcard/kanika/kanikavcard.php 1 3929 0 0
+/institutionerp/upendra/webfonts/fa-solid-900.woff2 3 222960 0 0
+/moduleigtt/portfolio/modfolio-others.html 4 842966 0 1
+/reliflex/assets/fonts/flaticon813b.ttf 1 20104 0 0
+/seft/login.php 13 11288 2 2
+/institutionerp/upendra/add-new-grade.php 11 51628 0 0
+/seft/student-details.php 2 8722 0 0
+/groceryapp/admin/manage-items.php 21 74235 1 1
+/seft/webfonts/fa-regular-400.woff2 7 95256 0 1
+/institutionerp/upendra/add_new_grade.php 2 342 0 0
+/dvcard/rohilakshmana/rohitlakshmana.php 2 9270 0 0
+/brick2brick/assets/fonts/revicons90c6.woff 3 22608 0 0
+/dvcard/karthik/karthikvcard.php 2 7482 0 0
+/institutionerp/upendra/fonts/Flaticon.woff2 3 26544 0 0
+/swcs/admin/view-customer-feedback-details.php 2 8541 0 0
+/dvcard/ParvaM/ 1 4334 0 1
+/swcs/admin/logout.php 1 127 1 0
+/groceryapp/admin/notification.php 8 15522 0 0
+/moduleigtt/portfolio/modfolio-kitchen.html 3 639165 0 0
+/moduleigtt/portfolio/portfolio-dresserunit.html 1 223560 0 0
+/qleaps_test/wp-admin/load-scripts.php 2 56231 0 0
+/test_moduleigtt/admin/edit.php 7 1425949 0 0
+/brick2brick/project-details.html 1 5441 0 0
+/qleaps_test/wp-admin/load-styles.php 1 136099 0 0
+/institutionerp/upendra/parvamAdmin/login.php 2 1491 0 0
+/moduleigtt/portfolio/portfolio-living.html 1 220465 0 0
+/brick2brick/services.html 5 22732 1 2
+/seft/view-all-student.php 5 37741 0 0
+/moduleigtt/portfolio/portfolio-Straightkitchen.html 3 673312 0 0
+/pibeam/about-us/ 4 97171 0 0
+/dvcard/Basavaraju/Basavarajuvcard.php 3 12204 1 1
+/moduleigtt/portfolio/portfolio-livingexclusive.html 1 219612 0 0
+/institutionerp/upendra/view-all-grade-master.php 3 13017 0 0
+/water/assets/fonts/fa-regular-400.woff2 1 145152 0 0
+/water/assets/fonts/fa-brands-400.woff2 1 74700 0 0
+/moduleigtt/admin/deletequotation.php 1 36 0 1
+/institutionerp/upendra/delete_parent.php 1 190 0 0
+/moduleigtt/portfolio/modfolio-foyer.html 2 418597 0 0
+/test_moduleigtt/admin/assets/fonts/webfonts/fa-solid-900.woff2 5 397220 0 0
+/groceryapp/admin/view-order.php 3 5640 0 0
+/groceryapp/admin/manage-user.php 12 21013 0 0
+/moduleigtt/portfolio/portfolio-Wardrobesliding.html 2 438704 0 0
+/test_moduleigtt/admin/viewdetails.php 16 59260 0 1
+/moduleigtt/portfolio/modfolio-dining.html 2 422872 0 0
+/test_moduleigtt/wp-content/themes/dor/framework/lib/icons-pack/ion-icons/fonts/ionicons.ttf 5 943620 0 1
+/institutionerp/upendra/add-new-subject.php 20 97255 0 0
+/water/company-values.html 3 27036 0 1
+/pibeam/contact-us/ 2 36096 0 0
+/pibeam/e-kart/ 2 33833 0 0
+/moduleigtt/Decorurhome.html 1 32735 0 1
+/swcs/admin/index.php 6 792 0 0
+/seft/agent-details.php 6 21914 0 0
+/moduleigtt/portfolio/portfolio-bedroomexclusive.html 3 663475 0 0
+/institutionerp/upendra/add-grade-fee.php 11 49944 0 0
+/groceryapp/admin/manage-category.php 10 25527 0 0
+/institutionerp/upendra/update_parent.php 3 570 0 0
+/moduleigtt/portfolio/portfolio-Vanitycounter.html 2 437400 0 0
+/pibeam/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.html 14 864963 1 1
+/moduleigtt/portfolio/portfolio-kitchen%20Parallel.html 3 659243 0 0
+/brick2brick/Renovation.html 6 25048 0 0
+/moduleigtt/wp-content/careers/ElegantIcons.woff 1 63664 0 0
+/pibeam/e-auto/ 2 33625 0 1
+/groceryapp/admin/fonts/glyphicons-halflings-regular.woff2 3 54084 0 0
+/moduleigtt/portfolio/portfolio-foyer.html 2 449722 0 0
+/pibeam/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons0b93.html 16 1089586 1 3
+/seft/add_agent_payment.php 1 177 0 0
+/seft/add-new-student.php 3 13761 0 0
+/groceryapp/admin/add-category.php 18 27548 0 0
+/swcs/admin/Dashboard.php 10 29809 1 1
+/seft/webfonts/fa-solid-900.woff2 7 520240 0 2
+/moduleigtt/portfolio/portfolio-wallpanelling.html 1 221006 0 0
+/institutionerp/upendra/update_grade_master.php 1 178 0 0
+/seft/ 8 1048 7 2
+/institutionerp/upendra/student-details.php 11 60824 0 0
+/test_moduleigtt/admin/ 5 11005 0 0
+/seft/add-new-agent.php 2 6930 0 0
+/pibeam/gallery/ 5 82121 1 0
+/dvcard/ParvaM/index.php 2 8668 0 1
+/seft/view-agents.php 5 32580 0 0
+/moduleigtt/portfolio/modfolio-bedroom.html 5 1091599 0 0
+/qleaps_test/blog/ 3 57613 0 0
+/dvcard/adnanhabbir/adnanshabbir.php 20 78737 5 3
+/moduleigtt/portfolio/portfolio-barunit.html 1 220925 0 0
+/reliflex/about.html 1 5892 0 0
+/moduleigtt/wp-content/blog/ionicons.ttf 1 188724 0 1
+/moduleigtt/portfolio/portfolio-crockerycomebarunit.html 1 224330 0 0
+/moduleigtt/portfolio/portfolio-chestofdrawers.html 3 665183 0 0
+/institutionerp/upendra/add_subject_master.php 3 516 0 0
+/institutionerp/upendra/view-all-student.php 17 101538 0 0
+/moduleigtt/portfolio/portfolio-framedcot.html 3 667754 0 0
+/pibeam/ 28 919964 10 4
+/moduleigtt/portfolio/portfolio-onsitewoodworks.html 3 673354 0 0
+/groceryapp/admin/message.php 11 18414 0 0
+/swcs/admin/customer_feedback.php 2 179739 0 0
+/water/ser-d-dumpster.html 1 7949 0 0
+/institutionerp/upendra/update_grade_fee.php 2 366 0 0
+/institutionerp/upendra/add-new-student.php 3 14994 0 0
+/institutionerp/upendra/add_student_master.php 1 138 0 0
+/test_moduleigtt/appliances.json 7 10087 0 0
+/pibeam/pimo-utility-2-wheeler/ 10 150500 2 4
+/brick2brick/ 7 110712 3 0
+/brick2brick/Commercial-Construction.html 2 33943 0 0
+/decanvas/ 1 0 1 1
+/swcs/ 2 4984 2 0
+/institutionerp/upendra/parvamAdmin/index.php 1 136 0 0
+/institutionerp/upendra/parvamAdmin/webfonts/fa-solid-900.woff2 1 74320 0 0
+/test_moduleigtt/wp-content/Uploaddesigtoserver.php 3 90 0 0
+/seft/update_student_master.php 1 138 0 0
+/dvcard/sreekumar/sreekumarvcard.php 2 9200 0 0
+/brick2brick/assets/fonts/pe-icon-7-strokebb1d.woff 4 234224 1 1
+/qleaps_test/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.woff2 2 156392 0 0
+/groceryapp/admin/update-item.php 5 9708 0 0
+/institutionerp/upendra/add_grade_fee.php 1 171 0 0
+/qleaps_test/ 9 226714 3 0
+/test_moduleigtt/admin/assets/fonts/ico-font/icofont.woff2 5 2689340 0 0
+/seft/index.php 4 544 0 0
+/qleaps_test/wp-cron.php 16 0 4 4
+/groceryapp/admin/fonts/fontawesome-webfont.ttf 4 552816 0 0
+/pibeam/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.html 14 884136 1 0
+/dvcard/gopal/gopalvcard.php 1 4172 1 0
+/institutionerp/upendra/Dashboard.php 7 35577 1 0
+/test_moduleigtt/admin/finishcolordata.json 1 15065 0 0
+/institutionerp/upendra/login.php 8 5637 0 1
+/moduleigtt/portfolio/portfolio-moduleigttexclusive.html 4 881603 0 0
+/test_moduleigtt/admin/dashboard.php 14 1781378 0 0
+/institutionerp/upendra/parvamAdmin/fonts/Flaticon.woff2 1 8848 0 0
+/reliflex/ 2 24922 1 0
+/moduleigtt/admin/handletypedata.json 29 21155383 0 1
+/institutionerp/upendra/ 5 621 2 1
+/moduleigtt/portfolio/portfolio-Displayunit.html 5 1114771 0 0
+/dvcard/khushboo/khushboo.php 2 8636 0 0
+/reliflex/assets/fonts/fa-solid-900.ttf 1 387440 0 0
+/institutionerp/upendra/webfonts/fa-regular-400.woff2 3 40824 0 0
+/test_moduleigtt/finishcolordata.json 7 105455 0 0
+/aakruthi-erp/ 3 4440 2 2
+/kpl/ 5 149495 5 5
+/swcs/admin/ 3 381 1 0
+/upasthit/ 3 3396 1 1
+/groceryapp/admin/fonts/glyphicons-halflings-regular.woff 3 70272 0 0
+/test_moduleigtt/wp-content/handler.php 7 1617 0 1
+/qleaps_test/wp-admin/admin-ajax.php 2 156 0 0
+/moduleigtt/portfolio/portfolio-crockery.html 4 899128 0 2
+/seft/fonts/Flaticon.woff2 4 35392 0 0
+/institutionerp/upendra/student-parents.php 19 109942 0 0
+/pibeam/e-trike-3-loading/ 2 34204 0 0
+/institutionerp/upendra/view-all-subject.php 8 33482 0 0
+/water/ 6 80710 4 3
+/seft/Dashboard.php 6 38961 0 0
+/moduleigtt/portfolio/portfolio-kitchen%20L-shape%20.html 1 220743 0 0
+/qleaps_test/wp-admin/upgrade.php 1 1 0 0
+/moduleigtt/admin/editDetailsInsert.php 4 2171 0 0
+/test_moduleigtt/wp-content/blog/ElegantIcons.woff 7 445648 0 0
+/brick2brick/Residential-Construction.html 8 84791 1 3
+/institutionerp/upendra/parvamAdmin/Dashboard.php 1 3126 0 0
+/reliflex/project.html 1 4691 0 1
+/dvcard/nanda/nanda.php 1 3937 0 0
+/seft/fetch_student_year.php 1 8 0 0
+/institutionerp/upendra/parvamAdmin/ 1 131 0 0
+/institutionerp/upendra/add_student_parent.php 3 537 0 0
+/reliflex/assets/fonts/revicons/revicons90c6.woff 1 7536 0 0
+/moduleigtt/portfolio/portfolio-kitchen%20U-shape.html 4 876430 0 0
+/qleaps_test/contactus/ 3 78013 0 1
+/water/assets/fonts/wastey-icon1efa.ttf 1 53748 0 0
+/institutionerp/upendra/parvamAdmin/view-Colleges.php 1 3749 0 0
+/moduleigtt/portfolio/portfolio-Wardrobeopenable.html 3 659815 0 0
+/brick2brick/assets/fonts/fontawesome-webfont3e6e.woff2 3 231480 0 0
+/moduleigtt/portfolio/modfolio-poojaunit.html 1 208126 0 0
+/qleaps_test/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.woff2 3 230292 0 0
+/groceryapp/admin/fonts/glyphicons-halflings-regular.ttf 3 136212 0 0
+/seft/agent-payment.php 3 11959 0 0
+/moduleigtt/portfolio/portfolio-BookShelves.html 3 658844 0 0
+/qleaps_test/wp-admin/ 1 36999 0 0
+/groceryapp/admin/add-items.php 9 18850 0 1
+/qleaps_test/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff2 5 447220 0 1
+/test_moduleigtt/admin/customerpdf.php 1 59106 0 0
+/pibeam/pimo-indias-first-urban-utility-ev-unlock-glide/ 12 163863 0 1
+/seft/student-insert-form.php 1 2495 1 0
+/moduleigtt/portfolio/modfolio-living.html 4 850984 1 0
+/moduleigtt/portfolio/ 11 2669367 2 1
+/institutionerp/upendra/grade_master_delete.php 1 176 0 0
+/moduleigtt/portfolio/portfolio-Wardrobewalkin.html 3 665451 0 1
+/institutionerp/upendra/parvamAdmin/view-college-details.php 1 4444 0 0
+/institutionerp/upendra/index.php 4 544 0 0
+/swcs/admin/login.php 18 13873 4 7
+/dvcard/roshanlobo/roshanlobo.php 6 22872 1 2
+/qleaps_test/about-us/ 2 46780 0 0
+/moduleigtt/careers.html 1 18725 1 0
+/groceryapp/admin/fonts/fontawesome-webfont.woff2 4 257856 0 0
+/moduleigtt/portfolio/portfolio-BedroomStudyroom.html 5 883143 0 1
+/test_moduleigtt/admin/revisequotation.php 2 88 0 0
+/reliflex/assets/fonts/fa-light-300.ttf 1 493688 0 0
+/pibeam/services/ 5 89289 0 0
+END_SIDER

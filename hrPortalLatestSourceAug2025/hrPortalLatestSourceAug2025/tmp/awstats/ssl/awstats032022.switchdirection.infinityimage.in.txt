@@ -1,0 +1,316 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202203 will be lost/reset.
+# Last config file used to build this data file was /home4/parvamco/tmp/awstats/ssl/awstats.switchdirection.infinityimage.in.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2034                
+POS_TIME 2707                
+POS_VISITOR 7272                
+POS_DAY 8653                
+POS_DOMAIN 3275                
+POS_LOGIN 3570                
+POS_ROBOT 3725                
+POS_WORMS 3896                
+POS_EMAILSENDER 4027                
+POS_EMAILRECEIVER 4170                
+POS_SESSION 9079                
+POS_SIDER 9237                
+POS_FILETYPES 4305                
+POS_DOWNLOADS 4423                
+POS_OS 4471                
+POS_BROWSER 4608                
+POS_SCREENSIZE 4947                
+POS_UNKNOWNREFERER 5021                
+POS_UNKNOWNREFERERBROWSER 5651                
+POS_ORIGIN 6190                
+POS_SEREFERRALS 6323                
+POS_PAGEREFS 6467                
+POS_SEARCHWORDS 6615                
+POS_KEYWORDS 6767                
+POS_MISC 2370                
+POS_ERRORS 6826                
+POS_CLUSTER 3426                
+POS_SIDER_404 6920                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20220403185903 1 0 15194812121548
+FirstTime 20220303181319
+LastTime 20220329220605
+LastUpdate 20220404061926 1 0 0 0 0
+TotalVisits 31                  
+TotalUnique 30                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 36                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+DirectorSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+FlashSupport 0 0 0
+JavascriptDisabled 0 0 0
+AddToFavourites 0 12 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+PDFSupport 0 0 0
+JavaEnabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 3 17 3390283 1 3 1896
+1 0 0 0 4 4 0
+2 0 0 0 0 0 0
+3 1 1 11186 0 0 0
+4 1 1 11186 1 1 11186
+5 0 0 0 0 0 0
+6 0 0 0 1 1 11186
+7 0 0 0 0 0 0
+8 1 1 2618 0 0 0
+9 1 1 0 0 0 0
+10 0 0 0 0 0 0
+11 0 0 0 0 0 0
+12 2 2 5236 0 2 1896
+13 3 3 7854 0 2 1896
+14 1 1 11186 0 0 0
+15 0 0 0 0 0 0
+16 1 1 11186 0 0 0
+17 8 8 29512 0 0 0
+18 3 6 22372 0 1 0
+19 8 21 1816430 0 4 1896
+20 1 3 28730 1 1 226
+21 1 2 11186 0 0 0
+22 2 6 904084 0 1 948
+23 2 11 4020510 0 0 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 6
+us 11 11 86156
+in 8 54 10102203
+gb 7 7 18326
+ru 5 5 21658
+jp 4 4 10472
+gr 4 4 44744
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 1
+no_user_agent 2 22372 20220322041731 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 3
+css 8 76470 0 0
+js 38 10010025 0 0
+html 39 197064 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 6
+winxp 1 1
+linuxandroid 4 4
+linux 1 1
+win10 51 13
+win7 9 1
+Unknown 19 19
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 14
+chrome99.0.4844.82 4 0
+chrome98.0.4758.102 3 1
+chrome94.0.4606.61 4 4
+chrome92.0.4515.131 1 1
+chrome24.0.1284.0.3.742.3 1 1
+mozilla 1 1
+Unknown 18 18
+firefox98.0 7 1
+chrome94.0.4606.71 9 1
+chrome99.0.4844.51 26 4
+firefox83.0 1 1
+chrome92.0.4515.107 1 1
+chrome99.0.4844.74 5 1
+android 4 4
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20220329220605
+Go-http-client/1.1 20220311172619
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20220325233112
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20220304082021
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+Go-http-client/1.1 20220311172619
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20220329220605
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20220325233112
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 38 38
+From1 1 1
+From2 0 0
+From3 0 0
+From4 0 46
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+404 5 0
+406 1 226
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 3
+/login 1 -
+/.DS_Store 2 -
+/.git/config 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 36
+185.59.221.226 7 7 18326 20220311172619
+133.242.174.119 2 2 5236 20220311192406
+42.109.128.163 2 10 1785796 20220306232955
+133.242.140.127 2 2 5236 20220311192141
+223.226.45.30 1 3 0 20220303181319
+34.77.162.8 1 1 11186 20220329220605
+34.250.115.156 1 1 0 20220308095901
+34.86.35.22 1 1 11186 20220324182324
+34.96.130.25 1 1 11186 20220324143547
+34.86.35.9 1 1 11186 20220322161151
+89.104.100.190 1 1 2618 20220312131318
+117.96.235.112 1 7 910442 20220317190441
+92.118.160.13 1 1 11186 20220320035237
+92.118.160.61 1 1 11186 20220325215313
+15.188.89.39 1 1 2618 20220320131632
+106.200.219.150 1 3 0 20220314191227
+42.109.128.43 1 7 910442 20220329000530
+92.118.160.5 1 1 11186 20220325233112
+176.113.42.180 1 1 2618 20220313122356
+34.86.35.21 1 1 11186 20220323000839
+34.96.130.3 1 1 11186 20220317184112
+34.96.130.21 1 1 11186 20220329200635
+106.200.207.169 1 5 892898 20220322190909
+162.142.125.222 1 1 2618 20220304082021
+176.53.221.35 1 1 2618 20220312120112
+106.200.205.148 0 2 0 
+171.76.124.11 0 2 1558213 
+223.226.113.253 0 1 0 
+122.182.199.197 0 1 0 
+122.167.100.25 0 2 17544 
+171.61.99.34 0 2 1558213 
+171.76.122.43 1 9 2468655 20220329002354
+89.175.184.250 1 1 11186 20220311171931
+34.240.174.209 1 1 2618 20220311194956
+92.118.160.9 1 1 11186 20220321041858
+176.53.216.217 1 1 2618 20220313132859
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 18
+20220303 1 3 0 1
+20220304 1 1 2618 1
+20220306 2 11 1785796 2
+20220308 1 1 0 1
+20220310 0 2 0 0
+20220311 13 13 42602 5
+20220312 2 2 5236 2
+20220313 2 2 5236 2
+20220314 1 3 0 1
+20220315 0 1 0 0
+20220317 2 10 2479841 2
+20220320 2 2 13804 2
+20220321 1 1 11186 1
+20220322 2 6 904084 2
+20220323 1 3 28730 1
+20220324 2 4 1580585 2
+20220325 2 2 22372 2
+20220329 4 18 3401469 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+0s-30s 30
+5mn-15mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 1
+/ 39 197064 31 31
+END_SIDER

@@ -1,0 +1,673 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202206 will be lost/reset.
+# Last config file used to build this data file was /home4/parvamco/tmp/awstats/awstats.parvam.co.in.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2010                
+POS_TIME 2676                
+POS_VISITOR 16433               
+POS_DAY 16801               
+POS_DOMAIN 3290                
+POS_LOGIN 3515                
+POS_ROBOT 3670                
+POS_WORMS 3802                
+POS_EMAILSENDER 3933                
+POS_EMAILRECEIVER 4076                
+POS_SESSION 16896               
+POS_SIDER 17053               
+POS_FILETYPES 4211                
+POS_DOWNLOADS 4308                
+POS_OS 4356                
+POS_BROWSER 4445                
+POS_SCREENSIZE 4545                
+POS_UNKNOWNREFERER 4619                
+POS_UNKNOWNREFERERBROWSER 4847                
+POS_ORIGIN 4967                
+POS_SEREFERRALS 5099                
+POS_PAGEREFS 5243                
+POS_SEARCHWORDS 5391                
+POS_KEYWORDS 5543                
+POS_MISC 2340                
+POS_ERRORS 5602                
+POS_CLUSTER 3371                
+POS_SIDER_404 5729                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20220701055002 77 19437 14086515990011
+FirstTime 0
+LastTime 20220625171824
+LastUpdate 20220701062807 77 0 76 0 0
+TotalVisits 8                   
+TotalUnique 8                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 8                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+PDFSupport 0 0 0
+JavaEnabled 0 0 0
+RealPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+JavascriptDisabled 0 0 0
+TotalMisc 0 0 0
+AddToFavourites 0 2 0
+FlashSupport 0 0 0
+DirectorSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 16 17 3170
+1 0 0 0 17 97 2986
+2 0 0 0 22 42 3432
+3 0 0 0 9 9 1011
+4 0 0 0 104 110 2379
+5 0 0 0 71 76 9970
+6 0 0 0 37 38 5632
+7 0 0 0 29 32 3212
+8 0 0 0 125 126 5983
+9 0 0 0 40 41 6322
+10 0 0 0 83 87 6416
+11 0 0 0 30 35 3942
+12 0 0 0 34 36 4269
+13 0 0 0 21 21 2242
+14 0 0 0 17 21 2623
+15 0 0 0 251 259 14089
+16 0 0 0 31 31 2766
+17 47 47 3708 354 359 5100
+18 1 1 0 215 220 2849
+19 0 0 0 41 42 5317
+20 0 0 0 39 40 6162
+21 0 0 0 239 241 17664
+22 0 0 0 13 15 1392
+23 0 0 0 29 32 1335
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+us 48 48 3708
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 2
+Unknown 45 3708 0 0
+html 3 0 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 2
+Unknown 45 45
+win10 3 3
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 3
+chrome101.0.4951.54 3 3
+mozilla 36 36
+Unknown 9 9
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Cpanel-HTTP-Client/1.0 20220624170844
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20220624171622
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Cpanel-HTTP-Client/1.0 20220624170844
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 48 48
+From1 0 0
+From2 0 0
+From3 0 0
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+409 50 3154
+301 222 51117
+404 1461 0
+406 290 65540
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 410
+/wordpress/xmlrpc.php 65 -
+/wp-content/languages/ 1 www.google.com
+/wp-content/uploads/ 1 www.google.com
+/oldsite/wp-admin/install.php 2 -
+/tttt.php 2 -
+/wp-content/mu-plugins/db-safe-mode.php 2 www.bing.com
+/wp-content/plugins/ubh/up.php 4 www.bing.com
+/sites/default/files/cgialfa 2 www.bing.com
+/wp-content/export.php 4 www.bing.com
+/site 3 -
+/.well-known/cgialfa 2 www.bing.com
+/css 3 -
+/old/wp-admin/install.php 2 -
+/wp-includes/js/jquery/jquery.js 4 -
+/www 3 -
+/style.php 5 bing.com
+/controllers 3 -
+/wp-content/uploads/readindex.php 2 -
+/payload3.php 1 -
+/language 3 -
+/samples 3 -
+/.git/HEAD 3 -
+/backup/wp-admin/install.php 2 -
+/api 3 -
+/ 44 -
+/s/3136322e3231342e38302e3430/_/ 3 -
+/usnqxpla.php 1 www.google.com
+/telescope/requests 3 -
+/images/slider/slider_img1.jpg 5 -
+/application/config/sms_settings.php 2 -
+/phpinfo.php 4 -
+/cli 3 -
+/blog/robots.txt 2 -
+/kmjhmpzv.php 1 www.google.com
+/test.php 5 www.google.com
+/web 3 -
+/_site 3 -
+/wp-admin/sog4x.php 2 -
+/system 3 -
+/ALFA_DATA/alfacgiapi/perl.alfa 3 www.google.com
+/tables 3 -
+/wp-admin 3 -
+/network 3 -
+/up.php 5 www.bing.com
+/beence.php 4 www.bing.com
+/skippershell.php 2 -
+/admin.php 3 www.google.com
+/media/system/js/core.js 4 -
+/new/xmlrpc.php 65 -
+/config.js 3 -
+/fields 3 -
+/_profiler/phpinfo 4 -
+/wp-content/plugins/unicode/cgi.php 1 www.google.com
+/wp-content/includes/uploads/Va.php 2 -
+/phpinfo 4 -
+/wp-class.php 1 www.google.com
+/wp-admin/style.php 2 www.bing.com
+/sites/default/files/ALFA_DATA 2 www.bing.com
+/akismet 3 -
+/example 3 -
+/upload.php 3 www.bing.com
+/templates/beez3/alfacgiapi 2 www.bing.com
+/wp-json/wp/v2/users/ 3 -
+/wp-includes/wp-2019.php 2 www.google.com
+/content.php 1 www.google.com
+/fw.php 3 www.google.com
+/forms 3 -
+/export.php 2 www.bing.com
+/images/clients/client6.png 5 -
+/wp-content/plugins/backup_index.php 2 www.bing.com
+/blog 3 -
+/shells.php 2 www.bing.com
+/admin/controller/extension/extension/alfacgiapi 2 www.bing.com
+/en-GB 3 -
+/.git/config 3 -
+/wp-includes/images/css.php 2 www.bing.com
+//vendor/phpunit/phpunit/phpunit.xsd 8 -
+/Javascript 3 -
+/9BdFE.php 1 www.google.com
+/wp-content/themes/sketch/404.php 2 www.google.com
+/js 3 -
+/wp-includes/css/ 1 www.google.com
+//wordpress//wp-admin/install.php 3 bing.com
+/xx.php 1 www.google.com
+//wordpress///wp-admin/setup-config.php 3 bing.com
+/old/wp-json/wp/v2/users 2 -
+/cgi/mt/mt-xmlrpc.cgi 1 -
+/media-admin.php 5 www.bing.com
+/underscore 3 -
+/wp-backup-sql-302.php 4 www.bing.com
+/wp-content/plugins/dzs-zoomsounds/savepng.php 2 -
+/mssql 3 -
+/odbc 3 -
+/images/mobile_img.png 5 -
+/o.php 1 -
+/wp-content/cgialfa 2 www.bing.com
+/wp-atom.php 3 www.google.com
+/ffAA531.php 3 www.google.com
+/config.php 2 www.bing.com
+/docs 3 -
+/images/clients/client3.png 5 -
+/server-status 3 -
+/wp-info.php 2 -
+/humans.txt 4 -
+/images/clients/client8.png 5 -
+/wp-includes/css/wp-config.php 2 www.bing.com
+/doc.php 2 www.bing.com
+/cubrid 3 -
+/xbgxcbhv.php 1 www.google.com
+/js/bootstrap.js 2 -
+/y.php 1 -
+/1index.php 2 www.bing.com
+/tmpl 3 -
+/search 3 -
+/wp-plain.php 17 www.google.com
+/wp-minu.php 2 -
+/assets 3 -
+/.well-known/alfacgiapi 2 www.bing.com
+/uploader.php 2 -
+/logs 3 -
+/Session 3 -
+/robots.txt 22 -
+/alfashell.php 2 -
+/service.php 1 http://parvam.co.in
+/images/vuln.php 1 -
+/wp-plugins.php 4 www.bing.com
+/wp-content/ 9 -
+/errors 3 -
+/tests 3 -
+/my_alfa.php 2 -
+/pdo 3 -
+/templates 3 -
+/wp-content/uploads/2022/ 1 www.google.com
+/xmrlpc.php 3 www.bing.com
+/wp-signup.php 1 www.google.com
+/e.php 1 -
+/aws.yml 3 -
+/wp-includes/alfacgiapi 2 www.bing.com
+/ru.php 2 -
+/third_party 3 -
+/vuln.php 2 -
+/test_404_page/ 2 -
+/postgre 3 -
+/old/xmlrpc.php 65 -
+/web/wp-admin/install.php 2 -
+/description 3 -
+/images/logo/logo1.png 5 -
+/english 3 -
+/ok.php 1 www.google.com
+/archives.php 4 www.bing.com
+/ccx/index.php 2 -
+/drivers 3 -
+/_ignition/execute-solution 1 -
+/xindex.php 1 www.bing.com
+/cms/wp-admin/install.php 2 -
+/database 3 -
+/icons 3 -
+/wp-content/local.php 2 -
+/wp-includes/wp-class.php 5 www.google.com
+/wp.php 4 www.bing.com
+/demo 3 -
+/shell20211028.php 3 www.google.com
+/wp/wp-admin/install.php 3 -
+/helpers 3 -
+/wp-admin.php 1 www.bing.com
+/wp-includes 3 -
+/ups.php 5 www.bing.com
+/images 3 -
+/wp-includes/images/ 1 www.google.com
+/wp-includes/css/css.php 2 www.bing.com
+/wp-content/plugins/widget-logic/mini.php 1 www.google.com
+/xml.php 2 -
+/tuco.php 2 -
+/site/wp-content/themes/sketch/404.php 1 www.google.com
+/images/recent_post2.jpg 5 -
+/xmlrpc.php 32 -
+/mt/mt-xmlrpc.cgi 1 -
+/new/wp-json/wp/v2/users 2 -
+/th1s_1s_a_4o4.html 30 http://www.google.com/url
+/browser 3 -
+/if.php 2 -
+/alfacgiapi/perl.alfa 3 www.google.com
+/ads.txt 4 -
+/wordpress/wp-admin/install.php 3 -
+/sites/all/libraries/elfinder/elfinder.php.html 1 -
+/ups1.php 1 www.google.com
+/subdrivers 3 -
+/404.php 2 -
+/gank.php.PhP 3 www.google.com
+/wp-admin/ALFA_DATA 2 www.bing.com
+/app 3 -
+/plugins 3 -
+/zobrwzcb.php 1 www.google.com
+/about 3 -
+/up1.php 1 www.google.com
+/shell.php 4 www.bing.com
+/wp-includes/cgialfa 2 www.bing.com
+/dup-installer/main.installer.php 3 -
+/ibase 3 -
+/images/clients/client10.png 5 -
+/wp-content/uploads/typehub/custom/azbyuyyq/.sp3ctra_XO.php 1 www.google.com
+/wp-load.php 3 www.bing.com
+/qutsat 3 -
+/images/clients/client5.png 5 -
+/wordpress/wp-content/themes/sketch/404.php 1 www.google.com
+/classes 3 -
+/backup 3 -
+/xleet-shell.php 1 www.google.com
+/cgialfa 2 www.bing.com
+////wp-admin/setup-config.php 3 bing.com
+/wp-content/uploads/ALFA_DATA 2 www.bing.com
+/3index.php 1 www.bing.com
+/tshop.php 2 -
+/wp-includes/ALFA_DATA 2 www.bing.com
+/wp-content/plugins/ubh/up.php/.well-known/ 1 www.google.com
+/wp-content/plugins/fastest-cache/images/wp-load.php 2 -
+/lock360.php 1 www.bing.com
+/static 3 -
+/wp-content/31cx4.php 1 www.google.com
+/wp/wp-content/themes/sketch/404.php 1 www.google.com
+/wp-easy.php 2 -
+/wp-content/plugins/autoptimize/fw.php 2 -
+/s_e.php 2 www.bing.com
+/wp-includes/wp-atom.php 4 www.bing.com
+/sitemap.xml 3 -
+/wp-rmd.php 1 www.google.com
+/wp-content/ALFA_DATA 2 www.bing.com
+/legion.php 2 www.bing.com
+/sqlite 3 -
+/images/phone_img.png 5 -
+/uploads/up.php 1 -
+/media 3 -
+/images/clients/client4.png 5 -
+/images/slider/slider_img2.jpg 5 -
+/defaul1.php 1 www.google.com
+/views 3 -
+/mailer.php 1 -
+/includes 3 -
+/wp-content 3 -
+/wp-content/mu-plugins-old/index.php 1 www.bing.com
+//blog/mt/mt-xmlrpc.cgi 1 -
+/wp-admin/admin-ajax.php 1 www.google.com
+/autoload_classmap.php 2 -
+/wp/xmlrpc.php 33 -
+/default 3 -
+/xukfbawc.php 1 www.google.com
+/radio.php 3 www.google.com
+/wordpress/wp-admin/setup-config.php 3 -
+/xmlrpcs.php 1 www.bing.com
+/inje3ctor.php 2 -
+/js/custom.js 2 -
+/images/clients/client7.png 5 -
+/c99.php 2 -
+/user 3 -
+/s_ne.php 2 www.bing.com
+/wp-admin/wp-includes/ 1 www.google.com
+/7Cc53.php 1 www.google.com
+/wp-admin/install.php 2 -
+/xml 3 -
+/fonts 3 -
+/old-index.php 3 www.bing.com
+/php 3 -
+/wp-content/plugins/nodeps/wsb.php 1 www.google.com
+/wp-content/alfacgiapi 2 www.bing.com
+/client 3 -
+/wso.php 4 www.bing.com
+/system_log.php 4 www.bing.com
+/images/recent_post1.jpg 5 -
+/1.php 2 www.bing.com
+/hooks 3 -
+/wp-includes/ 1 www.google.com
+/about.php 5 www.bing.com
+/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application 3 -
+/.well-known/acme-challenge/ 1 www.google.com
+/sqlsrv 3 -
+/misc 3 -
+/wp-2019.php 3 www.google.com
+/compat 3 -
+/wp-json/wp/v2/users 2 -
+/admin/controller/extension/extension/ALFA_DATA 2 www.bing.com
+/models 3 -
+/wp_wrong_datlib.php 2 www.bing.com
+/form 3 -
+/sql 3 -
+/img 3 -
+/languages 3 -
+/bcevkeva.php 1 www.google.com
+/login.action 3 -
+/i.php 1 -
+/blog/xmlrpc.php 33 -
+/images/logo/logo3.png 5 -
+/a.php 3 -
+/blog/wp-admin/install.php 2 -
+/Cache 3 -
+/phpdebugbar 1 -
+/images/clients/client9.jpg 5 -
+/.DS_Store 3 -
+/shell4.php 2 -
+/wordpress/ 3 -
+/config/aws.yml 3 -
+/blog/wp-content/themes/sketch/404.php 1 www.google.com
+/z.php 3 -
+/wp-admin/maint/ 1 www.google.com
+/application/config/s3.php 2 -
+/langs 3 -
+/wp-content/db-cache.php 4 www.bing.com
+/.remote 1 https://www.google.com/
+///wp-admin/install.php 3 bing.com
+/sqlite3 3 -
+/oci8 3 -
+/wp-signin.php 2 www.bing.com
+/examples 3 -
+/wp-configer.php 1 -
+/admin/controller/extension/extension/cgialfa 2 www.bing.com
+/config 3 -
+/doc 3 -
+/test 3 -
+/images/clients/client2.png 5 -
+/alfa.php 5 -
+/class-wp-widget-archives.php 2 -
+/ALFA_DATA/alfacgiapi/fw.php 2 -
+/skipper.php 2 -
+/moduless.php 2 www.bing.com
+/src 3 -
+/mysqli 3 -
+/admin 3 -
+/olux.php 4 www.bing.com
+/wp/wp-json/wp/v2/users 2 -
+/xleet.php 5 www.google.com
+/.production 1 https://www.google.com/
+/cgi-etc/quti.php 2 www.google.com
+/wp-fox.php 1 www.google.com
+/application 3 -
+/webapp 3 -
+/wp-content/plugins/ 1 www.google.com
+/mysql 3 -
+/wp/ 2 -
+/themes 3 -
+/wp-content/uploads/alfacgiapi 2 www.bing.com
+/snwdqutc.php 1 www.google.com
+/wordpress/wp-json/wp/v2/users 2 -
+/.aws/credentials 3 -
+/ALFA_DATA 2 www.bing.com
+/wp-admin/css/ 18 binance.com
+/templates/beez3/cgialfa 2 www.bing.com
+/sites/default/files/alfacgiapi 2 www.bing.com
+/wp-includes/wp-wysnut.php 2 -
+/javascript 3 -
+/cache 3 -
+/public 3 -
+/templates/beez3/index.php 4 www.bing.com
+/alfacgiapi 2 www.bing.com
+/test/wp-admin/install.php 2 -
+/anone.php 1 -
+/html 3 -
+/wp-admin/setup-config.php 3 -
+/installer.php 2 -
+/lib 3 -
+/core 3 -
+/dist 3 -
+/error.php 6 www.bing.com
+/ox.php 2 -
+/new/wp-admin/install.php 2 -
+/category 3 -
+/defau1t.php 2 www.bing.com
+/wp-video.php 2 -
+/documentation 3 -
+/qindex.php 1 www.bing.com
+/.local 1 https://www.google.com/
+/uavytbvm.php 1 www.google.com
+/images/clients/client1.png 5 -
+/saudi.php 2 -
+/wp-content/outcms.php 2 www.bing.com
+/images/welcome_img.jpg 5 -
+/defau11.php 2 www.bing.com
+/1 3 -
+/info.php 7 -
+/hehe.php 2 -
+/wp-admin/alfacgiapi 2 www.bing.com
+/radio.txt 1 -
+/blog/wp-json/wp/v2/users 2 -
+/ckghbmsf.php 1 www.google.com
+/.well-known/ 16 binance.com
+/fx.php 2 -
+/images/clients/client11.jpg 5 -
+/wp-admin/cgialfa 2 www.bing.com
+/js/wow.js 2 -
+/wp-content/upload.php 1 -
+/libraries 3 -
+/.well-known/ALFA_DATA 2 www.bing.com
+/wp-content/themes/twentyfive/include.php 5 www.google.com
+/index.php 5 www.bing.com
+/wp-booking.php 2 www.bing.com
+/templates/beez3/ALFA_DATA 2 www.bing.com
+/fox.php 2 -
+/config.json 3 -
+/js/jquery.mixitup.js 2 -
+/r.php 1 -
+/u.php 1 -
+/ygybehmc.php 1 www.google.com
+/f1BCD.php 1 www.google.com
+/blog/ 2 -
+/hacked.php 2 -
+/wp-content/uploads/cgialfa 2 www.bing.com
+/categories 3 -
+/t.php 1 -
+/css.php 1 www.bing.com
+/x.php 4 www.bing.com
+/site/wp-admin/install.php 2 -
+/wikindex.php 1 www.bing.com
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 8
+162.214.80.40 33 33 2664 20220624171622
+3.21.185.231 3 3 261 20220624171621
+34.220.82.248 3 3 261 20220624171621
+52.59.65.64 3 3 261 20220624171622
+64.78.149.164 3 3 261 20220624171621
+130.245.169.205 1 1 0 20220624171827
+130.245.169.139 1 1 0 20220624181854
+130.245.169.145 1 1 0 20220625171824
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 2
+20220624 47 47 3708 7
+20220625 1 1 0 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+0s-30s 7
+5mn-15mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 19
+/.well-known/acme-challenge/fMsVuBTeRkk1-JMQbNzlKskMuQ4E8sssBeWv2BJmKis 4 348 0 1
+/.well-known/acme-challenge/QixSh8n3NoXVSnhNCwAvDbFaWZL553l0pFfWbnv5IXo 4 348 0 0
+/.well-known/acme-challenge/WTtw3Dm-hPixKSu4xbZEJkDInBJySYwd3QBWBJKQWqY 4 348 0 0
+/.well-known/acme-challenge/am7AqEovL2AQxaijanuF1FEkJU00Hfq8v2Ihn5zIUXs 4 348 0 0
+/.well-known/acme-challenge/ufQopKfMPr-9Qm8ZDm-mrcF_Nm-DBFFpV9BvHOIFhXk 4 348 0 0
+/.well-known/acme-challenge/mSRJhUnvOkJ3ncYFhP2aunRHj412QLxrFbPs6fZJmWE 4 348 0 3
+/.well-known/acme-challenge/ySougTubz3_wLZrlO5xD700zVbEjrQBqYKWk2r53iME 4 348 0 1
+/.well-known/acme-challenge/3uLaFoXs6WqBcxlrc6hcuFYY9XyT0GozDfPxfn8X7jI 4 348 0 0
+/.well-known/acme-challenge/ZaT5mNUj9VMK8k13QCgdMpQnatGvxTmtHLmlLh2I4fQ 4 348 4 0
+/ 3 0 3 3
+/.well-known/acme-challenge/METT1RZ_93SC-GWX3EKZNSAQ1RRAE44- 1 64 0 0
+/.well-known/acme-challenge/1M0HKJT0F3HGQLJHPF85V8GP8T2SG29P 1 64 0 0
+/.well-known/acme-challenge/NZ9AYAFB8L_1G-U8JDQE08BW2C5M7I5T 1 64 1 0
+/.well-known/acme-challenge/QBK7DTVNSOM6YHSA1ASFO_I0E4QVZ4DY 1 64 0 0
+/.well-known/acme-challenge/CSDK0HUESW1C1160XYLR_ZZKIKPFKYHI 1 64 0 0
+/.well-known/acme-challenge/T4OI9XBP43YUQI-5362Z73JK89G9JVZK 1 64 0 0
+/.well-known/acme-challenge/NGDFKM-GWBO19DZG0F_0GS9CKBEBZNWX 1 64 0 0
+/.well-known/acme-challenge/LZD6Z4VDFI1RN59K71FZMU65V_JS6N18 1 64 0 0
+/.well-known/acme-challenge/T1I_R-5VENIBZZD-K3-9GMT-HVD13LB1 1 64 0 0
+END_SIDER

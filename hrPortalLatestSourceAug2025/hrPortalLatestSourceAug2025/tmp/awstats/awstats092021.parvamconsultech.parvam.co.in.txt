@@ -1,0 +1,1960 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202109 will be lost/reset.
+# Last config file used to build this data file was /home4/parvamco/tmp/awstats/awstats.parvamconsultech.parvam.co.in.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2027                
+POS_TIME 2713                
+POS_VISITOR 31693               
+POS_DAY 52483               
+POS_DOMAIN 3685                
+POS_LOGIN 4222                
+POS_ROBOT 4377                
+POS_WORMS 4839                
+POS_EMAILSENDER 4970                
+POS_EMAILRECEIVER 5113                
+POS_SESSION 53362               
+POS_SIDER 53573               
+POS_FILETYPES 5248                
+POS_DOWNLOADS 5621                
+POS_OS 5788                
+POS_BROWSER 6102                
+POS_SCREENSIZE 8092                
+POS_UNKNOWNREFERER 8166                
+POS_UNKNOWNREFERERBROWSER 9631                
+POS_ORIGIN 10807               
+POS_SEREFERRALS 10948               
+POS_PAGEREFS 11111               
+POS_SEARCHWORDS 11342               
+POS_KEYWORDS 11494               
+POS_MISC 2377                
+POS_ERRORS 11553               
+POS_CLUSTER 4078                
+POS_SIDER_404 11710               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20211001000236 1286 331185 12708951835707
+FirstTime 20210901021226
+LastTime 20210930225240
+LastUpdate 20211001061642 1286 0 1285 0 0
+TotalVisits 417                 
+TotalUnique 291                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 674                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+PDFSupport 0 0 0
+FlashSupport 0 0 0
+QuickTimeSupport 0 0 0
+RealPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+TotalMisc 0 0 0
+JavascriptDisabled 0 0 0
+AddToFavourites 0 1 0
+WindowsMediaPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 118 1891 1166916308 184 255 71950827
+1 139 1346 254553602 618 667 5669612
+2 128 1274 665650509 621 698 152502812
+3 89 423 46141688 545 582 23304
+4 114 932 317750461 1045 1211 606219
+5 119 1332 267280676 1436 1579 14052689
+6 66 788 197252892 965 997 3325
+7 83 460 24491884 1825 1844 14661
+8 75 546 45355054 1084 1115 7594472
+9 124 411 73537630 1046 1071 3937416
+10 39 299 21058925 702 732 549085
+11 89 650 149215148 747 765 424469
+12 91 1038 381047324 961 995 15215489
+13 101 268 21222396 1696 1713 16561
+14 36 133 9604414 1006 1027 54544
+15 49 243 24473238 954 966 33069
+16 17 159 16357070 1153 1164 9691
+17 74 173 11236763 964 987 632066
+18 31 160 15841589 218 250 14211
+19 29 100 6329430 746 755 7250
+20 67 150 8296003 1064 1084 191487
+21 34 85 11601881 602 624 11010
+22 131 326 219361923 1399 1475 2344149
+23 39 403 235786740 880 898 11486
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 22
+us 983 2820 228967792
+in 379 6206 2949137819
+jp 242 3218 801584977
+cn 153 1156 193429789
+th 30 30 1140
+gb 29 29 1026
+gr 19 19 722
+ru 16 16 570
+se 7 7 266
+nl 6 6 1167
+au 3 13 1368634
+br 3 3 114
+at 3 3 114
+id 2 2 76
+sc 2 2 76
+de 2 4 111850
+fr 1 16 1480332
+ro 1 1 38
+ca 1 16 2052818
+ar 0 10 1368520
+es 0 5 684260
+ie 0 8 1213776
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 9
+bingbot/ 137 5206 20210930165411 0
+Googlebot/ 31 950 20210929140912 0
+YandexBot/ 18 684 20210928104650 0
+PhantomJS 5 684260 20210915121627 0
+spider 2 38 20210917142246 0
+(firefox/)([0-9]\.|[0-1][0]\.) 2 76 20210927002921 0
+bot[\s_+:,\.\;\/\\-] 1 38 20210925234445 0
+no_user_agent 1 38 20210929000629 0
+robot 1 38 20210903134840 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 15
+html 1470 32407217 0 0
+json 162 15757866 0 0
+php 105 3392386 0 0
+png 3603 177001028 0 0
+woff2 20 3466072 0 0
+js 886 35428430 0 0
+css 605 25508753 0 0
+webp 12 6675444 0 0
+jpeg 54 78277178 0 0
+ttf 53 9832136 0 0
+Unknown 11 704 0 0
+gif 5 317570 0 0
+jpg 6550 3777366588 0 0
+mp4 5 8668710 0 0
+woff 49 3055872 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 2
+/kpl/upload/2659669767926076894_6162772059.mp4 5 14 8668710
+/moduleigtt/wp-content/photos/videopreview.mp4 0 1 4249922
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 18
+win10 6061 1186
+macosx 1174 52
+macosx9 4 4
+winlong 1 1
+winxp 207 3
+ios_ipad 30 20
+linux 94 84
+unix 1 1
+macosx11 5 0
+win8.1 369 92
+macosx8 1 1
+linuxandroid 4066 317
+win8 28 2
+Unknown 577 86
+winunknown 45 0
+win7 132 17
+macosx10 8 3
+ios_iphone 802 13
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 93
+firefox59.0 1 1
+safari14.1.2 25 0
+firefox88.0 24 0
+opera42.0.2393.94 1 1
+chrome94.0.4606.50 59 15
+firefox72.0 1 1
+chrome87.0.4280.141 414 19
+chrome76.0.3809.132 8 8
+android 6 6
+msie6.0 2 2
+opera78.0.4093.231 239 15
+opera78.0.4093.147 2 0
+firefox64.0 2 2
+firefox11.0 197 0
+firefox81.0 2 2
+chrome61.0.3163.91 14 0
+chrome93.0.4577.82 1913 106
+chrome92.0.4515.107 3 0
+netscape 1 1
+chrome41.0.2228.0 1 1
+chrome74.0.3729.169 8 8
+chrome22.0.1207.1 7 7
+chrome83.0.4103.61 2 2
+firefox82.0 2 2
+chrome80.0.3987.149 3 3
+chrome92.0.4515.131 81 9
+chrome60.0.3112.107 2 2
+Unknown 161 85
+chrome93.0.4577.63 236 1
+chrome35 4 0
+chrome41.0.2224.3 1 1
+safari11.0 20 20
+edge16 4 0
+firefox28.0 1 1
+chrome35.0.1916.47 1 1
+safari14.1 10 0
+netscape5.0 1 1
+chrome26.0.1410.65 1 1
+chrome79.0 9 9
+chrome34.0.1847.116 1 1
+chrome91.0.4472.114 17 17
+chrome79.0.3945.130 5 3
+chrome39.0.2171.95 2 2
+chrome92.0.4515.115 127 6
+chrome91.0.4472.77 2 2
+chrome77.0.3865.116 145 3
+firefox92.0 570 58
+safari14.1.1 15 0
+chrome49.0.2623.75 3 3
+firefox53.0 2 2
+chrome88.0.4240.193 715 715
+chrome92.0.4515.159 3901 271
+chrome81.0.4044.138 130 6
+chrome93.0.4577.62 857 63
+msie10.0 7 0
+chrome78.0.3904.108 85 85
+chrome94.0.4606.61 486 66
+chrome72.0.3626.121 9 0
+firefox89.0 1 1
+chrome67.0.3396.87 1 1
+chrome79.0.3945.88 1 1
+chrome83.0.4103.97 77 77
+msie9.0 1 1
+chrome89.0.4389.114 64 64
+chrome38.0.2125.102 127 6
+chrome36.0.1985.125 3 3
+chrome62.0.2677.104 1 1
+msie7.0 88 1
+chrome66.0.3359.139 2 2
+chrome29.0.1547.57 1 1
+chrome41.0.2227.1 1 1
+chrome90.0.4430.85 5 5
+mozilla 954 0
+chrome87.0.4280.88 1 1
+opera79.0.4143.50 177 3
+firefox65.0 2 2
+chrome67.0.3326.29 1 1
+firefox68.0 5 0
+chrome73.0.3683.86 30 30
+safari 8 1
+chrome71.0.3578.98 2 2
+chrome80.0.3987.132 1 1
+chrome88.0.4324.152 2 2
+chrome63.0.3239.132 2 2
+chrome83.0.4103.101 130 6
+firefox91.0 567 3
+safari15.0 5 0
+chrome79.0.3945.79 1 1
+msie11.0 5 0
+chrome83.0.4103.116 5 0
+chrome90.0.4427.0 8 0
+firefox63.0 14 14
+iphone 764 12
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 19
+WhatsApp/2.21.16.20_A 20210930004655
+Go-http-client/1.1 20210926231431
+Mozilla_5.0 20210916010757
+YahooMailProxy;_https://help.yahoo.com/kb/yahoo-mail-proxy-SLN28749.html 20210918214708
+WhatsApp/2.21.18.17_A 20210928225917
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20210925072939
+Expanse_indexes_the_network_perimeters_of_our_customers._If_you_have_any_questions_or_concerns,_please_reach_out_to:_scaninfo@expanseinc.com 20210924222642
+Mozilla/4.0_(compatible;_ms-office;_MSOffice_16) 20210929133508
+Cpanel-HTTP-Client/1.0 20210930171225
+GRequests/0.10 20210925061734
+Python/3.9_aiohttp/3.7.4.post0 20210921102929
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20210911023452
+lua-resty-http/0.10_(Lua)_ngx_lua/10019 20210930152019
+Mozilla/4.0_(compatible;) 20210930222254
+Mozilla/4.0_(compatible;_ms-office;_MSOffice_rmj) 20210915121308
+WhatsApp/2.21.17.24_A 20210927002150
+Mozilla/5.0_(compatible;_bingbot/2.0;__http://www.bing.com/bingbot.htm) 20210927043840
+node-fetch/1.0_(_https://github.com/bitinn/node-fetch) 20210911032043
+Embarcadero_URI_Client/1.0 20210902194547
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 14
+node-fetch/1.0_(_https://github.com/bitinn/node-fetch) 20210911032043
+Embarcadero_URI_Client/1.0 20210902194547
+lua-resty-http/0.10_(Lua)_ngx_lua/10019 20210930152019
+Python/3.9_aiohttp/3.7.4.post0 20210921102929
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20210911023452
+WhatsApp/2.21.17.24_A 20210927002150
+Expanse_indexes_the_network_perimeters_of_our_customers._If_you_have_any_questions_or_concerns,_please_reach_out_to:_scaninfo@expanseinc.com 20210924222642
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20210925072939
+WhatsApp/2.21.18.17_A 20210928225917
+GRequests/0.10 20210925061734
+Cpanel-HTTP-Client/1.0 20210930171225
+Go-http-client/1.1 20210926231431
+WhatsApp/2.21.16.20_A 20210930004655
+YahooMailProxy;_https://help.yahoo.com/kb/yahoo-mail-proxy-SLN28749.html 20210918214708
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 1325 4483
+From1 5 5
+From2 4 4
+From3 1 5
+From4 547 9108
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 4 4
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 3
+http://fbkwriter.com/about-me/ 1 1
+http://127.0.0.1:14442 0 2
+http://snf-admin 0 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+301 17 4224
+409 99 8217
+500 2 1083
+406 1961 435502
+206 172 274729324
+404 20889 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 760
+/hello.php 21 -
+/sym404.php 16 -
+/ws.php 24 -
+/examples/readonly.html 1 -
+/wso1.php 26 -
+/wp-configer.php 96 -
+/hardfile.php 16 -
+/bomba.php 16 -
+/wp-admin/includes/readindex.php 23 -
+/new_gb/help/images/usage/3.3.gif 1 -
+/olx.php 16 -
+/API/DW/Dwplugin/SystemLabel/SiteConfig.htm 1 -
+/wp-content/alexuse.php 1 -
+/mini.php 131 -
+/config/aws.yml 5 -
+/oldsite 2 -
+/index.cgi 1 -
+/ckfinder/ckfinder.html 1 -
+/forum/ 1 -
+/uploads/contexmini.php 94 -
+/fckeditor/license.txt 1 -
+/haxor.php 18 -
+/wordpress/wp-admin/install.php 1 -
+/adminer-4.7.4.php 1 https://google.com/
+/aakruthi-erp/assets/bootstrap/js/bootstrap.min.js 1 -
+/lang/en.js 1 -
+/ckeditor/ckfinder/install.txt 1 -
+/aws.yml 5 -
+/l.php 25 -
+/admin/SouthidcEditor/Dialog/dialog.js 1 -
+/byp.phtml 16 -
+/13.php 1 -
+/wp/wp-includes/wp-class.php 1 -
+/eams/static/scripts/grade/course/input.js 1 -
+/siddeswaraswamytemple/timings.html 1 -
+/turr.php 16 -
+/LUN.php 16 -
+/site/ 7 -
+/main 2 -
+/back/ 2 -
+/1337.php 20 -
+/spof.php 16 -
+/cms/ 7 -
+/dbp.php 16 -
+/readme.html 1 -
+/shop/wp-includes/wlwmanifest.xml 312 -
+/tpl/login/user/images/login_bg_1.jpg 1 -
+/js/ajax_x.js 1 -
+/static/images/logo/webserver_small.gif 1 -
+/archive/archive.css 1 -
+/elementor/wp-content/themes/dor/framework/lib/icons-pack/ion-icons/fonts/ionicons.woff 1 http://parvamconsultech.com/moduleigtt/wp-content/blog/3bd51.css
+/w.php 25 -
+/.env.live 4 -
+/include/dedeajax2.js 1 -
+/wp-content/includes/uploads/Va.php 23 -
+/wp-admin/includes/mar.php 23 -
+/.index.php 16 -
+/6.php 1 -
+/xmlrpc.php 1 -
+/4xor.php 1 -
+//vendor/phpunit/phpunit/phpunit.xsd 1 -
+/basic.php 1 -
+/v5.php 16 -
+/symlink.php 110 -
+/img/pic/login/top-left.jpg 1 -
+/includes/general.js 1 -
+/kash.php 32 -
+/h.php 25 -
+/new-index.php 129 -
+/web2/login_template/1.files/Logo1.jpg 1 -
+/plus/sitemap.html 1 -
+/License.txt 1 -
+/hbwoif.php 16 -
+/2index.php 144 -
+/api/api_user.xml 1 -
+/aw.php 1 -
+/template/home.htm 1 -
+/alfa123.php 95 -
+/datacenter/downloadApp/showDownload.do 1 -
+/bbs/ 1 -
+/help/user/index.html 1 -
+/bwflyerfeel/images/white-globe.png 1 -
+/Leaf.php 1 -
+/wp-content/plugins/wp-automatic/css/jquery.gcomplete.default-themes.css 1 parvamconsultech.com
+/images/branding/logo.gif 1 -
+/admin.php 8 -
+/sh.php 1 -
+/wordpress 2 -
+/wp-admin/leafmailer.php 1 -
+/messi.php 16 -
+/autoload_classmap.php 94 -
+/CuteSoft_Client/CuteEditor/ImageEditor/listfiles.aspx 1 -
+/business/images/index-gg1.jpg 1 -
+/spec.php 16 -
+/login 1 -
+/wp-admin.php 94 -
+/moduleigtt/wp-content/handletype/Ticinum.jpg 44 http://parvamconsultech.com/moduleigtt/
+/2018/ 2 -
+/siteserver/upgrade/default.aspx 1 -
+/bencandy.php 1 -
+/c.php 137 -
+/cms.php 94 -
+/noduleigtt/admin 1 -
+/whmauto.php 16 -
+/index2.html 1 -
+/fuck.php 1 -
+/console/js/CTRSRequestParam.js 1 -
+/data/admin/ver.txt 1 -
+/Install/logo.gif 1 -
+/wp-admin/includes/edit-tag-menu.php 21 -
+/was/main.html 1 -
+/Scripts/jquery/maticsoft.jquery.min.js 1 -
+/training_placements 9 -
+/wp-content/plugins/wp-pinterest-automatic/css/jquery.gcomplete.default-themes.css 1 parvamconsultech.com
+/Admin/Images/LoginImages/admin_text.gif 1 -
+/admin/login.asp 1 -
+/apps/admin/_static/image/login_box_bg.png 1 -
+/8.php 1 -
+/aakruthi-erp/assets/plugins/knob/jquery.knob.js 1 -
+/xx.php 85 -
+/root.php 65 -
+/wp2/wp-includes/wlwmanifest.xml 315 -
+/o.php 121 -
+/wp-content/wp-admin.php 94 -
+/helpnew/faq/faq_simple_zh_CN.jsp 1 -
+/it.php 94 -
+/wp-admin/includes/maint/repair-bak.php 21 -
+/2017/ 2 -
+/admin/template/article_more/config.htm 1 -
+/images/ALEX_US.php 9 -
+/asp.net/README.txt 1 -
+/vuln.php 2 -
+/pub/skins/pmwiki/pmwiki.css 1 -
+/2.php 47 -
+/examples/file-manager.html 1 -
+/wp_wrong_datlib.php 1 -
+/cgi/index.cgi 1 -
+/backup 2 -
+/fckeditor/editor/dtd/fck_dtd_test.html 1 -
+/force.php 16 -
+/pk.php 16 -
+/bwflyerfeel1 1 -
+/script/login.js 1 -
+/404.jpg 1 -
+/dinoz/shop/social/albumbelieving-these-10-myths-about-cone-keeps/carEx.html 1 http://parvamconsultech.com/dinoz/home/
+/dinoz/shop/index3col.html 1 http://parvamconsultech.com/dinoz/home/
+/console/js/CWCMDialogHead.js 1 -
+/rdp.php 1 -
+/kindeditor-min.js 1 -
+/indexx.php 1 -
+/up.php 63 -
+/js/buttons.js 1 -
+/wp-content/plugins/indeed-wp-superbackup/extensions_plus/inc/files/admin.js 1 parvamconsultech.com
+/archiver/ 1 -
+/wordpress/wp-includes/wp-class.php 1 -
+/shellv4.php 16 -
+/webbuilder/script/locale/wb-lang-zh_CN.js 1 -
+/images/ 5 binance.com
+/new 2 -
+/doku.php 1 -
+/bk 2 -
+/tools/rss.aspx 1 -
+/CuteSoft_Client/CuteEditor/Help/default.htm 1 -
+/media/com_hikashop/js/hikashop.js 1 -
+/overthinker.php 1 -
+/base/login/login.php 1 -
+/blog/ 10 -
+/kiss.php 94 -
+/coremail/common/help/images/helplogo_zh.gif 1 -
+/admin/login.aspx 1 -
+/wpkill.php 17 -
+/system/Update.aspx 1 -
+/nasgor.php 95 -
+/uc_server/control/admin/db.php 1 -
+/ids/admin/userhome/forgetPwd.jsp 1 -
+/wso.php 153 -
+/README.txt 1 -
+/y.php 122 -
+/wp-includes/sys.php 21 -
+/.fk.php 94 -
+/wp-rss.php 95 -
+/t.php 122 -
+/wp-content/plugins/joomjs/_inc/lrds.php 1 parvamconsultech.com
+/send.php 104 -
+/forums/list.page 1 -
+/404.php 127 -
+/index.php 7 -
+/CuteSoft_Client/CuteEditor/Images/log.gif 1 -
+/licence.txt 1 -
+/php.ini 4 -
+/install 1 -
+/images/wso.php 10 -
+/cpl/ 4 -
+/adminer-4.7.5.php 1 https://google.com/
+/wp-content/leafmailer.php 1 -
+/Images/login/mainlogo.gif 1 -
+/admin/index.php 1 -
+/Site/SystemThemes/7917A0869761B5458281E407AE0090F5/Images/ISBanner58px.jpg 1 -
+/ol.php 16 -
+/wp-content/plugins/ts-visual-composer-extend/assets/ts_vcsc_upload.php 1 parvamconsultech.com
+/WSO.php 23 -
+/shell.php 122 -
+/old-site 2 -
+/images/ma.php 1 -
+/bso.php 16 -
+/cpxx.php 16 -
+/m11.php 37 -
+/zfile.php 32 -
+/bc.php 16 -
+/wp-admin/wp-class.php 1 -
+/whm2.php 16 -
+/static.cloudflareinsights.com/beacon.min.js 6 http://parvamconsultech.com/moduleigtt/enquiry/enquiryform.html
+/41.php 94 -
+/edit-form.php 94 -
+/help/en/h_authenticate.html 1 -
+/shell20200510.php 16 -
+/100.php 94 -
+/shellx.php 16 -
+/config.php 1 -
+/luxa/ 4 http://parvamconsultech.com/dinoz/home/
+/site/wp-admin/install.php 1 -
+/as.php 3 -
+/content.php 40 -
+/g.php 65 -
+/Fshell.php 16 -
+/new/wp-admin/install.php 1 -
+/alex.php 28 -
+/sito/wp-includes/wlwmanifest.xml 315 -
+/system/Login.aspx 1 -
+/ycportal/js/wbTextBox/showimg.jsp 1 -
+/01.php 7 -
+/class-wp-widget-user.php 38 -
+/wp-admin/css/modern/colors.css.php 21 -
+/pub/guiedit/guiedit.js 1 -
+/2018/wp-includes/wlwmanifest.xml 50 -
+/olux.php 16 -
+/indeex.php 9 -
+/anon.php 30 -
+/old-index.php 133 parvamconsultech.com
+/wso1337.php 94 -
+/spectrafin 1 -
+/humans.txt 4 -
+/plug/publish 1 -
+/phpmyadmin/themes/original/img/logo_right.png 1 -
+/siddeswaraswamytemple/gallery.html 1 -
+/aakruthi-erp/ 3 -
+/aroltm.php 16 -
+/whmfind.php 16 -
+/shell404.php 16 -
+/moduleigtt/ 2 -
+/lf.php 88 -
+/whir_system/module/security/login.aspx 1 -
+/.env.save 4 -
+/xleet.php 16 -
+/wi.php 94 -
+/phpinfo.php 5 -
+/public/about.html 1 -
+/blog/wp-admin/install.php 1 -
+/j.php 25 -
+/files/ 5 binance.com
+/default/css/em_css.css 1 -
+/shx.php 110 -
+/pro.php 16 -
+/xpire.php 16 -
+/admin/login.php 1 -
+/r.php 123 -
+/wp-admin/includes/block-line.php 21 -
+/wp-file.php 22 -
+/wp 2 -
+/siddeswaraswamytemple/about-us.html 1 -
+/Error.aspx 1 -
+/a.php 148 -
+/sym403.php 118 -
+/leaf.php 99 -
+/su.php 1 -
+/uploads/up.php 45 -
+/whir_system/login.aspx 1 -
+/ran.php 16 -
+/license.txt 1 -
+/images/vuln.php 88 -
+/wp-admin/includes/media-site.php 22 -
+/Search.html 1 -
+/wp-admin/autoload_classmap.php 1 -
+/rahma.php 95 -
+/dr.php 95 -
+/alfav41.php 6 -
+/about1.phtml 16 -
+/was5/web/index.jsp 1 -
+/coremail/common/help/images/helplogo.gif 1 -
+/muri.php 16 -
+/plus/heightsearch.php 1 -
+/kpl/upload/ 21 http://www.parvamconsultech.com/kpl/admin.php
+/dialog/dialog.js 1 -
+/m 1 -
+/wp-content/plugins/itr-popup/scripts/jscolor/itro-admin-scripts-RT1PIO.php 1 parvamconsultech.com
+/siddeswaraswamytemple/about.html 1 -
+/wp-content 1 -
+/images/login/eyoumail.gif 1 -
+/config.js 5 -
+/API/DW/Dwplugin/TemplateManage/save_template.htm 1 -
+/zso,php 2 -
+/rcc/assets/img/project/Ongoing%20Projects/arishinkunte/image8.jpg 1 -
+/.wp-cache.php 95 -
+/login/Jeecms.do 1 -
+/website/wp-includes/wlwmanifest.xml 315 -
+/G.php 37 -
+/configer.php 1 -
+/app/home/skins/default/style.css 1 -
+/xxx.php 21 -
+/next/img/logo.gif 1 -
+/admin/SouthidcEditor/ButtonImage/standard/componentmenu.gif 1 -
+/common/help/images/helplogo_zh.gif 1 -
+/master/login.aspx 1 -
+/stupid.php 16 -
+/about.php 16 -
+/web/wp-admin/install.php 1 -
+/Site/Pages/WebResources.ashx/PoweredByKodakImage 1 -
+/2019/wp-includes/wlwmanifest.xml 296 -
+/b.php 25 -
+/test/wp-includes/wlwmanifest.xml 315 -
+/.env.dev 4 -
+/jcms/index_jcms.jsp 1 -
+/clientscript/vbulletin_ajax_htmlloader.js 1 -
+/plus/download.php 1 -
+/XxX.php 114 -
+/2020/wp-includes/wlwmanifest.xml 261 -
+/17.php 16 -
+/home 2 -
+/0byte.php 94 -
+/wp-admin/includes/maint/wp-readindex.php 23 -
+/wp-es.php 16 -
+/old 2 -
+/wp-content/su.php 1 -
+/5.php 1 -
+/moduleigtt/wp-content/handletype/Spira.jpg 47 http://parvamconsultech.com/moduleigtt/
+/deptWebsiteAction.do 1 -
+/fckeditor.js 1 -
+/wp-cron.php 1 -
+/upx.php 32 -
+/test/wp-admin/install.php 1 -
+/wp-admin/setup-config.php 1 -
+/kk.php 21 -
+/1877.php 1 -
+/photography/ 2 -
+/images/zh-CN/logo.ico 1 -
+/alexus.php 94 -
+/ohayo.php 94 -
+/srx.php 20 -
+/blog.php 94 -
+/console/include/not_login.htm 1 -
+/uploader28.php 16 -
+//wp-content/plugins/ 1 -
+/SG_Construction/projectsdetails1.php 1 -
+/alf.php 47 -
+/themes/graphics/horde-power1.png 1 -
+/wp-load.php 4 parvamconsultech.com
+/kopo.php 16 -
+/ubx.php 16 -
+/images/Default_bg_002.gif 1 -
+/aa.php 17 -
+/aakruthi-erp/assets/plugins/jvectormap/jquery-jvectormap-world-mill-en.js 1 -
+/history.txt 1 -
+/ALEX_US.php 9 -
+/backup/wp-admin/install.php 1 -
+/wp-includes/class.wp.php 1 parvamconsultech.com
+/common/common.js 1 -
+/API/DW/Dwplugin/TemplateManage/manage_site.htm 1 -
+/Admin/Images/LoginImages/admin_top.gif 1 -
+/inc/Templates/rss.xslt 1 -
+/changelog.txt 1 -
+/wso2.php 31 -
+/sites/default/files/ 5 binance.com
+/.git/HEAD 1 -
+/r.sh 16 -
+/Help 1 -
+/default/images/logo.gif 1 -
+/moduleigtt/wp-content/internals/WAO859.png 47 http://parvamconsultech.com/moduleigtt/aboutus.html
+/n.php 25 -
+/mar.php 118 -
+/wp-content/wso.php 1 -
+/images/login_Name.jpg 1 -
+/sender.php 1 -
+/bwflyerfeel/images/bw.jpg 1 -
+/d.php 25 -
+/gob.php 16 -
+/anone.php 66 -
+/images/logo_product-cml.png 1 -
+/images/x.php 1 -
+/cart.php 1 -
+/downloader 1 -
+/Template/Default/Skin/user/images/login_back.jpg 1 -
+/wordpress/wp-includes/wlwmanifest.xml 315 -
+/static/hgicon.png 1 -
+/upload.php 87 -
+/2.8.php 4 -
+/rcc/assets/img/project/Ongoing%20Projects/arishinkunte/image.jpeg 1 -
+/Prompt/images/P_Wrong.gif 1 -
+/CHANGELOG.txt 1 -
+/wp2.php 99 -
+/ckeditor/ckfinder/ckfinder.html 1 -
+/FCK/fckeditor.js 1 -
+/admin/admin_login.php 1 -
+/alexuse.php 10 -
+/images/autoload_classmap.php 1 -
+/was/help.jsp 1 -
+/cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.4.1/jquery-migrate.min330a.js 1 http://parvamconsultech.com/dinoz/
+/news/wp-includes/wlwmanifest.xml 315 -
+/nobody/mobile.htm 1 -
+/images/logo-white.png 1 -
+/wp-content/plugins/super-forms/uploads/php/index.php 1 parvamconsultech.com
+/about1.php 16 -
+/app/images/login/toplogo.gif 1 -
+/4price.php 94 -
+/Lufix.php 17 -
+/media-admin.php 65 -
+/conlg.php 16 -
+/cms/wp-includes/wlwmanifest.xml 315 -
+/extern.php 1 -
+/wp-one.php 94 -
+/qindex.php 21 -
+/inc/playerKinds.xml 1 -
+/3index.php 145 -
+/10.php 1 -
+/bc 2 -
+/old/wp-admin/install.php 1 -
+/Admin/Login.aspx 1 -
+/ninja.php 16 -
+/alfa.php 172 -
+/customdir/images/english_logo.jpg 1 -
+/wp-blog.php 94 -
+/ox.php 1 -
+/app/Tpl/fanwe_1/js/DD_belatedPNG_0.0.8a-min.js 1 -
+/wp-admin/includes/class-wp-media-list-data.php 21 -
+/x.php 187 -
+/admin/editor/ 1 -
+/info.php 21 -
+/wp-ad.php 21 -
+/oldsite/wp-admin/install.php 1 -
+/custom/SkinTemplate/skin/public/images/sys-logo-1caitong-180.jpg 1 -
+/c99.php 47 -
+/generate_quotation 2 -
+/mailer.php 159 -
+/Include/EcsServerApi.js 1 -
+/archiver 1 -
+/themes/default/graphics/horde-power1.png 1 -
+/bwflyerfeel/images/couple.jpg 1 -
+/imagesschool/style1/flash2.jpg 1 -
+/pepsi.php 16 -
+/ads.txt 36 -
+/advfile/ad12.js 1 -
+/wp.php 116 -
+/phpmyadmin/docs.css 1 -
+/wp/rahma.php 95 -
+/oldsite/ 2 -
+/rss.php 24 -
+/dinoz/shop/indexWide.html 1 http://parvamconsultech.com/dinoz/home/
+/www.php 94 -
+/main.php 1 -
+/wp-config.php 1 -
+/docs/DOCUMENTATION.txt 1 -
+/ko.php 2 -
+/aakruthi-erp/assets/plugins/slimscroll/jquery.slimscroll.min.js 1 -
+/include/dialog/config.php 1 -
+/weblog/ 1 -
+/siddeswaraswamytemple/index.html 1 -
+/wp-content/leafmailer2.8.php 1 -
+/old-index..php 16 -
+/images/a.php 9 -
+/f.php 119 -
+/help/ch_gb/images/help-title.gif 1 -
+/4.php 1 -
+/2015/wp-includes/wlwmanifest.xml 16 -
+/PAK.php 16 -
+/FoxWSOv1.php 24 -
+/siteserver/login.aspx 1 -
+/Gel.php 94 -
+/wp-includes/wlwmanifest.xml 314 -
+/email.php 16 -
+/Fshell.phtml 16 -
+/images/default/post_bt.gif 1 -
+/member/space/company/info.txt 1 -
+/.link.php 16 -
+/app/images/login/logo.png 1 -
+/smtp.php 7 -
+/admin/SouthidcEditor/ewebeditor.asp 1 -
+/cp.php 110 -
+/list.php 1 -
+/done.php 16 -
+/0.php 94 -
+/stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css 4 http://parvamconsultech.com/moduleigtt/enquiry/enquiryform.html
+/wwp-edit.php 16 -
+/uploads/ 5 binance.com
+/wp-admin/leafmailer2.8.php 1 -
+/admin/start/index.php 1 -
+/wp/wp-includes/wlwmanifest.xml 315 -
+/fckeditor/fckeditor.js 1 -
+/0z.php 1 -
+/images/login/icon-up.gif 1 -
+/adminsoft/templates/images/login_bg_top.jpg 1 -
+/backup/ 9 -
+/tshop.php 1 -
+/cpanel.php 94 -
+/phpmyadmin/ 1 -
+/wp-uploads.php 94 -
+/mi.php 23 -
+/whmc.php 16 -
+/defau1t.php 94 -
+/FCK/editor/js/fckeditorcode_ie.js 1 -
+/old/ 9 -
+/kill.php 16 -
+/logo/logo_jw.png 1 -
+/Editor.js 1 -
+/uploader.php 32 -
+/SQL.php 16 -
+/chitoge.php 7 -
+/aakruthi-erp/assets/plugins/icheck/icheck.min.js 1 -
+/system/skins/default/system.login.htm 1 -
+/if.php 21 -
+/xox.php 117 -
+/moduleigtt/admin/assets/images/mlogo.png 2 http://parvamconsultech.com/moduleigtt/admin/
+/.well-known/ 1 binance.com
+/mrjn.php 1 -
+/include/install_ocx.aspx 1 -
+/images/2_11.gif 1 -
+/wp-admin/leaf.php 8 -
+/marjn.php 9 -
+/mailersmtp.php 7 -
+/2016/wp-includes/wlwmanifest.xml 16 -
+/SG_Construction/assets/img/projects/02-full.html 1 -
+/87.php 16 -
+/issmall/ 1 -
+/.env.stage 4 -
+/wp-content/new-index.php 47 -
+/u.php 121 -
+/editor/js/fckeditorcode_ie.js 1 -
+/ets.php 16 -
+/Lux.php 28 -
+/media/wp-includes/wlwmanifest.xml 51 -
+/ymail/images/index_r1_c4.jpg 1 -
+/e.php 122 -
+/byp.php 32 -
+/leaf_mailer.php 10 -
+/home/ 7 -
+/wp-content/wp-logins.php 94 -
+/wp-content/autoload_classmap.php 1 -
+/ok.php 22 -
+/sites/all/libraries/elfinder/elfinder.php.html 45 -
+/skin/frontend/default/modern/css/styles.css 1 -
+/fa.php 21 -
+/images/login/logo.gif 1 -
+/images/hwem.css 1 -
+/chipsy.php 1 -
+/Cpanel.php 24 -
+/baindex.php 94 -
+/web/wp-includes/wlwmanifest.xml 315 -
+/wp-class.php 1 -
+/3.php 140 -
+/plus/rssmap.html 1 -
+/feed.asp 1 -
+/aakruthi-erp/assets/plugins/jquery/jquery-2.2.3.min.js 1 -
+/q.php 25 -
+/CuteSoft_Client/CuteEditor/Style/IE.css 1 -
+/2017/wp-includes/wlwmanifest.xml 16 -
+/.env.prod 4 -
+/asus.php 16 -
+/style/default/hdwiki.css 1 -
+/aakruthi-erp/assets/plugins/datepicker/bootstrap-datepicker.js 1 -
+/ckeditor/ckeditor.js 1 -
+/wp1/wp-includes/wlwmanifest.xml 315 -
+/ids/admin/login.jsp 1 -
+/plugins/anchor/anchor.js 1 -
+/wp-admin/includes/wp-class.php 1 -
+/p.php 25 -
+/dev/ 7 -
+/Sendemail.php 25 -
+/harami.php 16 -
+/ckfinder/install.txt 1 -
+/extman/default/images/logo.gif 1 -
+/wp-content/uploads/readindex.php 23 -
+/images/mini.php 1 -
+/moduleigtt/nav.scss 170 http://parvamconsultech.com/moduleigtt/
+/reseller.php 32 -
+/wp-content/ 25 -
+/tmp/ 7 -
+/images/login9/login_33.jpg 1 -
+/administrator/index.php 1 -
+/admin/inc/xml.xslt 1 -
+/priv8.php 117 -
+/ma.php 1 -
+/new.php 94 -
+/402.php 9 -
+/aakruthi-erp/assets/plugins/sparkline/jquery.sparkline.min.js 1 -
+/.aws/credentials 5 -
+/ws0.php 16 -
+/zso1,php 2 -
+/alexusmailer%202.0.php 23 -
+/wp-admin/install.php 2 -
+/wp-content/leaf.php 45 -
+/plugins/filemanager/filemanager/js 1 -
+/up.phtml 16 -
+/7.php 1 -
+/images/alfa.php 1 -
+/contact-us/ 1 -
+/wp-login.php 40 -
+/tpl/user/tpl1/css/skins/blue.css 1 -
+/plugin.php 1 -
+/Images/login/biaoti.jpg 1 -
+/moduleigtt/wp-content/careers/swiper.min.js.map 1 -
+/decanvas 2 -
+/1index.php 144 -
+/.1.php 16 -
+/wso2018.php 16 -
+/back/scripts/jspxcms_choose.js 1 -
+/stindex.php 116 -
+/data.php 110 -
+/lol.php 32 -
+/wp-rvx.php 16 -
+/wordpress/ 11 -
+/wikindex.php 135 -
+/templates/jsn_glass_pro/ext/hikashop/jsn_ext_hikashop.css 1 -
+/9.php 1 -
+/admin 1 -
+/alexus-mailer.php 21 -
+/images/logo_88x31.gif 1 -
+/editor/fckeditor.js 1 -
+/photography 1 -
+/wp-content/alfa.php 1 -
+/.admin.php 1 -
+/training_placements/ 3 -
+/kindex.php 24 -
+/r00t.php 16 -
+/sendmail.php 95 -
+/main/ 7 -
+/site/wp-includes/wlwmanifest.xml 315 -
+/robots.txt 106 -
+/Images/login/lefttu.jpg 1 -
+/z.php 122 -
+/system/language/zh-cn.xml 1 -
+/v.php 65 -
+/owl.php 110 -
+/themes/default/default.css 1 -
+/gaza.php 16 -
+/sitemap.xml 1 -
+/alwso.php 24 -
+/MARIJUANA.php 94 -
+/fckeditor/fckconfig.js 1 -
+/wpmx.php 32 -
+/wp-content/plugins/3dprint-lite/includes/js/3dprint-lite-backend.js 1 parvamconsultech.com
+/UserCenter/css/admin/bgimg/admin_all_bg.png 1 -
+/max-templates/classic/styles/app.css 1 -
+/_profiler/phpinfo 6 -
+/fw.php 22 -
+/User/Login.aspx 1 -
+/sajjad.php 16 -
+/alfav4.1-tesla.php 42 -
+/Public/Admin/Images/login_main_bg.jpg 1 -
+/wp-content/upload.php 45 -
+/training_placements/success.html 1 http://parvamconsultech.com/training_placements/
+/sindex.php 94 -
+/ks_inc/ajax.js 1 -
+/sym.php 95 -
+/Admin/Common/HelpLinks.xml 1 -
+/nee.php 40 -
+/aakruthi-erp/assets/plugins/morris/morris.min.js 1 -
+/google_client.php 16 -
+/photography/robots.txt 1 -
+/bb.php 43 -
+/11index.php 63 -
+/m.php 85 -
+/phpinfo 5 -
+/images/leaf.php 1 -
+/zindex.php 16 -
+/inc/rsd.php 1 -
+/images/leafmailer2.8.php 1 -
+/portal/ 7 -
+/k.php 48 -
+/test_404_page/ 1 -
+/siddeswaraswamytemple/ 2 -
+/ups.php 87 -
+/FoxWSO.php 94 -
+/docs.css 1 -
+/wp-json/wp/v2/users 1 -
+/data/images/wap_logo.gif 1 -
+/bwflyerfeel/images/face.jpg 1 -
+/sh3ll.php 40 -
+/digg.php 1 -
+/admin/controller/extension/extension/ 5 binance.com
+/!.php 23 -
+/wp-confirm.php 95 -
+/Wq_StranJF.js 1 -
+/forum.php 1 -
+/test/ 7 -
+/fckeditor/editor/js/fckeditorcode_ie.js 1 -
+/777.php 94 -
+/s.php 48 -
+/shellv5.php 16 -
+/on.php 16 -
+/new/ 9 -
+/temp/ 9 -
+/fox-style.php 1 parvamconsultech.com
+/rss.aspx 1 -
+/app/login.jsp 1 -
+/.shell.php 1 -
+/jcms/index.jsp 1 -
+/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js 4 http://parvamconsultech.com/moduleigtt/enquiry/enquiryform.html
+/dd.php 16 -
+/420.php 16 -
+/examples/index.html 1 -
+/API/DW/Dwplugin/TemplateManage/login_site.htm 1 -
+/console/auth/reg_newuser.jsp 1 -
+/e/master/login.aspx 1 -
+/xo.php 23 -
+/wp-admin/includes/tablepress_controllers.php 21 -
+/addons/theme/stv2/_static/ts2/layout.css 1 -
+/common/help/images/helplogo.gif 1 -
+/API/DW/Dwplugin/ThirdPartyTags/SiteFactory.xml 1 -
+/wso2018.phtml 16 -
+/wp/wp-admin/install.php 1 -
+/script/valid_formdata.js 1 -
+/spectrafin/ 1 -
+/public/js/ipb.js 1 -
+/feed/ 1 -
+/taxonomy.php 16 -
+/wp-includes/wp-class.php 1 -
+/doc.php 120 -
+/Mailer.php 1 -
+/wp-atom.php 1 -
+/admin/ 1 -
+/admin/js/IdSUtil.js 1 -
+/bwflyerfeel/images/bw.JPG' 1 -
+/addons/theme/stv1/_static/ts2/layout.css 1 -
+/kindeditor.js 1 -
+/bwflyerfeel1/ 1 -
+/leafmailer2.8.php 125 -
+/maintlogin.jsp 1 -
+/wp-content/uploads/small.php 23 -
+/stylesheet.css 1 -
+/docs/ 1 -
+/Ntalker/lawfirm.aspx 1 -
+/web/ 7 -
+/wcm/ 1 -
+/wp-admin/includes/maint/wp-cron.php 22 -
+/marj.php 1 -
+/1.php 156 -
+/app/js/source/wcmlib/WCMConstants.js 1 -
+/wp-content/13.php 1 -
+/div/ 2 -
+/template/1/bluewise/_files/jspxcms.css 1 -
+/blog/wp-includes/wlwmanifest.xml 315 -
+/xd.php 16 -
+/wp-admin/css/ 6 binance.com
+/auth/login 1 -
+/bypass.php 94 -
+/wp/ 9 -
+/code.jquery.com/jquery-1.12.4.minb8ff.js 1 http://parvamconsultech.com/dinoz/
+/leafmailer.php 43 -
+/i.php 121 -
+/cms/wp-admin/install.php 1 -
+/ninja.phtml 16 -
+/do.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 674
+13.92.246.28 167 167 6346 20210926201435
+35.238.168.165 129 129 4902 20210920132601
+20.109.1.181 84 84 3192 20210928115030
+34.106.122.0 84 84 3192 20210912134350
+220.158.157.222 80 1197 301556817 20210918025111
+103.9.159.100 76 76 2741 20210920112357
+27.59.27.231 66 732 227342523 20210904050340
+49.206.10.75 60 809 384142067 20210903125153
+220.158.157.29 57 918 357826871 20210907062628
+34.125.60.83 51 51 1938 20210919221236
+220.158.157.138 48 249 6392827 20210928231741
+49.206.12.244 46 359 121389779 20210930053830
+36.255.87.4 46 898 164848859 20210906085223
+20.62.194.208 45 45 1710 20210930225240
+202.29.210.60 28 28 1064 20210917052746
+3.233.212.58 27 27 1026 20210926231431
+3.140.247.32 24 24 912 20210910072548
+36.255.87.7 24 175 28577923 20210928232218
+13.92.238.148 24 24 912 20210930020929
+136.144.200.195 21 21 798 20210912024134
+220.158.157.65 21 273 61369551 20210903045737
+49.206.13.121 21 398 90467524 20210906021751
+52.184.10.219 21 21 798 20210925034307
+103.120.232.4 21 21 798 20210925074341
+220.158.157.203 20 259 39934124 20210922045423
+66.249.80.91 0 5 1105804 
+167.88.104.195 2 2 76 20210904172802
+42.83.147.36 3 3 114 20210928045247
+220.158.157.86 8 37 1390826 20210930004201
+195.154.17.225 0 2 111774 
+99.27.49.105 0 2 111774 
+98.211.193.145 0 5 684260 
+3.218.240.28 3 3 114 20210920151612
+76.110.102.137 0 5 684260 
+35.161.44.10 1 1 38 20210918224931
+122.172.14.30 0 24 684260 
+1.39.134.200 0 6 131888 
+157.45.25.233 1 15 11239179 20210927034951
+18.218.214.83 3 3 114 20210903000242
+1.39.188.31 0 2 0 
+49.44.80.197 0 1 74989 
+129.146.16.224 3 3 114 20210909091543
+216.225.73.30 0 5 684260 
+67.191.59.195 0 5 684260 
+34.208.5.39 1 1 38 20210925221908
+122.171.103.202 0 100 636446 
+34.77.162.5 1 1 38 20210924222642
+93.159.230.89 1 1 38 20210928045320
+106.51.241.58 2 40 21947712 20210923051231
+1.39.174.178 0 72 0 
+178.128.52.30 3 3 114 20210920211031
+54.188.247.5 1 1 38 20210916221359
+1.39.145.41 0 3 0 
+66.249.84.81 0 1 496533 
+35.163.107.55 1 1 38 20210906224052
+1.39.147.87 0 3 0 
+99.229.149.61 0 5 684260 
+144.86.173.94 1 1 38 20210902185810
+76.108.26.191 0 5 684260 
+97.106.0.26 0 2 111774 
+171.61.112.60 0 16 1829232 
+73.46.3.155 0 5 684260 
+70.39.129.108 0 1 36785 
+70.39.129.103 0 1 496533 
+75.73.97.247 0 5 684260 
+66.102.7.157 0 1 72538 
+74.125.213.27 0 1 36785 
+170.250.148.15 0 5 684260 
+52.37.87.228 1 1 38 20210904223721
+73.254.99.161 0 5 684260 
+66.249.88.177 0 1 74989 
+172.58.4.13 0 5 684260 
+24.20.249.93 0 5 684260 
+74.125.213.25 0 3 112738 
+144.86.173.140 1 1 38 20210906170004
+122.172.144.87 0 22 821206 
+174.211.167.34 0 5 684260 
+12.17.64.211 0 10 1368520 
+74.125.209.87 0 44 3457353 
+24.147.13.122 0 5 684260 
+68.23.216.158 0 10 1368520 
+98.249.208.41 0 5 684260 
+68.134.239.43 0 5 684260 
+108.72.24.103 0 5 684260 
+54.154.25.52 1 1 38 20210904213527
+146.196.121.46 0 10 1368520 
+23.124.46.42 0 5 684260 
+1.39.147.218 0 3 0 
+27.59.81.59 0 2 111774 
+209.216.79.74 2 2 76 20210906000502
+12.21.11.165 0 5 684260 
+35.85.220.167 1 1 38 20210919222346
+52.37.65.221 1 1 38 20210924223933
+171.61.117.114 0 43 632697 
+106.51.242.118 6 111 30144611 20210922003955
+178.128.18.195 4 4 152 20210929140345
+35.164.162.222 18 18 684 20210916130927
+106.197.195.159 1 12 53949 20210927125342
+223.237.238.58 3 5 183865 20210927191834
+174.48.53.174 0 5 684260 
+122.171.118.54 0 38 626833 
+106.51.243.201 15 319 148504537 20210905230149
+93.159.230.88 1 1 38 20210914045254
+1.39.148.147 0 3 0 
+77.67.20.130 0 1 496533 
+167.88.104.82 1 1 38 20210904172802
+122.172.24.96 0 16 1168300 
+167.99.120.2 1 1 38 20210922063055
+27.59.51.35 0 1 0 
+75.75.83.48 0 5 684260 
+5.188.62.76 1 1 38 20210926182815
+122.172.136.70 0 19 572486 
+144.86.173.85 1 1 38 20210910052145
+74.205.135.8 0 5 684260 
+18.231.186.244 1 1 38 20210904172801
+34.86.35.20 1 1 38 20210913185829
+98.242.134.40 0 5 684260 
+198.211.171.162 0 2 111774 
+1.39.139.11 0 9 395664 
+51.15.141.155 2 2 0 20210911032043
+35.85.53.162 1 1 38 20210909222103
+51.75.95.101 1 1 38 20210921054237
+144.86.173.74 1 1 38 20210907082713
+54.244.188.48 1 1 38 20210901223330
+34.212.122.177 1 1 38 20210926231900
+76.112.242.73 0 5 684260 
+54.191.193.124 1 1 38 20210930221150
+70.191.246.174 0 5 684260 
+98.218.82.89 0 5 684260 
+1.39.148.5 0 3 0 
+173.44.70.78 0 10 1368520 
+220.158.157.24 0 64 1630856 
+174.211.100.221 0 5 684260 
+34.86.35.5 1 1 38 20210913181920
+99.177.205.102 0 5 684260 
+122.172.78.15 0 2 0 
+63.33.82.168 0 8 397124 
+52.13.239.204 1 1 38 20210904223329
+54.148.69.195 1 1 38 20210903222547
+192.71.142.35 1 1 38 20210915012514
+54.174.89.225 1 1 351 20210917104831
+172.58.187.101 0 20 5055706 
+157.245.57.139 6 6 228 20210912042352
+107.72.162.24 0 5 684260 
+73.84.44.30 0 2 111774 
+114.5.110.171 1 1 38 20210910214547
+73.247.88.147 0 5 684260 
+68.56.8.236 0 5 684260 
+174.57.183.83 0 5 684260 
+174.80.1.6 0 5 684260 
+24.0.64.228 0 9 871987 
+40.112.70.127 3 3 114 20210905223041
+148.163.122.88 2 2 76 20210920071718
+99.155.239.192 0 4 187727 
+3.220.169.65 3 3 114 20210905103557
+122.172.90.254 0 8 335322 
+73.138.162.89 0 24 1368520 
+137.184.34.211 4 4 152 20210902022309
+73.46.34.190 0 5 684260 
+77.67.20.136 0 1 36785 
+184.89.186.23 0 5 684260 
+69.147.92.147 0 4 223548 
+179.37.163.46 0 10 1368520 
+70.132.213.59 0 10 1368520 
+172.58.175.237 0 2 111774 
+172.58.175.129 0 5 684260 
+74.114.144.5 0 59 6418673 
+167.88.104.52 1 1 38 20210907081058
+73.49.187.181 0 5 684260 
+1.39.147.194 0 3 0 
+52.12.91.140 1 1 38 20210905223820
+70.39.129.109 0 1 36785 
+73.54.198.143 0 5 684260 
+107.72.162.91 0 5 684260 
+75.51.26.24 0 7 372107 
+167.88.104.200 1 1 38 20210907081059
+184.94.240.92 4 4 152 20210916135514
+129.171.150.191 0 5 684260 
+73.245.152.126 0 5 684260 
+144.86.173.138 1 1 38 20210903112340
+92.223.85.247 3 3 114 20210913043858
+166.137.240.88 0 5 684260 
+45.129.18.241 1 1 0 20210920015841
+75.74.19.31 0 2 111774 
+52.37.137.244 1 1 38 20210920231702
+1.39.145.89 0 3 99281 
+73.30.26.17 0 5 684260 
+1.39.145.143 0 3 0 
+1.39.161.97 0 102 158631 
+66.102.8.121 0 9 1795987 
+34.208.57.180 2 2 76 20210904232213
+54.163.6.7 0 5 684260 
+71.196.102.205 0 2 111774 
+122.172.86.62 0 61 577544 
+92.118.160.1 1 1 38 20210911094509
+15.228.49.100 1 1 38 20210911201158
+66.229.232.123 0 5 684260 
+52.40.70.164 1 1 38 20210922222235
+34.234.215.244 0 10 558870 
+108.233.243.174 0 8 684260 
+144.86.173.73 1 1 38 20210907134742
+92.118.160.41 1 1 38 20210913042952
+49.206.12.118 0 2 0 
+52.151.201.131 0 2 111774 
+34.71.21.196 2 2 0 20210911180502
+34.96.130.30 1 1 38 20210917212850
+199.167.100.234 0 6 721045 
+45.17.244.46 0 5 684260 
+124.40.247.23 0 55 1535712 
+54.68.228.252 1 1 38 20210910222243
+54.245.186.137 1 1 38 20210904232125
+73.138.142.197 0 10 1368520 
+1.39.190.235 3 269 994481 20210904050218
+92.169.173.183 0 13 1368520 
+54.218.19.122 1 1 38 20210920220946
+27.59.59.133 3 145 222546237 20210930220246
+104.62.120.116 0 33 3796754 
+54.201.154.123 1 1 38 20210927221152
+66.102.6.123 2 2 76 20210918041235
+124.126.78.192 1 1 38 20210903211138
+174.61.30.154 0 5 684260 
+54.190.98.128 1 1 38 20210930221019
+73.245.62.200 0 5 684260 
+73.143.40.131 0 5 684260 
+71.57.184.246 0 5 684260 
+18.237.190.223 1 1 38 20210927221737
+216.230.40.168 0 5 684260 
+18.236.81.195 1 1 38 20210908223324
+3.226.97.60 1 1 38 20210921102929
+66.249.80.87 0 2 111774 
+34.71.190.31 1 1 38 20210916013349
+71.205.223.52 0 5 684260 
+66.249.84.77 0 7 834238 
+198.175.68.42 0 2 99281 
+212.47.231.175 1 1 38 20210918012553
+167.88.104.232 1 1 38 20210911201158
+49.44.122.8 6 130 51416737 20210906002826
+104.1.207.26 0 5 684260 
+35.143.201.0 0 5 684260 
+1.39.147.37 0 3 0 
+73.138.188.220 0 2 111774 
+54.202.129.2 1 1 38 20210905224411
+54.187.5.109 1 1 38 20210916221431
+34.216.180.188 1 1 38 20210909222007
+107.115.9.18 0 10 1368520 
+173.162.65.133 0 1 74989 
+144.86.173.22 1 1 38 20210911023452
+104.182.151.146 0 5 684260 
+107.175.156.144 2 2 76 20210923065314
+73.167.243.23 0 10 1368520 
+69.174.91.39 0 1 496533 
+69.141.62.114 0 4 223548 
+98.236.242.98 0 5 684260 
+66.102.6.119 0 1 74989 
+167.88.104.25 1 1 38 20210915132124
+106.197.243.204 3 123 173323566 20210927234504
+74.125.209.89 0 52 5053375 
+40.65.99.132 3 3 114 20210916134525
+99.153.166.167 0 13 1059714 
+35.81.165.52 3 3 114 20210925201621
+107.72.176.65 0 4 223548 
+35.164.142.219 1 1 38 20210904222624
+50.82.110.58 0 15 2052780 
+157.245.151.175 6 6 228 20210908211440
+50.192.155.33 0 17 2052780 
+1.39.173.250 0 35 1295057 
+42.105.119.26 0 2 0 
+166.205.190.23 0 5 684260 
+8.30.103.237 0 2 111774 
+99.169.218.21 0 5 684260 
+13.66.37.42 1 1 351 20210904143328
+34.221.247.161 1 1 38 20210903222534
+98.246.164.207 0 10 1368520 
+223.186.41.11 3 20 8015324 20210916013743
+98.202.157.153 0 5 684260 
+54.213.90.124 1 1 38 20210928221546
+172.58.173.228 0 2 0 
+66.102.6.65 1 1 38 20210928230604
+107.72.164.55 0 5 684260 
+1.39.157.1 13 51 1882084 20210927063656
+23.88.96.26 1 1 38 20210927012016
+54.202.85.223 1 1 38 20210907223915
+107.72.176.50 0 5 684260 
+92.118.160.13 2 2 76 20210925072939
+24.98.73.67 0 5 684260 
+93.158.90.163 1 1 38 20210901115335
+49.206.15.145 15 240 106033023 20210922024523
+34.222.243.53 1 1 38 20210902221002
+107.72.164.115 0 2 111774 
+34.220.136.84 1 1 38 20210919222324
+54.214.207.77 1 1 38 20210922222458
+54.87.192.249 0 9 560289 
+34.221.78.161 1 1 38 20210908223118
+47.198.205.85 0 5 684260 
+98.217.187.115 0 5 684260 
+8.17.30.62 0 2 111774 
+122.172.29.144 0 28 1144972 
+69.174.91.34 0 1 36785 
+219.138.163.116 2 2 76 20210925061734
+107.72.162.30 0 5 684260 
+73.138.196.183 0 5 684260 
+49.206.11.212 1 6 469798 20210906023658
+34.215.137.200 0 2 111774 
+23.94.145.248 1 1 38 20210929084132
+96.80.125.45 0 5 684260 
+66.229.191.155 0 5 684260 
+223.186.244.182 2 8 217831 20210930055907
+167.88.104.227 1 1 38 20210907081058
+68.80.182.161 0 5 684260 
+75.164.32.140 0 5 684260 
+70.253.68.75 0 10 1368520 
+220.158.157.33 8 221 31483105 20210930063113
+52.27.250.233 1 1 38 20210930220733
+192.109.205.51 0 2 111774 
+167.172.76.168 3 3 114 20210908223126
+76.109.194.181 0 2 111774 
+188.166.178.18 3 3 114 20210908235327
+174.54.54.176 0 10 1368520 
+69.174.91.40 0 2 73570 
+35.225.82.182 12 12 456 20210929103349
+67.169.86.172 0 6 1180793 
+162.231.235.87 0 5 684260 
+52.163.220.109 2 2 76 20210921212612
+99.26.144.76 0 5 684260 
+69.174.91.42 0 2 73570 
+40.75.111.152 6 6 228 20210913112826
+177.54.157.179 3 3 114 20210901223111
+47.35.71.31 0 10 1368520 
+45.201.206.80 2 2 76 20210917060218
+66.177.222.230 0 10 1368520 
+50.201.213.114 0 5 684260 
+24.56.223.248 0 10 1368520 
+49.44.82.39 6 127 30043762 20210904034445
+107.72.164.20 0 5 684260 
+40.117.213.55 6 6 228 20210908181519
+73.84.1.6 0 5 684260 
+1.39.145.46 0 3 131888 
+170.55.89.150 0 10 1368520 
+49.37.186.43 0 3 131888 
+73.79.233.120 0 10 1368520 
+40.118.206.106 3 3 114 20210908050841
+24.9.60.119 0 5 684260 
+13.90.62.193 3 3 114 20210915022523
+174.58.187.64 0 10 1288063 
+49.206.14.101 0 19 1407308 
+74.125.213.23 0 1 74989 
+66.249.84.79 0 4 187727 
+66.249.80.89 0 2 75953 
+106.197.211.169 2 2 38 20210917061558
+27.59.121.208 11 177 320391750 20210927023414
+205.169.39.92 2 2 76 20210906070212
+159.203.160.203 1 1 38 20210928042344
+208.65.95.150 0 4 609271 
+106.51.241.171 7 151 30981987 20210919003342
+174.194.205.7 0 5 684260 
+34.217.83.125 1 1 38 20210906224049
+100.21.218.158 1 1 38 20210909040043
+24.99.43.156 0 5 684260 
+71.203.105.170 0 5 684260 
+107.72.162.16 0 5 684260 
+167.88.104.40 1 1 38 20210902071716
+34.217.117.170 1 1 38 20210925221428
+50.192.161.229 0 5 684260 
+154.51.131.142 3 3 114 20210922140942
+73.18.220.220 0 10 1368520 
+172.58.159.131 0 5 684260 
+70.39.129.105 0 1 36785 
+24.145.72.121 0 2 111774 
+3.15.235.111 3 3 114 20210909164203
+99.75.135.123 0 2 111774 
+69.174.91.37 0 1 496533 
+76.14.230.14 0 5 684260 
+144.86.173.29 1 1 38 20210903154637
+3.91.238.70 1 1 38 20210901040941
+93.158.91.180 1 1 38 20210925075632
+69.174.91.47 0 1 36785 
+52.35.248.209 1 1 38 20210917224733
+67.185.59.178 0 5 684260 
+1.39.145.21 0 3 0 
+45.137.40.164 1 1 38 20210922110419
+24.14.91.95 0 5 684260 
+122.167.136.71 0 7 0 
+67.227.32.93 1 1 38 20210913160636
+66.249.84.87 0 3 572486 
+73.99.93.43 0 5 684260 
+52.34.204.176 1 1 38 20210902220802
+199.26.76.139 0 2 111774 
+73.57.226.161 0 5 684260 
+142.147.71.92 0 5 684260 
+47.196.68.247 0 5 684260 
+98.38.53.253 0 5 684260 
+42.105.119.163 0 2 111774 
+167.88.104.20 2 2 76 20210907081058
+73.84.255.105 0 5 684260 
+144.86.173.2 1 1 38 20210910121333
+217.160.193.24 2 2 76 20210918133209
+49.206.11.97 6 276 404448016 20210927002335
+52.136.113.97 3 3 114 20210912095437
+157.245.159.70 3 3 114 20210914214419
+54.218.220.197 1 1 38 20210918224910
+96.75.72.105 0 5 684260 
+12.252.33.242 0 4 223548 
+122.172.3.136 0 5 0 
+73.1.43.30 0 5 684260 
+34.223.250.72 1 1 38 20210911221316
+68.43.191.214 0 5 684260 
+223.231.180.123 3 22 16181465 20210927002150
+122.172.10.123 0 5 0 
+162.244.160.106 0 6 335322 
+5.188.62.214 2 2 76 20210919055909
+73.139.136.85 0 5 111774 
+100.27.16.167 0 2 111774 
+18.236.218.146 1 1 38 20210917224704
+49.206.8.78 2 14 0 20210904142941
+122.172.31.140 0 12 684260 
+54.185.56.248 1 1 38 20210920231326
+34.222.86.222 1 1 38 20210912221356
+104.222.43.13 1 1 38 20210915085708
+73.242.150.161 0 5 684260 
+170.55.11.250 0 2 111774 
+92.118.160.57 1 1 38 20210905045416
+162.214.80.40 11 11 704 20210930171225
+223.237.214.92 3 141 210257699 20210927043317
+75.88.113.167 0 10 1368520 
+92.118.160.45 1 1 38 20210919174500
+73.109.130.90 0 5 684260 
+144.86.173.16 1 1 38 20210911022252
+122.171.120.15 0 23 263776 
+73.49.184.166 0 5 684260 
+35.164.196.81 1 1 38 20210926231835
+106.206.69.66 6 130 30554494 20210930004928
+27.59.43.194 1 22 55372415 20210928090537
+18.118.93.151 3 3 114 20210912213242
+188.241.83.86 1 1 38 20210917105020
+174.192.14.115 0 5 684260 
+35.167.244.95 1 1 38 20210912220325
+108.197.179.77 0 5 684260 
+106.51.243.173 2 24 14728108 20210921042056
+1.39.147.113 0 3 131888 
+223.186.91.3 16 148 6638132 20210903075108
+18.206.199.142 0 9 636697 
+66.102.8.119 0 1 36785 
+70.39.129.100 0 3 110355 
+117.96.252.83 0 5 496533 
+172.58.128.193 0 10 1368520 
+69.141.147.145 0 5 684260 
+76.232.197.116 0 5 684260 
+107.72.164.18 0 5 684260 
+18.237.207.55 1 1 38 20210921224301
+46.161.27.210 1 1 38 20210906220117
+92.118.160.61 3 3 114 20210910195500
+13.211.160.79 3 3 114 20210923020542
+54.218.85.85 2 2 76 20210929223205
+54.149.205.230 1 1 38 20210905224030
+70.131.191.67 0 10 572486 
+45.76.34.100 1 1 38 20210925174530
+1.39.145.142 0 3 0 
+52.89.200.31 1 1 38 20210920231746
+3.19.27.248 3 3 114 20210916093431
+49.44.85.165 6 127 30043762 20210903051308
+98.203.144.150 0 5 684260 
+37.0.10.82 2 2 702 20210920212142
+68.35.132.171 0 5 684260 
+1.39.145.127 0 2 0 
+174.249.115.47 0 5 684260 
+34.221.191.175 1 1 38 20210911220737
+54.212.243.118 1 1 38 20210912221647
+167.88.104.57 1 1 38 20210915132125
+54.202.154.49 1 1 38 20210913222218
+99.108.100.96 0 5 684260 
+66.249.84.89 0 5 646056 
+73.17.139.39 0 5 684260 
+99.105.88.117 0 5 684260 
+172.58.207.119 0 5 684260 
+73.124.177.229 0 5 684260 
+66.176.214.33 0 5 684260 
+69.243.105.167 0 5 684260 
+1.39.174.169 0 3 131888 
+52.24.54.176 1 1 38 20210930220857
+65.154.226.220 1 1 38 20210902154128
+174.234.140.5 0 5 684260 
+73.179.71.132 0 5 684260 
+162.246.136.155 0 2 111774 
+122.171.98.186 0 12 263776 
+18.224.58.33 3 3 114 20210905212238
+3.237.199.191 0 11 519247 
+107.2.24.78 0 5 684260 
+98.232.87.95 0 5 684260 
+98.221.124.49 0 5 684260 
+40.124.105.177 1 1 38 20210929121945
+34.209.65.237 1 1 38 20210923221916
+35.141.122.42 0 5 684260 
+24.51.223.115 0 5 684260 
+174.208.101.210 0 5 684260 
+216.145.11.94 1 1 38 20210923004039
+1.39.149.18 0 3 0 
+73.49.19.90 0 4 223548 
+75.144.214.97 0 5 684260 
+54.188.41.119 0 2 111774 
+70.15.237.101 0 5 684260 
+54.191.181.173 1 1 38 20210915141824
+49.44.78.135 0 1 70485 
+74.203.184.233 0 2 111774 
+198.92.97.37 0 1 5468 
+54.203.73.198 1 1 38 20210914015223
+107.127.21.112 0 5 684260 
+3.91.194.240 0 6 335322 
+223.186.16.200 2 3 180266 20210927074802
+93.158.92.143 1 1 38 20210920055108
+77.67.20.133 0 1 36785 
+66.102.8.123 0 6 294997 
+54.213.180.88 1 1 38 20210930220712
+167.88.104.163 1 1 38 20210915132125
+66.229.20.210 0 5 684260 
+54.186.29.36 1 1 38 20210921224317
+104.63.87.231 0 5 684260 
+77.67.20.141 0 1 496533 
+108.249.144.98 0 10 1368520 
+52.96.181.141 0 4 223548 
+159.75.25.179 3 3 114 20210906040646
+73.16.158.111 0 10 684260 
+73.27.8.46 0 5 684260 
+73.1.213.229 0 10 1368520 
+54.75.20.29 1 1 38 20210907223905
+18.230.45.74 1 1 38 20210904172801
+52.88.168.124 1 1 38 20210901223842
+107.204.65.22 0 5 684260 
+144.86.173.128 1 1 38 20210903223624
+73.160.178.213 0 5 684260 
+54.71.74.84 1 1 38 20210913221807
+139.137.128.81 0 5 684260 
+3.238.44.255 0 6 373526 
+3.239.45.78 0 13 592817 
+1.39.149.4 0 3 99281 
+159.65.24.22 1 1 38 20210916031430
+73.143.202.141 0 5 684260 
+182.79.253.146 0 1 36785 
+34.217.123.58 1 1 38 20210909221904
+70.253.69.87 0 5 684260 
+1.39.145.150 0 3 0 
+184.153.188.86 0 2 111774 
+117.96.243.157 0 2 0 
+144.86.173.32 1 1 38 20210906200534
+138.3.219.78 3 3 114 20210923100420
+15.228.15.103 1 1 38 20210915132125
+117.96.249.166 0 8 0 
+37.223.57.177 0 5 684260 
+76.18.141.169 0 5 684260 
+173.47.30.231 0 5 684260 
+102.130.116.235 1 1 38 20210916010757
+51.141.173.98 9 9 342 20210925050926
+167.88.104.35 1 1 38 20210911201158
+69.147.93.139 0 2 111774 
+52.89.199.15 2 2 76 20210929223221
+76.109.246.49 0 5 684260 
+1.39.181.110 0 3 131888 
+92.118.160.5 2 2 76 20210918195523
+75.74.82.86 0 4 223548 
+98.212.3.21 0 5 684260 
+49.206.13.94 0 2 99281 
+107.4.220.162 0 5 684260 
+73.125.241.211 0 5 684260 
+174.248.64.191 0 5 684260 
+223.186.104.5 1 1 248609 20210922013418
+73.171.161.1 0 5 684260 
+65.78.86.58 0 5 684260 
+34.221.90.212 1 1 38 20210923221900
+1.39.145.216 0 3 0 
+34.210.188.247 1 1 38 20210909221926
+67.197.35.138 0 15 2052780 
+149.56.223.206 2 2 76 20210927062900
+66.249.84.91 0 2 149978 
+124.123.106.229 2 2 76 20210916230001
+174.216.64.230 0 5 684260 
+77.67.20.134 0 1 36785 
+96.10.120.131 0 5 684260 
+167.88.104.99 1 1 38 20210902071716
+108.11.22.156 0 5 684260 
+223.227.19.147 7 91 28660546 20210930004655
+35.162.247.143 1 1 38 20210920221012
+54.200.59.193 1 1 38 20210925221933
+62.171.160.103 9 9 342 20210930170239
+170.83.176.7 1 1 38 20210930223602
+49.12.219.109 1 1 38 20210924094922
+52.173.21.69 3 3 114 20210905001016
+18.237.5.223 1 1 38 20210928221007
+195.22.153.168 1 1 38 20210902194547
+1.39.149.12 0 3 0 
+223.226.59.132 0 9 0 
+24.233.187.121 0 10 1368520 
+67.164.49.81 0 5 684260 
+34.77.162.30 1 1 38 20210920183126
+169.147.5.110 0 5 684260 
+99.93.62.50 0 5 684260 
+20.37.245.16 3 3 114 20210917172047
+1.39.147.118 0 3 0 
+77.67.20.142 0 1 36785 
+139.59.121.250 3 3 114 20210901021227
+122.155.196.54 2 2 76 20210923082406
+54.191.232.53 1 1 38 20210915222344
+142.79.199.210 0 5 684260 
+5.45.75.92 1 1 38 20210927123305
+174.212.38.39 0 5 684260 
+18.236.76.209 1 1 38 20210915222313
+42.83.147.34 1 1 38 20210928210611
+185.164.59.78 1 1 38 20210930202342
+174.138.27.177 9 9 342 20210916021120
+172.97.47.235 0 10 1368520 
+37.0.10.54 1 1 351 20210904210011
+104.62.124.239 0 5 684260 
+76.19.105.242 0 5 684260 
+8.26.240.170 0 5 684260 
+169.38.68.189 2 2 76 20210908191658
+76.237.199.187 0 5 684260 
+77.67.20.139 0 1 36785 
+67.184.70.229 0 5 684260 
+1.39.147.8 0 3 0 
+66.176.208.198 0 5 684260 
+1.39.146.225 0 6 0 
+106.197.218.73 1 1 24807 20210928011057
+34.86.35.15 1 1 38 20210914173752
+73.253.89.82 0 10 1368520 
+171.61.112.70 0 5 496533 
+75.65.161.153 0 5 684260 
+104.7.45.100 0 10 1368520 
+173.12.65.170 0 5 684260 
+76.127.9.114 0 5 684260 
+54.149.108.235 1 1 38 20210924224005
+73.215.200.208 0 15 1368520 
+204.116.80.36 0 1 496533 
+172.58.171.216 0 5 684260 
+192.99.18.122 1 1 38 20210915131801
+74.125.209.91 0 46 3420523 
+99.128.192.123 0 5 684260 
+18.231.177.182 1 1 38 20210911201157
+73.236.229.132 0 10 1368520 
+34.211.144.52 1 1 38 20210927221724
+122.172.85.252 0 16 1217578 
+98.230.63.15 0 6 335322 
+34.96.130.4 1 1 38 20210917205245
+73.138.156.109 0 5 684260 
+15.222.37.230 1 1 38 20210921164402
+75.8.44.131 0 5 684260 
+34.220.48.36 1 1 38 20210904223543
+91.241.19.243 7 7 266 20210923174636
+185.104.248.7 1 1 0 20210910213930
+139.137.128.1 0 8 0 
+107.72.162.102 0 5 684260 
+138.207.151.67 0 5 684260 
+73.175.24.54 0 5 684260 
+167.172.68.65 3 3 114 20210915040319
+81.19.214.5 1 1 38 20210922213023
+24.241.228.16 0 4 647475 
+107.130.53.65 0 3 148559 
+54.147.246.36 0 5 260333 
+50.106.37.58 0 10 1368520 
+69.174.91.43 0 1 496533 
+69.65.72.13 0 5 684260 
+96.75.211.145 0 5 684260 
+34.217.62.4 1 1 38 20210905223754
+52.13.141.126 1 1 38 20210910222229
+77.67.20.129 0 1 36785 
+73.204.234.158 0 13 1059714 
+223.227.21.75 2 79 162566261 20210929025000
+1.39.146.39 0 3 0 
+173.211.76.110 1 1 38 20210909074531
+72.250.161.2 0 5 684260 
+99.62.188.126 0 11 983761 
+139.137.128.46 0 12 866519 
+18.237.131.75 1 1 38 20210907223849
+64.135.126.38 0 14 2047312 
+174.249.113.131 0 5 684260 
+92.118.160.37 1 1 38 20210912211653
+52.188.174.128 3 3 114 20210928163319
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20210901 54 54 2052 10
+20210902 14 14 532 11
+20210903 155 1905 695058723 16
+20210904 107 1804 340131856 22
+20210905 33 254 55050025 15
+20210906 82 1231 441616461 16
+20210907 23 511 33539105 14
+20210908 27 288 4076347 11
+20210909 57 108 1776466 12
+20210910 93 110 710925 13
+20210911 35 39 169889 14
+20210912 84 89 135080 13
+20210913 16 165 8348785 12
+20210914 47 140 19957071 8
+20210915 34 1058 125678040 19
+20210916 55 416 80886977 19
+20210917 126 266 10371502 16
+20210918 130 1170 281362129 14
+20210919 52 89 2574137 10
+20210920 40 57 1370315 15
+20210921 14 73 18307728 10
+20210922 52 620 176360747 13
+20210923 59 103 22634138 12
+20210924 13 13 494 8
+20210925 101 113 1372358 15
+20210926 71 71 2698 9
+20210927 103 1047 1148160848 23
+20210928 57 162 56329177 17
+20210929 23 497 216332871 10
+20210930 125 1123 448046072 20
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+0s-30s 335
+1h+ 5
+2mn-5mn 25
+15mn-30mn 9
+30s-2mn 20
+5mn-15mn 13
+30mn-1h 10
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 70
+/ 1197 45220 339 340
+/moduleigtt/ 97 22175320 35 14
+/moduleigtt/handletypedata.json 61 15130638 3 5
+/moduleigtt/finishcolordata.json 51 572470 4 1
+/moduleigtt/appliances.json 50 54758 2 5
+/moduleigtt/portfolio/ 49 5182917 0 3
+/moduleigtt/wp-content/themes/dor/framework/lib/icons-pack/ion-icons/fonts/ionicons.ttf 37 6982788 0 7
+/moduleigtt/wp-content/blog/ElegantIcons.woff 37 2291904 0 1
+/moduleigtt/admin/dashboard.php 33 2723273 2 2
+/moduleigtt/wp-content/handler.php 28 1753 0 5
+/kpl/admin.php 21 517582 10 7
+/moduleigtt/admin/viewdetails.php 19 145374 1 2
+/moduleigtt/aboutus.html 19 1945876 0 0
+/moduleigtt/careers.html 14 223020 0 0
+/moduleigtt/admin/ 13 28392 7 4
+/moduleigtt/wp-content/careers/ElegantIcons.woff 12 763968 0 0
+/moduleigtt/howweworks.html 11 1112899 2 0
+/moduleigtt/wp-content/blog/ionicons.ttf 10 1887240 0 1
+/demo/ 7 119 1 0
+/kpl/upload/IMG_20210812_105857_547.webp 6 5396676 0 1
+/moduleigtt/profile.html 6 81035 0 1
+/moduleigtt/Decorurhome.html 6 196404 0 0
+/decanvas/ 6 7245 2 1
+/moduleigtt/contactus.html 6 88445 0 0
+/kpl/upload/IMG_20210909_213359_557.webp 6 1278768 0 3
+/.well-known/acme-challenge/DGVE9ZJEVYWVD4PR3Q42STBJSWF9G7A3 1 64 0 0
+/.well-known/acme-challenge/FII9D6-_KSJPD-VTF45PBBN-HCYQT0P5 1 64 0 0
+/.well-known/acme-challenge/KR7VGVZWYEJF1TZIUTAX9EPXAO4O13LY 1 64 0 0
+/moduleigtt/admin/assets/fonts/ico-font/icofont.woff2 5 2689340 0 0
+/moduleigtt/portfolio/portfolio-foyer.html 3 298634 0 0
+/dinoz/wp-content/themes/luxa/fonts/base-iconsfd85.ttf 1 18488 0 0
+/aakruthi-erp/assets/bootstrap/fonts/glyphicons-halflings-regular.woff2 1 18028 0 1
+/moduleigtt/portfolio/portfolio-console.html 1 79970 0 0
+/bwflyerfeel/fonts/fontawesome-webfont.woff2 1 56780 0 0
+/moduleigtt/portfolio/portfolio-pooja.html 1 213876 0 0
+/.well-known/acme-challenge/BY65BJ7AM0BG75IS0L2KJT_GBNUF82G3 1 64 0 0
+/.well-known/ 5 1755 5 5
+/dinoz/home/ 1 16132 0 0
+/moduleigtt/profile-ganesh.html 2 27288 0 0
+/.well-known/acme-challenge/WL16-GLTZPOK2KVJDH3-LXALRTAMX1YR 1 64 0 0
+/moduleigtt/profile-ashok.html 1 13728 0 0
+/moduleigtt/enquiry/enquiryform.html 1 2235 0 1
+/moduleigtt/admin/index.php 2 4368 0 2
+/dinoz/wp-content/themes/luxa/fonts/interview.woff2 1 14556 0 0
+/moduleigtt/admin/assets/fonts/webfonts/fa-solid-900.woff2 5 397220 0 0
+/.well-known/acme-challenge/492W4S0PALN11BSRAGNWC4XUTMTG4WT2 1 64 0 0
+/moduleigtt/profile-manjunath.html 1 13733 0 0
+/aakruthi-erp/ 4 8880 1 0
+/moduleigtt/experiencecenterbengaluru.html 1 17949 0 0
+/moduleigtt/Blog.html 4 445786 0 0
+/decanvas/assets/vendors/font-awesome/fonts/fontawesome-webfont.woff2 2 143792 0 1
+/.well-known/acme-challenge/54QM4QHQW2J-HPKXINXGU964QSP1-R2A 1 64 0 0
+/moduleigtt/profile-prakash.html 4 54576 0 0
+/dinoz/wp-content/themes/luxa/fonts/essential-set.woff2 1 38072 0 0
+/.well-known/acme-challenge/PE7VVJBPB0FWPHXLMCZME5UKJ63Z1E91 1 64 1 0
+/moduleigtt/experiencecentermangaluru.html 1 17994 0 0
+/moduleigtt/profile-munirao.html 3 41328 0 0
+/moduleigtt/admin/deletequotation.php 1 36 0 1
+/moduleigtt/wp-content/careers/ionicons.ttf 5 943620 0 0
+/moduleigtt/admin/assets/fonts/webfonts/fa-regular-400.woff2 1 13584 0 0
+/moduleigtt/admin/editrequirements.php 1 0 0 1
+/bwflyerfeel/ 2 8894 1 1
+/.well-known/acme-challenge/SY28Z5OJVJ13LMZRLI_P4E9UOYBZHGUU 1 64 0 0
+/dinoz/ 1 16466 1 0
+/dinoz/wp-content/themes/luxa/fonts/web-design.woff2 1 11648 0 0
+/moduleigtt/profile-ramya.html 3 41101 0 0
+/.well-known/acme-challenge/_ZOA40RM_I5UUP0N3_IJMS6YEWO2SWM- 1 64 0 0
+/dinoz/wp-content/themes/luxa/fonts/fontawesome/fa-solid-900.woff2 1 74256 0 0
+/.well-known/acme-challenge/YBI1DTL0FKC3SULE3M37L8-V_R007YQ7 1 64 0 1
+/dinoz/wp-content/themes/luxa/fonts/free-basic-ui-elements.woff2 1 8796 0 0
+END_SIDER

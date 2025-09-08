@@ -1,0 +1,546 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202212 will be lost/reset.
+# Last config file used to build this data file was /home4/parvamco/tmp/awstats/ssl/awstats.wef.parvamconsultech.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2026                
+POS_TIME 2708                
+POS_VISITOR 25659               
+POS_DAY 27078               
+POS_DOMAIN 3282                
+POS_LOGIN 3599                
+POS_ROBOT 3754                
+POS_WORMS 3926                
+POS_EMAILSENDER 4057                
+POS_EMAILRECEIVER 4200                
+POS_SESSION 27256               
+POS_SIDER 27429               
+POS_FILETYPES 4335                
+POS_DOWNLOADS 4551                
+POS_OS 4599                
+POS_BROWSER 4749                
+POS_SCREENSIZE 5037                
+POS_UNKNOWNREFERER 5111                
+POS_UNKNOWNREFERERBROWSER 5385                
+POS_ORIGIN 5467                
+POS_SEREFERRALS 5603                
+POS_PAGEREFS 5747                
+POS_SEARCHWORDS 5895                
+POS_KEYWORDS 6047                
+POS_MISC 2372                
+POS_ERRORS 6106                
+POS_CLUSTER 3455                
+POS_SIDER_404 6192                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20221230021906 146 45342 18958135023335
+FirstTime 20221213033649
+LastTime 20221230021905
+LastUpdate 20221230052605 146 0 146 0 0
+TotalVisits 20                  
+TotalUnique 17                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 42                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavaEnabled 0 0 0
+RealPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+QuickTimeSupport 0 0 0
+AddToFavourites 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+FlashSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 28 28 131142 0 6 0
+1 1 1 43136 0 0 0
+2 4 13 3393709 0 3 0
+3 42 138 8348104 0 16 0
+4 17 20 3075503 12 656 0
+5 4 37 7874026 4 227 0
+6 12 148 7570448 0 6 0
+7 0 0 0 0 0 0
+8 0 0 0 0 0 0
+9 2 2 614214 2 2 614214
+10 0 0 0 0 0 0
+11 2 2 614214 0 0 0
+12 1 14 241655 0 0 0
+13 0 0 0 0 0 0
+14 0 0 0 0 0 0
+15 0 0 0 0 0 0
+16 0 0 0 0 0 0
+17 0 0 0 0 0 0
+18 0 0 0 0 0 0
+19 0 0 0 0 0 0
+20 0 0 0 0 0 0
+21 4 71 3635064 0 2 0
+22 1 1 43136 0 0 0
+23 15 22 4403757 0 6 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 7
+in 108 300 30323076
+us 15 163 7791314
+fr 4 4 1228428
+jp 2 2 86272
+cn 2 2 86272
+be 2 25 464114
+nl 0 1 8632
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 1
+no_user_agent 2 614214 20221228094646 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+html 23 2048012 0 0
+css 32 343572 0 0
+png 127 6254178 0 0
+jpg 111 29037005 0 0
+jpeg 5 63975 0 0
+js 89 698023 0 0
+woff2 8 380752 0 0
+php 102 1162591 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 6
+androidfroyo 2 2
+Unknown 14 4
+linux 2 2
+macosx9 2 2
+linuxubuntu 146 12
+win10 331 111
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 12
+chrome95.0.4638.69 26 0
+chrome107.0.0.0 169 59
+chrome108.0.0.0 131 49
+chrome99.0.4844.84 2 0
+firefox107.0 142 8
+firefox83.0 2 2
+android 2 2
+firefox58.0 4 4
+chrome33.0.1750.152 2 2
+mozilla 14 4
+chrome63.0.3239.108 2 2
+chrome102.0.0.0 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20221214122028
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20221213033730
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 22 60
+From1 0 0
+From2 0 0
+From3 0 0
+From4 111 437
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 1
+404 920 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 226
+/assets/uploads/Kirti_Poonia.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Danish_Manzoor.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/img/architects/Danish_Manzoor.jpg 1 https://wef.parvamconsultech.com/architects.php
+/assets/uploads/Debashmita_Chattopadhyay_Banerjee.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Seema_Chaturvedi.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Sumita%20Dutta.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Prof%20R.%20Vaidyanathan.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Nirupama_Kotru.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Azra_Ismail.jpeg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Jessy_kurian.JPG 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Neerja_Malik.jpeg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Dr.Rajini_Sriraman.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Renuka_Kirpalani.jpeg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Annapurna_Kamath.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Aditya_Raj_Kaul.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Reena_Dewan.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Neha_Mathur.jpeg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Khushboo_Gupta.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Gurdeep_Gill.jpeg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Pundit%20Dr.%20Nagrajarao%20Havaldar.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Sukanya.jpeg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Cedrick_Tandong.JPG 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Sona_Mazumdar_Das.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/DEEPA_RAO_ACHARYA.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Rohit%20Sangwan.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Dr.Rajashree_Krishnaswamy.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Indu%20Jayakumar.jpeg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/BK_Sokhey.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Dr.P.Siva_Kumar.JPG 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Navya_Prakash.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Dr.%20Minu%20Bakshi.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Anitha_George.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Sharmista_Raha.JPG 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Mookambeswaran_A_Vijayalakshmi.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Vaishnavi%20Bala.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/AiyshaShujune_Muhammad.jfif 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Annie_S.%20Kumar.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Bibi_Russell.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Manick%20Rajendran.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Amanda_Strohan.jpeg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Priyanka_Bajaj.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Shereen_Shabnam.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Priya%20Vishwanathan.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Ameeta_Roy.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Jayanthi_Ramanan.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Paras_Loomba.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Devika%20Wattal.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Rani%20Rathnashree%20Raya.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Anoushka%20Mehta.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Thanga_Prabhu.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Babitha%20B%20P.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Lola%20Akinsiun.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/PadmaRani.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Nandkishore_Dhomne.jpeg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Kavitha_Iyer_Rodrigues.JPG 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Sabita%20Radhakrishna.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Sandy_Myhre.JPG 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Sabitha_Natraj.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Dr.VYJAYANTIMALA_BALI.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Sajeev_Viswanathan.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Manju_Singhania.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Uma_Ram.jpeg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Shweta_Shetty.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Ruchira_Bhardwaja.JPG 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Usha%20Laxman.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Rajeswari_Ramanan.JPG 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Vanita_Rungta.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Dr.%20Neelam%20Maheshwari.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Kiki%20Okewale.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Farah_Ismail.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Siddhi_Srivastava.jpeg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Nidhi_Tandon.jpeg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Raman_Marwaha.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Beena_Unnkrishnan.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/simon_small.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Isha%20Pant.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Vijaya_Deepti.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/sangeeta_roy.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Kalyan_Korimerla.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Carol%20Quevedo.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Vasudha_Prakash.jfif 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Raghunanda%20S.%20A..png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Nadiia_Ratke.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Dia_Bose.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Balaji_Narayan.jfif 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Melissa_Nebot_Bohrer.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Ishita%20Das.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Rupa_rani_Ravindran.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/S_Srinivasan.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/H.E-Violeta-Bulc.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Dr%20Natwar_Sharma.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Dr%20Evita%20Fernandez.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Ritu_Chawla_Mathur.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Shripad.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Amitava_Sinha.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Ragini%20Bajaj%20Chaudhary.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Anamika%20Bist.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Michelle%20Connolly.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/img/architects/arathi.jpg 1 https://wef.parvamconsultech.com/architects.php
+/assets/uploads/Balaji_Pasumarthy1.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Prince%20Manvendra%20Singh%20Gohil.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Mitali_Biswas.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/ganeshakrishnan_Iyer.JPG 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Vidwan%20LalgudiGJR%20Krishnan.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Abinav_Thakur.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Sarifa_Younes.jpeg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Sridhar_Jaganathan.jpeg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Mahesh_Iyer.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Sridevi%20Unni.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/img/architects/Sumita.png 1 https://wef.parvamconsultech.com/architects.php
+/assets/uploads/Mansi%20Mahajan.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Pamela%20Kumar.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Johanna_Suo.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Marie-Laure%20Majou.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Jaskirat_Bawa.jfif 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Dr.Veena_Chakravarthi.jpeg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Amita%20Karadkhedkar.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Milly_Perry.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Archana_Gupta.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/rosalia_arteaga.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/img/architects/Priya_Vishwanathan.jpg 1 https://wef.parvamconsultech.com/architects.php
+/assets/uploads/Rajarajeshwari.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/KS_RAVI_SHANKAR.jpeg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Laurent%20Fournier.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Anil%20Kumar%20Jagalur.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Shalini%20Chaudhri%20Jacob.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Venkat_Pisupati.PNG 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Naomi_Osemedua.jpeg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/shikha_sharma.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Mohan_Ram.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Usha_Singh.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/img/architects/Sowmya_Rao.jpg 1 https://wef.parvamconsultech.com/architects.php
+/assets/uploads/Sentila_T_Yanger.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Pavithra_Muddaya.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Anil_Kapur.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Sohini%20Roychowdhury.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Renjith.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Priamvadha.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Sathyanaryana.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Neelu%20Chawla.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Tushar_Dhingra.jpeg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Ratnamala_Swain.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Sinjini_Sengupta.jpeg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Dr.Vasumathi_Badrinathan.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Nisha_Dhanuka.JPG 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/shanthi_mathur.jpeg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Mantasha%20Ahmed.jpeg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Ravi_kumar.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/img/banner/4.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Carol_Quevedo.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Aishwary_Gupta.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/img/architects/Mar_Introini.jpg 1 https://wef.parvamconsultech.com/architects.php
+/assets/uploads/Kiran%20D%20M.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Sita_Kapoor.JPG 4 https://wef.parvamconsultech.com/speakers.php
+/assets/img/map/map-icon.png 41 https://wef.parvamconsultech.com/index.php
+/assets/uploads/Aditya_Santhanam.jpeg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/img/architects/Sarifa_Younes.jpeg 1 https://wef.parvamconsultech.com/architects.php
+/assets/uploads/Avnita_Bir.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Clara_Gona.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Vidya_Muralidharan.jpeg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Anupama_VSarma.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Karen%20Bruges.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Foram%20Nagori.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Amrita%20Madiah.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Sakina_Ansari.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Mireille_Toulekima.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Pushpalatha_%20MS.jpeg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Satyavathi%20Divadari.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Ata%20Ashiru.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Neeta_Inamdar.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Vijay_Chandru.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Enolia.jpeg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Swayta_Murarka.jpeg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Shefalee%20Vasudev.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Tanisha_Dutta_Sen.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/sudha_suresh.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Dr.Shalini_Pradhan.JPG 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Dr.Suchitra_Kaul_Misra.jpeg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Dr.Gita_Arjun.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Radhika%20Rajan.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Shanthi_Naresh.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Dr.%20P.%20Vijaya%20Kumar.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Aashish_Singh.jpeg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Rina%20Singh.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Anjali_Singh.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Ramanjit%20Kaur.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/H.E.Segolene_Royal.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Karin%20C.%20Rodriguez.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Rajiv_Menon.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Ms.Devika_Shah.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Pallavi_Wali.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Prof%20(%20Mrs)%20Anupam%20Mahajan.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Reena%20Mutum.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Deepak%20Paul.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Dr.%20Vyshnavi%20Harika.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Megalai_SenthilKumar.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Dr.Nazrana_Ahmed.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Hedva%20Ser.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Jaya%20Jaitly.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Nasrin_Siddiqa.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Gupta_Boda.JPG 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Ashwini_Bogadi.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Usha_Amin.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/megha_tareja_tyagi.JPG 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Naresh_Sadasivan.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Prabhakar_Kadapa.JPG 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Tilottama%20Shrinivasa.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Uma%20Reddy.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Maneesh%20Gaur.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Dr.%20KUILJEIT_UPPAAL.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Jay_Srinivasan.PNG 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Simran%20Kaur.jpeg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Sudha_Narasimhachar.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Pragya%20Prasun.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Manoj_Thelakkat.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Mar_Introini.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Jayanthi%20Devarajan%20Iyengar.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Tatjana_Christelbauer.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Dr.Nappinnai.PNG 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/neerja%20birla.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Sunita%20Bhuyan.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Brij_Chopra.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Lalitha%20J%20S.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Dr%20Akshatha%20Rao.jpg 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Vinay%20Murali.png 4 https://wef.parvamconsultech.com/speakers.php
+/assets/uploads/Dr%20S.%20Yella_Reddy.jpg 4 https://wef.parvamconsultech.com/speakers.php
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 42
+49.205.146.231 59 169 18968219 20221213232020
+106.196.16.235 27 27 88006 20221230000340
+49.205.144.62 18 91 7873142 20221229235837
+34.254.53.125 12 148 7570448 20221213062300
+49.205.149.2 4 13 3393709 20221230021905 20221230021858 /index.php
+183.129.153.157 2 2 86272 20221215004909
+51.254.49.103 1 1 307107 20221214111403
+167.94.138.47 1 6 83583 20221213033729
+51.255.62.5 1 1 307107 20221214092956
+162.142.125.220 1 6 83583 20221213033717
+51.254.49.104 1 1 307107 20221214111403
+51.255.62.10 1 1 307107 20221214092956
+87.236.176.9 1 1 43136 20221214122028
+87.236.176.193 1 1 43136 20221214030324
+150.136.250.6 1 1 43136 20221214014411
+133.242.174.119 1 1 43136 20221213052120
+133.242.140.127 1 1 43136 20221213052120
+87.236.176.207 0 1 33734 
+87.236.176.149 0 1 7995 
+87.236.176.19 0 1 12166 
+87.236.176.116 0 1 23191 
+87.236.176.170 0 1 25346 
+165.22.39.64 0 1 7995 
+87.236.176.161 0 1 12166 
+87.236.176.224 0 1 5646 
+87.236.176.243 0 1 1379 
+206.189.7.178 0 1 2569 
+87.236.176.70 0 1 2569 
+87.236.176.213 0 1 33734 
+87.236.176.126 0 1 15880 
+87.236.176.206 0 1 38622 
+188.166.26.88 0 1 8632 
+87.236.176.49 0 2 22997 
+87.236.176.4 0 1 1379 
+87.236.176.143 0 1 8632 
+87.236.176.222 0 1 15880 
+87.236.176.101 0 1 17351 
+87.236.176.212 0 1 23191 
+87.236.176.34 0 1 6008 
+87.236.176.95 0 1 25346 
+87.236.176.92 0 1 38622 
+87.236.176.131 0 1 6008 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 5
+20221213 75 331 26792105 7
+20221214 8 34 1798010 8
+20221215 1 1 43136 1
+20221229 18 91 7873142 2
+20221230 31 40 3481715 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+1h+ 1
+30s-2mn 2
+2mn-5mn 1
+0s-30s 15
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 15
+/updateLog.php 55 0 0 2
+/ 23 2048012 15 14
+/getRegistrationFee.php 13 484 0 0
+/index.php 9 388224 1 0
+/registration.php 8 220097 1 0
+/speakers.php 6 446124 0 0
+/assets/libs/fontawesome/fonts/fontawesome-webfont3e6e.woff2 4 308640 0 1
+/assets/libs/bootstrap/fonts/glyphicons-halflings-regular.woff2 4 72112 0 0
+/gettopics.php 4 10486 0 0
+/setsession.php 2 63 0 0
+/payment.php 1 13783 0 0
+/about.php 1 19435 1 0
+/paymentsuccess.php 1 14637 1 0
+/architects.php 1 23610 0 1
+/agenda.php 1 25648 1 1
+END_SIDER

@@ -1,0 +1,780 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202111 will be lost/reset.
+# Last config file used to build this data file was /home4/parvamco/tmp/awstats/ssl/awstats.parvamconsultech.parvam.co.in.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2031                
+POS_TIME 2701                
+POS_VISITOR 19697               
+POS_DAY 23354               
+POS_DOMAIN 3558                
+POS_LOGIN 3869                
+POS_ROBOT 4024                
+POS_WORMS 4196                
+POS_EMAILSENDER 4327                
+POS_EMAILRECEIVER 4470                
+POS_SESSION 24160               
+POS_SIDER 24369               
+POS_FILETYPES 4605                
+POS_DOWNLOADS 4945                
+POS_OS 5057                
+POS_BROWSER 5229                
+POS_SCREENSIZE 5825                
+POS_UNKNOWNREFERER 5899                
+POS_UNKNOWNREFERERBROWSER 6541                
+POS_ORIGIN 7028                
+POS_SEREFERRALS 7171                
+POS_PAGEREFS 7336                
+POS_SEARCHWORDS 7484                
+POS_KEYWORDS 7636                
+POS_MISC 2365                
+POS_ERRORS 7695                
+POS_CLUSTER 3725                
+POS_SIDER_404 7873                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20211201000205 812 249559 22178097776716
+FirstTime 0
+LastTime 20211130235720
+LastUpdate 20211201052655 812 0 811 0 0
+TotalVisits 147                 
+TotalUnique 85                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 89                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+DirectorSupport 0 0 0
+JavascriptDisabled 0 0 0
+FlashSupport 0 0 0
+TotalMisc 0 0 0
+AddToFavourites 0 0 0
+JavaEnabled 0 0 0
+QuickTimeSupport 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+RealPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 695 2572 243203343 83 1283 670330
+1 620 1335 126488784 108 1188 6087020
+2 1272 2161 107860394 125 3419 38922837
+3 1545 2830 84738363 119 2890 786942
+4 1100 2515 93876299 91 1209 18896591
+5 622 1262 34382961 107 1004 3279
+6 200 343 8330030 52 720 824116
+7 4 5 78849 41 65 1861
+8 22 72 4945747 36 75 2538
+9 39 466 120129835 39 110 452
+10 14 48 969779 87 98 278
+11 52 200 7564260 101 145 104
+12 6 6 13320 68 73 598
+13 1 3 785970 11 13 0
+14 12 355 64518038 32 43 187778
+15 0 0 0 73 80 11943
+16 1 1 11759 47 55 39351
+17 0 0 0 115 119 3738
+18 32 359 38676214 86 154 1408
+19 16 56 1031459 95 110 38459
+20 8 9 135938 523 532 1509
+21 246 654 43585399 321 1071 287364
+22 452 1355 103870812 66 594 87
+23 670 2245 192984176 109 1174 100336
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 5
+in 7041 16352 1020101230
+us 257 762 48343641
+jp 244 607 35500898
+cn 80 1124 169664834
+gr 7 7 255667
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 1
+no_user_agent 3 109563 20211128061113 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 13
+ttf 19 3426920 0 0
+jpg 4498 935659707 0 0
+png 1485 146571697 0 0
+php 6709 41377474 0 0
+woff2 476 18466664 0 0
+js 3099 43831656 0 0
+jpeg 130 26825394 0 0
+css 2005 26884993 0 0
+html 326 10285462 0 0
+gif 6 208354 0 0
+json 74 14704832 0 0
+woff 23 1288352 0 0
+Unknown 2 19306 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/test_moduleigtt/wp-content/photos/videopreview.mp4 0 2 4315459
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 7
+macosx 197 9
+Unknown 30 28
+linuxandroid 1763 286
+win7 39 7
+win8.1 8525 3645
+win10 8299 3654
+ios_iphone 1 0
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 24
+chrome96.0.4664.55 1 1
+chrome94.0.4606.81 39 7
+firefox94.0 6 6
+chrome96.0.4664.45 12030 6385
+chrome95.0.4638.69 4288 889
+chrome92.0.4515.159 484 18
+mozilla 5 2
+chrome79.0.3945.130 55 3
+chrome77.0.3865.116 1 1
+chrome95.0.4638.54 733 60
+chrome95.0.4638.74 127 51
+iphone 1 0
+chrome90.0.4430.210 40 8
+chrome94.0.4606.71 211 8
+edge18 36 10
+chrome72.0.3626.121 288 13
+chrome62.0.3202.84 2 2
+Unknown 26 26
+chrome95.0.4638.50 39 7
+chrome64.0.3282.137 30 6
+chrome89.0.4389.105 1 1
+chrome78.0.3904.96 1 1
+opera80.0.4170.63 92 37
+chrome94.0.4606.85 318 87
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 7
+Expanse_indexes_the_network_perimeters_of_our_customers._If_you_have_any_questions_or_concerns,_please_reach_out_to:_scaninfo@expanseinc.com 20211123040629
+WhatsApp/2.21.22.26_A 20211125030511
+Mozilla/4.0_(compatible;_ms-office;_MSOffice_16) 20211128091146
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20211123191341
+WhatsApp/2.21.10.16_A 20211104092426
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20211121022158
+WhatsApp/2.21.19.21_A 20211106004844
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 5
+WhatsApp/2.21.22.26_A 20211125030511
+Expanse_indexes_the_network_perimeters_of_our_customers._If_you_have_any_questions_or_concerns,_please_reach_out_to:_scaninfo@expanseinc.com 20211123040629
+WhatsApp/2.21.10.16_A 20211104092426
+WhatsApp/2.21.19.21_A 20211106004844
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20211121022158
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 533 543
+From1 0 0
+From2 16 16
+From3 0 0
+From4 7080 18295
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 16 16
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 9
+301 22 5453
+404 15825 0
+400 14 728
+401 32 1205
+206 48 66704653
+409 1 83
+406 209 47234
+500 1 0
+302 2 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 276
+/test_moduleigtt/wp-content/photos/trending/paralelll.jpg 52 https://parvamconsultech.com/test_moduleigtt/index.html
+/30a37e9NwiQFd8231ec833301SCupcVB7c2022.fish 1 -
+/autoload_classmap.php 8 -
+/exploit.php 8 -
+/wp-admin.php 8 -
+/cpanel.php 39 -
+/hacked.php 7 -
+/mini.php 8 -
+/seft/Profile_images/1636800506_1.jpg 568 https://parvamconsultech.com/seft/view-all-student.php
+/media-admin.php 1 -
+/seft/Profile_images/STUIMG_112425572361978ac49b560.jpg 586 https://parvamconsultech.com/seft/view-all-student.php
+/styles.d2d481ae36dfe35dd1cc.css 12 https://www.parvamconsultech.com/switchdirection/
+/ups.php 8 -
+/fw.php 10 -
+/e573218NKBsXd8231d7ab33a1iOvnk-s7da2eb.my 1 -
+/wsoshell.php 8 -
+/seft/Profile_images/61963b814e14a.jpg 592 https://parvamconsultech.com/seft/view-all-student.php
+/wikindex.php 8 -
+/seft/login.php 2 https://parvamconsultech.com/seft/Dashboard.php
+/wp-rss.php 7 -
+/3index.php 25 -
+/test_moduleigtt/nav.scss 111 https://parvamconsultech.com/test_moduleigtt/
+/rahma.php 7 -
+/ohayo.php 8 -
+/f4bb34ekGMd8231a475b261exeGPc405b2.tc 1 -
+/seft/insert-form 1 -
+/test_moduleigtt/wp-content/internals/WAO859.png 4 https://parvamconsultech.com/test_moduleigtt/portfolio/index.html
+/test_moduleigtt/wp-content/Uploaddesigtoserver.php 4 https://parvamconsultech.com/test_moduleigtt/index.html
+/seft/Profile_images/1636349393_7.jpg 577 https://parvamconsultech.com/seft/view-all-student.php
+/alfashell.php 7 -
+/runtime-es2015.36f2505f2fefe68d6758.js 4 https://parvamconsultech.com/switchdirection/
+/test_moduleigtt/wp-content/handletype/Ticinum.jpg 3 https://parvamconsultech.com/test_moduleigtt/index.html
+/seft/Profile_images/ 1 https://parvamconsultech.com/seft/student-details.php
+/seft/Profile_images/6194d8a9d453b.jpg 567 https://parvamconsultech.com/seft/view-all-student.php
+/ads.txt 30 -
+/o.php 8 -
+/sym403.php 7 -
+/runtime-es2015.84b3df2b260228f40c34.js 7 https://parvamconsultech.com/switchdirection/
+/test_moduleigtt/wp-content/handletype/Spira.jpg 3 https://parvamconsultech.com/test_moduleigtt/index.html
+/technology-workshops/ 3 -
+/41.php 8 -
+/mailersmtp.php 7 -
+/home/index.html 1 https://parvamconsultech.com/moduleigtt/index.html
+/robots.txt 144 -
+/skipper.php 7 -
+/3.php 8 -
+/seft/view-agents.php 3 https://parvamconsultech.com/seft/student-payment.php
+/seft/Profile_images/1636797416_4.jpg 568 https://parvamconsultech.com/seft/view-all-student.php
+/mobile-app-android-ios/ 7 -
+/seft/add-new-student.php 2 https://parvamconsultech.com/seft/student-payment.php
+/b29d21aUQALlxd82318899c141ot_DRYAEf236ca.pw 1 -
+/1e0f936OGcBd8231bf8f9fc1FJCvtZd3a977.md 1 -
+/wp2.php 7 -
+/e-commerce-development/ 2 -
+/87f506btEMd8231a201e5b1eP_DC28af63.shop 1 -
+/polyfills-es2015.cd922be208e6be712d4f.js 16 https://www.parvamconsultech.com/switchdirection/
+/schoolerp/js/popper.min.js.map 1 -
+/cf7add1Djcyd823145226291xpITjP1acb5c.ls 1 -
+/d2a0c61s_tnd82315f574d81voMxhHf50cba.tc 1 -
+/r.php 7 -
+/seft/Profile_images/61963e8d1a01a.jpg 587 https://parvamconsultech.com/seft/view-all-student.php
+/seft/Profile_images/STUIMG_457322438619b56cec947d.jpg 55 https://parvamconsultech.com/seft/view-all-student.php
+/x.php 16 -
+/seft/css/img/preloader.gif 2180 https://parvamconsultech.com/seft/css/style.css
+/new.php 8 -
+/9fc70beDVRPGJKd82315d3dd9d1wiaIya_Bf4cf4d.my 1 -
+/main-es2015.25ecb81bb10d7e39df54.js 5 https://www.parvamconsultech.com/switchdirection/
+/stindex.php 9 -
+/e3db010jQSd823156cc5071cbMsr6fe07e.ca 1 -
+/nasgor.php 7 -
+/56f336boNnAgKd823169e39801bkpINKYo7fdc73.pw 1 -
+/seft/Profile_images/61963ffc8239b.jpg 2 https://parvamconsultech.com/seft/view-all-student.php
+/4price.php 8 -
+/testmoduleigtt/ 1 -
+/utchiha.php 1 -
+/test_moduleigtt/wp-content/photos/trending/wallpanel.jpg 11 https://parvamconsultech.com/test_moduleigtt/
+/0byte.php 8 -
+/404.php 8 -
+/y.php 7 -
+/gallery/ 3 -
+/wp-admin/css/ 1 binance.com
+/e.php 7 -
+/main-es2015.ba482e8ed4c49fac903b.js 8 https://parvamconsultech.com/switchdirection/
+/blog.php 7 -
+/wp-confirm.php 8 -
+/seft/Profile_images/STUIMG_132121921619b5cc23266e.jpg 543 https://parvamconsultech.com/seft/view-all-student.php
+/seft/Profile_images/STUIMG_169081727861978d5725aee.jpg 572 https://parvamconsultech.com/seft/view-all-student.php
+/root.php 1 -
+/FoxWSO.php 8 -
+/about-us/ 4 -
+/seft/Profile_images/1637235919_5.jpg 3 https://parvamconsultech.com/seft/view-all-student.php
+/wp-includes/upload_index.php 1 -
+/shell4.php 7 -
+/1.php 8 -
+/edit-form.php 7 -
+/cp.php 7 -
+/category/%E3%83%AA%E3%83%A9%E3%82%A4%E3%83%88%E8%A8%98%E4%BA%8B%EF%BC%882016-2018%E5%B9%B4%EF%BC%89/ 1 -
+/0.php 7 -
+/2015/11/ 4 -
+/shell.php 15 -
+/2018/09/27/%E3%80%8E%E8%8A%B1%E6%99%B4%E3%82%8C%E3%80%8F%E3%81%AE%E5%89%8D%E3%81%A8%E5%BE%8C%E3%81%AE%E4%B8%96%E7%95%8C%E3%80%82/comment-1719 1 -
+/wp-stream.php 1 parvamconsultech.com
+/kiss.php 7 -
+/19893b3ordd8231dce68da1_TtBf303206.me 1 -
+/js/vendor/NoSleep.min.js 32 https://www.parvamconsultech.com/kpl/
+/priv8.php 7 -
+/ru.php 7 -
+/1index.php 22 -
+/seft/Profile_images/1636545285_3.jpg 566 https://parvamconsultech.com/seft/view-all-student.php
+/9.php 12 -
+/30ddca7MEBkud82319ecdcec1JEIKIjj5d7a62.lc 1 -
+/seft/Profile_images/STUIMG_37073551761977b422f8ee.jpg 572 https://parvamconsultech.com/seft/view-all-student.php
+/a1289b7LZboXkd82319d410cc1iKJlVXmm1194fc.th 1 -
+/c99.php 7 -
+/images/vuln.php 1 -
+/upload.php 1 -
+/xxx.php 8 -
+/main-es2015.423683307384d36d3621.js 3 https://parvamconsultech.com/switchdirection/
+/tshop.php 7 -
+/test_moduleigtt/wp-content/photos/trending/ushape1.jpeg 53 https://parvamconsultech.com/test_moduleigtt/index.html
+/ea0d8b5BGVd82314ef1c461kVgE_22d89c.gd 1 -
+/schoolerp/css/img/preloader.gif 5 https://parvamconsultech.com/schoolerp/css/style.css
+/u.php 7 -
+/seft/add_student_master.php 1 https://parvamconsultech.com/seft/add-new-student.php
+/seft/js/popper.min.js.map 115 -
+/wp-wso.php 1 -
+/669c1a3rFWHREvd8231674920e1we_kOf61085d.kr 1 -
+/5d646b2nOVlxd8231d2480091oC_GZkP306896.pw 4 https://www.parvamconsultech.com/5d646b2nOVlxd8231d2480091oC_GZkP306896.pw
+/seft/Profile_images/1636024014_6.jpg 573 https://parvamconsultech.com/seft/view-all-student.php
+/07c76deEDzXsYd8231088e4281mymTapRJ0dbd30.gd 1 -
+/leaf.php 49 -
+/it.php 7 -
+/saudi.php 7 -
+/my_alfa.php 7 -
+/i.php 7 -
+/xox.php 8 -
+/Indox.php 8 -
+/mar.php 8 -
+/schoolerp/js/bootstrap.min.js.map 1 -
+/100.php 8 -
+/moduleigtt/uploads/0 1 https://parvamconsultech.com/moduleigtt/admin/viewdetails.php
+/wp.php 8 -
+/wp-configer.php 9 -
+/defau1t.php 8 -
+/switchdirection/api/index.php 4 -
+/diploma/ 3 -
+/.fk.php 8 -
+/new-index.php 8 -
+/seft/view-all-student.php 7 https://parvamconsultech.com/seft/view-all-student.php
+/Gel.php 8 -
+/application-development/ 3 -
+/eab205bROid823181f19bc1DsmGW314622.shop 1 -
+/seft/add_student_insert_master.php 1 https://parvamconsultech.com/seft/student-insert-form.php
+/seft/fetch_student_details.php 8 https://parvamconsultech.com/seft/view-all-student.php
+/test_moduleigtt/uploads/0 4 https://parvamconsultech.com/test_moduleigtt/admin/viewdetails.php
+/a030954Xmod82319d2d4741dWYAJ8cc741.gp 1 -
+/065abaemuGd8231f27f3c31WHMmJ7d56f4.works 1 -
+/shellalfa.php 8 -
+/leafmailer.php 47 -
+/9110035-wzb-d82310eacdf51Ovismo_ad2dd0.gd 1 -
+/d995bf0D_VSGd823105a8ddb1wsSNOig627ad3.sexy 1 -
+/1767274NIYEiTd823134b65d01PdjZKN-if7cc5a.sa 1 -
+/a.php 16 -
+/switchdirection/api/index.php/ 5 -
+/de5e57efaxVRd8231e605eaf1NHwVXpY2ada16.group 1 -
+/send.php 15 -
+/seft/fetch_student_payment.php 5 https://parvamconsultech.com/seft/student-payment.php
+/up.php 7 -
+/if.php 7 -
+/symlink.php 8 -
+/777.php 8 -
+/test_moduleigtt/wp-content/handletype/Aluminium%20Handle%20Profile%20-%20AD03.jpg 11 https://parvamconsultech.com/test_moduleigtt/index.html
+/alexus.php 7 -
+/alex.php 23 -
+/uploads/contexmini.php 7 -
+/anone.php 8 -
+/moduleigtt/nav.scss 31 https://parvamconsultech.com/moduleigtt/
+/emergency.php 1 -
+/abf8e5fCwQyd823128ce7ce1N-_ab5e19.ge 1 -
+/test_moduleigtt/wp-content/handletype/Aluminium%20Handle%20Profile%20-%20AD02.jpg 11 https://parvamconsultech.com/test_moduleigtt/index.html
+/wp-one.php 7 -
+/owl.php 8 -
+/smtp.php 7 -
+/bypass.php 8 -
+/.well-known/ 1 binance.com
+/sitecore/shell/ClientBin/Reporting/Report.ashx 1 -
+/shellx.php 8 -
+/seft/fetch_student_year.php 5 https://parvamconsultech.com/seft/student-payment.php
+/seft/Profile_images/1636023925_5.jpg 571 https://parvamconsultech.com/seft/view-all-student.php
+/skippershell.php 7 -
+/test_moduleigtt/wp-content/photos/trending/displayunit.jpg 11 https://parvamconsultech.com/test_moduleigtt/
+/c.php 8 -
+/inje3ctor.php 7 -
+/www.php 7 -
+/wp-content/plugins/wp-striplple/striplple.php 1 parvamconsultech.com
+/60c2846ewcUhd8231b8483b11iieKtZZca6cac.gd 1 -
+/spectrafin/css/bootstrap.min.css.map 3 -
+/seft/add-new-agent.php 2 https://parvamconsultech.com/seft/student-payment.php
+/schoolerp/css/bootstrap.min.css.map 1 -
+/switchdirection/api/indexphp 2 -
+/11index.php 1 -
+/leafmailer2.8.php 39 -
+/wi.php 8 -
+/contact-us/ 4 -
+/seft/fetch_agent_details.php 8 https://parvamconsultech.com/seft/view-all-student.php
+/doc.php 8 -
+/f.php 8 -
+/mailer.php 44 -
+/2index.php 22 -
+/seft/js/bootstrap.min.js.map 115 -
+/5784db1eYXd823152492b51spMDSae2a92.shop 1 -
+/seft/Profile_images/STUIMG_406198263619791e903bfb.jpg 10 https://parvamconsultech.com/seft/view-all-student.php
+/shx.php 8 -
+/seft/Profile_images/61963d7c3481b.jpg 583 https://parvamconsultech.com/seft/view-all-student.php
+/alfa.php 23 -
+/seft/update_student_master.php 1 https://parvamconsultech.com/seft/add-new-student.php
+/wso1337.php 7 -
+/wp-content/wp-logins.php 8 -
+/wp-content/wp-admin.php 8 -
+/9ad61f0lCWdSKzd823120279a21lATjkzce6c531.gd 1 -
+/dae6ea4CJOd8231f38aed31DyWBAae5a61.mo 1 -
+/uploader.php 7 -
+/seft/css/bootstrap.min.css.map 128 -
+/seft/add_student_payment.php 2 https://parvamconsultech.com/seft/student-payment.php
+/old-index.php 11 -
+/seft/Profile_images/1636352694_8.jpg 571 https://parvamconsultech.com/seft/view-all-student.php
+/55e788cuXvnfEvd8231d59baa31tKMkxAXBe4792e.pw 1 -
+/lf.php 7 -
+/dr.php 8 -
+/seft/Profile_images/1636960142_1.jpg 569 https://parvamconsultech.com/seft/view-all-student.php
+/switchdirection/api/index.html 1 -
+/seft/logout.php 1 -
+/seft/Profile_images/STUIMG_126133707761978f5f23c6a.jpg 569 https://parvamconsultech.com/seft/view-all-student.php
+/seft/Profile_images/1635936158_1.jpg 570 https://parvamconsultech.com/seft/view-all-student.php
+/wp-blog.php 8 -
+/feed/ 5 -
+/ab50443BVPKR-ud82313dc14bd1SlLCatUe94e64.ca 1 -
+/seft/ 3 -
+/runtime-es2015.a92e20cbee392712a77f.js 5 https://www.parvamconsultech.com/switchdirection/
+/data.php 8 -
+/alfa123.php 7 -
+/seft/dashboard.php 1 -
+/wp-uploads.php 8 -
+/team/ 4 -
+/seft/Profile_images/1637235905_5.jpg 4 https://parvamconsultech.com/seft/view-all-student.php
+/MARIJUANA.php 8 -
+/sym.php 8 -
+/XxX.php 8 -
+/baindex.php 8 -
+/t.php 7 -
+/seft/Dashboard.php 4 -
+/sendmail.php 7 -
+/Foxwso.php 1 -
+/.wp-cache.php 7 -
+/ERP 1 -
+/test_moduleigtt/wp-content/handletype/Aluminium%20Handle%20Profile%20-%20G.jpg 11 https://parvamconsultech.com/test_moduleigtt/index.html
+/vuln.php 8 -
+/e2988d6BM-ed8231df8950f1ebGPTD510969.works 1 -
+/cms.php 8 -
+/ 345 -
+/seft/loginphp 1 -
+/.git/config 3 -
+/2a4ff49fHVgd8231182a3691rNDIWJ3cec07.guru 1 -
+/9112102ObCHnid82310eacdf51NuEUGerW789f4f.tc 1 -
+/seft/student-insert-form 1 -
+/4dc453degaNcsdd823156f52be1EIBK_a90bbc.kr 1 -
+/wso.php 23 -
+/seft/Profile_images/1636800382_2.jpg 571 https://parvamconsultech.com/seft/view-all-student.php
+/moduleigtt/uploads/ 1 https://parvamconsultech.com/moduleigtt/admin/viewdetails.php
+/bca/ 1 -
+/1033.php 1 -
+/switchdirection/api/ 1 -
+/tttt.php 7 -
+/sindex.php 8 -
+/wp/rahma.php 7 -
+/z.php 7 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 89
+49.206.8.119 6109 12808 616964505 20211130235720
+103.57.83.149 489 602 5729775 20211123041433
+220.158.157.238 239 571 33074617 20211124005945
+157.45.199.24 121 166 1217366 20211120055859
+103.57.83.153 90 162 8117019 20211130003147
+49.205.149.148 59 240 8363282 20211125081539
+36.255.87.0 47 181 4215920 20211117022902
+1.39.161.86 43 611 114501601 20211108040616
+157.45.101.172 38 79 1097817 20211119050353
+1.39.137.144 26 279 39162803 20211107054506
+223.186.50.93 26 71 4897418 20211128052116
+223.231.151.219 19 63 4904777 20211125111110
+1.39.163.248 18 192 37301117 20211103093255
+36.255.87.1 18 484 93163549 20211106143746
+157.50.36.130 17 115 8993252 20211125185425
+157.45.102.126 16 22 239287 20211119052445
+49.207.210.215 16 45 3375545 20211127093048
+49.205.150.175 15 243 29650355 20211108183220
+36.255.87.7 15 459 72285365 20211103015813
+49.206.12.244 13 37 275112 20211102045624
+157.45.81.166 12 57 4903224 20211129215915
+1.39.152.164 9 147 31607148 20211103045906
+1.39.131.109 9 33 537141 20211130195838
+1.39.136.142 9 157 47907288 20211104092426
+106.51.243.176 7 194 29051058 20211106020708
+157.50.25.28 1 1 29899 20211114212706
+34.96.130.2 1 1 36517 20211104202000
+172.58.225.52 4 20 416118 20211125233354
+157.45.170.156 6 129 28649331 20211104093320
+92.118.160.9 2 2 73046 20211121022158
+157.45.118.188 1 1 4330 20211118042144
+122.167.136.182 0 1 0 
+157.45.210.253 2 3 19051 20211119073605
+34.77.162.17 1 1 36529 20211102004341
+172.56.2.19 4 20 416104 20211123002529
+223.186.104.72 2 2 59798 20211126102330
+223.196.116.107 4 20 416118 20211125021258
+172.56.27.254 3 19 415973 20211124223201
+203.187.193.134 3 55 3224957 20211108230036
+34.77.162.26 1 1 36529 20211109003751
+223.186.159.112 2 2 59798 20211108104439
+171.76.114.118 2 3 76620 20211122100641
+115.110.224.178 1 1 2616 20211118043130
+220.158.157.187 5 36 2426281 20211129030420
+157.45.79.78 1 16 233896 20211120024156
+106.197.214.19 6 6 13320 20211101125620
+123.176.33.69 4 20 416104 20211122231401
+1.39.181.200 1 34 794012 20211108132155
+92.118.160.41 2 2 73058 20211115041349
+27.59.98.173 1 1 29899 20211113072429
+162.142.125.194 1 1 11772 20211123191341
+42.105.121.26 2 2 59827 20211109024615
+157.45.222.165 1 1 131 20211122032725
+92.118.160.17 1 1 36517 20211119210512
+42.105.121.107 1 1 29899 20211116190023
+34.96.130.27 1 1 36517 20211123040629
+202.88.157.196 4 20 416104 20211123220340
+42.106.160.11 1 1 29899 20211111042129
+172.56.17.138 3 19 415987 20211129004326
+49.44.85.170 3 19 415987 20211129004255
+49.44.80.69 3 19 415973 20211123220329
+157.45.201.233 3 9 136569 20211125030534
+103.231.11.69 4 20 416104 20211123000330
+49.44.67.170 6 30 442742 20211119042601
+223.186.74.100 1 1 29899 20211117092441
+68.3.220.25 0 1 32607 
+157.45.180.107 2 3 19051 20211119064422
+223.186.236.127 1 1 29899 20211129073219
+49.44.82.231 4 20 416118 20211130194647
+49.37.183.191 7 8 99421 20211119204810
+49.44.85.202 6 30 442403 20211119043556
+92.118.160.5 2 2 73046 20211113001831
+157.45.161.87 4 26 408677 20211119040452
+1.39.138.20 7 129 28935338 20211106004844
+223.196.67.167 3 19 415973 20211124223124
+1.39.165.121 2 2 4440 20211130113443
+223.237.198.215 1 1 29899 20211116034715
+167.248.133.44 1 1 11759 20211121163014
+106.51.241.12 1 1 2220 20211129050647
+98.203.144.150 0 1 0 
+34.96.130.11 1 1 36529 20211119054627
+157.45.215.169 4 26 408677 20211119040526
+157.45.195.148 1 1 2398 20211122060817
+108.71.216.65 0 1 32607 
+34.86.35.19 1 1 36517 20211109054709
+157.45.196.148 2 9 4179 20211122001138
+157.45.200.210 2 8 4441 20211121085515
+106.197.203.30 1 1 29899 20211104040656
+157.50.50.107 1 1 0 20211123030718
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 28
+20211101 11 27 47280 2
+20211102 15 186 33288319 3
+20211103 36 628 112498451 4
+20211104 17 288 76623035 4
+20211105 6 130 28678118 1
+20211106 34 856 153326670 5
+20211107 63 697 122909909 6
+20211108 149 1420 232888174 9
+20211109 20 411 76629012 4
+20211111 1 1 29899 1
+20211113 2 2 66416 2
+20211114 1 1 29899 1
+20211115 2 2 36852 2
+20211116 59 271 8411453 7
+20211117 60 199 5027108 6
+20211118 364 730 6343784 6
+20211119 329 647 7424719 13
+20211120 122 182 1451262 2
+20211121 179 258 1994356 5
+20211122 1333 1800 14830619 7
+20211123 1576 2132 53168467 12
+20211124 371 889 22993444 7
+20211125 1159 3030 180111491 9
+20211126 752 2117 70629539 3
+20211127 191 278 4792360 4
+20211128 73 228 10591270 4
+20211129 297 672 24714739 11
+20211130 407 770 28645084 7
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+30mn-1h 16
+5mn-15mn 15
+30s-2mn 6
+15mn-30mn 3
+2mn-5mn 7
+1h+ 23
+0s-30s 77
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 90
+/seft/fetch_student_details.php 1369 19627624 4 11
+/seft/fetch_agent_details.php 1299 5246080 0 14
+/seft/login.php 606 518595 20 11
+/seft/view-all-student.php 552 7859100 2 0
+/seft/Dashboard.php 431 1776688 16 4
+/seft/student-payment.php 350 1325086 2 3
+/seft/add-new-student.php 294 1311760 1 3
+/seft/fetch_student_year.php 252 2041 0 1
+/seft/student-details.php 234 959066 1 2
+/seft/index.php 176 23846 3 0
+/seft/webfonts/fa-solid-900.woff2 172 12783040 1 14
+/seft/fetch_student_payment.php 170 1364 1 2
+/seft/webfonts/fa-regular-400.woff2 163 2218104 0 7
+/seft/ 159 17023 18 3
+/seft/view-agents.php 139 1005412 2 1
+/seft/fonts/Flaticon.woff2 124 1097152 0 1
+/test_moduleigtt/wp-content/handler.php 84 18498 3 3
+/seft/add_student_payment.php 75 11573 0 0
+/seft/update_student_master.php 72 9636 0 0
+/test_moduleigtt/ 68 5708589 11 5
+/seft/add-new-agent.php 65 212916 0 0
+/seft/add_student_master.php 55 6806 0 0
+/seft/student-insert-form.php 53 114027 5 2
+/seft/agent-details.php 52 182125 0 1
+/seft/agent-payment.php 46 169118 0 0
+/moduleigtt/admin/viewdetails.php 6 35884 0 1
+/moduleigtt/wp-content/handler.php 12 2698 2 3
+/moduleigtt/admin/assets/fonts/webfonts/fa-solid-900.woff2 2 158888 0 1
+/decanvas/quotation/Addquotation 1 9690 0 0
+/spectrafin/fonts/glyphicons-halflings-regular.woff2 1 18028 0 0
+/schoolerp/index.php 1 323 0 0
+/test_moduleigtt/admin/assets/fonts/webfonts/fa-solid-900.woff2 1 79444 0 0
+/test_moduleigtt/admin/dashboard.php 2 162688 1 0
+/techcomf/assets/fonts/fa-brands-400.woff2 1 76736 0 1
+/test_moduleigtt/admin/assets/fonts/ico-font/icofont.woff2 1 537868 0 0
+/decanvas/index.php/dashboard 1 9616 0 0
+/test_moduleigtt/appliances.json 15 21615 0 1
+/moduleigtt/admin/dashboard.php 4 494864 1 0
+/kpl/ 14 418615 13 13
+/seft/update-sadmin-student-payment.php 45 147938 0 0
+/spectrafin/howitworks%20-%20Copy.html 2 6265 0 1
+/techcomf/assets/fonts/flaticon8953.ttf 1 29888 0 0
+/seft/getStuPayDetDate.php 38 537 0 0
+/moduleigtt/wp-content/blog/ElegantIcons.woff 6 381984 0 0
+/schoolerp/webfonts/fa-solid-900.woff2 2 148640 0 0
+/schoolerp/ 6 1810 2 1
+/test_moduleigtt/wp-content/Uploaddesigtoserver.php 7 210 0 1
+/moduleigtt/admin/ 1 2201 0 0
+/switchdirection/ 10 23560 1 1
+/techcomf/ 1 5884 1 0
+/test_moduleigtt/portfolio/ 1 240545 0 0
+/spectrafin/calculator.html 1 7074 0 0
+/moduleigtt/admin/assets/fonts/ico-font/icofont.woff2 2 1075736 0 0
+/seft/add_student_insert_master.php 12 1839 0 0
+/spectrafin/contact.html 2 6513 0 0
+/test_moduleigtt/portfolio/portfolio-foyer.html 2 259913 0 0
+/test_moduleigtt/handletypedata.json 16 8987150 0 0
+/spectrafin/fonts/fontawesome-webfont3e6e.woff2 3 154320 0 0
+/seft/update_sadmin_stu_payment.php 30 4451 0 0
+/techcomf/assets/fonts/fa-regular-400.woff2 1 13224 0 0
+/seft/add_agent_payment.php 12 2135 0 0
+/moduleigtt/ 16 2922319 6 4
+/decanvas/ 7 8155 2 2
+/techcomf/assets/fonts/fa-solid-900.woff2 1 78268 0 0
+/spectrafin/services%20-%20Copy.html 1 7505 0 0
+/moduleigtt/appliances.json 9 12969 0 1
+/seft/update_agent_master.php 7 952 0 0
+/schoolerp/login.php 6 6514 0 0
+/spectrafin/contact.php 2 0 0 0
+/test_moduleigtt/wp-content/themes/dor/framework/lib/icons-pack/ion-icons/fonts/ionicons.ttf 13 2453412 0 3
+/seft/student-payment-print.php 25 66962 0 0
+/seft/getAgnPayDetDate.php 8 94 0 1
+/seft/delete_student.php 14 1754 0 0
+/moduleigtt/wp-content/themes/dor/framework/lib/icons-pack/ion-icons/fonts/ionicons.ttf 5 943620 0 1
+/seft/fetch_agent_payment.php 37 163 0 0
+/seft/agent_master_delete.php 4 632 0 0
+/spectrafin/ 11 131175 6 1
+/ 15 498336 15 15
+/moduleigtt/handletypedata.json 10 5321538 1 1
+/spectrafin/fonts/revicons90c690c6.woff 3 15072 0 1
+/seft/logout.php 29 3683 3 0
+/seft/add_agent_master.php 24 3274 0 0
+/moduleigtt/finishcolordata.json 9 135585 0 0
+/test_moduleigtt/admin/viewdetails.php 8 58412 0 1
+/schoolerp/Dashboard.php 1 106 0 0
+/aakruthi-erp/ 9 19980 3 3
+/test_moduleigtt/finishcolordata.json 15 225975 0 0
+/spectrafin/contact_us_sending.php 1 0 0 1
+/test_moduleigtt/wp-content/blog/ElegantIcons.woff 14 891296 0 0
+/schoolerp/webfonts/fa-regular-400.woff2 2 27216 0 0
+END_SIDER

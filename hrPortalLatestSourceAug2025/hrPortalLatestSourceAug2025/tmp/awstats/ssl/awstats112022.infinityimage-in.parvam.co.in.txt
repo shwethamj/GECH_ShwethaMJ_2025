@@ -1,0 +1,414 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202211 will be lost/reset.
+# Last config file used to build this data file was /home4/parvamco/tmp/awstats/ssl/awstats.infinityimage-in.parvam.co.in.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2031                
+POS_TIME 2705                
+POS_VISITOR 8915                
+POS_DAY 11126               
+POS_DOMAIN 3291                
+POS_LOGIN 3594                
+POS_ROBOT 3749                
+POS_WORMS 3920                
+POS_EMAILSENDER 4051                
+POS_EMAILRECEIVER 4194                
+POS_SESSION 11647               
+POS_SIDER 11794               
+POS_FILETYPES 4329                
+POS_DOWNLOADS 4428                
+POS_OS 4476                
+POS_BROWSER 4673                
+POS_SCREENSIZE 5029                
+POS_UNKNOWNREFERER 5103                
+POS_UNKNOWNREFERERBROWSER 5580                
+POS_ORIGIN 5966                
+POS_SEREFERRALS 6098                
+POS_PAGEREFS 6242                
+POS_SEARCHWORDS 6390                
+POS_KEYWORDS 6542                
+POS_MISC 2369                
+POS_ERRORS 6601                
+POS_CLUSTER 3450                
+POS_SIDER_404 6721                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20221201021309 3 418 12046476559296
+FirstTime 20221101000643
+LastTime 20221130211526
+LastUpdate 20221201053001 3 0 2 0 0
+TotalVisits 69                  
+TotalUnique 58                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 58                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+WindowsMediaPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+QuickTimeSupport 0 0 0
+TotalMisc 0 0 0
+AddToFavourites 0 0 0
+JavaEnabled 0 0 0
+FlashSupport 0 0 0
+DirectorSupport 0 0 0
+PDFSupport 0 0 0
+RealPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 4 4 36729 60 60 472
+1 0 0 0 2 3 504
+2 5 5 130 12 12 38760
+3 1 1 36679 2 3 45
+4 4 4 36761 6 6 949
+5 3 3 90 8 8 0
+6 1 1 10 3 4 36992
+7 0 0 0 0 0 0
+8 1 1 36679 3 3 139
+9 4 4 73422 2 2 261
+10 1 1 10 2 2 70
+11 4 4 100 11 12 313
+12 2 2 36689 4 4 97
+13 2 2 20 1 1 35
+14 4 4 100 3 5 487
+15 6 6 80 4 5 191
+16 6 6 140 4 7 417
+17 5 5 110 13 15 1286
+18 4 4 73402 6 6 660
+19 13 13 131044 7 7 1200
+20 3 3 36711 8 9 956
+21 4 4 60 0 0 0
+22 5 5 130 8 9 956
+23 0 0 0 3 4 539
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 8
+ca 43 43 403861
+us 30 30 94965
+se 4 4 120
+fr 1 1 30
+co 1 1 30
+ch 1 1 30
+gr 1 1 30
+in 1 1 30
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 1
+no_user_agent 7 73420 20221126022149 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 2
+env 4 47158 0 0
+html 78 451938 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 10
+ios_iphone 2 2
+linux 4 4
+android10 1 1
+win7 2 2
+androidkitkat 1 1
+win10 9 9
+ios_ipad 1 1
+androidpie 1 1
+Unknown 58 58
+macosx15 3 3
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 16
+android 1 1
+Unknown 57 57
+safari14.1.2 1 1
+chrome105.0.0.0 4 4
+chrome89.0.4389.82 2 2
+chrome79.0.3945.136 1 1
+safari 1 1
+chrome81.0.4044.129 1 1
+mozilla 1 1
+firefox83.0 1 1
+chrome91.0.4472.114 3 3
+chrome93.0.4577.63 1 1
+chrome93.0.4577.62 1 1
+safari9.0 1 1
+chrome79.0.3945.130 4 4
+chrome92.0.4515.159 2 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20221130000211
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20221125152727
+url 20221118192311
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+url 20221118192311
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20221130000211
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 74 74
+From1 0 0
+From2 0 0
+From3 0 0
+From4 8 8
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+401 34 1411
+406 43 9718
+404 82 0
+400 15 780
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 66
+/adminer-4.7.1-mysql-en.php 1 -
+/adminer-mysql.php 1 -
+/sql.php 1 -
+/adminer-4.7.8.php 1 -
+/adminer-4.6.2/ 1 -
+/adminer-4.7.2.php 1 -
+/adminer-4.6.3.php 1 -
+/adminer-4.6.3/ 1 -
+/adminer-4.6.2.php 1 -
+/adminer/ 1 -
+/adminer-4.7.3.php 1 -
+/adminer-4.7.8/ 1 -
+/.well-known/security.txt 1 -
+/data/adminer.php 1 -
+/mysql.php 1 -
+/adminer-4.7.5-mysql.php 1 -
+/adminer1.php 1 -
+/adminer-4.6.3-mysql-en.php 1 -
+/adminer-4.7.7-mysql.php 1 -
+/zvgz8pxl.php 3 https://www.infinityimage.in/zvgz8pxl.php
+/adminer-4.7.6-mysql.php 1 -
+/phpmyadmin.php 1 -
+/fdr1y8ar.php 3 https://www.infinityimage.in/fdr1y8ar.php
+/adminer-4.8.0-mysql.php 1 -
+/adminer-4.8.0-mysql-en.php 1 -
+/adminer-4.6.2-en.php 1 -
+/adminer-4.7.8-en.php 1 -
+/li5g6274.php 3 https://www.infinityimage.in/li5g6274.php
+/adminer-4.7.4-mysql.php 1 -
+/wp-content/themes/seotheme/db.php 2 www.google.com
+/tools/adminer.php 1 -
+/adminer-4.7.0-mysql.php 1 -
+/adminer-4.7.1-mysql.php 1 -
+/vxk10sas.php 3 https://www.infinityimage.in/vxk10sas.php
+/adminer/adminer.php 1 -
+/adminer-4.7.4.php 1 -
+/adminer-4.7.5-en.php 1 -
+/adminer-4.6.1.php 1 -
+/adminer-4.7.1/ 1 -
+/adminer-4.7.0.php 1 -
+/adminer-4.7.1.php 1 -
+/adminer-4.6.2-mysql-en.php 1 -
+/adminer-4.7.4/ 1 -
+/manager/adminer.php 1 -
+/adminer-4.7.7.php 1 -
+/adminer-4.7.6.php 1 -
+/adminer-4.8.0.php 1 -
+/adm.php 1 -
+/adminer-4.8.0/ 1 -
+/hkoq6w16.php 3 https://www.infinityimage.in/hkoq6w16.php
+/adminer-4.7.7/ 1 -
+/adminer-4.7.7-mysql-en.php 1 -
+/adminer.php 1 -
+/admin/adminer.php 1 -
+/beziln70.php 2 https://www.infinityimage.in/beziln70.php
+/adm/adminer.php 1 -
+/adminer-4.7.5.php 1 -
+/34bigf0b.php 3 https://www.infinityimage.in/34bigf0b.php
+/adminer-4.7.8-mysql.php 1 -
+/v29q14gf.php 3 https://www.infinityimage.in/v29q14gf.php
+/adminer-4.6.3-mysql.php 1 -
+/adminer-4.6.2-mysql.php 1 -
+/adminer-4.7.3-mysql.php 1 -
+/adminer-4.8.0-en.php 1 -
+/_adminer.php 1 -
+/adminer-4.7.7-en.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 58
+65.2.122.67 14 14 94485 20221118192311
+198.235.24.135 3 3 110061 20221115180816
+3.144.117.179 3 3 90 20221116162847
+144.91.106.14 2 2 60 20221101091133
+205.210.31.171 2 2 20 20221113113818
+35.205.66.44 2 2 60 20221127224517
+198.235.24.170 2 2 20 20221108064453
+205.210.31.6 2 2 20 20221114125829
+198.235.24.146 2 2 20 20221130000211
+205.210.31.56 2 2 36701 20221122095508
+35.187.63.195 1 1 30 20221127224506
+205.210.31.36 1 1 10 20221129172117
+205.210.31.170 1 1 10 20221105214745
+205.210.31.24 1 1 36691 20221111045836
+205.210.31.23 1 1 10 20221108211807
+198.235.24.47 1 1 10 20221104194415
+205.210.31.175 1 1 36679 20221104004943
+198.235.24.39 1 1 10 20221110225000
+20.77.99.84 1 1 30 20221103142036
+198.235.24.20 1 1 10 20221104151531
+205.210.31.53 1 1 10 20221124212051
+205.210.31.43 1 1 10 20221104172031
+205.210.31.133 1 1 10 20221111021453
+20.117.17.214 1 1 30 20221130211526
+198.235.24.48 1 1 10 20221108194506
+205.210.31.176 1 1 10 20221113045337
+205.210.31.177 1 1 36679 20221111084129
+198.235.24.145 1 1 36691 20221104095155
+205.210.31.38 1 1 10 20221112201250
+193.135.134.162 1 1 30 20221103114618
+205.210.31.31 1 1 36679 20221115032951
+193.235.141.170 1 1 30 20221117171539
+65.21.17.203 1 1 30 20221103114528
+209.59.210.92 1 1 30 20221124055453
+94.23.210.200 1 1 30 20221103114737
+198.235.24.25 1 1 36691 20221108091620
+205.210.31.58 1 1 10 20221112102501
+198.235.24.54 1 1 10 20221104185922
+205.210.31.20 1 1 10 20221101184404
+34.140.212.200 1 1 30 20221127224506
+193.235.141.169 1 1 30 20221102141055
+67.225.133.6 1 1 30 20221124055340
+198.235.24.133 1 1 10 20221116002258
+198.235.24.180 1 1 10 20221114162609
+198.235.24.138 1 1 10 20221111151221
+167.94.138.61 1 1 30 20221125152727
+45.157.179.68 1 1 30 20221124055704
+205.210.31.48 1 1 10 20221105193424
+198.235.24.166 1 1 10 20221126164417
+193.235.141.168 1 1 30 20221112161409
+198.235.24.41 1 1 10 20221112141542
+68.66.216.10 1 1 30 20221121170929
+186.29.79.105 1 1 30 20221108195659
+178.128.1.41 1 1 30 20221121171020
+193.235.141.171 1 1 30 20221107143106
+205.210.31.135 1 1 36679 20221104121134
+205.210.31.33 1 1 10 20221108134532
+198.235.24.152 1 1 10 20221101135918
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 24
+20221101 4 4 80 4
+20221102 1 1 30 1
+20221103 4 4 120 4
+20221104 7 7 110089 7
+20221105 6 6 36741 6
+20221107 2 2 40 2
+20221108 6 6 36761 6
+20221110 1 1 10 1
+20221111 5 5 110069 5
+20221112 5 5 36751 5
+20221113 2 2 20 2
+20221114 2 2 20 2
+20221115 2 2 73370 2
+20221116 4 4 100 2
+20221117 5 5 47170 2
+20221118 10 10 47345 3
+20221121 2 2 60 2
+20221122 1 1 10 1
+20221124 4 4 100 4
+20221125 1 1 30 1
+20221126 1 1 10 1
+20221127 4 4 120 3
+20221129 1 1 10 1
+20221130 2 2 40 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 1
+0s-30s 69
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 2
+/ 78 451938 69 67
+/core/.env 4 47158 0 2
+END_SIDER

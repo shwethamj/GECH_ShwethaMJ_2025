@@ -1,0 +1,321 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202210 will be lost/reset.
+# Last config file used to build this data file was /home4/parvamco/tmp/awstats/awstats.zira.parvamm.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2014                
+POS_TIME 2686                
+POS_VISITOR 7635                
+POS_DAY 8156                
+POS_DOMAIN 3306                
+POS_LOGIN 3608                
+POS_ROBOT 3763                
+POS_WORMS 3895                
+POS_EMAILSENDER 4026                
+POS_EMAILRECEIVER 4169                
+POS_SESSION 8489                
+POS_SIDER 8679                
+POS_FILETYPES 4304                
+POS_DOWNLOADS 4499                
+POS_OS 4547                
+POS_BROWSER 4652                
+POS_SCREENSIZE 4790                
+POS_UNKNOWNREFERER 4864                
+POS_UNKNOWNREFERERBROWSER 5322                
+POS_ORIGIN 5689                
+POS_SEREFERRALS 5823                
+POS_PAGEREFS 5967                
+POS_SEARCHWORDS 6115                
+POS_KEYWORDS 6267                
+POS_MISC 2350                
+POS_ERRORS 6326                
+POS_CLUSTER 3464                
+POS_SIDER_404 6458                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20221103083814 1 0 11615353053097
+FirstTime 20221002115755
+LastTime 20221028162202
+LastUpdate 20221104062522 1 0 0 0 0
+TotalVisits 17                  
+TotalUnique 11                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 11                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavascriptDisabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+PDFSupport 0 0 0
+DirectorSupport 0 0 0
+QuickTimeSupport 0 0 0
+TotalMisc 0 0 0
+AddToFavourites 0 8 0
+RealPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 32 34 749473 7 81 3610803
+1 10 36 272864 1 5 120807
+2 0 0 0 1 1 378
+3 28 74 2385931 16 31 1403247
+4 0 0 0 0 1 28050
+5 17 48 1821559 4 18 385579
+6 0 0 0 0 1 28032
+7 5 12 529631 2 4 65022
+8 17 48 1525893 5 19 415719
+9 1 1 15501 1 6 144370
+10 0 0 0 0 0 0
+11 2 2 81383 4 4 1512
+12 0 0 0 0 0 0
+13 1 1 13600 2 4 27691
+14 0 0 0 0 0 0
+15 0 0 0 0 0 0
+16 1 1 40642 3 3 1118
+17 0 0 0 0 0 0
+18 0 0 0 1 1 378
+19 0 0 0 0 0 0
+20 0 0 0 0 0 0
+21 0 0 0 0 0 0
+22 12 32 912913 7 36 1237171
+23 1 1 40650 3 3 942
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 6
+in 86 175 5759458
+cn 22 76 1512253
+au 12 32 912913
+ca 4 4 162675
+us 2 2 27240
+lk 1 1 15501
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+css 54 501950 0 0
+woff 30 1010048 0 0
+js 95 2661678 0 0
+woff2 17 866508 0 0
+jpg 7 8522 0 0
+Unknown 80 3117060 0 0
+png 7 224274 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 3
+Unknown 6 6
+android 45 18
+win10 239 103
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 5
+chrome106.0.0.0 87 32
+firefox105.0 36 12
+mozilla 2 2
+Unknown 4 4
+chrome105.0.0.0 161 77
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20221028162202
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20221022133503
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20221028162202
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 9 9
+From1 0 0
+From2 0 0
+From3 0 0
+From4 118 281
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+302 45 11400
+500 4 1678814
+404 153 4883692
+419 8 896913
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 13
+/storage/clients/1664010205.png 2 http://zira.parvamm.com/clients
+/storage/settings/theme/1663320440.jpg 1 http://zira.parvamm.com/settings/theme
+/storage/clients/1663310182.jpg 2 http://zira.parvamm.com/clients
+/storage/employees/1663320677.png 6 http://zira.parvamm.com/employees-list
+/storage/settings/1663320440.jpg 84 -
+/storage/clients/1664005376.jpg 2 http://zira.parvamm.com/clients
+/storage/employees/1663924089.png 7 http://zira.parvamm.com/employees
+/storage/employees/1663306301.jpg 23 http://zira.parvamm.com/employees
+/storage/clients/1663243147.png 2 http://zira.parvamm.com/clients
+/assets/js/select2.min.js 1 http://zira.parvamm.com/settings/theme
+/assets/css/select2.min.css 1 http://zira.parvamm.com/settings/theme
+/storage/employees/1663310602.jpg 20 http://zira.parvamm.com/employees
+/storage/users/1663320265.jpg 2 http://zira.parvamm.com/users
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 11
+49.205.146.63 81 163 5229827 20221021055343
+36.255.87.7 22 76 1512253 20221008080837
+27.111.75.145 12 32 912913 20221007223730
+223.186.74.164 5 12 529631 20221007073628
+198.235.24.133 1 1 40650 20221002235816
+202.21.42.248 1 1 15501 20221008095848
+162.142.125.210 1 1 13640 20221003083911
+205.210.31.164 1 1 40643 20221023112155
+198.235.24.29 1 1 40642 20221028162202
+167.248.133.47 1 1 13600 20221022133503
+205.210.31.178 1 1 40740 20221002115755
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 12
+20221002 2 2 81390 2
+20221003 1 1 13640 1
+20221007 17 44 1442544 2
+20221008 23 77 1527754 3
+20221010 32 34 749473 1
+20221012 22 51 1823838 2
+20221013 5 12 529669 1
+20221014 10 30 834957 1
+20221021 12 36 1291890 1
+20221022 1 1 13600 1
+20221023 1 1 40643 1
+20221028 1 1 40642 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+5mn-15mn 1
+0s-30s 12
+2mn-5mn 2
+15mn-30mn 1
+30s-2mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 35
+/login 17 359595 16 7
+/dashboard 10 228131 0 1
+/assets/fonts/CircularStd-Medium.woff 7 245040 0 3
+/assets/fonts/CircularStd-Black.woff 7 247944 0 0
+/assets/fonts/CircularStd-Book.woff 7 219672 0 0
+/assets/fonts/CircularStd-Bold.woff 7 247848 0 1
+/assets/fonts/fontawesome-webfont.woff2 7 462960 1 0
+/assets/fonts/line-awesome.woff2 7 270648 0 0
+/_debugbar/assets/javascript 6 867186 0 0
+/projects 5 139717 0 0
+/_debugbar/assets/stylesheets 5 662575 0 0
+/contacts 5 110607 0 1
+/employees 5 126312 0 0
+/projects/show/Voter%20Search%20Congress 4 98074 0 0
+/profile 3 61813 0 1
+/assets/fonts/MaterialIcons-Regular.woff2 3 132900 0 1
+/leads 2 44956 0 0
+/users 2 44797 0 0
+/clients 2 47700 0 0
+/designations 1 23214 0 0
+/employee-leave 1 25442 0 0
+/tickets 1 26940 0 0
+/employees-list 1 25950 0 0
+/settings/theme 1 19404 0 0
+/goal-type 1 21881 0 0
+/holidays 1 22126 0 0
+/leave-type 1 21931 0 0
+/policies 1 22996 0 1
+/departments 1 22321 0 0
+/assets/fonts/CircularStd-BookItalic.woff 1 39220 0 0
+/goal-tracking 1 22707 0 0
+/overtime 1 23771 0 0
+/employees/attendance 1 25232 0 0
+/tickets/show/Search%20functionlity 1 21682 0 0
+/assets/plugins/summernote/dist/font/summernote.woff 1 10324 0 1
+END_SIDER

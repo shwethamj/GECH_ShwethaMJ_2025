@@ -1,0 +1,446 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202212 will be lost/reset.
+# Last config file used to build this data file was /home4/parvamco/tmp/awstats/ssl/awstats.parvam.co.in.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2014                
+POS_TIME 2676                
+POS_VISITOR 10913               
+POS_DAY 12523               
+POS_DOMAIN 3345                
+POS_LOGIN 3697                
+POS_ROBOT 3852                
+POS_WORMS 4127                
+POS_EMAILSENDER 4258                
+POS_EMAILRECEIVER 4401                
+POS_SESSION 13053               
+POS_SIDER 13210               
+POS_FILETYPES 4536                
+POS_DOWNLOADS 4794                
+POS_OS 4842                
+POS_BROWSER 5048                
+POS_SCREENSIZE 5304                
+POS_UNKNOWNREFERER 5378                
+POS_UNKNOWNREFERERBROWSER 5870                
+POS_ORIGIN 6256                
+POS_SEREFERRALS 6390                
+POS_PAGEREFS 6534                
+POS_SEARCHWORDS 6747                
+POS_KEYWORDS 6899                
+POS_MISC 2340                
+POS_ERRORS 6958                
+POS_CLUSTER 3553                
+POS_SIDER_404 7135                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20230101042434 5 1347 12058268921679
+FirstTime 0
+LastTime 20221231230341
+LastUpdate 20230101053026 5 0 4 0 0
+TotalVisits 44                  
+TotalUnique 38                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 40                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavaEnabled 0 0 0
+DirectorSupport 0 0 0
+TotalMisc 0 0 0
+FlashSupport 0 0 0
+AddToFavourites 0 6 0
+JavascriptDisabled 0 0 0
+QuickTimeSupport 0 0 0
+RealPlayerSupport 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 21 68 1398002 22 51 1065767
+1 0 0 0 61 61 3329
+2 0 0 0 42 42 2691
+3 2 6 125687 4 5 139
+4 4 7 111600 24 39 3401
+5 2 2 73370 10 10 996
+6 0 0 0 62 62 3584
+7 1 1 36691 10 10 1472
+8 0 0 0 3 3 510
+9 1 1 36691 10 10 1042
+10 2 2 73370 7 7 1223
+11 1 1 11792 21 21 2214
+12 2 2 73358 82 82 996
+13 0 0 0 10 10 544
+14 1 1 36691 9 10 925
+15 3 3 85150 13 13 1444
+16 0 0 0 16 16 2660
+17 12 12 440910 186 188 183258
+18 6 6 120553 11 12 1206
+19 0 0 0 7 7 701
+20 2 2 73382 11 11 1003
+21 4 4 121828 39 39 6649
+22 2 2 73370 9 9 702
+23 6 22 489527 310 552 29102
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 10
+in 27 94 1919104
+ca 21 23 793984
+us 6 7 182809
+np 4 4 47183
+fr 4 4 146740
+cn 3 3 110049
+be 3 3 35363
+gb 2 2 73370
+al 1 1 36691
+id 1 1 36679
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 4
+Go\-http\-client/ 2 23561 20221228174600 0
+feed 2 73669 20221228173116 0
+no_user_agent 2 73370 20221228171413 0
+bingbot/ 1 26 20221223140103 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+html 44 1403976 0 0
+woff2 7 254496 0 0
+env 2 23599 0 0
+css 22 182355 0 0
+jpg 3 98672 0 0
+js 37 655917 0 0
+map 2 13538 0 0
+Unknown 7 402808 0 0
+php 3 1298 0 0
+woff 7 160084 0 0
+png 8 185229 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 10
+macosx15 1 1
+linux 1 1
+ios_iphone 3 3
+macosx11 3 3
+android10 1 1
+win10 88 25
+android 11 4
+Unknown 28 28
+linuxubuntu 4 4
+androidlollipop 2 2
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 11
+chrome103.0.5060.114 5 2
+chrome105.0.5195.136 1 1
+safari16.1 3 3
+mozilla 3 3
+chrome92.0.4515.159 2 2
+chrome107.0.0.0 93 26
+chrome108.0.0.0 2 2
+netscape5.0 1 1
+firefox58.0 4 4
+firefox47.0 3 3
+Unknown 25 25
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20221229113408
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20221231230341
+url 20221217180316
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+url 20221217180316
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20221231230341
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 42 45
+From1 0 0
+From2 0 0
+From3 8 8
+From4 22 89
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+https://webmail.parvam.co.in 4 4
+https://cpanel.parvam.co.in 4 4
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 8
+401 750 38116
+406 81 18306
+302 8 1238
+400 131 6812
+404 196 1063547
+409 5 415
+301 68 15841
+500 15 345
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 82
+/defau11.php 2 www.google.com
+/about 3 -
+/HR/ 2 -
+/wp-class.php 2 www.google.com
+/s/0343e20383e2431323e2236313/_/ 3 -
+/subhr/assets/js/bootstrap.min.js.map 1 -
+/login.action 3 -
+/subhr/storage/employees/1670326550.jpg 2 https://www.parvam.co.in/subhr/employees
+/seft/css/img/preloader.gif 2 https://parvam.co.in/seft/css/style.css
+/.git/config 3 -
+/wp-content/plugins/sid/sidwso.php 2 www.google.com
+/subhr/storage/employees/1663320677.png 2 https://www.parvam.co.in/subhr/employees
+/help.php 2 www.google.com
+/xle.php 2 www.google.com
+/xltavrat.php 2 www.google.com
+/wp-content/export.php 2 www.google.com
+/Public/home/js/check.js 3 -
+/ 26 -
+/wp-content/plugins/TOPXOH/OH.php 2 www.google.com
+/subhr/storage/employees/1668251024.jpg 2 https://www.parvam.co.in/subhr/employees
+/wp-includes/shell20211028.php 2 www.google.com
+/subhr/storage/employees/1670325520.png 2 https://www.parvam.co.in/subhr/employees
+/hr/ 2 -
+/vxpdcdzl.php 1 www.google.com
+/wp-includes/class-wp-page-icon.php 2 www.google.com
+/wso112233.php 2 www.google.com
+/class.php 2 www.google.com
+/shell.php 2 www.google.com
+/api/search 3 -
+/subhr/storage/employees/1669791670.jpg 2 https://www.parvam.co.in/subhr/employees
+/Root.php 2 www.google.com
+/subhr/storage/employees/1670325307.jpg 2 https://www.parvam.co.in/subhr/employees
+/vsxvzsmd.php 1 www.google.com
+/moon.php 2 www.google.com
+/wp-includes/class-index-wordpress.php 2 www.google.com
+/telescope/requests 3 -
+/sxifycsy.php 1 www.google.com
+/.gitlab-ci.yml 1 -
+/wp-content/plugins/seoplugins/mar.php 1 www.google.com
+/subhr/assets/js/popper.min.js.map 1 -
+/xleet.php 2 www.google.com
+/wp-plain.php 4 www.google.com
+/robots.txt 2 -
+/.aws/credentials 1 -
+/.DS_Store 3 -
+/static/admin/javascript/hetong.js 3 -
+/wp-content/plugins/akismeet/local.php 2 www.google.com
+/subhr/storage/employees/1670396988.jpg 1 https://www.parvam.co.in/subhr/employees
+/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application 3 -
+/v2/_catalog 3 -
+/defaul1.php 2 www.google.com
+/subhr/storage/employees/1668424839.png 2 https://www.parvam.co.in/subhr/employees
+/wp-content/plugins/akismeet/bala.php 2 www.google.com
+/info.php 3 -
+/eaqeguqi.php 1 www.google.com
+/subhr/storage/employees/1670393873.jpg 2 https://www.parvam.co.in/subhr/employees
+/edit.php 2 www.google.com
+/subhr/storage/employees/1663310602.jpg 2 https://www.parvam.co.in/subhr/employees
+/fw.php 2 www.google.com
+/config.json 3 -
+/css.php 2 www.google.com
+/wp-includes/wp-system-cloud.php 2 www.google.com
+/subhr/storage/employees/1668250965.jpg 2 https://www.parvam.co.in/subhr/employees
+/subhr/storage/employees/1669436536.png 2 https://www.parvam.co.in/subhr/employees
+/defau1t.php 2 www.google.com
+/x.php 2 www.google.com
+/subhr/storage/employees/1670390719.jpg 2 https://www.parvam.co.in/subhr/employees
+/server-status 3 -
+/wp-content/wso.php 2 www.google.com
+/subhr/storage/employees/1669356766.jpg 2 https://www.parvam.co.in/subhr/employees
+/subhr/storage/employees/1669360066.png 2 https://www.parvam.co.in/subhr/employees
+/wp-content/themes/seotheme/db.php 5 www.google.com
+/wp-content/themes/seotheme/mar.php 1 www.google.com
+/wp-content/plugins/ioptimization/IOptimize.php 2 www.google.com
+/home.php 2 www.google.com
+/debug/default/view 3 -
+/wso.php 2 www.google.com
+/subhr/assets/css/bootstrap.min.css.map 1 -
+/wp-content/xleet.php 2 www.google.com
+/wp-includes/class-wordpress-license.php 2 www.google.com
+/xleet-shell.php 2 www.google.com
+/R00T.php 2 www.google.com
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 40
+49.205.146.231 25 88 1793417 20221207044804
+116.90.234.242 4 4 47183 20221217180316
+101.68.211.2 2 2 73370 20221224221031
+51.254.49.104 2 2 73370 20221230170025
+205.210.31.47 2 2 73370 20221226213941
+205.210.31.56 2 2 73370 20221223121543
+198.235.24.135 2 2 73370 20221230205908
+87.115.231.247 2 2 73370 20221228173117
+106.206.6.15 2 6 125687 20221203032311
+198.235.24.33 1 1 36691 20221227052856
+87.236.176.158 1 1 11780 20221227153938
+87.236.176.74 1 1 11791 20221203210416
+198.235.24.54 1 1 36691 20221204091007
+198.235.24.43 1 1 36679 20221223120221
+198.235.24.51 1 1 36691 20221216144822
+198.235.24.155 1 1 36691 20221222171717
+198.235.24.163 1 1 36679 20221209050801
+146.190.199.58 1 1 36679 20221228173104
+102.165.41.38 1 1 36679 20221228173105
+68.183.245.101 1 1 36679 20221228173105
+51.255.62.2 1 1 36691 20221230152556
+198.235.24.9 1 1 36679 20221202212916
+198.235.24.175 1 1 36679 20221202232700
+183.136.225.46 1 1 36679 20221231103404
+205.210.31.53 1 1 36679 20221216174353
+47.254.16.187 0 2 23617 
+176.67.82.3 1 1 37085 20221228173116
+198.235.24.15 1 1 36679 20221211005612
+216.131.114.6 1 1 36987 20221228173116
+198.235.24.142 1 1 36679 20221231230341
+198.235.24.10 1 1 36679 20221213224200
+47.88.6.178 1 1 11786 20221208044521
+31.171.155.86 1 1 36691 20221228173116
+87.236.176.188 1 1 11792 20221229113408
+205.210.31.22 1 1 36691 20221202071916
+47.88.86.63 0 1 11807 
+47.89.193.162 1 1 11786 20221208044521
+51.255.62.5 1 1 36679 20221230152556
+198.235.24.134 1 1 36691 20221218183842
+198.235.24.6 1 1 36679 20221229182903
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 22
+20221202 3 3 110049 3
+20221203 3 7 137478 2
+20221204 1 1 36691 1
+20221206 4 20 416169 1
+20221207 21 68 1377248 2
+20221208 2 5 58996 2
+20221209 1 1 36679 1
+20221211 2 2 73370 2
+20221213 1 1 36679 1
+20221216 2 2 73370 2
+20221217 5 5 83862 2
+20221218 1 1 36691 1
+20221220 1 1 36679 1
+20221222 1 1 36691 1
+20221223 3 3 110049 3
+20221224 1 1 36691 1
+20221226 1 1 36679 1
+20221227 2 2 48471 2
+20221228 8 8 294170 7
+20221229 2 2 48471 2
+20221230 5 5 183431 4
+20221231 2 2 73358 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+30mn-1h 1
+0s-30s 43
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 22
+/ 43 1403845 40 39
+/subhr/assets/fonts/line-awesome.woff2 2 45108 0 0
+/core/.env 2 23599 0 1
+/subhr/assets/fonts/fontawesome-webfont.woff2 2 77160 0 0
+/subhr/assets/fonts/CircularStd-Book.woff 2 36612 0 0
+/subhr/employees 2 62977 0 0
+/subhr/assets/plugins/toastr/toastr.js.map 2 13538 0 1
+/subhr/assets/fonts/CircularStd-Medium.woff 2 40840 0 0
+/subhr/assets/fonts/CircularStd-Black.woff 2 41324 0 0
+/subhr/assets/fonts/MaterialIcons-Regular.woff2 1 44300 0 0
+/seft/webfonts/fa-solid-900.woff2 1 74320 0 1
+/subhr/dashboard 1 30922 0 0
+/seft/login.php 1 1036 0 0
+/subhr/login 1 15938 1 0
+/subhr/assets/fonts/CircularStd-Bold.woff 1 41308 0 0
+/seft/ 1 131 1 0
+/zira/login 1 15925 1 1
+/seft/get_student_payment_dashboard.php 1 131 0 1
+/seft/webfonts/fa-regular-400.woff2 1 13608 0 0
+/subhr/_debugbar/assets/stylesheets 1 132515 0 0
+/seft/get_agent_payment_dashboard.php 1 131 1 0
+/subhr/_debugbar/assets/javascript 1 144531 0 0
+END_SIDER

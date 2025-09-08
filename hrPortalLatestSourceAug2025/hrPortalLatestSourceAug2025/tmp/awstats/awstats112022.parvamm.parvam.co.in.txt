@@ -1,0 +1,2743 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202211 will be lost/reset.
+# Last config file used to build this data file was /home4/parvamco/tmp/awstats/awstats.parvamm.parvam.co.in.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2018                
+POS_TIME 2701                
+POS_VISITOR 58926               
+POS_DAY 77415               
+POS_DOMAIN 3626                
+POS_LOGIN 4362                
+POS_ROBOT 4517                
+POS_WORMS 5512                
+POS_EMAILSENDER 5643                
+POS_EMAILRECEIVER 5786                
+POS_SESSION 78267               
+POS_SIDER 78479               
+POS_FILETYPES 5921                
+POS_DOWNLOADS 6169                
+POS_OS 6217                
+POS_BROWSER 6744                
+POS_SCREENSIZE 9892                
+POS_UNKNOWNREFERER 9966                
+POS_UNKNOWNREFERERBROWSER 10870               
+POS_ORIGIN 11460               
+POS_SEREFERRALS 11606               
+POS_PAGEREFS 11787               
+POS_SEARCHWORDS 12301               
+POS_KEYWORDS 12453               
+POS_MISC 2365                
+POS_ERRORS 12512               
+POS_CLUSTER 4218                
+POS_SIDER_404 12659               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20221201002213 456 102018 17504459402066
+FirstTime 20221101052136
+LastTime 20221130231329
+LastUpdate 20221201053002 456 0 455 0 0
+TotalVisits 594                 
+TotalUnique 426                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 487                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavaEnabled 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+FlashSupport 0 0 0
+PDFSupport 0 0 0
+QuickTimeSupport 0 0 0
+JavascriptDisabled 0 0 0
+DirectorSupport 0 0 0
+TotalMisc 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 49 132 6459467 407 531 1700567
+1 64 169 24071901 442 470 644670
+2 44 122 5288059 332 388 1265967
+3 54 123 4277078 368 398 598062
+4 53 129 5017634 465 495 871799
+5 135 339 11165562 665 920 5519830
+6 162 169 694340 1718 1767 1588427
+7 79 260 14536372 154 257 3387044
+8 54 213 8250611 215 269 1531434
+9 42 49 2395428 144 187 1214415
+10 50 172 7243270 272 377 1893947
+11 22 25 1534012 402 455 2632164
+12 28 33 2165002 441 479 1159929
+13 43 43 3154198 556 644 1022847
+14 34 100 4142972 165 200 712000
+15 24 32 986467 234 278 2455013
+16 73 559 21932954 328 386 343625
+17 34 97 3787066 194 236 535497
+18 27 35 2208517 194 244 872326
+19 16 24 1333321 158 220 1519897
+20 126 364 3250524 322 374 692067
+21 147 301 7523311 99 191 2119707
+22 100 395 29348366 159 248 1265076
+23 57 121 5286972 169 205 740224
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 36
+in 644 1336 55477672
+us 555 2087 83189108
+ca 68 68 4170371
+cn 47 165 6551608
+ru 40 40 1822114
+gb 18 18 975840
+de 18 99 3475979
+jp 16 16 475792
+id 11 11 476328
+nl 10 10 285546
+au 9 9 398661
+ro 9 9 335665
+fr 8 8 754524
+kr 8 8 445450
+ua 8 8 601144
+ie 7 68 2645246
+kz 4 4 260784
+it 4 4 260784
+vn 4 4 58301
+th 4 4 58301
+se 4 4 118948
+gr 3 3 89211
+at 3 3 157243
+lk 2 6 12301886
+eu 2 2 130392
+cl 1 1 29737
+np 1 2 3394
+lt 1 1 0
+by 1 1 103541
+cz 1 1 103541
+sc 1 1 29737
+sk 1 1 103541
+ir 1 1 103541
+ma 1 1 29737
+az 1 1 29737
+co 1 1 0
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 22
+bingbot/ 477 11451061 20221130224955 0
+Googlebot/ 273 4331161 20221130222034 0
+spider 205 7623366 20221130221022 0
+bingpreview 143 3839588 20221129052243 0
+robot 68 725224 20221129192728 0
+baidu 66 2613862 20221129072253 0
+crawl 38 1070938 20221128042949 0
+Apache\-HttpClient/ 23 683951 20221115065413 0
+no_user_agent 15 1402253 20221127062435 0
+Go\-http\-client/ 15 361119 20221128080505 0
+YandexBot/ 12 356844 20221127180517 0
+bot[\s_+:,\.\;\/\\-] 8 152268 20221121074927 0
+DuckDuckGo\-Favicons\-Bot/ 6 94152 20221120055211 0
+Googlebot\-Image/ 6 8235 20221125060630 0
+DomainStatsBot/ 6 229467 20221123012443 0
+curl 5 0 20221129063035 0
+Applebot/ 4 178624 20221122164132 0
+facebookexternalhit/ 4 422994 20221127054210 0
+2345Explorer/ 1 29737 20221109012515 0
+Velen 1 29737 20221111132723 0
+Dalvik/ 1 29737 20221106001651 0
+Baiduspider/ 1 29737 20221129072238 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+jpeg 27 17733425 0 0
+php 700 5115049 0 0
+js 822 8398148 0 0
+png 650 61497569 0 0
+jpg 330 35050328 0 0
+woff2 79 4664760 0 0
+css 660 5413067 0 0
+ttf 20 1067360 0 0
+html 718 37113698 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 31
+ios_iphone 343 35
+macosx14 14 14
+macosx 5 5
+macosx13 91 11
+android 205 47
+win8.1 18 18
+ios_ipad 1 1
+win2003 2 2
+androidmarshmallow 78 20
+android10 19 3
+androidnougat 13 13
+Unknown 602 517
+macosx10 54 10
+winlong 30 30
+macosx12 3 3
+macosx6 4 4
+win10 1508 515
+win8 2 1
+macintosh 1 1
+macosx15 315 30
+androidpie 10 3
+winxp 60 12
+linuxubuntu 2 2
+winunknown 28 0
+macosx8 1 1
+androidkitkat 21 21
+linux 392 122
+win2000 1 1
+macosx11 11 6
+win7 161 66
+androidlollipop 11 3
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 147
+firefox35.0 1 1
+firefox83.0 1 1
+firefox102.0 6 6
+chrome87.0.4280.66 1 1
+edge18 1 1
+chrome69.0.2545.143 1 1
+chrome101.0.4950.0 66 7
+chrome95.0.4638.74 10 2
+chrome107.0.5304.62 1 1
+chrome65.0.3152.119 12 12
+firefox107.0 4 2
+chrome29.0.1547.41 1 1
+chrome76.0.3809.132 2 2
+firefox40.0 1 1
+safari5.0.4 1 1
+chrome87.0.4280.67 3 3
+lynx 1 1
+chrome95.0.4638.69 10 10
+android 21 21
+chrome85.0.4183.121 25 25
+chrome63.0.2320.23 1 1
+chrome65.0.3325.181 1 1
+chrome92.0.4515.107 61 1
+firefox60.0 1 1
+chrome63.0.3239.132 1 0
+firefox105.0 1 1
+chrome26.0.1410.65 1 1
+safari15.6 1 1
+firefox59.0 2 2
+msie6.0 6 6
+opera11.52 1 1
+msie8.0 1 1
+chrome76.0.3809.100 10 6
+chrome78.0.3904.87 63 5
+msie9.0 26 0
+chrome60.0.3112.90 11 11
+chrome68.0.3440.106 1 1
+chrome47.0.2526.106 2 2
+msie11.0 5 5
+chrome78.0.3889.0 20 0
+chrome101.0.4951.64 1 1
+opera12.0 1 1
+chrome80.0.3987.149 31 31
+chrome41.0.2272.104 46 2
+chrome43.0.2357.81 1 1
+chrome78.0.3904.108 42 42
+chrome86.0.4240.75 24 24
+firefox64.0 2 2
+chrome90.0.4427.0 3 3
+chrome93.0.4577.63 1 0
+safari14.1.1 66 7
+chrome106.0.0.0 191 32
+chrome29.0.1547.2 1 1
+chrome52.0.2743.116 8 8
+opera54.0.2952.54 2 2
+chrome88.0.4324.190 3 3
+chrome104.0.0.0 6 2
+chrome88.0.4240.193 24 24
+firefox44.0 1 1
+chrome77.0.3865.120 1 1
+chrome57.0.2987.108 1 1
+chrome71.0.3578.98 19 19
+chrome76.0.3809.71 134 14
+safari16.0 1 1
+chrome88.0.4324.181 16 0
+chrome87.0.4280.141 84 12
+chrome46.0.2754.75 12 12
+chrome78.0.3904.97 68 7
+safari11.0 2 2
+chrome67.0.3396.79 3 3
+safari5.0 1 1
+chrome85.0.4183.102 3 3
+chrome74.0.3729.169 18 8
+safari9.0 248 8
+firefox79.0 10 10
+chrome91.0.4472.77 3 3
+safari12.1.1 1 1
+opera84.0.4316.14 1 1
+opera53.0.2907.68 3 3
+chrome100.0.4895.86 1 1
+chrome50.0.2661.75 7 7
+chrome100.0.4896.75 43 6
+chrome91.0.4472.114 242 13
+safari10.0 1 1
+safari13.0.3 17 17
+chrome86.0.4240.198 7 7
+firefox104.0 1 1
+chrome61.0.3163.79 65 65
+chrome81.0.4044.138 15 15
+safari13.1.1 9 0
+firefox34.0 1 1
+chrome84.0.4147.105 2 2
+safari11.1.2 5 0
+chrome79.0.3945.130 26 26
+safari12.0.2 12 12
+chrome79.0 9 9
+netscape5.0 2 1
+chrome100.0.4896.79 4 1
+chrome90.0.4430.93 3 3
+msie10.0 1 0
+chrome90.0.4430.72 30 30
+chrome99.0.4844.88 1 1
+firefox11.0 48 0
+firefox97.0 2 2
+firefox98.0 2 2
+chrome27.0.1453.93 1 1
+chrome103.0.0.0 7 7
+firefox47.0 3 3
+firefox48.0 1 1
+chrome89.0.4389.114 10 10
+chrome107.0.0.0 717 143
+chrome100.0.4896.88 24 5
+Unknown 524 502
+chrome102.0.0.0 5 1
+chrome34.0.1847.116 6 6
+chrome53.0.2785.143 1 1
+chrome107.0.5304.110 67 7
+chrome105.0.0.0 5 5
+chrome74.0.3694.0 67 7
+chrome98.0.4758.102 1 1
+chrome104.0.5112.101 201 21
+chrome39.0.2171.95 6 6
+chrome42.0.0.9757 1 1
+opera9.0 3 3
+chrome36.0.1985.67 2 2
+chrome45.0.2454.94 1 1
+chrome99.0.4844.84 1 1
+chrome79.0.3945.88 1 1
+chrome74.0.3729.157 6 0
+chrome75.0.3770.100 4 4
+chrome40.0.2214.114 1 1
+chrome90.0.4430.85 2 2
+opera89.0.4447.51 4 4
+chrome60.0.3112.107 12 12
+chrome107.0.5304.87 2 2
+chrome61.0.3163.100 3 3
+safari5.1 1 1
+chrome99.0.4844.51 33 4
+chrome83.0.4103.97 19 19
+chrome100.0.4896.127 103 16
+firefox63.0 1 1
+chrome46.0.2490.86 1 1
+chrome87.0.4280.88 2 2
+mozilla 104 13
+firefox65.0 1 1
+firefox17.0 1 1
+chrome85.0.4183.83 27 27
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 13
+ALittle_Client 20221119171538
+Mozilla/5.0_(compatible;_ips-agent) 20221105143113
+ESP8266HTTPClient 20221130222717
+Lynx/2.9.0dev.5_libwww-FM/2.14_SSL-MM/1.4.1_GNUTLS/3.6.13 20221130103838
+test 20221125160442
+Python/3.10_aiohttp/3.8.1 20221106181126
+Mozilla/5.0_Firefox/35.0 20221116135949
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20221129224333
+awiton 20221101082505
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20221126071926
+Ruby 20221120104431
+got_(https://github.com/sindresorhus/got) 20221108085912
+Mozilla/5.0_(compatible;_Dataprovider.com) 20221130220538
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 8
+got_(https://github.com/sindresorhus/got) 20221108085912
+Ruby 20221120104431
+ESP8266HTTPClient 20221130222717
+test 20221125160442
+ALittle_Client 20221119171538
+Python/3.10_aiohttp/3.8.1 20221106181126
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20221129224333
+awiton 20221101082505
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 1213 1374
+From1 22 22
+From2 9 30
+From3 16 76
+From4 257 2504
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+www_bing_com 4 4
+www_google_com 5 26
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 10
+http://mail.parvamm.com/css/fonts.css 4 4
+https://olx-ru.ru 3 3
+https://autoglasi.info 3 3
+https://blume4dich.de 3 3
+http://www.fitcareindia.com 1 1
+http://mail.parvamm.com/css/font-awesome.css 1 1
+http://mail.parvamm.com/css/simple-line-icons.css 1 1
+http://mail.parvamm.com/css/main.css 0 15
+http://mail.parvamm.com/css/style.css 0 4
+http://mail.parvamm.com 0 41
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+206 1 107
+404 5789 0
+409 377 30295
+301 14 3347
+302 6 0
+406 2613 588730
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 1661
+/uniqlo.php 4 -
+/wp/ 17 -
+/LIBMO.official/ 3 -
+/pdf/gtv_catalog_wire_en.pdf 1 -
+/monitor/index.html 1 -
+//403.php 2 -
+/contents.php 2 -
+/wp/heart_data/ 3 -
+/daimyou-coursemenu/ 1 -
+/auth/login.html 1 -
+/care-guide/ 3 -
+/mytrip/ 9 -
+/technical_data/ 3 -
+//wp-admin/setup-config.php 2 -
+/300/s_seiya_ks-index.php 1 -
+/11index.php 1 -
+/basic 2 -
+/coach/ 3 -
+/old/wp-json/wp/v2/users 1 -
+/category/oraclecard 1 -
+/jp/product/sso 1 -
+/faq/06.html 1 -
+/wp-content/plugins/ioptimizations/a57bze8931.php 2 www.google.com
+/ja/our-staff/our-rates/ 1 -
+//shell.php 2 -
+/wp-admin/maint/wplogin.php 2 www.parvamm.com
+/webyoyaku.html 3 -
+/Ramen/ 5 -
+/tricalcium-phosphate/ 1 -
+/nl/habasit-belgie.htm 1 -
+/pc_recycle/ 3 -
+/fjuudsyx.php 1 www.google.com
+/products/power_monitoring/ 1 -
+/wp-blog.php 1 -
+/all-todo-flamenco.html 1 -
+/howto/charge/ 1 -
+/main/family/ 1 -
+/theme/assets/global/plugins/jquery-file-upload/server/php/ 1 -
+/01.php 1 -
+/plugins/jquery-file-upload/server/php/ 1 -
+/as/scope3/sbcas/web/Default.aspx 1 -
+/assets/jquery-file-upload/server/php/ 1 -
+/mame/ 6 -
+/pages/pt/o-que-e-diagrama-entidade-relacionamento 1 -
+/mag/pdf/locationweb.pdf 1 -
+/furniture/ 10 -
+//good.php 2 -
+/support/step_as/ 1 -
+/SITE 1 -
+/web-server/ 4 -
+/blackdesert-charactermaking-kotsu-makeup/ 1 -
+/gensen/ 1 -
+/wp/wp-admin/setup-config.php 1 -
+/wig/ 9 -
+/blog/wp-json/wp/v2/users 1 -
+/2019/02/5211/ 6 -
+/column-12.php 2 -
+/admin/ckeditor/plugins/filemanager/dialog.php 1 -
+/chara/ 6 -
+//wp-content/fw.php 2 -
+/powerpoint/animations-download/ 1 -
+/furniture/assets/img/brands/brand-4.png 1 http://www.parvamm.com/furniture/assets/img/brands
+//autoload_classmap.php 2 -
+/product/nir-mwir_led/ 1 -
+/benefits/ 1 -
+/furniture/assets%5Cimg%5Cproducts%5Cproduct-13-1-270x360.jpg 1 http://www.parvamm.com/furniture
+/wp-login.php 2 -
+/webparts.htm 1 -
+/blog/wp-admin/install.php 2 -
+/news-center/photos/noriyuki-satoh-092014 1 -
+/gb/ 9 -
+/secretcode/ 3 -
+/wp-content/plugins/wpputty/wpputty.php 5 -
+/contents/ja_JPY/aboutus.html 1 -
+/ru/ 7 -
+/tex_eguide/ 3 -
+/assets/ckeditor/kcfinder/upload.php 1 -
+/company 1 -
+/products/any_pdf_delivery/ 1 -
+/click.php 1 -
+/old/125/ 1 -
+/wp-content/uploads/2016/05/peco5.jpg 1 -
+/wp-commentin.php 1 -
+/_ignition/execute-solution 1 -
+/gkkpldzl.php 1 www.google.com
+/Www 1 -
+/management/ 1 -
+//wp-content/plugins//masterx/wpx.php 2 -
+/wp-content/plugins/wp-file-manager-pro/lib/php/connector.minimal.php 2 www.google.com
+/whatis_makuranage 1 -
+/archives/13222 3 -
+/effort-community/fraud/ 1 -
+/feature/top 1 -
+/introduction12/ 1 -
+/mari.php 1 -
+/onelogin-downloads/extensions/firefox/onelogin.xpi 1 -
+/pdf/mochimono3.pdf 1 -
+/info/adr.html 2 -
+/recruit/dealer/ 3 -
+//wikindex.php 4 -
+/demo 3 -
+/wordpress 10 -
+/bio 7 -
+/onsen/folder_file_read.html 1 -
+/roma/ 3 -
+/pages/templates 1 -
+/sites/all/libraries/elfinder/connectors/php/connector.php 1 -
+/madagascar/ 1 -
+/wp/wp-content/themes/nextage_tcd021/pdf/korea_menu.pdf 1 -
+/about/contact/ 3 -
+/support_programs/ 1 -
+/endpoint_virus/ 9 -
+/index2.php 1 -
+/test/wp-content/themes/seotheme/mar.php 1 -
+//wp-content/upload.php 2 -
+/bungalow.html 1 -
+//newmax.click 1 -
+/page/syakuhachi.php 1 -
+/wp-old 1 -
+/tsurusaki/ 1 -
+/company/contact/ 1 -
+/hc/ja 5 -
+/ginzasonypark/ 3 -
+/products/nxscan-rms/ 1 -
+/blog/wp-content/themes/seotheme/mar.php 1 -
+//priv8.php 2 -
+/admin/assets/global/plugins/filemanager/dialog.php 1 -
+/gaiyou.html 1 -
+/hatake/ 5 -
+/wp-includes/class-wp-error.php 1 -
+/kabegami/ 1 -
+/site/ 19 -
+/intls 6 -
+//payout.php 2 -
+/bbs/J0000005314/SortID=19125548/ 1 -
+/swqpimyx.php 1 www.google.com
+/admin-panel/vendor/kcfinder/upload.php 1 -
+/services/gaze/ 3 -
+/2020 1 -
+/js/kcfinder/upload.php 1 -
+/Site 1 -
+/shohin/purikama/ 1 -
+/paper/ 5 -
+/sites/all/modules/fckeditor/fckeditor/editor/filemanager/upload/php/upload.php 1 -
+/tenant/ 2 -
+/oneone/ 4 -
+/pdf/epok_ordersheet.pdf 1 -
+/bk 5 -
+/blog/wp-content/plugins/dos2unix/dos2unix.php 2 -
+/souzoku-kaishi/ 3 -
+/company/information.html 1 -
+/sitemapa_823_20.xml 3 -
+/wp-content/uploads/kaswara/fonts_icon/a57bze8931/.__a57bze8931.php 2 www.google.com
+/doc.php 1 -
+/wp-admin/includes/wp-load.php 2 www.parvamm.com
+/af0eb00wFLBiH-b82312412c181PpTwqgce5391.tools 1 -
+/joinus/upload/chandrashekar%20H-824559182. 1 http://parvamm.com/joinus/admin.php
+/admin/assets/js/ckeditor/filemanager/dialog.php 1 -
+/ginzasonypark/ge_book-signing/ 1 -
+/wp-admin/js/widgets/wp-login.php 1 -
+/images%5Cportfolio%5Cphotography.png 1 http://parvamm.com
+/outline.html 1 -
+/date.php 1 -
+/post-136240/ 1 -
+/visit/ 8 -
+/new/wp-admin/setup-config.php 1 -
+/netbank/ 1 -
+/ifrs/ 5 -
+/templates/beez5/index.php 1 -
+/news/group/ 1 -
+/quai_montebello/ 1 -
+//doc.php 2 -
+/client/ 4 -
+/life-card-campaign-15000point/ 1 -
+/config/AspCms_Config.asp 2 http://misc.yahoo.com.cn/
+/furniture/assets/img/revimages/homepage01-slide1.jpg 1 http://www.parvamm.com/furniture/assets/img/revimages
+/Alfa.php 1 -
+/9.php 1 -
+/blog/2019/05/12/4020/ 1 -
+/media-information-center/ 1 -
+/recipe/pro 3 -
+/tacx-zwift-free-trial-meeting-52076.html 1 -
+/repo/ouka/all/ 1 -
+/house-building/ 3 -
+/%E3%82%AF%E3%83%AC%E3%82%B8%E3%83%83%E3%83%88%E3%82%AB%E3%83%BC%E3%83%89%E3%81%A8%E3%83%87%E3%83%93%E3%83%83%E3%83%88%E3%82%AB%E3%83%BC%E3%83%89%E3%81%AE%E9%81%95%E3%81%84%E3%81%AB%E3%81%A4%E3%81%84/ 1 -
+/review.html 2 -
+/media/categories/daily/inheritance/ 1 -
+/category113/ 3 -
+/kinen/ 2 -
+/entry/karin01 1 -
+/shimajushi400/ 1 -
+/FCKeditor/editor/filemanager/connectors/asp/connector.asp 4 http://parvamm.com/FCKeditor/editor/filemanager/connectors/asp/connector.asp
+/qxrpbbhg.php 1 www.google.com
+/ckeditor/plugins/kcfinder/upload.php 1 -
+/admin/assets/JQuery-File-Upload/server/php/ 1 -
+/%E6%9C%AA%E5%88%86%E9%A1%9E/%E8%87%AA%E5%88%86%E3%81%8C%E6%9C%AC%E5%BD%93%E3%81%AB%E3%82%84%E3%82%8A%E3%81%9F%E3%81%84%E3%81%93%E3%81%A8%E3%82%92%E8%A6%8B%E5%87%BA%E3%81%99%E6%96%B9%E6%B3%95 1 -
+/2.php 1 -
+/admin/public/js/uploadify/uploadify.css 1 -
+/blog/senrohaisenzu.html 1 -
+/guides/takahashi-2/headline/index.php 1 -
+/assets/global/plugins/JQuery-File-Upload/server/php/ 1 -
+/blogs/valuable/ 1 -
+/price/price.php 3 -
+/2018 1 -
+/chart/ 2 -
+/2019 1 -
+/data/guide.html 3 -
+/howto/create 1 -
+/backup/xmlrpc.php 164 -
+/nyuumon-all/ 1 -
+/2022 1 -
+/access.php 1 www.parvamm.com
+/aujua/ 2 -
+/booktalk/ 1 -
+/repository/ 1 -
+/post-2813/ 1 -
+/blog/wp-admin/setup-config.php 1 -
+/bio/zukan/micrasterias-thomasiana-var-notata/ 1 -
+/wp-content/x.php 3 -
+/miyatalegal 1 -
+/w3llstore.php 1 -
+/furniture/assets/img/menu-image/sofa.png 1 http://www.parvamm.com/furniture/assets/img/menu-image
+/1.php 1 -
+/projects/pr/brochure/files/centers01.pdf 1 -
+/wp-content/plugins/superstorefinder-wp/ssf-wp-admin/pages/SSF_WP_UPLOADS_PATH/csv/import/abruzi.php 2 www.google.com
+/ayayo/stand/stand.html 1 -
+/facility/seats.html 1 -
+/category/junior 1 -
+/patient/speciality/05.html 1 -
+/fw.php 1 -
+//wpx.php 2 -
+/faculty/ 3 -
+/tech/xy-animation/ 1 -
+/wp/wp-content/ 1 -
+/furniture/assets/img/brands/brand-2.png 1 http://www.parvamm.com/furniture/assets/img/brands
+/wp-content/themes/seotheme/mar.php 10 -
+/days/ 9 -
+/cosme/ 5 -
+/writing/a-brief-history-of-neural-nets-and-deep-learning/ 1 -
+//vendor/phpunit/phpunit/phpunit.xsd 4 -
+/web/xmlrpc.php 164 -
+/routebus/ 9 -
+/miki-fujimoto/ 1 -
+/u.php 1 -
+/es/cold-chain/ 1 -
+/bbssearch/search.asp 3 -
+/admin/global/plugins/filemanager/dialog.php 1 -
+/uploads/up.php 1 -
+/papayaBD 1 -
+/37ee558Lrrb82311e9b1d51razXQ9b9730.me 1 -
+/kyowa/ 3 -
+/hub 6 -
+//2index.php 4 -
+/pages/ja/ER-diagram-symbols-and-meaning 1 -
+/solidworksindex1/sldworksdrawindex1.html 1 -
+/tour/ 5 -
+/common/redir.php 1 -
+/index/ 3 -
+/web/show.php 3 -
+/service/s4hana/ 1 -
+/ABOUT_US/aboutus.html 1 -
+/room.php 1 -
+/furniture/assets/img/banners/sofa.jpg 1 http://www.parvamm.com/furniture/assets/img/banners
+/manage/list.html 1 -
+//x.php 2 -
+/robots.txt 221 -
+/about 5 -
+/lumber/co2/ 1 -
+/furniture/assets/img/logo-alt.png 1 http://www.parvamm.com/furniture/assets/img
+/CUSCO_WEB 1 -
+/blogs/cat04/ 3 -
+/pages/es/que-es-la-notacion-de-modelado-de-procesos-de-negocio 1 -
+/.well-known/ 47 binance.com
+/eshop/ 6 -
+/services/ventilation/ 1 -
+/wp-content/plugins/wp-engine-module/wp-engine.php 2 www.google.com
+/milano/ 3 -
+/blog/local/dalat/ 1 -
+/column/focus/ 4 -
+/backup/wp-admin/install.php 2 -
+/device/ 1 -
+/membership/ 3 -
+/public/403.php 1 -
+/siryoukan/ 3 -
+//1index.php 4 -
+/pdf/catalog.pdf 1 -
+/upl.php 1 -
+/event-schedule/ 1 -
+/menu/ 5 -
+/srch_guide/ 1 -
+/wp-json/wp/v2/users 1 -
+//3index.php 2 -
+//wp-content/plugins/dzs-zoomsounds/a57bze8931.php 2 www.google.com
+/sakanabaru_ebis/ 1 -
+/howto/shiden/ 1 -
+//ini.php 2 -
+/ccx/index.php 2 parvamm.com
+/images/left_arrow_responsive.png 4 http://www.parvamm.com/
+//wp-includes/customize/class-wp-customize-nav-menu.php 2 -
+//images/vuln.php 2 -
+/pipe/ 9 -
+/cvc/ 5 -
+/specialist/takasago-junji/ 1 -
+/design 7 -
+/kamae/ 5 -
+/wp-content/plugins/dzs-zoomsounds/savepng.php 2 -
+/magazine/latest/ 1 -
+/svalist/ 3 -
+/session/login 3 -
+/web/jindaiji_soba/ 1 -
+/howtouse/whymovin.html 1 -
+/products/control_equipment/command_board/ 1 -
+/gameguide/format.php 1 -
+/furniture/assets/img/products/product-12-1-270x360.jpg 1 http://www.parvamm.com/furniture/assets/img/products
+/howto/how01.html 1 -
+/kcfinder/upload.php 1 -
+/furniture/assets/img/revimages/homepage01-slide2.jpg 1 http://www.parvamm.com/furniture/assets/img/revimages
+/bootstrap.js 1 -
+/2019/exhibitor-info/ 1 -
+/BitTradeOne 4 -
+//mad.php 2 -
+/faq_customer/ 1 -
+/kiso/kiso5.html 1 -
+/old/wp-admin/setup-config.php 1 -
+/mb_knowermag/ 9 -
+/ir/pdf/ARS2020_J_rev5.pdf 1 -
+/package/package02.php 1 -
+/mart/ 6 -
+/htdocs/file/recipe13.pdf 1 -
+/registration2021/ 2 -
+/2021 1 -
+/organization/representative.html 1 -
+/ir/leaf.pdf 1 -
+/about_kurobe/ 1 -
+/wp-admin/install.php 3 http://parvamm.com
+/New 1 -
+/k/h/1/kh16549/Ostrogothic_Kingdom.png 1 -
+/knowledge/kakaritsuke.html 1 -
+/gifldfnz.php 1 www.google.com
+/note/ 3 -
+/furniture/assets/img/products/product-9-2-600x800.jpg 1 http://www.parvamm.com/furniture/assets/img/products
+/i.php 1 -
+/Entry/76/ 1 -
+/faqcat/prescription/ 1 -
+/bunburyoudou/ 2 -
+//wso.php 2 -
+/.git/HEAD 1 -
+/media/35462/ 3 -
+/index_came.html 1 -
+/delivery/ 1 -
+/category115/ 3 -
+/radio.txt 1 -
+/wp-content/mu-plugins-old/index.php 5 -
+/fixtures/ 1 -
+/inc/go3.php/newmax.click 1 -
+/konchuten 1 -
+/alwso.php 1 -
+//wp-content/plugins/fighter/fk.php 2 -
+/gomitaro-annex 1 -
+/e.php 1 -
+/zh-tw/ 6 -
+/pack/ 5 -
+/hygienics/ 3 -
+/company/about/ 1 -
+/furniture/assets/img/logo.png 1 http://www.parvamm.com/furniture/assets/img
+/wordpress/wp-content/themes/seotheme/mar.php 1 -
+/wp/wp-admin/install.php 2 -
+/news/back_number 1 -
+/pages/bpmn 1 -
+/wp-content/uploads/typehub/custom/74A5E4F4/.RxR.php 1 -
+/sales/ 9 -
+/wp-class.php 1 -
+/company/info/issue/bsignal/06_vol_106/ 1 -
+/alf.php 1 -
+/admin/ckeditor/kcfinder/upload.php 1 -
+/_ignition/health-check/ 6 -
+/wp.php 1 -
+/docs/technical-data/index.html 2 -
+/yoshiharutakeuchi/ 1 -
+/tokyo/ 9 -
+/xmlrpc.php 172 -
+//wp-2020.php 2 -
+/index_sugi.html 3 -
+/seizu/ 9 -
+/plugins/kcfinder/upload.php 1 -
+/mediamode/ 6 -
+/asbestos/ 1 -
+/magento_version 1 -
+/administration/ 1 -
+/stay/ 5 -
+/wp-content/plugins/formcraft/file-upload/server/php/files/a57bze8931.php 2 www.google.com
+/%E3%82%B6-%E3%82%A8%E3%83%AB%E3%83%80%E3%83%BC%E3%82%B9%E3%82%AF%E3%83%AD%E3%83%BC%E3%83%AB%E3%82%BA-%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%AA%E3%83%A0-VR%E5%B0%82%E7%94%A8-%E3%80%90CERO%E3%83%AC%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E3%80%8CZ%E3%80%8D% 1 -
+/histories 1 -
+/grp/ 7 -
+/security/sp/ 1 -
+/attendence/index.php 7 -
+/sites/all/libraries/elfinder/src/connectors/php/connector.php 1 -
+/company/pluscad/ 1 -
+/wp-admin 1 -
+//xwxx.php 2 -
+/wp-admin/network/wplogin.php 3 -
+/visit_kyoto/ 1 -
+/mp/open_shunan/ 1 -
+//wp.php 2 -
+/cnh/ 6 -
+/0byte.php 1 -
+/nagoya-ofuku.html 1 -
+/wp/xmlrpc.php 164 -
+/it/ 6 -
+/wp/wp-content/uploads/2015/04/pumph150501_10_11_.pdf 1 -
+/youtube/ 1 -
+/hawaii/ 2 -
+/static/hui/lib/webuploader/0.1.5/server/preview.php 1 -
+/app_simulator/ 1 -
+/fr-ca/ 8 -
+/neo/faq/result/ 1 -
+/niigataben-itiranhyou 1 -
+/camp.html 1 -
+/images%5Cportfolio%5Crcc.png 1 http://parvamm.com
+/blog/%E3%80%90%E6%9B%B8%E8%A9%95%E3%80%91%E5%9B%BD%E5%AE%B6%E3%81%A8%E6%95%99%E9%A4%8A/ 1 -
+/iseki/ 6 -
+/mutenka/ 3 -
+/wp-content/plugins/wpzip/wpzip.php 4 -
+/rent/ 1 -
+/br/ 9 -
+/admin.php 5 -
+/q.php 1 -
+/rpggame/ 2 -
+/WP 1 -
+/oa-rental/ 1 -
+/wp-content/plugins/ioptimizations/IOptimizes.php 2 www.google.com
+/furniture/assets%5Cimg%5Cproducts%5Cproduct-9-1-600x800.jpg 1 http://www.parvamm.com/furniture
+/site/wp-content/themes/inunity/data.php 1 -
+/sh.php 1 -
+/wp-config.php 1 -
+/products/rotaryseal_lipseal/rotarylipseal.html 1 -
+/info/kiteisyu.html 1 -
+/404.php 1 -
+/cardiology/ 4 -
+/suisenhanakotoba/ 1 -
+/mini.php 1 -
+/chacott.products/ 1 -
+/doc/2015_fluid%20mechanics.pdf 1 -
+/index-jpn.php 3 -
+/eten/ 2 -
+/iris/bitstream/handle/10665/259510/9789241550185-jpn.pdf 1 -
+/products/memory/index.php 1 -
+//xl.php 4 -
+/pages/bpmn-artifact-types 1 -
+/wp-includes/upload_index.php 2 -
+/support/support_tv/ 1 -
+/academy/ 9 -
+/wp-includes/post-thumbnail-template.php 1 -
+/jp/%E3%82%B3%E3%83%B3%E3%82%BF%E3%82%AF%E3%83%88 1 -
+/jiko/ 4 -
+/external/arabic/index.htm 1 -
+/080_change/ 1 -
+/lifenet/ 1 -
+/fr/ 9 -
+//wp-admin/fx.php 2 -
+/furniture/assets/img/brands/brand-11.png 1 http://www.parvamm.com/furniture/assets/img/brands
+/images%5Cportfolio%5Csiddeswara.png 1 http://parvamm.com
+/bl/tbc-weather/warning/ 1 -
+/id/ 2 -
+/wp 10 -
+/about/location/ 1 -
+/company/profile.htm 1 -
+//wp-2022.php 2 -
+/camera.html 1 -
+/sites/all/libraries/plupload/examples/upload.php 1 -
+/eng/ 4 -
+/about/dinner/ 1 -
+/budo50/ 1 -
+/kiichiroshop/ 3 -
+/10.php 1 -
+/tr 5 -
+/bike_goods/ 3 -
+/company/outline.html 1 -
+/wp-content/index.php 1 www.google.com
+/official-blog/ 4 -
+/pdf/ssh_report_01.pdf 1 -
+/blog/xmlrpc.php 164 -
+/640eb9bsuUb8231d92a4d61UC-Un19bf34.cars 1 -
+/company/cujira/ 3 -
+/about/profile.shtml 1 -
+/wordpress/wp-admin/setup-config.php 4 -
+/wp-file.php 1 -
+/info/nouhin/ 1 -
+/wp-admin/fw.php 1 -
+/173.html 1 -
+/uploader.php 1 -
+/%E3%82%AF%E3%83%88%E3%82%A5%E3%83%AB%E3%83%BC%E3%81%AE%E5%91%BC%E3%81%B3%E5%A3%B0-%E6%98%9F%E6%B5%B7%E7%A4%BEFICTIONS-%E6%A3%AE%E7%80%AC-%E7%B9%9A/dp/4065107695/ref=as_li_ss_il 1 -
+/youto.html 1 -
+/shx.php 1 -
+/backup/ 11 -
+/i.html 6 -
+/blog/twitter_ad/ 1 -
+/furniture/assets/img/brands/brand-3.png 1 http://www.parvamm.com/furniture/assets/img/brands
+/fileupload/server/php/ 1 -
+/sr/ 3 -
+/counseling/sinri01.html 1 -
+/wp-content/plugins/login-wall-lurbn/login_wall.php 3 http://misc.yahoo.com.cn/
+/wso1.php 1 -
+/kei/ 2 -
+//0z.php 2 -
+/shohin/fukufuku/ 1 -
+/company/office.html 1 -
+/guide2/top.html 1 -
+/employment/ 2 -
+/guide/tips.html 1 -
+/pt-pt 3 -
+/magazine/2015sep/ 1 -
+/feedback/images/bg4.jpeg 1 http://parvamm.com/feedback/register.css
+/news/ 3 -
+/furniture/assets/img/products/product-15-2-270x360.jpg 1 http://www.parvamm.com/furniture/assets/img/products
+/charm/ 9 -
+/manage/criminal_suit.htm 1 -
+/asset-manifest.json 1 http://parvamm.com/
+/india/ 5 -
+/newsite 5 -
+/kappa/ 2 -
+/entry/blog-failure 1 -
+/shell.php 1 -
+/wp-admin/js/widgets/index.php 2 parvamm.com
+/furniture/assets/img/products/product-9-1-600x800.jpg 1 http://www.parvamm.com/furniture/assets/img/products
+/top.php 1 -
+/pc/ 8 -
+//marijuana.php 2 -
+/learn/accessprogram.html 1 -
+/joinus/upload/MONIKA%20KUMARI%20S-1097401846. 1 http://parvamm.com/joinus/admin.php
+/472e632EAyDmfb8231837d0651MLsbbcnU357637.works 1 -
+/backup/wp-admin/setup-config.php 1 -
+/office_morioka/ 4 -
+/painel/kcfinder/upload.php 1 -
+/accounts/login 1 -
+/shiteiseki-ofuku.html 1 -
+/y.php 1 -
+/yonetim/engine/ckeditor/kcfinder/upload.php 1 -
+/areainfo/kobe_higashinada/ 1 -
+/mart/hitomi_kanso.htm 1 -
+/rental/digital-color/ 1 -
+/international/exam_discount/ 1 -
+/commands/boxedit.htm 1 -
+/turn/tr01.html 1 -
+/solidworksindex1/sldfile4.html 1 -
+//google.php 2 -
+/entry/why-strategy 1 -
+/wp_wrong_datlib.php 1 -
+/jp/mercari-box/ 2 -
+/know-how/ 2 -
+/furniture/assets/img/brands/brand-7.png 1 http://www.parvamm.com/furniture/assets/img/brands
+/wp-content/admin.php 4 www.google.com
+/oxygen-concentrator/glass-blowing-oxygen-concentrator/ 1 -
+/company/data.html 1 -
+/ja/upcoming 1 -
+/about-us/history/ 1 -
+/filedownload/ 1 -
+/5c037a8siib8231aaf6cb81fzPH_cd641f.sg 1 -
+/beer/ 6 -
+/entry/jokapi.jp/column/app_software/ 1 -
+/en-gb.html 1 -
+/sito 1 -
+/shop/shop_s_morishoku.html 1 -
+/pdf/ssh_tayori23.pdf 1 -
+/mar.php 1 -
+/wp-content/themes/eatery/nav.php 1 -
+/items/shimantofactory/ 1 -
+/words/cracking/ 3 -
+//lufix.php 2 -
+/entry33.html 1 -
+/zairiki/ 2 -
+/bookmook/ 1 -
+//DKIZ.php 2 -
+//xml.php 2 -
+/vendor/kcfinder/upload.php 1 -
+/asakusa/ 9 -
+/200/kyojinnohoshi5-index.php 1 -
+/jp/product/multi-factor-authentication 1 -
+/WordPress 1 -
+/atcl/ 6 -
+//uploads/xleet.php 2 -
+/download.html 3 -
+/content/doctor/ 3 -
+/catalog/ 1 -
+/internship_guide/fee 1 -
+/splash.php 1 -
+/tickets/ 3 -
+/old/xmlrpc.php 164 -
+/feature/traffic.php 1 -
+/cambodia/kanryoucode.html 1 -
+/jp/ja_JP/ 1 -
+/about-boshin/ 4 -
+/sasiss_toflas.html 1 -
+/wakamatusi/tera-siro-monden.html 1 -
+/products/screen/ 1 -
+/souzoku-kouka/ 1 -
+/cate_workstyle 1 -
+/a-cca/ 6 -
+/blog/fr/ 3 -
+/howto_checklist.html 1 -
+/xmlrpc2.php 1 -
+/e/data/js/ajax.js 2 -
+/television/stb.html 1 -
+/wordpress/ 13 -
+/fc-introduction/ 1 -
+/wp-load.php 5 www.parvamm.com
+/public/static/admin/lib/webuploader/0.1.5/server/preview.php 2 -
+/go/newmax.click 1 -
+/souzoku_zeikin/syoukibotakutinotokurei/ 1 -
+/wp-stopstore.php 1 parvamm.com
+/wordpress/wp-content/plugins/wpyii2/wpyii2.php 2 -
+/genre/comp/ 1 -
+//wp-easy.php 2 -
+/new 10 -
+/subscribe/yuriko-yoshitaka.livedoor.biz/ 1 -
+/products_relese.html 1 -
+/sodium-formate/ 1 -
+/shows/ 7 -
+/cms/wp-admin/setup-config.php 1 -
+/blog/wp-content/plugins/wpyii2/wpyii2.php 2 -
+/kaishagaiyou/ 1 -
+/amoai/ 4 -
+/jpn/mobile/ 3 -
+/wso2.php 1 -
+/furniture/assets/img/products/product-14-2-270x360.jpg 1 http://www.parvamm.com/furniture/assets/img/products
+/kr/ 5 -
+/leisure/kumano 3 -
+/security_guide/ 1 -
+/web/modules/tinyd0/index.php 1 -
+//uploads/up.php 2 -
+/sites/all/libraries/elfinder/php/connector.minimal.php 1 -
+/mob/index.php 3 -
+/2017/08/17/%e9%81%b8%e6%8a%9e%e5%85%ac%e7%90%86%e3%82%92%e4%bd%bf%e3%82%8f%e3%81%aa%e3%81%84%e6%9c%80%e5%a4%a7%e5%80%a4%e6%9c%80%e5%b0%8f%e5%80%a4%e3%81%ae%e5%ae%9a%e7%90%86%e3%81%ae%e8%a8%bc%e6%98%8e/ 1 -
+/lunch/ 6 -
+/backup 5 -
+/feeding/index.html 1 -
+/tw/ 8 -
+/images%5Cportfolio%5Cvehicleticketing.jpg 5 -
+/sekken/ 3 -
+/pdf-download/ 1 -
+/x-analysis/ 1 -
+/entry/fakasugi.hatenablog.com/entry/unproductive-drive 1 -
+/wp-content/plugins/wp-engine-module/a57bze8931.php 2 www.google.com
+/ireland/ 9 -
+/furniture/assets/img/brands/brand-6.png 1 http://www.parvamm.com/furniture/assets/img/brands
+/wp-includes/class-wp.php 1 -
+//XxX.php 2 -
+/wp-content/king.php 2 www.google.com
+/wp-includes/991176.php 1 -
+/js/assets/jquery-file-upload/server/php/ 1 -
+/se/ 5 -
+//xmlrqc.php 2 -
+/http://newmax.click 1 -
+/earth/ 4 -
+/officialbbs.html 1 -
+/entry/resort 1 -
+/jp/promotion/ 4 -
+/asset/tinymce/filemanager/dialog.php 1 -
+/view/kurimoto.html 1 -
+//up.php 2 -
+/m.php 1 -
+/traial/ 1 -
+/202010/img/4e03ecc7.jpg 1 -
+/kickass/ 3 -
+/livetv 4 -
+/home/mix/ 3 -
+/site 6 -
+/lucidchart 1 -
+/wp-admin/upload_index.php 1 -
+/wp-content/uploads/html2wp/abruzi.php 2 www.google.com
+/cafepro.jp/ 1 -
+/wp-admin/network/admin.php 1 -
+/2020/ 10 -
+//xlt.php 2 -
+/agent2/login.jsp 1 -
+/plugins/revel/js/revolution.extension.actions.min.js 1 -
+/wp-includes/rest-api/endpoints/class-wp-rest-settings-controller.php 1 -
+/oto/ 7 -
+/images/right_arrow_responsive.png 4 http://www.parvamm.com/
+/cafe.html 1 -
+/wp-content/uploads/wp_live_chat/abruzi.php 2 www.google.com
+/products/miwand2lite/ 1 -
+/products/control_equipment/index.html 1 -
+/tarot/ 10 -
+/post-988/ 3 -
+//fw.php 2 -
+/makhdamx.php 1 -
+/public/_ignition/health-check/ 6 -
+/priv8.php 1 -
+/hp12.html 1 -
+/new-site 2 -
+/g-info/ 3 -
+/menu.php 1 -
+/wp-includes/default-constants.php 1 -
+/wp-content/plugins/cherry-plugin/admin/import-export/a57bze8931.php 2 www.google.com
+/perth/ 3 -
+/doc/2018_culture_of_slaughter_and_flesh.pdf 1 -
+/assets/plugin/kcfinder/upload.php 1 -
+/Test 1 -
+/doc/2015_qualitative%20data%20analysis.pdf 1 -
+/blog/worryinghomonhanbai/ 1 -
+/ge_exhibitions/ 3 -
+/introduction/biography/ 1 -
+/legal-info/ 3 -
+/wp-content/themes/inunity/data.php 1 -
+/fund/summary/311807/index.html 1 -
+//wp-22.php 2 -
+/post-686/ 1 -
+/web/chofu_osusume/ 2 -
+/adobe/ 6 -
+//wp-god.php 2 -
+/wp-content/wp-admin.php 1 -
+/players/contents/0000034.php 1 -
+/patientfamily/ 1 -
+/registration2021/success.html 2 -
+/setup/ 3 -
+/oxygen-concentrator/ 1 -
+/saibai.htm 1 -
+/column/men/ 1 -
+/en-ca/ 6 -
+/bbs/K0000843470/SortID=22603725/ 1 -
+/channel/UCfOflihrkOKDQZ_ZKtF2VfQ/ 1 -
+/iYell.corp/ 1 -
+/guides/takahashi-2/business/economy.html 1 -
+/hokusetsuwines 1 -
+/solidworksindex1/sldworksassyindex1.html 1 -
+/models/ 4 -
+/bike/ 7 -
+/branch/cvs.html 4 -
+/companyoutline/ 3 -
+/cn/ 10 -
+/design/game/ 1 -
+/arif/Telerik.Web.UI.WebResource.axd 1 -
+/sp/corporate/ 2 -
+/assets/plugins/filemanager/dialog.php 1 -
+/new/ 15 -
+/EnvironmentList/ 1 -
+//wp-x.php 2 -
+/Blog 1 -
+/BACKUP 1 -
+/meal/index.html 3 -
+/ichiran.html 1 -
+/project/kokubu/ 3 -
+/siena/ 6 -
+/furniture/assets/img/products/product-11-2-270x360.jpg 1 http://www.parvamm.com/furniture/assets/img/products
+/sitemapa_823_30.xml 3 -
+/admin/kcfinder/upload.php 1 -
+/contact-index/ 1 -
+/furniture/assets/img/products/product-16-1-270x360.jpg 1 http://www.parvamm.com/furniture/assets/img/products
+/products/scala/ 2 -
+/contents/kokushi/index 1 -
+/htdocs/file/recipe08.pdf 1 -
+/residential/ 1 -
+/furniture/assets%5Cimg%5Cproducts%5Cproduct-20-1-270x360.jpg 1 http://www.parvamm.com/furniture
+/products/control_relay_timer/logic_controller/ 1 -
+/souko/diadora/ 1 -
+/ucs/top.do 3 -
+/pdf/taityou.pdf 3 -
+//small.php 2 -
+/center/kurume-tobu/ 1 -
+/loan/myhome/ 3 -
+/modelkasten/ 4 -
+/all/ 5 -
+/wp-content/uploads/2015/11/annatto.png 1 -
+/4.php 1 -
+/shin-ai-clinic/ 3 -
+/kiso/rikyuu/ 1 -
+/wholesale/ 3 -
+/s/k46o/page/about 1 -
+//media-admin.php 2 -
+//radio.php 2 -
+/about/magazine/shushi/pdf/85_0203/85_0203_02.pdf 1 -
+/wp-content/uploads/2014/05/ise_syukuhaku_guide.pdf 1 -
+/th 7 -
+/fudousan.html 3 -
+/post-671/ 3 -
+/rov/ 6 -
+/how-to/shiyou.html 1 -
+/materials.cgi 3 -
+/faq/hotel.html 1 -
+/neo/appsuite/library/ 1 -
+/gaiyo/ 2 -
+/type.html 1 -
+/wp-admin/admin-ajax.php 9 -
+/strategy/koramu.html 1 -
+/bc 5 -
+/departments/faculty/chem.html 1 -
+/wp-content/ 6 -
+/zh_tw/ 5 -
+/theater/ 3 -
+/pages/er-diagrams 1 -
+/studio/ 1 -
+/vi/ 3 -
+/cz/ 5 -
+/wp-plain.php 11 www.google.com
+/how-to/law/ 4 -
+/company/organization_chart.html 1 -
+/assets/images/qanda/logintejunsyo_ver1.pdf 1 -
+//haxor.php 2 -
+/js/assets/JQuery-File-Upload/server/php/ 1 -
+/about.html 1 -
+/nurse-sys/ 3 -
+/site/wp-json/wp/v2/users 1 -
+/jp/%E3%83%AB%E3%83%BC%E3%83%B4%E3%83%AB%E8%A6%8B%E5%AD%A6%E3%81%AE%E6%89%8B%E5%BC%95%E3%81%8D 1 -
+/JOINUS/ 1 -
+/de/ 3 -
+/dining/dinner/ 4 -
+/100.php 1 -
+/js/plugins/mesonary/filterableproductgrid/js/modernizr.custom.js 1 -
+/admin/server/php/ 1 -
+/jp/company/office/ 1 -
+/27771624/ 1 -
+/site/index.php 1 -
+/administrator/index.php 2 -
+/transfer.html 1 -
+/akiko/ 5 -
+/filemanager/dialog.php 5 -
+/site_about/ 1 -
+/lumber/ 1 -
+/sitemapa_823_10.xml 3 -
+/landing.html 1 -
+/web/wp-json/wp/v2/users 1 -
+/about-us 1 -
+/rimini/ 1 -
+/owners/wiz/ 3 -
+/java-lang-programming/Android-SQLite-Demo 1 -
+/blog/th/ 3 -
+/basics.html 1 -
+/about/a002 1 -
+/jindex.php 1 -
+/wp-admin/css/fw.php 1 -
+/staff/ 9 -
+/admin 1 http://parvamm.com/
+/stay.php 1 -
+/demo/ 10 -
+/v.php 1 -
+/free/ 7 -
+/strategy/jihou.html 1 -
+/jp/about/leadership/ 1 -
+/course-info/course-information 1 -
+/e582ca0wwhhYb823115225271PYXibsub903fc.shop 1 -
+//lock360.php 2 -
+/Wp 1 -
+/temp/ 1 -
+/wp-admin/includes/class-wp-media-list-data.php 1 -
+/company/stylegarden/ 1 -
+/miya/ 6 -
+/kyoudo_top/ 2 -
+/furniture/assets/img/categories/category-1.jpg 1 http://www.parvamm.com/furniture/assets/img/categories
+/about-us/candy 3 -
+/gbr/ 2 -
+/oldsite 6 -
+/categories.html 3 -
+/wp-content/plugins/dos2unix/dos2unix.php 2 -
+/chemical/nifgrip/ 1 -
+/index.asp 6 http://misc.yahoo.com.cn/
+/wp-content/plugins/apikey/apikey.php 2 www.google.com
+/kumazakiaim 1 -
+/Backup 1 -
+/sv/compress-pdf 1 -
+/site/wp-admin/setup-config.php 1 -
+/wp-content/plugins/formcraft/file-upload/server/php/ 2 www.google.com
+/wp-includes/wp-class.php 1 -
+/how-to/syurui/ 3 -
+/wp-content/plugins/ioptimization/a57bze8931.php 2 www.google.com
+//pi.php 2 -
+/kiso/kiso35.html 1 -
+//crypted.php 2 -
+/prize/ 7 -
+/o.php 1 -
+/stockists/ 3 -
+/kaishi/ 1 -
+/sites/all/modules/pubdlcnt/pubdlcnt.php 1 -
+/information/tsukuba/ 1 -
+//1337.php 2 -
+/test/wp-content/ 1 -
+//wp-2019.php 2 -
+/testing 5 -
+/ja/ 2 -
+/wplogin.php 2 www.parvamm.com
+/crm/kansaitekko_packingsize 1 -
+/wp-content/themes/wplogin.php 3 -
+/plan/ 7 -
+/d/%CC%C0%CE%F1 1 -
+/wso.php 1 -
+/2020/wp-json/wp/v2/users 1 -
+/wp-static.php 2 www.parvamm.com
+/products/safety/optimized_software/index.html 1 -
+/cms 2 -
+/tech/alias/ 1 -
+/bunkatu-kouka/ 1 -
+/goto/http://newmax.click 1 -
+/hana_kiko/ 3 -
+/jaccscard 3 -
+/products/connect_plus/ 1 -
+/company/group/subsidiary.html 1 -
+/fundou17-jcss-kimitsuhoji.html 1 -
+/staff/modal1_01 1 -
+/wp_public/wp-content/uploads/2018/08/JGL_fca_kiyaku-new.pdf 1 -
+/sekidogroup/ 1 -
+/jp/ 9 -
+/franchisee/ 1 -
+/wp-includes/wps-cache.php 3 www.parvamm.com
+/fee 6 -
+/brands/2123/ 1 -
+/taxi/ 6 -
+/ko/ 8 -
+/blog/cn/ 3 -
+/alfacgiapi/perl.alfa 11 www.google.com
+/lecture-r/ 3 -
+/%E7%84%A1%E6%96%99/ 6 -
+/aioinissaydowa.html 1 -
+/apps 5 -
+/jp/%E5%80%8B%E4%BA%BA%E3%81%AE%E7%9A%86%E6%A7%98 1 -
+//wp-content/themes/wp-pridmag/init.php 2 -
+/entry/mercari-1 3 -
+/about-philosophy/ 1 -
+/web/wp-admin/setup-config.php 1 -
+/wp-content/plugins/fancy-product-designer/inc/custom-image-handler.php 1 www.google.com
+//wp-includes/assets/pi.php 2 -
+/images%5Cportfolio%5Cfitcare.png 1 http://parvamm.com
+/media/system/js/core.js 4 -
+/wp-admin/css/ 47 binance.com
+/2019/contest/ 1 -
+/1index.php 1 -
+/about/company/ 2 -
+/doc/2017_cryptography.pdf 1 -
+/menu/takeout/ 1 -
+/ch/ 7 -
+/shakyo/pdf/SLR_20.pdf 1 -
+/textbook.html 2 -
+/doc/2013_Self_and_others.pdf 1 -
+/SetouchiFinder/ 1 -
+/customertr/ 1 -
+/project/planning.php 1 -
+/ja/index 9 -
+/wp-content/plugins/apikey/a57bze8931.php 2 www.google.com
+/spatialinfo/kantanmap/ 1 -
+/blog/deterioratingwaterproofrooftop/ 1 -
+/iportal/CatalogViewInterfaceStartUpAction.do 1 -
+/site/xmlrpc.php 164 -
+/furniture/assets/img/menu-image/sofa-253x186.jpg 1 http://www.parvamm.com/furniture/assets/img/menu-image
+/6b7bd6ejDMgvb823179babd71BzyzwKsabcc17.me 1 -
+/furniture/assets/img/products/product-14-1-270x360.jpg 1 http://www.parvamm.com/furniture/assets/img/products
+/en/index.html 1 -
+/JP/gem-lab 1 -
+/shop 1 -
+/200/kitaro-black-index.php 1 -
+/blog/2019/02/2-days-in-a147.html 1 -
+/adobe/creative-cloud/adobe-cc-faq.html 1 -
+/about_us/ 3 -
+/old 10 -
+/pages/fr/quest-ce-quun-diagramme-entite-association 1 -
+/hongkong/ 1 -
+/tkrb_ht 4 -
+/wp-includes/css/buttons.css 4 -
+/create/ 6 -
+/genkisha.html 1 -
+/wp-includes/load.php 1 -
+/entry/hirosaki.keizai.biz/headline/1046/ 1 -
+/products/hv_distribution_digital/hv_air_load_break_sw_lb/ 1 -
+/ja/article/two-factor-authentication 1 -
+/furniture/assets/img/products/product-9-1-270x360.jpg 1 http://www.parvamm.com/furniture/assets/img/products
+/radio.php 1 -
+//image/screenshot_1.php 2 -
+/gakukansetsu/ 1 -
+//mini.php 2 -
+/css/album.css 2 -
+/menu/3/12/index.html 1 -
+/kids/ 6 -
+/oyaku/ 8 -
+/products/taheebo.html 1 -
+/a-products/ 6 -
+/person 8 -
+/assets/global/plugins/jquery-file-upload/server/php/ 1 -
+/home/cake/product01.html 1 -
+/new/xmlrpc.php 164 -
+/contents/kokushi/04 1 -
+/algae/ 9 -
+/demo/js/common.js 1 -
+/wp-includes/about.php 1 -
+//wp-info.php 2 -
+/anime_list 4 -
+/admin/editor/kcfinder/upload.php 1 -
+/information/haiban_list.html 1 -
+/data/admin/allowurl.txt 4 -
+/legalproblem/ 3 -
+/themes/generate 1 -
+/kiso/kiso2.html 1 -
+/cour_top.htm 1 -
+/feed/ 8 -
+/13.php 1 -
+/yamayaki-en/ 6 -
+/sites/all/modules/fckeditor/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/de1504033/hotels-rasubegasu-nebada-zhou/ 1 -
+/mamadame.movie/ 2 -
+/souzokubun/ 1 -
+/trigger.php 1 -
+/mb_knowermag/07wind.htm 1 -
+//Deadcode1975xxxxxxxxxxxxxxxxxxxxxxxxxxxx.php 2 -
+//wp-2018.php 2 -
+/ups.php 1 -
+/company/ebisu/ 4 -
+//utchiha.php 2 -
+/ramjinbenio/ 2 -
+/sekido-rc/ 4 -
+/en-index/ 1 -
+/forklift/ 3 -
+/images/testseat.pdf 1 -
+/faq/faq09/ 3 -
+//screenshot_1.php 2 -
+/products/electromagnetic_switch/mc/ 1 -
+/repair.html 1 -
+/furniture/assets/img/products/product-13-2-270x360.jpg 1 http://www.parvamm.com/furniture/assets/img/products
+/assets/js/kcfinder/upload.php 1 -
+/web/wp-admin/install.php 2 -
+/room/japanese-western/ 1 -
+/aboutus/ 3 -
+/cgi-bin/rssp 1 -
+/file-upload/server/php/ 1 -
+/recipe/recipe-8 6 -
+/sitio 1 -
+/wp-story.php 6 www.parvamm.com
+//wp_wrong_datlib.php 2 -
+/kavc.or.jp/ 2 -
+/xl.php 1 -
+/wp-settings.php 1 -
+/wp/wp-content/themes/seotheme/mar.php 1 -
+/x.php 1 -
+/TEST 1 -
+/kaisha.shtml 2 -
+/furniture/assets/img/products/product-10-1-270x360.jpg 1 http://www.parvamm.com/furniture/assets/img/products
+//reminder.php 2 -
+/modules/evtCal/ 3 -
+/info/howtouse/ 3 -
+/fees/ 9 -
+/kaisei/ 1 -
+/go/ 1 -
+/booking/ 4 -
+/entry/inutomo11.com/archives/16595190.html 1 -
+/doi-lab/ 3 -
+/wp-includes/cron.php 1 -
+/benesseinfo/ 2 -
+/life/finesave/ 2 -
+/howto/ 10 -
+/info/gpoint/ 1 -
+/campany/network/higashi-kanto/ 1 -
+/old-index.php 5 -
+/shimano-pitbull/ 1 -
+/facility.html 2 -
+//wp-2021.php 2 -
+/wadai/ 9 -
+/techinfo/ 9 -
+/net_shop/ 2 -
+/koushi/ 1 -
+/koneta 5 -
+/login 4 -
+/year/ 3 -
+/furniture/assets/img/products/product-11-1-270x360.jpg 1 http://www.parvamm.com/furniture/assets/img/products
+/redirect-to/ 1 -
+/wp-content/wp.php 1 -
+/exam/files/JSCESroadmap.pdf 1 -
+/disco.html 1 -
+/okibun2016.pdf 1 -
+/chat/ 5 -
+/old/ 11 -
+/9128e28TfDLYb8231cd9c3a11lgEk24a62c.pl 1 -
+/wp-info.php 1 -
+/modules/publicdata/ 1 -
+/money/ 2 -
+/device.php 4 -
+/pdf/gtv_lasercladding_nozzle_jpn.pdf 1 -
+/web/sekipiyo.pdf 1 -
+/old-site 3 -
+/fox.php 1 -
+/news/games.html 4 -
+/horoscope 1 -
+/news_back_num.html 1 -
+/index-ja.html 3 -
+/bikes.html 1 -
+/blueberry/ 1 -
+/contact-us/ 2 -
+/kakikata.html 3 -
+/account/bookingslist.html 1 -
+/cbdf2ad.html 1 http://parvamm.com
+/yomikata.html 3 -
+/Entry/3542/ 1 -
+/00758a6vDoYtJob8231ed312fa1VfzMnWOfbc1ae.tc 1 -
+/jvqfikxg.php 1 www.google.com
+/tenyou/ 5 -
+/service/campaign/index.html 1 -
+/main/ 7 -
+/crime/defamation.html 1 -
+/about/osaka.html 1 -
+/home/ 9 -
+/menu.html 1 -
+/otsuyu/ 1 -
+/about/plans/ 4 -
+/blog/es/ 3 -
+/manage/death_penalty.htm 1 -
+//mass.php 2 -
+//xleet.php 2 -
+//srx.php 2 -
+/use-stay/ 9 -
+/column/daichi/ 1 -
+/humans.txt 3 -
+/ga-sayu/ 2 -
+/k.php 1 -
+/about_us.html 1 -
+/kouzanosyoukai.html 1 -
+/miyakojima/ 1 -
+/assets/admin/js/kcfinder/upload.php 1 -
+/cambodia/ 9 -
+/panel/kcfinder/upload.php 1 -
+/ja/blog/blog-rules5/ 1 -
+/wp-content/themes/seoplugins/mar.php 3 -
+/wp-content/fw.php 1 -
+/test/wp-admin/setup-config.php 1 -
+/carnationhanakotoba/ 1 -
+/guide/online 1 -
+/de24828VGNehb823112aaf6a1DIuw354845.ki 1 -
+/plugins/countto/jquery.countTo.js 1 -
+/maai1/ 8 -
+/theboon/ 3 -
+/about-greeting/ 1 -
+/about/iso/ 1 -
+/tokoroten/tokororeshipi/tokoro_reshipi.html 1 -
+/days/repeater.html 1 -
+/cms/wp-admin/install.php 2 -
+/Yacamochi_db 1 -
+/how-to-buy/ 1 -
+/200/s_kyojin-jounetu-index.php 1 -
+/illustrator%E3%81%A7%E6%8A%BC%E3%81%97%E5%87%BA%E3%81%97%E3%83%BB%E3%83%99%E3%83%99%E3%83%AB%E3%82%92%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95%EF%BC%BC%E3%80%82.html 1 -
+/200/s_getterrobo-index.php 1 -
+//alfa.php 2 -
+/nl/compress-pdf 1 -
+/apego.jp/ 3 -
+/blog 6 -
+/pages/nl/wat-is-een-entity-relationship-diagram 1 -
+/company/workplace/ 1 -
+/2450/chukyo-kagaku.html 1 -
+/bookshop/ 1 -
+/wp-content/plugins/wpyii2/wpyii2.php 9 -
+/images%5Cportfolio%5Cfurniture.png 1 http://parvamm.com
+/wordpress/wp-content/themes/inunity/data.php 1 -
+/bank/ 3 -
+/wp-content/uploads/2018/09/kitpamp.pdf 1 -
+/esl/phrases-for-shopping/ 1 -
+/CharcuterieJp/ 3 -
+/lp/ 9 -
+/test/ 1 -
+/puremalt/ 1 -
+/products/rfid/ 3 -
+/our-guide/ 3 -
+/en-GB 6 -
+/pro/ 5 -
+/physics/ 1 -
+/products/%E3%80%90%E3%83%96%E3%83%A9%E3%83%B3%E3%83%8B%E3%83%A5%E3%83%BC%E3%80%91%E6%9C%88%E6%9D%BE%E8%8A%B1%E5%A0%82%EF%BC%88ka4 1 -
+/wp-content/uploads/2020/02/index.php 2 parvamm.com
+/server/php/ 1 -
+//ALFA_DATA/alfacgiapi/ups.php 2 -
+/2index.php 1 -
+/malta/ 6 -
+/fungi/ 3 -
+/souko/cafe/ 1 -
+/live/ 6 -
+/pc/emServlet 1 -
+//3x.php 2 -
+/sitemap.xml 10 -
+/ai/ja/ 6 -
+/xxx.php 1 -
+/black-desert-ent-story/ 1 -
+/0.php 1 -
+//up-kon.php 2 -
+/lapaz/ 2 -
+/category/mind 1 -
+/BLOG/ 2 -
+/wp-admin/user/wplogin.php 3 -
+/s/k46o/page/about_fanclub 1 -
+/global/office/india/ 1 -
+/wp-content/ccx/index.php 2 parvamm.com
+/wp-content/languages/index.php 4 -
+/WWW 1 -
+/assets/filemanager/dialog.php 5 -
+/about/magazine/shushi/pdf/85_0203/85_0203_01.pdf 1 -
+/wp-includes/widgets/class-wp-widget-tag-cloud.php 1 -
+/site/wp-content/themes/seotheme/mar.php 1 -
+/wp-customize.php 4 -
+/bunkazai.html 1 -
+//4price.php 2 -
+/iportal/CatalogSearch.do 1 -
+/2019/02/5249/ 4 -
+/products/control_equipment/rotary_switch/ 1 -
+/pages/test_guide/ 1 -
+/iso_correspondence.html 1 -
+/p.php 1 -
+/images%5Cportfolio%5Cboncer.jpg 8 -
+/column/kintugi/ 1 -
+/WSO.php 1 -
+/cms/ 9 -
+/f.php 1 -
+/wp/wp-content/uploads/2015/04/pumph150501_18_20_.pdf 1 -
+/modules/aboutjkc/ 1 -
+/lining/ 3 -
+//404.php 2 -
+/products/PC/index.html 1 -
+/higanji/ 9 -
+/project/%E9%9D%92%E8%91%89%E3%80%80%E8%8B%A5%E8%91%89/ 1 -
+/black-desert-historia-ruins/ 1 -
+/js/tinymce/plugins/filemanager/dialog.php 1 -
+/fitness/020020.php 1 -
+/banjou.osakanakan/ 1 -
+/guide/03b_noshi.html 1 -
+/contact/us/en/ 3 -
+/com/ 3 -
+/h.php 1 -
+/furniture/assets/img/products/product-15-1-270x360.jpg 1 http://www.parvamm.com/furniture/assets/img/products
+/WORDPRESS 1 -
+/calendar.html 1 -
+/clubbus.pdf 3 -
+/warashibe/ 1 -
+/about-wec/ 1 -
+/ryoko 9 -
+/oyadolist/ 4 -
+/ojts/ 6 -
+//1.php 2 -
+/max.htm 1 -
+/0z.php 1 -
+/xx.php 3 -
+/method/index.html 1 -
+/kiso/manners/ 1 -
+/ski_board/ 3 -
+/%E3%82%AA%E3%83%96%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E9%87%8D%E3%81%AA%E3%82%8A%E9%A0%86%E3%82%92%E8%87%AA%E5%9C%A8%E3%81%AB%E6%93%8D%E3%82%8B%E6%96%B9%E6%B3%95%EF%BC%BC%E3%80%82.html 1 -
+//wp-admin/rss.php 2 -
+/okutama-sikinoie/ 1 -
+/OLD 1 -
+/webmaga/kokugo/detail14.html 1 -
+/wp-includes/functions.wp-scripts.php 1 -
+/doc/2012_Engineering.pdf 1 -
+/04_1tenkazai.htm 1 -
+/onlineservice/step_pc/ 1 -
+/oxalic-acid/ 1 -
+/n.php 1 -
+/crossword/ 3 -
+/catalog_categories/camera 1 -
+/shisankeisei/ 3 -
+/si/ 8 -
+/the-club/ 4 -
+/c99.php 1 -
+/%E4%BA%8B%E5%8B%99%E6%89%80%E6%A6%82%E8%A6%81/ 1 -
+//hehe.php 2 -
+/s.php 1 -
+/gbook/go.php 1 -
+/admin/plugins/jquery-file-upload/server/php/ 1 -
+/category/find-chikara 1 -
+/syoku-bussan/ 3 -
+/nry/ 5 -
+/test/wp-admin/install.php 2 -
+/lan/ko/ 3 -
+/news-and-media/ 1 -
+/company/history.php 1 -
+/sizeguide.html 1 -
+//mininew.php 2 -
+/g.php 1 -
+/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php 1 -
+/data/%235Dp8Gh.asp 2 http://misc.yahoo.com.cn/
+/aboutus/attached_school/ 1 -
+/wp-includes/class.wp-dependencies.php 1 -
+/boat/migrator24/ 1 -
+/blog/local/dalat/dalat-area/ 1 -
+/movingimage/ 1 -
+/403.php 1 -
+/magazine/eat/ 1 -
+//01.php 2 -
+/blogs/mamechishiki/ 1 -
+/kensakuex/ 1 -
+/lifesafety/ 2 -
+/wp-content/plugins/ioptimization/IOptimize.php 4 www.google.com
+/variety.html 4 -
+/BLOG 1 -
+/BlueJays 1 -
+/aboutus.html 2 -
+/post-1094/ 1 -
+/campany/network/sendai/ 1 -
+/kikenbutu/ 1 -
+/plugins/fancybox/jquery.fancybox.js 1 -
+/butduxgh.php 1 www.google.com
+/new/wp-admin/install.php 2 -
+/ja/our-rates/ 1 -
+/radio/images-to-pdf 1 -
+/wp-admin/index.php 1 -
+/products/control_relay_timer/safety_monitor/ 1 -
+/toefl/ 5 -
+/aboutus/staff/ 3 -
+/blog/meister/ 2 -
+/radio/rotate-pdf-pages 1 -
+/dates 3 -
+/rss.php 1 -
+/mahara/ 3 -
+/jp/office-365 2 -
+/boat/ 7 -
+/contents/chapter_list/ 1 -
+/convention/ 1 -
+/Sesc/usr/login.do 1 -
+/nl 4 -
+/wp-content/plugins/seoplugins/mar.php 6 -
+/sitemapa_823_0.xml 2 -
+/OneLogin 1 -
+/company-profile/ 1 -
+/adobetype/ 1 -
+/motocross/ 1 -
+/jp/%E3%83%A1%E3%82%BB%E3%83%8A%E3%81%B8%E3%81%AE%E6%84%9F%E8%AC%9D 1 -
+/pass/ 8 -
+/global/office/uk/ 1 -
+/wp/wp-json/wp/v2/users 1 -
+/a/rne/ 9 -
+/takasaki/2019/03/post-395f.html 1 -
+/themes/main/support/user_guide_cableline.pdf 1 -
+/www 1 -
+/jp/products/verse-true-wireless-earphones 1 -
+/users/sign_in 3 -
+/jaxa.jp/ 1 -
+/admissions/ 3 -
+/bonita/ 1 -
+/recipe/ratatouillepasta 1 -
+/wp-includes/compat.php 1 -
+/translation/ 1 -
+/study/camera/ 1 -
+/Old 1 -
+/cht/ 3 -
+/tokyo/sub01/ 1 -
+/furniture/assets/img/products/product-13-1-270x360.jpg 1 http://www.parvamm.com/furniture/assets/img/products
+/semiconductor/ 2 -
+/netprimer/ 1 -
+/furniture/assets/img/products/product-9-2-270x360.jpg 1 http://www.parvamm.com/furniture/assets/img/products
+/abruzi.php4 2 www.google.com
+/3index.php 5 -
+/grill/ 3 -
+/sale 6 -
+/about/a001 1 -
+/SHOP 1 -
+/furniture/assets/img/categories/category-2.jpg 1 http://www.parvamm.com/furniture/assets/img/categories
+/column/kimono/ 1 -
+/jquery-file-upload/server/php/ 1 -
+/new/wp-json/wp/v2/users 1 -
+/design/web/ 3 -
+/river/sediment-transport-simulation/ 1 -
+/wakachiai 1 -
+/news/it/ 1 -
+/freecontents/title/boyslove/ 1 -
+/blog/pl/ 3 -
+/ad-menu/ 3 -
+/genin/ 5 -
+/bigcima/ 1 -
+/company/fundmanagers/fundmanagers.pdf 1 -
+//new-index.php 2 -
+/codegrid 1 -
+/destinations/alaska/ 1 -
+/trans.php 1 -
+/373ae3bEzDb8231c7e12431iIxug015101.me 1 -
+/5.php 1 -
+/faculty/ls/ 1 -
+/saficpws/login/login.do 1 -
+/dining/alacarte/ 1 -
+/lp/pc/diem003_line/ 1 -
+/blog/smell/ 1 -
+/demo/wp-json/wp/v2/users 1 -
+/local/ 4 -
+/depo/ 4 -
+/admin/editor/filemanager/dialog.php 1 -
+/west2019spring/ 3 -
+//upload.php 4 -
+/wp/wp-content/themes/inunity/data.php 1 -
+/auth 3 -
+//wp-admin/xleet.php 2 -
+/market-data 1 -
+/knowledge/ashinagabachi.html 1 -
+/jquery.mixitup.js 1 -
+/haxor.php 1 -
+/Wordpress 1 -
+/contact/stock-car/ 1 -
+/cruise/ 1 -
+/wp-content/uploads/typehub/custom/a57bze8931/.__a57bze8931.php 2 www.google.com
+/kinenkan 3 -
+/tokigawa/index.html 1 -
+/post-759/ 3 -
+//wp-content/plugins/easybusy/wp-blog.php 2 -
+/television/lineup.html 1 -
+/images%5Cportfolio%5Cgrocessery.jpg 4 -
+/assets/JQuery-File-Upload/server/php/ 1 -
+/yyrsdfkb.php 1 www.google.com
+/hualiudrama 1 -
+/naples_island/ 4 -
+/jupj.php 11 -
+/ochaseki/ 1 -
+/team/ 9 -
+/client/subject/ 3 -
+/book 5 -
+/redirect 2 -
+/company/lockon/ 1 -
+/service_spec/ 3 -
+/wp-content/wplogin.php 3 -
+/ALFA_DATA/alfacgiapi/perl.alfa 11 www.google.com
+/home 6 -
+/main 10 -
+/makuranage_join_us 1 -
+/iso39001_gap/ 3 -
+/blog/line_ad/ 1 -
+/product/setscan/ 1 -
+/wordpress/wp-content/plugins/dos2unix/dos2unix.php 2 -
+/rakusai/ 2 -
+/wp-content/themes/sketch/include.php 3 www.parvamm.com
+/boi/ 5 -
+/jp/ja 5 -
+/mr_nakagawa/ 1 -
+/school/student/ 3 -
+/blog/soccer/ 3 -
+/furniture/assets/img/revimages/homepage01-slide3.jpg 1 http://www.parvamm.com/furniture/assets/img/revimages
+/data_recovery/ 3 -
+/survey/photogrammetry/ 1 -
+/site/wp-admin/install.php 2 -
+/post-2303/ 3 -
+/kyouka/ 1 -
+/illustrator_artboard_tec.html 1 -
+/blog/chronic-disease/ 1 -
+/furniture/assets/img/products/product-16-2-270x360.jpg 1 http://www.parvamm.com/furniture/assets/img/products
+/wp-content/plugins/core-stab/index.php 1 -
+/ec72a5eQHGgkb8231072b1431gLIcHjD56f768.app 1 -
+/cargo/ 8 -
+/%E5%BA%97%E8%88%97%E6%A1%88%E5%86%85/ 1 -
+/guides/skill 1 -
+/magnesium-oxide/ 1 -
+/images%5Cportfolio%5Ccpl.jpg 7 -
+/about_us/site 1 -
+/precision/ssb/index 1 -
+/bike/index.html 3 -
+/bac 1 -
+/company/overview/ 1 -
+/JP/gem-lab-service/synthetic-diamond 1 -
+/wordpress/wp-admin/install.php 2 -
+/salt/ 2 -
+/hello.php 1 -
+/public/scripts/filemanager/dialog.php 1 -
+/files/syuuri/index.html 1 -
+//old-index.php 2 -
+/catalog/catalog-jcss.pdf 1 -
+/webcam/ 4 -
+/gazette/ 1 -
+/http//newmax.click 1 -
+/blog/ 12 -
+/redirect.asp 1 -
+/qtnwztzd.php 1 www.google.com
+/Telerik.Web.UI.WebResource.axd 1 -
+/oldsite/wp-admin/install.php 2 -
+/web/ 19 -
+/chemical.html 1 -
+/htdocs/file/recipe09.pdf 1 -
+/admin/themes/filemanager/dialog.php 1 -
+/app/ 3 -
+/lastcloudia/ 1 -
+/out.php 1 -
+/rules/ 2 -
+/user_service/kaiin_portal/login/login.htm 1 -
+/wp-content/themes/seotheme/db.php 45 www.google.com
+/style.php 2 -
+/admin/js/swfupload/upload.php 1 -
+/diapers/ 1 -
+/2018/05/21/h016%E6%B5%B7%E8%BB%8D%E5%B0%86%E6%A0%A1%E7%AD%89%E5%BE%81%E6%B8%85%E3%81%AE%E6%88%B0%E7%95%A5%E3%82%92%E8%AB%96%E3%81%99%E3%82%8B%E5%9C%96-%E3%82%92%E8%BF%BD%E5%8A%A0%E3%81%97%E3%81%9F/ 1 -
+//02.php 2 -
+/gaiyou 5 -
+/feature/npb/ 1 -
+/test 6 -
+/3d939fcWudFd82314eb251e1sbl2fb7bd.bn 1 -
+/egg_pedia/index.html 1 -
+//wp-content/themes/seotheme/db.php 1 -
+/shibuya_eggman 1 -
+//C.php 2 -
+/wp-includes/class-wp-ajax-response.php 1 -
+/products/hv_distribution_digital/hv_distribution/ 1 -
+/factorytokyo/ 1 -
+/050_area_motion/ 1 -
+/wp-content/uploads/2018/09/P9020401-1.jpg 1 -
+/images%5Cportfolio%5Cdinoz.jpg 5 http://parvamm.com
+/takaaki.mitsuhashi/index.htm 1 -
+/%E6%9C%AA%E5%88%86%E9%A1%9E/%E3%82%84%E3%82%8A%E3%81%9F%E3%81%84%E3%81%93%E3%81%A8%E3%81%A8%E3%82%84%E3%82%8A%E3%81%9F%E3%81%8F%E3%81%AA%E3%81%84%E3%81%93%E3%81%A8%E3%81%B8%E3%81%AE%E6%B1%BA%E7%9D%80%EF%BC%81 1 -
+/wp-admin.php 1 -
+/Shop 1 -
+/rashi/ 3 -
+/products/kemikaru/ 1 -
+/sp/convention/ 3 -
+/academics/pro_graduateschool/accounting/ 1 -
+//wp_logx.php 2 -
+/media/ 3 -
+/category/cpu%e3%82%af%e3%83%bc%e3%83%a9%e3%83%bc/ 1 -
+/backup/wp-json/wp/v2/users 1 -
+/illustrator%E3%81%A7%E4%BA%BA%E7%89%A9%E3%82%84%E5%8B%95%E7%89%A9%E3%81%AE%E3%83%88%E3%83%AC%E3%83%BC%E3%82%B9%E3%82%92%E4%B8%8A%E9%81%94%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95-%EF%BC%BC%E3%80%82.html 1 -
+/products/solar_panel/index.html 1 -
+/blog/wp-content/themes/inunity/data.php 1 -
+/Contact/ 1 -
+/smart/ 7 -
+/anime.html 1 -
+//wxo.php 2 -
+/publish/index.html 1 -
+/amamori.html 1 -
+/about_eng/ 3 -
+/bak 1 -
+/jiban-portal/ 1 -
+/fa/ 10 -
+/ckeditor/kcfinder/upload.php 1 -
+/us/app/lucidchart-flowchart-diagram-visio-viewer/id611543423 1 -
+/wp-content/plugins/and-antibounce/redirector.php 1 -
+/demo/xmlrpc.php 164 -
+/plugins/fancybox/jquery.fancybox.pack.js 1 -
+/config/aspcms_config.asp 2 http://misc.yahoo.com.cn/
+/wp-content/plugins/wp-file-manager/lib/php/connector.minimal.php 2 www.google.com
+/.git/config 7 -
+/images/about.php 1 -
+/wp-admin/wplogin.php 3 -
+/contents/live 3 -
+/punisher.php 1 -
+/ 1 -
+/JQuery-File-Upload/server/php/ 1 -
+/holiday/basic_principles.html 1 -
+/restaurant/viewbar/ 1 -
+/blogtokyo/ 1 -
+/furniture/assets/img/categories/category-3.jpg 1 http://www.parvamm.com/furniture/assets/img/categories
+/LectureTop.html 1 -
+/preserve/ 6 -
+/wp-admin/admin.php 2 www.google.com
+/tv/ 6 -
+/dev 5 -
+/wp-content/plugins/superstorefinder-wp/ssf-wp-admin/pages/import.php 2 www.google.com
+/oldsite/wp-admin/setup-config.php 1 -
+/tourism_guide/ 3 -
+/miru/ 3 -
+//ups.php 2 -
+/setagayafes/index.php 1 -
+/ie/ 3 -
+/furniture/assets/img/products/product-12-2-270x360.jpg 1 http://www.parvamm.com/furniture/assets/img/products
+/doc/2015_wireless%20communication%20technology.pdf 1 -
+//admin/controller/extension/wpm.php 2 -
+/kihon/ 2 -
+/action 4 -
+/festival/ 3 -
+/nanotechnology/ 1 -
+/shogi 5 -
+/assets/kcfinder/upload.php 1 -
+/jikken/ 1 -
+/2017/08/all-about-tax-of-freelance/ 1 -
+/top.html 1 -
+/tsuji_guards/ 3 -
+/rooms/ 9 -
+/pdf/kennametal_LaserClad_PTApowder.pdf 1 -
+/yukari/ 4 -
+/articles/how_to/ 1 -
+/es/ 7 -
+/hp/ 4 -
+/dup-installer/main.installer.php 1 -
+/t/suzakinishi/ 1 -
+/us/en/ 9 -
+/wp-uploads.php 1 -
+/yatai/ 5 -
+/jp/mihama7plex/ 2 -
+/uno/ 2 -
+/website/ 1 -
+/zmhejpnw.php 1 www.google.com
+/about/a006 1 -
+/cafe/ 9 -
+/company/info/issue/bsignal/17_vol_171/ 1 -
+/freehp 5 -
+/old.html 1 -
+/web 2 -
+/company/gaiyo.html 1 -
+/contents-guideline 1 -
+/milazzo/ 1 -
+/blog/20190315/ 1 -
+/account/login/ 1 -
+//wp-admin/priv8.php 2 -
+/products/general/stress_check/index.html 1 -
+/pages/select.html 1 -
+/wikindex.php 6 -
+/wp-content/plugins/wplogin.php 2 www.parvamm.com
+/internet/ 6 -
+/%E3%82%AF%E3%83%AC%E3%82%B8%E3%83%83%E3%83%88%E3%82%AB%E3%83%BC%E3%83%89%E3%81%AE%E3%83%A1%E3%83%AA%E3%83%83%E3%83%88%E3%81%A8%E3%83%87%E3%83%A1%E3%83%AA%E3%83%83%E3%83%88%E3%82%92%E7%90%86%E8%A7%A3/ 1 -
+/NEW 1 -
+/categories/291867 1 -
+/bank/shohingaiyo.html 1 -
+/niku/ 6 -
+/sitemap/sitemap_index.html 1 -
+/itoshimaben/ 1 -
+/wp-admin/user/menu.php 1 -
+/pi.html 3 -
+/gopro/ 6 -
+/contact_partnership/ 1 -
+/equipment/ 1 -
+/high-school/ 1 -
+/topteam/upload/20150328-030710.jpg 1 -
+/order 7 -
+/wp-includes/ID3/license.txt 7 -
+/products/sazerac/ 1 -
+/faq/%E9%81%8E%E5%8E%BB%E3%81%AE%E9%A0%98%E5%8F%8E%E6%9B%B8%E3%81%AA%E3%81%A9%E3%81%AF%E3%81%82%E3%82%8A%E3%81%BE%E3%81%9B%E3%82%93%E3%80%81%E5%86%8D%E8%A8%88%E7%AE%97%E3%81%99%E3%82%8B%E3%81%93%E3%81%A8/ 1 -
+/services/it/ 1 -
+/diy-life/ 3 -
+/spiderwire/ 3 -
+/blog/2440/ 1 -
+/sakura/Scale&Code.pdf 1 -
+/howtouse/careerchanges/careerchange_story.html 1 -
+/blog/wp-content/ 1 -
+/human-resource-development/ 1 -
+/about-us.html 1 -
+/feedback/admin/images/Capture.PNG 4 http://parvamm.com/feedback/admin/
+/international/gsquare/ 1 -
+/site/wp-content/plugins/dos2unix/dos2unix.php 2 -
+//1h6j5.php 2 -
+/leadership/ 1 -
+/kokin/ 6 -
+/kokono/ 10 -
+//baindex.php 2 -
+/hananophoto.pdf 3 -
+/root.php 1 -
+/lab/ 2 -
+/giga/ 4 -
+/wp-admin/radio.php 1 -
+/furniture/assets/img/brands/brand-12.png 1 http://www.parvamm.com/furniture/assets/img/brands
+/column/shibayama/ 1 -
+//wp-includes/1index.php 2 -
+/blog/droppingkawara/ 1 -
+/about-painclinic.html 1 -
+/patients 1 -
+/e75947aNtWEOPb823195700541wITLd1ba95a 1 -
+/uploads/faq/GoogleAccountSetting.pdf 1 -
+/r.php 9 -
+/ads.txt 65 -
+/products/worldcard-v8-color-personal/ 1 -
+/zbblwsxm.php 1 www.google.com
+/news/%E6%96%BD%E8%A8%AD%E3%81%AE%E4%BD%BF%E7%94%A8%E4%BE%8B/ 1 -
+/philosophy/japanese.html 1 -
+/us/ 6 -
+/ryoko_shimbun/ 4 -
+/house-rules/ 1 -
+/jobs 1 -
+/wp-blog-header.php 1 -
+/how-it-works/ 3 -
+/oxygen-concentrator/battery-oxygen-concentrator/ 1 -
+/Public/webuploader/0.1.5/server/preview.php 1 -
+//wp-blog.php 2 -
+/wordpress/wp-content/ 1 -
+/product_search/ 2 -
+/wp-content/uploads/2013/07/book0712.pdf 1 -
+/2020/xmlrpc.php 164 -
+/wordpress/wp-json/wp/v2/users 1 -
+/kakei/ 3 -
+/nurse/ 5 -
+/wp-json/wp_live_chat_support/v1/remote_upload 2 www.google.com
+/wp-admin/setup-config.php 5 -
+/moana/ 4 -
+/old/wp-admin/install.php 2 -
+//admin.php 2 -
+/03tv/ 6 -
+/solo/ 1 -
+/about-khirin/ 3 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 487
+49.205.146.231 254 273 1140688 20221130231329
+49.205.147.91 243 418 26325557 20221114215748
+49.205.149.236 37 57 726924 20221116223216
+167.114.173.203 27 27 338041 20221101052150
+69.160.160.60 23 83 2502724 20221112034922
+64.124.8.33 19 19 187891 20221109080606
+106.196.18.116 17 101 2226076 20221117042422
+205.169.39.63 16 142 5603062 20221128202520
+60.243.227.88 16 99 8998844 20221102050531
+149.56.150.190 12 12 701903 20221130220511
+34.68.255.58 12 12 1242492 20221110231211
+20.231.126.132 12 12 1242492 20221111191613
+20.18.12.221 10 10 297370 20221101055311
+157.45.88.77 10 83 3142325 20221107051953
+45.133.203.79 9 9 931869 20221112223026
+49.205.146.63 9 9 589 20221101220747
+110.226.182.22 9 82 3132093 20221106214453
+110.225.43.95 8 69 2636590 20221102081433
+18.217.246.95 8 237 2308086 20221118203131
+85.215.201.56 8 89 2898800 20221101082504
+65.154.226.170 8 68 2673336 20221118161548
+65.154.226.166 7 67 2643599 20221118161645
+49.207.232.97 7 68 2645246 20221108041427
+199.127.56.236 7 67 2643599 20221123102355
+103.121.172.58 7 66 2538411 20221112052816
+64.124.8.50 5 5 41911 20221129133902
+35.176.198.111 1 1 103541 20221123160536
+20.29.110.168 0 1 106564 
+64.124.8.31 1 1 10800 20221109094330
+61.147.15.65 1 1 29737 20221106001817
+74.84.150.150 2 2 59474 20221125160442
+159.223.35.181 2 2 207082 20221113105519
+110.40.227.238 1 1 29737 20221122061040
+35.217.48.162 1 1 29737 20221104135435
+188.166.158.140 1 1 29737 20221123121549
+223.186.140.49 0 4 194868 
+60.190.195.146 1 1 103541 20221113150035
+185.181.60.12 1 1 29737 20221122185807
+43.155.65.160 1 1 29737 20221108141654
+171.13.14.15 0 9 588305 
+142.4.125.69 1 1 29737 20221106175952
+68.183.181.15 2 2 207082 20221112175045
+223.240.101.111 1 1 29737 20221129102614
+157.45.127.187 1 4 243791 20221122083017
+64.124.8.48 3 3 30458 20221130073207
+64.124.8.55 4 4 33594 20221109042428
+198.235.24.15 1 1 103541 20221114161743
+172.173.231.124 3 3 310623 20221102131732
+207.46.13.15 0 4 27172 
+27.59.32.152 2 2 5934 20221104054317
+20.172.245.178 1 1 29737 20221121221554
+61.147.15.67 1 1 29737 20221106001650
+205.210.31.143 1 1 103541 20221118180504
+35.185.106.83 2 2 207082 20221108070016
+94.181.160.26 1 1 103541 20221104093657
+198.235.24.27 1 1 103541 20221119111128
+216.145.5.42 1 1 29737 20221128022024
+146.190.82.173 3 3 310623 20221124230456
+54.190.79.141 1 1 29737 20221126092213
+106.195.45.40 1 3 66612 20221111223710
+40.86.101.165 0 2 269839 
+146.190.99.158 2 2 207082 20221122032611
+64.124.8.44 2 2 17907 20221128221725
+192.71.30.89 1 1 29737 20221124112432
+51.254.29.108 1 1 103541 20221128093533
+93.159.230.83 3 3 89211 20221124203751
+157.90.227.187 1 1 103541 20221101205234
+165.22.217.34 5 5 517705 20221120133058
+223.186.138.28 0 2 97434 
+223.247.205.107 1 1 29737 20221115041242
+20.199.118.215 1 1 29737 20221105123600
+40.122.230.188 0 2 423196 
+147.92.153.16 2 18 373283 20221111160518
+104.215.187.77 1 1 103541 20221117051449
+139.59.106.244 2 2 207082 20221128161326
+134.209.38.228 1 1 29737 20221119213011
+164.90.183.121 1 1 29737 20221127121053
+124.221.186.82 2 2 59474 20221106015933
+20.172.244.205 2 2 39969 20221127185446
+216.24.212.64 5 5 210945 20221124141841
+66.249.84.179 0 12 584604 
+198.235.24.152 1 1 103541 20221129224333
+69.88.138.20 1 1 29737 20221114012833
+13.67.224.14 0 2 72092 
+194.110.13.38 1 1 29737 20221111175040
+84.239.40.219 3 3 157243 20221119210618
+209.99.139.240 5 24 521170 20221110070547
+20.211.208.28 2 2 207082 20221122093050
+205.210.31.130 1 1 103541 20221105123010
+157.45.116.89 1 2 25304 20221122082206
+20.241.233.77 4 8 142336 20221129174545
+209.97.149.195 1 23 255368 20221119222709
+106.196.16.226 2 3 28524 20221122082221
+65.109.83.9 1 1 29737 20221117042839
+147.92.153.18 0 13 510795 
+91.90.120.171 1 1 29737 20221124175255
+120.157.31.170 4 4 58301 20221102012056
+178.128.98.41 2 2 59474 20221105214254
+40.77.167.73 0 1 6793 
+52.88.6.154 1 1 29737 20221115092125
+209.97.153.164 1 23 255368 20221119222556
+147.92.153.11 0 12 1703460 
+31.13.115.8 3 24 1307153 20221125172933
+5.189.172.220 1 1 0 20221130172332
+107.178.207.25 1 1 29737 20221108055810
+20.12.191.72 0 1 12374 
+180.178.93.210 1 1 103541 20221101203402
+162.220.56.140 1 1 103541 20221103104615
+64.246.165.50 1 1 29737 20221107091840
+43.247.156.69 0 8 389736 
+198.235.24.43 1 1 103541 20221108014002
+67.22.61.189 4 33 6209367 20221110070549
+147.92.153.10 0 12 525985 
+157.45.152.29 1 5 305110 20221113085414
+223.240.99.104 1 1 29737 20221130063219
+14.29.231.172 1 1 29737 20221120062015
+5.227.29.27 1 1 103541 20221110001033
+14.29.231.137 1 1 29737 20221109003824
+35.87.250.68 1 1 29737 20221127090743
+168.151.91.211 4 24 558179 20221110070545
+167.248.133.63 1 2 31384 20221109073033
+64.124.8.42 1 1 8161 20221109030037
+3.87.218.129 1 1 103541 20221129232905
+20.244.33.254 1 1 103541 20221111180806
+80.234.34.116 1 1 29737 20221114051024
+147.92.153.17 2 13 761192 20221118161838
+157.55.39.97 0 1 4465 
+107.158.116.186 1 1 29737 20221111130344
+5.161.42.19 1 1 103541 20221103104425
+20.122.84.198 1 1 29737 20221103104720
+54.244.49.149 1 1 103541 20221109084519
+34.212.168.167 1 1 29737 20221127090754
+20.172.244.222 4 4 31926 20221125174916
+159.65.130.189 2 2 207082 20221127055422
+14.116.152.103 1 1 29737 20221127120104
+31.13.115.20 1 20 586478 20221125172932
+40.122.230.189 0 1 9144 
+20.172.243.30 1 1 9227 20221125162018
+54.185.253.66 1 1 29737 20221124091710
+35.185.241.102 2 2 27440 20221111222327
+37.19.223.233 3 3 157243 20221107101738
+194.36.98.223 1 1 29737 20221109215244
+5.189.171.179 1 1 0 20221111172141
+205.210.31.184 1 1 103541 20221115225934
+35.92.191.122 1 1 29737 20221106092745
+72.13.46.5 3 3 46762 20221105143113
+147.92.153.15 1 10 256846 20221125142115
+171.13.14.43 1 14 254584 20221101055038
+171.13.14.76 1 13 229891 20221101055104
+34.222.248.215 1 1 29737 20221104104540
+171.13.14.44 1 11 625514 20221101055042
+45.125.245.236 1 1 29737 20221102222054
+52.13.193.138 1 1 29737 20221126094049
+185.181.60.39 1 1 29737 20221113143251
+168.138.13.60 2 2 207082 20221108133351
+94.181.156.39 1 1 103541 20221120144925
+154.6.93.155 1 1 29737 20221106135831
+147.92.153.5 1 15 206266 20221118161855
+34.221.37.20 1 1 29737 20221128092655
+198.235.24.52 1 1 103541 20221111185101
+113.142.141.105 2 2 59474 20221114212109
+198.235.24.47 1 1 103541 20221115093509
+66.250.219.76 3 3 89211 20221103131740
+207.46.13.44 0 2 13586 
+64.124.8.27 2 2 16647 20221130120308
+147.92.153.7 0 12 354180 
+35.88.203.62 2 2 59474 20221121005812
+104.144.227.79 1 1 29737 20221106143838
+198.235.24.162 1 1 103541 20221108211213
+14.116.157.23 1 1 29737 20221104000149
+35.238.199.235 1 1 29737 20221120104431
+109.74.144.220 1 1 103541 20221111032918
+5.178.2.88 1 1 29737 20221124081912
+147.92.153.20 1 5 86196 20221118155555
+223.247.179.42 1 1 29737 20221113020658
+223.181.209.11 1 1 29737 20221116064302
+209.99.152.50 5 35 879169 20221110070545
+157.55.39.55 0 1 7306 
+40.77.51.82 0 1 99599 
+94.130.151.197 1 1 103541 20221103070813
+64.124.8.22 1 1 29737 20221129012408
+34.219.65.243 1 1 29737 20221124091541
+185.94.192.82 2 2 0 20221112063533
+5.35.81.25 1 1 103541 20221107142038
+20.109.241.96 0 1 14312 
+20.172.245.154 3 3 28383 20221127201955
+223.181.217.227 1 1 29737 20221118104156
+59.36.173.146 1 1 29737 20221121234634
+167.99.228.9 1 1 0 20221104025811
+216.16.84.97 2 2 207082 20221130145840
+23.229.113.138 3 3 49715 20221116101902
+223.231.158.178 0 4 194868 
+192.99.57.46 3 3 119184 20221108054554
+31.13.115.6 2 23 721878 20221125172932
+157.230.186.195 1 1 103541 20221112052912
+20.124.8.169 3 3 32283 20221104023305
+171.13.14.84 2 18 1138844 20221101055042
+171.13.14.83 0 9 124928 
+171.13.14.55 1 11 310257 20221101055042
+20.67.123.236 0 1 48717 
+157.245.150.193 3 3 310623 20221115103438
+43.142.179.19 6 6 178422 20221111094820
+40.86.101.166 0 2 53179 
+68.69.184.202 3 3 89211 20221123052144
+23.94.168.185 1 1 29737 20221117134835
+185.213.154.213 1 1 29737 20221130210602
+52.114.32.28 1 2 31384 20221104004939
+43.155.112.7 1 1 29737 20221103132048
+147.92.153.13 0 11 98104 
+94.181.152.247 1 1 103541 20221121235401
+205.210.31.174 2 2 207082 20221111190443
+20.172.245.159 2 2 37837 20221125235251
+198.235.24.134 1 1 103541 20221113000558
+103.5.133.8 1 4 261903 20221128231836
+106.193.2.33 1 5 305110 20221103025157
+198.235.24.11 1 1 103541 20221129022949
+34.134.10.229 2 2 207082 20221118185605
+157.55.39.219 0 4 27172 
+193.56.29.219 1 1 29737 20221102201440
+13.67.224.12 0 1 5004 
+119.195.102.159 3 3 119184 20221109011102
+47.52.204.60 1 1 103541 20221110123600
+223.186.89.121 2 10 610220 20221126084224
+113.108.9.38 1 1 29737 20221109213135
+129.146.114.47 2 2 207082 20221122000532
+147.92.153.8 1 14 282310 20221125144300
+35.87.250.10 1 1 29737 20221124091501
+136.243.104.103 1 1 103541 20221129200505
+20.12.191.73 0 3 76265 
+20.124.115.104 3 3 310623 20221110013624
+93.159.230.88 6 6 178422 20221125003823
+81.69.18.89 1 1 29737 20221115104002
+80.95.44.7 1 1 103541 20221115100727
+117.33.227.207 1 1 29737 20221122232300
+64.124.8.59 5 5 69211 20221129075832
+191.96.227.92 1 1 29737 20221130182636
+74.208.115.85 1 1 29737 20221109112650
+37.139.53.7 2 2 36530 20221102101016
+185.99.135.187 1 1 103541 20221110024459
+20.106.27.173 0 1 46595 
+27.34.28.139 1 2 3394 20221109073058
+171.13.14.3 1 13 614051 20221101055104
+40.77.167.64 0 1 6793 
+173.239.197.230 6 6 621246 20221109134553
+205.210.31.164 1 1 103541 20221101223659
+143.198.219.206 2 2 207082 20221113003159
+3.91.226.246 3 3 50201 20221109061309
+46.101.80.192 6 6 92794 20221104224811
+13.76.143.70 2 2 207082 20221111120724
+40.122.195.128 0 2 177144 
+167.248.133.118 1 2 31384 20221126071924
+198.235.24.25 1 1 103541 20221111181644
+93.159.230.87 5 5 148685 20221125013843
+40.77.51.84 0 1 8192 
+64.124.8.46 2 2 20323 20221129220605
+64.124.8.24 1 1 8161 20221109023318
+31.13.115.3 1 1 29737 20221125172928
+103.192.80.12 3 3 310623 20221101221543
+222.124.108.204 4 4 58301 20221120065920
+20.109.241.97 0 2 111505 
+206.81.23.58 1 1 0 20221103152406
+188.241.178.41 3 3 89211 20221130174400
+52.1.150.219 2 2 59474 20221129045125
+178.159.37.4 3 3 310623 20221123235340
+66.249.84.183 0 11 535887 
+103.85.11.244 1 1 103541 20221105042319
+38.107.85.182 3 3 89211 20221103141858
+188.68.56.103 1 1 29737 20221129223007
+180.101.45.23 1 1 29737 20221106001204
+35.213.241.103 1 1 29737 20221117231012
+116.73.229.123 0 2 238498 
+20.172.245.129 3 3 29941 20221125170652
+35.91.53.75 1 1 103541 20221116075404
+188.165.223.112 2 2 207082 20221129110305
+20.70.185.67 5 5 517705 20221114132040
+192.241.118.234 1 1 103541 20221120193333
+4.196.255.196 1 1 103541 20221108061808
+14.116.156.77 1 1 29737 20221101081628
+195.78.54.112 3 3 157243 20221129230038
+20.29.110.170 0 4 125131 
+20.109.241.80 0 1 4205 
+40.86.101.252 0 2 36346 
+139.59.44.48 1 1 103541 20221128141416
+207.46.13.67 0 5 20881 
+157.230.235.99 5 5 517705 20221106142858
+128.199.126.161 1 1 103541 20221101143203
+165.140.167.146 1 1 29737 20221111085710
+85.17.9.163 1 1 29737 20221102042036
+34.122.239.121 1 1 103541 20221117003937
+205.210.31.24 1 1 103541 20221106011035
+35.165.54.213 1 1 29737 20221104104641
+20.244.36.226 2 2 207082 20221121131137
+35.183.57.204 1 1 103541 20221121223856
+157.45.233.96 2 5 264087 20221104051932
+147.92.153.9 0 15 538772 
+154.51.131.142 4 4 118948 20221125220749
+180.76.101.206 1 1 29737 20221115000912
+205.210.31.56 1 1 103541 20221103182702
+37.120.153.229 1 1 29737 20221118181004
+94.181.184.61 3 3 80553 20221110202714
+146.190.104.146 5 5 517705 20221125070609
+66.250.219.221 3 3 89211 20221103135853
+20.38.9.240 5 5 296293 20221127020617
+14.102.43.189 4 4 58301 20221124162531
+65.154.226.169 7 67 2643599 20221118160248
+20.38.3.7 1 1 103541 20221112030747
+45.61.50.128 1 1 103541 20221105125920
+178.33.236.214 2 2 207082 20221128040839
+77.73.131.228 4 4 260784 20221129085107
+3.96.198.169 1 1 103541 20221122014913
+15.235.12.96 2 2 59474 20221129025112
+64.124.8.52 1 1 8116 20221127114418
+147.92.153.12 1 12 211026 20221125144243
+82.10.64.59 4 4 58301 20221129232531
+198.202.171.124 1 1 29737 20221121150434
+157.45.255.76 0 1 0 
+5.189.183.89 1 1 0 20221106185447
+93.158.91.207 1 1 29737 20221116092534
+18.204.200.4 2 2 39969 20221104111613
+40.77.51.81 0 3 351812 
+130.193.10.21 1 1 103541 20221101190919
+52.226.227.211 2 2 59474 20221101132637
+79.166.38.115 1 1 29737 20221106181126
+3.239.39.20 0 20 1085541 
+84.17.49.18 3 3 157243 20221116031510
+106.197.220.103 1 3 261729 20221107043130
+65.2.80.73 1 1 29737 20221110052450
+93.158.90.67 1 1 29737 20221108082211
+64.124.8.29 2 2 17302 20221109090356
+155.138.163.231 3 3 119184 20221108023337
+138.199.36.200 2 2 130392 20221126174039
+64.124.8.45 2 2 17956 20221130155019
+59.44.59.36 1 1 103541 20221110135922
+43.143.60.88 6 6 178422 20221122101726
+205.210.31.185 1 1 103541 20221106121041
+107.167.35.130 1 1 29737 20221120230819
+40.78.141.94 0 4 84555 
+5.188.62.174 3 3 89211 20221120184635
+20.127.230.111 3 3 310623 20221114022829
+160.20.10.32 1 1 29737 20221109201645
+20.172.244.197 2 2 18875 20221127200855
+147.92.153.2 1 14 557726 20221118155609
+40.122.227.202 0 2 58775 
+64.124.8.40 1 1 8100 20221129103336
+139.59.31.218 1 1 0 20221109183326
+102.129.143.30 3 3 157243 20221126121958
+154.6.95.133 1 1 29737 20221127183128
+34.221.30.170 1 1 29737 20221124091459
+14.29.176.211 1 1 29737 20221116004939
+47.87.212.213 1 1 29737 20221103004031
+93.159.230.89 1 1 29737 20221124223814
+20.2.128.106 2 2 207082 20221111082552
+205.210.31.51 1 1 103541 20221104034017
+106.184.49.192 1 1 29737 20221125020725
+157.45.83.116 1 5 305110 20221120090813
+13.76.132.231 1 1 0 20221124080150
+101.68.211.2 3 4 312270 20221127000746
+46.235.40.78 1 1 103541 20221104150312
+165.22.55.103 1 1 103541 20221126132904
+149.56.160.215 7 67 2643599 20221130220538
+46.29.249.27 1 1 29737 20221107114303
+185.126.65.253 1 1 103541 20221120180520
+157.230.222.203 3 3 236819 20221109013227
+38.107.85.166 3 3 89211 20221103155544
+35.239.200.216 3 3 310623 20221110180129
+77.74.177.119 4 4 118948 20221124213813
+198.235.24.14 2 2 207082 20221112221507
+34.221.139.136 1 1 29737 20221121091529
+20.111.17.229 2 2 59474 20221111111759
+20.172.244.238 2 2 19354 20221125215855
+36.129.58.180 1 1 103541 20221122043632
+35.245.188.175 2 2 26780 20221104054547
+194.38.20.161 4 4 414164 20221119171538
+113.142.131.55 1 1 29737 20221117120413
+216.24.212.13 4 4 184094 20221108165747
+190.85.80.11 1 1 0 20221101144511
+64.124.8.54 1 1 7907 20221128135149
+157.48.173.160 6 66 2590699 20221129100222
+164.132.44.97 1 1 103541 20221129040636
+154.29.131.166 1 1 29737 20221113202357
+27.60.204.98 1 5 305110 20221109185208
+20.121.52.187 1 1 103541 20221124055651
+18.221.25.152 2 2 59474 20221103084352
+64.124.8.25 1 1 10232 20221129040509
+40.77.51.85 0 2 15352 
+64.124.8.49 3 3 48948 20221109072159
+20.172.245.153 4 4 53574 20221125162912
+167.248.133.62 1 2 31384 20221107073417
+196.196.164.8 1 1 29737 20221115045956
+172.104.53.88 1 1 29737 20221128043851
+102.130.120.118 3 3 157243 20221104122342
+20.29.110.169 0 1 34885 
+194.36.98.191 1 1 29737 20221115032213
+66.249.84.177 0 1 48717 
+159.89.158.14 1 1 103541 20221126123600
+174.92.139.132 1 1 29737 20221121233154
+106.51.77.122 0 5 243585 
+223.186.56.164 0 5 243585 
+143.198.213.108 2 2 207082 20221105112800
+159.89.117.17 1 1 103541 20221130103838
+52.139.215.41 2 2 59474 20221110120023
+167.99.184.212 1 1 29737 20221121022931
+34.212.227.227 1 1 103541 20221130033423
+205.210.31.137 1 1 103541 20221105054648
+154.6.12.26 1 1 29737 20221128053700
+154.26.138.99 3 3 310623 20221107011546
+198.235.24.56 2 2 207082 20221126134220
+51.255.196.88 1 1 103541 20221129000038
+20.164.202.149 2 2 207082 20221117152442
+40.77.167.0 0 4 25056 
+171.13.14.75 4 29 1074780 20221101055105
+103.81.92.250 1 1 103541 20221108010119
+34.216.88.82 1 1 29737 20221117092454
+147.92.153.1 0 10 124372 
+199.244.88.229 1 1 29737 20221111081332
+67.205.36.8 1 1 103541 20221103233807
+113.163.222.86 4 4 58301 20221107080715
+109.239.58.107 1 1 29737 20221103225117
+20.24.190.137 2 2 207082 20221111083621
+65.21.244.118 1 1 29737 20221125045655
+147.92.153.6 1 12 206852 20221111161001
+170.178.154.212 6 43 2364901 20221110070548
+40.122.227.200 0 3 50978 
+64.124.8.37 5 5 47486 20221109002057
+157.45.133.74 1 4 263802 20221125005827
+20.70.102.148 2 2 207082 20221124133207
+20.127.50.240 1 1 103541 20221105114008
+20.1.160.228 1 1 29737 20221106120222
+202.21.42.188 2 6 12301886 20221105013323
+36.143.79.29 1 1 29737 20221125143029
+34.66.33.58 2 2 207082 20221111074935
+40.77.167.65 0 1 6793 
+184.174.74.118 1 1 29737 20221102060853
+62.171.177.111 1 1 0 20221114123129
+34.93.191.142 2 2 207082 20221128163119
+4.193.57.112 4 4 414164 20221124211027
+76.72.172.162 1 1 103541 20221129193838
+54.218.27.101 1 1 29737 20221106093316
+20.122.13.154 1 1 29737 20221103104114
+84.32.128.95 1 1 0 20221126215813
+107.150.84.121 1 1 29737 20221102113231
+168.151.91.232 6 43 2364901 20221110070542
+5.39.84.56 1 1 103541 20221110082257
+198.235.24.148 1 1 103541 20221113174002
+91.90.120.197 1 1 29737 20221122150506
+147.92.153.19 0 10 678719 
+161.35.114.17 1 1 0 20221124163721
+106.208.119.150 3 6 55412 20221104015213
+47.87.148.252 1 1 29737 20221113075002
+51.89.201.226 1 1 29737 20221116232835
+198.235.24.2 1 1 103541 20221125162631
+111.207.155.211 1 2 105188 20221116135949
+14.116.184.240 1 1 29737 20221110190352
+205.210.31.163 1 1 103541 20221101194505
+4.227.190.74 1 1 103541 20221104175719
+35.88.146.184 1 1 29737 20221121091300
+76.112.212.61 1 1 29737 20221126191020
+20.109.8.55 1 1 103541 20221119155042
+147.92.153.4 1 17 847730 20221104150543
+147.92.153.3 2 18 551717 20221125142129
+198.235.24.153 1 1 103541 20221125013748
+171.76.210.214 1 1 3220 20221122082131
+42.83.147.34 3 3 89211 20221111150612
+134.122.137.45 1 1 29737 20221113072921
+35.86.218.167 1 1 29737 20221124071548
+40.86.101.254 0 1 35088 
+64.124.8.38 3 3 35356 20221129150905
+118.107.11.11 1 1 29737 20221125195014
+118.172.28.126 4 4 58301 20221114160730
+207.46.13.151 0 1 6793 
+66.249.84.181 0 24 1169208 
+171.76.85.173 1 1 3220 20221110091504
+54.218.76.29 1 1 29737 20221128092835
+113.125.51.198 1 1 29737 20221101233558
+185.173.36.129 2 2 207082 20221126231211
+210.116.91.94 5 5 326266 20221129075348
+205.210.31.142 2 2 207082 20221112034436
+20.125.126.125 1 1 29737 20221102212634
+145.239.67.10 1 1 103541 20221101053642
+157.245.57.169 3 3 236819 20221113132450
+128.199.69.132 6 6 621246 20221108120353
+54.202.12.28 1 1 29737 20221117092507
+45.252.189.18 1 1 29737 20221103000009
+147.92.153.14 2 13 709965 20221111160943
+54.68.71.246 7 67 2643599 20221103025159
+40.77.167.13 0 1 18205 
+35.173.64.170 1 1 29737 20221101081745
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20221101 82 300 10917848 25
+20221102 61 206 12949800 19
+20221103 54 122 4473422 23
+20221104 75 94 3001094 34
+20221105 17 26 13655613 13
+20221106 44 133 5500122 22
+20221107 51 142 5485581 15
+20221108 76 152 5656935 23
+20221109 72 94 2718769 35
+20221110 84 266 15833106 29
+20221111 82 352 30342864 35
+20221112 63 191 7686287 19
+20221113 28 33 1494622 15
+20221114 38 48 1438992 12
+20221115 32 35 947295 12
+20221116 43 155 3877726 14
+20221117 37 42 956913 15
+20221118 64 674 19313608 15
+20221119 11 67 1380785 8
+20221120 21 33 1242226 11
+20221121 36 36 805535 20
+20221122 49 62 2329043 19
+20221123 35 97 3192867 10
+20221124 51 53 1555316 23
+20221125 65 194 6590944 32
+20221126 29 40 1595808 17
+20221127 27 28 689470 15
+20221128 44 49 1233315 19
+20221129 68 129 4260428 29
+20221130 78 153 4927070 16
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+30mn-1h 23
+30s-2mn 10
+5mn-15mn 16
+2mn-5mn 4
+15mn-30mn 19
+0s-30s 499
+1h+ 23
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 57
+/ 542 33487900 409 372
+/attendence/index.php 459 34184 52 48
+/about.php 33 721104 13 11
+/index.php 30 2220582 23 20
+/contact.php 28 691597 1 12
+/fonts/Raleway-Bold.html 27 1442043 2 2
+/fonts/fontawesome-webfont.woff2 27 1909656 2 1
+/100daysatparvam/ 24 52312 2 0
+/fonts/Raleway-Regular.html 23 1214469 1 2
+/fonts/Raleway-SemiBold.woff2 23 1224244 3 3
+/blog.php 21 229856 4 4
+/fonts/Simple-Line-Icons6c54.ttf 20 1067360 1 5
+/fonts/Raleway-ExtraBold.woff2 19 1005100 0 10
+/service.php 17 131718 7 9
+/registration2022/ 16 51520 10 11
+/joinus/ 15 38565 12 12
+/thirdblogpage.php 12 103716 3 8
+/portfolio.php 12 100271 2 2
+/feedback/ 10 50711 4 3
+/fonts/Raleway-Light.woff2 10 525760 0 3
+/100daysatparvam/success.html 9 6572 0 3
+/groceryappdev.php 9 115245 2 7
+/secondblogpage.php 8 81400 0 1
+/webdevelopment.php 8 64928 3 2
+/cpl.html 7 87721 2 4
+/frontenddev.php 2 24414 1 1
+/a.php 1 12305 0 0
+/blackboxtesting.php 2 16286 0 0
+/fonts/Raleway-Medium.html 4 211900 0 0
+/custommobile.php 5 51505 3 2
+/autonomousdriving.php 4 36908 1 1
+/ecommerce.php 1 12995 0 0
+/automatedtesting.php 3 25536 2 0
+// 1 103541 1 1
+/mobileweb.php 6 53568 1 1
+/feedback/admin/ 6 38654 4 5
+/feedback/thanku.html 2 5628 0 1
+/magento.php 6 64800 2 1
+/vehicleticketing.html 6 82252 2 4
+/testing.php 2 17364 0 0
+/androidapp.php 7 65765 1 2
+/mobiledev.php 2 18890 0 0
+/reachus/ 1 107 0 0
+/academicproject/ 1 3904 1 1
+/iotproducts.php 3 23634 0 2
+/techtrends.php 7 66255 2 3
+/framework.php 2 27514 1 1
+/idcard/ 1 913 0 0
+/portfolio-single.html 5 70370 2 1
+/grocery.html 7 88830 2 4
+/crossplatform.php 1 8716 0 0
+/dinoz.html 5 40500 3 3
+/joinus/success.html 2 2642 2 2
+/application.php 7 70546 3 1
+/aspphp.php 1 11811 0 0
+/raspberry.php 1 11636 0 0
+/bouncer.html 4 32644 2 2
+END_SIDER

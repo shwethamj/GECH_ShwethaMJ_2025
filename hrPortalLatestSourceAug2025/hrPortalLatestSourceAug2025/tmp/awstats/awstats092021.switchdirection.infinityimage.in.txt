@@ -1,0 +1,385 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202109 will be lost/reset.
+# Last config file used to build this data file was /home4/parvamco/tmp/awstats/awstats.switchdirection.infinityimage.in.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2030                
+POS_TIME 2710                
+POS_VISITOR 7614                
+POS_DAY 9971                
+POS_DOMAIN 3400                
+POS_LOGIN 3663                
+POS_ROBOT 3818                
+POS_WORMS 3984                
+POS_EMAILSENDER 4115                
+POS_EMAILRECEIVER 4258                
+POS_SESSION 10539               
+POS_SIDER 10745               
+POS_FILETYPES 4393                
+POS_DOWNLOADS 4542                
+POS_OS 4590                
+POS_BROWSER 4763                
+POS_SCREENSIZE 5250                
+POS_UNKNOWNREFERER 5324                
+POS_UNKNOWNREFERERBROWSER 5883                
+POS_ORIGIN 6334                
+POS_SEREFERRALS 6476                
+POS_PAGEREFS 6639                
+POS_SEARCHWORDS 6815                
+POS_KEYWORDS 6967                
+POS_MISC 2373                
+POS_ERRORS 7026                
+POS_CLUSTER 3519                
+POS_SIDER_404 7134                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20211001031826 37 10736 16393602117227
+FirstTime 20210909011821
+LastTime 20210930221702
+LastUpdate 20211001061646 37 0 36 0 0
+TotalVisits 91                  
+TotalUnique 57                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 57                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+RealPlayerSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 39 0
+FlashSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 3648 3737 20802009 3 9 5688
+1 109 224 22338099 40 48 33291
+2 2 13 2957315 1 3 1896
+3 0 0 0 1 1 2617
+4 1576 1600 8838111 1 3 1896
+5 106 135 9682627 8 14 8305
+6 280 289 2847184 2 2 83
+7 1 1 11186 0 0 0
+8 2 2 22372 0 0 0
+9 0 0 0 0 0 0
+10 31 52 6503961 0 1 948
+11 0 0 0 1 1 2617
+12 1 1 11186 1 1 83
+13 1 1 2619 1 1 83
+14 1 1 11186 1 2 2617
+15 1 1 2617 0 1 0
+16 0 0 0 2 2 166
+17 4 7 889134 3 4 2617
+18 5 29 2453387 5 6 948
+19 20 98 7782232 21 29 6636
+20 880 955 9513336 8 10 4513
+21 578 586 903449 3 3 2617
+22 524 541 1797705 7 8 2700
+23 1002 1065 17570297 3 7 2844
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 3
+in 8749 9311 113951541
+us 19 23 943727
+gr 4 4 44744
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 1
+bingbot/ 9 23553 20210927013124 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 4
+Unknown 8618 2570581 0 0
+js 452 111281077 0 0
+css 114 802935 0 0
+html 154 285419 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 7
+linuxandroid 38 15
+linux 1 1
+win7 2870 2661
+macosx 2816 2784
+Unknown 22 22
+ios_iphone 38 19
+win10 3553 3270
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 19
+chrome93.0.4577.63 3387 3247
+chrome49.0.2623.75 1 1
+chrome76.0.3809.71 5 1
+safari 33 18
+safari14.1.1 5 1
+chrome87.0.4280.141 5 1
+chrome94.0.4606.54 12 2
+Unknown 14 14
+chrome93.0.4577.58 449 403
+mozilla 8 8
+chrome84.0.4147.105 1 1
+chrome94.0.4606.61 35 6
+opera78.0.4093.184 2637 2592
+opera79.0.4143.50 56 10
+opera78.0.4093.231 44 7
+chrome92.0.4515.159 2428 2413
+chrome93.0.4577.62 29 13
+chrome90.0.4430.212 5 1
+chrome93.0.4577.82 184 33
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20210909012344
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20210926200551
+Expanse_indexes_the_network_perimeters_of_our_customers._If_you_have_any_questions_or_concerns,_please_reach_out_to:_scaninfo@expanseinc.com 20210928084657
+Cpanel-HTTP-Client/1.0 20210930171225
+WhatsApp/2.21.17.24_A 20210910011117
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+Expanse_indexes_the_network_perimeters_of_our_customers._If_you_have_any_questions_or_concerns,_please_reach_out_to:_scaninfo@expanseinc.com 20210928084657
+WhatsApp/2.21.17.24_A 20210910011117
+Cpanel-HTTP-Client/1.0 20210930171225
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20210926200551
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 149 149
+From1 0 0
+From2 1 1
+From3 32 32
+From4 8590 9156
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://localhost:4200 32 32
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+404 66 0
+500 34 28778
+409 6 498
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 10
+/robots.txt 3 -
+/dashboard 7 -
+/login 31 -
+/loading 2 -
+/customers/view/111 1 -
+/orders 7 -
+/calltracking 7 -
+/calltracking/create 1 -
+/customers 6 -
+/orders/view/69 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 57
+49.206.13.60 5381 5410 10119470 20210910005825
+122.167.66.233 1939 1967 11535362 20210911132522
+106.197.233.129 861 872 3665399 20210909053719
+49.206.11.93 365 408 13956594 20210911040856
+49.206.13.94 47 51 944148 20210909012650
+1.39.130.205 41 49 2714565 20210909060814
+171.61.96.19 21 26 2062646 20210910001233
+171.61.104.43 8 52 7854065 20210920014206
+122.182.207.229 7 44 2468375 20210927011044
+106.200.193.75 6 35 1558110 20210924010531
+106.200.243.165 6 33 2470992 20210922014003
+122.167.65.220 6 36 7823505 20210915015820
+223.226.37.191 6 33 1803058 20210920234906
+171.61.104.23 5 26 0 20210922205141
+117.96.235.147 5 21 2680996 20210930195619
+122.182.210.14 5 32 10644248 20210916004936
+122.167.108.208 4 27 2468375 20210929012753
+122.182.197.190 4 20 877820 20210916234427
+162.214.80.40 4 4 256 20210930171225
+171.76.104.137 4 26 2468375 20210930014131
+106.200.204.17 3 16 4095685 20210914015538
+122.167.86.150 3 14 0 20210928013207
+223.186.58.209 2 5 880447 20210911015406
+223.237.201.254 2 5 2619 20210914015206
+64.78.149.164 2 2 174 20210909012344
+49.206.9.212 1 6 0 20210917003841
+223.237.205.200 1 5 892795 20210909024601
+49.206.10.176 1 6 0 20210928202648
+34.86.35.18 1 1 11186 20210923172227
+3.19.56.43 1 1 87 20210909012344
+3.142.122.14 1 1 87 20210909012344
+171.61.111.46 1 6 2040064 20210913002056
+3.120.130.29 1 1 87 20210909012344
+34.86.35.19 1 1 11186 20210923140657
+106.197.210.40 1 5 892793 20210917021018
+49.206.13.218 1 6 2040079 20210916013153
+223.231.148.97 1 4 877820 20210930221702
+49.206.9.226 1 9 2468360 20210914012855
+49.206.12.112 1 6 0 20210920005730
+49.206.10.145 1 8 2453387 20210912184517
+52.39.4.59 1 1 87 20210909012344
+42.104.120.11 1 5 892795 20210909103559
+34.86.35.10 1 1 11186 20210928084657
+74.125.212.34 1 1 2619 20210914055905
+205.169.39.15 1 5 892795 20210909012555
+92.118.160.1 1 1 11186 20210926200551
+92.118.160.17 1 1 11186 20210919201518
+92.118.160.37 2 2 22372 20210924121107
+34.221.255.206 1 1 87 20210909012344
+49.206.13.185 2 12 2040064 20210913190758
+49.206.13.192 2 11 2912011 20210915012500
+171.76.126.254 1 1 337 20210909012118
+44.234.186.207 1 1 2617 20210927150321
+49.206.9.250 1 8 2453387 20210913004045
+18.192.36.99 1 1 87 20210909012344
+34.96.130.17 1 1 11186 20210921070237
+106.197.232.81 1 5 892795 20210909101531
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 21
+20210909 5007 5130 41686040 24
+20210910 3662 3679 5991100 5
+20210911 3 10 1773832 3
+20210912 1 8 2453387 1
+20210913 4 26 6533515 3
+20210914 10 48 8603474 7
+20210915 8 45 13659303 5
+20210916 7 43 8604169 4
+20210917 2 11 892793 2
+20210918 1 1 11186 1
+20210919 6 34 4932379 4
+20210920 10 58 4735930 5
+20210921 3 14 921451 3
+20210922 9 44 1560727 2
+20210923 6 26 1580482 5
+20210924 3 14 11186 2
+20210926 7 35 921451 2
+20210927 2 11 1560727 2
+20210928 8 40 2464004 4
+20210929 3 22 2468375 3
+20210930 10 39 3574501 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 7
+30mn-1h 9
+15mn-30mn 6
+2mn-5mn 3
+30s-2mn 1
+5mn-15mn 7
+0s-30s 58
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 25
+/api/index.php/Dashboard/getCriticalCallBack 4322 89173 2 3
+/api/index.php/Dashboard/getCriticalPayment 4014 78194 2 7
+/ 135 277016 75 68
+/api/index.php/customer 75 981594 1 1
+/api/index.php/Dashboard 56 6819 0 0
+/api/index.php/call 46 1318955 0 0
+/api/index.php/Login 25 8191 2 1
+/api/index.php/customer/getCustomerdata/ 17 6079 0 0
+/api/index.php/Call/getcompanyname 15 723 0 0
+/api/index.php/customer/getCompanyName 14 1924 0 0
+/api/index.php/Order/orderid 12 1172 0 0
+/api/index.php/Payment 12 57372 0 0
+/api/index.php/customer/getCustomerNameList 5 24010 0 0
+/.well-known/acme-challenge/P027RBKTVo2mvoEwAjCyT2ZTrTOtOgCJ8WEagyYMp1s 4 348 3 4
+/api/index.php/employee/getOneEmployee/1 4 748 0 0
+/.well-known/acme-challenge/nXV7M6WvMK-6dwfB_HFBwtz1L7h1Hg9s7UTi_p9tHbE 4 348 4 3
+/api/index.php/Order/getordervalues 3 309 0 0
+/api/ 2 2324 0 0
+/.well-known/acme-challenge/4F1CRM-JQ3JON-1CJE5ZWPPZVQBVLYYB 1 64 0 1
+/api/index.php/employee/getOneEmployee/10 1 215 0 0
+/.well-known/acme-challenge/S43I0ZX51100SRRU93W2F8EH-OJIGAYG 1 64 0 1
+/api/index.php/Payment/view/413 1 196 0 0
+/api/index.php/Call/viewComment 1 34 0 0
+/.well-known/acme-challenge/AU5DKF1_G0019ZV_GKKD3P4ZZORXI8OF 1 64 1 0
+/.well-known/acme-challenge/LI_UU9TRL9IS0B-8LY-UDUG85_233M8E 1 64 1 0
+END_SIDER

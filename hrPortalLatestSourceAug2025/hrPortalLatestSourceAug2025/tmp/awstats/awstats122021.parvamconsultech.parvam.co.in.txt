@@ -1,0 +1,1676 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202112 will be lost/reset.
+# Last config file used to build this data file was /home4/parvamco/tmp/awstats/awstats.parvamconsultech.parvam.co.in.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2027                
+POS_TIME 2706                
+POS_VISITOR 63083               
+POS_DAY 68170               
+POS_DOMAIN 3641                
+POS_LOGIN 3943                
+POS_ROBOT 4098                
+POS_WORMS 4271                
+POS_EMAILSENDER 4402                
+POS_EMAILRECEIVER 4545                
+POS_SESSION 69064               
+POS_SIDER 69276               
+POS_FILETYPES 4680                
+POS_DOWNLOADS 5072                
+POS_OS 5120                
+POS_BROWSER 5322                
+POS_SCREENSIZE 6030                
+POS_UNKNOWNREFERER 6104                
+POS_UNKNOWNREFERERBROWSER 6484                
+POS_ORIGIN 6715                
+POS_SEREFERRALS 6858                
+POS_PAGEREFS 7023                
+POS_SEARCHWORDS 7171                
+POS_KEYWORDS 7323                
+POS_MISC 2370                
+POS_ERRORS 7382                
+POS_CLUSTER 3799                
+POS_SIDER_404 7558                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20220101001417 66 14097 13126109286369
+FirstTime 20211201032531
+LastTime 20211230232608
+LastUpdate 20220101052833 66 0 65 0 0
+TotalVisits 209                 
+TotalUnique 113                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 127                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+WindowsMediaPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+JavaEnabled 0 0 0
+QuickTimeSupport 0 0 0
+TotalMisc 0 0 0
+PDFSupport 0 0 0
+RealPlayerSupport 0 0 0
+AddToFavourites 0 1 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 137 1435 847366931 313 1078 14880277
+1 244 3471 1153684934 551 1179 13834437
+2 303 4900 1647812284 695 1700 41253662
+3 382 3910 1663023609 1122 3145 26285424
+4 402 4826 1474737788 803 1717 55662110
+5 240 3742 1048138247 528 1515 35897596
+6 71 694 156818901 576 655 26097808
+7 10 78 1596485 614 636 1522
+8 9 66 6851193 908 911 3824
+9 15 126 73914831 529 550 6176796
+10 124 1230 417257726 411 548 28215480
+11 15 122 60474008 375 417 33374
+12 29 67 35234335 895 914 7324
+13 22 51 877098 166 173 106395
+14 19 95 1171197 208 218 4062
+15 0 1 0 292 307 16521
+16 0 3 0 228 230 11323
+17 55 59 4532 176 180 7956
+18 0 4 0 461 466 3602
+19 2 12 1444389 87 127 4205
+20 14 104 5227729 250 259 11692
+21 62 1455 401019449 236 673 35156808
+22 505 7339 2593444931 681 1712 237507553
+23 218 3874 1547402329 158 1401 103538579
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 4
+in 2424 30105 11462871728
+jp 220 4481 1064734323
+cn 119 2324 596157410
+us 115 754 13739465
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 1
+no_user_agent 10 492454 20211227013052 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 15
+html 1168 211036771 0 0
+woff 129 7340592 0 0
+Unknown 598 4013462 0 0
+php 209 2093908 0 0
+jpg 12283 9168886113 0 0
+webp 14 1580062 0 0
+woff2 54 3213612 0 0
+gif 2 127028 0 0
+jpeg 8266 1827778847 0 0
+ttf 176 38936104 0 0
+js 2800 92989134 0 0
+json 530 92054500 0 0
+png 9281 1625352415 0 0
+css 1969 60697336 0 0
+svg 185 1403042 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 9
+win7 202 21
+linux 1 1
+win10 14696 1008
+linuxandroid 3091 244
+win8.1 16891 1364
+macosx 2583 168
+win8 33 2
+Unknown 122 60
+ios_iphone 45 10
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 28
+chrome95.0.4638.69 546 33
+mozilla 109 44
+chrome94.0.4606.61 18 1
+Unknown 16 16
+chrome95.0.4638.54 600 35
+chrome92.0.4515.159 1364 69
+chrome96.0.4664.92 74 23
+chrome83.0.4103.116 54 3
+msie9.0 6 0
+chrome72.0.3626.121 133 6
+chrome95.0.4638.50 131 6
+chrome92.0.4515.131 139 8
+opera82.0.4227.23 110 5
+chrome90.0.4430.210 47 5
+chrome96.0.4664.55 570 51
+chrome94.0.4606.81 60 4
+chrome96.0.4664.93 8201 771
+chrome75.0.3765.0 33 2
+opera81.0.4196.60 1 1
+chrome96.0.4664.45 6887 706
+chrome96.0.4664.110 13273 803
+chrome96.0.4664.104 349 58
+msie11.0 9 9
+chrome77.0.3865.116 58 6
+safari15.1 45 10
+firefox95.0 4334 155
+chrome94.0.4606.71 487 38
+chrome84.0.4147.105 10 10
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 6
+Cpanel-HTTP-Client/1.0 20211228170655
+WhatsApp/2.21.19.21_A 20211213033443
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20211228171524
+WhatsApp/2.21.23.23_A 20211210025616
+WhatsApp/2.21.22.26_A 20211201060739
+Mozilla/4.0_(compatible;) 20211231235551
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+WhatsApp/2.21.22.26_A 20211201060739
+WhatsApp/2.21.23.23_A 20211210025616
+Cpanel-HTTP-Client/1.0 20211228170655
+WhatsApp/2.21.19.21_A 20211213033443
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 368 450
+From1 0 0
+From2 28 28
+From3 0 0
+From4 2482 37186
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 28 28
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 8
+206 339 623979326
+307 53 0
+409 135 10292
+404 19073 1698
+301 53 13080
+303 4 0
+101 3 0
+406 999 221254
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 902
+/rahma.php 37 -
+/Blog/installer-backup.php 1 -
+/qindex.php 9 -
+/wp-includes/wp-atom.php 6 www.google.com
+/autoload_classmap.php 63 -
+/moduleigtt/portfolio/.portfolio-kitchen%20U-shape.html 37 http://parvamconsultech.com/moduleigtt/portfolio/portfolio-wallpanelling.html
+/moduleigtt/portfolio/portfolio-BedroomStudyroom.html 3 http://parvamconsultech.com/moduleigtt/portfolio/index.html
+/moduleigtt/wp-content/woodgrains/CM%208528.jpg 1 http://parvamconsultech.com/moduleigtt/
+/website/wp-includes/wlwmanifest.xml 89 -
+/vendor/phpunit/phpunit/LICENSE 1 -
+/eLpLM/ 1 -
+/Gel.php 63 -
+/demo/server/php/index.php 2 -
+/moduleigtt/wp-content/pu/RAL%201016.PNG 28 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/pu/RAL%207008.PNG 28 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/colour/HGA%20247%20Dutch%20Green.png 8 http://parvamconsultech.com/moduleigtt/
+/ws.php 8 -
+/wp-content/includes/uploads/Va.php 7 -
+/moduleigtt/wp-content/pu/RAL%201001.jpeg 29 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/handletype/SGP1.jpg 7 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/pu/RAL%201005.PNG 30 http://parvamconsultech.com/moduleigtt/
+/back/wp-admin/setup-config.php 1 -
+/site/wp-admin/install.php 2 -
+/.aws/credentials 1 -
+/license.txt 1 -
+/assets/images/utility.php 1 -
+/web/wp-json/wp/v2/users 1 -
+/wi.php 60 -
+/administrator/ 1 -
+/moduleigtt/wp-content/colour/SUD%207635%20Meadow%20Reconwood.png 6 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/woodgrains/GWC%20791%20Milwakee%20Walnut.png 51 http://parvamconsultech.com/moduleigtt/
+/project_group/index_2.html 1 http://parvamconsultech.com/project_group/about.html
+/0byte.php 63 -
+/moduleigtt/wp-content/colour/PRG%207624%20Vivid%20Wood.png 6 http://parvamconsultech.com/moduleigtt/
+/turr.php 2 -
+/moduleigtt/wp-content/photos/gallery/newgallery/cots/framed%20cot2.jpeg 2 http://parvamconsultech.com/moduleigtt/portfolio/portfolio-framedcot.html
+/ 626 -
+/wp/dup-installer/main.installer.php 1 -
+/wp-content/wp-admin.php 63 -
+/moduleigtt/wp-content/woodgrains/NW%208162.jpg 1 http://parvamconsultech.com/moduleigtt/
+/techcomf/home3.png 2 http://parvamconsultech.com/techcomf/network.html
+/moduleigtt/wp-content/photos/modfolio/crockery%20cum%20bar%20unit.jpeg 45 http://parvamconsultech.com/moduleigtt/portfolio/index.html
+/moduleigtt/wp-content/photos/gallery/newgallery/island/island8.jpg 26 http://parvamconsultech.com/moduleigtt/portfolio/portfolio-kitchen%20Island.html
+/moduleigtt/wp-content/colour/SUD%207567%20Walnut%20Crown.png 6 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/woodgrains/PRG%207593%20Calm%20Wood.png 51 http://parvamconsultech.com/moduleigtt/
+/wso1337.php 37 -
+/demo/dup-installer/main.installer.php 1 -
+/moduleigtt/wp-content/photos/modfolio/crockeryunit.jpeg 46 http://parvamconsultech.com/moduleigtt/portfolio/index.html
+/moduleigtt/wp-content/woodgrains/GWD%20788%20Real%20Ebony.png 1 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/colour/SUD%207771%20Hazelnut%20Warm.png 6 http://parvamconsultech.com/moduleigtt/
+/xox.php 68 -
+/wp-uploads.php 63 -
+/moduleigtt/wp-content/colour/15164%20Scandle%20Allover.JPG 113 http://parvamconsultech.com/moduleigtt/index.html
+/fastrans/index-1.html 2 http://parvamconsultech.com/fastrans/about.html
+/2015/wp-includes/wlwmanifest.xml 22 -
+/moduleigtt/wp-content/pu/RAL%207009.png 10 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/colour/15075%20Spanish%20Oak.JPG 113 http://parvamconsultech.com/moduleigtt/index.html
+/.fk.php 62 -
+/admin/editor/ 1 -
+/anone.php 49 -
+/moduleigtt/wp-content/colour/HGA%205575%20Statuario.png 5 http://parvamconsultech.com/moduleigtt/
+/uploads/up.php 2 -
+/moduleigtt/wp-content/woodgrains/RW%206104.jpg 1 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/moduleigttexclusive/shoe16.jpeg 11 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/photos/portfolio-headers/swardrobe.png 2 http://parvamconsultech.com/moduleigtt/portfolio/portfolio-Wardrobesliding.html
+/moduleigtt/wp-content/colour/GFO%205579%20Sandstone%20Beige.png 5 http://parvamconsultech.com/moduleigtt/
+/project_group/news.html 1 http://parvamconsultech.com/project_group/
+/moduleigtt/wp-content/pu/RAL%203000.png 12 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/photos/gallery/newgallery/bookshelf/bookshelf7.jpeg 1 http://parvamconsultech.com/moduleigtt/portfolio/portfolio-bedroomexclusive.html
+/wp-admin/includes/maint/wp-readindex.php 7 -
+/2020/wp-json/wp/v2/users 1 -
+/rss.php 7 -
+/moduleigtt/wp-content/woodgrains/SPSF%208763.jpg 1 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/woodgrains/NT%20117.jpg 1 http://parvamconsultech.com/moduleigtt/
+/wp-info.php 5 -
+/public/assets/plugins/jquery-file-upload/server/php/index.php 1 -
+/dVcWR/ioiOd/ 2 -
+/xx.php 49 -
+/moduleigtt/wp-content/pu/RAL%206039.jpg 24 http://parvamconsultech.com/moduleigtt/
+/t.php 50 -
+/bc.php 2 -
+/moduleigtt/wp-content/woodgrains/SUD%207526%20Rustic%20Spell.png 50 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/colour/SUD%207519%20Creme%20Jazz.png 6 http://parvamconsultech.com/moduleigtt/
+/xpire.php 2 -
+/xleet.php 1 -
+/vendor/phpunit/phpunit/build.xml 9 -
+/admin/ 23 -
+/images/ALEX_US.php 15 -
+/moduleigtt/wp-content/woodgrains/SUD%207628%20Fumed%20Oak.png 47 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/portfolio/portfolio-console.html 2 http://parvamconsultech.com/moduleigtt/portfolio/portfolio-wallpanelling.html
+/moduleigtt/wp-content/colour/PAT%205584%20Athena.png 5 http://parvamconsultech.com/moduleigtt/
+/fastrans 1 -
+/moduleigtt/wp-content/woodgrains/SPSF%208677.jpg 1 http://parvamconsultech.com/moduleigtt/
+/mini.php 76 -
+/ups.php 55 -
+/nee.php 42 -
+/Backup/installer.php 1 -
+/moduleigtt/wp-content/woodgrains/SPSF%208678.jpg 1 http://parvamconsultech.com/moduleigtt/
+/sendmail.php 37 -
+/moduleigtt/wp-content/colour/KM%204506%20Van%20Nefis%20Walnut.JPG 13 http://www.parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/pu/RAL%207009.PNG 28 http://parvamconsultech.com/moduleigtt/
+/wp-json/wp/v2/users 1 -
+/1g96rzfj.php 1 http://parvamconsultech.com/1g96rzfj.php
+/moduleigtt/wp-content/colour/SUD%207523%20Serene%20Maple.png 6 http://parvamconsultech.com/moduleigtt/
+/stupid.php 2 -
+/backup/wp-json/wp/v2/users 1 -
+/moduleigtt/admindashboard 1 -
+/moduleigtt/wp-content/colour/SUD%207501%20Desert%20Beech.png 6 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/pu/RAL%202005.PNG 28 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/pu/RAL%203001.jpeg 25 http://parvamconsultech.com/moduleigtt/
+/dljRV/PenQf/ 1 -
+/moduleigtt/wp-content/photos/gallery/newgallery/bookshelf/bookshelf7.jpg 13 http://parvamconsultech.com/moduleigtt/portfolio/portfolio-BookShelves.html
+/site/ 11 -
+/YnXZn/KZTML/ 2 -
+/uploader28.php 2 -
+/moduleigtt/wp-content/colour/PRG%207914%20Urban%20Pear.png 6 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/colour/HGA%20108%20Absolute%20White.png 8 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/mlogo.png 7 http://parvamconsultech.com/moduleigtt/experiencecentermangaluru.html
+/moduleigtt/wp-content/woodgrains/FE%208645.jpg 1 http://parvamconsultech.com/moduleigtt/
+/symlink.php 65 -
+/moduleigtt/wp-content/colour/GWC%20791%20Milwakee%20Walnut.png 14 http://parvamconsultech.com/moduleigtt/
+/dvcard/images/ 1 http://parvamconsultech.com/dvcard/Basavarajuvcard.php
+/Blog/installer.php 1 -
+/moduleigtt/wp-content/pu/RAL%201015.png 13 http://parvamconsultech.com/moduleigtt/
+/doc.php 77 -
+/blog/wp-admin/setup-config.php 1 -
+/FoxWSO.php 63 -
+/info.php 3 -
+/zb7y151f.php 1 http://parvamconsultech.com/zb7y151f.php
+/moduleigtt/wp-content/photos/gallery/newgallery/Sliding%20Wardrobe/slide1.jpeg 2 http://parvamconsultech.com/moduleigtt/portfolio/portfolio-Wardrobesliding.html
+/dvcard/templates/common/js/star-rating.js 66 http://parvamconsultech.com/dvcard/sreekumarvcard.php
+/admin/includes/general.js 9 -
+/shop/wp-includes/wlwmanifest.xml 85 -
+/whmc.php 2 -
+/404.php 70 -
+/moduleigtt/wp-content/pu/RAL%207001.png 11 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/pu/RAL%203004.jpeg 25 http://parvamconsultech.com/moduleigtt/
+/leafmailer.php 23 -
+/blog/xmlrpc.php 3 -
+/moduleigtt/wp-content/photos/gallery/barunit/barunit5.png 9 http://parvamconsultech.com/moduleigtt/portfolio/portfolio-barunit.html
+/kk.php 7 -
+/about1.php 2 -
+/moduleigtt/wp-content/photos/gallery/newgallery/lshape/lshape14.jpeg 31 http://parvamconsultech.com/moduleigtt/portfolio/portfolio-kitchen%20L-shape%20.html
+/Backup/wp-admin/setup-config.php 1 -
+/smtp.php 7 -
+/moduleigtt/wp-content/colour/WVB%205519%20Grigio%20Horizonte.png 6 http://parvamconsultech.com/moduleigtt/
+/assets/images/s_ne.php 1 -
+/m.php 57 -
+/test_moduleigtt/uploads/ 1 http://parvamconsultech.com/test_moduleigtt/admin/viewdetails.php
+/wp-content/plugins/custom-registration-form-builder-with-submission-manager/public/css/theme_rm_blue.css 1 parvamconsultech.com
+/Back/wp-admin/setup-config.php 1 -
+/2018/wp-includes/wlwmanifest.xml 40 -
+/weblog/ 1 -
+/moduleigtt/wp-content/colour/WVB%205518%20Bianco%20Harizonte.png 6 http://parvamconsultech.com/moduleigtt/
+/up.php 7 -
+/moduleigtt/wp-content/woodgrains/FE%208639.jpg 1 http://parvamconsultech.com/moduleigtt/
+/wp/installer-backup.php 1 -
+/moduleigtt/wp-content/pu/RAL%206009.jpg 25 http://parvamconsultech.com/moduleigtt/
+/public/plugins/jquery-file-upload/server/php/index.php 1 -
+/moduleigtt/wp-content/colour/SUD%207612%20Refined%20Walnut.png 6 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/colour/SUD%207595%20Smoked%20Oak.png 6 http://parvamconsultech.com/moduleigtt/
+/up.phtml 2 -
+/moduleigtt/wp-content/pu/RAL%201013.PNG 28 http://parvamconsultech.com/moduleigtt/
+/TldOl/MOOYT/ 1 -
+/wp-includes/ID3/license.txt 3 -
+/moduleigtt/wp-content/colour/SUD%207610%20Mellow%20Oak.png 6 http://parvamconsultech.com/moduleigtt/
+/wp-one.php 37 -
+/moduleigtt/wp-content/woodgrains/SUD%207556%20Sheer%20Oak.png 50 http://parvamconsultech.com/moduleigtt/
+/web/wp-admin/install.php 1 -
+/moduleigtt/wp-content/colour/SUD%207556%20Sheer%20Oak.png 6 http://parvamconsultech.com/moduleigtt/
+/s_e.php 1 -
+/moduleigtt/wp-content/colour/SUD%207558%20Rising%20Oak.png 6 http://parvamconsultech.com/moduleigtt/
+/3.php 79 -
+/moduleigtt/wp-content/colour/SUD%207531%20Walnut%20Motle.png 6 http://parvamconsultech.com/moduleigtt/
+/wp-admin/includes/block-line.php 7 -
+/f.php 73 -
+/home/index.html 3 http://parvamconsultech.com/moduleigtt/index.html
+/moduleigtt/wp-content/colour/SUD%207602%20Oak%20Fudge.png 6 http://parvamconsultech.com/moduleigtt/
+/us2b7t1r.php 1 http://parvamconsultech.com/us2b7t1r.php
+/web/wp-includes/wlwmanifest.xml 91 -
+/wp-admin/css/ 7 binance.com
+/moduleigtt/wp-content/photos/gallery/newgallery/qube/qube4.jpeg 2 http://parvamconsultech.com/moduleigtt/portfolio/portfolio-Wardrobewalkin.html
+/done.php 2 -
+/moduleigtt/wp-content/pu/RAL%206019.jpg 24 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/colour/SUD%207504%20Pious%20Beech.png 6 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/pu/RAL%207001.PNG 29 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/colour/SUD%207628%20Fumed%20Oak.png 6 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/colour/SP%204958%20Silver%20Paradox.PNG 1 http://parvamconsultech.com/moduleigtt/
+/images/wso.php 15 -
+/moduleigtt/wp-content/pu/RAL%206006.PNG 29 http://parvamconsultech.com/moduleigtt/
+/41.php 63 -
+/moduleigtt/wp-content/photos/modfolio/wall-panelling5.jpeg 30 http://parvamconsultech.com/moduleigtt/portfolio/index.html
+/Sendemail.php 8 -
+/2.php 15 -
+/moduleigtt/wp-content/pu/RAL%207004.PNG 28 http://parvamconsultech.com/moduleigtt/
+/g.php 52 -
+/moduleigtt/wp-content/moduleigttexclusive/crockeryunit9.jpeg 46 http://parvamconsultech.com/moduleigtt/portfolio/index.html
+/old/wp-json/wp/v2/users 1 -
+/demo/xmlrpc.php 3 -
+/FoxWSOv1.php 8 -
+/moduleigtt/wp-content/pu/RAL%206013.jpg 24 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/woodgrains/SUD%207581%20Lush%20Timber.png 49 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/woodgrains/SUD%207598%20Sandy%20Larch.png 48 http://parvamconsultech.com/moduleigtt/
+/blog/installer-backup.php 1 -
+/wp-content/wp-logins.php 63 -
+/SQL.php 2 -
+/wp-content/plugins/sid/up.php 1 parvamconsultech.com
+/v.php 50 -
+/moduleigtt/wp-content/photos/mlogo.png 7 http://parvamconsultech.com/moduleigtt/experiencecentermangaluru.html
+/moduleigtt/wp-content/photos/gallery/newgallery/Wall%20Panell/wall4.jpeg 12 http://parvamconsultech.com/moduleigtt/portfolio/portfolio-wallpanelling.html
+/moduleigtt/wp-content/colour/SUD%207597%20Arosa%20Peer.png 6 http://parvamconsultech.com/moduleigtt/
+/maintenances 1 -
+/Back/installer.php 1 -
+/moduleigtt/wp-content/pu/RAL%202005.png 12 http://parvamconsultech.com/moduleigtt/
+/MOOYT/ 1 -
+/shell.php 68 -
+/bb.php 14 -
+/uploads/contexmini.php 36 -
+/moduleigtt/wp-content/colour/SUD%207533%20Noble%20Brown.png 6 http://parvamconsultech.com/moduleigtt/
+/wso.php 85 -
+/kopo.php 2 -
+/moduleigtt/wp-content/woodgrains/SUD%207597%20Arosa%20Peer.png 49 http://parvamconsultech.com/moduleigtt/
+/public/assets/global/plugins/jquery-file-upload/server/php/index.php 1 -
+/moduleigtt/wp-content/pu/RAL%206027.png 11 http://parvamconsultech.com/moduleigtt/
+/wos.php 1 -
+/moduleigtt/wp-content/colour/HGA%20107%20Wool.png 8 http://parvamconsultech.com/moduleigtt/
+/test_moduleigtt/nav.scss 2 http://www.parvamconsultech.com/test_moduleigtt/
+/moduleigtt/wp-content/woodgrains/PRG%207656%20Fiedberg%20Eucalyptus.png 51 http://parvamconsultech.com/moduleigtt/
+/news/wp-includes/wlwmanifest.xml 89 -
+http://parvamconsultech.com/js/index.php 1 -
+/moduleigtt/wp-content/photos/gallery/newgallery/Sliding%20Wardrobe/slide4.jpeg 2 http://parvamconsultech.com/moduleigtt/portfolio/portfolio-Wardrobesliding.html
+/q.php 10 -
+/send.php 72 -
+/wp-configer.php 92 -
+/resume/ 3 -
+/moduleigtt/wp-content/woodgrains/SPSF%208536.jpg 1 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/woodgrains/PRG%207603%20Peppercorn.png 51 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/colour/Tinted%20Glass%20Grey.jpeg 4 http://parvamconsultech.com/moduleigtt/
+/wp-content/uploads/small.php 7 -
+/moduleigtt/wp-content/woodgrains/SUD%207593%20Calm%20Wood.png 10 http://parvamconsultech.com/moduleigtt/
+/photography 1 -
+/back/installer.php 1 -
+/WSO.php 7 -
+/moduleigtt/wp-content/pu/RAL%202001.png 13 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/colour/SUD%207774%20Hazelnut%20Chocolate.png 6 http://parvamconsultech.com/moduleigtt/
+/wso2018.php 2 -
+/dvcard/templates/common/js/script.js 78 http://parvamconsultech.com/dvcard/kanikavcard.php
+/moduleigtt/wp-content/colour/KT%203874%20Kiip%20Tabulo.JPG 2 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/colour/GSC%20273%20Sky%20Grey.png 12 http://parvamconsultech.com/moduleigtt/
+/test_moduleigtt/wp-content/photos/trending/paralelll.jpg 3 http://www.parvamconsultech.com/test_moduleigtt/
+/moduleigtt/wp-content/woodgrains/SUD%207587%20Hazel%20Wood.png 49 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/colour/WVB%205517%20Lyon%20Walnut.png 6 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/pu/RAL%201019.jpeg 26 http://parvamconsultech.com/moduleigtt/
+/2019/wp-includes/wlwmanifest.xml 63 -
+/moduleigtt/wp-content/photos/gallery/collapse/shoerack2.jpeg 49 http://parvamconsultech.com/moduleigtt/portfolio/index.html
+/moduleigtt/wp-content/photos/modfolio/dresserunit.jpeg 31 http://parvamconsultech.com/moduleigtt/portfolio/index.html
+///installer-backup.php 1 -
+/2021/wp-includes/wlwmanifest.xml 2 -
+/moduleigtt/wp-content/pu/RAL%202011.jpeg 25 http://parvamconsultech.com/moduleigtt/
+/misc/ajax.js 9 -
+/index2.html 3 -
+/moduleigtt/wp-content/colour/SUD%207540%20Swish%20Stripes.png 6 http://parvamconsultech.com/moduleigtt/
+/WP/installer.php 1 -
+/MeNVp/WSXRS/ 2 -
+/demo/installer.php 1 -
+/moduleigtt/wp-content/pu/RAL%202007.jpg 25 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/colour/WVB%209609%20Teak%20Ebony.png 13 http://parvamconsultech.com/moduleigtt/
+/wordpress/installer-backup.php 1 -
+/moduleigtt/wp-content/woodgrains/SUD%207590%20Fine%20Ash.png 48 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/woodgrains/SUD%207517%20Cherry%20Extravaganza.png 51 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/colour/GWD%20766%20Rich%20Walnut.png 14 http://parvamconsultech.com/moduleigtt/
+/c.php 73 -
+/moduleigtt/wp-content/woodgrains/SR%208669.jpg 1 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/colour/HGA%20213%20Orange.png 8 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/colour/SIR%205605%20Euclid%20Grey.png 5 http://parvamconsultech.com/moduleigtt/
+/muri.php 2 -
+/wordpress/ 13 -
+/blog/dup-installer/main.installer.php 1 -
+/shop/installer.php 1 -
+/moduleigtt/wp-content/woodgrains/SUD%207611%20Russet%20Teak.png 48 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/pu/RAL%203003.PNG 28 http://parvamconsultech.com/moduleigtt/
+/back/installer-backup.php 1 -
+/moduleigtt/wp-content/woodgrains/SUD%207771%20Hazelnut%20Warm.png 47 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/pu/RAL%207005.jpg 24 http://parvamconsultech.com/moduleigtt/
+/back/dup-installer/main.installer.php 1 -
+/shop/installer-backup.php 1 -
+/123.php 1 -
+/moduleigtt/wp-content/pu/RAL%202003.jpg 25 http://parvamconsultech.com/moduleigtt/
+/stindex.php 72 -
+/moduleigtt/wp-content/photos/gallery/newgallery/Sliding%20Wardrobe/slide8.jpeg 1 http://parvamconsultech.com/moduleigtt/portfolio/portfolio-Wardrobesliding.html
+/cms/wp-admin/install.php 1 -
+/e.php 50 -
+/images/a.php 15 -
+/wp/ 13 -
+/moduleigtt/wp-content/colour/PRG%207580%20Crimson%20Grove.png 6 http://parvamconsultech.com/moduleigtt/
+/images/vuln.php 49 -
+/402.php 15 -
+/moduleigtt/wp-content/woodgrains/GWD%205050%20Umber%20Oak.png 51 http://parvamconsultech.com/moduleigtt/
+/cpanel.php 17 -
+/kill.php 2 -
+/a.php 83 -
+/moduleigtt/wp-content/pu/RAL%206015.jpg 24 http://parvamconsultech.com/moduleigtt/
+/mi.php 7 -
+/wp-admin.php 63 -
+/wordpress/dup-installer/main.installer.php 1 -
+/moduleigtt/wp-content/woodgrains/SG%201100.jpg 1 http://parvamconsultech.com/moduleigtt/
+/wp-includes/wlwmanifest.xml 99 -
+/new/ 13 -
+/phpinfo.php 1 -
+/blog/wp-admin/install.php 2 -
+/Fshell.phtml 2 -
+//index.php 1 -
+/site/wp-includes/wlwmanifest.xml 100 -
+/old/xmlrpc.php 3 -
+/moduleigtt/wp-content/photos/gallery/newgallery/bookshelf/bookshelf2.jpeg 1 http://parvamconsultech.com/moduleigtt/portfolio/portfolio-BookShelves.html
+/green.php 1 -
+/moduleigtt/wp-content/pu/RAL%206020.jpg 24 http://parvamconsultech.com/moduleigtt/
+/wp-admin/js/widgets/index.php 1 parvamconsultech.com
+/2020/wp-includes/wlwmanifest.xml 45 -
+/xmlrpc.php 6 -
+/moduleigtt/wp-content/colour/SUD%207772%20Hazelnut%20Brown.png 6 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/woodgrains/GWR%20782%20Makassar%20Wood.png 1 http://parvamconsultech.com/moduleigtt/
+/blog/installer.php 1 -
+//mt/mt-xmlrpc.cgi 28 -
+/moduleigtt/wp-content/woodgrains/PRG%207623%20Silky%20Oak.png 51 http://parvamconsultech.com/moduleigtt/
+/ALEX_US.php 15 -
+/backup/dup-installer/main.installer.php 1 -
+/moduleigtt/wp-content/pu/RAL%206025.jpg 25 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/colour/NP%202387%20Nature%20Oak.jpg 1 http://parvamconsultech.com/moduleigtt/
+/r.php 65 -
+/moduleigtt/wp-content/colour/SUD%207515%20Scarlet%20Grey.png 6 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/woodgrains/SUD%207567%20Walnut%20Crown.png 50 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/colour/SUD%207502%20Slender%20Beech.png 6 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/photos/gallery/newgallery/Openable%20Wardrobe/open8.jpeg 1 http://parvamconsultech.com/moduleigtt/portfolio/portfolio-Wardrobeopenable.html
+/moduleigtt/wp-content/colour/KM%20394%20White%20Oak.JPG 2 http://parvamconsultech.com/moduleigtt/
+/old/installer.php 1 -
+/assets/jquery-file-upload/server/php/index.php 1 -
+/moduleigtt/wp-content/colour/HGP%205573%20Tanned%20Marquina.png 5 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/colour/PRG%207605%20Mystic%20Bars.png 6 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/pu/RAL%201011.jpeg 26 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/pu/RAL%201002.jpeg 29 http://parvamconsultech.com/moduleigtt/
+/alwso.php 7 -
+/moduleigtt/wp-content/photos/gallery/newgallery/island/island7.jpg 27 http://parvamconsultech.com/moduleigtt/portfolio/portfolio-kitchen%20Island.html
+/moduleigtt/wp-content/photos/gallery/newgallery/bookshelf/bookshelf4.jpeg 1 http://parvamconsultech.com/moduleigtt/portfolio/portfolio-BookShelves.html
+/moduleigtt/wp-content/colour/PRG%207576%20Rustic%20Spell.png 6 http://parvamconsultech.com/moduleigtt/
+/blog.php 36 -
+/about.php 3 -
+/KZTML/ 4 -
+/moduleigtt/wp-content/woodgrains/RL%208537.jpg 1 http://parvamconsultech.com/moduleigtt/
+/payload3.php 5 -
+/moduleigtt/admin/appliances.json 1 http://parvamconsultech.com/moduleigtt/admin/edit.php
+/marijuana.php 5 -
+/wordpress/installer.php 1 -
+/backup/installer.php 1 -
+/back/ 1 -
+/moduleigtt/wp-content/colour/PRG%207604%20Silverline.png 6 http://parvamconsultech.com/moduleigtt/
+/test/wp-admin/install.php 1 -
+/moduleigtt/wp-content/pu/RAL%201007.png 13 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/pu/RAL%201015.PNG 28 http://parvamconsultech.com/moduleigtt/
+/dvcard/css/vjimages/realestate2-min.jpg 42 http://parvamconsultech.com/dvcard/css/vJCSS.css
+/olx.php 2 -
+/wp-content/plugins/capability-manager-enhanced/includes/roles/js/pp-roles-admin.js 1 parvamconsultech.com
+/moduleigtt/wp-content/colour/SUD%207537%20Authentic%20Zebrano.png 6 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/pu/RAL%206018.jpg 24 http://parvamconsultech.com/moduleigtt/
+/SiLOh/ 1 -
+/moduleigtt/wp-content/pu/RAL%201003.jpg 29 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/woodgrains/SUD%207635%20Meadow%20Reconwood.png 47 http://parvamconsultech.com/moduleigtt/
+/cms.php 63 -
+/moduleigtt/wp-content/colour/PRG%207654%20Dijon%20Wood.png 6 http://parvamconsultech.com/moduleigtt/
+/wso1.php 14 -
+/moduleigtt/wp-content/photos/gallery/newgallery/cots/framed%20cot1.jpeg 2 http://parvamconsultech.com/moduleigtt/portfolio/portfolio-framedcot.html
+/admin/view/javascript/common.js 9 -
+/moduleigtt/wp-content/pu/RAL%206012.PNG 28 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/photos/gallery/newgallery/Sliding%20Wardrobe/slide5.jpeg 2 http://parvamconsultech.com/moduleigtt/portfolio/portfolio-Wardrobesliding.html
+/moduleigtt/ 4 -
+/moduleigtt/wp-content/colour/GP%204957%20Grey%20Paradox.PNG 1 http://parvamconsultech.com/moduleigtt/
+/alexusmailer%202.0.php 7 -
+/moduleigtt/wp-content/photos/gallery/newgallery/qube/qube6.png 3 http://parvamconsultech.com/moduleigtt/portfolio/portfolio-Wardrobewalkin.html
+/WOgWk/SiLOh/ 2 -
+/backup/installer-backup.php 1 -
+/moduleigtt/wp-content/photos/gallery/newgallery/lshape/lshape9.jpeg 40 http://parvamconsultech.com/moduleigtt/portfolio/portfolio-kitchen%20L-shape%20.html
+/moduleigtt/wp-content/colour/SUD%207625%20Deodar.png 6 http://parvamconsultech.com/moduleigtt/
+/old-index.php 75 -
+/moduleigtt/wp-content/photos/gallery/newgallery/Sliding%20Wardrobe/slide6.jpeg 2 http://parvamconsultech.com/moduleigtt/portfolio/portfolio-Wardrobesliding.html
+/bypass.php 64 -
+/moduleigtt/wp-content/woodgrains/SUD%207591%20Mystic%20Ash.png 49 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/colour/PVB%205602%20Woven%20Anthracite.png 4 http://parvamconsultech.com/moduleigtt/
+/3index.php 71 -
+/moduleigtt/wp-content/woodgrains/FE%208651.jpg 1 http://parvamconsultech.com/moduleigtt/
+/fastrans/assets/fonts/fa-regular-400.ttf 1 http://parvamconsultech.com/fastrans/assets/css/fontawesome-all.css
+/moduleigtt/wp-content/woodgrains/SR%208670.jpg 1 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/woodgrains/WVB%209609%20Teak%20Ebony.png 51 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/colour/SUD%207580%20Crimson%20Grove.png 6 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/colour/SUD%207622%20Cross%20Oak.png 6 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/pu/RAL%201005.png 14 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/photos/gallery/newgallery/qube/qube1.jpeg 1 http://parvamconsultech.com/moduleigtt/portfolio/portfolio-Wardrobewalkin.html
+/moduleigtt/wp-content/woodgrains/SUD%207589%20Classic%20Sapeie.png 49 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/woodgrains/SG%208147.jpg 1 http://parvamconsultech.com/moduleigtt/
+/o.php 74 -
+/moduleigtt/wp-content/pu/RAL%201013.png 13 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/colour/SUD%207548%20Dragon%20Red.png 6 http://parvamconsultech.com/moduleigtt/
+/config/aws.yml 1 -
+/moduleigtt/wp-content/photos/gallery/newgallery/qube/qube3.jpeg 2 http://parvamconsultech.com/moduleigtt/portfolio/portfolio-Wardrobewalkin.html
+/moduleigtt/wp-content/colour/GWE%205524%20Samara%20Oak.png 6 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/photos/gallery/newgallery/bookshelf/bookshelf6.jpg 12 http://parvamconsultech.com/moduleigtt/portfolio/portfolio-BookShelves.html
+/wp/wp-admin/install.php 2 -
+/moduleigtt/wp-content/woodgrains/SUD%207580%20Crimson%20Grove.png 50 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/colour/HGA%20260%20Aqua%20Green.png 8 http://parvamconsultech.com/moduleigtt/
+/wp-admin/includes/maint/wp-cron.php 7 -
+/alfav4.1-tesla.php 21 -
+/site/xmlrpc.php 3 -
+/wpkill.php 2 -
+/moduleigtt/wp-content/woodgrains/SUD%207633%20Chinnamon%20Wood.png 47 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/woodgrains/SPSF%207827.jpg 1 http://parvamconsultech.com/moduleigtt/
+/gSgSQ/ 3 -
+/2index.php 73 -
+/Backup/installer-backup.php 1 -
+/w.php 8 -
+/moduleigtt/wp-content/pu/RAL%206006.png 11 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/colour/SUD%207511%20Straight%20Cherry.png 6 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/photos/modfolio/openableward%20drobe.jpeg 36 http://parvamconsultech.com/moduleigtt/portfolio/index.html
+/wp-admin/install.php 5 -
+/test_404_page/ 1 -
+/WP/wp-admin/setup-config.php 1 -
+/moduleigtt/wp-content/woodgrains/SUD%207524%20Maple%20Glimmer.png 50 http://parvamconsultech.com/moduleigtt/
+/sites/all/libraries/plupload/examples/upload.php 1 -
+/moduleigtt/wp-content/colour/GWC%20731%20Wenge.png 14 http://parvamconsultech.com/moduleigtt/
+/XxX.php 67 -
+/dr.php 64 -
+/wp-admin/includes/tablepress_controllers.php 7 -
+/new/dup-installer/main.installer.php 1 -
+/blog/ 14 -
+/upload/ 3 -
+/byp.phtml 2 -
+/backup/xmlrpc.php 3 -
+/alex.php 42 -
+/old/wp-admin/install.php 1 -
+/moduleigtt/wp-content/woodgrains/NW%208542.jpg 1 http://parvamconsultech.com/moduleigtt/
+/wp-content/uploads/readindex.php 7 -
+/mailer.php 81 -
+/shop/wp-admin/setup-config.php 1 -
+/moduleigtt/wp-content/colour/15141%20Classic%20Walnut.JPG 113 http://parvamconsultech.com/moduleigtt/index.html
+/moduleigtt/wp-content/colour/NP%202416%20Chikhali%20Walnut.JPG 1 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/colour/PRG%207653%20Malibu%20Wood.png 6 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/woodgrains/SR%208668.jpg 1 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/colour/WPP%205524%20Samara%20Oak.png 6 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/woodgrains/SUD%207599%20Kindle.png 48 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/pu/RAL%207006.png 10 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/pu/RAL%207004.png 11 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/colour/SUD%207623%20Silky%20Oak.png 6 http://parvamconsultech.com/moduleigtt/
+/wp-content/upload.php 1 -
+/moduleigtt/wp-content/pu/RAL%207003.PNG 29 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/photos/gallery/newgallery/Openable%20Wardrobe/open5.jpeg 1 http://parvamconsultech.com/moduleigtt/portfolio/portfolio-Wardrobeopenable.html
+/moduleigtt/wp-content/pu/RAL%207008.png 10 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/index_hosting 1 -
+/moduleigtt/wp-content/colour/SUD%207591%20Mystic%20Ash.png 6 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/pu/RAL%201018.jpeg 26 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/photos/gallery/newgallery/Sliding%20Wardrobe/slide2.jpeg 2 http://parvamconsultech.com/moduleigtt/portfolio/portfolio-Wardrobesliding.html
+/420.php 2 -
+/moduleigtt/wp-content/photos/modfolio/sliding1.jpeg 35 http://parvamconsultech.com/moduleigtt/portfolio/index.html
+/style.php 2 -
+///wp-admin/setup-config.php 1 -
+/upload.php 49 -
+/moduleigtt/wp-content/colour/PRG%207608%20Chimera%20Walnut.png 6 http://parvamconsultech.com/moduleigtt/
+/assets/images/wp_wrong_datlib.php 1 -
+/moduleigtt/wp-content/moduleigttexclusive/book.jpeg 32 http://parvamconsultech.com/moduleigtt/portfolio/index.html
+/backup/ 12 -
+/moduleigtt/wp-content/photos/gallery/barunit/barunit2.jpeg 9 http://parvamconsultech.com/moduleigtt/portfolio/portfolio-barunit.html
+/whm2.php 2 -
+/ioiOd/ 1 -
+/moduleigtt/wp-content/colour/SUD%207588%20Somber%20Lumber.png 6 http://parvamconsultech.com/moduleigtt/
+/wso2.php 7 -
+/wp1/wp-includes/wlwmanifest.xml 91 -
+/moduleigtt/wp-content/photos/gallery/newgallery/island/island3.jpg 30 http://parvamconsultech.com/moduleigtt/portfolio/portfolio-kitchen%20Island.html
+/moduleigtt/wp-content/colour/SUD%207560%20American%20Oak.png 6 http://parvamconsultech.com/moduleigtt/
+//wp-admin/setup-config.php 2 -
+/wp-22.php 5 -
+/moduleigtt/wp-content/woodgrains/FE%208640.jpg 1 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/colour/HGA%20204%20Red%20Dynasty.png 8 http://parvamconsultech.com/moduleigtt/
+/0ffxha2g.php 1 http://parvamconsultech.com/0ffxha2g.php
+/p.php 10 -
+/cgi-bin/.%2E/%2E%2E/%2E%2E/%2E%2E/%2E%2E/bin/bash 1 -
+/moduleigtt/wp-content/colour/SUD%207773%20Hazelnut%20Pecan.png 6 http://parvamconsultech.com/moduleigtt/
+/cp.php 17 -
+/new/wp-admin/setup-config.php 1 -
+/moduleigtt/wp-content/colour/SUD%207613%20Recon%20Oak.png 6 http://parvamconsultech.com/moduleigtt/
+/fastrans/assets/css/style.css 1 http://parvamconsultech.com/fastrans/contact.html
+/moduleigtt/wp-content/moduleigttexclusive/shoe10.jpeg 11 http://parvamconsultech.com/moduleigtt/
+/sajjad.php 2 -
+/wikindex.php 72 -
+/wp-confirm.php 64 -
+/old/dup-installer/main.installer.php 1 -
+/moduleigtt/wp-content/colour/SUD%207617%20Contra%20Wood.png 6 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/pu/RAL%202002.jpeg 25 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/pu/RAL%203007.jpeg 24 http://parvamconsultech.com/moduleigtt/
+/admin 3 -
+/old/installer-backup.php 1 -
+/test/wp-includes/wlwmanifest.xml 90 -
+/moduleigtt/wp-content/woodgrains/RW%204152.jpg 1 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/colour/PAT%20937%20Chicago%20Steel.png 5 http://parvamconsultech.com/moduleigtt/
+/defau1t.php 63 -
+/moduleigtt/wp-content/photos/gallery/newgallery/qube/qube.jpeg 8 http://parvamconsultech.com/moduleigtt/portfolio/portfolio-Wardrobewalkin.html
+/.well-known/acme-challenge/menu_settings.php 1 -
+/new/wp-admin/install.php 2 -
+/Lux.php 7 -
+/project_group/shop.html 3 http://parvamconsultech.com/project_group/
+/moduleigtt/wp-content/photos/gallery/barunit/barunit1.jpg 10 http://parvamconsultech.com/moduleigtt/portfolio/portfolio-barunit.html
+/aakruthi-erp/uploads/snag/601572435965.PNG 1 http://parvamconsultech.com/aakruthi-erp/webmaster/snag/edit/6
+/new/wp-json/wp/v2/users 1 -
+/olux.php 1 -
+/WP/dup-installer/main.installer.php 1 -
+/cms/wp-includes/wlwmanifest.xml 100 -
+/moduleigtt/wp-content/pu/RAL%206028.png 11 http://parvamconsultech.com/moduleigtt/
+/kTRUo/gSgSQ/ 2 -
+/wp-blog.php 64 -
+/Blog/wp-admin/setup-config.php 1 -
+/oldsite/ 1 -
+/forum/ 1 -
+/d.php 10 -
+/moduleigtt/wp-content/colour/GFO%205580%20Sandstone%20Grey.png 5 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/pu/RAL%206022.jpg 24 http://parvamconsultech.com/moduleigtt/
+/c99.php 42 -
+/nasgor.php 37 -
+/humans.txt 5 -
+/baindex.php 61 -
+/www.php 36 -
+/reseller.php 2 -
+/moduleigtt/wp-content/colour/Tinted%20Glass%20Brown.jpeg 4 http://parvamconsultech.com/moduleigtt/
+/root.php 49 -
+/vuln.php 27 -
+/wp-admin/includes/edit-tag-menu.php 7 -
+/moduleigtt/wp-content/photos/gallery/newgallery/Openable%20Wardrobe/open7.jpeg 1 http://parvamconsultech.com/moduleigtt/portfolio/portfolio-Wardrobeopenable.html
+/moduleigtt/wp-content/pu/RAL%201014.jpeg 26 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/pu/RAL%206027.PNG 28 http://parvamconsultech.com/moduleigtt/
+/wp-includes/js/jquery/jquery.js 9 -
+/ads.txt 34 -
+/wp-wso.php 27 -
+/dvcard/kushboo.php 2 -
+/moduleigtt/wp-content/photos/gallery/newgallery/Sliding%20Wardrobe/slide3.jpeg 2 http://parvamconsultech.com/moduleigtt/portfolio/portfolio-Wardrobesliding.html
+/wp-ad.php 7 -
+/moduleigtt/wp-content/woodgrains/SG%208523.jpg 1 http://parvamconsultech.com/moduleigtt/
+/alfa123.php 37 -
+/leaf.php 52 -
+/moduleigtt/wp-content/woodgrains/SUD%207807%20Classic%20Oak.png 47 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/photos/gallery/newgallery/qube/qube2.jpeg 2 http://parvamconsultech.com/moduleigtt/portfolio/portfolio-Wardrobewalkin.html
+/wp/installer.php 1 -
+/shop/dup-installer/main.installer.php 1 -
+/moduleigtt/wp-content/pu/RAL%203005.jpeg 25 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/photos/gallery/newgallery/bookshelf/bookshelf5.jpg 13 http://parvamconsultech.com/moduleigtt/portfolio/portfolio-BookShelves.html
+/wordpress/wp-admin/install.php 2 -
+/moduleigtt/wp-content/colour/PRG%207518%20Cherry%20Mystic.png 6 http://parvamconsultech.com/moduleigtt/
+/phpmyadmin/ 1 -
+/wp-file.php 7 -
+/moduleigtt/wp-content/pu/RAL%206012.png 11 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/photos/portfolio-headers/wwardrobe.png 2 http://parvamconsultech.com/moduleigtt/portfolio/portfolio-Wardrobewalkin.html
+/moduleigtt/wp-content/woodgrains/SPSF%208646.jpg 1 http://parvamconsultech.com/moduleigtt/
+/wp/wp-includes/wlwmanifest.xml 101 -
+/moduleigtt/wp-content/colour/SUD%207637%20Dusky%20reconwood.png 6 http://parvamconsultech.com/moduleigtt/
+/2020/xmlrpc.php 3 -
+/r.sh 2 -
+/b.php 8 -
+/uploader.php 3 -
+/moduleigtt/portfolio/portfolio-otherwoodworks.html 2 http://parvamconsultech.com/moduleigtt/portfolio/index.html
+/moduleigtt/wp-content/colour/SUD%207526%20Rustic%20Spell.png 6 http://parvamconsultech.com/moduleigtt/
+/wp-admin/setup-config.php 3 -
+/moduleigtt/wp-content/form.js 1129 http://parvamconsultech.com/moduleigtt/portfolio/portfolio-Wardrobeopenable.html
+/4price.php 62 -
+/demo/installer-backup.php 1 -
+/assets/global/plugins/jquery-file-upload/server/php/index.php 1 -
+/fckeditor/editor/filemanager/connectors/php/upload.php 9 -
+/moduleigtt/wp-content/woodgrains/CM%208583.jpg 1 http://parvamconsultech.com/moduleigtt/
+/it.php 36 -
+/moduleigtt/wp-content/pu/RAL%206010.jpg 25 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/photos/modfolio/barunit12.jpeg 46 http://parvamconsultech.com/moduleigtt/portfolio/index.html
+/Back/dup-installer/main.installer.php 1 -
+/wp-admin/includes/mar.php 7 -
+/sindex.php 61 -
+/assets/images/s_e.php 2 -
+/moduleigtt/wp-content/colour/PRG%207655%20Mauvella%20Eucalyptus.png 6 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/colour/PRG%207143%20Sky%20Grey.png 14 http://parvamconsultech.com/moduleigtt/
+/kash.php 4 -
+/moduleigtt/wp-content/pu/RAL%207002.PNG 28 http://parvamconsultech.com/moduleigtt/
+/ok.php 7 -
+/sito/wp-includes/wlwmanifest.xml 88 -
+/moduleigtt/wp-content/colour/PRG%207593%20Calm%20Wood.png 6 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/uploads/0 2 http://parvamconsultech.com/moduleigtt/admin/viewdetails.php
+/moduleigtt/wp-content/woodgrains/PRG%207518%20Cherry%20Mystic.png 51 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/colour/GFT%20503%20Mod%20Twine.png 4 http://parvamconsultech.com/moduleigtt/
+/sh3ll.php 42 -
+/1337.php 7 -
+/moduleigtt/wp-content/colour/KM%204506%20Van%20Fefis%20Walnut.JPG 5 http://parvamconsultech.com/moduleigtt/
+/edit-form.php 37 -
+/sym403.php 45 -
+/moduleigtt/wp-content/pu/RAL%203002.png 12 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/woodgrains/SUD%207637%20Dusky%20reconwood.png 47 http://parvamconsultech.com/moduleigtt/
+/attachment/ 1 -
+/alf.php 15 -
+/backup/wp-admin/setup-config.php 1 -
+/chitoge.php 1 -
+/moduleigtt/wp-content/colour/HGA%20132%20Cyclone.png 8 http://parvamconsultech.com/moduleigtt/
+/wp-content/uploads/2020/02/index.php 1 parvamconsultech.com
+/moduleigtt/wp-content/pu/RAL%207000.jpg 25 http://parvamconsultech.com/moduleigtt/
+/test.php 4 -
+/seft/css/img/preloader.gif 15 http://parvamconsultech.com/seft/css/style.css
+/fastrans/contact.html 1 -
+/sites/all/libraries/elfinder/elfinder.php.html 1 -
+/moduleigtt/wp-content/pu/RAL%202008.jpg 25 http://parvamconsultech.com/moduleigtt/
+/wp2.php 43 -
+/bbs/ 1 -
+/moduleigtt/wp-content/photos/gallery/newgallery/island/island7.jpeg 1 http://parvamconsultech.com/moduleigtt/portfolio/portfolio-kitchen%20Island.html
+/1index.php 74 -
+/_profiler/phpinfo 1 -
+/n.php 8 -
+/17.php 2 -
+/whmfind.php 2 -
+/moduleigtt/wp-content/colour/HGP%205585%20Victoria%20White.png 5 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/colour/SUD%207807%20Classic%20Oak.png 6 http://parvamconsultech.com/moduleigtt/
+/Backup/dup-installer/main.installer.php 1 -
+/moduleigtt/wp-content/pu/RAL%206021.png 11 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/pu/RAL%201000.jpeg 29 http://parvamconsultech.com/moduleigtt/
+/kindex.php 8 -
+/on.php 2 -
+/moduleigtt/wp-content/woodgrains/NW%208163.jpg 1 http://parvamconsultech.com/moduleigtt/
+/wp/xmlrpc.php 3 -
+/cv/ 1 -
+/moduleigtt/wp-content/photos/gallery/newgallery/island/island3.jpeg 1 http://parvamconsultech.com/moduleigtt/portfolio/portfolio-kitchen%20Island.html
+/moduleigtt/wp-content/colour/SUD%207589%20Classic%20Sapeie.png 6 http://parvamconsultech.com/moduleigtt/
+/admin.php 5 -
+/test/ 1 -
+/moduleigtt/wp-content/pu/RAL%207002.png 11 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/photos/gallery/newgallery/Sliding%20Wardrobe/slide9.jpeg 1 http://parvamconsultech.com/moduleigtt/portfolio/portfolio-Wardrobesliding.html
+/moduleigtt/wp-content/colour/WVB%209602%20Urbane%20Elm.png 13 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/colour/PLAIN%20GLASS.jpeg 6 http://parvamconsultech.com/moduleigtt/
+/casa.php 6 -
+/moduleigtt/wp-content/colour/SUD%207586%20Beige%20Charm.png 6 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/pu/RAL%202000.jpeg 26 http://parvamconsultech.com/moduleigtt/
+/wordpress/wp-json/wp/v2/users 1 -
+/moduleigtt/wp-content/pu/RAL%201024.png 13 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/pu/RAL%201012.jpeg 26 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/colour/PRG%207529%20Walnut%20Desire.png 6 http://parvamconsultech.com/moduleigtt/
+/aws.yml 1 -
+/moduleigtt/wp-content/colour/SUD%207642%20Pecan.png 6 http://parvamconsultech.com/moduleigtt/
+///installer.php 1 -
+/about1.phtml 2 -
+/moduleigtt/wp-content/pu/RAL%207006.PNG 28 http://parvamconsultech.com/moduleigtt/
+/alexus.php 37 -
+/wp.php 72 -
+/moduleigtt/wp-content/woodgrains/PRG%207654%20Dijon%20Wood.png 51 http://parvamconsultech.com/moduleigtt/
+/js/header-rollup-554.js 9 -
+/images/editor/separator.gif 9 -
+/z.php 76 -
+/moduleigtt/wp-content/photos/gallery/newgallery/qube/qube5.jpeg 2 http://parvamconsultech.com/moduleigtt/portfolio/portfolio-Wardrobewalkin.html
+/wp-activate.php7 1 -
+/moduleigtt/wp-content/colour/WVB%205569%20Earthen%20Mesh.png 4 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/colour/SUD%207524%20Maple%20Glimmer.png 6 http://parvamconsultech.com/moduleigtt/
+/alfa.php 86 -
+/aakruthi-erp/assets/plugins/slimscroll/jquery.slimscroll.min.js 1 -
+/moduleigtt/wp-content/woodgrains/SUD%207622%20Cross%20Oak.png 48 http://parvamconsultech.com/moduleigtt/
+/Cpanel.php 8 -
+/jpmOb/XlmSg/ 2 -
+/moduleigtt/wp-content/woodgrains/SPSF%208537.jpg 1 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/colour/SUD%207505%20Absolute%20Beech.png 6 http://parvamconsultech.com/moduleigtt/
+/new/installer-backup.php 1 -
+/moduleigtt/wp-content/Uploaddesigtoserver.php 1 http://parvamconsultech.com/moduleigtt/
+/test_moduleigtt/wp-content/photos/trending/ushape1.jpeg 3 http://www.parvamconsultech.com/test_moduleigtt/
+/moduleigtt/wp-content/colour/KM%204505%20Pide%20Nefis%20Walnut.JPG 1 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/pu/RAL%202004.jpg 25 http://parvamconsultech.com/moduleigtt/
+/phpinfo 1 -
+/moduleigtt/wp-content/internals/WAO859.png 1268 http://parvamconsultech.com/moduleigtt/portfolio/index.html
+/wp/rahma.php 37 -
+/wp-includes/js/jquery/jquery-migrate.min.js 3 -
+/moduleigtt/wp-content/pu/RAL%206000.png 11 http://parvamconsultech.com/moduleigtt/
+/web/ 10 -
+/shx.php 63 -
+/moduleigtt/wp-content/moduleigttexclusive/shoe18.jpeg 11 http://parvamconsultech.com/moduleigtt/
+/wp-admin/includes/class-wp-media-list-data.php 7 -
+/moduleigtt/wp-content/woodgrains/SUD%207617%20Contra%20Wood.png 48 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/colour/SUD%207611%20Russet%20Teak.png 6 http://parvamconsultech.com/moduleigtt/
+/techcomf/hpme4.png 1 http://parvamconsultech.com/techcomf/sevrice1.html
+/moduleigtt/wp-content/woodgrains/SPSF%208146.jpg 1 http://parvamconsultech.com/moduleigtt/
+/mailersmtp.php 7 -
+/new-index.php 69 -
+/moduleigtt/wp-content/colour/GWR%20731%20Wenge.png 13 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/colour/SUD%207545%20Silver%20Sand.png 6 http://parvamconsultech.com/moduleigtt/
+/resumes/ 1 -
+/ohayo.php 63 -
+/moduleigtt/wp-content/woodgrains/FE%208652.jpg 1 http://parvamconsultech.com/moduleigtt/
+/admin/view/stylesheet/accesson.php 1 -
+/moduleigtt/wp-content/pu/RAL%201024.PNG 28 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/colour/SUD%207621%20White%20Cross%20Oak.png 6 http://parvamconsultech.com/moduleigtt/
+/Fshell.php 2 -
+/moduleigtt/wp-content/colour/GWR%20782%20Makassar%20Wood.png 13 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/photos/modfolio/displayunitmod.jpeg 48 http://parvamconsultech.com/moduleigtt/portfolio/index.html
+/moduleigtt/wp-content/pu/RAL%207003.png 11 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/colour/SUD%207594%20Santos.png 6 http://parvamconsultech.com/moduleigtt/
+/uzpyv5gv.php 2 -
+/100.php 63 -
+/moduleigtt/wp-content/colour/PRG%207609%20Whimsical%20Walnut.png 6 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/pu/RAL%201004.jpeg 29 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/handletype/SGP2.jpg 23 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/photos/portfolio-headers/pooja/%20unit.png 38 http://parvamconsultech.com/moduleigtt/portfolio/portfolio-pooja.html
+/new/installer.php 1 -
+/moduleigtt/wp-content/colour/SUD%207541%20Catty%20Wood.png 6 http://parvamconsultech.com/moduleigtt/
+/Back/installer-backup.php 1 -
+/moduleightt 1 -
+/old-index..php 2 -
+/moduleigtt/wp-content/woodgrains/CM%208548.jpg 1 http://parvamconsultech.com/moduleigtt/
+/wp-rss.php 37 -
+/security.txt 1 -
+/if.php 7 -
+/wp/wp-admin/setup-config.php 1 -
+/blog/wp-includes/wlwmanifest.xml 101 -
+/lf.php 23 -
+/h.php 9 -
+/test_moduleigtt/uploads/0 3 -
+/moduleigtt/wp-content/colour/SUD%207593%20Calm%20Wood.png 6 http://parvamconsultech.com/moduleigtt/
+/demo/wp-admin/setup-config.php 1 -
+/MZeRW/iLNYP/ 2 -
+/wpmx.php 4 -
+/moduleigtt/wp-content/photos/modfolio/cots.jpeg 31 http://parvamconsultech.com/moduleigtt/portfolio/index.html
+/moduleigtt/wp-content/colour/HGP%205572%20Grey%20Marquina.png 5 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/photos/trending/ushape1.jpeg 37 http://parvamconsultech.com/moduleigtt/
+/techcomf/home1.png 1 http://parvamconsultech.com/techcomf/document.html
+/administrator/language/en-GB/install.xml 1 -
+/moduleigtt/wp-content/pu/RAL%203002.PNG 28 http://parvamconsultech.com/moduleigtt/
+/hello.php 7 -
+/assets/plugins/jquery-file-upload/server/php/index.php 1 -
+/moduleigtt/wp-content/pu/RAL%201023.jpeg 26 http://parvamconsultech.com/moduleigtt/
+/wp-load.php 4 parvamconsultech.com
+/lSPYO/fTRKQ/kYlOQ/ 1 -
+/moduleigtt/wp-content/colour/WVB%205520%20Hampshire%20Oak.png 6 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/colour/SUD%207633%20Chinnamon%20Wood.png 6 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/photos/newgallery/Shoe%20Rack/shoe11.jpeg 21 http://parvamconsultech.com/moduleigtt/portfolio/portfolio-foyer.html
+/wp-includes/sys.php 7 -
+/moduleigtt/wp-content/woodgrains/SPSF%208762.jpg 1 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/woodgrains/SUD%207623%20Silky%20Oak.png 48 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/woodgrains/SUD%207624%20Vivid%20Wood.png 47 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/photos/gallery/newgallery/Openable%20Wardrobe/open4.jpeg 1 http://parvamconsultech.com/moduleigtt/portfolio/portfolio-Wardrobeopenable.html
+/y.php 49 -
+/plugins/system/debug/debug.xml 12 -
+/ninja.php 2 -
+/moduleigtt/wp-content/colour/SUD%207608%20Chimera%20Walnut.png 6 http://parvamconsultech.com/moduleigtt/
+/media/wp-includes/wlwmanifest.xml 40 -
+/!.php 7 -
+/moduleigtt/wp-content/colour/PRG%207617%20Contra%20Wood.png 6 http://parvamconsultech.com/moduleigtt/
+/index3.php 1 -
+/moduleigtt/wp-content/pu/RAL%203003.png 12 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/pu/RAL%206000.PNG 29 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/colour/PRG%207623%20Silky%20Oak.png 6 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/pu/RAL%206028.PNG 28 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/photos/gallery/newgallery/bookshelf/bookshelf4.jpg 16 http://parvamconsultech.com/moduleigtt/portfolio/portfolio-BookShelves.html
+/owl.php 65 -
+/moduleigtt/wp-content/colour/Tinted%20Glass%20Bronze.jpeg 4 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/photos/portfolio-headers/tv/%20unit.png 33 http://parvamconsultech.com/moduleigtt/portfolio/portfolio-BedroomTvspace.html
+/priv8.php 44 -
+/moduleigtt/wp-content/photos/chestofdrawers.jpeg 1 http://parvamconsultech.com/moduleigtt/portfolio/index.html
+/elementor/ 49 http://parvamconsultech.com/moduleigtt/portfolio/portfolio-Straightkitchen.html
+/moduleigtt/wp-content/photos/portfolio-headers/onsite/%20works.png 8 http://parvamconsultech.com/moduleigtt/portfolio/portfolio-onsitewoodworks.html
+/moduleigtt/wp-content/colour/SUD%207517%20Cherry%20Extravaganza.png 6 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/pu/RAL%201020.jpeg 26 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/pu/RAL%201017.PNG 28 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/photos/gallery/newgallery/Openable%20Wardrobe/open9.jpeg 1 http://parvamconsultech.com/moduleigtt/portfolio/portfolio-Wardrobeopenable.html
+/UQmTi/gQeSQ/jSXRl/KZTML/ 1 -
+/wp-admin/includes/media-site.php 7 -
+/content.php 10 -
+/test_moduleigtt/admin/appliances.json 1 http://parvamconsultech.com/test_moduleigtt/admin/edit.php
+/dbp.php 2 -
+/moduleigtt/wp-content/pu/RAL%203011.jpeg 24 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/colour/GWD%20788%20Real%20Ebony.png 14 http://parvamconsultech.com/moduleigtt/
+/wp2/wp-includes/wlwmanifest.xml 88 -
+/moduleigtt/wp-content/pu/RAL%206021.PNG 29 http://parvamconsultech.com/moduleigtt/
+/issmall/ 1 -
+/wso2018.phtml 2 -
+/anon.php 16 -
+/2016/wp-includes/wlwmanifest.xml 22 -
+/moduleigtt/wp-content/woodgrains/SUD%207533%20Noble%20Brown.png 50 http://parvamconsultech.com/moduleigtt/
+/x.php 82 -
+/moduleigtt/wp-content/photos/gallery/barunit/barunit.jpeg 10 http://parvamconsultech.com/moduleigtt/portfolio/portfolio-barunit.html
+/moduleigtt/wp-content/colour/SUD%207604%20Silverline.png 6 http://parvamconsultech.com/moduleigtt/
+/dvcard/.php 2 -
+/moduleigtt/wp-content/colour/SUD%207599%20Kindle.png 6 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/colour/PRG%207590%20Fine%20Ash.png 6 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/colour/PRG%207553%20Wenge%20Crown.png 6 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/pu/RAL%201017.png 13 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/colour/HGA%20277%20Charcoal.png 8 http://parvamconsultech.com/moduleigtt/
+///dup-installer/main.installer.php 1 -
+/wp-admin/includes/readindex.php 7 -
+/bso.php 2 -
+/moduleigtt/wp-content/colour/SUD%207634%20Hickory%20Walnut.png 6 http://parvamconsultech.com/moduleigtt/
+/oldsite/wp-admin/install.php 1 -
+/public/assets/jquery-file-upload/server/php/index.php 1 -
+/moduleigtt/wp-content/colour/PVB%205601%20Woven%20Ash%20Grey.png 4 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/colour/KM%204393%20Encanto%20Creamish%20Oak.JPG 1 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/photos/gallery/newgallery/cots/framed%20cot3.jpeg 2 http://parvamconsultech.com/moduleigtt/portfolio/portfolio-framedcot.html
+/moduleigtt/wp-content/colour/SUD%207581%20Lush%20Timber.png 6 http://parvamconsultech.com/moduleigtt/
+/mar.php 68 -
+/srx.php 7 -
+/PAK.php 2 -
+/.well-known/ 7 binance.com
+/moduleigtt/wp-content/colour/GSC%205574%20Statuario.png 5 http://parvamconsultech.com/moduleigtt/
+/new.php 61 -
+/assets/images/moduless.php 1 -
+/xo.php 7 -
+/wp-content/ 29 -
+/kiss.php 36 -
+/moduleigtt/wp-content/colour/GCN%205610%20City%20Chic.png 5 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/colour/HGA%20274%20Pine%20Nut.png 8 http://parvamconsultech.com/moduleigtt/
+/config.js 1 -
+/aakruthi-erp/assets/plugins/icheck/icheck.min.js 1 -
+/moduleigtt/portfolio/portfolio-shoerack.html 1 http://parvamconsultech.com/moduleigtt/portfolio/portfolio-foyer.html
+/s.php 17 -
+/moduleigtt/wp-content/woodgrains/RL%208536.jpg 1 http://parvamconsultech.com/moduleigtt/
+/fa.php 7 -
+/cache/index3.php 1 -
+/moduleigtt/wp-content/colour/SUD%207598%20Sandy%20Larch.png 6 http://parvamconsultech.com/moduleigtt/
+/2017/wp-includes/wlwmanifest.xml 22 -
+/0.php 36 -
+/Blog/dup-installer/main.installer.php 1 -
+/moduleigtt/wp-content/photos/gallery/newgallery/bookshelf/bookshelf2.jpg 20 http://parvamconsultech.com/moduleigtt/portfolio/portfolio-BookShelves.html
+/swcs/admin/css/img/preloader.gif 15 http://parvamconsultech.com/swcs/admin/css/style.css
+/moduleigtt/wp-content/colour/HGA%205575%20Black%20Marmor.png 5 http://parvamconsultech.com/moduleigtt/
+/wp/wp-json/wp/v2/users 1 -
+/moduleigtt/wp-content/woodgrains/SR%208672.jpg 1 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/colour/HGP%205571%20Creme%20Marquina.png 5 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/photos/gallery/newgallery/Openable%20Wardrobe/open6.jpeg 1 http://parvamconsultech.com/moduleigtt/portfolio/portfolio-Wardrobeopenable.html
+/moduleigtt/wp-content/photos/gallery/newgallery/murphybed/murphybed3.jpeg 19 http://parvamconsultech.com/moduleigtt/portfolio/portfolio-murphybed.html
+/moduleigtt/wp-content/colour/GCN%205616%20Urban%20Concrete.png 5 http://parvamconsultech.com/moduleigtt/
+/j.php 9 -
+/u.php 49 -
+/main/ 1 -
+/moduleigtt/portfolio/portfolio-openablewardrobe.html 1 http://parvamconsultech.com/moduleigtt/portfolio/portfolio-Wardrobeopenable.html
+/demo/wp-json/wp/v2/users 1 -
+/byp.php 2 -
+/media-admin.php 47 -
+/wp-login.php 42 -
+/backup/wp-admin/install.php 1 -
+/.wp-cache.php 37 -
+/MARIJUANA.php 62 -
+/moduleigtt/wp-content/pu/RAL%201007.PNG 28 http://parvamconsultech.com/moduleigtt/
+/wp-admin/includes/maint/repair-bak.php 7 -
+/jOVMR/ 3 -
+/moduleigtt/wp-content/photos/trending/paralelll.jpg 38 http://parvamconsultech.com/moduleigtt/
+/v5.php 1 -
+/k.php 16 -
+/moduleigtt/wp-content/photos/gallery/newgallery/bookshelf/bookshelf5.jpeg 1 http://parvamconsultech.com/moduleigtt/portfolio/portfolio-BookShelves.html
+/administrator/help/en-GB/toc.json 4 -
+/moduleigtt/wp-content/woodgrains/SUD%207515%20Scarlet%20Grey.png 51 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/colour/SUD%207529%20Walnut%20Desire.png 6 http://parvamconsultech.com/moduleigtt/
+/new/xmlrpc.php 3 -
+/robots.txt 106 -
+/moduleigtt/wp-content/pu/RAL%203000.PNG 28 http://parvamconsultech.com/moduleigtt/
+/alexus-mailer.php 7 -
+/moduleigtt/nav.scss 388 http://parvamconsultech.com/moduleigtt/
+/1.php 87 -
+/js/app.js 1 -
+/WSXRS/ 2 -
+/moduleigtt/wp-content/pu/RAL%202001.PNG 28 http://parvamconsultech.com/moduleigtt/
+/wp-activate.php 1 -
+/ninja.phtml 2 -
+/moduleigtt/wp-content/photos/modfolio/bedroomtv%20unit9.jpeg 38 http://parvamconsultech.com/moduleigtt/portfolio/index.html
+/cgi-bin/menu_settings.php 1 -
+/wcm/ 1 -
+/moduleigtt/wp-content/colour/PRG%207641%20Scandic%20Pine.png 6 http://parvamconsultech.com/moduleigtt/
+/old/wp-admin/setup-config.php 1 -
+/l.php 8 -
+/moduleigtt/wp-content/pu/RAL%201006.jpeg 27 http://parvamconsultech.com/moduleigtt/
+/feed/ 2 -
+/i.php 48 -
+/administrator/language/en-GB/en-GB.xml 3 -
+/moduleigtt/wp-content/colour/SUD%207624%20Vivid%20Wood.png 6 http://parvamconsultech.com/moduleigtt/
+/leafmailer2.8.php 40 -
+/wp-admin/css/modern/colors.css.php 7 -
+/moduleigtt/wp-content/colour/SUD%207590%20Fine%20Ash.png 6 http://parvamconsultech.com/moduleigtt/
+/2020/ 10 -
+/moduleigtt/wp-content/woodgrains/NT%203152.jpg 1 http://parvamconsultech.com/moduleigtt/
+/11index.php 49 -
+/moduleigtt/wp-content/colour/SUD%207587%20Hazel%20Wood.png 6 http://parvamconsultech.com/moduleigtt/
+/data.php 64 -
+/wordpress/wp-admin/setup-config.php 3 -
+/zindex.php 2 -
+/sym.php 64 -
+/moduleigtt/wp-content/woodgrains/PRG%207576%20Rustic%20Spell.png 51 http://parvamconsultech.com/moduleigtt/
+/wordpress/wp-includes/wlwmanifest.xml 101 -
+/assets/images/accesson.php 1 -
+/blog/wp-json/wp/v2/users 1 -
+/moduleigtt/wp-content/colour/SUD%207614%20Indulgence.png 6 http://parvamconsultech.com/moduleigtt/
+/uploads/ 3 -
+/moduleigtt/wp-content/colour/PRG%207603%20Peppercorn.png 6 http://parvamconsultech.com/moduleigtt/
+/moduleigtt/wp-content/pu/RAL%201016.png 13 http://parvamconsultech.com/moduleigtt/
+/haxor.php 7 -
+/old/ 13 -
+/moduleigtt/wp-content/woodgrains/SUD%207610%20Mellow%20Oak.png 48 http://parvamconsultech.com/moduleigtt/
+/WP/installer-backup.php 1 -
+/fw.php 4 -
+/moduleigtt/wp-content/photos/gallery/newgallery/Sliding%20Wardrobe/slide7.jpeg 2 http://parvamconsultech.com/moduleigtt/portfolio/portfolio-Wardrobesliding.html
+/moduleigtt/wp-content/colour/SUD%207521%20Supple%20Grey.png 6 http://parvamconsultech.com/moduleigtt/
+/xxx.php 7 -
+/moduleigtt/wp-content/colour/GWD%205050%20Umber%20Oak.png 14 http://parvamconsultech.com/moduleigtt/
+/whmauto.php 2 -
+/moduleigtt/wp-content/colour/PRG%207656%20Fiedberg%20Eucalyptus.png 6 http://parvamconsultech.com/moduleigtt/
+/site/wp-json/wp/v2/users 1 -
+/777.php 63 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 127
+49.206.12.77 874 14249 6618173903 20211228230750
+49.206.8.119 546 2979 1143339751 20211209230956
+220.158.157.1 122 3332 590964389 20211230010809
+36.255.86.218 104 2057 550438773 20211230232608
+49.206.14.181 97 1118 875512130 20211210225502
+42.109.129.54 97 2673 449259381 20211227052530
+220.158.157.224 86 1037 464668026 20211214221403
+49.206.14.70 70 701 226393147 20211214031505
+49.206.12.203 63 1732 392132761 20211223233049
+49.37.177.3 57 57 47910 20211229223827
+1.39.147.4 52 55 941339 20211203141731
+106.51.243.189 51 570 303031748 20211207060939
+49.206.8.117 48 552 312951880 20211217004153
+49.37.179.184 41 44 411718 20211224013318
+162.214.80.40 35 35 2792 20211228171524
+1.39.185.239 29 59 1070073 20211228102705
+49.206.15.145 25 610 152789015 20211220035857
+1.39.179.209 21 222 23435607 20211215031239
+42.109.128.162 21 520 45612297 20211228023851
+49.37.178.240 20 65 729968 20211215011559
+1.39.145.8 20 142 2254174 20211201093000
+223.186.147.141 15 36 4788457 20211215070152
+36.255.87.0 15 267 45718637 20211203052459
+1.39.189.93 14 14 89197 20211201042736
+223.186.0.126 12 26 643166 20211213053249
+49.207.205.153 0 5 0 
+66.133.109.36 5 5 435 20211228171524
+45.115.55.6 2 33 414815 20211202034024
+103.10.135.36 2 33 414815 20211202030205
+42.109.129.222 3 122 26993835 20211221045145
+18.192.36.99 2 2 174 20211228171524
+49.44.86.41 6 131 31320840 20211207021525
+223.231.160.130 3 19 3166717 20211227061542
+49.44.87.235 6 131 31320840 20211207020730
+157.55.39.162 0 1 15614 
+49.207.210.68 2 9 1643283 20211221190951
+34.219.87.132 1 1 87 20211228171523
+74.125.210.109 5 44 969924 20211227221919
+122.172.138.108 0 3 131888 
+49.37.182.86 3 4 15424 20211205095347
+106.197.218.84 7 41 691139 20211205062244
+18.116.86.117 3 3 261 20211228171523
+49.44.80.135 2 33 414815 20211202050109
+1.39.180.170 0 4 2081 
+223.231.128.134 1 8 60348952 20211208002758
+66.102.6.139 4 57 606353 20211201074550
+202.65.141.4 2 33 414815 20211208023844
+66.102.6.141 2 56 729837 20211201115231
+106.197.250.73 9 68 6587127 20211209035229
+223.186.58.217 1 3 164949 20211221071407
+18.159.196.172 2 2 174 20211228171524
+49.44.82.5 2 33 414815 20211227060632
+66.102.6.137 4 49 362194 20211201110006
+1.39.157.135 3 12 304768 20211213220337
+157.55.39.146 0 1 10193 
+183.82.15.168 2 33 414815 20211203141124
+52.39.4.59 3 3 261 20211228171524
+103.59.199.68 2 33 414815 20211202031922
+223.186.14.77 1 6 1321716 20211215062036
+49.44.82.105 2 33 414815 20211203140742
+34.221.255.206 1 1 87 20211228171524
+49.44.86.232 2 33 414815 20211208034356
+13.115.245.72 10 10 170 20211227121918
+66.102.6.203 3 51 393152 20211227221919
+66.102.8.129 1 31 1226745 20211201062458
+1.39.154.213 7 134 31289105 20211213033443
+35.185.241.102 2 2 3410 20211227221832
+49.205.151.46 7 79 73128733 20211214094505
+49.44.83.71 2 33 414815 20211203140003
+1.39.162.77 9 116 5834010 20211222101748
+49.44.86.71 2 33 414815 20211201042743
+1.39.182.39 1 5 40075726 20211205221104
+49.206.8.254 6 133 31148325 20211217022910
+66.102.6.205 2 44 645108 20211227221919
+49.44.78.137 6 131 31320802 20211205235523
+223.186.91.178 1 1 2220 20211205033206
+27.59.67.73 3 36 9145451 20211221052821
+1.39.186.189 0 54 0 
+49.128.162.198 2 33 414815 20211208045057
+223.196.67.100 2 33 414815 20211208031728
+49.37.183.37 6 7 106671 20211227060630
+35.245.188.175 7 7 23155 20211228043430
+3.19.56.43 1 1 87 20211228171524
+49.37.183.69 5 110 17952736 20211213033511
+223.186.73.183 7 134 31599981 20211206222150
+49.44.76.135 6 58 5573205 20211214015544
+42.109.129.246 6 133 31412999 20211213052710
+157.55.39.155 0 2 23982 
+49.44.80.104 2 33 414815 20211208031733
+150.107.9.4 6 131 31136317 20211214231807
+66.102.6.207 3 37 629172 20211227221919
+1.39.170.25 10 86 5358108 20211220221905
+49.44.86.170 2 33 414815 20211203125909
+106.196.21.121 11 60 4340725 20211228205102
+157.45.51.231 5 47 5290004 20211215080352
+66.102.8.136 2 35 487845 20211201064442
+103.3.32.135 2 33 414815 20211207025021
+223.186.13.16 0 3 0 
+27.7.145.31 2 6 47361 20211217090709
+223.231.151.198 9 176 38521752 20211224104752
+139.137.128.1 0 62 0 
+74.125.210.111 3 51 562183 20211227221919
+223.231.176.141 11 197 127630429 20211205220822
+49.44.85.7 6 88 15860413 20211215224856
+1.39.174.82 0 26 0 
+27.59.49.96 2 9 887004 20211228202026
+1.39.171.183 1 4 0 20211211203738
+157.55.39.207 0 2 85344 
+3.120.130.29 1 1 87 20211228171523
+3.142.122.14 1 1 87 20211228171522
+106.51.243.24 1 38 10356765 20211209232832
+49.206.10.245 6 177 37407824 20211224233806
+106.193.63.59 5 52 5726555 20211215000745
+66.102.8.159 4 38 521149 20211201111436
+124.155.245.69 6 58 5564175 20211214015548
+1.39.163.213 0 3 34671078 
+223.231.150.185 1 1 2220 20211206062955
+103.229.129.68 8 122 16320041 20211214015201
+1.39.133.231 9 68 6606211 20211209051818
+172.58.85.157 2 33 414815 20211208032706
+223.196.116.69 2 33 414815 20211202032318
+1.39.131.226 0 27 0 
+74.125.210.107 1 39 734584 20211227221919
+220.158.157.231 12 112 9101908 20211209041947
+223.231.128.131 0 4 0 
+49.44.85.72 6 80 88703223 20211210025925
+106.196.22.121 2 7 468527 20211229012158
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20211201 83 651 23481218 17
+20211202 86 337 3868889 7
+20211203 174 1023 211550682 11
+20211204 0 3 0 0
+20211205 150 1881 811706920 8
+20211206 22 312 57356906 3
+20211207 119 1393 595963114 9
+20211208 183 424 64552121 9
+20211209 47 525 515490425 7
+20211210 108 1330 906661701 6
+20211211 1 6 0 1
+20211212 0 3 0 0
+20211213 196 2652 781492192 11
+20211214 358 4254 2579144304 14
+20211215 209 2575 1587439795 13
+20211216 59 1091 322371375 5
+20211217 58 804 295445129 7
+20211218 0 2 0 0
+20211219 37 771 310392824 2
+20211220 332 5476 2095282781 8
+20211221 99 2611 486359523 7
+20211222 68 1840 338655777 7
+20211223 32 1480 210711858 3
+20211224 101 1146 233300933 9
+20211225 45 1228 225674152 3
+20211226 7 146 75827539 1
+20211227 92 1797 190916944 18
+20211228 146 1259 184452279 19
+20211229 59 70 625173 2
+20211230 7 570 28778372 2
+20211231 0 4 0 0
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+30s-2mn 31
+30mn-1h 21
+1h+ 25
+0s-30s 90
+5mn-15mn 16
+2mn-5mn 13
+15mn-30mn 13
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 316
+/moduleigtt/finishcolordata.json 243 5766129 4 7
+/moduleigtt/ 207 55258648 76 17
+/moduleigtt/handletypedata.json 166 84406989 2 7
+/moduleigtt/appliances.json 114 155628 0 3
+/moduleigtt/wp-content/blog/ElegantIcons.woff 110 6939376 0 1
+/moduleigtt/wp-content/themes/dor/framework/lib/icons-pack/ion-icons/fonts/ionicons.ttf 106 20004744 0 18
+/moduleigtt/wp-content/handler.php 78 6591 2 27
+/moduleigtt/portfolio/ 72 10447237 5 6
+/aakruthi-erp/webmaster/dashboard 50 368066 0 3
+/aakruthi-erp/login 47 104340 27 3
+/moduleigtt/portfolio/portfolio-foyer.html 42 8973892 0 1
+/fastrans/ 39 385785 14 5
+/moduleigtt/portfolio/portfolio-crockery.html 37 7183041 1 0
+/aakruthi-erp/login/do 31 497 0 0
+/moduleigtt/portfolio/portfolio-chestofdrawers.html 29 6415597 1 1
+/moduleigtt/portfolio/portfolio-wallpanelling.html 29 6407854 0 1
+/moduleigtt/portfolio/portfolio-Wardrobeopenable.html 28 6156733 0 0
+/moduleigtt/portfolio/portfolio-Displayunit.html 28 6234437 1 1
+/moduleigtt/portfolio/portfolio-Straightkitchen.html 28 6002660 1 2
+/aakruthi-erp/webmaster/purchaserequest/selectitem/10 28 392 0 0
+/moduleigtt/portfolio/portfolio-barunit.html 26 5743924 0 0
+/moduleigtt/portfolio/portfolio-Wardrobesliding.html 26 5698429 3 0
+/moduleigtt/portfolio/portfolio-kitchen%20L-shape%20.html 26 5290554 0 1
+/moduleigtt/portfolio/portfolio-pooja.html 25 5270424 1 0
+/aakruthi-erp/assets/bootstrap/fonts/glyphicons-halflings-regular.woff2 25 450700 0 19
+/aakruthi-erp/webmaster/purchaserequest/general 2 12724 0 0
+/aakruthi-erp/webmaster/task/pending_task_list 1 5100 0 1
+/moduleigtt/wp-content/contactussendmail.php 1 7 0 0
+/swcs/admin/webfonts/fa-solid-900.woff2 1 74320 0 0
+/techcomf/about.html 1 5041 0 0
+/project_group/ 8 46440 3 1
+/swcs/admin/ 2 298 2 0
+/moduleigtt/portfolio/modfolio-bedroom.html 4 873250 0 0
+/swcs/admin/webfonts/fa-regular-400.woff2 1 13608 0 0
+/project_group/image1.webp 8 95040 0 2
+/aakruthi-erp/webmaster/task/completed_task_list 3 15303 0 0
+/swcs/admin/index.php 2 264 0 0
+/test_moduleigtt/finishcolordata.json 1 15065 0 0
+/moduleigtt/wp-content/photos/gallery/Display%20Unit/display%20unit2.webp 1 139158 0 0
+/aakruthi-erp/webmaster/quotation/selectquotation/46 1 399 0 0
+/aakruthi-erp/webmaster/quotation/getquotationlist/60 1 715 0 0
+/moduleigtt/admin/assets/fonts/webfonts/fa-solid-900.woff2 1 79444 0 0
+/aakruthi-erp/webmaster/purchaseorder/selectpurchaseordernumber 12 1392 0 1
+/.well-known/acme-challenge/aGl4NeNu8v1V2nEeVnWPPY90XGJKPpwr51rN8E4vOyE 4 348 1 3
+/test_moduleigtt/wp-content/handler.php 7 760 0 1
+/techcomf/assets/fonts/fa-regular-400.woff2 1 13224 0 0
+/test_moduleigtt/appliances.json 1 1441 0 0
+/aakruthi-erp/webmaster/project/selectstaff/project 1 468 0 0
+/aakruthi-erp/webmaster/quotation/selectlead/customer 9 32544 0 0
+/aakruthi-erp/webmaster/quotation/getquotationlist/66 3 894 0 0
+/aakruthi-erp/webmaster/quotation/insert 1 2 0 0
+/techcomf/document.html 1 5047 0 1
+/aakruthi-erp/webmaster/design/upload 5 47929 0 0
+/moduleigtt/Decorurhome.html 6 196410 0 1
+/dvcard/roshanlobo.php 2 7324 0 1
+/.well-known/acme-challenge/UT37LS_O22F-84OEFIUYK9FF6M-1K60C 1 64 0 0
+/test_moduleigtt/ 1 304778 1 0
+/test_moduleigtt/admin/edit.php 2 411412 0 0
+/moduleigtt/admin/edit.php 2 410428 0 0
+/dvcard/index.php 2 8584 2 1
+/aakruthi-erp/webmaster/checkpoint 9 56883 0 0
+/aakruthi-erp/webmaster/purchaseorder/rejectedlist 1 6937 0 0
+/moduleigtt/portfolio/portfolio-dresserunit.html 24 5361428 0 0
+/aakruthi-erp/webmaster/recieptnote 9 69669 0 0
+/swcs/admin/Dashboard.php 5 16345 0 0
+/moduleigtt/admin/assets/fonts/ico-font/icofont.woff2 1 537868 0 0
+/moduleigtt/portfolio/modfolio-poojaunit.html 2 416250 0 0
+/swcs/admin/login.php 7 10483 1 1
+/aakruthi-erp/webmaster/purchaseorder/getvariantdata 1 62 0 0
+/.well-known/acme-challenge/8T_YJF7HL7S_D1X2_5YG9GZ4CCX3HP1F 1 64 0 0
+/aakruthi-erp/webmaster/items/view_item/ 1 6995 0 0
+/moduleigtt/portfolio/portfolio-BedroomStudyroom.html 22 4614178 0 0
+/.well-known/acme-challenge/2MCJGvT2Cq5GBqsfTPEu0GpAlQf7IjVifMS713ArhW4 4 348 2 2
+/aakruthi-erp/webmaster/quotation/getallbrand 16 10080 0 0
+/test_moduleigtt/admin/customerpdf.php 1 128102 0 0
+/dvcard/nanda.php 2 7578 1 1
+/aakruthi-erp/webmaster/quotation/selectquotation/null 1 14186 0 0
+/aakruthi-erp/webmaster/quotation/edit/65/product 1 29194 0 0
+/test_moduleigtt/wp-content/blog/ElegantIcons.woff 1 63664 0 0
+/aakruthi-erp/webmaster/purchaseorder/getwooddata 1 180 0 0
+/aakruthi-erp/webmaster/purchaserequest/generatepo/5 1 9080 0 0
+/moduleigtt/wp-content/photos/gallery/Study%20Units/study%20unit9.webp 1 948450 0 0
+/aakruthi-erp/webmaster/checkpoint/view/2 5 116385 0 0
+/dvcard/sahriday.php 2 7766 0 1
+/swcs/admin/view-customer-feedback-details.php 8 20953 1 1
+/moduleigtt/portfolio/modfolio-dining.html 3 634293 0 0
+/aakruthi-erp/webmaster/purchaserequest/selectitem/65 6 84 0 0
+/aakruthi-erp/webmaster/quotation/selectquotation/5 2 826 0 0
+/aakruthi-erp/webmaster/project/selectstaff/null 1 2049 0 0
+/aakruthi-erp/webmaster/quotation/quotationdata/ 2 978 0 0
+/moduleigtt/portfolio/portfolio-Vanitycounter.html 19 4154163 2 0
+/moduleigtt/wp-content/careers/ElegantIcons.woff 4 254656 0 0
+/aakruthi-erp/webmaster/purchaserequest/selectitem/37 3 1035 0 0
+/test_moduleigtt/admin/assets/fonts/ico-font/icofont.woff2 1 537868 0 0
+/test_moduleigtt/admin/viewdetails.php 4 21170 0 0
+/moduleigtt/portfolio/portfolio-onsitewoodworks.html 7 1550461 0 1
+/techcomf/sevrice1.html 1 4146 0 0
+/aakruthi-erp/webmaster/quotation/selectunit 3 570 0 0
+/aakruthi-erp/webmaster/snag 14 94829 1 1
+/moduleigtt/portfolio/modfolio-others.html 3 633738 1 0
+/aakruthi-erp/webmaster/quotation/selectProjectmanager/manager 3 990 0 0
+/moduleigtt/portfolio/modfolio-foyer.html 3 627889 0 0
+/aakruthi-erp/webmaster/project/view/3 1 10774 0 0
+/fastrans/assets/fonts/revicons/revicons90c6.woff 14 82896 1 1
+/fastrans/1.html 2 10090 0 0
+/aakruthi-erp/webmaster/purchaserequest/getleaddata 1 51 0 0
+/aakruthi-erp/webmaster/designtask 1 5300 0 0
+/aakruthi-erp/webmaster/snag/view/5 2 20809 0 0
+/.well-known/acme-challenge/4klT8PKE7BWSuAyxpEXI2OydtBS76ZdbFv6tnR9nVOk 4 348 0 0
+/techcomf/contact.html 1 4883 0 0
+/dvcard/suhasvaidya.php 2 8220 0 2
+/moduleigtt/portfolio/portfolio-console.html 1 219422 0 0
+/test_moduleigtt/admin/assets/fonts/webfonts/fa-solid-900.woff2 1 79444 0 0
+/project_group/assets/webfonts/fa-solid-900.woff2 7 553700 1 0
+/aakruthi-erp/webmaster/project/selectdesign/9 2 668 0 0
+/moduleigtt/admin/finishcolordata.json 1 15065 0 0
+/moduleigtt/wp-content/photos/gallery/Murphy%20Bed/murpy%20bed5.webp 1 35548 0 0
+/seft/student-details.php 3 13272 0 0
+/aakruthi-erp/webmaster/purchaseorder/getpurchaseorderlist/8 1 214 0 0
+/aakruthi-erp/webmaster/purchaserequest/updateissuenotenumber 1 0 0 0
+/aakruthi-erp/webmaster/design/download/14 1 221522 0 0
+/aakruthi-erp/webmaster/quotation/getquotationlist/65 4 954 0 0
+/aakruthi-erp/webmaster/quotation/edit/66 2 58384 0 0
+/aakruthi-erp/webmaster/project/create 6 71024 0 0
+/moduleigtt/Blog.html 9 1905057 1 0
+/seft/Dashboard.php 4 26379 0 0
+/fastrans/%21.html 2 38168 1 1
+/aakruthi-erp/webmaster/snag/insertsnag 2 1350 0 0
+/seft/login.php 7 6162 0 0
+/aakruthi-erp/webmaster/quotation/edit/65 3 87573 0 0
+/dvcard/csvprasadvcard.php 3 11694 2 0
+/test_moduleigtt/handletypedata.json 1 785970 0 0
+/aakruthi-erp/webmaster/snag/view/2 14 132715 0 0
+/aakruthi-erp/webmaster/purchaseorder/getpurchaseorderlist/4 1 214 0 0
+/moduleigtt/wp-content/photos/gallery/L%20Shape%20Kitchen/Lshape4.webp 1 21054 0 0
+/moduleigtt/portfolio/portfolio-moduleigttexclusive.html 13 2615764 2 2
+/dvcard/ragunathvcard.php 2 7572 2 1
+/test_moduleigtt/admin/ 1 2201 0 0
+/swcs/ 1 19149 1 1
+/moduleigtt/admin/ 1 2201 0 0
+/.well-known/acme-challenge/233VM0O_35PNLLSWPD33U624_5COQPWX 1 64 1 0
+/seft/get_student_payment_dashboard.php 1 47 0 0
+/aakruthi-erp/webmaster/quotation/getquotationlist/33 1 54 0 0
+/moduleigtt/portfolio/portfolio-bedroomexclusive.html 8 1751724 1 1
+/aakruthi-erp/webmaster/purchaserequest/selectcustomer 1 20122 0 0
+/decanvas/assets/vendors/font-awesome/fonts/fontawesome-webfont.woff2 1 71896 0 0
+/moduleigtt/portfolio/portfolio-kitchen%20Parallel.html 18 3730146 0 0
+/moduleigtt/portfolio/portfolio-Wardrobewalkin.html 22 4852413 0 0
+/aakruthi-erp/webmaster/quotation/quotationdata 8 3615 0 0
+/moduleigtt/index_hosting.html 1 347968 0 0
+/fastrans/assets/fonts/flaticon813b.ttf 15 241248 1 1
+/swcs/admin/customer_feedback.php 3 164281 0 1
+/dvcard/dikshant.php 3 12663 2 0
+/.well-known/acme-challenge/BLt8AEOkQmtazWwFs54pemqj8Q32SbFhRKaxjPe7vuU 4 348 0 0
+/aakruthi-erp/webmaster/project/selectdesign/52 1 14 0 0
+/aakruthi-erp/webmaster/recieptnote/viewissuenotes/4 2 12924 0 0
+/project_group/about.html 3 16065 0 1
+/aakruthi-erp/webmaster/project 14 89732 0 0
+/aakruthi-erp/webmaster/quotation/selectquotation/31 2 1914 0 0
+/moduleigtt/portfolio/portfolio-living.html 17 3695133 0 0
+/techcomf/ 1 5884 1 0
+/aakruthi-erp/webmaster/project/selectstaff/projectmanager 1 498 0 0
+/moduleigtt/wp-content/blog/ionicons.ttf 11 2075964 0 4
+/techcomf/image.html 1 3997 0 0
+/aakruthi-erp/webmaster/purchaseorder/viewpolist/6 2 17830 0 0
+/moduleigtt/careers.html 4 74858 0 0
+/moduleigtt/portfolio/portfolio-diningexclusive.html 2 433534 0 0
+/moduleigtt/portfolio/portfolio-kitchen%20Island.html 18 3509935 0 1
+/aakruthi-erp/webmaster/purchaseorder/edit/8 1 11966 0 0
+/aakruthi-erp/webmaster/quotation/insertVersion 1 2 0 0
+/aakruthi-erp/webmaster/project/assign/67 1 8073 0 0
+/project_group/assets/webfonts/fa-regular-400.woff2 2 29744 0 0
+/dvcard/rohitlakshmana.php 2 9042 1 1
+/dvcard/sudarshan.php 2 7884 0 0
+/dvcard/rajathkiran.php 2 7722 1 1
+/aakruthi-erp/webmaster/quotation 17 308402 0 0
+/seft/index.php 2 272 0 0
+/.well-known/acme-challenge/9bEpoWjjOpE9blHIv2oB6G-JLhqXYL_QjiWl6yBfJrc 4 348 2 0
+/aakruthi-erp/webmaster/purchaseorder 8 83363 0 0
+/aakruthi-erp/webmaster/purchaserequest/purchaserequestinvoice/5 1 77783 0 0
+/aakruthi-erp/webmaster/quotation/selectspace 1 374 0 0
+/project_group/contact.html 2 6566 0 1
+/moduleigtt/portfolio/modfolio-kitchen.html 2 426092 0 0
+/techcomf/assets/fonts/flaticon8953.ttf 1 29888 0 0
+/.well-known/acme-challenge/BBDAP-8VHJ43DG7O7P9FNQGE8C6NLWFL 1 64 0 0
+/aakruthi-erp/webmaster/quotation/selectquotationnumber 19 2793 0 1
+/seft/student-payment.php 2 8560 0 0
+/aakruthi-erp/webmaster/purchaserequest/selectitem/1 8 112 0 0
+/dvcard/patelvcard.php 2 8126 0 0
+/moduleigtt/portfolio/portfolio-livingexclusive.html 9 1961313 0 0
+/moduleigtt/admin/revisequotation.php 1 44 0 0
+/aakruthi-erp/webmaster/design 6 40062 0 0
+/aakruthi-erp/webmaster/purchaseorder/mailpo/8 1 439 0 0
+/seft/webfonts/fa-solid-900.woff2 1 74320 0 1
+/aakruthi-erp/webmaster/quotation/edit/66/product 1 29195 0 0
+/moduleigtt/portfolio/portfolio-BookShelves.html 22 4826794 0 1
+/aakruthi-erp/webmaster/purchaserequest/view/ 1 9310 0 0
+/fastrans/contact.html 6 22251 1 3
+/aakruthi-erp/webmaster/quotation/selectquotation/ 1 14186 0 0
+/seft/view-all-student.php 5 31303 0 1
+/aakruthi-erp/webmaster/snag/edit/6 1 11010 0 1
+/demo/ 10 170 1 1
+/moduleigtt/aboutus.html 4 886924 1 0
+/fastrans/assets/fonts/fa-light-300.ttf 17 7405320 2 1
+/.well-known/acme-challenge/5fdT87wIDYX18VT1Ssnd4cakW3eAS0T4vYrRhjiLmkI 4 348 0 0
+/test_moduleigtt/admin/handletypedata.json 1 446574 0 0
+/aakruthi-erp/webmaster/items/edit_item/ 1 11056 0 0
+/aakruthi-erp/webmaster/project/selectdesign/27 2 28 0 0
+/fastrans/service-single.html 12 108764 0 0
+/.well-known/acme-challenge/-_QOIR23H-SLC2OHYGD26UO4I37ZLLAX 1 64 0 0
+/moduleigtt/portfolio/portfolio-murphybed.html 23 5075810 0 0
+/aakruthi-erp/webmaster/purchaserequest 15 103970 1 0
+/aakruthi-erp/webmaster/purchaseorder/view/8 1 10790 0 0
+/fastrans/project.html 16 63497 0 0
+/fastrans/project-single.html 1 5150 0 0
+/aakruthi-erp/webmaster/purchaseorder/getwoodinfo 2 588 0 0
+/aakruthi-erp/webmaster/quotation/selectmanager 1 598 0 0
+/aakruthi-erp/webmaster/recieptnote/viewgrn/2 3 22071 0 0
+/aakruthi-erp/webmaster/task/assigned_task_list 5 25685 0 0
+/swcs/admin/fonts/Flaticon.woff2 1 8848 0 0
+/aakruthi-erp/webmaster/project/view/5 1 10769 0 1
+/dvcard/Basavarajuvcard.php 1 3895 0 0
+/aakruthi-erp/webmaster/recieptnote/create 4 40176 0 0
+/dvcard/gopalvcard.php 2 8030 0 2
+/aakruthi-erp/webmaster/items 6 840709 0 0
+/aakruthi-erp/webmaster/checkpoint/view/3 1 24180 0 0
+/.well-known/acme-challenge/J-B0VOB-DP7TWQB0TQTE7JRDCPVVQKX0 1 64 0 0
+/.well-known/acme-challenge/pO8YL9TNxgW7OPpY1T2h8OV6L--A81fPkTGqPyyA8QI 4 348 0 1
+/techcomf/network.html 1 4755 0 0
+/aakruthi-erp/webmaster/leads 3 16878 0 0
+/aakruthi-erp/webmaster/quotation/selectquotation/41 2 800 0 0
+/moduleigtt/howweworks.html 6 1259486 1 0
+/seft/get_agent_payment_dashboard.php 1 46 0 0
+/aakruthi-erp/webmaster/recieptnote/generateissuenote/1 3 35300 0 0
+/techcomf/assets/fonts/fa-solid-900.woff2 1 78268 0 0
+/moduleigtt/experiencecenterbengaluru.html 7 125707 0 0
+/aakruthi-erp/webmaster/setup 4 29316 0 2
+/moduleigtt/experiencecentermangaluru.html 11 180808 0 2
+/swcs/admin/view-cust-feedback.php 5 16293 0 1
+/.well-known/acme-challenge/yr1u4Ta18dzdYuE_qL3eoHoeZKzeHnIOhTm385riFWk 4 348 4 1
+/aakruthi-erp/webmaster/quotation/selectquotation/null/approved 4 14244 0 0
+/decanvas/index.php/login 1 1165 1 0
+/moduleigtt/portfolio/portfolio-kitchen%20U-shape.html 10 2185911 0 0
+/moduleigtt/portfolio/modfolio-living.html 1 212740 0 0
+/aakruthi-erp/webmaster/purchaseorder/selectpurchaseorder/approved 2 166 0 0
+/aakruthi-erp/webmaster/project/selectdepartment/ 4 864 0 0
+/aakruthi-erp/webmaster/project/projectleaddata 2 100 0 0
+/swcs/admin/logout.php 1 127 0 0
+/aakruthi-erp/webmaster/quotation/approved 5 69246 0 0
+/aakruthi-erp/webmaster/quotation/selectlead/ 1 20240 0 0
+/aakruthi-erp/webmaster/purchaseorder/viewpolist/3 1 9027 0 0
+/.well-known/acme-challenge/0IXZESZ7MPXG8ILFC20OA122RJER8RYW 1 64 0 0
+/fastrans/about.html 13 64620 1 4
+/dvcard/kanikavcard.php 4 15048 2 2
+/aakruthi-erp/webmaster/quotation/getquotationlist/63 1 473 0 0
+/techcomf/assets/fonts/fa-brands-400.woff2 1 76736 0 0
+/test_moduleigtt/admin/dashboard.php 2 297234 0 0
+/moduleigtt/admin/handletypedata.json 1 446574 0 1
+/moduleigtt/wp-content/Uploaddesigtoserver.php 4 120 0 0
+/swcs/admin/update_sws_comments_cus_feedback.php 1 182 0 0
+/.well-known/acme-challenge/BA-127ZQYTSX_GJB0WIION8IY5WPIADR 1 64 0 0
+/aakruthi-erp/webmaster/purchaserequest/getiteminfo 5 1810 0 1
+/.well-known/acme-challenge/_dbWhvyFrKDGyCRSHtO1uyggiJNUr5HPr6xgq3-R7eg 4 348 0 0
+/aakruthi-erp/webmaster/project/selectstaff/purchasemanager 1 495 0 0
+/aakruthi-erp/webmaster/quotation/woodquotation 2 8 0 0
+/seft/student-payment-print.php 1 2925 0 0
+/aakruthi-erp/webmaster/purchaserequest/saveissuenotedetails 1 0 0 0
+/.well-known/acme-challenge/yVGdrOOcUDs4O8ydJ7RCACqayblSt-Ke7E8RCXJukt4 4 348 1 4
+/fastrans/service.html 16 101486 1 1
+/aakruthi-erp/webmaster/purchaserequest/deletedlist 1 5293 0 0
+/aakruthi-erp/webmaster/purchaseorder/getnewwooddata 1 29 0 0
+/aakruthi-erp/webmaster/quotation/selectwoodwork/3 2 586 0 0
+/project_group/assets/webfonts/fa-brands-400.woff2 7 520016 0 0
+/aakruthi-erp/webmaster/purchaseorder/getwooddatademo 1 68 0 0
+/dvcard/adnanshabbir.php 4 15936 3 1
+/fastrans/assets/fonts/fa-regular-400.ttf 8 3178616 0 2
+/aakruthi-erp/webmaster/items/create 3 32433 0 0
+/moduleigtt/portfolio/portfolio-BedroomTvspace.html 22 4904351 0 0
+/seft/webfonts/fa-regular-400.woff2 1 13608 0 0
+/aakruthi-erp/webmaster/project/selectdesign/60 1 14 0 0
+/moduleigtt/wp-content/photos/gallery/island%20Kitchen/island%20kitcen1.webp 1 285580 0 0
+/moduleigtt/wp-content/photos/gallery/Murphy%20Bed/murpy%20bed1.webp 1 55232 0 0
+/seft/ 17 2152 6 3
+/moduleigtt/admin/dashboard.php 2 307248 0 0
+/fastrans/warehouse.html 7 42585 0 0
+/aakruthi-erp/webmaster/project/selectdesign/59 1 14 0 0
+/test_moduleigtt/admin/revisequotation.php 1 44 0 0
+/test_moduleigtt/wp-content/themes/dor/framework/lib/icons-pack/ion-icons/fonts/ionicons.ttf 1 188724 0 0
+/aakruthi-erp/webmaster/quotation/getspaceinfo 1 126 0 0
+/aakruthi-erp/ 6 13320 5 0
+/.well-known/acme-challenge/F21RQP3SY1HCU6SNMWEA-PKSN2H_W8YZ 1 64 0 0
+/fastrans/assets/fonts/fa-solid-900.ttf 17 5811600 0 2
+/moduleigtt/portfolio/portfolio-crockerycomebarunit.html 23 5154081 0 0
+/aakruthi-erp/webmaster/purchaserequest/create 8 112925 0 0
+/aakruthi-erp/webmaster/purchaserequest/selectcategory 10 13607 0 0
+/aakruthi-erp/webmaster/purchaseorder/purchaseorderdata/ 2 448 0 0
+/aakruthi-erp/webmaster/project/edit_project/ 2 16646 0 0
+/aakruthi-erp/webmaster/quotation/edit/33 2 58762 0 0
+/aakruthi-erp/webmaster/checkpoint/view/1 1 22399 0 0
+/dvcard/karthikvcard.php 2 7206 0 2
+/moduleigtt/portfolio/portfolio-framedcot.html 24 5081026 0 0
+/.well-known/acme-challenge/00BO96XCILQL05PO-OLIG5PK7LT9Z8VO 1 64 0 0
+/aakruthi-erp/webmaster/purchaserequest/getpurchaserequestlistt/5 1 2136 0 0
+/aakruthi-erp/webmaster/quotation/selectquotation/47 1 688 0 0
+/aakruthi-erp/webmaster/design/alldesign 10 83050 0 0
+/fastrans/export.html 2 15450 0 1
+/moduleigtt/contactus.html 5 88622 0 0
+/moduleigtt/admin/viewdetails.php 4 29588 0 0
+/dvcard/sreekumarvcard.php 2 8922 1 1
+/test_moduleigtt/admin/finishcolordata.json 1 15065 0 0
+/.well-known/acme-challenge/8VH3NG2NCO85HXN-BK2SZA7DHLG-RBII 1 64 0 0
+/aakruthi-erp/webmaster/vendor 1 13842 0 0
+/aakruthi-erp/webmaster/leads/create 2 20892 0 0
+/moduleigtt/wp-content/getintouch.php 1 54 0 0
+/aakruthi-erp/webmaster/recieptnote/inindex 6 47841 0 0
+/.well-known/acme-challenge/iuuo5lmMIlGV1f6NMc-zCn15_qtbXaZs6dQVtZHWoVk 4 348 0 0
+END_SIDER
