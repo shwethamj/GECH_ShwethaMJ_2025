@@ -1,0 +1,81 @@
+Here’s a categorized breakdown of the most used annotations:
+
+🔹 1. Spring Boot Core
+
+@SpringBootApplication → Main entry point (includes @Configuration, @EnableAutoConfiguration, @ComponentScan).
+
+@EnableScheduling, @EnableAsync, @EnableCaching → Enable features.
+
+🔹 2. Stereotype Annotations (Layering)
+
+@Component → Generic Spring-managed bean.
+
+@Service → Business logic layer.
+
+@Repository → Persistence layer (DAO).
+
+@Controller → MVC controller.
+
+@RestController → Shortcut for @Controller + @ResponseBody (used in REST APIs).
+
+🔹 3. Dependency Injection
+
+@Autowired → Field/constructor injection.
+
+@Qualifier → Choose which bean to inject when multiple exist.
+
+@Primary → Mark a bean as the default when multiple candidates exist.
+
+@Value → Inject property values (from application.properties/yml).
+
+@ConfigurationProperties → Bind groups of properties into a POJO.
+
+@Bean → Define a bean in a configuration class.
+
+🔹 4. Web & REST APIs
+
+@RequestMapping (or @GetMapping, @PostMapping, @PutMapping, @DeleteMapping) → Map HTTP requests.
+
+@PathVariable → Extract values from the URI path.
+
+@RequestParam → Extract query parameters.
+
+@RequestBody → Bind request JSON/XML body to an object.
+
+@ResponseBody → Return object as JSON/XML (auto in @RestController).
+
+@CrossOrigin → Enable CORS for APIs.
+
+🔹 5. Persistence (Spring Data JPA)
+
+@Entity → Marks a JPA entity.
+
+@Table, @Column, @Id, @GeneratedValue → ORM mappings.
+
+@Repository → Marks repository interfaces.
+
+@Query → Custom SQL/JPQL query in a repository.
+
+@Transactional → Transaction boundary for DB operations.
+
+🔹 6. Validation
+
+@Valid or @Validated → Trigger validation.
+
+@NotNull, @NotBlank, @Size, @Email, @Pattern, etc. (JSR-380 Bean Validation annotations).
+
+🔹 7. AOP & Cross-Cutting Concerns
+
+@Aspect → Define an aspect.
+
+@Before, @After, @Around → Advice methods.
+
+🔹 8. Testing
+
+@SpringBootTest → Bootstraps full Spring context for integration tests.
+
+@DataJpaTest → JPA repository testing.
+
+@WebMvcTest → Controller testing.
+
+@MockBean → Mock beans in Spring context.

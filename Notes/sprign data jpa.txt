@@ -1,0 +1,75 @@
+Spring data JPA:
+================
+* it is a specification
+* this will not provide the implementation
+
+ORM:
+====
+* Object relational mapping
+* ex:
+=====
+hibernate:
+==========
+* it is a implementation of jpa
+* it uses JDBC(java database connection)
+
+
+
+JPA ---> hibernate ---> spring data jpa ----> database
+
+1. how to craete a project
+2. entity class
+3. repository
+4. how to map entity class with jparepository
+5. craete a db
+6. we need giev credential of db in application.properties
+
+		spring.datasource.url=jdbc:mysql://localhost:3306/student_crud
+		spring.datasource.username=root
+		spring.datasource.password=
+
+		spring.jpa.show-sql=true
+
+7. ddl-auto:
+=============
+* data definition langugae
+	spring.jpa.hibernate.ddl-auto
+	1. update - when you start application, if the table not found in th db it will craete. if the table found it will upadte  
+	2. create - when you start application, each and every time it will drop the existign tables and craete a new table.
+	3. create-drop - when you start application, each and every time it will drop the existing tables and craete a new table. when the application closes it will drop once again.
+	4. none  - default value
+* upadte  - it is recomended to use.
+
+7. run the application
+
+entity class:
+=============
+@Entity --> to undertand hibernate to craete a table.
+@table --> to defines custom name for table.
+@Column --> to define custom for column
+@ID --> to declare the column as primary key
+@GeneratedValue -> auto increment
+
+POJO:
+=====
+plain old java object
+
+create table student(
+	std_id bigint primary key Atuo increment,
+	name varchar(30),
+	age int,
+	email varchar(30),
+);
+
+repository:
+===========
+* also called as DAO (Data Access object).
+* spring data jpa 
+	1. crud repository (I)
+	2. jpa repository (I)
+	
+
+
+
+
+Hibernate: create table studnet_detail (std_id integer not null auto_increment, std_age integer, std_email varchar(255), std_name varchar(255), primary key (std_id)) engine=InnoDB
