@@ -74,9 +74,7 @@ public class StringInJava {
 		String arr5 = arr3 +"456"; // A new object is created in the heap (not from the constant pool).
 		
 		System.out.println(arr == arr5);//false
-		System.out.println(arr == arr4);//true
-		
-		
+		System.out.println(arr == arr4);//true	
 		
 	}
 

@@ -5,10 +5,14 @@ public class StringInJava2 {
 	public static void main(String[] args) {
 		/*
 		 1. mutability 
-		 	String objects are immuatble . ince created thier content cannot be changed
+		 	String objects are immuatable . ince created there content cannot be changed
 		 */
 	
-		//String ==> immutable -- need to give reference to amke concat
+		//String ==> immutable -- need to give reference to make concat
+		String name="shwetha";
+		name ="mj";	
+		System.out.println(name);
+		
 		String str = new String("shwetha");
 		str = str.concat(" M J");
 		System.out.println("conactination : "+str); // op ==> shwetha m j
