@@ -15,10 +15,7 @@ public class studentUserDetailService implements UserDetailsService{
 	@Autowired
 	private StudentRepository repository;
 
-	public studentUserDetailService(StudentRepository repository) {
-		super();
-		this.repository = repository;
-	}
+	
 
 	@Override
 	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {

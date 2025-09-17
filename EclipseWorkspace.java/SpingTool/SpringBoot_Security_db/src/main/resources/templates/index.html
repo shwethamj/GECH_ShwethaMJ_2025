@@ -22,6 +22,7 @@
                 <th>Age</th>
                 <th>Email</th>
                 <th>Password</th>
+				<th>Role</th>
                 <th class="text-center">Actions</th>
             </tr>
         </thead>
@@ -32,6 +33,7 @@
                 <td th:text="${student.age}"></td>
                 <td th:text="${student.email}"></td>
                 <td th:text="${student.password}"></td>
+				<td th:text="${student.role}"></td>
                 <td class="text-center">
                     <a th:href="@{'/edit/' + ${student.id}}" class="btn btn-warning btn-sm">✏ Edit</a>
                     <a th:href="@{'/delete/' + ${student.id}}" class="btn btn-danger btn-sm"

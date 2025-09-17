@@ -2,6 +2,7 @@ package com.SpringBootCRUD.service;
 
 import java.util.List;
 
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import com.SpringBootCRUD.model.Student;
@@ -11,13 +12,15 @@ import com.SpringBootCRUD.repository.StudentRepository;
 public class StudentService {
 
 	private final StudentRepository studentRepository;
-
-	public StudentService(StudentRepository studentRepository) {
+	private PasswordEncoder passwordEncoder;
+	
+	
+	public StudentService(StudentRepository studentRepository, PasswordEncoder passwordEncoder) {
 		super();
 		this.studentRepository = studentRepository;
+		this.passwordEncoder = passwordEncoder;
 	}
-	
-	
+
 	//getlist 
 	public List<Student> getAllStudents(){
 		return studentRepository.findAll();
@@ -25,6 +28,9 @@ public class StudentService {
 	
 	//save
 	public Student saveStudent(Student student) {
+		  student.setPassword(passwordEncoder.encode(student.getPassword()));
+	        student.setRole("ROLE_USER");
+	        studentRepository.save(student);
 		return studentRepository.save(student);
 	}
 	

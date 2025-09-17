@@ -32,6 +32,11 @@ public class StudentController {
 		return "home";
 	}
 	
+	@GetMapping("/login")
+    public String showLoginPage() {
+        return "login";
+    }
+	
 	@GetMapping("/about")
 	public String about(Model model) {
 		return "about";
@@ -67,7 +72,6 @@ public class StudentController {
 		std.setName(student.getName());
 		std.setAge(student.getAge());
 		std.setEmail(student.getEmail());
-		
 		studentService.saveStudent(std);
 		return "redirect:/";
 	}
