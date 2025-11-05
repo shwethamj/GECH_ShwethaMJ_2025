@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dental Supply System - Home</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">DentalSupply</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="cart.html">
+                            <i class="fas fa-shopping-cart"></i> Cart
+                            <span class="badge bg-primary rounded-pill cart-count">0</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login / Register</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section text-center">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <h1 class="display-4 fw-bold mb-4">Quality Dental Supplies for Professionals</h1>
+                    <p class="lead mb-5">Providing top-quality dental tools and equipment to help you deliver the best
+                        care to your patients.</p>
+                    <a href="products.html" class="btn btn-primary btn-lg px-5 py-3">Shop Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="container my-5">
+        <div class="row">
+            <div class="col-lg-6">
+                <h2 class="section-title">About Us</h2>
+                <p>DentalSupply is a leading provider of high-quality dental equipment and supplies. With over 15 years
+                    of experience in the industry, we understand the needs of dental professionals and strive to offer
+                    products that meet the highest standards of quality and reliability.</p>
+                <p>Our mission is to support dental professionals by providing them with the tools they need to deliver
+                    exceptional care to their patients. We carefully select our products from trusted manufacturers and
+                    offer competitive prices without compromising on quality.</p>
+                <a href="contact.html" class="btn btn-outline-primary mt-3">Contact Us</a>
+            </div>
+            <div class="col-lg-6">
+                <img src="https://via.placeholder.com/600x400" alt="About Dental Supply"
+                    class="img-fluid rounded shadow">
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="container my-5">
+        <h2 class="section-title text-center">Featured Products</h2>
+        <div class="row">
+            <!-- Product 1 -->
+            <div class="col-md-4">
+                <div class="card product-card h-100">
+                    <img src="https://via.placeholder.com/300x300" class="card-img-top" alt="Dental Drill">
+                    <div class="card-body">
+                        <h5 class="card-title">Professional Dental Drill</h5>
+                        <p class="card-text">High-speed dental drill with precision control for various procedures.</p>
+                        <p class="price mb-3">$299.99</p>
+                        <a href="product-details.html" class="btn btn-outline-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 2 -->
+            <div class="col-md-4">
+                <div class="card product-card h-100">
+                    <img src="https://via.placeholder.com/300x300" class="card-img-top" alt="Dental Chair">
+                    <div class="card-body">
+                        <h5 class="card-title">Ergonomic Dental Chair</h5>
+                        <p class="card-text">Comfortable and adjustable dental chair for patient comfort during
+                            procedures.</p>
+                        <p class="price mb-3">$1,299.99</p>
+                        <a href="product-details.html" class="btn btn-outline-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 3 -->
+            <div class="col-md-4">
+                <div class="card product-card h-100">
+                    <img src="https://via.placeholder.com/300x300" class="card-img-top" alt="Dental Instruments Set">
+                    <div class="card-body">
+                        <h5 class="card-title">Premium Instruments Set</h5>
+                        <p class="card-text">Complete set of stainless steel dental instruments for various procedures.
+                        </p>
+                        <p class="price mb-3">$199.99</p>
+                        <a href="product-details.html" class="btn btn-outline-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-4">
+            <a href="products.html" class="btn btn-primary">View All Products</a>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="bg-light py-5 my-5">
+        <div class="container">
+            <h2 class="section-title text-center">What Our Customers Say</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                            </div>
+                            <p class="card-text">"The quality of dental supplies from DentalSupply has been consistently
+                                excellent. Their customer service is also top-notch."</p>
+                            <p class="fw-bold mb-0">Dr. Sarah Johnson</p>
+                            <small class="text-muted">Smile Bright Dental Clinic</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                            </div>
+                            <p class="card-text">"I've been ordering from DentalSupply for over 5 years now. Their
+                                products are reliable and delivery is always prompt."</p>
+                            <p class="fw-bold mb-0">Dr. Michael Chen</p>
+                            <small class="text-muted">Perfect Smile Dentistry</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star-half-alt text-warning"></i>
+                            </div>
+                            <p class="card-text">"Great selection of products at competitive prices. The ordering
+                                process is simple and efficient."</p>
+                            <p class="fw-bold mb-0">Dr. Emily Rodriguez</p>
+                            <small class="text-muted">Family Dental Care</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h5>DentalSupply</h5>
+                    <p>Providing quality dental supplies to professionals since 2008. We are committed to excellence in
+                        product quality and customer service.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-4 footer-links">
+                    <h5>Quick Links</h5>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-4 footer-links">
+                    <h5>Products</h5>
+                    <ul>
+                        <li><a href="#">Dental Instruments</a></li>
+                        <li><a href="#">Dental Chairs</a></li>
+                        <li><a href="#">Sterilization Equipment</a></li>
+                        <li><a href="#">Dental Materials</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-4 mb-4">
+                    <h5>Contact Us</h5>
+                    <p><i class="fas fa-map-marker-alt me-2"></i> 123 Dental Street, Medical City, CA 90210</p>
+                    <p><i class="fas fa-phone me-2"></i> (123) 456-7890</p>
+                    <p><i class="fas fa-envelope me-2"></i> info@dentalsupply.com</p>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-12 text-center">
+                    <p class="mb-0">&copy; 2023 DentalSupply. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>

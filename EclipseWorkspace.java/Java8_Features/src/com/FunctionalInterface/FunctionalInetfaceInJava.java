@@ -14,9 +14,7 @@ class Display implements Inteface1{
 	public void display() {
 		// TODO Auto-generated method stub
 		
-	}
-	
-	
+	}		
 }
 
 public class FunctionalInetfaceInJava {
@@ -25,7 +23,6 @@ public class FunctionalInetfaceInJava {
 		
 		Display display = new Display();
 		display.display();
-		
 	}
 
 }

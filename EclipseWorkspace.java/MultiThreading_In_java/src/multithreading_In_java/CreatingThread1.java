@@ -29,8 +29,8 @@ public class CreatingThread1 {
 		/*
 		==> here i am calling th.run() first so it executes run method first and executes main thread next
 		==> if i use th.run() after main thread for loop ==> it first excutes for loop and then prints run method
-		==>here both run method and main thread for loop will handle by main thread only
-		==>here main thread first call run method executes and after that it will print main thread
+		==> here both run method and main thread for loop will handle by main thread only
+		==> here main thread first call run method executes and after that it will print main thread
 		
 		*/
 	}

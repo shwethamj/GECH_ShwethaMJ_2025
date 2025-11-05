@@ -21,6 +21,7 @@ public class ErrorInJava {
 		 */
 		ErrorInJava.Display(); //stack overflow
 		
+		
 		int res = fact(3);
 		System.out.println(res);  // stackOverflow error
 		

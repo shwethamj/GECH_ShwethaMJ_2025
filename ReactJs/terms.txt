@@ -1,0 +1,31 @@
+Common Terms Used in React:
+
+| Term                  | Explanation                                                                                                              |
+| ----------------------| ------------------------------------------------------------------------------------------------------------------------ |
+| JSX                   | Stands for *JavaScript XML*. It lets you write HTML-like code inside JavaScript. Example:<br>`<h1>Hello {name}</h1>`     |
+| Component             | The building block of React apps — small reusable pieces of UI (like a button, navbar, card, etc.).                      |
+| Props                 | Short for *properties*. Used to pass data from one component to another (like function parameters).                      |
+| State                 | Used to store data inside a component that can change over time. When state changes, the UI updates automatically.       |
+| useState()            | A React Hook to manage state inside a functional component. Example: `const [count, setCount] = useState(0)`             |
+| useEffect()           | A Hook for performing side effects like fetching data, updating DOM, or running code when a component mounts.            |
+| Hooks                 | Special functions (like `useState`, `useEffect`, `useContext`) that let you use React features in functional components. |
+| Virtual DOM           | A lightweight copy of the real DOM used by React to update only changed parts of a webpage — makes apps fast.            |
+| Rendering             | The process of displaying components and data on the screen.                                                             |
+| Props Drilling        | Passing props through multiple levels of components just to reach a deeply nested one. (Can be avoided using Context.)   |
+| Context API           | A built-in React feature to share data globally across components without props drilling.                                |
+| React Router          | A library for handling page navigation (like `/home`, `/about`) in single-page React apps.                               |
+| useNavigate() / Link  | Hooks and components from React Router to move between pages without reloading the app.                                  |
+| Conditional Rendering | Showing or hiding parts of UI based on conditions. Example: `{isLoggedIn ? <Dashboard /> : <Login />}`                   |
+| Key                   | A unique identifier used when rendering lists to help React identify elements. Example: `key={id}`                       |
+
+Difference Between Components and Pages:
+
+| Feature     | Component                                                | Page                                                                       |
+| ------------| -------------------------------------------------------- | -------------------------------------------------------------------------- |
+| Purpose     | Small, reusable part of UI (e.g., button, navbar, form). | Represents a full screen or route in the app (e.g., Home, About, Contact). |
+| Usage       | Used inside other components or pages.                   | Used as main route targets in React Router.                                |
+| Size        | Usually small and focused.                               | Usually larger and made up of multiple components.                         |
+| Example     | `Navbar.jsx`, `Button.jsx`, `Card.jsx`                   | `Home.jsx`, `About.jsx`, `Login.jsx`                                       |
+| Reusability | Reused across multiple pages.                            | Typically unique (one page per route).                                     |
+| Location    | Usually stored in `/components` folder.                  | Usually stored in `/pages` or `/views` folder.                             |
+| Routing     | Doesn’t need routing.                                    | Connected to a specific route (like `/about`).                             |

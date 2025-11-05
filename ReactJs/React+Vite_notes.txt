@@ -1,0 +1,50 @@
+
+REACT WITH VITE CREATION:
+========================
+========================
+1. NODEJS INSTALL
+2. ENVIRONMENT VARIBALE 
+3. OPEN CMD powershell --> npm install -g pnpm
+     ==>If it shows error open powershell as admin and search in google script run disabled then copy code(Set-ExecutionPolicy -ExecutionPolicy RemoteSigned) and paste in powershell run ==>type A and enter  ==>close all tabs
+4. open powershell
+  Pnpm create vite .
+    	choose ==>React
+	     	Javascript 
+	     	No
+	     	Yes
+react file will create
+5. do code in app.js
+
+
+if u want to use tailwind then:
+==============================
+  -> run -> pnpm install tailwindcss @tailwindcss/vite
+6. clear index.css file paste ==> @import "tailwindcss";
+7.vite.config.ts ==>
+	import { defineConfig } from 'vite'
+	import tailwindcss from '@tailwindcss/vite'
+
+	export default defineConfig({
+ 	 plugins: [
+    	tailwindcss(),
+  	],
+	}))
+8.https://tailwindcss.com/docs/installation/using-vite (refer)
+9.download claud extension in vs --> ai tool
+
+to run :
+========
+pnpm dev
+
+PYTHON FILE CREATION FOR BACKEND :
+==================================
+==================================
+	create folder
+	open folder
+	python install
+	python -m venv .venv
+	.venv\Scripts\activate ->active
+	pip install flask
+	pip install clod
+	create app.py file in folder 
+	run -> python app.py

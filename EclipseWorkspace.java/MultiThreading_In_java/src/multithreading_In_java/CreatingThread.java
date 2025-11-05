@@ -29,7 +29,8 @@ public class CreatingThread {
 		/*
 		  case3: importance if thread class start method:
 		  ===============================================
-			* Thread class start method is responsible to register with the Thread Scheduler & all other manditary activities hence without executing the Thread class start() method there is no chance of starting a new thread in java
+			* Thread class start method is responsible to register with the Thread Scheduler & all other manditary 
+				activities hence without executing the Thread class start() method there is no chance of starting a new thread in java
 			* due to this thread class "start()" method is considered as heart of multithreading.
 
 		 */

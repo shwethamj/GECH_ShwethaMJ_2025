@@ -6,7 +6,7 @@ package Static_InnerClass;
 //we can't be able to access the non-static members of the outer class in the inner class method. 
 class Outer {
 	public static String message = "Hello";
-	public String name = "Swathi";
+	public String name = "Swathu";
 
 	static class Inner {
 		public void display() {

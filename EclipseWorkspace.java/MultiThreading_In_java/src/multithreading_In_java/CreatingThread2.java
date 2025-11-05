@@ -21,7 +21,7 @@ public class CreatingThread2 {
 		case5: if we not override run method:
 		=====================================
 			class MyThread extends Thread{
-				
+
 			}
 		 Thread class run method will be executed which as empty implementation. Hence we won't get any o/p.
 

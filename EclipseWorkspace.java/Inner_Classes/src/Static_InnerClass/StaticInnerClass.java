@@ -18,3 +18,4 @@ public class StaticInnerClass {
 		n.main();
 	}
 }
+	
